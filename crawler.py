@@ -35,30 +35,34 @@ FEEDS = [
 # ── Significance signals ────────────────────────────────────────────────────────
 
 # These words in a title = high-signal "something new happened"
-LAUNCH_WORDS = [
-    "launch", "launches", "launched", "release", "releases", "released",
-    "announce", "announces", "announced", "unveil", "unveils", "unveiled",
-    "introduce", "introduces", "introduced", "debut", "debuts",
-    "new ", "update", "upgrade", "open source", "open-source",
-    "breakthrough", "first ", "beats", "surpasses", "outperforms",
-    "acquires", "acquisition", "raises", "funding", "partnership",
-    "ban", "bans", "regulation", "law", "policy", "lawsuit",
-    "gpt", "claude", "gemini", "llama", "mistral", "stable diffusion",
-    "model", "agent", "benchmark", "paper", "research",
-    "system design", "architecture", "microservice", "kubernetes",
-    "rust", "python", "typescript", "framework",
-]
-
-# Topics we care about
 TOPIC_KEYWORDS = [
+    # AI
     "ai", "artificial intelligence", "machine learning", "deep learning",
     "llm", "large language model", "gpt", "claude", "gemini", "openai",
     "anthropic", "google deepmind", "meta ai", "apple intelligence",
-    "transformer", "neural network", "diffusion", "generative",
-    "agent", "rag", "fine-tuning", "inference", "training",
-    "programming", "software", "developer", "open source",
-    "system design", "distributed", "cloud", "api", "database",
-    "github", "python", "javascript", "rust",
+    "transformer", "neural network", "diffusion", "generative ai",
+    "agent", "rag", "fine-tuning", "inference", "copilot",
+
+    # Salesforce
+    "salesforce", "einstein", "salesforce einstein", "agentforce",
+    "salesforce ai", "salesforce platform", "mulesoft", "slack",
+    "salesforce crm", "apex", "lightning", "salesforce cloud",
+    "tableau", "heroku", "salesforce gpt",
+
+    # AWS
+    "aws", "amazon web services", "ec2", "s3", "lambda", "sagemaker",
+    "bedrock", "amazon bedrock", "aws lambda", "cloudfront", "dynamodb",
+    "amazon q", "aws re:invent", "eks", "fargate", "rekognition",
+    "amazon nova", "aws ai", "amazon ceo",
+]
+
+LAUNCH_WORDS = [
+    "launch", "launches", "launched", "release", "releases", "released",
+    "announce", "announces", "announced", "unveil", "unveils", "unveiled",
+    "introduce", "introduces", "new feature", "update", "upgraded",
+    "breakthrough", "first ", "beats", "outperforms", "open source",
+    "acquires", "acquisition", "raises", "funding", "partnership",
+    "ban", "regulation", "policy", "lawsuit", "pricing",
 ]
 
 def is_significant(title: str, summary: str = "") -> bool:
