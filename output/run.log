@@ -32,3 +32,36 @@
 2026-05-12 17:31:00,976  INFO     ────────────────────────────────────────────────────────────
 2026-05-12 17:31:00,976  INFO     Done!  Open: output/index.html
 2026-05-12 17:31:00,976  INFO     Headline: AI Models Advance, Tech Giants Invest
+2026-05-12 12:10:37,464  INFO     ============================================================
+2026-05-12 12:10:37,464  INFO     TECHPULSE Digest — 2026-05-12 12:10 UTC
+2026-05-12 12:10:37,464  INFO     ============================================================
+2026-05-12 12:10:37,464  INFO     Step 1/3 — Crawling feeds…
+2026-05-12 12:10:38,031  INFO       Hacker News                    → 5 significant articles
+2026-05-12 12:10:38,325  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-12 12:10:38,486  INFO       Ars Technica                   → 0 significant articles
+2026-05-12 12:10:40,145  INFO       The Register AI                → 0 significant articles
+2026-05-12 12:10:40,315  INFO       MIT Tech Review                → 3 significant articles
+2026-05-12 12:10:40,762  INFO       Dev.to AI                      → 8 significant articles
+2026-05-12 12:10:40,896  INFO       Dev.to Programming             → 8 significant articles
+2026-05-12 12:10:41,030  INFO       GitHub Blog                    → 1 significant articles
+2026-05-12 12:10:41,995  INFO       Google Research                → 0 significant articles
+2026-05-12 12:10:42,846  INFO       Reddit r/MachineLearning       → 7 significant articles
+2026-05-12 12:10:43,437  INFO       Reddit r/LocalLLaMA            → 14 significant articles
+2026-05-12 12:10:44,217  INFO       InfoQ                          → 11 significant articles
+2026-05-12 12:10:44,447  INFO       Towards Data Science           → 5 significant articles
+2026-05-12 12:10:44,597  INFO       Wired AI                       → 0 significant articles
+2026-05-12 12:10:44,652  INFO       TechCrunch AI                  → 3 significant articles
+2026-05-12 12:10:44,652  INFO     Fetching images for top articles…
+2026-05-12 12:10:45,363  INFO       🖼  AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter K
+2026-05-12 12:10:45,470  INFO       🖼  HiDream-O1: The 8B Open-Weights Image Model With No VAE
+2026-05-12 12:10:45,590  INFO       🖼  AI Governance 2.0 in 2026: Building Trusted and Scalable Ent
+2026-05-12 12:10:46,321  INFO       🖼  GitHub Expands Secret Scanning with General Availability of 
+2026-05-12 12:10:46,321  INFO     Total selected: 30 articles from 15 feeds
+2026-05-12 12:10:46,321  INFO     Selected 30 significant articles
+2026-05-12 12:10:46,321  INFO     Step 2/3 — Generating digest…
+2026-05-12 12:10:46,610  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-12 12:10:46,610  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-12 12:10:46,610  INFO     Step 3/3 — Rendering HTML…
+2026-05-12 12:10:46,612  INFO     ────────────────────────────────────────────────────────────
+2026-05-12 12:10:46,612  INFO     Done!  Open: output/index.html
+2026-05-12 12:10:46,612  INFO     Headline: AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry
