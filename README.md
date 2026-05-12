@@ -23,7 +23,7 @@ Runs automatically every day via **GitHub Actions** and commits results back to 
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tech-news-crawler.git
+git clone https://github.com/sanjaybhati1295/tech-news-crawler.git
 cd tech-news-crawler
 pip install -r requirements.txt
 ```
