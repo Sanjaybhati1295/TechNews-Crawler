@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Tuesday, May 12, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Tuesday, May 12, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      The latest developments in AI models and tech investments are transforming the industry, with companies like GitHub and GM making significant moves. AdonisJS v7 has been released, featuring end-to-end type safety and reworked starter kits, while TranslateGemma-12b has shown impressive results in subtitle translation, beating out other models like Claude Sonnet and GPT-5.4.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://www.infoq.com/news/2026/05/adonis-v7-opentelemetry/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/05/adonis-v7-opentelemetry/en/headerimage/generatedHeaderImage-1778574705638.jpg" alt="AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Ze…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/05/github-mcp-secret-scanning/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/05/github-mcp-secret-scanning/en/headerimage/generatedHeaderImage-1778422946373.jpg" alt="GitHub Expands Secret Scanning with General Availability of MCP Server Integration" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">GitHub Expands Secret Scanning with General Availability of MCP Server…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/suifeng023/comparing-llm-frameworks-crewai-vs-langgraph-for-real-world-agent-apps-30da" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftufyy3ryci7iihzoj1hn.png" alt="Comparing LLM Frameworks: CrewAI vs LangGraph for Real-World Agent Apps" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Comparing LLM Frameworks: CrewAI vs LangGraph for Real-World Agent App…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>InfoQ</span> · <span>Reddit r/LocalLLaMA</span> · <span>Dev.to AI</span> · <span>Reddit r/MachineLearning</span> · <span>TechCrunch AI</span> · <span>Dev.to Programming</span> · <span>Hacker News</span></div>
+
+    
+        <div class="section">
+          <h2>AI Models &amp; Research</h2>
+          <div class="section-body"><p>The AI research community has seen significant advancements in recent days. TranslateGemma-12b has been shown to outperform other models in subtitle translation, with 71% of segments rated &#x27;clean&#x27; by automated metrics being flagged by human reviewers. Meanwhile, Qwen3.6 27B/35B-A3B has demonstrated impressive results in quality tests, with its output being almost perfect in certain scenarios. Additionally, researchers have been exploring the conversion of weights to spiking neural networks (SNNs), with one developer successfully converting the Gemma 4 model from 4 billion to 700 million parameters. Llama models are still being fine-tuned, with some users achieving significant improvements in prompt processing speed by increasing the physical micro-batch size and raising the --n-cpu-moe parameter. However, the value of older Llama models, such as Llama 3 plus 3.1, 3.2, and 3.3, is being questioned, with some users wondering if they are still worth fine-tuning or if they have been surpassed by newer models.</p></div>
+        </div>
+        <div class="section">
+          <h2>Developer Tools</h2>
+          <div class="section-body"><p>The developer tool landscape is evolving rapidly, with new releases and updates being announced regularly. AdonisJS v7 has been released, featuring end-to-end type safety, reworked starter kits, and improved documentation. The release includes 45+ updated packages and three new ones for OpenTelemetry and typed content. GitHub has also expanded its secret scanning capabilities, with the general availability of MCP Server integration, allowing for automated credential detection and remediation in AI-assisted and agent-driven development workflows. Additionally, Cangjie, a new open-source compiled language, has been introduced, featuring native effect handlers and algebraic data types. The language is positioned as a counterpart to Java, Kotlin, or Rust, and is designed to provide a more efficient and expressive way of programming.</p></div>
+        </div>
+        <div class="section">
+          <h2>Industry Moves</h2>
+          <div class="section-body"><p>Tech giants are making significant investments in AI, with GM laying off hundreds of IT workers to hire those with stronger AI skills. The company is focusing on AI-native development, data engineering, and analytics, as well as cloud-based engineering and agent and model development. Vapi, an AI voice startup, has hit a $500M valuation after winning Amazon Ring over 40 rivals, with its enterprise business growing 10-fold since early 2025. Meanwhile, companies like Abhiwan Technology are being recognized as top mobile game development companies in the USA, delivering innovative and high-performance gaming solutions for startups and enterprises.</p></div>
+        </div>
+        <div class="section">
+          <h2>Security and Best Practices</h2>
+          <div class="section-body"><p>Security vulnerabilities are being discovered and addressed, with two recent Linux kernel vulnerabilities, Copy Fail and Dirty Frag, being disclosed. These vulnerabilities allow local users to gain root access, affecting multiple Linux distributions. To mitigate such risks, developers are emphasizing the importance of responsive web development, with mobile-first approaches becoming the foundation of modern digital experiences. Additionally, the need for secure and efficient data storage is being highlighted, with time-series storage design choices being crucial in determining cost and query performance. Companies are also investing in AI-powered solutions to automate tasks such as HS code classification and customs clearance, reducing manual bottlenecks and increasing efficiency.</p></div>
+        </div>
+
+    <div class="takeaway">The AI landscape is rapidly evolving, with significant advancements in models, tools, and investments, and companies must prioritize security, efficiency, and innovation to stay ahead in the industry.</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (30 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://www.infoq.com/news/2026/05/adonis-v7-opentelemetry/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/LocalLLaMA/comments/1taxrm6/followup_to_my_translategemma12b_benchmark_post/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/LocalLLaMA</span>
+          <span class="ref-title">Follow-up to my TranslateGemma-12b benchmark post: human reviewers flagged 71% of the segments automated metrics rated clean</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/LocalLLaMA/comments/1tawfhz/converting_weights_to_snn/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/LocalLLaMA</span>
+          <span class="ref-title">converting weights to snn</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/05/github-mcp-secret-scanning/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">GitHub Expands Secret Scanning with General Availability of MCP Server Integration</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/suifeng023/comparing-llm-frameworks-crewai-vs-langgraph-for-real-world-agent-apps-30da" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Comparing LLM Frameworks: CrewAI vs LangGraph for Real-World Agent Apps</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/agentrisk/eval-vs-rating-the-missing-layer-in-ai-agent-trust-km5" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Eval vs. Rating: The Missing Layer in AI Agent Trust</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/094459/reading-list-27th-april-to-may-12th-1ibp" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Reading list (27th April to May 12th)</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1tayaiw/cachetesting_software_for_llmproviderstyle_tiered/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Cache-testing software for LLM-provider-style tiered ephemeral caches? [D]</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/05/dora-roi-ai-assisted-dev-report/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">New DORA Report Claims Strong Engineering Foundations Drive AI Return on Investment</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ken_deng_ai/architecting-your-ai-stack-automating-hs-code-hell-and-customs-chaos-1jlo" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Architecting Your AI Stack: Automating HS Code Hell and Customs Chaos</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/anhmtk/your-api-ranks-on-google-but-does-it-rank-for-ai-agents-1hg" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Your API ranks on Google. But does it rank for AI agents?</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">GM just laid off hundreds of IT workers to hire those with stronger AI skills</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/LocalLLaMA/comments/1tax6hj/models_and_quants_quality_test_results_the/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/LocalLLaMA</span>
+          <span class="ref-title">Models and Quants quality test results - the chessboard svg (Qwen3.6 27B/35B-A3B/Zaya1)</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/hari_krishna_17497813413d/agentic-ai-training-agentic-ai-training-in-hyderabad-lcj" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Agentic AI Training | Agentic AI Training in Hyderabad</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/xu_bian_f1525524ffcb08e35/from-one-failure-to-project-memory-make-the-pipeline-stronger-over-time-3n9n" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">From One Failure to Project Memory: Make the Pipeline Stronger Over Time</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/articles/time-series-storage-design/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Article: Time-Series Storage: Design Choices That Shape Cost and Performance</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1tavi6x/followup_on_the_translategemma_subtitle_benchmark/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated &quot;clean&quot; by MetricX-24 and COMETKiwi [D]</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/LocalLLaMA/comments/1tayu5t/stop_wasting_electricity/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/LocalLLaMA</span>
+          <span class="ref-title">Stop wasting electricity</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/martintonev/10-claude-code-commands-i-use-daily-to-ship-faster-and-waste-less-context-51il" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">10 Claude Code Commands I Use Daily to Ship Faster and Waste Less Context</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Tuesday, May 12, 2026 · 30 articles crawled from 7 sources
+  </footer>
+
+</body>
+</html>
