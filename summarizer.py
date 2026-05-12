@@ -13,10 +13,10 @@ log = logging.getLogger(__name__)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"   # Free on Groq's free tier
 
-SYSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
+YSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
 focused exclusively on three areas: Salesforce ecosystem, AWS cloud services, 
 and AI/ML developments. Ignore anything outside these three topics.
-...
+..."""
 
 
 def build_prompt(articles: list[dict]) -> str:
