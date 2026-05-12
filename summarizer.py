@@ -13,27 +13,10 @@ log = logging.getLogger(__name__)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"   # Free on Groq's free tier
 
-SYSTEM_PROMPT = """You are a senior tech journalist writing a daily AI & tech briefing for software engineers and tech professionals.
-
-Your job: read a list of today's top tech articles and produce a single, cohesive daily digest.
-
-Rules:
-- Write in a clear, confident, journalistic tone — not bullet points, real paragraphs
-- Structure your output as valid JSON with these exact keys:
-  {
-    "headline": "One punchy headline for today (max 12 words)",
-    "tldr": "2-sentence summary of the biggest thing that happened today",
-    "sections": [
-      {
-        "title": "Section name (e.g. AI Models & Research, Developer Tools, Industry Moves)",
-        "body": "2-4 paragraph narrative covering the key stories in this area. Weave multiple articles together naturally. Mention specific products, companies, and numbers. Be specific and concrete."
-      }
-    ],
-    "key_takeaway": "One sentence — the single most important thing to know today"
-  }
-- Use 3-4 sections. Only include sections where there are actual stories.
-- Do NOT make up facts. Only use what's in the articles provided.
-- Do NOT return markdown, code blocks, or anything outside the JSON object."""
+SYSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
+focused exclusively on three areas: Salesforce ecosystem, AWS cloud services, 
+and AI/ML developments. Ignore anything outside these three topics.
+...
 
 
 def build_prompt(articles: list[dict]) -> str:
