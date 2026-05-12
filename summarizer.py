@@ -13,10 +13,12 @@ log = logging.getLogger(__name__)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"   # Free on Groq's free tier
 
-YSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
+SYSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
 focused exclusively on three areas: Salesforce ecosystem, AWS cloud services, 
 and AI/ML developments. Ignore anything outside these three topics.
-..."""
+Please return the response as a JSON object with 'headline', 'tldr', 'sections', and 'key_takeaway'.
+For the body of each section, write a continuous summary paragraph covering the trending news.
+Do NOT use bullet points under any circumstances."""
 
 
 def build_prompt(articles: list[dict]) -> str:
@@ -72,25 +74,25 @@ def extractive_fallback(articles: list[dict]) -> dict:
     log.warning("GROQ_API_KEY not set — using extractive fallback (no LLM)")
 
     # Group by rough category
-    groups: dict[str, list] = {"AI & Models": [], "Developer Tools & Engineering": [], "Industry & Business": []}
+    groups: dict[str, list] = {"AI & ML": [], "Salesforce & AWS": [], "Other Tech": []}
     ai_words  = ["ai", "model", "llm", "gpt", "claude", "gemini", "llama", "neural", "machine learning", "deep learning", "openai", "anthropic"]
-    dev_words = ["python", "javascript", "rust", "framework", "github", "open source", "developer", "programming", "system design", "kubernetes", "database"]
+    cloud_crm_words = ["salesforce", "aws", "cloud", "crm", "amazon web services", "ec2", "s3", "lambda", "apex", "lightning"]
 
     for a in articles:
         text = (a["title"] + " " + a.get("summary", "")).lower()
         if any(w in text for w in ai_words):
-            groups["AI & Models"].append(a)
-        elif any(w in text for w in dev_words):
-            groups["Developer Tools & Engineering"].append(a)
+            groups["AI & ML"].append(a)
+        elif any(w in text for w in cloud_crm_words):
+            groups["Salesforce & AWS"].append(a)
         else:
-            groups["Industry & Business"].append(a)
+            groups["Other Tech"].append(a)
 
     sections = []
     for title, items in groups.items():
         if not items:
             continue
-        bullets = "\n".join(f"• {a['title']} ({a['source']})" for a in items[:5])
-        sections.append({"title": title, "body": bullets})
+        summary_paragraph = " ".join(f"{a['title']} ({a['source']})." for a in items[:5])
+        sections.append({"title": title, "body": summary_paragraph})
 
     top = articles[0] if articles else {}
     return {
