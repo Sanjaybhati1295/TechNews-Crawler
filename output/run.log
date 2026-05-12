@@ -65,3 +65,36 @@
 2026-05-12 12:10:46,612  INFO     ────────────────────────────────────────────────────────────
 2026-05-12 12:10:46,612  INFO     Done!  Open: output/index.html
 2026-05-12 12:10:46,612  INFO     Headline: AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry
+2026-05-12 12:48:55,758  INFO     ============================================================
+2026-05-12 12:48:55,758  INFO     TECHPULSE Digest — 2026-05-12 12:48 UTC
+2026-05-12 12:48:55,758  INFO     ============================================================
+2026-05-12 12:48:55,759  INFO     Step 1/3 — Crawling feeds…
+2026-05-12 12:48:56,170  INFO       Hacker News                    → 1 significant articles
+2026-05-12 12:48:56,360  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-12 12:49:00,598  INFO       Ars Technica                   → 0 significant articles
+2026-05-12 12:49:01,597  INFO       The Register AI                → 0 significant articles
+2026-05-12 12:49:01,762  INFO       MIT Tech Review                → 1 significant articles
+2026-05-12 12:49:01,901  INFO       Dev.to AI                      → 1 significant articles
+2026-05-12 12:49:02,114  INFO       Dev.to Programming             → 2 significant articles
+2026-05-12 12:49:02,218  INFO       GitHub Blog                    → 0 significant articles
+2026-05-12 12:49:02,947  INFO       Google Research                → 0 significant articles
+2026-05-12 12:49:03,776  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-05-12 12:49:04,771  INFO       Reddit r/LocalLLaMA            → 1 significant articles
+2026-05-12 12:49:05,332  INFO       InfoQ                          → 6 significant articles
+2026-05-12 12:49:05,593  INFO       Towards Data Science           → 2 significant articles
+2026-05-12 12:49:05,772  INFO       Wired AI                       → 0 significant articles
+2026-05-12 12:49:05,821  INFO       TechCrunch AI                  → 0 significant articles
+2026-05-12 12:49:05,821  INFO     Fetching images for top articles…
+2026-05-12 12:49:06,486  INFO       🖼  GitHub Expands Secret Scanning with General Availability of 
+2026-05-12 12:49:06,520  INFO       🖼  How a TypeScript RPC library got classified as EU AI Act Hig
+2026-05-12 12:49:07,269  INFO       🖼  Article: Time-Series Storage: Design Choices That Shape Cost
+2026-05-12 12:49:07,307  INFO       🖼  Python Decorators Explained Simply
+2026-05-12 12:49:07,307  INFO     Total selected: 16 articles from 15 feeds
+2026-05-12 12:49:07,307  INFO     Selected 16 significant articles
+2026-05-12 12:49:07,308  INFO     Step 2/3 — Generating digest…
+2026-05-12 12:49:07,604  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-12 12:49:07,604  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-12 12:49:07,605  INFO     Step 3/3 — Rendering HTML…
+2026-05-12 12:49:07,606  INFO     ────────────────────────────────────────────────────────────
+2026-05-12 12:49:07,606  INFO     Done!  Open: output/index.html
+2026-05-12 12:49:07,606  INFO     Headline: GitHub Expands Secret Scanning with General Availability of MCP Server Integration

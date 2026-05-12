@@ -1,70 +1,20 @@
 {
   "digest": {
-    "headline": "AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry",
-    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "headline": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
     "sections": [
       {
         "title": "AI & Models",
-        "body": "• Follow-up to my TranslateGemma-12b benchmark post: human reviewers flagged 71% of the segments automated metrics rated clean (Reddit r/LocalLLaMA)\n• HiDream-O1: The 8B Open-Weights Image Model With No VAE (Dev.to AI)\n• AI Governance 2.0 in 2026: Building Trusted and Scalable Enterprise AI Systems (Dev.to AI)\n• converting weights to snn (Reddit r/LocalLLaMA)\n• GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ)"
+        "body": "• GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ)\n• How a TypeScript RPC library got classified as EU AI Act High Risk. A technical post-mortem. (Dev.to AI)\n• Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated \"clean\" by MetricX-24 and COMETKiwi [D] (Reddit r/MachineLearning)\n• Best practice for accurate translation at minimal cost? (Reddit r/LocalLLaMA)\n• Article: Time-Series Storage: Design Choices That Shape Cost and Performance (InfoQ)"
       },
       {
-        "title": "Developer Tools & Engineering",
-        "body": "• AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry (InfoQ)\n• Responsive Web Development with Mobile First Approach (Dev.to Programming)"
+        "title": "Industry & Business",
+        "body": "• Using Transformers to Forecast Incredibly Rare Solar Flares (Towards Data Science)"
       }
     ],
-    "key_takeaway": "AdonisJS version 7 introduces end-to-end type safety and reworked starter kits, alongside improved documentation. The release includes 45+ updated packages and three new ones for OpenTelemetry, typed content. It requires Node.js 24, allowing the use of native APIs. The framework emphasizes a convention-over-configuration approach while offering tools for routing, ORM, and authentication. By Daniel Curtis"
+    "key_takeaway": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi"
   },
   "articles": [
-    {
-      "id": "770b68a63570",
-      "title": "AdonisJS v7 Ships End-to-End Type Safety, Reworked Starter Kits and Zero-Config OpenTelemetry",
-      "url": "https://www.infoq.com/news/2026/05/adonis-v7-opentelemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "AdonisJS version 7 introduces end-to-end type safety and reworked starter kits, alongside improved documentation. The release includes 45+ updated packages and three new ones for OpenTelemetry, typed content. It requires Node.js 24, allowing the use of native APIs. The framework emphasizes a convention-over-configuration approach while offering tools for routing, ORM, and authentication. By Daniel Curtis",
-      "source": "InfoQ",
-      "published": "2026-05-12T11:26:00+00:00",
-      "score": 5.16,
-      "image": "https://res.infoq.com/news/2026/05/adonis-v7-opentelemetry/en/headerimage/generatedHeaderImage-1778574705638.jpg"
-    },
-    {
-      "id": "f69584ad9dda",
-      "title": "Follow-up to my TranslateGemma-12b benchmark post: human reviewers flagged 71% of the segments automated metrics rated clean",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1taxrm6/followup_to_my_translategemma12b_benchmark_post/",
-      "summary": "A couple of weeks ago I shared the results of a benchmark here showing TranslateGemma-12b beating frontier general models (Claude Sonnet, GPT-5.4, DeepSeek, Gemini Flash Lite) on subtitle translation across 6 languages. The result was strong enough that we wanted to verify it ourselves - was TranslateGemma really that good, or were the metrics easy on it? So we added a layer of human review. Setup: 21 English subtitle segments from one tutorial video. TranslateGemma's translations into 4 languages (ES, JA, TH, ZH-CN - Korean and Traditional Chinese got dropped). 84 translations total, all chos",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T10:41:29+00:00",
-      "score": 5.12,
-      "image": null
-    },
-    {
-      "id": "ad64932c7096",
-      "title": "HiDream-O1: The 8B Open-Weights Image Model With No VAE",
-      "url": "https://dev.to/rishi_kora/hidream-o1-the-8b-open-weights-image-model-with-no-vae-5gf6",
-      "summary": "Originally published on AI Tech Connect.\n\nWhat HiDream-O1 is HiDream-O1 (also referred to as HiDream-O1-Image in some documentation) was released on 8 May 2026. The model's defining architectural claim is that it is a unified pixel-space transformer — a single neural network that handles the full image generation pipeline without the component stack that characterises standard latent diffusion models. In conventional diffusion model pipelines (FLUX, Stable Diffusion XL, DALL-E 3 under the hood), image generation involves at least three separate components: A text encoder (CLIP, T5, or a custom",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:06:10+00:00",
-      "score": 5.0,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd8crbmi5q73ueoabald9.png"
-    },
-    {
-      "id": "f2566407d9cd",
-      "title": "AI Governance 2.0 in 2026: Building Trusted and Scalable Enterprise AI Systems",
-      "url": "https://dev.to/dipti26810/ai-governance-20-in-2026-building-trusted-and-scalable-enterprise-ai-systems-2fke",
-      "summary": "Artificial intelligence has moved far beyond experimentation. In 2026, AI systems influence financial forecasting, operational planning, customer engagement, supply chain optimization, fraud detection, and strategic decision-making across industries. As organizations scale analytics, business intelligence (BI), and Generative AI (GenAI), one reality has become unavoidable: AI is only as reliable as the governance and data quality frameworks behind it.\n\nEnterprises are now entering the era of AI Governance 2.0—a more mature and operational model of governance that combines policy enforcement, d",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:05:45+00:00",
-      "score": 5.0,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5ttskprww0s3fpldsnp0.png"
-    },
-    {
-      "id": "998904cf4ab6",
-      "title": "converting weights to snn",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tawfhz/converting_weights_to_snn/",
-      "summary": "Hello everyone, I developed the snn architecture from scratch based on the human brain. I had several successful launches of training spike models from scratch and I also had an idea: what would happen if I took the gemma 4 model and converted it from 4 billion to 700 million, and also changed the word matrix and did the training like in the photo. I'm curious to see how much it is possible to compress the model from Google into the snn model for 700 million parameters, while keeping the logic level somewhere at the level of 2 billion in the transformer. I would be grateful for any feedback or",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T09:30:10+00:00",
-      "score": 4.75,
-      "image": null
-    },
     {
       "id": "b1d428029959",
       "title": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
@@ -72,147 +22,37 @@
       "summary": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi",
       "source": "InfoQ",
       "published": "2026-05-12T12:00:00+00:00",
-      "score": 4.69,
+      "score": 4.15,
       "image": "https://res.infoq.com/news/2026/05/github-mcp-secret-scanning/en/headerimage/generatedHeaderImage-1778422946373.jpg"
     },
     {
-      "id": "69905a5aaa7d",
-      "title": "How to Deploy Claude 3.5 Sonnet with Anthropic API Caching on a $5/Month DigitalOcean Droplet: 50% Cost Reduction for Production RAG",
-      "url": "https://dev.to/ramosai/how-to-deploy-claude-35-sonnet-with-anthropic-api-caching-on-a-5month-digitalocean-droplet-50-596p",
-      "summary": "⚡ Deploy this in under 10 minutes\n\n\nGet $200 free: https://m.do.co/c/9fa609b86a0e\n($5/month server — this is what I used)\n\n\n\n  \n  \n  How to Deploy Claude 3.5 Sonnet with Anthropic API Caching on a $5/Month DigitalOcean Droplet: 50% Cost Reduction for Production RAG\n\n\nStop overpaying for AI APIs. If you're running RAG pipelines in production, you're probably watching your Claude API bill climb every month. But here's what most developers miss: Anthropic's prompt caching can cut your token costs in half, and combining it with a self-hosted proxy layer on a cheap DigitalOcean droplet gives you bo",
+      "id": "1bebca08c76a",
+      "title": "How a TypeScript RPC library got classified as EU AI Act High Risk. A technical post-mortem.",
+      "url": "https://dev.to/intentguard_ole/how-a-typescript-rpc-library-got-classified-as-eu-ai-act-high-risk-a-technical-post-mortem-4nj3",
+      "summary": "This is a post-mortem on a specific failure mode in AI-powered code audit tooling. It involves tRPC, the EU AI Act, and a word that means two different things depending on context.\n\ntRPC is a TypeScript-first RPC framework. Its transformer components handle data serialisation. Not machine learning. Not neural networks. Data serialisation.\n\nAn automated intent audit classified it as EU AI Act High Risk.\nHere is exactly what happened.\n\nThe classification mechanism\n\nAI-powered audit tools that evaluate codebases against regulatory frameworks need to determine which frameworks apply. For the EU AI",
       "source": "Dev.to AI",
-      "published": "2026-05-12T12:06:53+00:00",
-      "score": 4.5,
-      "image": null
-    },
-    {
-      "id": "de68f190abf6",
-      "title": "OpenAI vs Anthropic 2026 AI Race",
-      "url": "https://dev.to/b1fe7066aefjbingbong/openai-vs-anthropic-2026-ai-race-22i3",
-      "summary": "In 2026, OpenAI and Anthropic are locked in a $12 billion AI arms race, with both companies vying for dominance in next-gen AI development. This isn’t just about models or benchmarks — it’s about infrastructure, governance, and the future of how AI is built and used, with implications for global AI policy. For builders and founders, understanding the current battlefield is critical, as the winner could control 60% of the AI market by 2028. This guide outlines the key players, their strategies, and what this means for the AI tools and systems you build today.\n\nThe stakes are higher than ever: t",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:04:19+00:00",
-      "score": 4.49,
-      "image": null
-    },
-    {
-      "id": "7f8fe36b81ab",
-      "title": "Why ecommerce backends are failing AI agents and how to fix it",
-      "url": "https://dev.to/nventory/why-ecommerce-backends-are-failing-ai-agents-and-how-to-fix-it-23d0",
-      "summary": "Something changed in ecommerce infrastructure requirements this year that most developers haven't fully absorbed yet.\n\nAI agents are now completing purchases autonomously. Amazon launched AI-powered live shopping chat. EMarketer projects AI-driven ecommerce will account for 1.5% of all online shopping in 2026. Stripe shipped an Agentic Commerce Suite for WooCommerce. Google's Universal Commerce Protocol connects Walmart, Target and Etsy into a single agentic buying layer.\n\nThe front end of ecommerce evolved overnight. Most backends didn't.\nHere's the specific technical problem and how to fix i",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T12:01:53+00:00",
-      "score": 4.49,
-      "image": null
-    },
-    {
-      "id": "6cc40743ce69",
-      "title": "Lean System Design",
-      "url": "https://dev.to/anivan/lean-system-design-km7",
-      "summary": "Hey!\n\nOver the past year, I became interested in a systematic approach to system design. It appeared to be a quite overused term nowadays – it includes pure and in-depth knowledge about technological systems; it includes how to use them and how to build new systems out of existing ones in real life; and it also includes the \"system design interview\" area, which is somehow different from the first two points.\n\nEventually, I've also realised there is a strong push in the community toward building complex distributed systems. This is mainly driven by large tech companies, which need to scale thei",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T12:00:00+00:00",
-      "score": 4.49,
-      "image": null
-    },
-    {
-      "id": "86edde00f65b",
-      "title": "Cache-testing software for LLM-provider-style tiered ephemeral caches? [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tayaiw/cachetesting_software_for_llmproviderstyle_tiered/",
-      "summary": "I'm looking for a cache simulator / benchmark suite suited to the kind of tiered ephemeral cache that LLM providers use — e.g. Anthropic's 4-tier prompt cache, where context sits across several tiers with different residency windows, costs, and eviction rules. I've already tried libCacheSim. It's a solid piece of software for classical caches (LRU, FIFO, ARC, SIEVE, S3-FIFO, W-TinyLFU, Belady oracle, plugin API, trace replay), and I got a plugin + synthetic trace working against it. But it seems fundamentally aimed at single, flat caches:  One cache, not a hierarchy of tiers with different cos",
-      "source": "Reddit r/MachineLearning",
-      "published": "2026-05-12T11:07:23+00:00",
-      "score": 4.34,
-      "image": null
-    },
-    {
-      "id": "33076a87c56b",
-      "title": "New DORA Report Claims Strong Engineering Foundations Drive AI Return on Investment",
-      "url": "https://www.infoq.com/news/2026/05/dora-roi-ai-assisted-dev-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Google Cloud's DORA team released a report detailing a framework for assessing the ROI of AI in software development. It emphasizes that successful AI implementation depends on organizational systems rather than just tools. The report introduces a J-Curve model for value realization. It also discusses the importance of workforce retention and process redesign for achieving long-term gains. By Matt Saunders",
-      "source": "InfoQ",
-      "published": "2026-05-11T08:00:00+00:00",
-      "score": 4.33,
-      "image": null
-    },
-    {
-      "id": "2aaadf84f080",
-      "title": "How I Built and Launched a KYC Selfie Verification API in One Day (Free to Try)",
-      "url": "https://dev.to/hajar_balirh_212fa1956ba2/how-i-built-and-launched-a-kyc-selfie-verification-api-in-one-day-free-to-try-a7d",
-      "summary": "I've always wanted to build a product I could sell online. \nLast week I did it — a full AI-powered KYC API, live in production, \nlisted on RapidAPI, with a registration system and usage dashboard. \nHere's exactly how I built it.\n\n  \n  \n  What is KYC?\n\n\nKYC (Know Your Customer) is the process of verifying a user's identity. \nEvery fintech, bank, marketplace, and crypto platform needs it. \nMost solutions cost thousands of dollars per month. I built one for free.\n\n  \n  \n  What the API does\n\n\n\n✅ Face detection and centering check\n✅ Liveness detection (real person vs photo of photo)\n✅ Age estimatio",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:07:08+00:00",
-      "score": 4.3,
-      "image": null
-    },
-    {
-      "id": "1b513edf210d",
-      "title": "How to Build a 0ms Live Preview Engine in the Browser (Without a Backend)",
-      "url": "https://dev.to/nitroide/how-to-build-a-0ms-live-preview-engine-in-the-browser-without-a-backend-2kpo",
-      "summary": "If you look at how most cloud IDEs and code sandboxes work today, they almost all share the same underlying architecture: you type code in the browser, it gets sent over a WebSocket to a Node.js or Docker container on a remote server, the server compiles it, and sends the result back.\nIt works, but it introduces a massive bottleneck: Network Latency.\nEvery keystroke is fighting against ping times. If the server is under load, or your Wi-Fi drops for a second, your flow state is completely ruined.\nWhile building NitroIDE, I wanted to see if I could bypass the server entirely. I wanted to build ",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T12:02:30+00:00",
-      "score": 4.29,
-      "image": null
-    },
-    {
-      "id": "a3f3f9a64c52",
-      "title": "AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals",
-      "url": "https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/",
-      "summary": "Vapi says its enterprise business has grown 10-fold since early 2025 as companies shift customer support and sales calls to AI agents.",
-      "source": "TechCrunch AI",
-      "published": "2026-05-12T11:30:00+00:00",
-      "score": 4.26,
-      "image": null
-    },
-    {
-      "id": "7224de2c82ef",
-      "title": "GM just laid off hundreds of IT workers to hire those with stronger AI skills",
-      "url": "https://techcrunch.com/2026/05/11/gm-just-laid-off-hundreds-of-it-workers-to-hire-those-with-stronger-ai-skills/",
-      "summary": "Some of the positions focus on AI-native development, data engineering and analytics, cloud-based engineering, and agent and model development as well as prompt engineering and new AI workflows.",
-      "source": "TechCrunch AI",
-      "published": "2026-05-11T23:04:10+00:00",
-      "score": 4.17,
-      "image": null
-    },
-    {
-      "id": "46b66dc372a9",
-      "title": "LangGraph v0.4: HITL Checkpoints and State Persistence",
-      "url": "https://dev.to/rishi_kora/langgraph-v04-hitl-checkpoints-and-state-persistence-n5",
-      "summary": "Originally published on AI Tech Connect.\n\nWhat changed in v0.4 LangGraph v0.4 (released April 2026, per the LangGraph changelog) centres on a single theme: making human-in-the-loop interrupts first-class citizens of the framework rather than an advanced pattern requiring significant custom plumbing. Three changes drive this: Auto-surfaced interrupts — Interrupt objects are now automatically included in the .invoke() return value and the \"values\" stream mode. Previously, detecting a pending interrupt required a separate getState() call after .invoke() returned. That extra round-trip is gone. Si",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:05:51+00:00",
-      "score": 4.1,
-      "image": null
-    },
-    {
-      "id": "dd6c0dba922d",
-      "title": "Models and Quants quality test results - the chessboard svg (Qwen3.6 27B/35B-A3B/Zaya1)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tax6hj/models_and_quants_quality_test_results_the/",
-      "summary": "According to this. I run several more tests to cover more models and quants. https://www.reddit.com/r/LocalLLaMA/comments/1t53dhp/quality_comparison_between_qwen_36_27b/ Qwen3.6 35B-A3B MLX oQ4. Very very good. (oMLX - local) Qwen 3.6 35B-A3B MLX oQ4's output is almost perfect. With title, last move label, row and col. But the 2 cursors, one show starting point and the other show end point (red triangles), are a bit confusing at first glance. ZAYA1 8B - Perfect but without a-h, 1-8 row/column mark (Zaya Cloud) ZAYA1 8B is open weight. I used MLX-LM to run it with this PR, but no luck. The 8 bi",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T10:11:08+00:00",
-      "score": 4.09,
-      "image": null
-    },
-    {
-      "id": "078e6b70c1da",
-      "title": "Qwen3.6 27b q5_k_M MTP - 256k context - 5090",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1taz3eu/qwen36_27b_q5_k_m_mtp_256k_context_5090/",
-      "summary": "https://preview.redd.it/ktg0lr3e0p0h1.png?width=1279&amp;format=png&amp;auto=webp&amp;s=d110580662a5c707038b7e2e4f5226d2a18c7bfe Straight to it: llama-server-mtp \\ -m ~/models/Qwen3.6-27B-Q5_K_M-mtp.gguf \\ --spec-type mtp \\ --spec-draft-n-max 3 \\ --cache-type-k q8_0 \\ --cache-type-v q8_0 \\ -np 1 \\ -c 262144 \\ -ngl 99 \\ --host 0.0.0.0 \\ --port 8080 Been running this on my desktop 5090 with no issues and no spillover!  You will need to install a special version of llamacpp to run Qwen3.6 with MTP: https://github.com/ggml-org/llama.cpp/pull/22673  &#32; submitted by &#32;  /u/No_Mango7658   [link",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T11:43:51+00:00",
+      "published": "2026-05-12T12:30:18+00:00",
       "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpn3gfcrmfzbxmxaepgbj.png"
+    },
+    {
+      "id": "c0d2e9bdb345",
+      "title": "Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated \"clean\" by MetricX-24 and COMETKiwi [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tavi6x/followup_on_the_translategemma_subtitle_benchmark/",
+      "summary": "A few weeks ago I shared the results of a benchmark here comparing 6 LLMs on subtitle translation, scored with two reference-free QE metrics - MetricX-24 (~13B mT5-XXL) and COMETKiwi (~10.7B XLM-R-XXL) - combined into a TQI index. Posting a follow-up because we did human review afterwards, and the result is worth discussing. The original benchmark put TranslateGemma-12b first in every language pair. The natural question: are those high scores accurate, or are the metrics insensitive in their high-confidence zone? These metrics correlate well with human judgment at the population level (that's ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-12T08:38:11+00:00",
+      "score": 3.77,
       "image": null
     },
     {
-      "id": "d334bcce3f55",
-      "title": "Agentic AI Training | Agentic AI Training in Hyderabad",
-      "url": "https://dev.to/hari_krishna_17497813413d/agentic-ai-training-agentic-ai-training-in-hyderabad-lcj",
-      "summary": "Why Are Companies Moving From Prompts to Agentic AI?\nIntroduction\nAgentic AI is becoming an important part of modern business technology. Earlier, companies mainly used prompt-based AI tools. These systems worked like assistants that answered one request at a time. They were useful for writing, searching, coding, and customer support. However, businesses soon realized that simple prompts could not manage complex workflows.\nToday, companies want AI systems that can think through tasks, make decisions, connect with software, and complete actions with minimal human input. Because of this change, ",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T11:35:48+00:00",
-      "score": 4.07,
+      "id": "d6f043a88680",
+      "title": "Best practice for accurate translation at minimal cost?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tazmfi/best_practice_for_accurate_translation_at_minimal/",
+      "summary": "I've been meaning to translate forum post type content for one of my partner's sites. Objective to open up the audience base.  Key thing is its gotta be free (open source / local model) or VERY cheap. I've done the obligatory google search , llm advice / agentic research. They surfaced a few solutions but testing them out, they're not that great (translation quality is poor)  Is there any best practice anyone can give?  Options im considering amazon, msft, Googel translate --&gt; expensive Deepl ---&gt; not that great LLMs --&gt; deepseek isnt bad, but diff LLMs are hit and miss, also unclear ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-12T12:06:48+00:00",
+      "score": 3.76,
       "image": null
     },
     {
@@ -222,97 +62,117 @@
       "summary": "Every time-series database makes a set of storage design decisions: how to lay out rows, when to compress, what to partition on. These decisions determine cost and query performance more than the choice of database itself. This article works through those fundamentals from first principles, using widely available tools like PostgreSQL and Apache Parquet to make each trade-off measurable. By Nirmesh Khandelwal",
       "source": "InfoQ",
       "published": "2026-05-12T09:00:00+00:00",
-      "score": 3.92,
+      "score": 3.69,
+      "image": "https://res.infoq.com/articles/time-series-storage-design/en/headerimage/Time-Series-Storage-Design-Choices-That-Shape-Cost-and-Performance-header-1778155792101.jpg"
+    },
+    {
+      "id": "8bcfacdc7b69",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-1ep4",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-12T12:41:52+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb5qqs5tdl8d3bal9kg4s.png"
+    },
+    {
+      "id": "90f51334c0cb",
+      "title": "Rust Error Handling in Tauri Commands — The Pattern That Actually Works",
+      "url": "https://dev.to/hiyoyok/rust-error-handling-in-tauri-commands-the-pattern-that-actually-works-35le",
+      "summary": "All tests run on an 8-year-old MacBook Air.\nAll results from shipping 7 Mac apps as a solo developer. No sponsored opinion.\nThe first Tauri app I shipped had inconsistent error handling. Some commands returned strings. Some panicked. Some silently swallowed errors.\nHere's the pattern I settled on after 7 apps.\n\nThe problem with naive error handling\nTauri commands return Result where E must implement serde::Serialize. The temptation is to just return String for errors:\nrust#[tauri::command]\nfn do_something() -&gt; Result {\n    some_operation().map_err(|e| e.to_string())\n}\nThis works. It's also ",
+      "source": "Dev.to Programming",
+      "published": "2026-05-12T12:16:23+00:00",
+      "score": 3.47,
       "image": null
     },
     {
-      "id": "b95b1593dec5",
-      "title": "Prompt Engineering Guide for LLMs",
-      "url": "https://dev.to/_6638a39c349d7e9c85ee20/prompt-engineering-guide-for-llms-2fgm",
-      "summary": "This article was originally published on AI Study Room. For the full version with working code examples and related articles, visit the original post.\n\n\n\n  \n  \n  Prompt Engineering Guide for LLMs\n\n\n\n  \n  \n  Prompt Engineering Guide for LLMs\n\n\n\n  \n  \n  Prompt Engineering Guide for LLMs\n\n\nPrompt engineering is the art of crafting inputs to large language models to produce desired outputs. Effective prompting significantly improves output quality, consistency, and reliability.\n\n\n  \n  \n  Zero-Shot Prompting\n\n\nZero-shot prompting gives the model a task description without examples. The model relies",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T12:08:07+00:00",
-      "score": 3.9,
-      "image": null
-    },
-    {
-      "id": "c0d2e9bdb345",
-      "title": "Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated \"clean\" by MetricX-24 and COMETKiwi [D]",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1tavi6x/followup_on_the_translategemma_subtitle_benchmark/",
-      "summary": "A few weeks ago I shared the results of a benchmark here comparing 6 LLMs on subtitle translation, scored with two reference-free QE metrics - MetricX-24 (~13B mT5-XXL) and COMETKiwi (~10.7B XLM-R-XXL) - combined into a TQI index. Posting a follow-up because we did human review afterwards, and the result is worth discussing. The original benchmark put TranslateGemma-12b first in every language pair. The natural question: are those high scores accurate, or are the metrics insensitive in their high-confidence zone? These metrics correlate well with human judgment at the population level (that's ",
+      "id": "7a71988ff580",
+      "title": "ICML Author Removal [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1taqalh/icml_author_removal_d/",
+      "summary": "PhD student. Need advice. After the ICML abstract deadline, industry coauthors asked to be removed, they missed their employer's internal approval window. They had contributed (discussions and written feedback) but I hadn't explicitly asked before adding them. January: wrote to PC chairs, got written confirmation from all coauthors, got explicit written approval. Chairs said they'd implement. Never happened. Paper accepted four months later with original author list. At camera-ready we followed up. Chairs reversed: blanket policy, no exceptions, keep the list or withdraw. What do you think abo",
       "source": "Reddit r/MachineLearning",
-      "published": "2026-05-12T08:38:11+00:00",
-      "score": 3.9,
+      "published": "2026-05-12T04:00:42+00:00",
+      "score": 3.11,
       "image": null
     },
     {
-      "id": "f273fd5b0828",
-      "title": "Stop wasting electricity",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tayu5t/stop_wasting_electricity/",
-      "summary": "Run on my rtx4090 llama.cpp params: llama-server -m ~/Projects/llm/models/Qwen3.6-27B-UD-Q4_K_XL.gguf --flash-attn on -ngl all -ctk q4_0 -ctv q4_0 -t 32 -c 262144  Power limit was set using sudo nvidia-smi -pl N  On my observation, GPU constantly hitting power limit, so its safe to say that it actual consumption. You can cut power consumption to 40% without losing performance(and also reduce noise, heat from pc, and extend lifespan of gpu).   &#32; submitted by &#32;  /u/OkFly3388   [link] &#32; [comments]",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T11:32:23+00:00",
-      "score": 3.86,
-      "image": null
-    },
-    {
-      "id": "8ddb6ce65c71",
-      "title": "Drastically improve prompt processing speed for --n-cpu-moe partially offloaded models",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tany5t/drastically_improve_prompt_processing_speed_for/",
-      "summary": "Bigger ubatch made gpt-oss-120b prompt processing much faster on my RTX 3090 I was tuning gpt-oss-120b-F16.gguf with llama.cpp on a 24 GB RTX 3090 and found that increasing the physical micro-batch size (-ub) can massively improve prompt processing throughput, as long as you also raise --n-cpu-moe enough to keep the run inside VRAM. The llama.cpp defaults are -b 2048 and -ub 512; I included that default run as its own point in the chart. Here are the informal llama-bench results I charted:   ubatch n-cpu-moe prefill generation    256 25 240.03 tok/s 33.14 tok/s   512 (default) 26 380.27 tok/s ",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T02:12:28+00:00",
-      "score": 3.85,
-      "image": null
-    },
-    {
-      "id": "784271ce084e",
-      "title": "Llama models: still valuable for finetuning or surpassed by everything new?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tau8jx/llama_models_still_valuable_for_finetuning_or/",
-      "summary": "Hello there people. So I have noticed that people are pretty much ignoring Llama 3 plus 3.1, 3.2, and 3.3 these days. They never mention how their experience goes with fine-tuning those models. But we haven't been getting many entries into the 70 billion space. So is, for example, Llama 3.3 70B the best thing available right now to be experimented with and fine-tuned? Or is it Qwen3 all the way?  &#32; submitted by &#32;  /u/Silver-Champion-4846   [link] &#32; [comments]",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-12T07:25:22+00:00",
-      "score": 3.84,
-      "image": null
-    },
-    {
-      "id": "021802e0c571",
-      "title": "Responsive Web Development with Mobile First Approach",
-      "url": "https://dev.to/wingsdesignstudio/responsive-web-development-with-mobile-first-approach-366m",
-      "summary": "In 2026, responsive web development is no longer a “nice-to-have” feature. It is the foundation of modern digital experiences. With mobile devices generating the majority of global web traffic and Google continuing to prioritize mobile-first indexing, businesses and developers must build websites that perform flawlessly across every screen size.\n\nA mobile first approach helps developers create faster, cleaner, and more user-focused websites by starting with the smallest screen and progressively enhancing the experience for tablets and desktops.\n\nWhat Is Responsive Web Development?\n\nResponsive ",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T11:32:15+00:00",
-      "score": 3.76,
-      "image": null
-    },
-    {
-      "id": "0b803c2fa1cb",
-      "title": "Cangjie, a New Open-Source Compiled Language with Native Effect Handlers and Algebraic Data Types",
-      "url": "https://www.infoq.com/news/2026/05/cangjie-effect-handlers-adt/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Prof. Dan Ghica, who leads the Programming Languages Lab at Huawei’s Edinburgh Research Centre, recently presented Cangjie (CJ), a new application development language that features algebraic data types and effect handlers. The open-sourced language is positioned as a counterpart to Java, Kotlin, or Swift. Cangjie is taught by 80+ universities in China. By Bruno Couriol",
+      "id": "33076a87c56b",
+      "title": "New DORA Report Claims Strong Engineering Foundations Drive AI Return on Investment",
+      "url": "https://www.infoq.com/news/2026/05/dora-roi-ai-assisted-dev-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google Cloud's DORA team released a report detailing a framework for assessing the ROI of AI in software development. It emphasizes that successful AI implementation depends on organizational systems rather than just tools. The report introduces a J-Curve model for value realization. It also discusses the importance of workforce retention and process redesign for achieving long-term gains. By Matt Saunders",
       "source": "InfoQ",
-      "published": "2026-05-11T21:56:00+00:00",
-      "score": 3.71,
+      "published": "2026-05-11T08:00:00+00:00",
+      "score": 3.0,
       "image": null
     },
     {
-      "id": "cb37240253d6",
-      "title": "Dentist Near Me – How to Find the Best Family Dental Clinic Near You",
-      "url": "https://dev.to/vcaredentals/dentist-near-me-how-to-find-the-best-family-dental-clinic-near-you-b01",
-      "summary": "Quick Overview\n\nLooking for a dentist near me can feel overwhelming when you’re already dealing with tooth pain, sensitivity, or anxiety. This guide helps you choose the right family dental clinic with confidence. Learn how to compare clinics, understand treatment costs, spot quality dental care, and avoid common mistakes while finding a trusted dental clinic nearby for your family’s oral health needs.\n\nIntroduction 😁🦷\n\nSearching for a dentist near me usually starts with a problem nobody wants — sudden tooth pain, bleeding gums, bad breath, or a child crying because of a cavity. The good news?",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T11:35:23+00:00",
-      "score": 3.67,
+      "id": "4fbc0b3b8234",
+      "title": "Fostering breakthrough AI innovation through customer-back engineering",
+      "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
+      "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-11T13:33:06+00:00",
+      "score": 2.81,
       "image": null
     },
     {
-      "id": "fa18cb11d110",
-      "title": "Copy Fail and Dirty Frag: Linux Page-Cache Exploits Target Every Major Distribution",
-      "url": "https://www.infoq.com/news/2026/05/copy-fail-dirty-frag-linux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "Two recent Linux kernel vulnerabilities have been disclosed: Copy Fail (CVE-2026-31431) on April 29, 2026, and Dirty Frag (CVE-2026-43284 and CVE-2026-43500) on May 7, 2026. Both allow local users to gain root access, affecting multiple Linux distributions. These vulnerabilities exploit flaws in the page cache via different subsystems, necessitating immediate patching by affected organizations. By Matt Saunders",
+      "id": "5769f5315f7c",
+      "title": "Article: Local-First AI Inference: A Cloud Architecture Pattern for Cost-Effective Document Processing",
+      "url": "https://www.infoq.com/articles/local-first-ai-inference-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Local-First AI Inference pattern routes 70–80% of documents to deterministic local extraction at zero API cost, reserving Azure OpenAI calls for edge cases and flagging low-confidence results for human review. Deployed on 4,700 engineering drawing PDFs, it cut API costs by 75% and processing time by 55%, while bounding errors through a human review tier. By Obinna Iheanachor",
       "source": "InfoQ",
-      "published": "2026-05-12T08:00:00+00:00",
-      "score": 3.67,
+      "published": "2026-05-11T11:00:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "235c743bf190",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-11T17:53:08+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "c0146c92a159",
+      "title": "Java News Roundup: GraalVM, Spring AI, JobRunr, GlassFish, Grails, Groovy, Quarkus Agent MCP",
+      "url": "https://www.infoq.com/news/2026/05/java-news-roundup-may04-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for May 4th, 2026, features news highlighting: OpenJDK JEPs targeted for JDK 27; the sixth milestone release of Spring AI 2.0; the first milestone release of Grails 8.0; the first alpha release of Groovy 6.0; a point release of JobRunr; maintenance releases of GlassFish, TomEE and Tomcat; an accelerated release train for GraalVM; and a new Quarkus Agent MCP server. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-05-11T02:30:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "2c68c7bbee4c",
+      "title": "How to Build a Claude Code-Powered Knowledge Base",
+      "url": "https://towardsdatascience.com/how-to-build-a-claude-code-powered-knowledge-base/",
+      "summary": "Perform efficient data retrieval of personal knowledge \nThe post How to Build a Claude Code-Powered Knowledge Base appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-11T18:36:57+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "08be2f6220a6",
+      "title": "Using Transformers to Forecast Incredibly Rare Solar Flares",
+      "url": "https://towardsdatascience.com/predicting-solar-flares/",
+      "summary": "How ML can change for rare events\nThe post Using Transformers to Forecast Incredibly Rare Solar Flares appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-11T17:41:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "16b3a5f120a0",
+      "title": "Netflix Introduces ‘Model Lifecycle Graph’ to Scale Enterprise Machine Learning",
+      "url": "https://www.infoq.com/news/2026/05/netflix-ml-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Netflix has developed a graph-based architecture for managing machine learning systems, called the Model Lifecycle Graph. This system maps interconnections between datasets, models, features, and workflows, addressing challenges in scaling ML operations. It enhances discoverability, governance, and component reuse while supporting a self-service approach for engineers and data scientists. By Matt Foster",
+      "source": "InfoQ",
+      "published": "2026-05-11T07:30:00+00:00",
+      "score": 2.37,
       "image": null
     }
   ]
