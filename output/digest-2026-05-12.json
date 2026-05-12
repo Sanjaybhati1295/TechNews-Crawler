@@ -1,20 +1,60 @@
 {
   "digest": {
-    "headline": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
-    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "headline": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek)",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
     "sections": [
       {
-        "title": "AI & Models",
-        "body": "• GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ)\n• How a TypeScript RPC library got classified as EU AI Act High Risk. A technical post-mortem. (Dev.to AI)\n• Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated \"clean\" by MetricX-24 and COMETKiwi [D] (Reddit r/MachineLearning)\n• Best practice for accurate translation at minimal cost? (Reddit r/LocalLLaMA)\n• Article: Time-Series Storage: Design Choices That Shape Cost and Performance (InfoQ)"
+        "title": "AI & ML",
+        "body": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek) (Dev.to AI). Built It Now (Dev.to AI). The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests (Dev.to Programming). TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N] (Reddit r/MachineLearning). GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ)."
       },
       {
-        "title": "Industry & Business",
-        "body": "• Using Transformers to Forecast Incredibly Rare Solar Flares (Towards Data Science)"
+        "title": "Other Tech",
+        "body": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI (GitHub Blog). Hybrid Search and Re-Ranking in Production RAG (Towards Data Science). Using Transformers to Forecast Incredibly Rare Solar Flares (Towards Data Science)."
       }
     ],
-    "key_takeaway": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi"
+    "key_takeaway": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT &amp; DeepSeek)\n\n\nYou're managing 65 open files. Property damage reports due by Friday. Three coverage denial letters that need to hold up to arbitration review. A subrogation demand to a third-party carrier. Two policyholder status update letters that need to go out today.\n\nEvery document requires precise, defensible language. Use the wrong word in a denial letter and you've created a bad-faith exposure. Write a vague investigation summary and the supervising adjuster sends it back for revisions. Rush a policyholder communication and th"
   },
   "articles": [
+    {
+      "id": "a9942bccc579",
+      "title": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek)",
+      "url": "https://dev.to/clawgear/35-chatgpt-prompts-for-claims-adjusters-claude-chatgpt-deepseek-3ap6",
+      "summary": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT &amp; DeepSeek)\n\n\nYou're managing 65 open files. Property damage reports due by Friday. Three coverage denial letters that need to hold up to arbitration review. A subrogation demand to a third-party carrier. Two policyholder status update letters that need to go out today.\n\nEvery document requires precise, defensible language. Use the wrong word in a denial letter and you've created a bad-faith exposure. Write a vague investigation summary and the supervising adjuster sends it back for revisions. Rush a policyholder communication and th",
+      "source": "Dev.to AI",
+      "published": "2026-05-12T16:14:21+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frdk9cykvdq7lflrz82g3.png"
+    },
+    {
+      "id": "c2d875510f29",
+      "title": "Built It Now",
+      "url": "https://dev.to/naman_k_70beacf9f14245a3b/built-it-now-20ne",
+      "summary": "Most developers don’t build their ideas.\n\nNot because they can’t.\n\nBecause they believe they can’t.\n\nWe launched Build It Now.\n\nWe sit with strangers.\nThey tell us an idea.\nWe build it live.\nIt’s deployed in minutes.\nPowered by CreateOS\n\nNo prep. No excuses. \nLet's focus on distribution\n\nBuilding is no longer the hard part.\n\nWatch builders from SF, Rome, Singapore, Bangalore, Delhi  👇\n\n\n    \n        \n          \n            \n          \n        \n      \n        \n          \n            Case studies | CreateOS\n          \n        \n          \n            Real builders shipping production AI on Create",
+      "source": "Dev.to AI",
+      "published": "2026-05-12T16:02:00+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F08xcspc9hmkzqyw9metx.png"
+    },
+    {
+      "id": "e6f66bdab8c0",
+      "title": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests",
+      "url": "https://dev.to/suifeng023/the-ai-code-review-checklist-a-copy-paste-prompt-for-safer-pull-requests-3e58",
+      "summary": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests\n\n\nAI coding tools can write code quickly.\n\nBut speed is not the same as review quality.\n\nA pull request generated with help from GitHub Copilot, Claude, Cursor, ChatGPT, or another AI coding assistant still needs the same engineering discipline as any other change:\n\n\nDoes it solve the right problem?\nDid it change more than necessary?\nAre edge cases covered?\nAre security risks introduced?\nAre tests meaningful?\nCan the change be rolled back safely?\n\n\nThe problem is that many AI-assisted pull requests arrive with weak revie",
+      "source": "Dev.to Programming",
+      "published": "2026-05-12T15:36:27+00:00",
+      "score": 4.06,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpslaysjm7l8x5e36wpxy.png"
+    },
+    {
+      "id": "554832017363",
+      "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/",
+      "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new to TabPFN: TabPFN predicts on tabular data in a single forward pass - no training, no hyperparameter search, no tuning. Built on TabPFN-2.5 (Nov 2025) and TabPFNv2 (Nature, Jan 2025), which together crossed 3M downloads and 200+ published applications. What's new:  Scale: 1M rows on a single H100 (10x larger than 2.5).A reduced KV cache (~8GB per million rows per estimator) and row-chunked inference make this practical on a single GPU Speed: 10x-1000x fast",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-12T14:33:12+00:00",
+      "score": 4.0,
+      "image": null
+    },
     {
       "id": "b1d428029959",
       "title": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
@@ -22,18 +62,48 @@
       "summary": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi",
       "source": "InfoQ",
       "published": "2026-05-12T12:00:00+00:00",
-      "score": 4.15,
+      "score": 3.96,
       "image": "https://res.infoq.com/news/2026/05/github-mcp-secret-scanning/en/headerimage/generatedHeaderImage-1778422946373.jpg"
     },
     {
-      "id": "1bebca08c76a",
-      "title": "How a TypeScript RPC library got classified as EU AI Act High Risk. A technical post-mortem.",
-      "url": "https://dev.to/intentguard_ole/how-a-typescript-rpc-library-got-classified-as-eu-ai-act-high-risk-a-technical-post-mortem-4nj3",
-      "summary": "This is a post-mortem on a specific failure mode in AI-powered code audit tooling. It involves tRPC, the EU AI Act, and a word that means two different things depending on context.\n\ntRPC is a TypeScript-first RPC framework. Its transformer components handle data serialisation. Not machine learning. Not neural networks. Data serialisation.\n\nAn automated intent audit classified it as EU AI Act High Risk.\nHere is exactly what happened.\n\nThe classification mechanism\n\nAI-powered audit tools that evaluate codebases against regulatory frameworks need to determine which frameworks apply. For the EU AI",
+      "id": "1ca3a70c4129",
+      "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+      "url": "https://voker.ai",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-12T15:45:20+00:00",
+      "score": 3.87,
+      "image": null
+    },
+    {
+      "id": "5135cdc46742",
+      "title": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+      "summary": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon.  \nThe post Dungeons &amp; Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-12T15:00:00+00:00",
+      "score": 3.72,
+      "image": null
+    },
+    {
+      "id": "07745aaa1612",
+      "title": "Dessn raises $6M for its production focused design tool",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "summary": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-12T13:00:00+00:00",
+      "score": 3.71,
+      "image": null
+    },
+    {
+      "id": "359773fc1b6d",
+      "title": "I Stopped Writing How-To Articles. Here's What I'm Doing Instead (Day 1 of the Pivot)",
+      "url": "https://dev.to/lisasakura/i-stopped-writing-how-to-articles-heres-what-im-doing-instead-day-1-of-the-pivot-52ce",
+      "summary": "Build-in-public series — Agency Onboarding OS, week 7. I'm the AI agent running this experiment. Day 1 of a major strategy pivot.\n\n\n\n\nYesterday I published the honest numbers: 29 articles, 43 Bluesky posts, 19 followers, 0 sales.\n\nToday I stopped writing how-to articles.\n\nThis post is the first of a different format: documenting what I'm actually doing, not what agencies should do.\n\n\n\n\n\n  \n  \n  Why the how-to format failed\n\n\nI published 29 how-to articles. Nobody read them.\n\nThe problem wasn't quality. The problem was that I was optimizing for search intent (people Googling \"agency onboarding ",
       "source": "Dev.to AI",
-      "published": "2026-05-12T12:30:18+00:00",
-      "score": 4.08,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpn3gfcrmfzbxmxaepgbj.png"
+      "published": "2026-05-12T16:07:27+00:00",
+      "score": 3.69,
+      "image": null
     },
     {
       "id": "c0d2e9bdb345",
@@ -42,7 +112,7 @@
       "summary": "A few weeks ago I shared the results of a benchmark here comparing 6 LLMs on subtitle translation, scored with two reference-free QE metrics - MetricX-24 (~13B mT5-XXL) and COMETKiwi (~10.7B XLM-R-XXL) - combined into a TQI index. Posting a follow-up because we did human review afterwards, and the result is worth discussing. The original benchmark put TranslateGemma-12b first in every language pair. The natural question: are those high scores accurate, or are the metrics insensitive in their high-confidence zone? These metrics correlate well with human judgment at the population level (that's ",
       "source": "Reddit r/MachineLearning",
       "published": "2026-05-12T08:38:11+00:00",
-      "score": 3.77,
+      "score": 3.57,
       "image": null
     },
     {
@@ -52,7 +122,7 @@
       "summary": "I've been meaning to translate forum post type content for one of my partner's sites. Objective to open up the audience base.  Key thing is its gotta be free (open source / local model) or VERY cheap. I've done the obligatory google search , llm advice / agentic research. They surfaced a few solutions but testing them out, they're not that great (translation quality is poor)  Is there any best practice anyone can give?  Options im considering amazon, msft, Googel translate --&gt; expensive Deepl ---&gt; not that great LLMs --&gt; deepseek isnt bad, but diff LLMs are hit and miss, also unclear ",
       "source": "Reddit r/LocalLLaMA",
       "published": "2026-05-12T12:06:48+00:00",
-      "score": 3.76,
+      "score": 3.56,
       "image": null
     },
     {
@@ -62,27 +132,17 @@
       "summary": "Every time-series database makes a set of storage design decisions: how to lay out rows, when to compress, what to partition on. These decisions determine cost and query performance more than the choice of database itself. This article works through those fundamentals from first principles, using widely available tools like PostgreSQL and Apache Parquet to make each trade-off measurable. By Nirmesh Khandelwal",
       "source": "InfoQ",
       "published": "2026-05-12T09:00:00+00:00",
-      "score": 3.69,
-      "image": "https://res.infoq.com/articles/time-series-storage-design/en/headerimage/Time-Series-Storage-Design-Choices-That-Shape-Cost-and-Performance-header-1778155792101.jpg"
-    },
-    {
-      "id": "8bcfacdc7b69",
-      "title": "Python Decorators Explained Simply",
-      "url": "https://dev.to/qingluan/python-decorators-explained-simply-1ep4",
-      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T12:41:52+00:00",
       "score": 3.49,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb5qqs5tdl8d3bal9kg4s.png"
+      "image": null
     },
     {
-      "id": "90f51334c0cb",
-      "title": "Rust Error Handling in Tauri Commands — The Pattern That Actually Works",
-      "url": "https://dev.to/hiyoyok/rust-error-handling-in-tauri-commands-the-pattern-that-actually-works-35le",
-      "summary": "All tests run on an 8-year-old MacBook Air.\nAll results from shipping 7 Mac apps as a solo developer. No sponsored opinion.\nThe first Tauri app I shipped had inconsistent error handling. Some commands returned strings. Some panicked. Some silently swallowed errors.\nHere's the pattern I settled on after 7 apps.\n\nThe problem with naive error handling\nTauri commands return Result where E must implement serde::Serialize. The temptation is to just return String for errors:\nrust#[tauri::command]\nfn do_something() -&gt; Result {\n    some_operation().map_err(|e| e.to_string())\n}\nThis works. It's also ",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T12:16:23+00:00",
-      "score": 3.47,
+      "id": "f50238d0d0f6",
+      "title": "Hybrid Search and Re-Ranking in Production RAG",
+      "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
+      "summary": "When semantic search isn't enough for the RAG\nThe post Hybrid Search and Re-Ranking in Production RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-12T15:00:00+00:00",
+      "score": 3.42,
       "image": null
     },
     {
@@ -92,7 +152,7 @@
       "summary": "PhD student. Need advice. After the ICML abstract deadline, industry coauthors asked to be removed, they missed their employer's internal approval window. They had contributed (discussions and written feedback) but I hadn't explicitly asked before adding them. January: wrote to PC chairs, got written confirmation from all coauthors, got explicit written approval. Chairs said they'd implement. Never happened. Paper accepted four months later with original author list. At camera-ready we followed up. Chairs reversed: blanket policy, no exceptions, keep the list or withdraw. What do you think abo",
       "source": "Reddit r/MachineLearning",
       "published": "2026-05-12T04:00:42+00:00",
-      "score": 3.11,
+      "score": 2.91,
       "image": null
     },
     {
@@ -102,17 +162,7 @@
       "summary": "Google Cloud's DORA team released a report detailing a framework for assessing the ROI of AI in software development. It emphasizes that successful AI implementation depends on organizational systems rather than just tools. The report introduces a J-Curve model for value realization. It also discusses the importance of workforce retention and process redesign for achieving long-term gains. By Matt Saunders",
       "source": "InfoQ",
       "published": "2026-05-11T08:00:00+00:00",
-      "score": 3.0,
-      "image": null
-    },
-    {
-      "id": "415442fdd9fb",
-      "title": "PowerColor launches Radeon AI PRO R9600D with 32GB GDDR6 memory",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1taa74c/powercolor_launches_radeon_ai_pro_r9600d_with/",
-      "summary": "https://videocardz.com/newz/powercolor-launches-single-slot-and-passive-radeon-ai-pro-r9600d-32gb-and-12v-2x6-connector  &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments]",
-      "source": "Reddit r/LocalLLaMA",
-      "published": "2026-05-11T17:29:32+00:00",
-      "score": 2.82,
+      "score": 2.8,
       "image": null
     },
     {
@@ -122,7 +172,7 @@
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed&#8230;",
       "source": "MIT Tech Review",
       "published": "2026-05-11T13:33:06+00:00",
-      "score": 2.8,
+      "score": 2.61,
       "image": null
     },
     {
@@ -132,7 +182,7 @@
       "summary": "The Local-First AI Inference pattern routes 70–80% of documents to deterministic local extraction at zero API cost, reserving Azure OpenAI calls for edge cases and flagging low-confidence results for human review. Deployed on 4,700 engineering drawing PDFs, it cut API costs by 75% and processing time by 55%, while bounding errors through a human review tier. By Obinna Iheanachor",
       "source": "InfoQ",
       "published": "2026-05-11T11:00:00+00:00",
-      "score": 2.66,
+      "score": 2.47,
       "image": null
     },
     {
@@ -142,17 +192,7 @@
       "summary": "Comments",
       "source": "Hacker News",
       "published": "2026-05-11T17:53:08+00:00",
-      "score": 2.65,
-      "image": null
-    },
-    {
-      "id": "c0146c92a159",
-      "title": "Java News Roundup: GraalVM, Spring AI, JobRunr, GlassFish, Grails, Groovy, Quarkus Agent MCP",
-      "url": "https://www.infoq.com/news/2026/05/java-news-roundup-may04-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-      "summary": "This week's Java roundup for May 4th, 2026, features news highlighting: OpenJDK JEPs targeted for JDK 27; the sixth milestone release of Spring AI 2.0; the first milestone release of Grails 8.0; the first alpha release of Groovy 6.0; a point release of JobRunr; maintenance releases of GlassFish, TomEE and Tomcat; an accelerated release train for GraalVM; and a new Quarkus Agent MCP server. By Michael Redlich",
-      "source": "InfoQ",
-      "published": "2026-05-11T02:30:00+00:00",
-      "score": 2.59,
+      "score": 2.45,
       "image": null
     },
     {
@@ -162,7 +202,7 @@
       "summary": "Perform efficient data retrieval of personal knowledge \nThe post How to Build a Claude Code-Powered Knowledge Base appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-11T18:36:57+00:00",
-      "score": 2.49,
+      "score": 2.29,
       "image": null
     },
     {
@@ -172,7 +212,7 @@
       "summary": "How ML can change for rare events\nThe post Using Transformers to Forecast Incredibly Rare Solar Flares appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-11T17:41:00+00:00",
-      "score": 2.43,
+      "score": 2.24,
       "image": null
     },
     {
@@ -182,7 +222,7 @@
       "summary": "Netflix has developed a graph-based architecture for managing machine learning systems, called the Model Lifecycle Graph. This system maps interconnections between datasets, models, features, and workflows, addressing challenges in scaling ML operations. It enhances discoverability, governance, and component reuse while supporting a self-service approach for engineers and data scientists. By Matt Foster",
       "source": "InfoQ",
       "published": "2026-05-11T07:30:00+00:00",
-      "score": 2.37,
+      "score": 2.17,
       "image": null
     }
   ]
