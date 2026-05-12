@@ -1,7 +1,7 @@
 {
   "digest": {
     "headline": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
-    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
     "sections": [
       {
         "title": "AI & Models",
@@ -106,13 +106,23 @@
       "image": null
     },
     {
+      "id": "415442fdd9fb",
+      "title": "PowerColor launches Radeon AI PRO R9600D with 32GB GDDR6 memory",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1taa74c/powercolor_launches_radeon_ai_pro_r9600d_with/",
+      "summary": "https://videocardz.com/newz/powercolor-launches-single-slot-and-passive-radeon-ai-pro-r9600d-32gb-and-12v-2x6-connector  &#32; submitted by &#32;  /u/MundanePercentage674   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-11T17:29:32+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
       "id": "4fbc0b3b8234",
       "title": "Fostering breakthrough AI innovation through customer-back engineering",
       "url": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed&#8230;",
       "source": "MIT Tech Review",
       "published": "2026-05-11T13:33:06+00:00",
-      "score": 2.81,
+      "score": 2.8,
       "image": null
     },
     {
@@ -122,7 +132,7 @@
       "summary": "The Local-First AI Inference pattern routes 70–80% of documents to deterministic local extraction at zero API cost, reserving Azure OpenAI calls for edge cases and flagging low-confidence results for human review. Deployed on 4,700 engineering drawing PDFs, it cut API costs by 75% and processing time by 55%, while bounding errors through a human review tier. By Obinna Iheanachor",
       "source": "InfoQ",
       "published": "2026-05-11T11:00:00+00:00",
-      "score": 2.67,
+      "score": 2.66,
       "image": null
     },
     {
@@ -162,7 +172,7 @@
       "summary": "How ML can change for rare events\nThe post Using Transformers to Forecast Incredibly Rare Solar Flares appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-11T17:41:00+00:00",
-      "score": 2.44,
+      "score": 2.43,
       "image": null
     },
     {
