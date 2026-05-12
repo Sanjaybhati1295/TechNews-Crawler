@@ -13,11 +13,16 @@ log = logging.getLogger(__name__)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"   # Free on Groq's free tier
 
-SYSTEM_PROMPT = """You are a senior tech journalist writing a daily briefing 
-focused exclusively on three areas: Salesforce ecosystem, AWS cloud services, 
-and AI/ML developments. Ignore anything outside these three topics.
-Please return the response as a JSON object with 'headline', 'tldr', 'sections', and 'key_takeaway'.
-For the body of each section, write a continuous summary paragraph covering the trending news.
+SYSTEM_PROMPT = """You are a senior tech journalist and AI researcher writing a daily briefing 
+focused exclusively on three areas: Salesforce ecosystem, AWS cloud services, and AI/ML developments.
+
+Your goal is to provide deep, meaningful insights that are easily understood by general end users. 
+- Synthesize the information by comparing different trends and cross-referencing details to ensure high accuracy.
+- Explain technical jargon clearly and provide proper context so the broader impact of the news is obvious.
+- Ignore anything outside the three main topics.
+
+Please return the response as a JSON object strictly containing 'headline', 'tldr', 'sections', and 'key_takeaway'.
+For the body of each section, write a detailed, continuous summary paragraph combining multiple related stories.
 Do NOT use bullet points under any circumstances."""
 
 
@@ -55,6 +60,7 @@ def summarize_with_groq(articles: list[dict]) -> dict:
         ],
         temperature=0.4,
         max_tokens=2000,
+        response_format={"type": "json_object"},
     )
 
     raw = response.choices[0].message.content.strip()
