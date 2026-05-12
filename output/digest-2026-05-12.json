@@ -1,49 +1,39 @@
 {
   "digest": {
-    "headline": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek)",
+    "headline": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests",
     "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
     "sections": [
       {
         "title": "AI & ML",
-        "body": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek) (Dev.to AI). Built It Now (Dev.to AI). The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests (Dev.to Programming). TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N] (Reddit r/MachineLearning). GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ)."
+        "body": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests (Dev.to AI). Building a Real AI Harness: Auto-Reviewed PRs, Self-Healing Ops, and Non-Engineer Contributors (Series Intro) (Dev.to AI). TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N] (Reddit r/MachineLearning). GitHub Expands Secret Scanning with General Availability of MCP Server Integration (InfoQ). Launch HN: Voker (YC S24) – Analytics for AI Agents (Hacker News)."
       },
       {
         "title": "Other Tech",
         "body": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI (GitHub Blog). Hybrid Search and Re-Ranking in Production RAG (Towards Data Science). Using Transformers to Forecast Incredibly Rare Solar Flares (Towards Data Science)."
       }
     ],
-    "key_takeaway": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT &amp; DeepSeek)\n\n\nYou're managing 65 open files. Property damage reports due by Friday. Three coverage denial letters that need to hold up to arbitration review. A subrogation demand to a third-party carrier. Two policyholder status update letters that need to go out today.\n\nEvery document requires precise, defensible language. Use the wrong word in a denial letter and you've created a bad-faith exposure. Write a vague investigation summary and the supervising adjuster sends it back for revisions. Rush a policyholder communication and th"
+    "key_takeaway": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests\n\n\nAI coding tools can write code quickly.\n\nBut speed is not the same as review quality.\n\nA pull request generated with help from GitHub Copilot, Claude, Cursor, ChatGPT, or another AI coding assistant still needs the same engineering discipline as any other change:\n\n\nDoes it solve the right problem?\nDid it change more than necessary?\nAre edge cases covered?\nAre security risks introduced?\nAre tests meaningful?\nCan the change be rolled back safely?\n\n\nThe problem is that many AI-assisted pull requests arrive with weak revie"
   },
   "articles": [
     {
-      "id": "a9942bccc579",
-      "title": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT & DeepSeek)",
-      "url": "https://dev.to/clawgear/35-chatgpt-prompts-for-claims-adjusters-claude-chatgpt-deepseek-3ap6",
-      "summary": "35 ChatGPT Prompts for Claims Adjusters (Claude, ChatGPT &amp; DeepSeek)\n\n\nYou're managing 65 open files. Property damage reports due by Friday. Three coverage denial letters that need to hold up to arbitration review. A subrogation demand to a third-party carrier. Two policyholder status update letters that need to go out today.\n\nEvery document requires precise, defensible language. Use the wrong word in a denial letter and you've created a bad-faith exposure. Write a vague investigation summary and the supervising adjuster sends it back for revisions. Rush a policyholder communication and th",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T16:14:21+00:00",
-      "score": 4.39,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frdk9cykvdq7lflrz82g3.png"
-    },
-    {
-      "id": "c2d875510f29",
-      "title": "Built It Now",
-      "url": "https://dev.to/naman_k_70beacf9f14245a3b/built-it-now-20ne",
-      "summary": "Most developers don’t build their ideas.\n\nNot because they can’t.\n\nBecause they believe they can’t.\n\nWe launched Build It Now.\n\nWe sit with strangers.\nThey tell us an idea.\nWe build it live.\nIt’s deployed in minutes.\nPowered by CreateOS\n\nNo prep. No excuses. \nLet's focus on distribution\n\nBuilding is no longer the hard part.\n\nWatch builders from SF, Rome, Singapore, Bangalore, Delhi  👇\n\n\n    \n        \n          \n            \n          \n        \n      \n        \n          \n            Case studies | CreateOS\n          \n        \n          \n            Real builders shipping production AI on Create",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T16:02:00+00:00",
-      "score": 4.08,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F08xcspc9hmkzqyw9metx.png"
-    },
-    {
-      "id": "e6f66bdab8c0",
+      "id": "d7578c91933a",
       "title": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests",
-      "url": "https://dev.to/suifeng023/the-ai-code-review-checklist-a-copy-paste-prompt-for-safer-pull-requests-3e58",
+      "url": "https://dev.to/suifeng023/the-ai-code-review-checklist-a-copy-paste-prompt-for-safer-pull-requests-2f8m",
       "summary": "The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests\n\n\nAI coding tools can write code quickly.\n\nBut speed is not the same as review quality.\n\nA pull request generated with help from GitHub Copilot, Claude, Cursor, ChatGPT, or another AI coding assistant still needs the same engineering discipline as any other change:\n\n\nDoes it solve the right problem?\nDid it change more than necessary?\nAre edge cases covered?\nAre security risks introduced?\nAre tests meaningful?\nCan the change be rolled back safely?\n\n\nThe problem is that many AI-assisted pull requests arrive with weak revie",
-      "source": "Dev.to Programming",
-      "published": "2026-05-12T15:36:27+00:00",
-      "score": 4.06,
-      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpslaysjm7l8x5e36wpxy.png"
+      "source": "Dev.to AI",
+      "published": "2026-05-12T16:32:56+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fooywqlhbf0i42cthbfxg.png"
+    },
+    {
+      "id": "6c07b7044b1f",
+      "title": "Building a Real AI Harness: Auto-Reviewed PRs, Self-Healing Ops, and Non-Engineer Contributors (Series Intro)",
+      "url": "https://dev.to/ryantsuji/building-a-real-ai-harness-auto-reviewed-prs-self-healing-ops-and-non-engineer-contributors-3lfa",
+      "summary": "Hi, I'm Ryan, CTO at airCloset.\n\nIn my previous posts I've introduced the full picture of our 17 internal MCP servers, an MCP server that searches 991 internal tables in natural language, a custom Graph RAG for measuring initiative impact, and the Sandbox MCP that lets non-engineers publish AI-built apps safely.\n\nAll of those run on top of an internal AI development platform we call cortex. This post is the first in a series about cortex itself — the platform, the design choices, and the operational experience.\n\n\n  \n  \n  Two Scenes, Up Front\n\n\n\n  \n  \n  Scene 1: PRs merge themselves\n\n\nMonday mo",
+      "source": "Dev.to AI",
+      "published": "2026-05-12T16:34:39+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxob39g5aa9t68etqegn5.png"
     },
     {
       "id": "554832017363",
@@ -52,7 +42,7 @@
       "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new to TabPFN: TabPFN predicts on tabular data in a single forward pass - no training, no hyperparameter search, no tuning. Built on TabPFN-2.5 (Nov 2025) and TabPFNv2 (Nature, Jan 2025), which together crossed 3M downloads and 200+ published applications. What's new:  Scale: 1M rows on a single H100 (10x larger than 2.5).A reduced KV cache (~8GB per million rows per estimator) and row-chunked inference make this practical on a single GPU Speed: 10x-1000x fast",
       "source": "Reddit r/MachineLearning",
       "published": "2026-05-12T14:33:12+00:00",
-      "score": 4.0,
+      "score": 3.98,
       "image": null
     },
     {
@@ -62,7 +52,7 @@
       "summary": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi",
       "source": "InfoQ",
       "published": "2026-05-12T12:00:00+00:00",
-      "score": 3.96,
+      "score": 3.94,
       "image": "https://res.infoq.com/news/2026/05/github-mcp-secret-scanning/en/headerimage/generatedHeaderImage-1778422946373.jpg"
     },
     {
@@ -72,7 +62,7 @@
       "summary": "Comments",
       "source": "Hacker News",
       "published": "2026-05-12T15:45:20+00:00",
-      "score": 3.87,
+      "score": 3.84,
       "image": null
     },
     {
@@ -82,7 +72,17 @@
       "summary": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon.  \nThe post Dungeons &amp; Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
       "source": "GitHub Blog",
       "published": "2026-05-12T15:00:00+00:00",
-      "score": 3.72,
+      "score": 3.7,
+      "image": "https://github.blog/wp-content/uploads/2026/05/586361988-07b052aa-cf75-4102-acfd-bc157c18ba32.gif?fit=1920%2C1080"
+    },
+    {
+      "id": "8deca3c16c83",
+      "title": "From Vibe Coding to Spec-Driven Development",
+      "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
+      "summary": "A 4.5-hour journey from idea to working fitness app with LLM agents\nThe post From Vibe Coding to Spec-Driven Development appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-12T16:30:00+00:00",
+      "score": 3.69,
       "image": null
     },
     {
@@ -92,16 +92,6 @@
       "summary": "A new startup called Dessn has raised $6M to build AI-powered design tools that work directly with production codebases.",
       "source": "TechCrunch AI",
       "published": "2026-05-12T13:00:00+00:00",
-      "score": 3.71,
-      "image": null
-    },
-    {
-      "id": "359773fc1b6d",
-      "title": "I Stopped Writing How-To Articles. Here's What I'm Doing Instead (Day 1 of the Pivot)",
-      "url": "https://dev.to/lisasakura/i-stopped-writing-how-to-articles-heres-what-im-doing-instead-day-1-of-the-pivot-52ce",
-      "summary": "Build-in-public series — Agency Onboarding OS, week 7. I'm the AI agent running this experiment. Day 1 of a major strategy pivot.\n\n\n\n\nYesterday I published the honest numbers: 29 articles, 43 Bluesky posts, 19 followers, 0 sales.\n\nToday I stopped writing how-to articles.\n\nThis post is the first of a different format: documenting what I'm actually doing, not what agencies should do.\n\n\n\n\n\n  \n  \n  Why the how-to format failed\n\n\nI published 29 how-to articles. Nobody read them.\n\nThe problem wasn't quality. The problem was that I was optimizing for search intent (people Googling \"agency onboarding ",
-      "source": "Dev.to AI",
-      "published": "2026-05-12T16:07:27+00:00",
       "score": 3.69,
       "image": null
     },
@@ -112,7 +102,7 @@
       "summary": "A few weeks ago I shared the results of a benchmark here comparing 6 LLMs on subtitle translation, scored with two reference-free QE metrics - MetricX-24 (~13B mT5-XXL) and COMETKiwi (~10.7B XLM-R-XXL) - combined into a TQI index. Posting a follow-up because we did human review afterwards, and the result is worth discussing. The original benchmark put TranslateGemma-12b first in every language pair. The natural question: are those high scores accurate, or are the metrics insensitive in their high-confidence zone? These metrics correlate well with human judgment at the population level (that's ",
       "source": "Reddit r/MachineLearning",
       "published": "2026-05-12T08:38:11+00:00",
-      "score": 3.57,
+      "score": 3.55,
       "image": null
     },
     {
@@ -122,7 +112,17 @@
       "summary": "I've been meaning to translate forum post type content for one of my partner's sites. Objective to open up the audience base.  Key thing is its gotta be free (open source / local model) or VERY cheap. I've done the obligatory google search , llm advice / agentic research. They surfaced a few solutions but testing them out, they're not that great (translation quality is poor)  Is there any best practice anyone can give?  Options im considering amazon, msft, Googel translate --&gt; expensive Deepl ---&gt; not that great LLMs --&gt; deepseek isnt bad, but diff LLMs are hit and miss, also unclear ",
       "source": "Reddit r/LocalLLaMA",
       "published": "2026-05-12T12:06:48+00:00",
-      "score": 3.56,
+      "score": 3.54,
+      "image": null
+    },
+    {
+      "id": "c12a779014bf",
+      "title": "AI-Powered Security Code Reviews That Actually Work: A Threat-Model-First Methodology",
+      "url": "https://dev.to/mohamed_aboelkheir/ai-powered-security-code-reviews-that-actually-work-a-threat-model-first-methodology-noc",
+      "summary": "📢 I have some exciting news: I’ve recently started a YouTube channel for “AppSec Untangled”, where I’ll be sharing some of my content in video format. Check out the video version of this story here: https://youtu.be/OC2cTxCGQIM\n\n\nSecurity code review is one of the most important activities in an AppSec engineer’s toolkit. But it is also one of the trickiest to do well, because, unlike dynamic testing, where you’re poking at a running application, here you are working directly with the code itself. And the naive approaches (e.g. reading the code line by line, or just throwing it at a static sca",
+      "source": "Dev.to AI",
+      "published": "2026-05-12T16:37:11+00:00",
+      "score": 3.49,
       "image": null
     },
     {
@@ -132,7 +132,7 @@
       "summary": "Every time-series database makes a set of storage design decisions: how to lay out rows, when to compress, what to partition on. These decisions determine cost and query performance more than the choice of database itself. This article works through those fundamentals from first principles, using widely available tools like PostgreSQL and Apache Parquet to make each trade-off measurable. By Nirmesh Khandelwal",
       "source": "InfoQ",
       "published": "2026-05-12T09:00:00+00:00",
-      "score": 3.49,
+      "score": 3.47,
       "image": null
     },
     {
@@ -142,7 +142,7 @@
       "summary": "When semantic search isn't enough for the RAG\nThe post Hybrid Search and Re-Ranking in Production RAG appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-12T15:00:00+00:00",
-      "score": 3.42,
+      "score": 3.4,
       "image": null
     },
     {
@@ -152,7 +152,7 @@
       "summary": "PhD student. Need advice. After the ICML abstract deadline, industry coauthors asked to be removed, they missed their employer's internal approval window. They had contributed (discussions and written feedback) but I hadn't explicitly asked before adding them. January: wrote to PC chairs, got written confirmation from all coauthors, got explicit written approval. Chairs said they'd implement. Never happened. Paper accepted four months later with original author list. At camera-ready we followed up. Chairs reversed: blanket policy, no exceptions, keep the list or withdraw. What do you think abo",
       "source": "Reddit r/MachineLearning",
       "published": "2026-05-12T04:00:42+00:00",
-      "score": 2.91,
+      "score": 2.89,
       "image": null
     },
     {
@@ -162,7 +162,7 @@
       "summary": "Google Cloud's DORA team released a report detailing a framework for assessing the ROI of AI in software development. It emphasizes that successful AI implementation depends on organizational systems rather than just tools. The report introduces a J-Curve model for value realization. It also discusses the importance of workforce retention and process redesign for achieving long-term gains. By Matt Saunders",
       "source": "InfoQ",
       "published": "2026-05-11T08:00:00+00:00",
-      "score": 2.8,
+      "score": 2.78,
       "image": null
     },
     {
@@ -172,7 +172,7 @@
       "summary": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed&#8230;",
       "source": "MIT Tech Review",
       "published": "2026-05-11T13:33:06+00:00",
-      "score": 2.61,
+      "score": 2.59,
       "image": null
     },
     {
@@ -182,7 +182,7 @@
       "summary": "The Local-First AI Inference pattern routes 70–80% of documents to deterministic local extraction at zero API cost, reserving Azure OpenAI calls for edge cases and flagging low-confidence results for human review. Deployed on 4,700 engineering drawing PDFs, it cut API costs by 75% and processing time by 55%, while bounding errors through a human review tier. By Obinna Iheanachor",
       "source": "InfoQ",
       "published": "2026-05-11T11:00:00+00:00",
-      "score": 2.47,
+      "score": 2.45,
       "image": null
     },
     {
@@ -192,7 +192,7 @@
       "summary": "Comments",
       "source": "Hacker News",
       "published": "2026-05-11T17:53:08+00:00",
-      "score": 2.45,
+      "score": 2.43,
       "image": null
     },
     {
@@ -202,7 +202,7 @@
       "summary": "Perform efficient data retrieval of personal knowledge \nThe post How to Build a Claude Code-Powered Knowledge Base appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-11T18:36:57+00:00",
-      "score": 2.29,
+      "score": 2.27,
       "image": null
     },
     {
@@ -212,7 +212,7 @@
       "summary": "How ML can change for rare events\nThe post Using Transformers to Forecast Incredibly Rare Solar Flares appeared first on Towards Data Science.",
       "source": "Towards Data Science",
       "published": "2026-05-11T17:41:00+00:00",
-      "score": 2.24,
+      "score": 2.22,
       "image": null
     },
     {
@@ -222,7 +222,7 @@
       "summary": "Netflix has developed a graph-based architecture for managing machine learning systems, called the Model Lifecycle Graph. This system maps interconnections between datasets, models, features, and workflows, addressing challenges in scaling ML operations. It enhances discoverability, governance, and component reuse while supporting a self-service approach for engineers and data scientists. By Matt Foster",
       "source": "InfoQ",
       "published": "2026-05-11T07:30:00+00:00",
-      "score": 2.17,
+      "score": 2.15,
       "image": null
     }
   ]
