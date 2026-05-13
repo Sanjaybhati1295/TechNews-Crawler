@@ -197,3 +197,37 @@
 2026-05-12 16:45:08,869  INFO     ────────────────────────────────────────────────────────────
 2026-05-12 16:45:08,869  INFO     Done!  Open: output/index.html
 2026-05-12 16:45:08,869  INFO     Headline: The AI Code Review Checklist: A Copy-Paste Prompt for Safer Pull Requests
+2026-05-13 09:36:03,694  INFO     ============================================================
+2026-05-13 09:36:03,694  INFO     TECHPULSE Digest — 2026-05-13 09:36 UTC
+2026-05-13 09:36:03,694  INFO     ============================================================
+2026-05-13 09:36:03,695  INFO     Step 1/3 — Crawling feeds…
+2026-05-13 09:36:04,165  INFO       Hacker News                    → 1 significant articles
+2026-05-13 09:36:04,470  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-13 09:36:04,880  INFO       Ars Technica                   → 0 significant articles
+2026-05-13 09:36:05,403  INFO       The Register AI                → 0 significant articles
+2026-05-13 09:36:05,500  INFO       MIT Tech Review                → 0 significant articles
+2026-05-13 09:36:05,691  INFO       Dev.to AI                      → 4 significant articles
+2026-05-13 09:36:05,820  INFO       Dev.to Programming             → 2 significant articles
+2026-05-13 09:36:05,929  INFO       GitHub Blog                    → 2 significant articles
+2026-05-13 09:36:06,689  INFO       Google Research                → 0 significant articles
+2026-05-13 09:36:07,289  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-05-13 09:36:07,891  INFO       Reddit r/LocalLLaMA            → 3 significant articles
+2026-05-13 09:36:08,473  INFO       InfoQ                          → 4 significant articles
+2026-05-13 09:36:08,675  INFO       Towards Data Science           → 2 significant articles
+2026-05-13 09:36:08,896  INFO       Wired AI                       → 0 significant articles
+2026-05-13 09:36:08,949  INFO       TechCrunch AI                  → 4 significant articles
+2026-05-13 09:36:08,949  INFO     Fetching images for top articles…
+2026-05-13 09:36:08,999  INFO       🖼  Everything Google announced at its Android Show, from Google
+2026-05-13 09:36:09,939  INFO       🖼  AWS WorkSpaces Now Lets AI Agents Operate Legacy Desktop App
+2026-05-13 09:36:10,669  INFO       🖼  Grafana's Pyroscope 2.0 Makes Continuous Profiling Practical
+2026-05-13 09:36:10,705  INFO       🖼  I have talked to dozens of AI teams about production. The sa
+2026-05-13 09:36:10,739  INFO       🖼  The database has to be a defensive boundary again
+2026-05-13 09:36:10,774  INFO     Total selected: 24 articles from 15 feeds
+2026-05-13 09:36:10,774  INFO     Selected 24 significant articles
+2026-05-13 09:36:10,775  INFO     Step 2/3 — Generating digest…
+2026-05-13 09:36:11,297  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-13 09:36:11,298  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-13 09:36:11,298  INFO     Step 3/3 — Rendering HTML…
+2026-05-13 09:36:11,299  INFO     ────────────────────────────────────────────────────────────
+2026-05-13 09:36:11,299  INFO     Done!  Open: output/index.html
+2026-05-13 09:36:11,299  INFO     Headline: Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets

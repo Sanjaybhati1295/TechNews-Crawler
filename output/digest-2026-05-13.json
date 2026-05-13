@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets (TechCrunch AI). AWS WorkSpaces Now Lets AI Agents Operate Legacy Desktop Applications Without APIs (InfoQ). I have talked to dozens of AI teams about production. The same things keep breaking. (Dev.to AI). The database has to be a defensive boundary again (Dev.to Programming). My First Official AI Research Paper Accepted on SSRN (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Grafana's Pyroscope 2.0 Makes Continuous Profiling Practical at Scale (InfoQ). GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan (GitHub Blog). Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI (GitHub Blog). Hybrid Search and Re-Ranking in Production RAG (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O."
+  },
+  "articles": [
+    {
+      "id": "b005c648c35c",
+      "title": "Everything Google announced at its Android Show, from Googlebooks to vibe-coded widgets",
+      "url": "https://techcrunch.com/2026/05/12/everything-google-announced-at-its-android-show-from-googlebooks-to-vibe-coded-widgets/",
+      "summary": "Google unveiled its new AI-first Googlebooks laptops, more agentic Gemini features, vibe-coded Android widgets, Gemini in Chrome, refreshed Android Auto, and more ahead of I/O.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-12T17:01:00+00:00",
+      "score": 4.58,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/googlebook.png?resize=1200,843"
+    },
+    {
+      "id": "9008f156244e",
+      "title": "AWS WorkSpaces Now Lets AI Agents Operate Legacy Desktop Applications Without APIs",
+      "url": "https://www.infoq.com/news/2026/05/aws-workspaces-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS announced that Amazon WorkSpaces can now serve as managed virtual desktops for AI agents in public preview. Agents authenticate through IAM and operate legacy applications via computer vision and input simulation without APIs. Reflex benchmarks show vision agents consume 45x more tokens than API agents. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-05-13T07:31:00+00:00",
+      "score": 4.28,
+      "image": "https://res.infoq.com/news/2026/05/aws-workspaces-ai-agents/en/headerimage/generatedHeaderImage-1778485554177.jpg"
+    },
+    {
+      "id": "f2cb23833000",
+      "title": "Grafana's Pyroscope 2.0 Makes Continuous Profiling Practical at Scale",
+      "url": "https://www.infoq.com/news/2026/05/pyroscope-2-profiling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Grafana Labs has launched Pyroscope 2.0, a rearchitected open-source continuous profiling database. This version improves storage costs, query performance, and operational complexity. Key changes include single write paths for profiles, stateless query processing, and enhanced capabilities for profiling data. It supports the OpenTelemetry Protocol, aligning with current trends in observability. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-05-13T08:00:00+00:00",
+      "score": 3.91,
+      "image": "https://res.infoq.com/news/2026/05/pyroscope-2-profiling/en/headerimage/generatedHeaderImage-1778539051167.jpg"
+    },
+    {
+      "id": "c7ffb4e19448",
+      "title": "I have talked to dozens of AI teams about production. The same things keep breaking.",
+      "url": "https://dev.to/neethu_eve_/i-have-talked-to-dozens-of-ai-teams-about-production-the-same-things-keep-breaking-1n6b",
+      "summary": "I have been a PM at NETRA long enough to have had the same conversation about 40 times.\nAn AI team reaches out. They're building something serious in the agent space, a customer-facing agent. Things are moving fast. Shipping is happening.\nAnd somewhere in the first ten minutes, they describe the same problem in different words.\n\"We got to know that the quality had dropped from a user complaint.\"\n\"Our costs spiked and we saw it in the monthly finance review.\"\n\"We changed the prompt three weeks ago and we're not sure if that's what caused this.\"\nEvery time. Different team. Different product. Sam",
+      "source": "Dev.to AI",
+      "published": "2026-05-13T09:26:35+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmb5bf22gkxpudyn4tqaz.png"
+    },
+    {
+      "id": "4973977c48e5",
+      "title": "The database has to be a defensive boundary again",
+      "url": "https://dev.to/debba/the-database-has-to-be-a-defensive-boundary-again-1o3e",
+      "summary": "For two decades the database has been able to outsource trust to the application layer. The app authenticated users, sanitized inputs, enforced business rules, and the DB just executed whatever came through the connection pool. That worked because the caller was almost always software written by someone, reviewed by someone, and shipped on a release train.\n\nAgents don't fit that picture.\n\nOnce an LLM with tool access holds a live connection to your production database, the assumptions behind the application-as-perimeter model stop being true:\n\n\nConnections aren't short-lived anymore. A tool-us",
+      "source": "Dev.to Programming",
+      "published": "2026-05-13T08:46:09+00:00",
+      "score": 3.85,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg872iabvscqa7h925gmi.png"
+    },
+    {
+      "id": "c6767817fced",
+      "title": "My First Official AI Research Paper Accepted on SSRN",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbht4h/my_first_official_ai_research_paper_accepted_on/",
+      "summary": "https://preview.redd.it/oz4vpoxdfs0h1.jpg?width=910&amp;format=pjpg&amp;auto=webp&amp;s=fa4c91aad0e3c56850fbfc06099e9c4095712bbd Today, my research paper “Stable Training with Adaptive Momentum (STAM)” was officially accepted on SSRN — marking my first documented and official publication as an AI Researcher. The paper introduces a new optimization algorithm for deep learning training that outperformed several popular optimizers in selected benchmarks, addressed multiple training stability challenges, and achieved up to 50% reduction in computational training cost in some experiments. This is a",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-12T23:04:46+00:00",
+      "score": 3.82,
+      "image": null
+    },
+    {
+      "id": "bb193a06a72a",
+      "title": "ERC8128_ALLOWED_DOMAINS Policy: Restrict Your AI Agent's Message Signing to Trusted Services",
+      "url": "https://dev.to/walletguy/erc8128alloweddomains-policy-restrict-your-ai-agents-message-signing-to-trusted-services-li2",
+      "summary": "AI agents with message-signing capabilities need strict guardrails to prevent signing unauthorized messages that could compromise your security. The ERC8128_ALLOWED_DOMAINS policy in WAIaaS creates a whitelist of trusted domains where your AI agent can use cryptographic message signing, blocking all other requests by default.\n\nWithout proper controls, an AI agent with signing privileges could potentially sign authentication messages for malicious services, authorize unintended actions, or leak sensitive information through signed data. This represents a significant security risk when deploying",
+      "source": "Dev.to AI",
+      "published": "2026-05-13T09:21:58+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "813ef707e0dc",
+      "title": "When Agents Learn From Their Own Wreckage",
+      "url": "https://dev.to/joinwell52/when-agents-learn-from-their-own-wreckage-45p2",
+      "summary": "A Field Report from the codeflow Project · Fourteen Emergences in One Day · How FCoP Pulled Them Back In\n\n\nWhen Agents Learn From Their Own Wreckage: a single-day field report of fourteen emergences inside the codeflow project, and how the FCoP protocol pulled the useful ones back in.\n\n\nAuthor: FCoP Maintainers · 2026-05-12\n\n\n\n\n\n  \n  \n  TL;DR\n\n\nOn 2026-05-12, in approximately six hours, the codeflow project — serving as FCoP's first large-scale dogfood stress test — produced:\n\n\n\nFourteen agent emergences (PM sequence #44–#54, 11 total; OPS sequence I-12 / I-13 / I-14, 3 total; QA I-5, 1 total)",
+      "source": "Dev.to AI",
+      "published": "2026-05-13T09:14:36+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "9f51a76b447c",
+      "title": "Medicare’s new payment model is built for AI, and most of the tech world has no idea",
+      "url": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea/",
+      "summary": "There is no governmental mechanism to pay for an AI agent that monitors a patient between visits, calls to check in, coordinates a housing referral, or makes sure someone picks up their medication. ACCESS creates that mechanism for the first time.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-13T00:26:48+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "865fe0576ccf",
+      "title": "\"My README Kept Trying to Be the Whole Product Manual. So I Split It Into 3 Layers\"",
+      "url": "https://dev.to/codekingai/my-readme-kept-trying-to-be-the-whole-product-manual-so-i-split-it-into-3-layers-383h",
+      "summary": "I kept fixing the same problem in three different places.\n\nSomeone would land on the GitHub repo for my local AI gateway and need a fast answer: what is this thing, what does it support, and how do I start it?\n\nInstead, they got the same thing a lot of open-source projects accidentally grow into: a README that wanted to be a landing page, onboarding guide, operator manual, architecture index, and release checklist at the same time.\n\nThat works for a while. Then every edit makes it worse.\n\n\n  \n  \n  The failure mode was boring but expensive\n\n\nThe project is CliGate, a local AI gateway that sits ",
+      "source": "Dev.to AI",
+      "published": "2026-05-13T09:14:53+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "ac5421aad4da",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-2el6",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-13T09:12:57+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "bcf0d298bd4f",
+      "title": "Fine-Tuning TranslateGemma-4B to improve bi-directional English & Welsh translations on an H200 GPU!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbj8ow/finetuning_translategemma4b_to_improve/",
+      "summary": "Open source repo: https://github.com/grctest/finetuned-gemmatranslate-cy 5% of the fine-tuning took 40 minutes and cost a couple dollars to prove the process works. Looking forwards to Flash Attention v4 to leave beta, to test fine-tuning performance on a B200 on the cloud, probably a few months away it seems? What languages would you train TranslateGemma to be able to translate? I was originally thinking about klingon but the available datasets seemed a bit lacking..  &#32; submitted by &#32;  /u/ufos1111   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-13T00:04:36+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "d5fc72a68075",
+      "title": "I got a real transformer language model running locally on a stock Game Boy Color!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tbi2n3/i_got_a_real_transformer_language_model_running/",
+      "summary": "No phone, PC, Wi-Fi, link cable, or cloud inference.  • The cartridge boots a ROM, and the GBC runs the model itself. • The model is Andrej Karpathy’s TinyStories-260K, converted to INT8 weights with fixed-point math so it can run without floating point. • Built with GBDK-2020 as an MBC5 Game Boy ROM. • The model weights live in bank-switched cartridge ROM. Prompt entry happens on-device with the D-pad/buttons and an on-screen keyboard. • The prompt is tokenized on the Game Boy, then the ROM runs transformer prefill + autoregressive generation. The KV cache is stored in cartridge SRAM, because",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-12T23:15:42+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "ce13f861b472",
+      "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
+      "summary": "Starting June 1, our lineup of individual plans will update based on your feedback.\nThe post GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-12T17:35:41+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "554832017363",
+      "title": "TabPFN-3 just released: a pre-trained tabular foundation model for up to 1M rows [R][N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tb3fh5/tabpfn3_just_released_a_pretrained_tabular/",
+      "summary": "TabPFN-3 was released today, the next iteration of the tabular foundation model, originally published in Nature. Quick recap for anyone new to TabPFN: TabPFN predicts on tabular data in a single forward pass - no training, no hyperparameter search, no tuning. Built on TabPFN-2.5 (Nov 2025) and TabPFNv2 (Nature, Jan 2025), which together crossed 3M downloads and 200+ published applications. What's new:  Scale: 1M rows on a single H100 (10x larger than 2.5).A reduced KV cache (~8GB per million rows per estimator) and row-chunked inference make this practical on a single GPU Speed: 10x-1000x fast",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-12T14:33:12+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "b1d428029959",
+      "title": "GitHub Expands Secret Scanning with General Availability of MCP Server Integration",
+      "url": "https://www.infoq.com/news/2026/05/github-mcp-secret-scanning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub has announced the general availability of secret scanning support through its MCP Server, extending automated credential detection and remediation capabilities into AI-assisted and agent-driven development workflows. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-05-12T12:00:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "a3e7b96aa54c",
+      "title": "Google adds Gemini-powered dictation to Gboard, which could be bad news for dictation startups",
+      "url": "https://techcrunch.com/2026/05/12/google-adds-gemini-powered-dictation-to-gboard-which-could-be-bad-news-for-dictation-startups/",
+      "summary": "Google's transcription feature will initially launch with Samsung Galaxy and Google Pixel phones.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-12T17:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "1ca3a70c4129",
+      "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
+      "url": "https://voker.ai",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-12T15:45:20+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "5135cdc46742",
+      "title": "Dungeons & Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/dungeons-desktops-building-a-procedurally-generated-roguelike-with-github-copilot-cli/",
+      "summary": "Learn how one Hubber used GitHub Copilot CLI to build an extension that turns any codebase into a unique, roguelike dungeon.  \nThe post Dungeons &amp; Desktops: Building a procedurally generated roguelike with GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-12T15:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "07745aaa1612",
+      "title": "Dessn raises $6M for its production-focused design tool",
+      "url": "https://techcrunch.com/2026/05/12/dessn-raises-6m-for-its-production-focused-design-tool/",
+      "summary": "A new startup called Dessn has raised $6 million to build AI-powered design tools that work directly with production codebases.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-12T13:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "8deca3c16c83",
+      "title": "From Vibe Coding to Spec-Driven Development",
+      "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
+      "summary": "A 4.5-hour journey from idea to working fitness app with LLM agents\nThe post From Vibe Coding to Spec-Driven Development appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-12T16:30:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "c0d2e9bdb345",
+      "title": "Follow-up on the TranslateGemma subtitle benchmark: human review of segments rated \"clean\" by MetricX-24 and COMETKiwi [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tavi6x/followup_on_the_translategemma_subtitle_benchmark/",
+      "summary": "A few weeks ago I shared the results of a benchmark here comparing 6 LLMs on subtitle translation, scored with two reference-free QE metrics - MetricX-24 (~13B mT5-XXL) and COMETKiwi (~10.7B XLM-R-XXL) - combined into a TQI index. Posting a follow-up because we did human review afterwards, and the result is worth discussing. The original benchmark put TranslateGemma-12b first in every language pair. The natural question: are those high scores accurate, or are the metrics insensitive in their high-confidence zone? These metrics correlate well with human judgment at the population level (that's ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-12T08:38:11+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "2dc3238765db",
+      "title": "Article: Time-Series Storage: Design Choices That Shape Cost and Performance",
+      "url": "https://www.infoq.com/articles/time-series-storage-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Every time-series database makes a set of storage design decisions: how to lay out rows, when to compress, what to partition on. These decisions determine cost and query performance more than the choice of database itself. This article works through those fundamentals from first principles, using widely available tools like PostgreSQL and Apache Parquet to make each trade-off measurable. By Nirmesh Khandelwal",
+      "source": "InfoQ",
+      "published": "2026-05-12T09:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "f50238d0d0f6",
+      "title": "Hybrid Search and Re-Ranking in Production RAG",
+      "url": "https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/",
+      "summary": "When semantic search isn't enough for the RAG\nThe post Hybrid Search and Re-Ranking in Production RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-12T15:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    }
+  ]
+}
