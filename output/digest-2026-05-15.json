@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "We Publish a Free Weekly AI Inference Pricing Index. Here Is How To Get It.",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "We Publish a Free Weekly AI Inference Pricing Index. Here Is How To Get It. (Dev.to AI). SolidJS 2.0 Beta: First-Class Async, Reworked Suspense and Deterministic Batching (InfoQ). Moonrepo Releases Moon v2.0 with WASM Plugin Toolchains and Overhauled CLI (InfoQ). arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N] (Reddit r/MachineLearning). Used over a million tokens in three separate sessions to test Qwen 3.6 35b (new Multi-token Prediction version) (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Two weeks left: Startup Battlefield 200 applications close May 27 (TechCrunch AI). I tracked EU GPU prices across 15 stores for 50+ days - RTX 5090 is the only card not dropping in price (Reddit r/LocalLLaMA)."
+      }
+    ],
+    "key_takeaway": "Every Monday, we publish the ATOM Inference Price Benchmark, a free weekly index tracking per-token pricing across 51 AI inference vendors, 5,000+ SKUs, 3,000+ models and 9 countries.\nIt is the only chained matched-model inference price index published publicly. The methodology is deterministic and zero variance. No opinions. Just data.\nWhat you get every Monday:\n15 AIPI indexes across modality, channel, tier and geography. 9 market KPIs including Open Source Advantage, Reasoning Premium, Caching Discount and Channel Spread. Forward calls on pricing movements before they happen. Full coverage "
+  },
+  "articles": [
+    {
+      "id": "cc0c7dc8b902",
+      "title": "We Publish a Free Weekly AI Inference Pricing Index. Here Is How To Get It.",
+      "url": "https://dev.to/steriani_karamanlis_ad61a/we-publish-a-free-weekly-ai-inference-pricing-index-here-is-how-to-get-it-2ipf",
+      "summary": "Every Monday, we publish the ATOM Inference Price Benchmark, a free weekly index tracking per-token pricing across 51 AI inference vendors, 5,000+ SKUs, 3,000+ models and 9 countries.\nIt is the only chained matched-model inference price index published publicly. The methodology is deterministic and zero variance. No opinions. Just data.\nWhat you get every Monday:\n15 AIPI indexes across modality, channel, tier and geography. 9 market KPIs including Open Source Advantage, Reasoning Premium, Caching Discount and Channel Spread. Forward calls on pricing movements before they happen. Full coverage ",
+      "source": "Dev.to AI",
+      "published": "2026-05-15T09:30:59+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Felypedv24z8b9o8pmabk.png"
+    },
+    {
+      "id": "3ea203fdc274",
+      "title": "SolidJS 2.0 Beta: First-Class Async, Reworked Suspense and Deterministic Batching",
+      "url": "https://www.infoq.com/news/2026/05/solidjs-2-async/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SolidJS 2.0 Beta introduces significant changes in async handling and reactivity. Async is now a first-class feature, enabling direct use of Promises within the framework. The update includes new primitives for mutations, altered state handling, and significant breaking changes. It is designed for improved developer experience while maintaining fine-grained reactivity without a virtual DOM. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-05-15T07:30:00+00:00",
+      "score": 4.18,
+      "image": "https://res.infoq.com/news/2026/05/solidjs-2-async/en/headerimage/generatedHeaderImage-1778258271112.jpg"
+    },
+    {
+      "id": "50a688bdef25",
+      "title": "Moonrepo Releases Moon v2.0 with WASM Plugin Toolchains and Overhauled CLI",
+      "url": "https://www.infoq.com/news/2026/05/moonrepo-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Moonrepo has released moon v2.0, its first major update since v1, featuring a plugin-based toolchain system and support for multiple configuration formats including JSON and TOML. The CLI has been restructured, enhancing task inheritance and Docker integration. Notable changes include a shift in architecture and improvements to VCS support. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-05-14T12:47:00+00:00",
+      "score": 3.74,
+      "image": "https://res.infoq.com/news/2026/05/moonrepo-2-release/en/headerimage/generatedHeaderImage-1778691004412.jpg"
+    },
+    {
+      "id": "e5b2a45bf4c1",
+      "title": "arXiv implements 1-year ban for papers containing incontrovertible evidence of unchecked LLM-generated errors, such as hallucinated references or results. [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
+      "summary": "From Thomas G. Dietterich (arXiv moderator for cs.LG) on 𝕏 (thread): https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 &quot;Attention arXiv authors: Our Code of Conduct states that by signing your name as an author of a paper, each author takes full responsibility for all its contents, irrespective of how the contents were generated. If generative AI tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific wor",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-15T02:44:10+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "bf4ebaa5a0ed",
+      "title": "Used over a million tokens in three separate sessions to test Qwen 3.6 35b (new Multi-token Prediction version)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdns1i/used_over_a_million_tokens_in_three_separate/",
+      "summary": "In my opinion, MTP models are 100% game changer for local LLMs. In terms of speed, I was getting around 1.5x the tok/sec of previous tests. The project was a test - building a full iterative step-by-step pygame; a small mystery dungeon-style game. At first I set 100-200k context and raised it to 300k. This is at KV Q8_0 quant. Edit: I was wrong, I had mistakenly left it at q4_0. I will redo tests tomorrow with Q8.  I use VSCodium and Roo. The idea was to see how far I can push the context window and measure (by feel) if a large context window with a multi-file project slows it down too much to",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-15T06:20:08+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "375ed379e111",
+      "title": "I have (even faster) DeepSeek V4 Pro at home",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdpk3f/i_have_even_faster_deepseek_v4_pro_at_home/",
+      "summary": "Few days ago I posted about my DeepSeek V4 Pro at home - now time for an update. Yesterday I finally managed to run this model in ktransformers (sglang + kt-kernel). I followed the tutorial for DeepSeek V4 Flash and tweaked some options (NUMA, cores) for my hardware (Epyc 9374F + RTX PRO 6000 Max-Q). Then I ran llama-benchy with increasing context depth to check the performance. Results: Depth 0: | model | test | t/s | peak t/s | ttfr (ms) | est_ppt (ms) | e2e_ttft (ms) | |:----------------------------|-------:|-------------:|------------:|----------------:|----------------:|----------------:|",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-15T07:59:13+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "c169e8cac334",
+      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T19:12:03+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "2e5ce02524b8",
+      "title": "5 Critical Mistakes Banks Make with Grievance Management Automation (And How to Avoid Them)",
+      "url": "https://dev.to/edith_heroux_aca4c9046ef5/5-critical-mistakes-banks-make-with-grievance-management-automation-and-how-to-avoid-them-4i65",
+      "summary": "Learning from Implementation Failures\n\n\nGrievance management automation promises transformative benefits for retail banking: faster resolution times, lower costs, better compliance, and improved customer satisfaction. Yet many implementations fall short of expectations, sometimes creating more problems than they solve. After analyzing dozens of automation projects across institutions like Citibank, PNC Bank, and regional banks, clear patterns emerge in what causes failure versus success.\n\n\n\nThe difference between successful and failed Grievance Management Automation implementations rarely come",
+      "source": "Dev.to AI",
+      "published": "2026-05-15T09:31:43+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "003c6726b0af",
+      "title": "Traditional vs. Automated Grievance Management: What Retail Banks Need to Know",
+      "url": "https://dev.to/dorjamie/traditional-vs-automated-grievance-management-what-retail-banks-need-to-know-164j",
+      "summary": "Evaluating the Shift from Manual to Intelligent Automation\n\n\nEvery retail bank faces the same fundamental question: should we continue optimizing our manual complaint resolution processes, or is it time to embrace automation? This isn't an academic debate—it's a decision with direct implications for customer satisfaction, regulatory compliance, and operational costs. The answer depends on your institution's specific context, but understanding the trade-offs is essential.\n\n\n\nThe case for Grievance Management Automation isn't simply about technology replacing people. It's about fundamentally dif",
+      "source": "Dev.to AI",
+      "published": "2026-05-15T09:31:39+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "e90efef7a2ad",
+      "title": "How to Implement Grievance Management Automation: A Step-by-Step Guide",
+      "url": "https://dev.to/jasperstewart/how-to-implement-grievance-management-automation-a-step-by-step-guide-27pc",
+      "summary": "A Practical Roadmap for Banking Teams\n\n\nImplementing automation in complaint resolution isn't just about purchasing software—it's about redesigning workflows that have been entrenched in retail banking for decades. If you're tasked with modernizing your institution's complaint handling, you need a systematic approach that minimizes disruption while maximizing the benefits of intelligent automation.\n\n\n\nSuccessful Grievance Management Automation implementations at institutions like PNC Bank and Chase follow a deliberate progression. They don't attempt to automate everything overnight. Instead, t",
+      "source": "Dev.to AI",
+      "published": "2026-05-15T09:31:34+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "ace34ea439cb",
+      "title": "Why Retail Banks Are Turning to Grievance Management Automation in 2026",
+      "url": "https://dev.to/cheryl_dmahaffey_e677cc8/why-retail-banks-are-turning-to-grievance-management-automation-in-2026-11f1",
+      "summary": "Understanding the Foundation of Modern Complaint Resolution\n\n\nIn retail banking, the volume of customer grievances has grown exponentially over the past few years. Whether it's disputed transactions, service quality concerns, or account servicing issues, traditional complaint resolution methods are struggling to keep pace. With regulatory bodies demanding faster response times and customers expecting instant resolution, banks are facing a critical operational challenge that directly impacts CSAT scores and regulatory compliance.\n\n\n\nThis is where Grievance Management Automation becomes essentia",
+      "source": "Dev.to AI",
+      "published": "2026-05-15T09:31:30+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "a2bdb15c397a",
+      "title": "Kubernetes v1.36: Security Defaults Tighten as AI Workload Support Matures",
+      "url": "https://www.infoq.com/news/2026/05/kubernetes-1-36-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Kubernetes v1.36, released in 2026, includes 70 enhancements focused on security, AI workloads, and API scalability. Key features graduating to General Availability are User Namespaces, Mutating Admission Policies, and Fine-Grained Kubelet API Authorization. The release also addresses workload management and introduces new features for AI resource allocations. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-05-14T08:00:00+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "210a0f1afb83",
+      "title": "OpenAI says Codex is coming to your phone",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "summary": "The update gives users enhanced flexibility over how they can manage their workflows.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T20:58:55+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "19465d5a29f1",
+      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+      "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T19:05:01+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "a1c2499d8764",
+      "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "summary": "A year ago, it looked like this day would never happen for Cerebras.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T16:30:02+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "66dd106edba8",
+      "title": "GitHub availability report: April 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-april-2026/",
+      "summary": "In April, we experienced 10 incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: April 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-14T22:02:43+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "29b1005609c0",
+      "title": "LLM Policy for Rust Compiler",
+      "url": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-14T23:37:21+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "8bae4d8a4d62",
+      "title": "VS Code's new \"Agents window\" lets you use local AI models. Still requires an Internet connection and a Github Copilot plan (because we can't have nice things)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1td3uzi/vs_codes_new_agents_window_lets_you_use_local_ai/",
+      "summary": "At first I was excited to see this, but I guess I'll wait till someone figures out what people actually want   &#32; submitted by &#32;  /u/_wsgeorge   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T16:45:58+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "bc389e34a091",
+      "title": "I trained Qwen3.5 to jailbreak itself with RL, then used the failures to improve its defenses",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdegh0/i_trained_qwen35_to_jailbreak_itself_with_rl_then/",
+      "summary": "RL attackers are becoming a common pattern for automated red teaming: train a model against a live target, reward successful harmful compliance, then use the discovered attacks to harden the defender. This interested me, so I wanted to build a fully automated red-teaming loop with reinforcement learning on both the attacker and defender.  The difficult part was making the attacker expose a diverse range of attacks. In our first run, GRPO quickly collapsed to the same fiction-writing jailbreak over and over. It worked, but it didn’t surface many distinct vulnerabilities. After clustering the ro",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T23:09:42+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "d6bcc298936b",
+      "title": "Llama-Studio, WebUI for llama-server Management",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdefy6/llamastudio_webui_for_llamaserver_management/",
+      "summary": "Hey all,  I have built myself a WebUI for configuring and managing llama-server sessions, and want to share the code and concept. Python and a bit of JS. Hack away! Local only. https://github.com/m94301/llama-studio The major use case is running various instances of llama-server on fixed ports to act as infrastructure for home development (and entertainment) frameworks. Read: Fiddling with settings, comparing experimental builds to mainline, and optimizing. Also good for everyday fooling around. Configs are saved per model in a json, consisting of all launch args and optional paths for custom ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T23:09:05+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "9d74f3e32f36",
+      "title": "Two weeks left: Startup Battlefield 200 applications close May 27",
+      "url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
+      "summary": "Your shot at VC access, global visibility, TechCrunch coverage, and $100K equity-free funding is running out. Deadline to apply is May 27. Apply now.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T14:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "f0532953c28c",
+      "title": "Data readiness for agentic AI in financial services",
+      "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "summary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-14T13:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "b00cef5081d4",
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-14T13:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "0aa099493dbe",
+      "title": "NVFP4 Kimi2.6 and Kimi 2.5 released by Nvidia",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tcxb77/nvfp4_kimi26_and_kimi_25_released_by_nvidia/",
+      "summary": "The NVIDIA Kimi-K2.6-NVFP4 model is the quantized version of the Moonshot AI's Kimi-K2.6 model, which is an auto-regressive language model that uses an optimized transformer architecture. For more information, please check here. The NVIDIA Kimi-K2.6 NVFP4 model is quantized with Model Optimizer. This model is ready for commercial/non-commercial use. The accuracy benchmark results are presented in the table below:    Precision GPQA Diamond SciCode τ²-Bench Telecom MMMU Pro AA-LCR IFBench    Baseline (INT4) 90.9 52.6 98.2 75.6 71.0 73.9   NVFP4 90.4 54.4 98.0 76.5 71.8 73.9    Baseline: Kimi-K2.",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T12:53:45+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "1dc92be36728",
+      "title": "A First Comprehensive Study of TurboQuant: Accuracy and Performance",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tdb4ic/a_first_comprehensive_study_of_turboquant/",
+      "summary": "TL;DR from the article:  FP8 via --kv-cache-dtype fp8 remains the best default for KV-cache quantization: it provides 2x KV-cache capacity with negligible accuracy loss, while matching BF16 on most performance metrics and substantially improving them in memory-constrained serving scenarios. TurboQuant k8v4 does not provide any significant advantage over FP8: it only provides modest KV-cache savings (2.4x vs 2x) which are not worth the consistent negative impact on throughput and latency metrics. TurboQuant 4bit-nc is likely the most practical TurboQuant variant: it helps under KV-cache memory ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T20:59:45+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "f2b54e004f3e",
+      "title": "Khosla Ventures is betting $10M on Ian Crosby, whose first startup, Bench, imploded",
+      "url": "https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/",
+      "summary": "Crosby is building Synthetic, a fully autonomous AI bookkeeping service for other startups.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T15:20:18+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "28673d321b7e",
+      "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
+      "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
+      "summary": "The company pivoted to being a data provider in 2023 and now supplies datasets of images, videos, design assets, and gaming and 3D content to AI labs.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T14:00:00+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "c33b092a043b",
+      "title": "Introducing cyankiwi AWQ 4-bit Quantization — 26.05 update",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1td7gp8/introducing_cyankiwi_awq_4bit_quantization_2605/",
+      "summary": "In standard AWQ, per-channel scales and quantization ranges are picked in separate steps: scales first, then the quantization parameters. But they're not independent, i.e., the rounding error from one depends on the choice of the other, so optimizing them in sequence leaves quality on the table. Our cyankiwi AWQ 26.05 update jointly fits scales and quantization ranges against a reconstruction objective.  We benchmarked cyankiwi AWQ 26.05 update against every major 4-bit method on Llama-3 as examples, measuring KL Divergence vs the BF16 baseline on GPQA Diamond responses. Result: cyankiwi posts",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T18:49:21+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "c0611a88db34",
+      "title": "I tracked EU GPU prices across 15 stores for 50+ days - RTX 5090 is the only card not dropping in price",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1td6ia5/i_tracked_eu_gpu_prices_across_15_stores_for_50/",
+      "summary": "been tracking EU GPU prices since early march - 15 stores, 6-hour scrape cadence, ~126k readings. posting here because the 5090 trend is directly relevant if you're buying for local inference. the tier divergence RTX 5090 is the only tier going up. everything else is falling. mid-range AMD cards are down 7-9%. even the 5080 is essentially flat. https://imgur.com/a/MmSCjKf tier | n | launch avg | now avg | change --------------+----+------------+----------+------- RTX 5090 | 4 | €3,392 | €3,487 | +3.0% ▲ RTX 5080 | 6 | €1,375 | €1,370 | -0.4% RTX 5070 | 5 | €635 | €627 | -1.3% RTX 5070 Ti | 6 |",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-14T18:16:15+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "0ec05b2b2c6c",
+      "title": "The Next AI Bottleneck Isn’t the Model: It’s the Inference System",
+      "url": "https://towardsdatascience.com/the-next-ai-bottleneck-isnt-the-model-its-the-inference-system/",
+      "summary": "Enterprise AI systems are entering a phase where inference design matters as much as model capability itself.\nThe post The Next AI Bottleneck Isn’t the Model: It’s the Inference System appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-14T16:30:00+00:00",
+      "score": 2.75,
+      "image": null
+    }
+  ]
+}
