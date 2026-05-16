@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates (InfoQ). ChatGPT Lost 20% Market Share in 12 Months. Here Is Who Is Winning. (Dev.to AI). OpenAI launches ChatGPT for personal finance, will let you connect bank accounts (TechCrunch AI). TanStack Supply Chain Attack Compromises OpenAI Developer Devices and Signing Certificates (Dev.to AI). The Context Pyramid: A PM’s Framework for AI Agent Context Engineering (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "OpenClaw 2026.5.16 Beta 1: Localized Onboarding and Runtime Hardening (Dev.to AI). Building a general-purpose accessibility agent—and what we learned in the process (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Microsoft has released Aspire 13.3, introducing a new aspire destroy command for tearing down deployments across Azure, Kubernetes, and Compose. The release adds native Kubernetes deployment in preview, first-class JavaScript publishing for Next.js and Vite, browser log capture, and a default-enabled container tunnel, alongside several breaking changes developers should review. By Almir Vuk"
+  },
+  "articles": [
+    {
+      "id": "b666647a92b3",
+      "title": "Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates",
+      "url": "https://www.infoq.com/news/2026/05/aspire-13-3-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released Aspire 13.3, introducing a new aspire destroy command for tearing down deployments across Azure, Kubernetes, and Compose. The release adds native Kubernetes deployment in preview, first-class JavaScript publishing for Next.js and Vite, browser log capture, and a default-enabled container tunnel, alongside several breaking changes developers should review. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-05-16T08:34:00+00:00",
+      "score": 4.59,
+      "image": "https://res.infoq.com/news/2026/05/aspire-13-3-release/en/card_header_image/generatedCard-1778870266966.jpg"
+    },
+    {
+      "id": "8c71d6c2f86c",
+      "title": "ChatGPT Lost 20% Market Share in 12 Months. Here Is Who Is Winning.",
+      "url": "https://dev.to/searchless_ai/chatgpt-lost-20-market-share-in-12-months-here-is-who-is-winning-3l51",
+      "summary": "ChatGPT went from 87% to 68% of the AI search market in 12 months, and most brands did not notice because they were still optimizing for the wrong engine.\n\nThat 19-point drop is not a rounding error. It is a structural shift in how 900 million weekly AI users discover products, services, and information. Google Gemini surged 237% year-over-year. Perplexity built the first citation-first research engine and captured a loyal power-user base. Claude is growing fast in enterprise.\n\nIf your entire AI visibility strategy is make sure ChatGPT mentions us, you are leaving one-third of the market on th",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:41:48+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdodt4iqfpnil57uumnyp.png"
+    },
+    {
+      "id": "7c1aec8136cd",
+      "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+      "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+      "summary": "Once users connect their accounts, they will see a dashboard of their portfolio performance, spending, subscriptions, and upcoming payments.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-15T16:00:00+00:00",
+      "score": 3.97,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2195918462.jpg?w=1024"
+    },
+    {
+      "id": "ab05c48f4feb",
+      "title": "TanStack Supply Chain Attack Compromises OpenAI Developer Devices and Signing Certificates",
+      "url": "https://dev.to/bansac1981/tanstack-supply-chain-attack-compromises-openai-developer-devices-and-signing-certificates-1agl",
+      "summary": "Forensic Summary\n\n\nA supply chain attack targeting TanStack via the Mini Shai-Hulud malware compromised two OpenAI employee devices, exposing internal source code repositories and code-signing certificates for macOS, iOS, and Windows apps. While no user data or production systems were breached, OpenAI was forced to revoke and reissue signing certificates, requiring macOS users to update ChatGPT Desktop, Codex, and Atlas apps before June 12, 2026. The incident marks OpenAI's second certificate rotation in two months and is part of a broader campaign by threat actor TeamPCP targeting major AI an",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:30:47+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fewfl8gdw8xo677e55jik.png"
+    },
+    {
+      "id": "b5a94e43b9a0",
+      "title": "The Context Pyramid: A PM’s Framework for AI Agent Context Engineering",
+      "url": "https://dev.to/with_attitude/the-context-pyramid-a-pms-framework-for-ai-agent-context-engineering-ce6",
+      "summary": "Why Your AI Agent Breaks: A Diagnostic Framework for Product Managers\n\nMany users think that context problems are about size.\n\nBigger window, better agent. Use the 1M token model, problem solved.\n\nWrong.\n\nThe problem is not how much fits, it’s what we put in, in what order, with what structure, and how often we update each part.\n\nAndrej Karpathy explained it like this in June 2025:\n\nNot all information. Not the most information. The right information.\n\n\n\n\nContinue reading on Substack →",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:23:50+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu19ceyxw4j3fy1qql14u.png"
+    },
+    {
+      "id": "05d7ae3113a5",
+      "title": "Anthropic Introduces Routines for Claude Code Automation",
+      "url": "https://www.infoq.com/news/2026/05/anthropic-routines-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic has introduced a new feature called Routines for Claude Code, allowing developers to configure automated coding workflows that run on schedules, through API calls, or in response to external events. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-05-15T15:51:00+00:00",
+      "score": 3.56,
+      "image": "https://res.infoq.com/news/2026/05/anthropic-routines-claude/en/headerimage/generatedHeaderImage-1778774115333.jpg"
+    },
+    {
+      "id": "f2025d5d6ba9",
+      "title": "OpenClaw 2026.5.16 Beta 1: Localized Onboarding and Runtime Hardening",
+      "url": "https://dev.to/hex_agent/openclaw-2026516-beta-1-localized-onboarding-and-runtime-hardening-1ka1",
+      "summary": "OpenClaw 2026.5.16 Beta 1: Localized Onboarding and Runtime Hardening\n\n\nOpenClaw 2026.5.16 beta 1 is a reliability release with one very visible operator theme: make the system easier to start, easier to localize, and harder to break once real agents are running through messy channels, plugins, cron jobs, and provider APIs.\n\nThe headline is not a single flashy feature. It is a collection of changes that matter when OpenClaw moves from a personal experiment into something a team depends on: localized setup, warmer skill resolution, safer group-chat context, stricter plugin checks, honest cron r",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:33:28+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d6a633fe619c",
+      "title": "L’AI sta automatizzando gli UGC: perché è più importante di quanto sembri",
+      "url": "https://dev.to/pizzaprompt/lai-sta-automatizzando-gli-ugc-perche-e-piu-importante-di-quanto-sembri-13l5",
+      "summary": "Negli ultimi anni il marketing digitale ha avuto un’ossessione:\n👉 i contenuti UGC (User Generated Content).\n\nPerché funzionano meglio delle ads tradizionali:\n\n\nsembrano autentici\ncatturano attenzione più velocemente\nperformano bene su TikTok e Reels\nabbassano il “banner blindness effect”\n\n\nIl problema?\n\nScalare la produzione creativa è costoso.\n\nAnche un semplice flusso UGC richiede:\n\n\ncreator sourcing\nbriefing\nediting\nvoiceover\nlocalizzazione\nrevisioni continue\n\n\nE spesso il vero collo di bottiglia del performance marketing non è il budget ads.\n\nÈ la velocità di produzione delle creatività.\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:29:34+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "a52d8ea57472",
+      "title": "Generating Binance Read+Spot: The Halal Screen in Plain English",
+      "url": "https://dev.to/halal_crypto_team/generating-binance-readspot-the-halal-screen-in-plain-english-175e",
+      "summary": "Do not start with a headline or a hot take. Start with the screen: asset purpose, revenue source, trading structure, custody, and risk. This guide gives you the practical halal checks before the market tries to rush your decision.\n\nPer our AAOIFI-aligned framework — drawing on AAOIFI standards, Saudi Permanent Committee for Ifta, and leading Saudi Islamic banks guidance — this post explores Generating Binance Read+Spot-Only API Keys: A 5-Minute Guide for the global Muslim investor in 2026. The summary: spot-only execution, public methodology, and asymmetric multi-X targeting (3% in 4h, 5% in 1",
+      "source": "Dev.to AI",
+      "published": "2026-05-16T08:29:13+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "40edc3108305",
+      "title": "Portfolio Technical Debt Register and Remediation Strategy",
+      "url": "https://dev.to/beefedai/portfolio-technical-debt-register-and-remediation-strategy-il9",
+      "summary": "How portfolio technical debt exposes business risk\nDiscovering and quantifying debt at portfolio scale\nPrioritizing debt by business impact, risk and cost to fix\nTurning the register into a remediation plan and funding model\nMeasuring progress and reporting debt reduction\nOperational playbook: checklists, templates and step-by-step protocols\n\n\nPortfolio technical debt is a measurable, portfolio‑level liability: left unchecked it converts engineering friction into slower time‑to‑market, higher run costs, and concentrated business risk. Treating debt as an operational detail instead of a balance",
+      "source": "Dev.to Programming",
+      "published": "2026-05-16T07:32:29+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "f7d214c44b9c",
+      "title": "Cloudflare Introduces Workflows V2 with Deterministic Execution and 50K Concurrent Workflows",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-workflows-v2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare introduces Workflows V2, a redesigned distributed workflow orchestration system with deterministic replayable execution, improved observability, and major scaling upgrades, including 50,000 concurrent instances and 2M queued workflows. It supports AI agents, data pipelines, and background processing with improved reliability across distributed systems. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-05-15T14:04:00+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "3ea203fdc274",
+      "title": "SolidJS 2.0 Beta: First-Class Async, Reworked Suspense and Deterministic Batching",
+      "url": "https://www.infoq.com/news/2026/05/solidjs-2-async/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SolidJS 2.0 Beta introduces significant changes in async handling and reactivity. Async is now a first-class feature, enabling direct use of Promises within the framework. The update includes new primitives for mutations, altered state handling, and significant breaking changes. It is designed for improved developer experience while maintaining fine-grained reactivity without a virtual DOM. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-05-15T07:30:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "15e2ab30f961",
+      "title": "Building a general-purpose accessibility agent—and what we learned in the process",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/",
+      "summary": "Learn about the experimental general-purpose accessibility agent that GitHub is piloting.\nThe post Building a general-purpose accessibility agent—and what we learned in the process appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-15T16:00:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "b1dd91e784a8",
+      "title": "Discord Reveals How a Hidden Circular Dependency Triggered Its March Voice Outage",
+      "url": "https://www.infoq.com/news/2026/05/discord-circular-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Discord has released a detailed postmortem on its March 25, 2026, voice outage, revealing that a previously undetected circular dependency in its voice infrastructure triggered a cascading failure that disrupted voice services across the platform. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-05-15T12:00:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "585001b1978a",
+      "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+      "url": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+      "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings.\nThe post Raising the bar: Quality, shared responsibility, and the future of GitHub&#8217;s bug bounty program appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-15T14:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "051e8ad28b76",
+      "title": "Stop Evaluating LLMs with “Vibe Checks”",
+      "url": "https://towardsdatascience.com/stop-evaluating-llms-with-vibe-checks/",
+      "summary": "How to build a decision-grade scorecard for AI agents\nThe post Stop Evaluating LLMs with “Vibe Checks” appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-15T12:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "56ebb9ee6670",
+      "title": "How I Continually Improve My Claude Code",
+      "url": "https://towardsdatascience.com/how-i-continually-improve-my-claude-code/",
+      "summary": "Learn how to make your Claude Code improve over time \nThe post How I Continually Improve My Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-15T15:00:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "210a0f1afb83",
+      "title": "OpenAI says Codex is coming to your phone",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "summary": "The update gives users enhanced flexibility over how they can manage their workflows.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-14T20:58:55+00:00",
+      "score": 2.11,
+      "image": null
+    },
+    {
+      "id": "66dd106edba8",
+      "title": "GitHub availability report: April 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-april-2026/",
+      "summary": "In April, we experienced 10 incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: April 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-14T22:02:43+00:00",
+      "score": 1.87,
+      "image": null
+    }
+  ]
+}

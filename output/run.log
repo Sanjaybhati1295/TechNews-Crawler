@@ -295,3 +295,38 @@
 2026-05-15 09:39:21,182  INFO     ────────────────────────────────────────────────────────────
 2026-05-15 09:39:21,182  INFO     Done!  Open: output/index.html
 2026-05-15 09:39:21,182  INFO     Headline: We Publish a Free Weekly AI Inference Pricing Index. Here Is How To Get It.
+2026-05-16 08:45:01,297  INFO     ============================================================
+2026-05-16 08:45:01,297  INFO     TECHPULSE Digest — 2026-05-16 08:45 UTC
+2026-05-16 08:45:01,297  INFO     ============================================================
+2026-05-16 08:45:01,297  INFO     Step 1/3 — Crawling feeds…
+2026-05-16 08:45:01,664  INFO       Hacker News                    → 0 significant articles
+2026-05-16 08:45:01,937  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-16 08:45:02,057  INFO       Ars Technica                   → 0 significant articles
+2026-05-16 08:45:02,598  INFO       The Register AI                → 0 significant articles
+2026-05-16 08:45:02,726  INFO       MIT Tech Review                → 0 significant articles
+2026-05-16 08:45:02,813  INFO       Dev.to AI                      → 6 significant articles
+2026-05-16 08:45:03,025  INFO       Dev.to Programming             → 1 significant articles
+2026-05-16 08:45:03,230  INFO       GitHub Blog                    → 3 significant articles
+2026-05-16 08:45:04,010  INFO       Google Research                → 0 significant articles
+2026-05-16 08:45:04,111  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-05-16 08:45:04,190  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-05-16 08:45:04,901  INFO       InfoQ                          → 5 significant articles
+2026-05-16 08:45:05,290  INFO       Towards Data Science           → 2 significant articles
+2026-05-16 08:45:05,430  INFO       Wired AI                       → 0 significant articles
+2026-05-16 08:45:05,525  INFO       TechCrunch AI                  → 2 significant articles
+2026-05-16 08:45:05,525  INFO     Fetching images for top articles…
+2026-05-16 08:45:06,288  INFO       🖼  Microsoft Releases Aspire 13.3 with Major Deployment and Fro
+2026-05-16 08:45:07,290  INFO       🖼  ChatGPT Lost 20% Market Share in 12 Months. Here Is Who Is W
+2026-05-16 08:45:07,340  INFO       🖼  OpenAI launches ChatGPT for personal finance, will let you c
+2026-05-16 08:45:07,446  INFO       🖼  TanStack Supply Chain Attack Compromises OpenAI Developer De
+2026-05-16 08:45:07,541  INFO       🖼  The Context Pyramid: A PM’s Framework for AI Agent Context E
+2026-05-16 08:45:08,213  INFO       🖼  Anthropic Introduces Routines for Claude Code Automation
+2026-05-16 08:45:08,213  INFO     Total selected: 19 articles from 15 feeds
+2026-05-16 08:45:08,213  INFO     Selected 19 significant articles
+2026-05-16 08:45:08,213  INFO     Step 2/3 — Generating digest…
+2026-05-16 08:45:08,500  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-16 08:45:08,500  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-16 08:45:08,500  INFO     Step 3/3 — Rendering HTML…
+2026-05-16 08:45:08,501  INFO     ────────────────────────────────────────────────────────────
+2026-05-16 08:45:08,501  INFO     Done!  Open: output/index.html
+2026-05-16 08:45:08,501  INFO     Headline: Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates
