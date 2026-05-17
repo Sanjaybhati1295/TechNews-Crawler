@@ -330,3 +330,36 @@
 2026-05-16 08:45:08,501  INFO     ────────────────────────────────────────────────────────────
 2026-05-16 08:45:08,501  INFO     Done!  Open: output/index.html
 2026-05-16 08:45:08,501  INFO     Headline: Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates
+2026-05-17 08:57:51,209  INFO     ============================================================
+2026-05-17 08:57:51,210  INFO     TECHPULSE Digest — 2026-05-17 08:57 UTC
+2026-05-17 08:57:51,210  INFO     ============================================================
+2026-05-17 08:57:51,210  INFO     Step 1/3 — Crawling feeds…
+2026-05-17 08:57:51,347  INFO       Hacker News                    → 0 significant articles
+2026-05-17 08:57:51,607  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-17 08:57:51,701  INFO       Ars Technica                   → 0 significant articles
+2026-05-17 08:57:52,404  INFO       The Register AI                → 0 significant articles
+2026-05-17 08:57:52,548  INFO       MIT Tech Review                → 0 significant articles
+2026-05-17 08:57:52,687  INFO       Dev.to AI                      → 3 significant articles
+2026-05-17 08:57:52,884  INFO       Dev.to Programming             → 3 significant articles
+2026-05-17 08:57:53,082  INFO       GitHub Blog                    → 0 significant articles
+2026-05-17 08:57:53,959  INFO       Google Research                → 0 significant articles
+2026-05-17 08:57:54,950  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-05-17 08:57:55,782  INFO       Reddit r/LocalLLaMA            → 2 significant articles
+2026-05-17 08:57:55,986  INFO       InfoQ                          → 2 significant articles
+2026-05-17 08:57:56,215  INFO       Towards Data Science           → 1 significant articles
+2026-05-17 08:57:56,431  INFO       Wired AI                       → 0 significant articles
+2026-05-17 08:57:56,520  INFO       TechCrunch AI                  → 1 significant articles
+2026-05-17 08:57:56,520  INFO     Fetching images for top articles…
+2026-05-17 08:57:56,594  INFO       🖼  Claude Code Doubles Usage Limits After 80x Growth Surge
+2026-05-17 08:57:56,661  INFO       🖼  A tmux sidecar for repeatable Claude/Codex workflows
+2026-05-17 08:57:56,758  INFO       🖼  I Gave Elon $99 and Watched Grok Build Spawn 8 Agents in My 
+2026-05-17 08:57:56,825  INFO       🖼  Day 5 — Kiro vs Cursor vs GitHub Copilot (Real Developer Com
+2026-05-17 08:57:56,841  INFO     Total selected: 13 articles from 15 feeds
+2026-05-17 08:57:56,842  INFO     Selected 13 significant articles
+2026-05-17 08:57:56,842  INFO     Step 2/3 — Generating digest…
+2026-05-17 08:57:57,481  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-17 08:57:57,481  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-17 08:57:57,481  INFO     Step 3/3 — Rendering HTML…
+2026-05-17 08:57:57,482  INFO     ────────────────────────────────────────────────────────────
+2026-05-17 08:57:57,482  INFO     Done!  Open: output/index.html
+2026-05-17 08:57:57,482  INFO     Headline: Claude Code Doubles Usage Limits After 80x Growth Surge

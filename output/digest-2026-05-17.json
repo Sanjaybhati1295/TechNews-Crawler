@@ -1,0 +1,145 @@
+{
+  "digest": {
+    "headline": "Claude Code Doubles Usage Limits After 80x Growth Surge",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Code Doubles Usage Limits After 80x Growth Surge (Dev.to Programming). A tmux sidecar for repeatable Claude/Codex workflows (Dev.to AI). Ran the same models across Strix Halo, RTX 3090, and RTX 5070 because I wanted my own numbers (Reddit r/LocalLLaMA). I Gave Elon $99 and Watched Grok Build Spawn 8 Agents in My Terminal (Dev.to AI). Day 5 — Kiro vs Cursor vs GitHub Copilot (Real Developer Comparison) (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Anthropic doubled Claude Code usage limits after 80x growth. Product lead says no roadmap exists.\n\n\nAnthropic doubled Claude Code usage limits on Pro and Max plans after 80x user growth outpaced 10x projections. CEO Dario Amodei acknowledged the compute crunch at the Code with Claude developer conference last week.\n\nKey facts\n\n\n80x user growth vs planned 10x for Claude Code\nUsage limits doubled on Pro and Max plans\nNo long-term roadmap exists, per product lead Cat Wu\nCompute deal with SpaceX announced alongside limits\nClaude Code expanded from CLI to IDE to desktop in past year\n\n\nAnthropic's C"
+  },
+  "articles": [
+    {
+      "id": "e1e1624168d8",
+      "title": "Claude Code Doubles Usage Limits After 80x Growth Surge",
+      "url": "https://dev.to/gentic_news/claude-code-doubles-usage-limits-after-80x-growth-surge-5737",
+      "summary": "Anthropic doubled Claude Code usage limits after 80x growth. Product lead says no roadmap exists.\n\n\nAnthropic doubled Claude Code usage limits on Pro and Max plans after 80x user growth outpaced 10x projections. CEO Dario Amodei acknowledged the compute crunch at the Code with Claude developer conference last week.\n\nKey facts\n\n\n80x user growth vs planned 10x for Claude Code\nUsage limits doubled on Pro and Max plans\nNo long-term roadmap exists, per product lead Cat Wu\nCompute deal with SpaceX announced alongside limits\nClaude Code expanded from CLI to IDE to desktop in past year\n\n\nAnthropic's C",
+      "source": "Dev.to Programming",
+      "published": "2026-05-17T08:30:17+00:00",
+      "score": 3.97,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpnlsmmhykbksxqkspjxj.png"
+    },
+    {
+      "id": "ca86f7cdcc75",
+      "title": "A tmux sidecar for repeatable Claude/Codex workflows",
+      "url": "https://dev.to/dkrupenya/a-tmux-sidecar-for-repeatable-claudecodex-workflows-4426",
+      "summary": "I realized that I keep repeating almost the same workflow in my daily programming with Codex/Claude and OpenSpec: \n\ncreate proposal → review → implement → review code → write tests → update specs → close proposal. \n\nThe workflow in general is the same, but the prompts are slightly different each time and require task specific edits. \n\nSo I have created an app: a simple tmux sidecar that lets you define a workflow, track its status, reuse prompts between runs, edit them when needed, and send them to a coding agent in another tmux pane. \n\nIt is intentionally not a full automation/orchestration f",
+      "source": "Dev.to AI",
+      "published": "2026-05-17T08:53:02+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm85liv4slkzhaiux7v1z.png"
+    },
+    {
+      "id": "ea4ce6f9f8aa",
+      "title": "Ran the same models across Strix Halo, RTX 3090, and RTX 5070 because I wanted my own numbers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tf9iyk/ran_the_same_models_across_strix_halo_rtx_3090/",
+      "summary": "I kept seeing inference-speed claims for these models and wanting an apples-to-apples comparison on the hardware I actually have. So I built a harness and a public page that dumps every run as YAML. The dataset: 55 runs, three rigs, five backends (rocm, vulkan, cpu, cuda, vllm-cuda), models from 0.35B (LFM2.5) through 35B-A3B (Qwen3.5 MoE). Workloads: short-prompt chat, long-context RAG, codegen long-output, and an agent shape at concurrency 1 and 4. Three measured iterations after one warmup, temperature 0, VRAM-fit verified before each run. A few patterns from the data: Memory bandwidth runs",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-16T23:57:06+00:00",
+      "score": 3.9,
+      "image": null
+    },
+    {
+      "id": "33593efe5d1a",
+      "title": "I Gave Elon $99 and Watched Grok Build Spawn 8 Agents in My Terminal",
+      "url": "https://dev.to/skilaai/i-gave-elon-99-and-watched-grok-build-spawn-8-agents-in-my-terminal-44pn",
+      "summary": "I gave xAI $99 and watched Grok Build spawn 8 AI agents inside my terminal. What I learned in 48 hours will save you $300 or convince you to switch from Claude Code today.\nOn May 14 2026, Elon Musk personally pushed xAI's Grok Build agentic coding CLI into a wider public beta and asked the X timeline for feedback. The official initial launch was earlier (May 8 2026, gated behind SuperGrok Heavy), but the May 14 push was the moment the wait-list cracked open and the $99/month intro price became real for anyone with a credit card.\nI paid the $99. I ran it on a real production codebase — a Kafka ",
+      "source": "Dev.to AI",
+      "published": "2026-05-17T08:42:30+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1pusmfzzn7878g6gpg9b.png"
+    },
+    {
+      "id": "05230cf6df6c",
+      "title": "Day 5 — Kiro vs Cursor vs GitHub Copilot (Real Developer Comparison)",
+      "url": "https://dev.to/abdullah_haroon_092cf10d3/day-5-kiro-vs-cursor-vs-github-copilot-real-developer-comparison-5879",
+      "summary": "After building a project in Node.js using Kiro’s spec-driven workflow, We started to clearly understand where Kiro stands in the AI development ecosystem. Up until now, I had used multiple AI coding tools in real projects: Cursor, GitHub Copilot, and now Kiro, but this was the first time I compared them from a workflow perspective, not just feature lists. And honestly, the difference is not just in “code quality.” It’s in how each tool shapes the way you think while building software.\n\nUnderstanding the Three Tools First\n\nBefore comparing them, it’s important to understand what each tool is ac",
+      "source": "Dev.to Programming",
+      "published": "2026-05-17T08:00:00+00:00",
+      "score": 3.65,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk4vfq9xljs49x3xkna4l.jpg"
+    },
+    {
+      "id": "168c9acddc09",
+      "title": "How does Pi coding agent control Qwen's thinking verbosity? (Qwen 35B A3B, llama-server)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tfh1wf/how_does_pi_coding_agent_control_qwens_thinking/",
+      "summary": "I'm running Qwen 35B A3B via llama-server with reasoning budget set to -1 (unlimited) for testing. In every client I've tried, the model just thinks endlessly before responding. But with Pi, it does the bare minimum thinking and still responds fairly accurately - which is a stark difference. My first instinct was that it's the system prompt, so I copied Pi's default system prompt into other clients. No change - still runaway thinking. I also ruled out thinking-level controls, because llama-server doesn't advertise Qwen as a thinking-capable model for some reason, so those knobs shouldn't even ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-17T06:07:33+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "8a33f0691a6f",
+      "title": "Ubuntu Embraces Local AI Instead of Cloud-First OS Integration",
+      "url": "https://www.infoq.com/news/2026/05/ubuntu-on-device-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Ubuntu has outlined its AI strategy, describing it as a deliberate departure from industry trends towards cloud-centric, AI-first operating systems. Instead, the company says, Ubuntu will focus future releases on local intelligence, modular design, and strict user control. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-05-16T20:00:00+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "933a278e4022",
+      "title": "Menilik Pentingnya Regulasi dan Transparansi dalam Ekosistem Hiburan Online",
+      "url": "https://dev.to/dcboatshowscom/menilik-pentingnya-regulasi-dan-transparansi-dalam-ekosistem-hiburan-online-4j86",
+      "summary": "Di tengah gelombang digitalisasi yang melanda seluruh aspek kehidupan manusia, industri hiburan berbasis internet telah tumbuh menjadi salah satu sektor yang paling dinamis. Kemudahan akses yang ditawarkan oleh teknologi modern memungkinkan siapa saja untuk menikmati berbagai bentuk hiburan edukatif maupun interaktif secara instan. Kendati demikian, pertumbuhan pasar yang sangat pesat ini juga memicu munculnya ribuan situs baru di jagat maya, yang pada akhirnya menuntut para pengguna untuk menjadi jauh lebih cerdas, kritis, dan berhati-hati sebelum memutuskan untuk bergabung dengan salah satu ",
+      "source": "Dev.to AI",
+      "published": "2026-05-17T08:51:23+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "52c1e56372ef",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-2mjd",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-17T08:17:33+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "f921088cb834",
+      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
+      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+      "summary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-16T18:54:28+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "b666647a92b3",
+      "title": "Microsoft Releases Aspire 13.3 with Major Deployment and Frontend Updates",
+      "url": "https://www.infoq.com/news/2026/05/aspire-13-3-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released Aspire 13.3, introducing a new aspire destroy command for tearing down deployments across Azure, Kubernetes, and Compose. The release adds native Kubernetes deployment in preview, first-class JavaScript publishing for Next.js and Vite, browser log capture, and a default-enabled container tunnel, alongside several breaking changes developers should review. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-05-16T08:34:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "0207244416ec",
+      "title": "Backlash against Arxiv's proposed 1 year ban is genuinely perplexing. [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
+      "summary": "Anyone else surprised at the enormous amount of backlash against Arxiv's proposed 1 year ban for authors and coauthors publishing papers with hallucinated reference and other obvious LLM/Gen AI artifacts? https://x.com/tdietterich/status/2055000956144935055 https://xcancel.com/tdietterich/status/2055000956144935055 Some of the responses:  &quot;This is the age of AI, Arxiv should be part of the movement instead of holding onto the old ways&quot; &quot;The P.I. is a macro-manager, not a micro-manager, can't be expected to read every reference that his/her student puts in.&quot; &quot;I publish ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-16T08:30:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "c3bd336d3e26",
+      "title": "Recursive Language Models: An All-in-One Deep Dive",
+      "url": "https://towardsdatascience.com/recursive-language-models-one-example-deep-dive-that-explains-everything/",
+      "summary": "Exactly how does it differ from ReAct, CodeAct, Self-Loops, and Subagents?\nThe post Recursive Language Models: An All-in-One Deep Dive appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-16T13:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    }
+  ]
+}
