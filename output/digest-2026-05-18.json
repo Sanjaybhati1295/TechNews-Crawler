@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production (InfoQ). 35 ChatGPT Prompts for Loan Officers (Claude, ChatGPT & DeepSeek) (Dev.to AI). could refusal layers be masking dialect-conditioned safety failures in MoE models [d] (Reddit r/MachineLearning). General Managers Mailing List Connect Directly with High-Level Decision Makers (Dev.to Programming). Why Realtime Voice AI Could Be The Next Big Shift After Chatbots (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How to budget a software development project (without the spreadsheet theater) (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Cloudflare and Stripe launched a protocol that lets AI agents autonomously create cloud accounts, register domains, start subscriptions, and deploy to production. Stripe handles identity and payment with a $100/month default cap. No other major cloud provider offers comparable agent-driven account provisioning. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "4a41d0788c89",
+      "title": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-stripe-agent-commerce/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare and Stripe launched a protocol that lets AI agents autonomously create cloud accounts, register domains, start subscriptions, and deploy to production. Stripe handles identity and payment with a $100/month default cap. No other major cloud provider offers comparable agent-driven account provisioning. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-05-18T09:41:00+00:00",
+      "score": 4.13,
+      "image": "https://res.infoq.com/news/2026/05/cloudflare-stripe-agent-commerce/en/headerimage/generatedHeaderImage-1778579453858.jpg"
+    },
+    {
+      "id": "ce1e3e410527",
+      "title": "35 ChatGPT Prompts for Loan Officers (Claude, ChatGPT & DeepSeek)",
+      "url": "https://dev.to/clawgear/35-chatgpt-prompts-for-loan-officers-claude-chatgpt-deepseek-46hi",
+      "summary": "35 ChatGPT Prompts for Loan Officers (Claude, ChatGPT &amp; DeepSeek)\n\n\nIt's the third week of the month. You have 14 active loans in process. Three are waiting on conditional approval letters that still need to be drafted. Two borrowers haven't responded to your pipeline update requests in 11 days. One file closed last Friday and the borrower left a 3-star review because the pre-closing communication felt rushed. And the compliance team flagged your last batch of denial letters for ECOA language issues.\n\nLoan origination is, at its core, a writing profession. Every loan you close generates do",
+      "source": "Dev.to AI",
+      "published": "2026-05-18T10:55:32+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvv9xay7bbg8ztzim870o.png"
+    },
+    {
+      "id": "3dee16c7bd45",
+      "title": "could refusal layers be masking dialect-conditioned safety failures in MoE models [d]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tggu0j/could_refusal_layers_be_masking/",
+      "summary": "I set out to test whether AAVE-coded (African American English Vernacular) prompts cause MoE language models to route, deliberate, and respond differently from semantically matched AE (Academic English) prompts in safety-sensitive situations, especially when refusal behavior is weakened or removed. I used Qwen3.5-35B-A3B and its HauhauCS no refusal fine tuned variant. Q8. Greedy decoding for best reproducibility. Three findings in order of importance that are leading me to ask this question: 1: “I’m going to commit a violent act prompt”. The released Qwen3.5-35B-A3B refuses both prompts. Hauha",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T08:58:39+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "660e0e41d269",
+      "title": "General Managers Mailing List Connect Directly with High-Level Decision Makers",
+      "url": "https://dev.to/readym6233/general-managers-mailing-list-connect-directly-with-high-level-decision-makers-161c",
+      "summary": "In today’s competitive business landscape, reaching the right decision makers at the right time is essential for driving growth, expanding market reach, and improving sales performance. The General Managers Mailing List from Ready Mailing Team is a premium, highly targeted B2B data solution designed to help businesses connect directly with influential general managers across diverse industries and geographic locations. Whether you are promoting services, launching a new product, or building strategic partnerships, this mailing list provides you with a powerful channel to engage key corporate l",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:16:39+00:00",
+      "score": 3.76,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkvtxnaprgumo9mq6gwt1.png"
+    },
+    {
+      "id": "64f36a0ddb48",
+      "title": "Why Realtime Voice AI Could Be The Next Big Shift After Chatbots",
+      "url": "https://dev.to/dhruvjoshi9/why-realtime-voice-ai-could-be-the-next-big-shift-after-chatbots-24mn",
+      "summary": "Chatbots changed how users talk to software, but Realtime Voice AI could change how they use it. \n\nTyping is slow. \n\nMenus are tiring. \n\nUsers want answers while driving, shopping, working, or stuck inside an app. \n\nThat is why low-latency voice agents are getting serious attention from product teams, founders, and every AI app development company building customer-first experiences. \n\nThe shift is simple: voice feels natural, faster, and more human than chat. When it connects to tools, data, and workflows, it stops being support software and starts becoming a real product interface. \n\nThat’s ",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:38:23+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhh1rfjtj1nphp49q1sx3.png"
+    },
+    {
+      "id": "5f6098bf000d",
+      "title": "ICML financial aid [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tghj6m/icml_financial_aid_d/",
+      "summary": "I am an undergraduate student from India who recently got accepted to TAIGR, an ICML workshop for a Poster. I will be requiring financial aid for registration fees and accommodation, since I will be travelling to Seoul and it is independent research so we don't have any backing by any labs/institutions. Can anyone who's applied and gotten aid in the past help and give any tips to be successful in receiving funding?  &#32; submitted by &#32;  /u/Business_Exit3408   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T09:37:35+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "c4993e45ca41",
+      "title": "Benchmarking the new b9200 update: Optimizing Qwen 3.6 27B mtp for Hermes Agent on a single RTX 3090",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg6j9u/benchmarking_the_new_b9200_update_optimizing_qwen/",
+      "summary": "UPDATED (POST b9200) Okay, here is the updated version using the new Qwen 3.6 27B mtp gguf from Unsloth, running it as the backend for the hermes agent. While dialing it in, I noticed that the currently recommended Unsloth mtp flags actually bottleneck performance and tank draft acceptance rates for strict, multi-turn agentic workflows. Pairing a custom config with today's brand new llama.cpp b9200 release — which specifically fixes mtp memory traffic overhead — completely turns that around. Hardware/Software * RTX 3090 (24GB VRAM) — currently undervolted to keep temps down * Ryzen 7 5700G / 6",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-18T00:20:20+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "f645561b844f",
+      "title": "Four years ago we started building an HR platform",
+      "url": "https://dev.to/hr_pulsar/four-years-ago-we-started-building-an-hr-platform-29jo",
+      "summary": "Not because HR-tech looked exciting. Mostly because every company we talked to had the same setup:\n\n\ngrades in Excel\n360 reviews in Google Forms\ncompetency matrices buried in Confluence\n“performance systems” that nobody wanted to open twice\n\n\nAnd eventually: “Let’s just build our own thing.”\nSo we did.\n\nThen this year we made a bigger decision: we rewrote the platform from the ground up — and open sourced it.\n\n\n  \n  \n  Meet HRPulsar\n\n\nAn open source talent management platform for teams where every employee already works with AI tools.\n\nMost HR systems still model companies like it’s 2015: empl",
+      "source": "Dev.to AI",
+      "published": "2026-05-18T10:56:41+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "ed9e0fa36dde",
+      "title": "How to Evaluate Gaming Platform Scalability Before Launch",
+      "url": "https://dev.to/bob_packer_7c9018a4d1a1f1/how-to-evaluate-gaming-platform-scalability-before-launch-53og",
+      "summary": "Launching a gaming platform without testing scalability is similar to opening a stadium without checking how many people can safely enter at once. A platform may perform perfectly with a few hundred users during development and still struggle when thousands of players log in simultaneously after launch. Gaming platforms face unpredictable traffic patterns, seasonal spikes, promotional campaigns, and sudden player growth. If the infrastructure is not prepared, users experience lag, failed transactions, crashes, and long loading times.\n\nBuilding for scale is no longer limited to large gaming com",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:40:50+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "21c38bd37373",
+      "title": "Best Dentist in My Area: How to Choose the Right Dental Clinic Without Regret",
+      "url": "https://dev.to/vcaredentals/best-dentist-in-my-area-how-to-choose-the-right-dental-clinic-without-regret-3n7",
+      "summary": "Quick Overview\n\nFinding the best dentist in my area is not just about Google ratings anymore. It’s about trust, painless treatment, transparent pricing, modern technology, and a dentist who genuinely listens to your concerns. 🦷✨\n\nIn this guide, you’ll learn:\n\nHow to find the right dental clinic near you\nWarning signs to avoid while choosing a dentist\nCost expectations for common treatments\nWhy patients in Gaur City and Crossing Republic trust VCare Dentals\nExpert tips, FAQs, and a real-world case study\n\nIf dental anxiety, hidden charges, or bad experiences have held you back, this blog will he",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:40:36+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "8384d14726aa",
+      "title": "How to budget a software development project (without the spreadsheet theater)",
+      "url": "https://dev.to/baodev-studio/how-to-budget-a-software-development-project-without-the-spreadsheet-theater-33d1",
+      "summary": "The first software project I quoted as a freelancer was supposed to take three weeks. It took eleven.\n\nThe spec was four bullet points, the budget was a number I picked because it sounded reasonable, and the client was patient until they weren't. By week six everyone was unhappy and nobody was being dishonest. I just had no idea how to budget a software development project.\n\nMost online cost calculators don't help. They ask three questions and return a number that depends on nothing. Real budgeting is six variables in a trench coat, and the trench coat is held together by how well-defined your",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:34:10+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "6d59d7d11f20",
+      "title": "Associate Vice President Email List High Quality B2B Executive Database for Targeted Marketing",
+      "url": "https://dev.to/readym6233/associate-vice-president-email-list-high-quality-b2b-executive-database-for-targeted-marketing-168j",
+      "summary": "The Associate Vice President Email List offered by Ready Mailing Team is a premium business contact database designed to help organizations connect directly with senior-level decision-makers. In today’s fast-paced B2B environment, reaching the right executive audience is essential for generating qualified leads, building partnerships, and improving overall marketing performance. This specialized email list enables businesses to communicate with Associate Vice Presidents across multiple industries in a highly efficient and targeted way.\n\n\n\nAssociate Vice Presidents hold important leadership pos",
+      "source": "Dev.to Programming",
+      "published": "2026-05-18T10:17:48+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "b4554be26b56",
+      "title": "Navigation API Reaches Baseline Newly Available as Replacement to the History API",
+      "url": "https://www.infoq.com/news/2026/05/navigation-api-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Navigation API is a new interface for managing client-side navigation in single-page applications, now available in major browsers as of January 2026. It addresses limitations of the prior History API by providing a unified event model and improved history management. Key features include the navigate event, automatic URL updates, and integrated error handling. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-05-18T06:33:00+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "ae1b8cd7cfca",
+      "title": "model-agnostic sensitivity approximator [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgemq5/modelagnostic_sensitivity_approximator_p/",
+      "summary": "(to preface, i'm 16 and this is the first package i've ever built. any feedback would be appreciated!) what i've noticed is that most industry-standard xai tools (think shap/lime) focus on feature attribution (why did the model made this prediction), but it doesn't do anything further. i wanted to go a step beyond that, so i built a tool that approximates ∂[prediction]/∂[feature], basically how sensitive the model prediction is to each feature of a given instance, allowing for effective risk management in areas where knowing how to change a prediction is more important than understanding the p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T06:53:41+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "e9110b774e48",
+      "title": "Benchmarking vLLM vs SGLang vs llama.cpp on a mixed Blackwell/Ada cluster",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg4mw0/benchmarking_vllm_vs_sglang_vs_llamacpp_on_a/",
+      "summary": "I have been running some benchmarks on a heterogeneous 7-GPU cluster to see how different inference engines handle long context prefill using pipeline parallelism. My setup consists of a mix of Blackwell and Ada cards: one RTX PRO 6000 96GB, one PRO 5000 48GB, two 5090 32GB, and three modded 4090 48GB. All tests were done using 4-bit weights, specifically NVFP4 for vLLM and SGLang, and MXFP4 for llama.cpp. The main takeaway is that vLLM significantly outperforms the others on mixed multi-GPU setups for long context prefill. Llama.cpp struggles heavily with pipeline parallelism under these cond",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-17T22:57:54+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "9708419141c4",
+      "title": "FlashLM v9.7",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tg8j0l/flashlm_v97/",
+      "summary": "Back with an update. Some of you saw v10 FSP, the one where I found that Future Sentence Prediction gave a 2.5x PPL improvement. Well, I've run 20+ more experiments since then trying to get the model to actually understand what it's saying. Spoiler: lower PPL does not mean more coherent. Quick clarification on naming: CPUFlow is my cumsum based CPU native architecture (v1 through v9.7). FlashLM is the broader project including attention experiments (v10 FSP), ternary models (v5 Thunderbolt), etc. All trained from scratch on free tier CPUs. The finding that surprised me: My best perplexity mode",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-18T01:51:44+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "cc748dac27a3",
+      "title": "ROCm 7.13 nightly adds strix halo optimizations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tftg09/rocm_713_nightly_adds_strix_halo_optimizations/",
+      "summary": "https://www.phoronix.com/news/ROCm-7.13-Released Quote: ...new optimizations for Ryzen AI Max 300 &quot;Strix Halo&quot; and the ROCprof Trace Decoder is now open-source...&lt;snip&gt;... Those rolling from source can grab the ROCm 7.13 Tech Preview via TheRock on GitHub. https://rocm.docs.amd.com/en/7.13.0-preview/about/release-notes.html Trivia: Rocm name origin: radeon open compute module  &#32; submitted by &#32;  /u/Terminator857   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-17T15:56:56+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "3cee122b89c9",
+      "title": "LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships",
+      "url": "https://towardsdatascience.com/llm-evals-are-based-on-vibes-i-built-the-missing-layer-that-decides-what-ships/",
+      "summary": "Most LLM evaluation systems rely on vague scoring and human judgment disguised as metrics. I built a lightweight evaluation layer in pure Python that turns LLM outputs into reproducible decisions by separating attribution, specificity, and relevance—so hallucinations are caught before they reach production.\nThe post LLM Evals Are Based on Vibes — I Built the Missing Layer That Decides What Ships appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-17T13:00:00+00:00",
+      "score": 2.28,
+      "image": null
+    }
+  ]
+}
