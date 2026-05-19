@@ -1,0 +1,323 @@
+{
+  "digest": {
+    "headline": "Vite Version 8: Unified Rust-Based Bundler and Up to 30x Faster Builds",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Vite Version 8: Unified Rust-Based Bundler and Up to 30x Faster Builds (InfoQ). Chainlink — Deep Dive (Dev.to Programming). Here’s why Elon Musk lost his suit against OpenAI (MIT Tech Review). The AI Pitch Success Predictor: Scoring Journalist Engagement Probability (Dev.to AI). How AI Contract Review Tools Are Transforming Legal Operations (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Witchcraft, fast local semantic search on top of SQLite [P] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Released a free 9.8M doc Indic multilingual corpus — Hindi, Bengali, Tamil, Telugu + 7 more (CC0, HuggingFace) [P] (Reddit r/MachineLearning). One Flexible Tool Beats a Hundred Dedicated Ones (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Vite 8.0 introduces a significant architectural change, migrating from a dual-bundler setup to a single Rust-based bundler called Rolldown. This update enhances build speeds, reporting reductions from 46 seconds to 6 seconds in some projects. The release includes developer experience improvements and maintains compatibility with the existing plugin ecosystem. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "f0e57677923e",
+      "title": "Vite Version 8: Unified Rust-Based Bundler and Up to 30x Faster Builds",
+      "url": "https://www.infoq.com/news/2026/05/vite-v8-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vite 8.0 introduces a significant architectural change, migrating from a dual-bundler setup to a single Rust-based bundler called Rolldown. This update enhances build speeds, reporting reductions from 46 seconds to 6 seconds in some projects. The release includes developer experience improvements and maintains compatibility with the existing plugin ecosystem. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-05-19T06:57:00+00:00",
+      "score": 4.4,
+      "image": "https://res.infoq.com/news/2026/05/vite-v8-rust/en/headerimage/generatedHeaderImage-1778770731355.jpg"
+    },
+    {
+      "id": "8f298dbdba6b",
+      "title": "Chainlink — Deep Dive",
+      "url": "https://dev.to/gautammanak1/chainlink-deep-dive-2pk5",
+      "summary": "TL;DR\n\n\nChainlink has cemented its position not just as an oracle provider, but as the foundational infrastructure layer for the tokenization of traditional finance (TradFi). This week, we are witnessing a historic convergence of legacy financial giants and blockchain technology. The Depository Trust &amp; Clearing Corporation (DTCC), the backbone of US securities settlement, has selected Chainlink’s Compute Runtime Environment (CRE) to power its 24/7 collateral appchain, targeting a Q4 2026 launch. Simultaneously, Fidelity International launched its first tokenized liquidity fund (FILQ), rate",
+      "source": "Dev.to Programming",
+      "published": "2026-05-19T10:11:15+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjciwtsjmsqzlo00eikmi.png"
+    },
+    {
+      "id": "639c0b2cef6c",
+      "title": "Here’s why Elon Musk lost his suit against OpenAI",
+      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+      "summary": "On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it.&#160; Musk announced on X that he will&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-19T00:53:10+00:00",
+      "score": 3.86,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/AP26138721148129.jpg?resize=1200,600"
+    },
+    {
+      "id": "5f8c349c6df2",
+      "title": "The AI Pitch Success Predictor: Scoring Journalist Engagement Probability",
+      "url": "https://dev.to/ken_deng_ai/the-ai-pitch-success-predictor-scoring-journalist-engagement-probability-1k21",
+      "summary": "Stop Spraying and Start Predicting\n\n\nYou’ve spent hours crafting the perfect pitch, only for it to vanish into the void. For boutique PR agencies, this inefficient cycle wastes precious time and client budget. The solution is no longer just personalization—it’s prediction. By leveraging AI to score a journalist’s probability of engagement, you can prioritize your outreach with scientific precision.\n\n\n  \n  \n  The Principle: The Five-Factor Scoring Framework\n\n\nHyper-personalization isn't about using a first name; it's about aligning your outreach with a journalist's demonstrable signals. This ca",
+      "source": "Dev.to AI",
+      "published": "2026-05-19T10:19:31+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7snuyusoerxofew53s82.png"
+    },
+    {
+      "id": "faa95c037b9c",
+      "title": "How AI Contract Review Tools Are Transforming Legal Operations",
+      "url": "https://dev.to/seasia_infotech_899dc2c59/how-ai-contract-review-tools-are-transforming-legal-operations-23ff",
+      "summary": "A contract can hold up an entire business process. A delayed vendor agreement can postpone procurement. A missed clause in a partnership contract can create legal exposure months later. A forgotten renewal term can quietly increase costs. Legal teams have always known this. The challenge is that the volume of work has changed dramatically. \n\nA decade ago, contract review mostly meant lawyers sitting with stacks of documents, redlining clauses, and manually checking terms against company policies. Today, legal departments are dealing with hundreds or even thousands of agreements spread across m",
+      "source": "Dev.to AI",
+      "published": "2026-05-19T10:26:21+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw4x8sxohxz85beu2culi.png"
+    },
+    {
+      "id": "20d798a834f1",
+      "title": "2026 How to Drive Targeted Traffic to Your E-commerce Site via Reddit: Detailed Guide to Reddit's Recommendation Algorithm",
+      "url": "https://dev.to/ipfoxy/2026-how-to-drive-targeted-traffic-to-your-e-commerce-site-via-reddit-detailed-guide-to-reddits-19g4",
+      "summary": "Users actively gather, communities have high trust, and organic traffic can last for months… Reddit is one of the best platforms for driving traffic to e-commerce sites. Many e-commerce sellers have heard of it but don’t know how to use it. Posting links immediately gets accounts banned; carefully written posts disappear without engagement; spending time on content often fails because you don’t know which communities are effective.\nIn 2026, Reddit’s traffic logic has fundamentally changed. Understanding its recommendation system is key to turning Reddit into a precise traffic channel for your ",
+      "source": "Dev.to AI",
+      "published": "2026-05-19T10:25:05+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fellldt3dgvetbc78arvw.png"
+    },
+    {
+      "id": "b2ce54b32363",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-58k",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-19T10:25:11+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "69b4b0ae5161",
+      "title": "Anthropic's Code With Claude Announces  Managed Agents, Proactive Workflows, Capability Curve",
+      "url": "https://www.infoq.com/news/2026/05/code-with-claude/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic hosted \"Code with Claude 2026\" in San Francisco, featuring livestream sessions focused on Claude Code, the Claude API platform, and other projects. Key topics included developer experience, autonomy features, model step-changes, and the impact of AI on product architecture. Discussions included insights from GitHub, Vercel, and AI-native startups on engineering strategies and challenges. By Andrew Hoblitzell",
+      "source": "InfoQ",
+      "published": "2026-05-18T13:14:00+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "ac8ac181a290",
+      "title": "We built a tool that installs frameworks like ComfyUI, Ollama, OpenWebUI etc on any cloud GPU in one command and saves your whole setup between sessions [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1th863j/we_built_a_tool_that_installs_frameworks_like/",
+      "summary": "We kept running into the same problem every time we rented a GPU to run Ollama + OpenWebUI or ComfyUI, we'd spend the first 45 minutes reinstalling everything. Custom nodes, models, configs, all of it. Docker images went stale fast, different providers had different base images, and nothing was truly portable. We got sick of it and built swm. Here's what it does for ComfyUI users specifically: swm gpus -g a100 --max-price 2.00 --sort price shows you the cheapest available GPU across RunPod, Vast ai, Lambda, and 7 other providers in one view swm pod create — spins up an instance on whatever pro",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-19T01:34:01+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "fbe98ec258fb",
+      "title": "Released a free 9.8M doc Indic multilingual corpus — Hindi, Bengali, Tamil, Telugu + 7 more (CC0, HuggingFace) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1th4po3/released_a_free_98m_doc_indic_multilingual_corpus/",
+      "summary": "Built this over the past few weeks as part of a multilingual research project. Figured I'd share it here. Check it out! ~9.8M web documents across 11 languages — hi, bn, ta, te, mr, gu, kn, ml, pa, ur, en. ~8.4B tokens. CC0 license. 🤗 https://huggingface.co/datasets/AM0908/indic-hplt-v1  &#32; submitted by &#32;  /u/ashtok897   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T23:09:33+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "7b9cabb050a9",
+      "title": "First-time ICML workshop acceptance (GlobalSouthML) but can't afford to travel to South Korea. What are my options? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1thap7a/firsttime_icml_workshop_acceptance_globalsouthml/",
+      "summary": "Hey everyone, I’m an undergrad from India and I just found out I had two papers accepted at the ICML 2026 GlobalSouthML workshop! I am super excited since this is my first time getting accepted into a major conference venue, but I’m also kind of panicking right now because I absolutely cannot afford a trip to Seoul. Since I've never done this before, I’m hoping some experienced folks can help answer a few questions about how the post-acceptance process works:  I saw that the main conference has a &quot;Virtual Pass.&quot; Is that enough to keep my papers in the workshop program? ICML rules mak",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-19T03:24:39+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "7c7766ef048c",
+      "title": "Rewriting model inference with CUDA kernels: the bottleneck was not just GEMM [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgyx41/rewriting_model_inference_with_cuda_kernels_the/",
+      "summary": "I’ve been working on a CUDA-first inference runtime for small-batch / realtime ML workloads. The core idea is simple: instead of treating PyTorch / TensorRT / generic graph runtimes as the main execution path, I rewrite the model inference path directly with C++/CUDA kernels. This started from robotics / VLA workloads, but the problem is more general. In small-batch inference, the bottleneck is often not just a single slow GEMM. A lot of latency comes from the runtime glue around the math:  fragmented small kernels norm / residual / activation boundaries quantize / dequantize overhead layout t",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T19:46:23+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "580c751f5a18",
+      "title": "Elon Musk has lost his lawsuit against Sam Altman and OpenAI",
+      "url": "https://techcrunch.com/2026/05/18/elon-musk-has-lost-his-lawsuit-against-sam-altman-and-openai/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-18T17:38:22+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "44ad1405c67d",
+      "title": "Lemonade v10.5.1: an MTP + ROCm 7.13 quick start for Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1th0z6k/lemonade_v1051_an_mtp_rocm_713_quick_start_for/",
+      "summary": "Update to Lemonade v10.5.1, then: ``` Get the model lemonade pull Qwen3.6-27B-MTP-GGUF Get ROCm 7.13 lemonade backends install llamacpp:rocm Load the model (MTP args auto-applied) lemonade load Qwen3.6-27B-MTP-GGUF --llamacpp rocm --ctx-size 0 ``` Shown in the video taking a look in the mirror with the help of Pi agent. Github: https://github.com/lemonade-sdk/lemonade Discord: https://discord.gg/5xXzkMu8Zk  PS. u/lucifer-vali fixed Fedora 43 support in this release as well :)  &#32; submitted by &#32;  /u/jfowers_amd   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-18T20:55:54+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "98af69a4eb7a",
+      "title": "Take your local GitHub sessions anywhere",
+      "url": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+      "summary": "Kick off work in VS Code or the CLI, finish it from your phone. Remote control for GitHub Copilot sessions is now generally available on github.com and GitHub Mobile.  \nThe post Take your local GitHub sessions anywhere appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-05-18T16:54:53+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "9c0ddb2d59a6",
+      "title": "Anthropic acquires Stainless",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-18T17:01:21+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "9b614dbdf86e",
+      "title": "What happens to local LLM if/when LLMs are no longer released for free?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgmjq0/what_happens_to_local_llm_ifwhen_llms_are_no/",
+      "summary": "I’m thinking about where this might wind up in 3-5+ years. As others have noted there’s no guarantee that Qwen, Google, and others will continue to release models in the future. Suppose the supply of new LLM models dries up overnight. Whatever is available today, May 2026, is all that we ever get. What then? Of course, we can continue using the models we already have in perpetuity but their knowledge will become staler and staler. Can today’s models be functional (edit: I meant “useful”) in 5+ years if we build out *really* good knowledge-retrieval tooling, so that LLMs can efficiently retriev",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-18T13:23:56+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "4a41d0788c89",
+      "title": "Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production",
+      "url": "https://www.infoq.com/news/2026/05/cloudflare-stripe-agent-commerce/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare and Stripe launched a protocol that lets AI agents autonomously create cloud accounts, register domains, start subscriptions, and deploy to production. Stripe handles identity and payment with a $100/month default cap. No other major cloud provider offers comparable agent-driven account provisioning. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-05-18T09:41:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "9d0bbbf81d63",
+      "title": "Swiggy Improves Search Autocomplete Using Real Time Machine Learning Ranking",
+      "url": "https://www.infoq.com/news/2026/05/swiggy-autocomplete-rt-ranking/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Swiggy detailed real-time machine-learning ranking system for autocomplete built on OpenSearch. The architecture separates candidate generation and ranking, uses feature stores for real time signals, and applies learning to rank models for improved relevance. It replaces heuristic ranking while maintaining strict latency constraints and enabling continuous model updates from user behavior signals. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-05-18T14:38:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "e3ffa798494c",
+      "title": "Java News Roundup: OpenJDK JEPs, Azul Payara, WildFly, LangChain4j, OpenXava, Google ADK",
+      "url": "https://www.infoq.com/news/2026/05/java-news-roundup-may11-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for May 11th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 27; introducting Azul Payara Community and the WildFly wado CLI tool; point releases of LangChain4j and Google ADK; and maintenance releases of Micronaut and OpenXava. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-05-18T12:45:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "812d07ce72ab",
+      "title": "AI/ML Ethicists [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgqybv/aiml_ethicists_d/",
+      "summary": "So I’ve been working with AI/ML for the past couple of years, and it has been an amazing experience. I still remember using GPT-2 for the first time and being completely blown away by it. Seeing how far the technology has come since then is honestly mind-blowing. I genuinely love working in AI, learning about it, and experimenting with new tools and ideas. But over the past couple of years, something has started to weigh on me: the ethical and moral impact of this technology as it continues to advance. There have been moments where I’ve felt uncomfortable talking about my work because so many ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T15:59:48+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "17b6a7dd7305",
+      "title": "Witchcraft, fast local semantic search on top of SQLite [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgqyo8/witchcraft_fast_local_semantic_search_on_top_of/",
+      "summary": "Witchcraft (https://github.com/dropbox/witchcraft), an open source project that I built at Dropbox, is a from-scratch re-implementation of Stanford's XTR-Warp semantic search engine ( https://github.com/jlscheerer/xtr-warp ) in safe rust, using a single-file SQLite database as backing storage, making it suitable for client-side deployment. It runs completely stand-alone on your device, needs no API keys, no vector database, no chunking strategy, no fancy re-rankers, and it is lightning fast (20ms p.95 end-to-end search latency on NFCorpus, at 33% NDCG@10, on an Apple Macbook Pro M2 Max, more t",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T16:00:06+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "a5a8c6a0f221",
+      "title": "One Flexible Tool Beats a Hundred Dedicated Ones",
+      "url": "https://towardsdatascience.com/one-flexible-tool-beats-a-hundred-dedicated-ones/",
+      "summary": "Why MCP servers keep losing to CLIs once the agent gets a terminal\nThe post One Flexible Tool Beats a Hundred Dedicated Ones appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-18T15:00:00+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "582be2265013",
+      "title": "Has anyone received decisions for the ICML 2026 GlobalSouthML workshop yet? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgu8p5/has_anyone_received_decisions_for_the_icml_2026/",
+      "summary": "Hey everyone! The decision notification deadline for the GlobalSouthML workshop was originally May 15th (and the site updated it to May 17th AoE), but my OpenReview dashboard still just says &quot;0 Official Reviews Submitted&quot; I know workshop timelines can be a bit chaotic and delays are normal, but since we are way past the 17th AoE now, I wanted to see if anyone else is still waiting. Has anyone gotten an accept/reject email yet? Appreciate any updates! Thanks! [Edit: received them a few minutes back]  &#32; submitted by &#32;  /u/Material_Dinner_1924   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T17:40:52+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "abbacb25710a",
+      "title": "How to Maximize OpenAI’s Codex",
+      "url": "https://towardsdatascience.com/how-to-maximize-openais-codex/",
+      "summary": "Learn how to get the most out of OpenAI's coding agent\nThe post How to Maximize OpenAI’s Codex appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-18T12:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "01ce9b3b5259",
+      "title": "Reviving PapersWithCode (by Hugging Face) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgmwqr/reviving_paperswithcode_by_hugging_face_p/",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. Like many others, I was a huge fan of paperswithcode. Sadly, that website is no longer maintained after its acquisition by Meta. Hence, I've been working on reviving it. I obviously use AI agents to parse papers at scale and automatically generate leaderboards (for now I'm the one verifying results). So far, I've only parsed high-impact papers for which I know they're SOTA, like Qwen 3.5 and 3.6, RF-DETR for object detection, DINOv3, SOTA embedding models from the MTEB leaderboard, the Open ASR Leaderboard for automatic speech recogniti",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T13:37:11+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "a924acaa38c0",
+      "title": "Why Your AI Demo Will Die in Production",
+      "url": "https://towardsdatascience.com/why-your-ai-demo-will-die-in-production/",
+      "summary": "95% of enterprise AI pilots fail to launch. Why?\nThe post Why Your AI Demo Will Die in Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-18T13:30:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "349f29a6f4c0",
+      "title": "Scaling LLMs horizontally: hidden-state coupling without weight modification [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tgm530/scaling_llms_horizontally_hiddenstate_coupling/",
+      "summary": "Residual Coupling (RC) connects frozen language models in parallel using small, learned linear bridge projections. These bridges read hidden states from one model and inject additive updates into the residual stream of another at intermediate layers. In bilateral setups, simultaneous return bridges form a feedback loop that stabilizes both streams without altering base weights. This architecture establishes a two-step paradigm where base models function as memorizers, while lightweight linear bridges handle cross-domain generalization. Constraining the bridges to purely linear maps prevents ov",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-18T13:08:37+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "d80044e6799a",
+      "title": "Qwen cant wait to release 3.7 models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tgrpqc/qwen_cant_wait_to_release_37_models/",
+      "summary": "&#32; submitted by &#32;  /u/GotHereLateNameTaken   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-18T16:25:14+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "daa5d583fc84",
+      "title": "Six Choices Every AI Engineer Has to Make (and Nobody Teaches)",
+      "url": "https://towardsdatascience.com/six-choices-every-ai-engineer-has-to-make-and-nobody-teaches/",
+      "summary": "The production trade-offs that only appear once your model is live.\nThe post Six Choices Every AI Engineer Has to Make (and Nobody Teaches) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-18T16:30:00+00:00",
+      "score": 2.5,
+      "image": null
+    }
+  ]
+}

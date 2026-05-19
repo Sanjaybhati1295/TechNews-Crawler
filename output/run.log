@@ -396,3 +396,38 @@
 2026-05-18 10:58:34,520  INFO     ────────────────────────────────────────────────────────────
 2026-05-18 10:58:34,520  INFO     Done!  Open: output/index.html
 2026-05-18 10:58:34,520  INFO     Headline: Cloudflare and Stripe Let AI Agents Create Accounts, Buy Domains, and Deploy to Production
+2026-05-19 10:33:01,519  INFO     ============================================================
+2026-05-19 10:33:01,519  INFO     TECHPULSE Digest — 2026-05-19 10:33 UTC
+2026-05-19 10:33:01,519  INFO     ============================================================
+2026-05-19 10:33:01,519  INFO     Step 1/3 — Crawling feeds…
+2026-05-19 10:33:01,875  INFO       Hacker News                    → 2 significant articles
+2026-05-19 10:33:02,270  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-19 10:33:02,464  INFO       Ars Technica                   → 0 significant articles
+2026-05-19 10:33:03,022  INFO       The Register AI                → 0 significant articles
+2026-05-19 10:33:03,137  INFO       MIT Tech Review                → 1 significant articles
+2026-05-19 10:33:03,257  INFO       Dev.to AI                      → 3 significant articles
+2026-05-19 10:33:03,406  INFO       Dev.to Programming             → 2 significant articles
+2026-05-19 10:33:03,724  INFO       GitHub Blog                    → 1 significant articles
+2026-05-19 10:33:04,414  INFO       Google Research                → 0 significant articles
+2026-05-19 10:33:05,146  INFO       Reddit r/MachineLearning       → 11 significant articles
+2026-05-19 10:33:05,696  INFO       Reddit r/LocalLLaMA            → 3 significant articles
+2026-05-19 10:33:06,208  INFO       InfoQ                          → 6 significant articles
+2026-05-19 10:33:06,476  INFO       Towards Data Science           → 4 significant articles
+2026-05-19 10:33:06,690  INFO       Wired AI                       → 0 significant articles
+2026-05-19 10:33:06,743  INFO       TechCrunch AI                  → 0 significant articles
+2026-05-19 10:33:06,743  INFO     Fetching images for top articles…
+2026-05-19 10:33:07,250  INFO       🖼  Vite Version 8: Unified Rust-Based Bundler and Up to 30x Fas
+2026-05-19 10:33:07,319  INFO       🖼  Chainlink — Deep Dive
+2026-05-19 10:33:07,382  INFO       🖼  Here’s why Elon Musk lost his suit against OpenAI
+2026-05-19 10:33:07,433  INFO       🖼  The AI Pitch Success Predictor: Scoring Journalist Engagemen
+2026-05-19 10:33:07,470  INFO       🖼  How AI Contract Review Tools Are Transforming Legal Operatio
+2026-05-19 10:33:07,505  INFO       🖼  2026 How to Drive Targeted Traffic to Your E-commerce Site v
+2026-05-19 10:33:07,505  INFO     Total selected: 30 articles from 15 feeds
+2026-05-19 10:33:07,505  INFO     Selected 30 significant articles
+2026-05-19 10:33:07,505  INFO     Step 2/3 — Generating digest…
+2026-05-19 10:33:08,051  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-19 10:33:08,051  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-19 10:33:08,052  INFO     Step 3/3 — Rendering HTML…
+2026-05-19 10:33:08,053  INFO     ────────────────────────────────────────────────────────────
+2026-05-19 10:33:08,053  INFO     Done!  Open: output/index.html
+2026-05-19 10:33:08,053  INFO     Headline: Vite Version 8: Unified Rust-Based Bundler and Up to 30x Faster Builds
