@@ -431,3 +431,36 @@
 2026-05-19 10:33:08,053  INFO     ────────────────────────────────────────────────────────────
 2026-05-19 10:33:08,053  INFO     Done!  Open: output/index.html
 2026-05-19 10:33:08,053  INFO     Headline: Vite Version 8: Unified Rust-Based Bundler and Up to 30x Faster Builds
+2026-05-20 10:19:05,309  INFO     ============================================================
+2026-05-20 10:19:05,310  INFO     TECHPULSE Digest — 2026-05-20 10:19 UTC
+2026-05-20 10:19:05,310  INFO     ============================================================
+2026-05-20 10:19:05,310  INFO     Step 1/3 — Crawling feeds…
+2026-05-20 10:19:05,693  INFO       Hacker News                    → 1 significant articles
+2026-05-20 10:19:05,932  INFO       VentureBeat AI                 → 1 significant articles
+2026-05-20 10:19:06,081  INFO       Ars Technica                   → 0 significant articles
+2026-05-20 10:19:06,717  INFO       The Register AI                → 0 significant articles
+2026-05-20 10:19:06,893  INFO       MIT Tech Review                → 2 significant articles
+2026-05-20 10:19:37,557  INFO       Dev.to AI                      → 1 significant articles
+2026-05-20 10:19:37,728  INFO       Dev.to Programming             → 1 significant articles
+2026-05-20 10:19:38,052  INFO       GitHub Blog                    → 0 significant articles
+2026-05-20 10:19:38,829  INFO       Google Research                → 0 significant articles
+2026-05-20 10:19:39,890  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-05-20 10:19:40,544  INFO       Reddit r/LocalLLaMA            → 6 significant articles
+2026-05-20 10:19:41,106  INFO       InfoQ                          → 3 significant articles
+2026-05-20 10:19:41,275  INFO       Towards Data Science           → 3 significant articles
+2026-05-20 10:19:41,423  INFO       Wired AI                       → 0 significant articles
+2026-05-20 10:19:41,553  INFO       TechCrunch AI                  → 12 significant articles
+2026-05-20 10:19:41,553  INFO     Fetching images for top articles…
+2026-05-20 10:19:47,621  INFO       🖼  Google introduces Gemini Spark, a 24/7 agentic assistant wit
+2026-05-20 10:19:48,379  INFO       🖼  Anthropic Introduces MCP Tunnels for Private Agent Access to
+2026-05-20 10:19:48,457  INFO       🖼  I Started a Faceless YouTube Channel With AI: 3-Month Update
+2026-05-20 10:19:48,497  INFO       🖼  With Gemini 3.5 Flash, Google bets its next AI wave on agent
+2026-05-20 10:19:48,497  INFO     Total selected: 30 articles from 15 feeds
+2026-05-20 10:19:48,497  INFO     Selected 30 significant articles
+2026-05-20 10:19:48,497  INFO     Step 2/3 — Generating digest…
+2026-05-20 10:19:48,989  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-20 10:19:48,989  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-20 10:19:48,990  INFO     Step 3/3 — Rendering HTML…
+2026-05-20 10:19:48,991  INFO     ────────────────────────────────────────────────────────────
+2026-05-20 10:19:48,991  INFO     Done!  Open: output/index.html
+2026-05-20 10:19:48,991  INFO     Headline: Google Maps Gemini AI Just Transformed Road Trips
