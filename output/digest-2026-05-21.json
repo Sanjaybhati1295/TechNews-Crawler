@@ -1,0 +1,313 @@
+{
+  "digest": {
+    "headline": "With Android CLI, Google is Making the Android Toolchain Agent-Friendly",
+    "tldr": "Today's digest covers 29 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "With Android CLI, Google is Making the Android Toolchain Agent-Friendly (InfoQ). 'Am I OpenAI compatible' - a tool and documentation for unified api signatures in open source AI. (Reddit r/LocalLLaMA). Intuit Cuts 3,000 Jobs Despite Strong Revenue Growth as AI Strategy Takes Priority (Dev.to AI). PayPal is Not a Viable Option for Nigerian Freelancers (Dev.to AI). The Wrong Idea of a Global Platform Store (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Tech researchers are suing the Trump administration over the future of online safety (MIT Tech Review)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "What falls between (Dev.to AI). Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Google introduced new Android development tools that enable building apps up to 3x faster by using AI agents, including a redesigned Android command-line interface (CLI), structured skills\", and an integrated knowledge base. These tools are designed to support agent-driven workflows and are compatible with third-party agents such as Claude Code and Codex, in addition to Google Gemini. By Sergio De Simone"
+  },
+  "articles": [
+    {
+      "id": "526b601c4de3",
+      "title": "With Android CLI, Google is Making the Android Toolchain Agent-Friendly",
+      "url": "https://www.infoq.com/news/2026/05/agent-friendly-android-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google introduced new Android development tools that enable building apps up to 3x faster by using AI agents, including a redesigned Android command-line interface (CLI), structured skills\", and an integrated knowledge base. These tools are designed to support agent-driven workflows and are compatible with third-party agents such as Claude Code and Codex, in addition to Google Gemini. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-05-21T10:00:00+00:00",
+      "score": 4.27,
+      "image": "https://res.infoq.com/news/2026/05/agent-friendly-android-cli/en/headerimage/agent-friendly-android-cli-1779355948593.jpeg"
+    },
+    {
+      "id": "45619c00b291",
+      "title": "Tech researchers are suing the Trump administration over the future of online safety",
+      "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/",
+      "summary": "Since its earliest days back in office, the Trump administration has been going after researchers who study and try to counter hate speech, harassment, propaganda, and disinformation online.&#160; Now, some of those researchers are fighting back. Last week their lawsuit—which could have global repercussions for online safety and free speech—made its first appearance in court.&#160;&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-21T09:00:00+00:00",
+      "score": 4.11,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/knight-case3.jpg?resize=1200,600"
+    },
+    {
+      "id": "c3155bac6321",
+      "title": "'Am I OpenAI compatible' - a tool and documentation for unified api signatures in open source AI.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjgceg/am_i_openai_compatible_a_tool_and_documentation/",
+      "summary": "This has turned out to be useful to many of my friends so I thought I'd share here as well. I created a tool and documentation page for most major open-souce project's adherence to 'OpenAI compatibility' after seeing inconsistencies between engines like vLLM and llama.cpp. Now official and unofficial signatures are documented.  Beyond that there are gaps for many model types, so there's also ht-compatibility (inherited from OpenAI compatibility for those) Just wanted to share a tool I made that can be useful if you're plugging and playing llm and other ai endpoints e.g. into an app. Also if yo",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T10:26:06+00:00",
+      "score": 3.99,
+      "image": null
+    },
+    {
+      "id": "c260639303e4",
+      "title": "Intuit Cuts 3,000 Jobs Despite Strong Revenue Growth as AI Strategy Takes Priority",
+      "url": "https://dev.to/codego_group_c184db25b758/intuit-cuts-3000-jobs-despite-strong-revenue-growth-as-ai-strategy-takes-priority-1iam",
+      "summary": "The financial technology sector's ongoing artificial intelligence transformation claimed another significant casualty this week as Intuit announced the elimination of approximately 3,000 positions, representing 17 percent of its global workforce. The cuts underscore a striking paradox in today's fintech landscape: companies are achieving robust financial performance while simultaneously reducing headcount in pursuit of AI-driven operational efficiency.\n\nIntuit disclosed the workforce reduction on the same day it reported third-quarter revenue of $8.6 billion, marking a solid 10 percent increas",
+      "source": "Dev.to AI",
+      "published": "2026-05-21T10:15:09+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0vo4w5hngli036gotqng.png"
+    },
+    {
+      "id": "82b6fdc65a71",
+      "title": "PayPal is Not a Viable Option for Nigerian Freelancers",
+      "url": "https://dev.to/on-chain-commerce/paypal-is-not-a-viable-option-for-nigerian-freelancers-42d9",
+      "summary": "The Problem We Were Actually Solving\n\n\nOur problem wasn't just about integrating PayPal, but about creating a payment system that could handle the nuances of African economies. We needed to ensure that our platform could support creators in multiple countries, including Nigeria, Pakistan, Ghana, and Bangladesh. Our initial solution had to satisfy the needs of both our users and our business stakeholders.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWe started by integrating PayPal's advanced payment gateway, expecting to minimize processing and currency conversion costs for our users. H",
+      "source": "Dev.to AI",
+      "published": "2026-05-21T10:22:13+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fopen-rail.github.io%2FStore%2Fposts%2Fimages%2Fpost-20260506-KRIO.png"
+    },
+    {
+      "id": "fa50abb5d37f",
+      "title": "What falls between",
+      "url": "https://dev.to/praveen_govi_ai/what-falls-between-2e54",
+      "summary": "The seams between agents are where reality leaks in. Most teams don’t have a name for that yet\n\n\n                Photo by Joseph Frank on Unsplash\n\nFifth in a short series. The first four pieces were about what production-grade agentic systems require: an honest reckoning with cost (one), a plumbing layer (two), a tolerance for asymmetric risk (three), and a discipline of policy as code (four). This piece is about the place where multi-agent systems most often break, and the reason they break there. It is a place that has no name on most architecture diagrams, and that absence is part of the p",
+      "source": "Dev.to AI",
+      "published": "2026-05-21T10:21:53+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdasmkkih4bqd0p419l6j.png"
+    },
+    {
+      "id": "d41bfd724743",
+      "title": "The Wrong Idea of a Global Platform Store",
+      "url": "https://dev.to/micro-saas-journal/the-wrong-idea-of-a-global-platform-store-o7k",
+      "summary": "The Problem We Were Actually Solving\n\n\nWe were working with a non-profit organization that aimed to empower creators from developing countries to sell digital products online. Our goal was to make it easy for creators in Nigeria, Pakistan, Ghana, Bangladesh, and dozens of other countries to list their products, track sales, and receive payments. But despite our best efforts, our platform store was struggling to onboard creators from these regions. The problem wasn't just technical – it was also cultural and economic.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWe implemented a centrali",
+      "source": "Dev.to Programming",
+      "published": "2026-05-21T10:24:07+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "47209bcf3552",
+      "title": "I Used to Get Excited About New Tools Now I Feel Tired.",
+      "url": "https://dev.to/harsh2644/i-used-to-get-excited-about-new-tools-now-i-feel-tired-1e18",
+      "summary": "A new AI model dropped last week.\n\nTwitter exploded LinkedIn was a wall of hot takes My feed filled up with this changes everything and the future is here and seventeen threads about what it means for developers.\n\nI opened the announcement Scrolled for thirty seconds Closed the tab Went back to work.\n\nThat's it That was my entire reaction.\n\nA few Months ago I would have read every word Watched every demo Tried it the same day Stayed up late experimenting with it Woken up the next morning still thinking about it.\n\nNow I feel tired.\n\nNot because the tool isn't interesting Not because I've stoppe",
+      "source": "Dev.to AI",
+      "published": "2026-05-21T10:19:01+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "596b16b046ae",
+      "title": "Creating Effective Brand Guidelines for Your Startup or Business",
+      "url": "https://dev.to/lifeisverygood/creating-effective-brand-guidelines-for-your-startup-or-business-3k71",
+      "summary": "Introduction\n\n\nAt Divtechnosoft, we understand the importance of crafting clear and effective brand guidelines to help startups and businesses like yours achieve their full potential. Our focus on innovation, scalability, speed, and business growth means that our clients need a solid foundation for building strong digital products. In this article, we will explore how you can create powerful and actionable brand guidelines tailored to your unique needs.\n\n\n  \n  \n  Understanding Your Goals\n\n\nThe first step in creating effective brand guidelines is understanding your goals. What does success look",
+      "source": "Dev.to AI",
+      "published": "2026-05-21T10:16:51+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "313c59668eac",
+      "title": "The Unsettling Truth About Payment Platforms and Digital Commerce",
+      "url": "https://dev.to/exit-own/the-unsettling-truth-about-payment-platforms-and-digital-commerce-eml",
+      "summary": "The Problem We Were Actually Solving\n\n\nAt first glance, the problem seemed straightforward: find a payment gateway that supports digital products and integrates seamlessly with our existing infrastructure. But as I dug deeper, I realized that traditional payment platforms were primarily designed for brick-and-mortar businesses or e-commerce websites, not for digital product stores. Their one-size-fits-all approach couldn't cater to the unique requirements of our platform.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWe started by integrating Stripe, which is widely regarded as a reliabl",
+      "source": "Dev.to Programming",
+      "published": "2026-05-21T10:19:28+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "c4c13b26dc23",
+      "title": "The Misconception of Universal Access in Global Platform Stores",
+      "url": "https://dev.to/nomad-revenue/the-misconception-of-universal-access-in-global-platform-stores-1noo",
+      "summary": "The Problem We Were Actually Solving\n\n\nAt first glance, the problem seemed to be about supporting multiple payment gateways and currencies. However, our team quickly realized that the real challenge lay in accommodating the different tax regimes and regulatory requirements for digital products in each country. We were essentially trying to create a platform that could adapt to the complexities of over 100 countries.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nOur initial approach was to build a country selector that presented users with a list of supported countries and let them choose",
+      "source": "Dev.to Programming",
+      "published": "2026-05-21T10:18:48+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "20e1ead7a04b",
+      "title": "Mastering Divtechnosoft's Brand Guidelines: A Developer's Perspective",
+      "url": "https://dev.to/lifeisverygood/mastering-divtechnosofts-brand-guidelines-a-developers-perspective-5bp3",
+      "summary": "Introduction\n\n\nDivtechnosoft is well-known for its innovative approach to software development, particularly in the realm of AI automation and modern web solutions. Their flagship service is rapid MVP development, which allows startups and businesses to quickly launch a minimum viable product (MVP) that can be scaled over time. This article will explore how developers can align with Divtechnosoft's brand guidelines by focusing on several key areas: innovation, scalability, speed, and business growth.\n\n\n  \n  \n  Details\n\n\nInnovation is the cornerstone of any successful software development compa",
+      "source": "Dev.to Programming",
+      "published": "2026-05-21T10:15:34+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "f2d84f9c40a7",
+      "title": "Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tje2qd/looking_for_real_world_comparisons_between_wall/",
+      "summary": "I am choosing a baseline for a real manipulation stack and trying not to lose a month on setup that someone here has already done. Shortlist is OpenVLA, pi0.6, and WALL OSS from X Square Robot. OpenVLA is still the easiest reference point with lots of reproductions. pi0.6 looks strong from recent public updates but I have not seen many fully transparent ablations. WALL OSS looks promising in LeRobot and I can run inference on UR5 plus parallel gripper without issues, around 70 ms on a 4090 in my local setup. What I need is less paper score discussion and more deployment reality. If you have ru",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-21T08:23:45+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "5359a1dd5cf7",
+      "title": "Re. what ever happened to Cohere’s Command-A series of models?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tizmar/re_what_ever_happened_to_coheres_commanda_series/",
+      "summary": "Hey everyone, Nick Frosst here from Cohere. A few months ago Aidan (my cofounder) left a comment in here about our Command series and how we were working on some more powerful, open-weights models behind the scenes. We just launched Command A+ and we wanted to share it with you guys.  TLDR is we built a really efficient model. It’s our first MoE model, which is exciting. There’s obvs work to do on top-line performance but it’s easily looking like one of the fastest and most responsive models in our category. We also pulled off some incredible quantization work so it runs really well on even 1 ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-20T21:25:50+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "6f32104cba9f",
+      "title": "Model Golf for some Runpod Credits!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjcdp6/model_golf_for_some_runpod_credits/",
+      "summary": "CompactAI-O is a tiny-model huggingface organization. They are launching a tiny Model Golf, and the winner walks away with $50 in RunPod credits. Monthly. Every month. Show up, build, somebody wins. 100m size restriction. Here is a link to a post one of their team members made: https://huggingface.co/posts/Crownelius/627835332749985  &#32; submitted by &#32;  /u/volious-ka   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T06:50:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "bab80d79e790",
+      "title": "OpenAI barrels toward IPO that may happen in September",
+      "url": "https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/",
+      "summary": "A day after Elon Musk lost his lawsuit that threatened OpenAI's structure, leadership, and finances, OpenAI is reportedly back to prepping for its IPO.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-20T17:24:24+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "3f71f42a46e5",
+      "title": "Anthropic says it’s about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-21T00:21:21+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "113e29c6db9d",
+      "title": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "summary": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-20T22:26:08+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "b8d234fa8a57",
+      "title": "Stability AI releases a new audio model that can create 6-minute songs",
+      "url": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
+      "summary": "Stability Audio 3.0 small model can run on-device and generate two-minute long tracks.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-20T15:00:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "e4b30459bfb6",
+      "title": "OpenAI claims a general-purpose reasoning model found a counterexample to Erdos's unit-distance bound [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tiy6s4/openai_claims_a_generalpurpose_reasoning_model/",
+      "summary": "OpenAI posted a math result today claiming that one of its general-purpose reasoning models found a construction disproving the conjectured n^{1+O(1/log log n)} upper bound in Erdős’s planar unit-distance problem. Announcement: https://openai.com/index/model-disproves-discrete-geometry-conjecture/ Proof PDF: https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf Abridged reasoning writeup: https://cdn.openai.com/pdf/1625eff6-5ac1-40d8-b1db-5d5cf925de8b/unit-distance-cot.pdf The mathematical claim, as I understand it, is that there are finite planar point sets w",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-20T20:37:12+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "af699a66f49a",
+      "title": "NanoClaw creator turns down $20M buyout offer, raises $12M seed instead",
+      "url": "https://techcrunch.com/2026/05/20/nanoclaw-creator-turns-down-20m-buyout-offer-raises-12m-seed-instead/",
+      "summary": "NanoClaw was created as a secure alternative to OpenClaw to assist the Cohen brothers with their AI marketing firm that used agents to do much of the work. But instead of running directly on a computer, NanoClaw runs sandboxed in a container.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-20T14:00:00+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "a164d5eee616",
+      "title": "Optimizing AI Agent Planning with Operations Research and Data Science",
+      "url": "https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/",
+      "summary": "AI agents can quickly become expensive without a clear strategy for planning, skill coverage, and budgets. This article shows how to use operations research and data science to optimize AI agent cost and resource allocation. You will learn how to frame common agent problems—skill coverage, project assignment, and budgeting—as set covering, assignment, and knapsack optimization models in Python using Gurobi. \nThe post Optimizing AI Agent Planning with Operations Research and Data Science appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-20T17:28:12+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "4b8b5a5c05b5",
+      "title": "Qwen3.7 Max scored by Artificial Analysis, 27B/35B waiting room",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tie6gy/qwen37_max_scored_by_artificial_analysis_27b35b/",
+      "summary": "https://preview.redd.it/42ak5qmus82h1.png?width=1133&amp;format=png&amp;auto=webp&amp;s=744ea3dfc06c83d0c4d8aa128c39b3238b17d7be Qwen 3.7 Max sitting at 5th, pretty much on par with GPT 5.4 (xhigh) and a notch above the just released Gemini 3.5 Flash. On the other end, we see DSV4 Flash and Qwen3.6 27B which is exactly 6 points behind its max counter part. Let's hope Qwen3.7 can get in the same ballpark of its max big bro as well.  &#32; submitted by &#32;  /u/Beamsters   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-20T07:18:51+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "980ab679fbb6",
+      "title": "Qwen will release another 27B with high probability",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tiwnpc/qwen_will_release_another_27b_with_high/",
+      "summary": "They are waiting for the exact roadmap  &#32; submitted by &#32;  /u/serige   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-20T19:44:24+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "954edb52cef7",
+      "title": "Green steel startup Boston Metal is doubling down on critical metals",
+      "url": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/",
+      "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report.&#160;&#160; The company has been known largely for its efforts to clean up steel production, an industry that&#8217;s responsible for about 8% of global greenhouse emissions today. With the additional money, the new focus could&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-20T13:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "77ece4e4ac7e",
+      "title": "Can LLMs Replace Survey Respondents?",
+      "url": "https://towardsdatascience.com/can-llms-replace-survey-respondents/",
+      "summary": "How unlearning fixes mode collapse in synthetic survey replies\nThe post Can LLMs Replace Survey Respondents? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-20T18:26:36+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "b05ce72847b5",
+      "title": "How to Safely Run Coding Agents",
+      "url": "https://towardsdatascience.com/how-to-safely-run-coding-agents/",
+      "summary": "Apply coding agents to your domain in a safe manner\nThe post How to Safely Run Coding Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-20T13:30:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "dd006fd03396",
+      "title": "NOML-NOML: hierarchical TD3 + anchor policy for flight control [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tikbux/nomlnoml_hierarchical_td3_anchor_policy_for/",
+      "summary": "I built a custom RL algorithm for continuous flight control and open-sourced it. Sharing here in case the structural ideas are useful for anyone doing continuous control where one action axis dominates.  I've been training continuous control on a 6-DoF flight sim (pitch/roll/yaw/throttle/brake/fire) and kept hitting the same wall: vanilla TD3 would peak, then collapse into pitch oscillation and never recover. I tried reward shaping for a while before concluding the problem was structural, not in the reward. NOML is what came out of that. Three structural changes on top of a standard TD3 skelet",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-20T12:33:45+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "dec0b34a359f",
+      "title": "From Possible to Probable AI Models",
+      "url": "https://towardsdatascience.com/from-possible-to-probable-ai-models/",
+      "summary": "The real challenge in building reliable AI\nThe post From Possible to Probable AI Models appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-20T12:00:00+00:00",
+      "score": 2.25,
+      "image": null
+    }
+  ]
+}
