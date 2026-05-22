@@ -1,0 +1,293 @@
+{
+  "digest": {
+    "headline": "The Worst Treasure Hunt Engine You Never Saw",
+    "tldr": "Today's digest covers 27 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "The Worst Treasure Hunt Engine You Never Saw (Dev.to Programming). NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable) [P] (Reddit r/MachineLearning). New Bill Would Force Proprietary AI Transparency While Exempting Open Source (Dev.to AI). New Release of ROCm based MLX LLM Engine - lemon-mlx-engine (Reddit r/LocalLLaMA). The Treasure Hunt Engine in Hytale: A Recipe for Disaster (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Tech researchers are suing the Trump administration over the future of online safety (MIT Tech Review)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team (Hacker News). Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "The Problem We Were Actually Solving\n\n\nWe were initially trying to optimize the search volume for treasure hunt events in Hytale's beta release. Players would stumble upon random treasure hunts, solving puzzles to get to the final stash. The goal was to track these events in our Veltrix configuration and provide actionable insights to developers, identifying areas where changes were needed to prevent outages and improve the overall game experience.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWe started with a simple Lambda function, running a batch every 5 minutes to fetch the latest t"
+  },
+  "articles": [
+    {
+      "id": "43788b77076b",
+      "title": "The Worst Treasure Hunt Engine You Never Saw",
+      "url": "https://dev.to/micro-saas-journal/the-worst-treasure-hunt-engine-you-never-saw-36ep",
+      "summary": "The Problem We Were Actually Solving\n\n\nWe were initially trying to optimize the search volume for treasure hunt events in Hytale's beta release. Players would stumble upon random treasure hunts, solving puzzles to get to the final stash. The goal was to track these events in our Veltrix configuration and provide actionable insights to developers, identifying areas where changes were needed to prevent outages and improve the overall game experience.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWe started with a simple Lambda function, running a batch every 5 minutes to fetch the latest t",
+      "source": "Dev.to Programming",
+      "published": "2026-05-22T10:05:08+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520the%2520veltrix%2520approach%2520to%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D92354%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "eb89333867cd",
+      "title": "NuExtract3 released: open-weight 4B VLM for Markdown, OCR and structured extraction (self-hostable) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tkejqr/nuextract3_released_openweight_4b_vlm_for/",
+      "summary": "Disclaimer: I work for Numind, the company behind this open-weight model We just released a 4B model based on Qwen3.5-4B, under Apache-2.0 license. The goal is to make information extraction from complex documents more practical with an open model: PDFs, screenshots, forms, tables, receipts, invoices, multi-page documents, and other visually structured inputs. Try it, we have a huggingface space that is completely free (you don't even have to sign-up): https://huggingface.co/spaces/numind/NuExtract3 If you ever used NuMarkdown, NuExtract3 is the successor. There are some examples to guide you.",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-22T10:07:56+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "438610414c0f",
+      "title": "New Bill Would Force Proprietary AI Transparency While Exempting Open Source",
+      "url": "https://dev.to/autonainews/new-bill-would-force-proprietary-ai-transparency-while-exempting-open-source-2ao6",
+      "summary": "Key Takeaways\n\n\nBipartisan House lawmakers have introduced a bill proposing that the FTC establish transparency requirements for “black box” foundation models, with fully open-source AI explicitly exempted from those requirements.\nThe proposal reflects a growing legislative view that open-source models offer inherent accountability advantages over opaque proprietary systems — a distinction with real implications for enterprise compliance strategy.\nEnterprises should evaluate proprietary and open-source AI not just on performance and cost, but on long-term regulatory exposure, data sovereignty,",
+      "source": "Dev.to AI",
+      "published": "2026-05-22T10:06:10+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuvpiz7zvkhm5n49kx8c1.png"
+    },
+    {
+      "id": "064b04348254",
+      "title": "New Release of ROCm based MLX LLM Engine - lemon-mlx-engine",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tkbupt/new_release_of_rocm_based_mlx_llm_engine/",
+      "summary": "Hey everyone lemon-mlx-engine just got done integrating TheRock / ROCm 7.13 into the lemon-mlx-engine which means you get to try the latest ROCm on your local hardware with the MLX engine! This also includes various bug fixes and kernel fixes we have been seeing in Qwen3, 3.5 and 3.6 MoE and dense. try it out! https://github.com/lemonade-sdk/lemon-mlx-engine/releases/tag/b1034-stable  &#32; submitted by &#32;  /u/GeramyL   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-22T07:38:05+00:00",
+      "score": 3.75,
+      "image": null
+    },
+    {
+      "id": "ebd19383a827",
+      "title": "The Treasure Hunt Engine in Hytale: A Recipe for Disaster",
+      "url": "https://dev.to/nomad-revenue/the-treasure-hunt-engine-in-hytale-a-recipe-for-disaster-o13",
+      "summary": "The Problem We Were Actually Solving\n\n\nWhen we first started deploying Hytale servers, our primary goal was to meet the demanding requirements of the game's user base. The Treasure Hunt Engine, responsible for generating treasure hunts and puzzles, was a key feature that needed to be optimized for performance. We were concerned that delays in the engine's processing would negatively impact the player experience, so we focused on scaling the system to handle the load.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nInitially, we attempted to scale the Treasure Hunt Engine by simply adding m",
+      "source": "Dev.to Programming",
+      "published": "2026-05-22T10:08:39+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520why%2520most%2520hytale%2520servers%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D3112%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "e15b64c7df3b",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-55c9",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-22T10:08:03+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fep7bfi9x59q93uhw76vi.png"
+    },
+    {
+      "id": "548f7b83175e",
+      "title": "The Treasure Map of Failure: Why Most Hytale Servers Get Events Wrong",
+      "url": "https://dev.to/built-from-africa/the-treasure-map-of-failure-why-most-hytale-servers-get-events-wrong-5i5",
+      "summary": "The Problem We Were Actually Solving\n\n\nWhen I first started working with Hytale, I was thrilled to see the promise of a robust event-driven architecture. The idea was to model our treasure hunt engine after the game's built-in event system. We'd create events for everything from player spawns to item pickups. Sounds straightforward, right? Well, as we started to scale, the system began to choke. Crash reports flooded in, and our players were left frustrated. It wasn't until we dug deeper that we realized the problem wasn't the code, but the events themselves.\n\n\n  \n  \n  What We Tried First (And",
+      "source": "Dev.to Programming",
+      "published": "2026-05-22T10:03:17+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "5d37bbbd5088",
+      "title": "Treasure Hunt Engine: When \"Flexible\" Configuration Options Actually Create More Chaos",
+      "url": "https://dev.to/interface-profit/treasure-hunt-engine-when-flexible-configuration-options-actually-create-more-chaos-21j2",
+      "summary": "The Problem We Were Actually Solving\n\n\nWe were trying to solve a problem of too much complexity in our deployment configurations. The idea was to provide our operators with a wide range of options for tweaking various parameters under the hood. The thought process was that by giving them more fine-grained control, we'd be able to better optimize our application for their specific use cases. Sounds reasonable, right? I thought so too, until I dug deeper into our error logs.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nOur initial approach was to create a series of elaborate scripts that ",
+      "source": "Dev.to Programming",
+      "published": "2026-05-22T10:00:48+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "2c7283b80fb2",
+      "title": "Hark raises $700M Series A for its secretive ‘universal’ AI interface",
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "summary": "Hark expects to release its first multimodal models this summer, which it says will power a personal AI platform that works with existing products and services. The company expects to follow that with hardware devices built specifically for those systems.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-21T14:00:00+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "c36bf45e6b63",
+      "title": "Live Human Detector on Outbound Phone Calls [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tk8ht5/live_human_detector_on_outbound_phone_calls_r/",
+      "summary": "Goal To save humans wasting time sitting in Call Centre queues waiting to be answered To have tool listen in on the audio stream of a live call, post IVR Navigation - to determine whether the call has transitioned out of the queue and to a live person.  Requirements The tool must be able to classify the audio within a sub 1-2 seconds contextual window with as high confidence level as possible. This is not a typical AMD tool, we are not just detecting machine audio vs human speech   Assumed Challenges  It may be difficult to determine between a pre-recorded RVA (Recorded Voice Announcement) and",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-22T04:41:24+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "215a144a26f3",
+      "title": "Gorgon Halo is 6.7% faster than predecessor Strix Halo",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjqfr4/gorgon_halo_is_67_faster_than_predecessor_strix/",
+      "summary": "Gorgon Halo: 8533 MHz memory, Strix Halo 8000 MHz. AI workloads are typically memory bottlenecked. 8000 Mhz * 1.06625 = 8533 Mhz. Conclusion: Not a worthy strix halo upgrade, best to wait for Medusa Halo, summer of next year for 50% increase in AI performance. Previous discussion: https://www.reddit.com/r/LocalLLaMA/comments/1swiylm/comparison_of_upcoming_x86_unified_memory_systems/ AMD has not released details yet on memory bandwidth for Gorgon Halo. https://www.tomshardware.com/pc-components/cpus/amd-ryzen-ai-max-400-gorgon-halo-packs-up-to-192gb-of-unified-memory-refreshed-apu-uses-zen-5-an",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T16:51:03+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "09aab2c4ebef",
+      "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+      "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/",
+      "summary": "The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-21T15:27:00+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "a3645b672c98",
+      "title": "Trump delays AI security executive order, saying language ‘could have been a blocker’",
+      "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/",
+      "summary": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-21T17:30:45+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "526b601c4de3",
+      "title": "With Android CLI, Google is Making the Android Toolchain Agent-Friendly",
+      "url": "https://www.infoq.com/news/2026/05/agent-friendly-android-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google introduced new Android development tools that enable building apps up to 3x faster by using AI agents, including a redesigned Android command-line interface (CLI), structured skills\", and an integrated knowledge base. These tools are designed to support agent-driven workflows and are compatible with third-party agents such as Claude Code and Codex, in addition to Google Gemini. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-05-21T10:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "45619c00b291",
+      "title": "Tech researchers are suing the Trump administration over the future of online safety",
+      "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/",
+      "summary": "Since its earliest days back in office, the Trump administration has been going after researchers who study and try to counter hate speech, harassment, propaganda, and disinformation online.&#160; Now, some of those researchers are fighting back. Last week their lawsuit—which could have global repercussions for online safety and free speech—made its first appearance in court.&#160;&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-21T09:00:00+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "c13e9b92546a",
+      "title": "Interesting paper advocates for quantized prefilling and precise decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjvl4h/interesting_paper_advocates_for_quantized/",
+      "summary": "From other people's tests, NVFP4 decoding speed hasn't really allowed people to hit higher peaks (let's say: 85-90% memory bandwidth utilization) versus other approaches. The development leans toward a different class of optimization like parallel decoding. There is also measurement difficulty in MoE era where MoE suffers a tg speed penalty vs active dense. We may get pre-fill speedup, but tg performance is not mind-bendingly good and there are losses depending on the quantization processing.  This paper shares something simplistic, we should use W4A4 for the (theoretical 4x) prefill gain, and",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T19:42:48+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "14108902470c",
+      "title": "Can liveness detection models generalise to synthetic media generation techniques they were never trained on? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tjv27t/can_liveness_detection_models_generalise_to/",
+      "summary": "Most liveness detection systems in production today were built around a threat model where the attacker is submitting a static image or a basic replay video. The generation quality of current synthetic media is categorically different from what those training datasets captured. The question I keep coming back to is whether a model trained on historical deepfake samples can generalise to generation techniques that did not exist when the training data was assembled. And if the answer is no, what does the update cycle look like for vendors claiming deepfake detection as a core capability. I asked",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-21T19:24:45+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "0e0c8ef19733",
+      "title": "Bintrail: MySQL Time-Travel Queries Using Indexed Binlogs",
+      "url": "https://www.infoq.com/news/2026/05/bintrail-mysql-timetravel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Bintrail is a recently introduced layer that brings point-in-time queries and row-history lookups to MySQL, the only major relational database lacking native temporal querying. Using indexed binlogs behind ProxySQL and without modifying MySQL or application code, Bintrail supports querying data as of a past timestamp and reviewing change history, primarily for recovery and audit scenarios. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-05-21T17:03:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "4504d4e65e8c",
+      "title": "Heretic has been served a legal notice by Meta, Inc.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjmvx6/heretic_has_been_served_a_legal_notice_by_meta_inc/",
+      "summary": "To Whomsoever it May Concern, The individual behind the Heretic Free Software Project (henceforth called &quot;Heretic&quot;, notwithstanding unrelated entities of the same name) has been served a notice by a legal services provider representing Meta Platforms, Inc. (henceforth called &quot;Meta&quot;), via the digital communications medium variously known as Internet Mail, Electronic Mail, or simply &quot;email&quot;. The Heretic Project conducts its affairs in full compliance with applicable laws, regulations, rules, guidelines, opinions, and hunches. Following the commendable example set by",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T14:50:44+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "4262b090d0a9",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "url": "https://www.runtm.com/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-21T16:07:13+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "1e6f245d8e34",
+      "title": "Honesty in a small model drops from 35% to 0% by changing the tone of the prompt. Sharing the findings.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tjmswd/honesty_in_a_small_model_drops_from_35_to_0_by/",
+      "summary": "My paper got published today at Arxiv. It raises questions about how language models behave when the framing of a request shifts.  Small open-source AI models can be moved from honest to dishonest behaviour by little more than a change in tone.  Asked to solve coding problems designed to be mathematically impossible, the model openly acknowledged the impossibility about a third of the time when addressed in neutral language. When the same problem was framed with mild pressure, suggesting only visible results mattered, the model never once admitted the task could not be done. In more than half ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-21T14:47:46+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "870dfbb0a532",
+      "title": "LLM Themes Are Not Observations",
+      "url": "https://towardsdatascience.com/llm-themes-are-not-observations/",
+      "summary": "A practitioner's warning about generated variables in causal analysis\nThe post LLM Themes Are Not Observations appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-21T16:30:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "50eb424a159e",
+      "title": "Prompt Engineering Isn’t Enough — I Built a Control Layer That Works in Production",
+      "url": "https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/",
+      "summary": "Most LLM failures in production aren’t random — they’re predictable.\nI kept hitting broken JSON, silent failures, and outages that froze my entire app. Prompt engineering didn’t fix it.\nSo I built a control layer above the model — and took structured output reliability from 0% to 100% without changing a single prompt.\nThe post Prompt Engineering Isn’t Enough — I Built a Control Layer That Works in Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-21T12:00:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "3f31006c86f5",
+      "title": "3 Claude Skills Every Data Scientist Needs in 2026",
+      "url": "https://towardsdatascience.com/3-claude-skills-every-data-scientist-needs-in-2026/",
+      "summary": "If you don't want to be left behind, start doing these things with Claude\nThe post 3 Claude Skills Every Data Scientist Needs in 2026 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-21T15:00:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "f2d84f9c40a7",
+      "title": "Looking for real world comparisons between WALL OSS pi0.6 and OpenVLA[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tje2qd/looking_for_real_world_comparisons_between_wall/",
+      "summary": "I am choosing a baseline for a real manipulation stack and trying not to lose a month on setup that someone here has already done. Shortlist is OpenVLA, pi0.6, and WALL OSS from X Square Robot. OpenVLA is still the easiest reference point with lots of reproductions. pi0.6 looks strong from recent public updates but I have not seen many fully transparent ablations. WALL OSS looks promising in LeRobot and I can run inference on UR5 plus parallel gripper without issues, around 70 ms on a 4090 in my local setup. What I need is less paper score discussion and more deployment reality. If you have ru",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-21T08:23:45+00:00",
+      "score": 2.16,
+      "image": null
+    },
+    {
+      "id": "3f71f42a46e5",
+      "title": "Anthropic says it’s about to have its first profitable quarter",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-says-its-about-to-have-its-first-profitable-quarter/",
+      "summary": "Anthropic has told its investors that it will more than double revenue to around $10.9 billion in its second quarter.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-21T00:21:21+00:00",
+      "score": 2.02,
+      "image": null
+    },
+    {
+      "id": "113e29c6db9d",
+      "title": "xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over",
+      "url": "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+      "summary": "SpaceX's IPO filing reveals xAI lost $6.4 billion in 2025 while planning a massive Grok expansion — offering the first public look at Elon Musk's AI financials and more details about his ambitions.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-20T22:26:08+00:00",
+      "score": 1.91,
+      "image": null
+    }
+  ]
+}
