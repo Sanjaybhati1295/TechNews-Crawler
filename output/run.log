@@ -531,3 +531,36 @@
 2026-05-22 10:16:55,020  INFO     ────────────────────────────────────────────────────────────
 2026-05-22 10:16:55,020  INFO     Done!  Open: output/index.html
 2026-05-22 10:16:55,020  INFO     Headline: The Worst Treasure Hunt Engine You Never Saw
+2026-05-23 08:57:22,408  INFO     ============================================================
+2026-05-23 08:57:22,408  INFO     TECHPULSE Digest — 2026-05-23 08:57 UTC
+2026-05-23 08:57:22,408  INFO     ============================================================
+2026-05-23 08:57:22,408  INFO     Step 1/3 — Crawling feeds…
+2026-05-23 08:57:22,799  INFO       Hacker News                    → 2 significant articles
+2026-05-23 08:57:23,149  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-23 08:57:23,405  INFO       Ars Technica                   → 2 significant articles
+2026-05-23 08:57:24,320  INFO       The Register AI                → 0 significant articles
+2026-05-23 08:57:24,487  INFO       MIT Tech Review                → 0 significant articles
+2026-05-23 08:57:24,607  INFO       Dev.to AI                      → 1 significant articles
+2026-05-23 08:57:24,710  INFO       Dev.to Programming             → 5 significant articles
+2026-05-23 08:57:24,833  INFO       GitHub Blog                    → 1 significant articles
+2026-05-23 08:57:25,579  INFO       Google Research                → 0 significant articles
+2026-05-23 08:57:26,404  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-05-23 08:57:26,974  INFO       Reddit r/LocalLLaMA            → 5 significant articles
+2026-05-23 08:57:27,524  INFO       InfoQ                          → 3 significant articles
+2026-05-23 08:57:27,725  INFO       Towards Data Science           → 4 significant articles
+2026-05-23 08:57:27,875  INFO       Wired AI                       → 0 significant articles
+2026-05-23 08:57:27,927  INFO       TechCrunch AI                  → 1 significant articles
+2026-05-23 08:57:27,927  INFO     Fetching images for top articles…
+2026-05-23 08:57:27,985  INFO       🖼  Why are we still writing separate extensions for VS Code, Je
+2026-05-23 08:57:28,085  INFO       🖼  Too Many Dots to Connect
+2026-05-23 08:57:28,174  INFO       🖼  Designing a Treasure Hunt Engine That Doesn't Drive You Mad:
+2026-05-23 08:57:28,289  INFO       🖼  CLI Notification Setup: Configure Push Alerts for Your Self-
+2026-05-23 08:57:28,289  INFO     Total selected: 28 articles from 15 feeds
+2026-05-23 08:57:28,289  INFO     Selected 28 significant articles
+2026-05-23 08:57:28,289  INFO     Step 2/3 — Generating digest…
+2026-05-23 08:57:28,573  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-23 08:57:28,573  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-23 08:57:28,573  INFO     Step 3/3 — Rendering HTML…
+2026-05-23 08:57:28,575  INFO     ────────────────────────────────────────────────────────────
+2026-05-23 08:57:28,575  INFO     Done!  Open: output/index.html
+2026-05-23 08:57:28,575  INFO     Headline: Best open-source & proprietary options for Indic language ASR
