@@ -564,3 +564,36 @@
 2026-05-23 08:57:28,575  INFO     ────────────────────────────────────────────────────────────
 2026-05-23 08:57:28,575  INFO     Done!  Open: output/index.html
 2026-05-23 08:57:28,575  INFO     Headline: Best open-source & proprietary options for Indic language ASR
+2026-05-24 09:14:07,644  INFO     ============================================================
+2026-05-24 09:14:07,644  INFO     TECHPULSE Digest — 2026-05-24 09:14 UTC
+2026-05-24 09:14:07,644  INFO     ============================================================
+2026-05-24 09:14:07,644  INFO     Step 1/3 — Crawling feeds…
+2026-05-24 09:14:07,825  INFO       Hacker News                    → 0 significant articles
+2026-05-24 09:14:07,993  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-24 09:14:08,137  INFO       Ars Technica                   → 0 significant articles
+2026-05-24 09:14:09,395  INFO       The Register AI                → 0 significant articles
+2026-05-24 09:14:09,534  INFO       MIT Tech Review                → 0 significant articles
+2026-05-24 09:14:09,662  INFO       Dev.to AI                      → 1 significant articles
+2026-05-24 09:14:09,969  INFO       Dev.to Programming             → 3 significant articles
+2026-05-24 09:14:10,140  INFO       GitHub Blog                    → 0 significant articles
+2026-05-24 09:14:11,098  INFO       Google Research                → 0 significant articles
+2026-05-24 09:14:12,036  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-05-24 09:14:12,792  INFO       Reddit r/LocalLLaMA            → 5 significant articles
+2026-05-24 09:14:12,980  INFO       InfoQ                          → 0 significant articles
+2026-05-24 09:14:13,091  INFO       Towards Data Science           → 1 significant articles
+2026-05-24 09:14:13,352  INFO       Wired AI                       → 0 significant articles
+2026-05-24 09:14:13,442  INFO       TechCrunch AI                  → 0 significant articles
+2026-05-24 09:14:13,442  INFO     Fetching images for top articles…
+2026-05-24 09:14:13,815  INFO       🖼  Google Antigravity 2.0: The IDE is Dead, Long Live the Agent
+2026-05-24 09:14:13,872  INFO       🖼  Baking a Scalable Treasure Hunt Engine: A Cautionary Tale of
+2026-05-24 09:14:13,941  INFO       🖼  The Folly of Over-Configured Treasure Hunts: Lessons from a 
+2026-05-24 09:14:14,065  INFO       🖼  Most Hytale Server Operators Miss a Critical Optimization in
+2026-05-24 09:14:14,099  INFO     Total selected: 12 articles from 15 feeds
+2026-05-24 09:14:14,099  INFO     Selected 12 significant articles
+2026-05-24 09:14:14,099  INFO     Step 2/3 — Generating digest…
+2026-05-24 09:14:14,621  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-24 09:14:14,621  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-24 09:14:14,621  INFO     Step 3/3 — Rendering HTML…
+2026-05-24 09:14:14,622  INFO     ────────────────────────────────────────────────────────────
+2026-05-24 09:14:14,622  INFO     Done!  Open: output/index.html
+2026-05-24 09:14:14,623  INFO     Headline: Google Antigravity 2.0: The IDE is Dead, Long Live the Agent Orchestra

@@ -1,0 +1,139 @@
+{
+  "digest": {
+    "headline": "Google Antigravity 2.0: The IDE is Dead, Long Live the Agent Orchestra",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Google Antigravity 2.0: The IDE is Dead, Long Live the Agent Orchestra (Dev.to AI). Baking a Scalable Treasure Hunt Engine: A Cautionary Tale of Wrong Architecture Decisions (Dev.to Programming). The Folly of Over-Configured Treasure Hunts: Lessons from a Real System (Dev.to Programming). Most Hytale Server Operators Miss a Critical Optimization in Veltrix (Dev.to Programming). Local model doing accounting tasks (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "From Prototype to Profit: Solving the Agentic Token-Burn Problem (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "This is a submission for the Google I/O Writing Challenge\n\n\n  \n  \n  The Moment I Realized My IDE Had Become a Museum Piece\n\n\nI've been coding professionally for eight years. My development environment is sacred — carefully configured Neovim keybindings, a dozen VS Code extensions I can't live without, and a terminal setup that took me months to perfect. So when Google announced Antigravity 2.0 at I/O 2026 and called it an \"agent-first development platform,\" my first instinct was to dismiss it as yet another AI coding assistant trying to autocomplete my life away.\n\nThen I watched the demo. Dire"
+  },
+  "articles": [
+    {
+      "id": "8406eaf1e8c6",
+      "title": "Google Antigravity 2.0: The IDE is Dead, Long Live the Agent Orchestra",
+      "url": "https://dev.to/mohammed_ayaanadilahmed/google-antigravity-20-the-ide-is-dead-long-live-the-agent-orchestra-hi3",
+      "summary": "This is a submission for the Google I/O Writing Challenge\n\n\n  \n  \n  The Moment I Realized My IDE Had Become a Museum Piece\n\n\nI've been coding professionally for eight years. My development environment is sacred — carefully configured Neovim keybindings, a dozen VS Code extensions I can't live without, and a terminal setup that took me months to perfect. So when Google announced Antigravity 2.0 at I/O 2026 and called it an \"agent-first development platform,\" my first instinct was to dismiss it as yet another AI coding assistant trying to autocomplete my life away.\n\nThen I watched the demo. Dire",
+      "source": "Dev.to AI",
+      "published": "2026-05-24T09:13:00+00:00",
+      "score": 4.3,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe7vgk5hjkcn178hmsf38.jpg"
+    },
+    {
+      "id": "e90ea4c904c4",
+      "title": "Baking a Scalable Treasure Hunt Engine: A Cautionary Tale of Wrong Architecture Decisions",
+      "url": "https://dev.to/micro-saas-journal/baking-a-scalable-treasure-hunt-engine-a-cautionary-tale-of-wrong-architecture-decisions-4gh9",
+      "summary": "The Problem We Were Actually Solving\n\n\nAt our company, we had a reputation for launching new features quickly and scaling up fast to meet demand. However, this approach often led to under-invested configuration layers that held our systems back at the most inopportune moments. We were determined to make our treasure hunt engine scalable from inception. Our goal was to create a server that could handle a minimum of 10 consecutive days of 5% user growth (equivalent to 1 million new users) without any downtime or performance degradation.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nInitial",
+      "source": "Dev.to Programming",
+      "published": "2026-05-24T08:46:13+00:00",
+      "score": 4.07,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520treasure%2520hunt%2520engine%2520configuration%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D24631%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "5ede5fffb25d",
+      "title": "The Folly of Over-Configured Treasure Hunts: Lessons from a Real System",
+      "url": "https://dev.to/on-chain-commerce/the-folly-of-over-configured-treasure-hunts-lessons-from-a-real-system-4b8e",
+      "summary": "The Problem We Were Actually Solving\n\n\nAs we studied the problem, we realized that our primary goal wasn't to detect every possible server issue – a task that would likely lead to a system overwhelmed with notifications. Instead, our priority was to identify the most critical problems that would impact our users first. This meant we needed a configuration that was more selective, more nuanced, and more focused on the real issues that mattered.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nOur first attempt at solving this problem was to simply dial back the sensitivity of the event trigg",
+      "source": "Dev.to Programming",
+      "published": "2026-05-24T08:59:16+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520how%2520to%2520configure%2520treasure%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D31209%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "4ec4d5791781",
+      "title": "Most Hytale Server Operators Miss a Critical Optimization in Veltrix",
+      "url": "https://dev.to/built-from-africa/most-hytale-server-operators-miss-a-critical-optimization-in-veltrix-255f",
+      "summary": "The Problem We Were Actually Solving\n\n\nLooking back, I realize that when we first started working with Hytale, our main goal was to get the server up and running quickly. We were so focused on getting the game installed, the server online and players connected that we overlooked a crucial part of the configuration - the treasure hunt engine. This component is responsible for generating the treasure hunts that players participate in, but it's also a major bottleneck when it comes to server performance. However, at the time, we didn't realize its importance.\n\n\n  \n  \n  What We Tried First (And Wh",
+      "source": "Dev.to Programming",
+      "published": "2026-05-24T08:54:29+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520why%2520most%2520hytale%2520servers%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D25754%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "301ebc74c055",
+      "title": "Local model doing accounting tasks",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tluvwg/local_model_doing_accounting_tasks/",
+      "summary": "So I've been using qwen 3.6 27b for monthly closes, bank recs, payable and receivables. Built a simple sql lite database it manages. Anyhow, wanted to post I integrated Claude skills and the https://github.com/anthropics/financial-services repo. It works well. Just wanted to mention that I think local models are coming into their own. It's still slower than snot because I don't have the budget to buy a 5K machine. Just a shit igpu that runs the MTP version overnight but it gets it done. It's cool to see local models finally being useful.  &#32; submitted by &#32;  /u/Available_Hornet3538   [li",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-23T23:00:28+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "9d8ccda47e84",
+      "title": "Anyone down to test this? Just uploaded a model using rys",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tm0eb4/anyone_down_to_test_this_just_uploaded_a_model/",
+      "summary": "Anyone down to test this? Just uploaded a uploaded a model with rys, looks pretty fun. https://huggingface.co/EidosL/Qwopus3.6-27B-v2-MTP-Q5_K_M-rys68.gguf Hey guys, just dropped this thing called rys and it seems like a blast. I'm currently running some tests on my end to see if it actually works/has any real effect, but my setup is tracking pretty slow right now. If anyone has the time or the bandwidth to test it out and share their results, that'd be awesome. Let me know if you guys notice any difference! using method from this blog. https://dnhkng.github.io/posts/rys-ii/  &#32; submitted b",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-24T03:14:03+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "05cb4540f685",
+      "title": "pipeline is really slow - consulting [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/",
+      "summary": "Hi, after a long debugging process and many discussions, I wanted to ask for advice from people who may have encountered similar training bottlenecks. My goal is imitation learning for robotics. Model / Pipeline  Observation space:  4 RGB robot cameras image resolution: 128x128x3 small vector of robot joint velocities (14 dims)  Pipeline:  Shared ResNet18 encoder processes each image Each image embedding dimension is 128 Final input to policy:  4 * 128 image embedding concatenated with 14-dim state vector   Policy backbone:  DiT (Diffusion Transformer) ~8 layers hidden dim: 512 8 attention hea",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-23T17:53:12+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "eb60fe60281a",
+      "title": "GPT 5.5 \"secret sauce\" is just having the thinking be some stupid caveman mode?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tljrtk/gpt_55_secret_sauce_is_just_having_the_thinking/",
+      "summary": "I think I had GPT-5.5 leak its trace during a normal conversation, and it really reads like the caveman mode fad from a few months back. Maybe we can achieve better token efficiency by taking some high-quality thinking trace from an open model, &quot;caveman-izing&quot; it, and fine-tuning on it. Here is the full log of GPT-5.5 going insane: https://gist.github.com/aussetg/20747ae00df17992acb4ebdfcd8d8d88 EDIT: Ok people I got it the first time  &#32; submitted by &#32;  /u/JustFinishedBSG   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-23T15:38:11+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "1311f2fcf50e",
+      "title": "Does GPU spacing matter if we’re undervolting anyways?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tlonbw/does_gpu_spacing_matter_if_were_undervolting/",
+      "summary": "How close can GPU cards be to each other on the mobo to remain safe and keep the hardware healthy over time? I have 4x 5060ti16gb cards in my mobo (I know 5060ti’s are not ideal when it comes to bandwidth, but I found a few at a decent price so it felt worth it at the time). They do fit on my mobo, but they seem pretty close to each other. These GPUs are supposed to be pretty power efficient, but I’ll probably undervolt them a bit anyways to limit power consumption. No liquid cooling or anything else here, just case fans (10 fans here). Is this amount of spacing cause for alarm or might damage",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-23T18:45:50+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "87b7d9ed4258",
+      "title": "What is the current best Small Language Model that can be run without GPU?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tli757/what_is_the_current_best_small_language_model/",
+      "summary": "Curious with all the new model release this year, whats the best one in terms of accuracy and speed that you've ran without GPU. What is your deployment stack?  &#32; submitted by &#32;  /u/last_llm_standing   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-23T14:36:27+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "4a81751a7089",
+      "title": "From Prototype to Profit: Solving the Agentic Token-Burn Problem",
+      "url": "https://towardsdatascience.com/from-prototype-to-profit-solving-the-agentic-token-burn-problem/",
+      "summary": "Engineer token-efficient, self-adapting workflows for production\nThe post From Prototype to Profit: Solving the Agentic Token-Burn Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-23T13:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "f63db03ee5f7",
+      "title": "Anonymous Data Upload for Submission [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tl1bry/anonymous_data_upload_for_submission_d/",
+      "summary": "How do you upload data anonymously for a submission (ACL/EMNLP)? I have several models I need to upload for replication and was thinking HuggingFace, but HF offers download tracking on a paid plan. Does this violate the policy since there is the potential of tracking the download even if you do not use the service? Most grateful in advance.  &#32; submitted by &#32;  /u/Budget_Mission8145   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-23T00:44:47+00:00",
+      "score": 1.79,
+      "image": null
+    }
+  ]
+}
