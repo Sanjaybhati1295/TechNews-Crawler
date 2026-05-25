@@ -1,0 +1,135 @@
+{
+  "digest": {
+    "headline": "AI 智能体的鲁莽速度",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI 智能体的鲁莽速度 (Dev.to Programming). Wrote a custom C++ engine for MiniCPM-V 4.6 on Orange Pi AIPro (Ascend 310B) to bypass framework overhead (Reddit r/LocalLLaMA). I made a local-first MCP tutorial repo with node-llama-cpp and a custom agent loop (Reddit r/LocalLLaMA). Google Introduces Middleware Architecture for Genkit Applications (InfoQ). Hostinger vs Bluehost for WordPress Beginners 2026: Honest Side-by-Side Breakdown (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "这篇在 InfoQ 上的精彩演讲名为《AI 智能体的鲁莽速度：暴露的架构健忘症》（The Reckless Speed of AI Agents: Architectural Amnesia EXPOSED），主讲人是 MITRE 公司的资深软件架构师兼研究员 Tracy Bannon。\n\n演讲的核心观点是：企业在对 AI Agents（智能体）带来效率狂热的同时，正在以“机器般的速度”无形中积累技术债和架构债。我们不能因为 AI 的快速演进，就忘掉过去在敏捷、DevOps 和微服务中总结出的工程 rigor（严谨性）与架构原则。\n\n以下是演讲的详细核心内容拆解：\n\n\n\n\n\n  \n  \n  一、 引入隐喻：《魔法师的学徒》（[00:28]）\n\n\nTracy 用迪士尼 1940 年动画《幻想曲》中的《魔法师的学徒》切入。米老鼠扮演的学徒为了偷懒，用魔法给一把扫帚赋予了自动化能力去挑水（[01:59]）。他一开始欣喜若狂，随后睡大觉。但当他醒来时，发现水已经淹没了房间。他恐慌地用斧头把扫帚劈碎，结果每个碎片都变成了一把新扫帚，导致了更大的混乱（[03:05]）。\n\n\n寓意： 这正像当今企业对 AI 的“盲目狂热”。AI 带来了革命性的潜力，但如果缺乏边界和约束地盲目扩展，自动化造成的混乱将会呈指数级放大。\n\n\n\n  \n  \n  二、 认清现实：为什么要用 AI Agents？（[06:"
+  },
+  "articles": [
+    {
+      "id": "034aa5fcbade",
+      "title": "AI 智能体的鲁莽速度",
+      "url": "https://dev.to/cognitalk/ai-zhi-neng-ti-de-lu-mang-su-du-3lf1",
+      "summary": "这篇在 InfoQ 上的精彩演讲名为《AI 智能体的鲁莽速度：暴露的架构健忘症》（The Reckless Speed of AI Agents: Architectural Amnesia EXPOSED），主讲人是 MITRE 公司的资深软件架构师兼研究员 Tracy Bannon。\n\n演讲的核心观点是：企业在对 AI Agents（智能体）带来效率狂热的同时，正在以“机器般的速度”无形中积累技术债和架构债。我们不能因为 AI 的快速演进，就忘掉过去在敏捷、DevOps 和微服务中总结出的工程 rigor（严谨性）与架构原则。\n\n以下是演讲的详细核心内容拆解：\n\n\n\n\n\n  \n  \n  一、 引入隐喻：《魔法师的学徒》（[00:28]）\n\n\nTracy 用迪士尼 1940 年动画《幻想曲》中的《魔法师的学徒》切入。米老鼠扮演的学徒为了偷懒，用魔法给一把扫帚赋予了自动化能力去挑水（[01:59]）。他一开始欣喜若狂，随后睡大觉。但当他醒来时，发现水已经淹没了房间。他恐慌地用斧头把扫帚劈碎，结果每个碎片都变成了一把新扫帚，导致了更大的混乱（[03:05]）。\n\n\n寓意： 这正像当今企业对 AI 的“盲目狂热”。AI 带来了革命性的潜力，但如果缺乏边界和约束地盲目扩展，自动化造成的混乱将会呈指数级放大。\n\n\n\n  \n  \n  二、 认清现实：为什么要用 AI Agents？（[06:",
+      "source": "Dev.to Programming",
+      "published": "2026-05-25T10:49:45+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0w4qz6yg086zo6b8tqqo.png"
+    },
+    {
+      "id": "6f2dacc6f6e4",
+      "title": "Wrote a custom C++ engine for MiniCPM-V 4.6 on Orange Pi AIPro (Ascend 310B) to bypass framework overhead",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmy4g9/wrote_a_custom_c_engine_for_minicpmv_46_on_orange/",
+      "summary": "Hey everyone, just wanted to share a project I've been hacking on for the last few weeks. I managed to build a from-scratch C++ inference engine to run MiniCPM-V 4.6 entirely on the Orange Pi AIPro (the budget board with the Ascend 310B NPU, costs around $149 for 20 TOPS INT8 / 10 TFLOPS FP16).  If you want to check out the custom ops, build scripts, or the Gradio web UI, the repository is open source on GitHub at github.com/lvyufeng/minicpm-v-4.6-orangepi  https://preview.redd.it/upfsqb0jm73h1.png?width=1655&amp;format=png&amp;auto=webp&amp;s=1e80185171fa6db651d81e20d717b3a05791614c If you've",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-25T04:19:50+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "dff1ef99242d",
+      "title": "I made a local-first MCP tutorial repo with node-llama-cpp and a custom agent loop",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tn1jjy/i_made_a_localfirst_mcp_tutorial_repo_with/",
+      "summary": "I just published a repo called MCP from Scratch that teaches the Model Context Protocol by building it step by step in plain Node.js. Most of the repo is about understanding MCP itself, but the later modules may be relevant here: I added a local-first setup using node-llama-cpp, GGUF models, MCP sampling, and a custom plan -&gt; act -&gt; observe agent loop. So the repo goes from:  raw JSON-RPC and stdio transport to a working MCP server with tools/resources/prompts to local model integration to an agent loop that uses MCP tools with a local GGUF model  There’s also an optional LangChain examp",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-25T07:14:17+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "5aa20050f83b",
+      "title": "Google Introduces Middleware Architecture for Genkit Applications",
+      "url": "https://www.infoq.com/news/2026/05/google-genkit-middleware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has introduced Middleware for Genkit, its open-source framework for building AI-powered and agentic applications. The update adds a programmable interception layer around model calls, tool execution, and generation loops, giving developers more control over reliability, safety, and orchestration inside production AI systems. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-05-24T17:55:00+00:00",
+      "score": 3.55,
+      "image": "https://res.infoq.com/news/2026/05/google-genkit-middleware/en/headerimage/generatedHeaderImage-1779644472413.jpg"
+    },
+    {
+      "id": "9d268edb7757",
+      "title": "Hostinger vs Bluehost for WordPress Beginners 2026: Honest Side-by-Side Breakdown",
+      "url": "https://dev.to/themoneyplaybooks/hostinger-vs-bluehost-for-wordpress-beginners-2026-honest-side-by-side-breakdown-4643",
+      "summary": "What if I told you that picking the wrong WordPress host in your first week could cost you 8 months of SEO traction and roughly $240 in surprise renewal fees? Yeah. That's not hypothetical — I've watched it happen to three friends this year alone. (relevant for anyone researching Hostinger vs Bluehost for WordPress beginners 2026)\n\n\nPhoto by Szabó Viktor on Pexels\n\nLook, I've spent way too many weekends benchmarking web hosts. My partner thinks it's a personality flaw. (She also thinks my spreadsheet of TTFB readings is \"concerning,\" which, fair.) But here's the deal — when you're picking your",
+      "source": "Dev.to AI",
+      "published": "2026-05-25T11:00:00+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmwqv817c0045zmn0s9pg.png"
+    },
+    {
+      "id": "7c2f3fe27cc0",
+      "title": "hipEngine: Fast Native Qwen 3.6 Inference for RDNA3 (Strix Halo, 7900 XTX)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tmq4s6/hipengine_fast_native_qwen_36_inference_for_rdna3/",
+      "summary": "A few weeks ago, after finishing FastDMS, I started toying around writing some RDNA3 kernels again to see how fast I could get Qwen 3.6 MoE running. It turned out well enough, so over the past couple weeks, I turned those experiments into hipEngine, a new open source (AGPLv3) ROCm-native local LLM inference engine. It's Python based, but with no heavy PyTorch dependency. All the hot-path is HIP/C++, making liberal use of AMD native libs like hipBLASLt, hipGraph, AOTriton, etc. gfx1100 (Radeon RX 7900 XTX / Radeon Pro W7900) The initial implementation has Qwen 3.6 (MoE and dense) running compet",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-24T22:21:21+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "6b0c25684aaa",
+      "title": "Treasure Hunt Engine: A Cautionary Tale of Misconfigured Scalability",
+      "url": "https://dev.to/on-chain-commerce/treasure-hunt-engine-a-cautionary-tale-of-misconfigured-scalability-26pl",
+      "summary": "The Problem We Were Actually Solving\n\n\nWhat we were trying to achieve with the treasure hunt engine was a scalable and fault-tolerant platform that could handle the unpredictable traffic patterns of our online treasure hunt events. These events often attract thousands of participants, and our system had to be able to scale up to meet this demand without compromising performance. But what we didn't realize at the time was that our scaling layer, based on the Veltrix configuration tool, was a ticking time bomb waiting to unleash a performance nightmare.\n\n\n  \n  \n  What We Tried First (And Why It ",
+      "source": "Dev.to Programming",
+      "published": "2026-05-25T10:41:10+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "37a217d7df37",
+      "title": "When the Treasure Hunt Engine is the Bottleneck, Not Your Server",
+      "url": "https://dev.to/built-from-africa/when-the-treasure-hunt-engine-is-the-bottleneck-not-your-server-2iej",
+      "summary": "The Problem We Were Actually Solving\n\n\nAt first glance, the problem seemed straightforward: optimize the treasure hunt engine for our fast-growing user base. However, as we dug deeper, we realized that we were actually trying to solve a much broader problem – one that had more to do with infrastructure design and less to do with search alone. Our server was underpowered for the load we were throwing at it, but the real issue lay in the interactions between the search engine, database, and application code. We had a system that was poorly optimized for concurrent access, and our configuration t",
+      "source": "Dev.to Programming",
+      "published": "2026-05-25T10:30:11+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "b002d8d38026",
+      "title": "The Egregious Misdesign of Treasure Hunt Engine's Scaling Layer: Lesson Learned Too Late",
+      "url": "https://dev.to/nomad-revenue/the-egregious-misdesign-of-treasure-hunt-engines-scaling-layer-lesson-learned-too-late-gfi",
+      "summary": "The Problem We Were Actually Solving\n\n\nWe'd built Treasure Hunt Engine to scale horizontally, using a distributed architecture to handle massive spikes in traffic. Sounds good, right? We'd opted for the simple and familiar approach, using a configuration layer called Veltrix to manage our load balancers and route traffic to our nodes. Our metrics showed a 95% success rate for requests under 10 concurrent users, which by all appearances suggested we were handling the load fairly well.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n\n\nWhat we didn't realize, however, was that our initial desig",
+      "source": "Dev.to Programming",
+      "published": "2026-05-25T10:26:37+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "655c7ec4ea88",
+      "title": "PapersWithCode new features - week 1 [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tmawv5/paperswithcode_new_features_week_1_p/",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. It's been one week since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting. The reception has been great, and I'm excited to extend this over the next few months. This week, I've added the following features: - Support for multiple metrics for a given benchmark: leaderboards now support multiple metrics, see e.g., the Open ASR Leaderboard for automatic speech recognition, w",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-24T12:31:12+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "1d8aa0c0689c",
+      "title": "The Ultimate Beginners’ Guide to Building an AI Agent in Python",
+      "url": "https://towardsdatascience.com/the-ultimate-beginners-guide-to-building-an-ai-agent-in-python/",
+      "summary": "Simple step-by-step tutorial to building an AI agent in Python\nThe post The Ultimate Beginners’ Guide to Building an AI Agent in Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-24T17:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "e7b5ea417113",
+      "title": "Working on a cgo-free CUDA binding in Go for ML stuff Week 3 - open source [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tmb4qw/working_on_a_cgofree_cuda_binding_in_go_for_ml/",
+      "summary": "At our work we use CUDA in Rust since the company switched to it recently. Rust has pretty good Driver API bindings but it made me wonder why the hell we cant have something decent in Go without cgo. I mostly build ML tools in the last month and Go is my main language for pretty much everything.  Problem is most Go CUDA projects still need cgo and the full toolkit at build time. That breaks cross compilation and makes Docker images huge which sucks when working on machine learning projects. So last month I started messing around with a proof of concept that loads libcuda.so at runtime using pu",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-24T12:41:07+00:00",
+      "score": 2.56,
+      "image": null
+    }
+  ]
+}
