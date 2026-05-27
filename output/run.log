@@ -629,3 +629,37 @@
 2026-05-25 11:04:55,421  INFO     ────────────────────────────────────────────────────────────
 2026-05-25 11:04:55,421  INFO     Done!  Open: output/index.html
 2026-05-25 11:04:55,422  INFO     Headline: AI 智能体的鲁莽速度
+2026-05-27 10:49:16,826  INFO     ============================================================
+2026-05-27 10:49:16,826  INFO     TECHPULSE Digest — 2026-05-27 10:49 UTC
+2026-05-27 10:49:16,827  INFO     ============================================================
+2026-05-27 10:49:16,827  INFO     Step 1/3 — Crawling feeds…
+2026-05-27 10:49:17,295  INFO       Hacker News                    → 0 significant articles
+2026-05-27 10:49:17,673  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-27 10:49:17,874  INFO       Ars Technica                   → 1 significant articles
+2026-05-27 10:49:18,540  INFO       The Register AI                → 0 significant articles
+2026-05-27 10:49:18,649  INFO       MIT Tech Review                → 1 significant articles
+2026-05-27 10:49:18,824  INFO       Dev.to AI                      → 5 significant articles
+2026-05-27 10:49:19,399  INFO       Dev.to Programming             → 3 significant articles
+2026-05-27 10:49:19,552  INFO       GitHub Blog                    → 0 significant articles
+2026-05-27 10:49:20,488  INFO       Google Research                → 0 significant articles
+2026-05-27 10:49:21,327  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-05-27 10:49:21,870  INFO       Reddit r/LocalLLaMA            → 4 significant articles
+2026-05-27 10:49:22,378  INFO       InfoQ                          → 3 significant articles
+2026-05-27 10:49:22,563  INFO       Towards Data Science           → 4 significant articles
+2026-05-27 10:49:22,859  INFO       Wired AI                       → 0 significant articles
+2026-05-27 10:49:23,008  INFO       TechCrunch AI                  → 0 significant articles
+2026-05-27 10:49:23,008  INFO     Fetching images for top articles…
+2026-05-27 10:49:23,081  INFO       🖼  Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the P
+2026-05-27 10:49:23,290  INFO       🖼  📻 最新播客更新 (2026年05月27日)
+2026-05-27 10:49:23,338  INFO       🖼  I Stumbled Into a 40x Cost Reduction by Switching to Chinese
+2026-05-27 10:49:23,395  INFO       🖼  AI Agents Can Now Take Real Orders. Here Is the Infrastructu
+2026-05-27 10:49:23,497  INFO       🖼  China vs US AI Models in 2026: The Architecture Decision Tha
+2026-05-27 10:49:23,536  INFO     Total selected: 23 articles from 15 feeds
+2026-05-27 10:49:23,537  INFO     Selected 23 significant articles
+2026-05-27 10:49:23,537  INFO     Step 2/3 — Generating digest…
+2026-05-27 10:49:24,104  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-27 10:49:24,104  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-27 10:49:24,104  INFO     Step 3/3 — Rendering HTML…
+2026-05-27 10:49:24,105  INFO     ────────────────────────────────────────────────────────────
+2026-05-27 10:49:24,105  INFO     Done!  Open: output/index.html
+2026-05-27 10:49:24,106  INFO     Headline: Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the Proof

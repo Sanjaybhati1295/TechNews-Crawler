@@ -1,0 +1,249 @@
+{
+  "digest": {
+    "headline": "Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the Proof",
+    "tldr": "Today's digest covers 23 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the Proof (Dev.to AI). 📻 最新播客更新 (2026年05月27日) (Dev.to AI). I Stumbled Into a 40x Cost Reduction by Switching to Chinese AI Models (Dev.to AI). AI Agents Can Now Take Real Orders. Here Is the Infrastructure Making That Possible Without Cutting Corners on Trust (Dev.to AI). China vs US AI Models in 2026: The Architecture Decision That Saves 40x (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Best Estate Agents Near Me: How Smart Buyers Find High-ROI Properties in Noida Extension (Dev.to Programming). What to use for Sign Language Recognition [R] (Reddit r/MachineLearning). What Is a Data Agent? (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Honestly, when I first saw the numbers I didn't believe them. DeepSeek V4 Flash at $0.25/M output vs GPT-4o at $10.00/M? That's not a pricing difference — that's a different universe.\n\nSo I checked. And re-checked. And tested. And the numbers hold up.\n\n\n  \n  \n  The Price Gap Nobody Is Talking About\n\n\n\n\n\nModel\nOutput $/M\nvs DeepSeek V4 Flash\n\n\n\n\nGPT-4o\n$10.00\n40× more expensive\n\n\nClaude 3.5 Sonnet\n$15.00\n60× more\n\n\nGemini 1.5 Pro\n$5.00\n20× more\n\n\nDeepSeek V4 Flash\n$0.25\nBaseline\n\n\nQwen3-32B\n$0.28\n1.1× more\n\n\n\n\nThe wildest part? Quality benchmarks tell a different story.\n\n\n  \n  \n  The Quality Ga"
+  },
+  "articles": [
+    {
+      "id": "298a43dec95e",
+      "title": "Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the Proof",
+      "url": "https://dev.to/truelane/chinese-ai-models-are-40x-cheaper-than-gpt-4o-heres-the-proof-3l3j",
+      "summary": "Honestly, when I first saw the numbers I didn't believe them. DeepSeek V4 Flash at $0.25/M output vs GPT-4o at $10.00/M? That's not a pricing difference — that's a different universe.\n\nSo I checked. And re-checked. And tested. And the numbers hold up.\n\n\n  \n  \n  The Price Gap Nobody Is Talking About\n\n\n\n\n\nModel\nOutput $/M\nvs DeepSeek V4 Flash\n\n\n\n\nGPT-4o\n$10.00\n40× more expensive\n\n\nClaude 3.5 Sonnet\n$15.00\n60× more\n\n\nGemini 1.5 Pro\n$5.00\n20× more\n\n\nDeepSeek V4 Flash\n$0.25\nBaseline\n\n\nQwen3-32B\n$0.28\n1.1× more\n\n\n\n\nThe wildest part? Quality benchmarks tell a different story.\n\n\n  \n  \n  The Quality Ga",
+      "source": "Dev.to AI",
+      "published": "2026-05-27T10:36:34+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdh3lx9001861svpl3fmd.png"
+    },
+    {
+      "id": "3a2683166b92",
+      "title": "📻 最新播客更新 (2026年05月27日)",
+      "url": "https://dev.to/cognitalk/zui-xin-bo-ke-geng-xin-2026nian-05yue-27ri--3c25",
+      "summary": "📻 最新播客更新\n\n\n大家好！这里是最新的播客节目汇总，共 10 个新节目。\n\n\n\n\n\n  \n  \n  📋 节目列表\n\n\n\n\n\n#\n播客频道\n节目标题\n发布日期\n\n\n\n\n1\nTBPN\nReactions: Ferrari’s First EV, The Enhanced Games | Diet TBPN\n2026-05-27\n\n\n2\nIBM Technology\nFirst findings from Project Glasswing\n2026-05-27\n\n\n3\nHuang Jim\n主观投资的黄昏与量化时代的崛起\n2026-05-27\n\n\n4\nHuang Jim\n利润黑洞与百亿狂飙：揭秘OpenAI与Anthropic的2026生死战\n2026-05-27\n\n\n5\nZhang Xiaojun Podcast\n142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller\n2026-05-27\n\n\n6\n老范讲故事\nHuawei's Tao Law: Why is an Engineering Route Being Intentionally Deified?\n2026-05-27\n\n\n7\nwow\nStop Burning Money on Fine-Tuning LLMs! Give AI an \"Exoskeleton",
+      "source": "Dev.to AI",
+      "published": "2026-05-27T10:39:51+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyzyn8q8ed6e2zmp11jtn.png"
+    },
+    {
+      "id": "494f0fe7cee6",
+      "title": "I Stumbled Into a 40x Cost Reduction by Switching to Chinese AI Models",
+      "url": "https://dev.to/rileykim/i-stumbled-into-a-40x-cost-reduction-by-switching-to-chinese-ai-models-3414",
+      "summary": "Look, I didn't plan this. I was building a side project — an AI writing assistant for my blog — and my OpenAI bill was $300/month before I even launched. For a side project with zero users. That's insane.\n\nSo I got curious. What else is out there? And honestly? The answer surprised me.\n\n\n  \n  \n  What I Found\n\n\nChinese AI models in 2026 are matching GPT-4o quality on most benchmarks but costing 5-40x less:\n\n\n\n\nWhat I need\nGPT-4o cost\nChinese model\nCost\n\n\n\n\nBlog writing\n$10.00/M\nDeepSeek V4 Flash\n$0.25/M\n\n\nTranslation\n$10.00/M\nQwen-MT-Turbo\n$0.30/M\n\n\nCode help\n$10.00/M\nDeepSeek Coder\n$0.25/M\n\n\nS",
+      "source": "Dev.to AI",
+      "published": "2026-05-27T10:36:38+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flkf7hyu0yd48o60cwimb.png"
+    },
+    {
+      "id": "e70803fb3761",
+      "title": "AI Agents Can Now Take Real Orders. Here Is the Infrastructure Making That Possible Without Cutting Corners on Trust",
+      "url": "https://dev.to/soulman_250/ai-agents-can-now-take-real-orders-here-is-the-infrastructure-making-that-possible-without-cutting-4ec4",
+      "summary": "Note: This article is Adapted from the official Phala.com announcement. Check the announcement here: https://x.com/phalanetwork/status/2057933195459572004\n\n\nSomething quietly significant just happened in the AI agent space. Clawdi integrated the official McDonald’s MCP into OpenClaw, meaning users in China can now place a McDonald’s order through an AI agent without touching the McDonald’s app directly. The agent handles the whole interaction. The template they built to make this work is fully open source, so any developer can pick it up, study it, and build on top of it. It lives on GitHub an",
+      "source": "Dev.to AI",
+      "published": "2026-05-27T10:36:52+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk3tvfmrt3gn2a39n6ssf.jpeg"
+    },
+    {
+      "id": "9528262f4bc7",
+      "title": "China vs US AI Models in 2026: The Architecture Decision That Saves 40x",
+      "url": "https://dev.to/eagerspark/china-vs-us-ai-models-in-2026-the-architecture-decision-that-saves-40x-2c0p",
+      "summary": "I've been building AI infrastructure for a few years now. Here's something I learned the hard way: your choice of model provider matters way more than your choice of architecture.\n\nThe data I've collected:\n\n\n  \n  \n  Pricing Reality Check (May 2026)\n\n\n\n\n\nModel\nCountry\nInput\nOutput\nAnnual @ 50M tok/day\n\n\n\n\nGPT-4o\nUS\n$2.50\n$10.00\n$182,500\n\n\nClaude 3.5\nUS\n$3.00\n$15.00\n$273,750\n\n\nDeepSeek V4 Flash\nCN\n$0.18\n$0.25\n$4,562\n\n\nQwen3-32B\nCN\n$0.18\n$0.28\n$5,110\n\n\nGLM-5\nCN\n$0.73\n$1.92\n$35,040\n\n\n\n\n\n  \n  \n  Quality: Not What You Think\n\n\nCoding (HumanEval):\n\n\nClaude 3.5: 93.0% — $15.00/M\nGPT-4o: 92.5% — $10.00/",
+      "source": "Dev.to AI",
+      "published": "2026-05-27T10:36:36+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjczotsmbv7etzdp6lnp2.png"
+    },
+    {
+      "id": "807d04c68550",
+      "title": "Hyvemind OSS - Looking for some testers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tozzr4/hyvemind_oss_looking_for_some_testers/",
+      "summary": "Hey Llamas, I have been building this product for the last couple of months, initially for my own usage, then decided to rebuild it for a public open source release. I'm not ready for an official release yet, as my quality expectations are very high for a public release. But I do need more testers and feedback to get it more polished. If you are interested in using it, and leaving useful feedback / reporting any issues, I would be grateful. https://discord.gg/nBrhBjp686  Github Link: https://github.com/Unravl/Hyvemind What is Hyvemind?  Hyvemind is a desktop app that combines three modes of AI",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T09:04:27+00:00",
+      "score": 3.8,
+      "image": null
+    },
+    {
+      "id": "12b380732f69",
+      "title": "Cactus Hybrid Router: Gemma4-2B can match Gemini-3.1-Flash-Lite by routing 15-55% of tasks to Gemini And Running The Rest Locally.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tom98y/cactus_hybrid_router_gemma42b_can_match/",
+      "summary": "Last week, we announced the “Simple Attention Network” and trained Needle, a 26m function call model that beats models 10-25x its size. Some LocalLlama Redditors asked if we could use make a router model. We now built “Cactus Hybrid Router”, a 65k parameter model that decodes on the fly when to complete a task with the edge model or route to frontier cloud.  https://preview.redd.it/jm23ff7r1k3h1.png?width=1453&amp;format=png&amp;auto=webp&amp;s=2091ec952216beb2d987d536b08df3aec58fec94  Robust router performance, even when you quantize the edge model. This is Cactus Quants though, our 4bit unif",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-26T22:20:11+00:00",
+      "score": 3.71,
+      "image": null
+    },
+    {
+      "id": "3284ee9a175b",
+      "title": "The Photo Clutter Problem: Why Your Gallery is a Mess (and How We Fixed It)",
+      "url": "https://dev.to/bonfire404/the-photo-clutter-problem-why-your-gallery-is-a-mess-and-how-we-fixed-it-2mo0",
+      "summary": "If you are anything like the average smartphone or PC user, your photo gallery is likely a digital landfill. Nestled among your actual memories are hundreds of accidental screenshots, blurry photos, old receipts, and identical photos taken from slightly different angles.\nDigital clutter isn't just annoying to look at, it eats up valuable storage space and bloats device storage. Cleaning this up by hand takes hours, and sending your personal photos to a cloud service just to sort them raises serious privacy concerns.\nEnter Swipify.\nSwipify is an app designed to easily sort, declutter, and remov",
+      "source": "Dev.to Programming",
+      "published": "2026-05-27T10:33:31+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "031b9dda5b50",
+      "title": "n8n for LegalTech & Legal SaaS Vendors: 5 Automations for ABA Rule 1.6, CJIS, FRCP eDiscovery, and Court Filing Compliance",
+      "url": "https://dev.to/flowkithq/n8n-for-legaltech-legal-saas-vendors-5-automations-for-aba-rule-16-cjis-frcp-ediscovery-and-4510",
+      "summary": "Who This Is For\n\n\nIf you sell SaaS into law firms, courts, government legal departments, or legal operations teams — this article is for you.\n\nYou are a LegalTech SaaS vendor. Your platform routes client communications, case files, contract data, and discovery documents. You have compliance obligations most SaaS vendors never encounter: attorney-client privilege, ABA Model Rules, CJIS Security Policy, and FRCP eDiscovery.\n\nYour cloud iPaaS — the automation layer connecting your platform to email, CRMs, storage, and analytics — may already be creating violations you haven't noticed.\n\nThis artic",
+      "source": "Dev.to Programming",
+      "published": "2026-05-27T10:24:08+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "fdba459e3b58",
+      "title": "Best Estate Agents Near Me: How Smart Buyers Find High-ROI Properties in Noida Extension",
+      "url": "https://dev.to/urban_partners_2162c5c520/best-estate-agents-near-me-how-smart-buyers-find-high-roi-properties-in-noida-extension-51dj",
+      "summary": "Searching for the “best estate agents near me” is no longer just about finding someone who can show a few flats. Today, buyers and investors want market insight, trusted guidance, better negotiation power, and properties that can actually grow in value.\n\nThat’s exactly where experienced local real estate experts make the difference.\n\nWhether you are planning to buy your first apartment, invest in commercial property, or secure a future-ready home in Noida Extension, working with a trusted property advisor like Housing Reality can save you time, money, and costly mistakes.\n\nVisit Housing Realit",
+      "source": "Dev.to Programming",
+      "published": "2026-05-27T10:30:13+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "d4d8e03ba831",
+      "title": "[R]GNN Model For Fraud Detection Isn't Performing Well[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/",
+      "summary": "We're writing a research paper on explainable fraud detection GNN model and in the first step we're creating a basic Graph Neural Network for that. We're using the most famous dataset available on this topic i.e IEEE CIS Fraud Detection Dataset and implemented all necessary feature engineering on that data (although majority of feature engineering is already performed in the dataset). Then we constructed a heterogeneous graph on that dataset. Various transaction features like device, transaction id, amount are embedded as nodes and connected with transaction nodes. But the issue is after train",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T05:02:54+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "cf01e4e20a7b",
+      "title": "Looks like Miminax-M3 is just around the corner",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tozlqw/looks_like_miminaxm3_is_just_around_the_corner/",
+      "summary": "As per Minimax_AI twitter https://x.com/MiniMax_AI/status/2059286515155599595 I hope it will speed up Qwen3.7 open weights release. https://preview.redd.it/q1bdhs017n3h1.png?width=898&amp;format=png&amp;auto=webp&amp;s=a9a8ea134a71b9e5b9ea2489fc72420e18c6da67  &#32; submitted by &#32;  /u/OnkelBB   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T08:42:09+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "9485824b8e08",
+      "title": "PrismML just released Binary and Ternary Bonsai Image 4B: 1-bit/ternary text-to-image diffusion transformers that can even run 100% locally in your browser on WebGPU.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1togflk/prismml_just_released_binary_and_ternary_bonsai/",
+      "summary": "The PrismML team really cooked with these models. They're only ~3GB in size (compared to FLUX.2 Klein 4B, which is ~16GB). Apache-2.0! Official collection on HF: https://huggingface.co/collections/prism-ml/bonsai-image Link to demo: https://huggingface.co/spaces/webml-community/bonsai-image-webgpu  &#32; submitted by &#32;  /u/xenovatech   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-26T18:53:40+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "e0c2f0b76270",
+      "title": "What to use for Sign Language Recognition [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovz7r/what_to_use_for_sign_language_recognition_r/",
+      "summary": "Hi everyone, I'm finishing up my proposal for my undergraduate thesis for computer science on sign language recognition, specifically Filipino Sign Language and i want to ask what architecture to use for my methodology that is best, rn im considering Mediapipe Holistic + Transformers or Media Pipe Holistic + Mamba SSM. The only caveat is prev researches already done the first one and im not very familiar with the latter. Which do you think is the best method? Thank you  &#32; submitted by &#32;  /u/Unable_Let_6998   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T05:25:02+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "3d614cc22e93",
+      "title": "Millions of AI agents imperiled by critical vulnerability in open source package",
+      "url": "https://arstechnica.com/information-technology/2026/05/millions-of-ai-agents-imperiled-by-critical-vulnerability-in-open-source-package/",
+      "summary": "\"BadHost\" was found in Starlette, a package with 325 million weekly downloads.",
+      "source": "Ars Technica",
+      "published": "2026-05-26T19:50:33+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "87b374a4e02d",
+      "title": "Platform Engineering Labs Expands formae with Kubernetes Support, Native Helm Integration",
+      "url": "https://www.infoq.com/news/2026/05/formae-k8s-helm-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Platform Engineering Labs has announced a major update to its open-source Infrastructure-as-Code platform, formae, introducing full Kubernetes support, native Helm integration, direct .tfvars compatibility, and a new public plugin hub aimed at simplifying cloud-native infrastructure management By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-05-26T12:00:00+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "00ef4f49db95",
+      "title": "It’s time to address the looming crisis in entry-level work.",
+      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surface: the quiet weakening of the first rung of the career&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-26T09:00:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "a39f7e241b1c",
+      "title": "Stop Using LLMs Like Giant Problem Solvers",
+      "url": "https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/",
+      "summary": "How I turned 100 messy pdfs into structured insights by building a deterministic loop around agents\nThe post Stop Using LLMs Like Giant Problem Solvers appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-26T13:30:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "eab4dee38cd7",
+      "title": "What Is a Data Agent?",
+      "url": "https://towardsdatascience.com/what-is-a-data-agent/",
+      "summary": "A simple explanation of what a data agent is and how it works\nThe post What Is a Data Agent? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-26T16:30:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "ffe7a7525798",
+      "title": "The AI Model Confidence Trap",
+      "url": "https://towardsdatascience.com/the-ai-model-confidence-trap/",
+      "summary": "Why your AI model can be wrong with 99% confidence\nThe post The AI Model Confidence Trap appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-26T15:00:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "6f81ce46962e",
+      "title": "TamboUI Promises to Bring Better Capabilities to Build TUIs in Java",
+      "url": "https://www.infoq.com/news/2026/05/tamboui-java-tui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The call to action “to make 2026 the year of Java in the terminal” was quickly responded to by the launch of TamboUI. Inspired by Ratatui, the library used in Claude CLI, it promises support ranging from low-level terminal drawing to high-level APIs such as components and event handling. Currently at version 0.3.0, it has already been adopted by major projects such as Maven and Spring. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-05-26T09:00:00+00:00",
+      "score": 2.27,
+      "image": null
+    },
+    {
+      "id": "2fb5e6540dcb",
+      "title": "The Domain Shift: Moving Data Governance from Product Triage to Infrastructure Investment",
+      "url": "https://towardsdatascience.com/the-domain-shift-moving-data-governance-from-product-triage-to-infrastructure-investment/",
+      "summary": "How shifting the operational focus from isolated data products to systemic domain architecture resolves technical bottlenecks and optimizes platform investment.\nThe post The Domain Shift: Moving Data Governance from Product Triage to Infrastructure Investment appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-26T12:00:00+00:00",
+      "score": 2.23,
+      "image": null
+    },
+    {
+      "id": "17d86b9076d9",
+      "title": "Java News Roundup: WildFly, Micronaut, Spring AI, Apache Fory, GlassFish Plugin, Open Liberty",
+      "url": "https://www.infoq.com/news/2026/05/java-news-roundup-may18-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for May 18th, 2026, features news highlighting: GA releases of WildFly 40, Micronaut 5.0, Maven Embedded GlassFish Plugin 8.0 and Apache Fory 1.0; the May 2026 edition of Open Liberty; point releases of Gatherers4j, Apache and Kafka; and the seventh milestone release of Spring AI 2.0. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-05-26T02:30:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
