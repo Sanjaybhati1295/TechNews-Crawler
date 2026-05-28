@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution (InfoQ). CrankGPT by Squeez Labs - hand-cranked edge AI - talk about local AI!!! (Reddit r/LocalLLaMA). Krasis update: Qwen3.6-35B-A3B (Q4) at reading speed, 1x 8GB 3070 Mobile laptop (32GB RAM) (Reddit r/LocalLLaMA). AiFinPay: Autonomous Payments for ruvnet/ruflo (Dev.to AI). Beyond the Overhead: The Shift to Streamlined Content Gateway Architecture ⚡ (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "What to use for Sign Language Recognition [R] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Microsoft announced Azure Linux 4.0 and Azure Container Linux at Open Source Summit. Azure Linux 4.0 is a Fedora-based general-purpose server distribution for Azure VMs, the first time Microsoft has offered a supported Linux beyond container hosting. Azure Container Linux is an immutable container-optimized host built on Flatcar. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "14262a75a130",
+      "title": "Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution",
+      "url": "https://www.infoq.com/news/2026/05/azure-linux-4-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced Azure Linux 4.0 and Azure Container Linux at Open Source Summit. Azure Linux 4.0 is a Fedora-based general-purpose server distribution for Azure VMs, the first time Microsoft has offered a supported Linux beyond container hosting. Azure Container Linux is an immutable container-optimized host built on Flatcar. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-05-28T09:49:00+00:00",
+      "score": 4.85,
+      "image": "https://res.infoq.com/news/2026/05/azure-linux-4-server/en/card_header_image/generatedCard-1779782263899.jpg"
+    },
+    {
+      "id": "e1a7f5f7199c",
+      "title": "CrankGPT by Squeez Labs - hand-cranked edge AI - talk about local AI!!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpm7m3/crankgpt_by_squeez_labs_handcranked_edge_ai_talk/",
+      "summary": "I met Katrin from Squeez Labs at an event hosted by Pathway AI (the team behind Baby Dragon Hatchling) where she told me about CrankGPT, a literally hand-cranked device for running local LLMs. It's apparently real. It's appearently launched. It's apparently glorious. Check it out at https://crankgpt.com/ - if anyone from Squeez Labs posts here and I'm stealing their thunder, I'll take the post down! But I've been really excited about this. So local you gotta squeez it with yer own armz. ;) https://www.youtube.com/watch?v=HSapdLYpmWY  &#32; submitted by &#32;  /u/LoveMind_AI   [link] &#32; [com",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T23:24:48+00:00",
+      "score": 3.87,
+      "image": null
+    },
+    {
+      "id": "0ccb1ad14678",
+      "title": "Krasis update: Qwen3.6-35B-A3B (Q4) at reading speed, 1x 8GB 3070 Mobile laptop (32GB RAM)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpyqng/krasis_update_qwen3635ba3b_q4_at_reading_speed_1x/",
+      "summary": "Context Krasis is an LLM runtime for running models that don't fit into VRAM. Krasis streams the model through VRAM from system RAM efficiently and handles prefill and decode as separate architectures and optimised usecases. Latest results (v1.0 release)  1x Laptop RTX 3070 Mobile 8GB, (35B param, Q4) Qwen3.6-35B-A3B (HQQ4, k4v4) : 222 pp, 12.48 tg 1x RTX 5080 16GB, (35B param, Q4) Qwen3.6-35B-A3B (HQQ4, k4v4) : 3,743 pp, 60 tg 1x RTX A4500 20GB, (35B param, Q4) Qwen3.6-35B-A3B (HQQ6, k6v6) : 2,235 pp, 51 tg 1x RTX A4500 20GB, (80B param, Q4) Qwen3-Coder-Next, (HQQ6, k4v4) : 1,569 pp, 34.7 tg ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-28T09:42:46+00:00",
+      "score": 3.84,
+      "image": null
+    },
+    {
+      "id": "9e0d5bba6edf",
+      "title": "AiFinPay: Autonomous Payments for ruvnet/ruflo",
+      "url": "https://dev.to/aa_aa_f7d9c2454af1f05d828/aifinpay-autonomous-payments-for-ruvnetruflo-4ff5",
+      "summary": "AI Agents Need Payments\n\n\nWe are excited to partner with ruvnet/ruflo, the pioneering agent orchestration platform, to revolutionize the way businesses deploy and manage intelligent multi-agent swarms. Together, we can streamline autonomous workflows and conversational AI systems, while also enabling seamless AI agent payments through our integrated one-line payment SDK, AiFinPay. This partnership will unlock new possibilities for enterprise-grade AI solutions.\n\n\n  \n  \n  Quick Start\n\n\n\n\n\npip install aifinpay-agent\n\n\n\n\n\n\nGitHub",
+      "source": "Dev.to AI",
+      "published": "2026-05-28T10:36:45+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwy48v8ragnss70mv8ubr.png"
+    },
+    {
+      "id": "7f17e51a4850",
+      "title": "Beyond the Overhead: The Shift to Streamlined Content Gateway Architecture ⚡",
+      "url": "https://dev.to/darasem_9351c04dfc03d625e/beyond-the-overhead-the-shift-to-streamlined-content-gateway-architecture-54el",
+      "summary": "The baseline architecture of the modern web was originally engineered to facilitate seamless, zero-friction data exchange. However, as we navigate through the digital realities of 2026, the daily user experience of discovering premium global media has devolved into a severe efficiency crisis. Standard search aggregator pathways and commercialized directory networks are heavily bloated with invasive programmatic tracking scripts, dynamic user-profiling pixels, and complex real-time ad bidding containers. For independent net surfers searching for raw, uncompressed video feeds or high-bandwidth i",
+      "source": "Dev.to AI",
+      "published": "2026-05-28T10:35:58+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8wnw5f13htqanlwbcvt7.png"
+    },
+    {
+      "id": "50bce73cd219",
+      "title": "n8n for MedDevice & SaMD SaaS Vendors: 5 Automations for FDA 21 CFR Part 820, ISO 13485, EU MDR, and IEC 62304 Compliance",
+      "url": "https://dev.to/flowkithq/n8n-for-meddevice-samd-saas-vendors-5-automations-for-fda-21-cfr-part-820-iso-13485-eu-mdr-1pph",
+      "summary": "Here's a trap most SaMD and medical device software vendors walk into: you build an automation workflow in Zapier or Make to route a device malfunction alert, and overnight the iPaaS vendor pushes an update to their platform. Under IEC 62304 §8.2.7 (software change management), every change to software in your compliance boundary requires documented change control. But you didn't make that change — your cloud vendor did. The change isn't in your audit trail. It's not in your SOUP (software of unknown provenance) list. And if that workflow routes FDA MDR (Medical Device Report) malfunction noti",
+      "source": "Dev.to Programming",
+      "published": "2026-05-28T10:16:58+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frzcnu1pbwf004bf0k4fw.png"
+    },
+    {
+      "id": "1ba3d855f7ac",
+      "title": "ServiceNow Course Online | ServiceNow Training in Bangalore",
+      "url": "https://dev.to/hari_krishna_17497813413d/servicenow-course-online-servicenow-training-in-bangalore-1acj",
+      "summary": "Why Is ServiceNow Dominating the Global IT Job Market?\nIntroduction\nServiceNow Jobs continue to grow across the global IT industry. Organizations want faster service delivery, better workflows, and improved digital operations. As a result, many companies are adopting the ServiceNow platform to manage IT services, business processes, customer support, and employee experiences.\nFrom small businesses to large enterprises, organizations are investing in digital transformation. ServiceNow helps them automate tasks, reduce manual work, and improve efficiency. Because of this growing adoption, employ",
+      "source": "Dev.to Programming",
+      "published": "2026-05-28T10:14:24+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "75ab9c9c635a",
+      "title": "Qwen3.6 huge quality gain from Q4 to Q6 for coding agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpebhw/qwen36_huge_quality_gain_from_q4_to_q6_for_coding/",
+      "summary": "So, last week I tried to update my unused local LLM setup. I had to stop using it because quality was too low and deepseek was too cheap. First thing I stopped using Ollama and now I only use llama.cpp built in server that works really great. The quality improvement from Q4 to Q6 is outstanding and finally a local LLM server can work very similarly to paid APIs. That's great! And MTP makes a big performance gain, on a dual 3090 (downvolted and limited to 65°C) it generates from 20 to 50 tokens per second with minimal heat generation. So yes, that time has finally arrived! Local coding agents a",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T18:32:18+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "90f11f051e4c",
+      "title": "AI-generated CUDA kernels silently break training and inference [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpaw6x/aigenerated_cuda_kernels_silently_break_training/",
+      "summary": "Last month NVIDIA released SOL-ExecBench, a new benchmark of 235 production CUDA kernels lifted from DeepSeek, Qwen, Gemma, and Kimi. We took several top-ranked AI-generated submissions and tried using them in production workloads. Many of them broke, sometimes in surprising ways. One of those kernels is the fused embedding-gradient + RMSNorm backward pass, which runs at the end of every transformer training step. We took the fastest submission on the benchmark for it, and dropped it into the training loop of a small transformer. The kernel had passed the benchmark's verifier with room to spar",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T16:35:33+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "c13e753add11",
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "summary": "Meta is rolling out paid subscription plans for Instagram, Facebook, and WhatsApp worldwide, while also testing new AI, creator, and business-focused offerings under its broader “Meta One” subscription brand.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-27T18:00:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "9f605ab2148c",
+      "title": "Startup Battlefield 200 applications close today: Nominate a founder or submit your startup",
+      "url": "https://techcrunch.com/2026/05/27/startup-battlefield-200-applications-close-today-nominate-a-founder-or-submit-your-startup/",
+      "summary": "Today is the final day to apply or nominate a startup for Startup Battlefield 200. Once the clock strikes 11:59 p.m. PT, the window closes on your chance to compete for $100,000 in equity-free funding, gain global visibility, connect directly with investors, and launch on the TechCrunch Disrupt stage.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-27T14:15:00+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "2eed09f142a3",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+      "url": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/",
+      "summary": "As Cognition reaches $492 million in annualized revenue run rate, it more than doubled its valuation in eight months, it says.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-27T16:00:00+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "19417fa11c3b",
+      "title": "TechCrunch Disrupt 2026 Early Bird ticket savings end in 3 days",
+      "url": "https://techcrunch.com/2026/05/27/techcrunch-disrupt-2026-early-bird-ticket-savings-end-in-3-days/",
+      "summary": "There are only 3 days left to save up to $410 on your ticket to TechCrunch Disrupt 2026. Early Bird pricing ends May 29 at 11:59 p.m. PT, and once the deadline passes, ticket prices increase. If you plan to attend one of the most influential gatherings in tech this year, now is the time to lock in your pass before rates go up again.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-27T14:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "262c4fde582b",
+      "title": "\"Unified Neural Scaling Laws\" paper release [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tpfqv6/unified_neural_scaling_laws_paper_release_r/",
+      "summary": ". https://x.com/ethanCaballero/status/2059686905105563907 .  &#32; submitted by &#32;  /u/Glittering_Author_81   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T19:21:42+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "27835ef907b9",
+      "title": "How to Effectively Run Many Claude Code Sessions in Parallel",
+      "url": "https://towardsdatascience.com/how-to-effectively-run-many-claude-code-sessions-in-parallel/",
+      "summary": "Keep an overview of all your coding agents that run in parallel\nThe post How to Effectively Run Many Claude Code Sessions in Parallel appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-27T16:30:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "eb7606f2df51",
+      "title": "I ran 8 open-weight models as agents in a persistent MMO for 10 days. Here's the 93k event dataset and some things that I learned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tp6pg7/i_ran_8_openweight_models_as_agents_in_a/",
+      "summary": "Howdy everyone! Quick disclosure: I work on this - it's a project my studio created called the Null Epoch. I wasn't really happy with testing my agents with the usual static benchmarks and I wanted to learn more about how models and agents handle long-horizon planning, resource contention, and adversarial pressure over days or weeks in a more dynamic situation. I also have a particular fondness for the MUDs and text based RPGs I grew up on (really dating myself here), so the whole MMO and the open source SDK/TUI are kind of modeled after that experience. It functions as a persistent stress tes",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T14:09:26+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "b44f8002bfd4",
+      "title": "SWE-rebench Leaderboard (March, April and May 2026): GPT-5.5, Opus 4.7, Cursor (Composer 2.5), Kimi K2.6 and More",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tpawlm/swerebench_leaderboard_march_april_and_may_2026/",
+      "summary": "Hi all, Sorry for going missing — we’ve been collecting a larger, higher-quality set of more complex tasks. We’re excited to share a major leaderboard update covering the past three months. We’ve updated the SWE-rebench leaderboard with 110 fresh Python tasks from GitHub PRs created in March, April, and part of May. The setup follows the standard SWE-bench format: models read real PR issues, edit code, run tests, and must make the full test suite pass. This time, instead of our usual monthly updates with a smaller number of tasks, we collected a larger batch so we could evaluate models on a br",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-27T16:35:56+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "e1feacdc0a57",
+      "title": "Most AI Agents Fail in Production Because They’re Built Backwards",
+      "url": "https://towardsdatascience.com/most-ai-agents-fail-in-production-because-theyre-built-backwards/",
+      "summary": "Good models don't save bad architecture, and most teams learn that the hard way.\nThe post Most AI Agents Fail in Production Because They’re Built Backwards appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-27T13:30:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "e965c7df15dc",
+      "title": "Learning From Pairwise Preferences: An Introduction to the Bradley Terry Model",
+      "url": "https://towardsdatascience.com/learning-from-pairwise-preferences-an-introduction-to-the-bradley-terry-model/",
+      "summary": "How to Turn Simple Head-to-Head Choices Into Probabilistic Rankings\nThe post Learning From Pairwise Preferences: An Introduction to the Bradley Terry Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-27T15:00:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "269ada0154c7",
+      "title": "Profiling PyTorch training without accidentally stalling the GPU [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tp2nnw/profiling_pytorch_training_without_accidentally/",
+      "summary": "Profiling PyTorch training has an interesting measurement problem: the more you measure, the more you can change the behavior of the run itself. A simple example is torch.cuda.synchronize(). It gives cleaner timing boundaries, but it also inserts synchronization points into an otherwise asynchronous CUDA workload. An alternative is to use CUDA events around selected boundaries and read them later, so timing can be captured without forcing synchronization in the hot path. This does not replace PyTorch Profiler or Nsight, but it can work as a lightweight first pass before deeper operator-level p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T11:24:46+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "d4d8e03ba831",
+      "title": "[R]GNN Model For Fraud Detection Isn't Performing Well[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovj42/rgnn_model_for_fraud_detection_isnt_performing/",
+      "summary": "We're writing a research paper on explainable fraud detection GNN model and in the first step we're creating a basic Graph Neural Network for that. We're using the most famous dataset available on this topic i.e IEEE CIS Fraud Detection Dataset and implemented all necessary feature engineering on that data (although majority of feature engineering is already performed in the dataset). Then we constructed a heterogeneous graph on that dataset. Various transaction features like device, transaction id, amount are embedded as nodes and connected with transaction nodes. But the issue is after train",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T05:02:54+00:00",
+      "score": 2.15,
+      "image": null
+    },
+    {
+      "id": "e0c2f0b76270",
+      "title": "What to use for Sign Language Recognition [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tovz7r/what_to_use_for_sign_language_recognition_r/",
+      "summary": "Hi everyone, I'm finishing up my proposal for my undergraduate thesis for computer science on sign language recognition, specifically Filipino Sign Language and i want to ask what architecture to use for my methodology that is best, rn im considering Mediapipe Holistic + Transformers or Media Pipe Holistic + Mamba SSM. The only caveat is prev researches already done the first one and im not very familiar with the latter. Which do you think is the best method? Thank you  &#32; submitted by &#32;  /u/Unable_Let_6998   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-27T05:25:02+00:00",
+      "score": 1.97,
+      "image": null
+    }
+  ]
+}

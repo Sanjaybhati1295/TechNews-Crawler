@@ -663,3 +663,36 @@
 2026-05-27 10:49:24,105  INFO     ────────────────────────────────────────────────────────────
 2026-05-27 10:49:24,105  INFO     Done!  Open: output/index.html
 2026-05-27 10:49:24,106  INFO     Headline: Chinese AI Models Are 40x Cheaper Than GPT-4o — Here's the Proof
+2026-05-28 10:45:17,628  INFO     ============================================================
+2026-05-28 10:45:17,628  INFO     TECHPULSE Digest — 2026-05-28 10:45 UTC
+2026-05-28 10:45:17,628  INFO     ============================================================
+2026-05-28 10:45:17,628  INFO     Step 1/3 — Crawling feeds…
+2026-05-28 10:45:18,075  INFO       Hacker News                    → 0 significant articles
+2026-05-28 10:45:18,223  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-28 10:45:18,376  INFO       Ars Technica                   → 0 significant articles
+2026-05-28 10:45:18,933  INFO       The Register AI                → 0 significant articles
+2026-05-28 10:45:19,036  INFO       MIT Tech Review                → 0 significant articles
+2026-05-28 10:45:19,208  INFO       Dev.to AI                      → 2 significant articles
+2026-05-28 10:45:19,622  INFO       Dev.to Programming             → 2 significant articles
+2026-05-28 10:45:19,737  INFO       GitHub Blog                    → 0 significant articles
+2026-05-28 10:45:20,553  INFO       Google Research                → 0 significant articles
+2026-05-28 10:45:21,183  INFO       Reddit r/MachineLearning       → 5 significant articles
+2026-05-28 10:45:21,809  INFO       Reddit r/LocalLLaMA            → 5 significant articles
+2026-05-28 10:45:22,442  INFO       InfoQ                          → 1 significant articles
+2026-05-28 10:45:22,723  INFO       Towards Data Science           → 3 significant articles
+2026-05-28 10:45:22,900  INFO       Wired AI                       → 0 significant articles
+2026-05-28 10:45:22,962  INFO       TechCrunch AI                  → 4 significant articles
+2026-05-28 10:45:22,962  INFO     Fetching images for top articles…
+2026-05-28 10:45:23,662  INFO       🖼  Microsoft Announces Azure Linux 4.0, Its First General-Purpo
+2026-05-28 10:45:24,244  INFO       🖼  AiFinPay: Autonomous Payments for ruvnet/ruflo
+2026-05-28 10:45:24,325  INFO       🖼  Beyond the Overhead: The Shift to Streamlined Content Gatewa
+2026-05-28 10:45:24,506  INFO       🖼  n8n for MedDevice & SaMD SaaS Vendors: 5 Automations for FDA
+2026-05-28 10:45:24,506  INFO     Total selected: 22 articles from 15 feeds
+2026-05-28 10:45:24,507  INFO     Selected 22 significant articles
+2026-05-28 10:45:24,507  INFO     Step 2/3 — Generating digest…
+2026-05-28 10:45:24,830  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-28 10:45:24,830  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-28 10:45:24,830  INFO     Step 3/3 — Rendering HTML…
+2026-05-28 10:45:24,831  INFO     ────────────────────────────────────────────────────────────
+2026-05-28 10:45:24,831  INFO     Done!  Open: output/index.html
+2026-05-28 10:45:24,832  INFO     Headline: Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution
