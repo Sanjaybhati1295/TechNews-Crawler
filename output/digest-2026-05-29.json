@@ -1,0 +1,285 @@
+{
+  "digest": {
+    "headline": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+    "tldr": "Today's digest covers 27 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment (MIT Tech Review). Liquid AI releases LFM2.5-8B-A1B (Reddit r/LocalLLaMA). The Interposer (Dev.to AI). How Azure AI Training Can Future-Proof Your Career (Dev.to Programming). Use HTML as the primary chat language for your agents so they can draw diagrams (Reddit r/LocalLLaMA)."
+      }
+    ],
+    "key_takeaway": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;"
+  },
+  "articles": [
+    {
+      "id": "bf69a803dda7",
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-29T10:00:00+00:00",
+      "score": 4.26,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/AP26148386379363.jpg?resize=1200,600"
+    },
+    {
+      "id": "677db8a5edb2",
+      "title": "Liquid AI releases LFM2.5-8B-A1B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqqnsl/liquid_ai_releases_lfm258ba1b/",
+      "summary": "Liquid AI released LFM2.5-8B-A1B, an edge model designed to power real-life applications.  It builds on LFM2-8B-A1B with three major upgrades: an expanded 128K context window, 38T tokens of pre-training (up from 12T), and large-scale reinforcement learning. It also comes with a doubled vocabulary to improve tokenization for non-Latin languages.  The result is a model that chains tool calls, completes complex tasks, and fits comfortably on an entry-level laptop. The model is available on HF &gt; https://huggingface.co/LiquidAI/LFM2.5-8B-A1B  &#32; submitted by &#32;  /u/PauLabartaBajo   [link] ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T04:17:10+00:00",
+      "score": 3.85,
+      "image": null
+    },
+    {
+      "id": "2ea748fcaca1",
+      "title": "The Interposer",
+      "url": "https://dev.to/thesythesis/the-interposer-28cg",
+      "summary": "Value in the AI stack has migrated from chip design to physical packaging and memory. The layers with genuine scarcity now capture more margin than the layers with the most revenue.\n\nEvery investor in AI infrastructure knows NVIDIA's margins. Fewer know that SK Hynix now earns more on each dollar of revenue than NVIDIA does.\n\nIn the first quarter of 2026, SK Hynix reported a 72 percent operating margin on high-bandwidth memory, up fourteen percentage points from the prior quarter. NVIDIA's data center gross margin sits around 65 percent. TSMC, the most important foundry on earth, earns 58 perc",
+      "source": "Dev.to AI",
+      "published": "2026-05-29T10:30:33+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8n1knvjl9u5bx3hbynwh.png"
+    },
+    {
+      "id": "f5c5f672c75f",
+      "title": "How Azure AI Training Can Future-Proof Your Career",
+      "url": "https://dev.to/netcom_plus_9a4837ce72043/how-azure-ai-training-can-future-proof-your-career-10gm",
+      "summary": "Artificial intelligence is no longer limited to research labs or large tech companies. It is transforming industries including healthcare, banking, retail, logistics, and education. Much of this transformation runs on cloud platforms, and Microsoft Azure has become one of the most widely adopted. \n\nFor students and early-career professionals in India, this shift represents a major opportunity. AI is already reshaping the workforce, and the professionals who build practical AI and cloud skills today will be far better prepared for tomorrow’s job market. \n\nWhat the Numbers Show \n\nAccording to NA",
+      "source": "Dev.to Programming",
+      "published": "2026-05-29T10:14:11+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0l9cc9c1n9p6681w6q0d.png"
+    },
+    {
+      "id": "fc1508b7eba1",
+      "title": "Use HTML as the primary chat language for your agents so they can draw diagrams",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqt12p/use_html_as_the_primary_chat_language_for_your/",
+      "summary": "A week or two ago Thariq published an article on how good AI's were at working with HTML and that there was not really any reason to use markdown anymore. And yet all of our coding agents work with markdown and output markdown and have been trained on markdown. So as a bit of an experiment I decided to see how good they were at using HTML as part of the main chat. The answer is - pretty good. So this is a coding agent with the interface running in a web browser. The responses from the agent are piped straight into the page. At first it would still always use markdown, and then I realized that ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T06:18:09+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "fbaa80aeae26",
+      "title": "Which Coding Agent Features Are Useful For Local LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqohv6/which_coding_agent_features_are_useful_for_local/",
+      "summary": "I've been slop coding my own coding agent over the last week (just an open source thing going up on github), and it got me wondering what kinds of features would make for a good coding agent, specifically for local models? I searched the subreddit and see quite a few conversations asking about which local coding agent is best, but not much discussion about which specific features and attributes are useful. Are context management strategies the most important? What does that entail besides compaction and deferred loading of tools and ensuring the tools are frugal about output? A pet peeve of mi",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T02:37:27+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "14262a75a130",
+      "title": "Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution",
+      "url": "https://www.infoq.com/news/2026/05/azure-linux-4-server/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced Azure Linux 4.0 and Azure Container Linux at Open Source Summit. Azure Linux 4.0 is a Fedora-based general-purpose server distribution for Azure VMs, the first time Microsoft has offered a supported Linux beyond container hosting. Azure Container Linux is an immutable container-optimized host built on Flatcar. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-05-28T09:49:00+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "2732b5d8006e",
+      "title": "What actually happens when you run `go run main.go`",
+      "url": "https://dev.to/lovestaco/what-actually-happens-when-you-run-go-run-maingo-13l4",
+      "summary": "Hello, I'm Maneshwar. I'm building git-lrc, a Micro AI code reviewer that runs on every commit. It is free and source-available on Github. Star git-lrc to help devs discover the project. Do give it a try and share your feedback for improving the project. \n\n# What actually happens when you run go run main.go\n\nYou've typed it hundreds of times. \n\nThe program runs. \n\nBut what's actually going on between pressing Enter and your first fmt.Println?\n\n\n  \n  \n  The full picture\n\n\n\n\n\n  \n  \n  Step 0: You press Enter\n\n\nYour shell finds go in $PATH, usually /usr/local/go/bin/go or wherever your version man",
+      "source": "Dev.to Programming",
+      "published": "2026-05-29T10:11:16+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "7607f7b63ddc",
+      "title": "StepFun 3.7 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
+      "summary": "StepFun dropped Step 3.7 Flash, 196B total / 11B active MoE, runs locally on 128GB RAM It's a multimodal MoE (196B total params, only 11B active) with a built-in 1.8B ViT for vision. Benchmark highlights vs. other flash-tier models: - SWE-Bench Pro: 56.26% (beats DeepSeek V4 Flash at 55.6%, matches Gemini 3.5 Flash at 55.1%) - DeepSearchQA F1: 92.82%, competitive with GPT 5.5 (93.98%) - HLE w/ tools: 47.2%, solid for a flash-class model Essentially punches well above its active parameter weight on agentic and coding tasks. If you've got the RAM for it, looks like a genuinely interesting local ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T00:32:52+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "215cc629463f",
+      "title": "Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+      "summary": "The new Opus model comes with a tool called Dynamic Workflows, for coordinating swarms of subagents.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T17:00:09+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "a64a1af49118",
+      "title": "Sesame, the conversational AI startup from Oculus founders, launches its iOS app",
+      "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+      "summary": "Sesame’s new iOS app brings its conversational AI agents to the public, offering more natural back-and-forth interactions designed to feel less like traditional chatbots and more like talking to a person.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T15:35:43+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "4de556a9bb45",
+      "title": "Beware!! Users trying to fork and steal your projects",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqnx5n/beware_users_trying_to_fork_and_steal_your/",
+      "summary": "Context! User u/Worried_Goat_8604 claimed to have made a similar but unrelated project to my SmallCode. He framed it as &quot;I made this before you, but we can collab if you make me co-founder&quot;. In reality, he made a low effort fork of MY project 2 days ago and is trying to peddle it off as his own!! Beware of people trying to takeover your project like this. It really is an unneeded stain on the open source community that scammers like this are out here trying to leech off other people's hard work! My repo: SmallCode His fork: LightAgent  &#32; submitted by &#32;  /u/Glittering_Focus153",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T02:12:09+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "2eaf3d2ab829",
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-05-28T23:42:47+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "e14094841cd1",
+      "title": "Asana acquires no-code agent-builder StackAI",
+      "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+      "summary": "Asana will incorporate StackAI into its growing suite of AI workflow tools.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T20:06:07+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "9ee607688cc2",
+      "title": "Anthropic raises $65 billion, nears $1T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "summary": "Anthropic has closed a $65 billion Series H round at a $965 billion post-money valuation, marking what could be the AI startup's final private fundraise before a highly anticipated IPO.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T18:52:51+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "350fe0bcb65e",
+      "title": "Just like gold and oil, we’ll soon be able to trade AI token futures",
+      "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+      "summary": "Large exchanges are designing derivative products around AI tokens, which are increasingly being considered less a computational output and more a raw material input, like electricity or bandwidth.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T18:32:25+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "343752499a00",
+      "title": "Wall-OSS-0.5: 4B VLA with open training code and zero-shot real-robot evaluation[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/",
+      "summary": "Wall-OSS-0.5 is a new 4B VLA release from X Square Robot, built on a 3B VLM backbone with action experts in a Mixture-of-Transformers layout. What caught my eye is that the report evaluates the pretrained checkpoint on real robots before task-specific fine tuning, instead of only reporting downstream fine-tuned performance. The reported numbers are: zero shot on a 17-task real-robot suite, 4 tasks above 80 task progress, including a held-out deformable task (Rope Tightening, 82). After fine tuning on a 15-task suite, they report 60.5 average task progress, +17.5pp over pi0.5, and +26pp on the ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-28T16:37:41+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "4fa6c9d614f2",
+      "title": "Zai replaced the network architecture running GLM-5.1 inference and the gains are pretty wild",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq35a0/zai_replaced_the_network_architecture_running/",
+      "summary": "Been following the infrastructure side of AI more lately and stumbled on this from Zai. They upgraded the network architecture on a thousand-GPU cluster running GLM-5.1 coding inference from the standard ROFT setup to something they built called ZCube, developed with Tsinghua University and HarnetsAI The numbers from production: - Switch and optical module costs down 33% - GPU inference throughput up 15% - P99 tail latency on first token dropped 40.6% Same GPUs, same software stack, same model. Just the network architecture changed The actual problem they were solving is interesting. With Pref",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-28T13:09:11+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "d554aedc8880",
+      "title": "YouTube adds new podcast features, including an AI recommendation tool and ‘Auto speed’",
+      "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
+      "summary": "The update signals YouTube's ongoing efforts to compete with other platforms for podcast audiences.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T14:28:47+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "96d2356cf5c7",
+      "title": "Qwen3.6 35B - TXT vs Markdown vs HTML vs HTML+CSS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tq7yeq/qwen36_35b_txt_vs_markdown_vs_html_vs_htmlcss/",
+      "summary": "Theres been talk of late about using HTML rather than markdown in Claude Code. I was curious how this worked with a local model so loaded up Qwen3.6 35B A3B at Q8 and F16 KV cache. Then I gave it the same prompt write a detailed explanation of the Blazor render cycle first asking for raw text, then markdown, then unstyled HTML, then HTML+CSS, and finally with no constraint (where it chose markdown). I measured the token counts for reasoning, total response (including the md or HTML formatting) and the raw response content stripped of formatting. I also recorded the tokens per second (running M",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-28T16:05:04+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "7a983c75a9bc",
+      "title": "Has the hunt for AI compute uncovered the next Cerebras?",
+      "url": "https://techcrunch.com/2026/05/28/has-the-hunt-for-ai-compute-uncovered-the-next-cerebras/",
+      "summary": "General Compute is betting SambaNova will be the next breakout chipmaker.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T13:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "658a938a15b0",
+      "title": "EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026",
+      "url": "https://towardsdatascience.com/emonet-speaker-aware-transformers-for-emotion-recognition-and-what-id-build-differently-in-2026/",
+      "summary": "A retrospective on my MS thesis, the leaderboard it placed on, and the LLM shift that has reshaped the field since.\nThe post EmoNet: Speaker-Aware Transformers for Emotion Recognition — and What I’d Build Differently in 2026 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-28T16:30:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "3c8dad3a5263",
+      "title": "The Infrastructure Behind Making Local LLM Agents Actually Useful",
+      "url": "https://towardsdatascience.com/the-infrastructure-behind-making-local-llm-agents-actually-useful/",
+      "summary": "Lessons from building a fast, reliable scientific agent with local open-weight models, vLLM, and long-context infrastructure\nThe post The Infrastructure Behind Making Local LLM Agents Actually Useful appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-28T15:00:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "a6f015a4b3e8",
+      "title": "Accountability is the Goal for AI, with EU Regulations Supporting Transparency",
+      "url": "https://www.infoq.com/news/2026/05/accountability-AI-EU-regulations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AI bias mirrors human bias; both stem from our language and lived experiences. Ethics and AI are inseparable, but AI changes affordances, making harmful actions easier to carry out. The EU regulations apply to AI, since digital products are products. The ultimate goal is accountability: companies must ensure transparency, and laws should favor using the simplest AI that gets the job done. By Ben Linders",
+      "source": "InfoQ",
+      "published": "2026-05-28T11:08:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "7ed81bda34a5",
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "url": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880/",
+      "summary": "Built on top of the open source Hermes project, Vertu's new foldable combines AI-agent workflows, enterprise integrations, and ultra-premium luxury finishes.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-28T07:00:00+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "4338d6a01c5a",
+      "title": "DiffuJudge-AV: A Diffusion-Inspired Framework for Calibrated AV Video Evaluation",
+      "url": "https://towardsdatascience.com/diffujudge-av-a-diffusion-inspired-framework-for-calibrated-av-video-evaluation/",
+      "summary": "A diffusion-inspired framework for stress-testing and denoising LLM-as-a-Judge pipelines, applied to safety-critical driving video.\nThe post DiffuJudge-AV: A Diffusion-Inspired Framework for Calibrated AV Video Evaluation appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-28T12:00:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "7e63cebcc55a",
+      "title": "Why AI Still Can’t Solve Your Real Mathematical Optimization Problem",
+      "url": "https://towardsdatascience.com/why-ai-still-cant-solve-your-real-mathematical-optimization-problem-and-what-orpilot-does-differently/",
+      "summary": "And what ORPilot does differently\nThe post Why AI Still Can’t Solve Your Real Mathematical Optimization Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-28T13:30:00+00:00",
+      "score": 2.33,
+      "image": null
+    }
+  ]
+}

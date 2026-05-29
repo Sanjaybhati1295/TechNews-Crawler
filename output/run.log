@@ -696,3 +696,35 @@
 2026-05-28 10:45:24,831  INFO     ────────────────────────────────────────────────────────────
 2026-05-28 10:45:24,831  INFO     Done!  Open: output/index.html
 2026-05-28 10:45:24,832  INFO     Headline: Microsoft Announces Azure Linux 4.0, Its First General-Purpose Server Linux Distribution
+2026-05-29 10:38:37,343  INFO     ============================================================
+2026-05-29 10:38:37,343  INFO     TECHPULSE Digest — 2026-05-29 10:38 UTC
+2026-05-29 10:38:37,344  INFO     ============================================================
+2026-05-29 10:38:37,344  INFO     Step 1/3 — Crawling feeds…
+2026-05-29 10:38:37,680  INFO       Hacker News                    → 1 significant articles
+2026-05-29 10:38:38,066  INFO       VentureBeat AI                 → 0 significant articles
+2026-05-29 10:38:38,227  INFO       Ars Technica                   → 0 significant articles
+2026-05-29 10:38:39,256  INFO       The Register AI                → 0 significant articles
+2026-05-29 10:38:39,390  INFO       MIT Tech Review                → 1 significant articles
+2026-05-29 10:38:39,601  INFO       Dev.to AI                      → 1 significant articles
+2026-05-29 10:38:40,074  INFO       Dev.to Programming             → 2 significant articles
+2026-05-29 10:38:40,273  INFO       GitHub Blog                    → 0 significant articles
+2026-05-29 10:38:41,063  INFO       Google Research                → 0 significant articles
+2026-05-29 10:38:42,089  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-05-29 10:38:42,725  INFO       Reddit r/LocalLLaMA            → 7 significant articles
+2026-05-29 10:38:43,233  INFO       InfoQ                          → 2 significant articles
+2026-05-29 10:38:43,481  INFO       Towards Data Science           → 4 significant articles
+2026-05-29 10:38:43,786  INFO       Wired AI                       → 0 significant articles
+2026-05-29 10:38:43,897  INFO       TechCrunch AI                  → 8 significant articles
+2026-05-29 10:38:43,897  INFO     Fetching images for top articles…
+2026-05-29 10:38:44,027  INFO       🖼  How the Pope’s Magnifica Humanitas offers a template for ind
+2026-05-29 10:38:44,402  INFO       🖼  The Interposer
+2026-05-29 10:38:44,523  INFO       🖼  How Azure AI Training Can Future-Proof Your Career
+2026-05-29 10:38:44,703  INFO     Total selected: 27 articles from 15 feeds
+2026-05-29 10:38:44,703  INFO     Selected 27 significant articles
+2026-05-29 10:38:44,704  INFO     Step 2/3 — Generating digest…
+2026-05-29 10:38:44,976  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-05-29 10:38:44,976  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-05-29 10:38:44,977  INFO     Step 3/3 — Rendering HTML…
+2026-05-29 10:38:44,978  INFO     ────────────────────────────────────────────────────────────
+2026-05-29 10:38:44,978  INFO     Done!  Open: output/index.html
+2026-05-29 10:38:44,978  INFO     Headline: How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment
