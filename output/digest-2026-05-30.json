@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Grok V9-Medium: 1.5T Model Architecture & MLOps Guide",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Grok V9-Medium: 1.5T Model Architecture & MLOps Guide (Dev.to AI). made a local voice AI for windows you can talk to in any language. open source, bring your own key (Reddit r/LocalLLaMA). Inside Japan’s Digital Agency GENAI Stack for Secure Government AI (Dev.to AI). The Year We Blew Up $47K in P99 Latency Chasing Veltrix Events (Dev.to Programming). Python Decorators Explained Simply (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Beyond SEO: Why AEO and GEO Are Reshaping the Future of Online Visibility (Dev.to AI). Baseline Enterprise RAG, From PDF to Highlighted Answer (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Originally published on CoreProse KB-incidents\n\n\nGrok AI’s V9-Medium 1.5T model lands in a world where GPT-5.4, Gemini 3.x, and strong open-source models are already routine production tools with strict SLOs, observability, and governance. [6][2]\n\nThis guide treats Grok V9-Medium as a production component and explains how to:\n\n\nPosition Grok vs GPT-5.4, Gemini 3.x, and open source.\n\nArchitect a 1.5T “thinking tier”.\n\nDesign RAG, routing, and evaluation for hallucination risk.\n\nIntegrate Grok into mature MLOps and governance frameworks. [4]\n\n\n\n\n\n\n  \n  \n  1. Positioning Grok V9-Medium in the 202"
+  },
+  "articles": [
+    {
+      "id": "901abbe5e6b8",
+      "title": "Grok V9-Medium: 1.5T Model Architecture & MLOps Guide",
+      "url": "https://dev.to/olivier-coreprose/grok-v9-medium-15t-model-architecture-mlops-guide-4khh",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\nGrok AI’s V9-Medium 1.5T model lands in a world where GPT-5.4, Gemini 3.x, and strong open-source models are already routine production tools with strict SLOs, observability, and governance. [6][2]\n\nThis guide treats Grok V9-Medium as a production component and explains how to:\n\n\nPosition Grok vs GPT-5.4, Gemini 3.x, and open source.\n\nArchitect a 1.5T “thinking tier”.\n\nDesign RAG, routing, and evaluation for hallucination risk.\n\nIntegrate Grok into mature MLOps and governance frameworks. [4]\n\n\n\n\n\n\n  \n  \n  1. Positioning Grok V9-Medium in the 202",
+      "source": "Dev.to AI",
+      "published": "2026-05-30T09:00:40+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcqz30zw0uf3tzaf1ja61.png"
+    },
+    {
+      "id": "eea46836649f",
+      "title": "made a local voice AI for windows you can talk to in any language. open source, bring your own key",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trt8e3/made_a_local_voice_ai_for_windows_you_can_talk_to/",
+      "summary": "been building this on and off for a while and finally got it to a point where i'm not embarrassed to share it, so here goes. it's called Shadow AI. basically a voice-first AI companion that runs on your own windows machine. you just talk to it and it talks back, no typing required. i mostly made it because i was tired of opening a chat window and pecking at a keyboard every time i wanted to ask something or get a quick task done. stuff it can do: - actual voice conversations, not the awkward push-to-talk kind. you just talk. - you can talk to it in literally any language. switch mid-sentence i",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-30T07:36:07+00:00",
+      "score": 3.81,
+      "image": null
+    },
+    {
+      "id": "9c1412b1537d",
+      "title": "Inside Japan’s Digital Agency GENAI Stack for Secure Government AI",
+      "url": "https://dev.to/olivier-coreprose/inside-japans-digital-agency-genai-stack-for-secure-government-ai-4pjp",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\nJapan’s public sector wants generative AI for faster policy work, better citizen services, and smarter operations—without losing sovereignty, compliance, or trust.  \n\nThe Digital Agency must build a GENAI platform that feels like a modern developer stack but behaves like critical, regulated infrastructure:\n\n\nModels and data remain under Japanese control.\n\nEvery interaction is observable, auditable, and reversible.\n\nGovernance is built into the architecture, not added later.\n\n\nThe blueprint below moves from governance foundations to sovereign arc",
+      "source": "Dev.to AI",
+      "published": "2026-05-30T09:00:07+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuketln8eb30bgvnwitmt.png"
+    },
+    {
+      "id": "9f1ce838bdb0",
+      "title": "The Year We Blew Up $47K in P99 Latency Chasing Veltrix Events",
+      "url": "https://dev.to/dev-architecture-blog/the-year-we-blew-up-47k-in-p99-latency-chasing-veltrix-events-2de9",
+      "summary": "The Problem We Were Actually Solving\n\nIt was 2024 and our in-game treasure hunt engine was doing 950k events per second at peak. We had just migrated from a vanilla Kafka cluster to Veltrix—our own home-grown event streaming platform that promised 30 % lower CPU and sub-millisecond p99 at 5 GB/s. The marketing slide said Veltrix could ingest 10 M events/sec per rack; the benchmarks showed it. Reality gave us a 47 k latency spike every time the hunt leaderboard updated.\n\nThe nightly load test that had been green for weeks suddenly showed p99 climbing to 842 ms. Veltrixs own metrics endpoint (/a",
+      "source": "Dev.to Programming",
+      "published": "2026-05-30T08:16:17+00:00",
+      "score": 3.65,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fpollinations.ai%2Fp%2Ffantasy%2520game%2520server%2520tournament%2520event%2520arena%2520digital%2520art%252C%2520glowing%2520competition%2520stage%2520with%2520player%2520crowd%252C%2520dark%2520atmospheric%2520lighting%252C%2520cyan%2520accents%252C%2520epic%2520scale%252C%2520professional%2520concept%2520art%252C%2520how%2520to%2520get%2520treasure%252C%252016%253A9%2520aspect%2520ratio%252C%2520no%2520text%252C%2520no%2520watermark%3Fwidth%3D1200%26height%3D630%26seed%3D48082%26nologo%3Dtrue%26model%3Dflux"
+    },
+    {
+      "id": "7360da0c5c03",
+      "title": "Beyond SEO: Why AEO and GEO Are Reshaping the Future of Online Visibility",
+      "url": "https://dev.to/procloser/beyond-seo-why-aeo-and-geo-are-reshaping-the-future-of-online-visibility-lmi",
+      "summary": "For years, businesses measured their digital success by one simple metric: search rankings. Appearing on the first page of Google often meant increased traffic, stronger brand awareness, and more opportunities to generate leads. Search Engine Optimization (SEO) became the cornerstone of online marketing, helping organizations connect with audiences actively searching for information, products, and services.\n\nToday, however, the digital landscape is undergoing a profound transformation.\n\nArtificial intelligence is changing the way people discover information. Instead of scrolling through pages ",
+      "source": "Dev.to AI",
+      "published": "2026-05-30T08:54:50+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9j3epmjoff1ebjc4rfqo.png"
+    },
+    {
+      "id": "332f27ac0c8e",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-2n9f",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-30T08:42:47+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj7xbeu8o28cm3zhs6et6.png"
+    },
+    {
+      "id": "e9de00bf2365",
+      "title": "The moment Veltrixs configuration layer betrayed us",
+      "url": "https://dev.to/built-from-africa/the-moment-veltrixs-configuration-layer-betrayed-us-47e",
+      "summary": "The Problem We Were Actually Solving\n\n\nAt 12 k concurrent users, the Golang-based treasure-hunt engine began allocating 2 GB of heap in &lt;250 ms.\nA 512-byte event message ballooned into 4 MB after being processed through a nested map[string]interface{} structure.\nAllocations triggered three full GC cycles before the response escaped the handler, violating our SLA of &lt;50 ms p99.\nRunning go tool pprof revealed 68 % of CPU time inside yaml.Unmarshal, but we could not patch the allocator without risking a rewrite of the entire event pipeline.\n\n\n  \n  \n  What We Tried First (And Why It Failed)\n",
+      "source": "Dev.to Programming",
+      "published": "2026-05-30T08:11:31+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "8bb53ceb3415",
+      "title": "Mutating Gemma 4 31B Dense in to a native Gemma 4 additive-MoE model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trbeo0/mutating_gemma_4_31b_dense_in_to_a_native_gemma_4/",
+      "summary": "I recently came across an interesting model on Hugginface from JDONE-Research/AIOne-Agent-52B-A36B-it. It is the first finetune I saw that is built on the Gemma 4 31B dense model but enables MoE for it, training a router + experts and enabling the enable_moe_block config like Gemma 4 26B does. I was surprised that this &quot;feature&quot; hasn't been discussed more, since I thought it might be an interesting architecture to further post-train the Gemma 4 31B model to update its knowledge and give it enhanced capabilities through MoE.  Unfortunately, the JDONE finetune is korean specific, but I",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T18:40:59+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "350499cc7781",
+      "title": "Graduating Without a PhD Internship [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/",
+      "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with big tech, I would be able to do a PhD internship each summer, which was one of my main goals for the PhD. During my first and second years, they would tell me that companies prefer late-stage PhD students, so I should wait for the next summer. It eventually turned out they did not actually have the connections. Four years later, I am due to graduate without ever having done a PhD internship. I managed to land some interviews by cold-applying everywhere, b",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-30T02:27:22+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "dd03918bf539",
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "summary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-29T17:27:13+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "82d27a9e2c10",
+      "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "summary": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-29T16:13:47+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "bf69a803dda7",
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "summary": "Pope Leo XIV’s new encyclical on artificial intelligence includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.” Magnifica Humanitas (“Magnificent Humanity”) is a clarion call to all people to act with courage and solidarity as we enter an age already being transformed by artificial intelligence, the greatest change in&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-05-29T10:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "61a996126ff1",
+      "title": "RAG Is Burning Money — I Built a Cost Control Layer to Fix It",
+      "url": "https://towardsdatascience.com/rag-is-burning-money-i-built-a-cost-control-layer-to-fix-it/",
+      "summary": "Most RAG systems are optimized for answer quality, not cost—and that blind spot gets expensive fast. In this article, I break down a production-ready cost control layer combining semantic caching, query routing, token budgeting, and circuit breaking, achieving an 85% reduction in LLM costs without sacrificing answer quality.\nThe post RAG Is Burning Money — I Built a Cost Control Layer to Fix It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-29T16:30:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "e36d8d61d4e3",
+      "title": "Baseline Enterprise RAG, From PDF to Highlighted Answer",
+      "url": "https://towardsdatascience.com/baseline-enterprise-rag-from-pdf-to-highlighted-answer-enterprise-document-intelligence-vol-1-1/",
+      "summary": "Enterprise Document Intelligence [Vol. 1 #1] The smallest version of RAG that actually works, on a real PDF, with grounded answers and the source lines highlighted.\nThe post Baseline Enterprise RAG, From PDF to Highlighted Answer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-29T19:10:22+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "677db8a5edb2",
+      "title": "Liquid AI releases LFM2.5-8B-A1B",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqqnsl/liquid_ai_releases_lfm258ba1b/",
+      "summary": "Liquid AI released LFM2.5-8B-A1B, an edge model designed to power real-life applications.  It builds on LFM2-8B-A1B with three major upgrades: an expanded 128K context window, 38T tokens of pre-training (up from 12T), and large-scale reinforcement learning. It also comes with a doubled vocabulary to improve tokenization for non-Latin languages.  The result is a model that chains tool calls, completes complex tasks, and fits comfortably on an entry-level laptop. The model is available on HF &gt; https://huggingface.co/LiquidAI/LFM2.5-8B-A1B  &#32; submitted by &#32;  /u/PauLabartaBajo   [link] ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T04:17:10+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "0767dad0ab85",
+      "title": "Shoutout to Gemma4 as a conversational assistant / agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqy2iv/shoutout_to_gemma4_as_a_conversational_assistant/",
+      "summary": "I'm seriously impressed by Gemma4 26B A4B. On my M5 Pro (so not much memory bandwidth by GPU standards), it's blazingly fast and it's a very good generalist / everyday local LLM. It has a little bit of personality to its responses, and seems to perform decently for everything: creative writing, debugging and coding, random chats, image recognition and classification, etc. If you want, give it a web search tool/API of your choice, and it really sings as an everyday local LLM. I tried Qwen3.6 35B A3B, and the coding performance feels close (slight lead for Qwen; but it's bigger params so I have ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T10:49:39+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "eeed5ef46f7a",
+      "title": "Explaining Lineage in DAX",
+      "url": "https://towardsdatascience.com/explaining-lineage-in-dax/",
+      "summary": "One of the most important concepts in DAX is lineage. It’s about the information on where something comes from. Let’s see what it is and how we can manipulate it.\nThe post Explaining Lineage in DAX appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-29T13:30:00+00:00",
+      "score": 2.41,
+      "image": null
+    },
+    {
+      "id": "7607f7b63ddc",
+      "title": "StepFun 3.7 Flash",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqloii/stepfun_37_flash/",
+      "summary": "StepFun dropped Step 3.7 Flash, 196B total / 11B active MoE, runs locally on 128GB RAM It's a multimodal MoE (196B total params, only 11B active) with a built-in 1.8B ViT for vision. Benchmark highlights vs. other flash-tier models: - SWE-Bench Pro: 56.26% (beats DeepSeek V4 Flash at 55.6%, matches Gemini 3.5 Flash at 55.1%) - DeepSearchQA F1: 92.82%, competitive with GPT 5.5 (93.98%) - HLE w/ tools: 47.2%, solid for a flash-class model Essentially punches well above its active parameter weight on agentic and coding tasks. If you've got the RAM for it, looks like a genuinely interesting local ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T00:32:52+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "4de556a9bb45",
+      "title": "Beware!! Users trying to fork and steal your projects",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tqnx5n/beware_users_trying_to_fork_and_steal_your/",
+      "summary": "Context! User u/Worried_Goat_8604 claimed to have made a similar but unrelated project to my SmallCode. He framed it as &quot;I made this before you, but we can collab if you make me co-founder&quot;. In reality, he made a low effort fork of MY project 2 days ago and is trying to peddle it off as his own!! Beware of people trying to takeover your project like this. It really is an unneeded stain on the open source community that scammers like this are out here trying to leech off other people's hard work! My repo: SmallCode His fork: LightAgent Edit, we got em boys https://github.com/noobezlol",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-29T02:12:09+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
