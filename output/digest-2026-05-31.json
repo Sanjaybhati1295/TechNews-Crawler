@@ -1,0 +1,165 @@
+{
+  "digest": {
+    "headline": "I built mlx-Chronos — a community benchmark leaderboard for local LLM engines on Apple Silicon (oMLX, Rapid-MLX, mlx-lm, Ollama) [P]",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "I built mlx-Chronos — a community benchmark leaderboard for local LLM engines on Apple Silicon (oMLX, Rapid-MLX, mlx-lm, Ollama) [P] (Reddit r/MachineLearning). mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released ! (Reddit r/LocalLLaMA). EU AI Act Omnibus: Deadlines Slip, New Bans Land (Dev.to AI). Use any model and any provider with the official OpenAI Codex Desktop App, without modifying its code, and continue to use the official models in parallel? (Reddit r/LocalLLaMA). How I Escaped Tutorial Hell and Actually Learned to Build AI Agents in 2026 (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Hey! I'm a CS student and I got tired of not being able to compare MLX inference engines properly — every benchmark out there is either made by the engine's own developers, runs on an M3 Ultra nobody has, or just shows tok/s with zero context. So I built mlx-Chronos — a small open source CLI tool that runs a standardized benchmark protocol on your Mac and lets you submit your results to a shared community leaderboard. What it measures:  Cold and cached TTFT (Time to First Token), with a proper methodology — unique prompts per trial, cache priming, no interleaved phases Throughput (tok/s), with"
+  },
+  "articles": [
+    {
+      "id": "0dcb483a0d2d",
+      "title": "I built mlx-Chronos — a community benchmark leaderboard for local LLM engines on Apple Silicon (oMLX, Rapid-MLX, mlx-lm, Ollama) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tsphfn/i_built_mlxchronos_a_community_benchmark/",
+      "summary": "Hey! I'm a CS student and I got tired of not being able to compare MLX inference engines properly — every benchmark out there is either made by the engine's own developers, runs on an M3 Ultra nobody has, or just shows tok/s with zero context. So I built mlx-Chronos — a small open source CLI tool that runs a standardized benchmark protocol on your Mac and lets you submit your results to a shared community leaderboard. What it measures:  Cold and cached TTFT (Time to First Token), with a proper methodology — unique prompts per trial, cache priming, no interleaved phases Throughput (tok/s), with",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-31T08:26:02+00:00",
+      "score": 4.03,
+      "image": null
+    },
+    {
+      "id": "c09c337ce210",
+      "title": "mudler/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-APEX-MTP-GGUF just released !",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tslv3b/mudlerqwen3635ba3bclaude47opusreasoningdistilledap/",
+      "summary": "Description of the module:  I host 30+ free APEX MoE quantizations as independent research. My only local hardware is an NVIDIA DGX Spark (122 GB unified memory) — enough for ~30-50B-class MoEs, but bigger ones (200B+) require rented compute on H100/H200/Blackwell, typically $20-100 per quant. If APEX quants are useful to you, your support directly funds those bigger runs. Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled — APEX-MTP GGUF APEX (Adaptive Precision for EXpert Models) quantizations of lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled, with the MTP (multi-token predicti",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T05:05:10+00:00",
+      "score": 3.84,
+      "image": null
+    },
+    {
+      "id": "62acc516bf99",
+      "title": "EU AI Act Omnibus: Deadlines Slip, New Bans Land",
+      "url": "https://dev.to/rishi_kora/eu-ai-act-omnibus-deadlines-slip-new-bans-land-7nb",
+      "summary": "Originally published on AI Tech Connect.\n\nWhat you need to know The deal is real and it is the first ever. On 7 May 2026 the Council and Parliament agreed a political deal on the EU “Digital Omnibus” — the first amendments to the AI Act since adoption. A new prohibition arrives 2 December 2026. AI systems used to generate or manipulate non-consensual intimate imagery (NCII) and child sexual abuse material (CSAM) are banned outright. Transparency rules still hit in August 2026. Machine-readable marking of AI-generated content and deepfake disclosure were not delayed. The high-risk rules slipped",
+      "source": "Dev.to AI",
+      "published": "2026-05-31T09:31:19+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhie3bfef3zejj5xytnzo.png"
+    },
+    {
+      "id": "9b23678d12f2",
+      "title": "Use any model and any provider with the official OpenAI Codex Desktop App, without modifying its code, and continue to use the official models in parallel?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tspigk/use_any_model_and_any_provider_with_the_official/",
+      "summary": "All in the title. The official OpenAI Codex Desktop App only accepts models that are from OpenAI and from a curated list. But there is a trick, you can make it think you are using the official OpenAI servers and models by just impersonating the model name and using another one. There is three things you need to do 1) The first one is to modify the officiel config of the codex desktop app. This is none intrusive and doesn’t break the app in anyways, and can also be reverted. You can do that by going in the settings and clicking the « open config.toml » link.  Then you need to modify the officia",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T08:27:44+00:00",
+      "score": 3.73,
+      "image": null
+    },
+    {
+      "id": "73962f3acefb",
+      "title": "How I Escaped Tutorial Hell and Actually Learned to Build AI Agents in 2026",
+      "url": "https://dev.to/kesimo/how-i-escaped-tutorial-hell-and-actually-learned-to-build-ai-agents-in-2026-3j65",
+      "summary": "I spent the first three months of 2026 doing the same thing I've done for years: watching tutorials. Every morning started with 'Build an AI Agent in 10 Minutes' videos. Every evening ended with yet another half-finished Udemy course. My GitHub was a graveyard of cloned repos I'd never run.\n\nThen something clicked. I deleted every tutorial bookmark and started coding from zero.\n\n\n  \n  \n  The Tutorial Trap Is Real\n\n\nLet's be honest about what tutorial consumption looks like:\n\n\nYou watch someone type code while you nod along\nYou copy-paste their exact commands\nIt works. You feel productive.\nNext",
+      "source": "Dev.to AI",
+      "published": "2026-05-31T09:33:33+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fswu7cvksgfmyult2y2bi.png"
+    },
+    {
+      "id": "5a7129466560",
+      "title": "How AI reads your website, and what that means for the people who build it",
+      "url": "https://dev.to/onecaratlabs/how-ai-reads-your-website-and-what-that-means-for-the-people-who-build-it-3h64",
+      "summary": "By Takeshi Yokoyama — Onecarat Labs\n\nHi. I'm Yokoyama, and I build a local-first AI text editor as a side project, along with a few other experimental tools. Working on them, I keep running into the same question about where the web is going. This post is one observation, plus a small experiment I built to test it — including a Chrome extension you can actually try.\n\nThe short version: I think websites will increasingly be read through AI agents, reshaped per reader, on the fly. And once that happens, there's a clear gap between sites that are easy for an AI to read and sites that aren't.\n\n\n  ",
+      "source": "Dev.to AI",
+      "published": "2026-05-31T09:33:32+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1t75d7ml5k237kejvypi.png"
+    },
+    {
+      "id": "0e6f1467a93f",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-1589",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-05-31T09:04:42+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "4c4577b366c0",
+      "title": "My home data center",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tshmxa/my_home_data_center/",
+      "summary": "System 1: Threadripper 3960x 24c 4x 3090 ti 128gb ddr4 System 2: Xeon 8352 36c 4x 5070 ti  128gb ddr4 System 3: Intel 14700k 24c 64gb ddr5 5090 System 4: Ryzen 5950x 16c 64gb ddr4 2x 5070 ti The first system uses two PSUs to handle the almost 2000w full load of the 3090s. Was nervous about this but it has been running stable for about a month.  The Intel is an engineering sample that cost $100. I mainly use it to run an embedding model.  I use them for various ml experiments, projects and some agentic coding. Right now the 3090s are training a tts lora with data distilled from a larger model. ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T01:37:56+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "ea7c0ec906f3",
+      "title": "Best small model right now (~4B params) that is good with agentic tasks for personal assistant?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tskbf9/best_small_model_right_now_4b_params_that_is_good/",
+      "summary": "Looking for suggestions. I have been experimenting with gemma-4-E2B and gemma-4-E4B but the tool calling has been not the best? My tasks are just things like:  Update calendar Get my schedule Send a WA message at 4PM  etc.  Any suggestions? If it helps, here are my server params:  ./llama-server \\ --host 0.0.0.0 \\ --port 8080 \\ -m ~/myp/models/google_gemma-4-E4B-it-Q8_0.gguf \\ --temp 1.0 \\ --top_p 0.95 \\ --top_k 64 \\ -c 65536 \\ --flash-attn on \\ -t 16 \\ --ctx-checkpoints 4 \\ --cache-ram 16384 \\ --chat-template-file /home/lenny/myp/models/jinja/gemma4-improved.jinja \\ -ngl 99   &#32; submitted ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T03:47:28+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "2f6bdff59a90",
+      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
+      "source": "TechCrunch AI",
+      "published": "2026-05-30T21:45:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "9b7daffb6c20",
+      "title": "Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About",
+      "url": "https://towardsdatascience.com/meta-cognitive-regulation-might-be-the-most-important-ai-skill-nobody-is-talking-about/",
+      "summary": "As AI gets smarter, the real differentiator may be how well humans regulate their own thinking.\nThe post Meta-Cognitive Regulation Might Be the Most Important AI Skill Nobody Is Talking About appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-30T17:00:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "b4a76084b08e",
+      "title": "Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval",
+      "url": "https://towardsdatascience.com/embeddings-arent-magic-the-predictable-failure-modes-of-rag-retrieval-enterprise-document-intelligence-vol-1-2/",
+      "summary": "Enterprise Document Intelligence [Vol. 1 #2] Why the same vector search that handles synonyms and paraphrase silently fails on negation, exact identifiers, and your company’s acronyms, and what to use when it does.\nThe post Embeddings Aren’t Magic: The Predictable Failure Modes of RAG Retrieval appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-30T15:00:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "9879796f24ae",
+      "title": "Gryphe/Pantheon-Reasoning-27B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trvo30/gryphepantheonreasoning27b_hugging_face/",
+      "summary": "from Gryphe: An experiment in bringing reasoning capability to the Pantheon roleplay series in the form of an uncensored dense Qwen 3.6 27B. This specific model can be thought of as a successor to both the Pantheon series and the one-time Codex release since I used such a large variety of data this time around. Yet another theory being tested this time around: take the data that Pantheon is built on, pair it with full thinking traces, and let the model reason its way through character work — weighing tone, planning narrative beats, considering how a character would actually respond before comm",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-30T09:56:03+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "b0087097dc60",
+      "title": "Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet?",
+      "url": "https://towardsdatascience.com/qdrant-turboquant-explained-is-turboquant-the-silver-bullet/",
+      "summary": "Most engineers see quantization as shrinking vectors. TurboQuant asks a harder question: can you shrink them without breaking their geometry?\nThe post Qdrant TurboQuant Explained: Is TurboQuant the Silver Bullet? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-30T13:00:00+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "350499cc7781",
+      "title": "Graduating Without a PhD Internship [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1trn6ye/graduating_without_a_phd_internship_d/",
+      "summary": "In early 2022, I was deciding between PhD offers. The deal maker was a prospective supervisor telling me that through their connections with big tech, I would be able to do a PhD internship each summer, which was one of my main goals for the PhD. During my first and second years, they would tell me that companies prefer late-stage PhD students, so I should wait for the next summer. It eventually turned out they did not actually have the connections. Four years later, I am due to graduate without ever having done a PhD internship. I managed to land some interviews by cold-applying everywhere, b",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-30T02:27:22+00:00",
+      "score": 1.86,
+      "image": null
+    }
+  ]
+}
