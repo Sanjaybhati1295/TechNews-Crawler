@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "From Zero to Hero: Train Your Own LLM From Scratch in 7 Simple Steps!",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "From Zero to Hero: Train Your Own LLM From Scratch in 7 Simple Steps! (Dev.to Programming). Nvidia announces new AI chip for personal computers (Hacker News). The First LLM Agent Cyberattack: How an AI Hacker Exfiltrated a Database in Under an Hour (Dev.to AI). The Download: China’s brain implant ambitions (MIT Tech Review). How do you prove an open model actually improved? (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Escaping the Valley of Choice in BI (Towards Data Science). Solving a Murder Mystery Using Bayesian Inference (Towards Data Science). Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Tired of Black Boxes? Let's Build Your Own LLM From Scratch!Ever feel like you're just a user of powerful AI, a passenger in the fast lane of artificial intelligence? What if I told you that you could go from a curious observer to a creator, building your very own Large Language Model (LLM) from the ground up? Forget the complex jargon and the insurmountable wall of code – a new, refreshingly straightforward method is here to guide you, from downloading raw data to generating your first piece of text. Ready to ditch the copy-paste and truly understand the magic behind LLMs?## Demystifying LLM "
+  },
+  "articles": [
+    {
+      "id": "ee94813dd90b",
+      "title": "From Zero to Hero: Train Your Own LLM From Scratch in 7 Simple Steps!",
+      "url": "https://dev.to/spindoctor/from-zero-to-hero-train-your-own-llm-from-scratch-in-7-simple-steps-52g9",
+      "summary": "Tired of Black Boxes? Let's Build Your Own LLM From Scratch!Ever feel like you're just a user of powerful AI, a passenger in the fast lane of artificial intelligence? What if I told you that you could go from a curious observer to a creator, building your very own Large Language Model (LLM) from the ground up? Forget the complex jargon and the insurmountable wall of code – a new, refreshingly straightforward method is here to guide you, from downloading raw data to generating your first piece of text. Ready to ditch the copy-paste and truly understand the magic behind LLMs?## Demystifying LLM ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-01T12:04:47+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1y4uc4p3aq7p8g157w8f.png"
+    },
+    {
+      "id": "df2729fa390e",
+      "title": "Nvidia announces new AI chip for personal computers",
+      "url": "https://www.bbc.com/news/articles/crmp9mppvzro",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-01T10:33:25+00:00",
+      "score": 3.89,
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/fd19/live/7becaec0-5d7d-11f1-9ce5-234247f246fc.jpg"
+    },
+    {
+      "id": "210e55b6e116",
+      "title": "The First LLM Agent Cyberattack: How an AI Hacker Exfiltrated a Database in Under an Hour",
+      "url": "https://dev.to/docdavkitty/the-first-llm-agent-cyberattack-how-an-ai-hacker-exfiltrated-a-database-in-under-an-hour-3jlk",
+      "summary": "The First LLM Agent Cyberattack: How an AI Hacker Exfiltrated a Database in Under an Hour\n\n\nOn May 10, 2026, something quietly changed in the cybersecurity landscape. A server somewhere on the internet, running an open-source Python notebook platform called Marimo, was compromised through a critical vulnerability. What happened next was unlike anything security researchers had seen before — not because of the intrusion itself, but because of who — or rather what — was driving it.\n\nAn LLM agent took the wheel.\n\nSysdig's Threat Research Team (TRT) has published what they believe is the first con",
+      "source": "Dev.to AI",
+      "published": "2026-06-01T12:14:20+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb124udpnr8a2ssl6jx5o.png"
+    },
+    {
+      "id": "41b7a3a96d49",
+      "title": "The Download: China’s brain implant ambitions",
+      "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s next Sitting in the courtyard of his house in China’s Henan province last October, Dong Hui decided to try holding a&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-01T12:10:00+00:00",
+      "score": 3.88,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/china-bci.jpg?resize=1200,600"
+    },
+    {
+      "id": "5a79125a1319",
+      "title": "How do you prove an open model actually improved?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttplvq/how_do_you_prove_an_open_model_actually_improved/",
+      "summary": "I built Research Proof, a small open skill for making model research claims easier to test. The problem I kept running into: A model, dataset, fine-tune, prompt system, or agent harness gets shared with a claim like:   But the baseline, eval, failure cases, hidden costs, and regressions are often not clear enough. Research Proof pushes the workflow to define:  what improved what baseline it beats what eval is frozen what costs matter what regressions would make it a fail whether the evidence is PROVEN, SUPPORTED, REJECTED, or OPEN  I think it fits open/local model work because so much of the h",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-01T11:41:47+00:00",
+      "score": 3.76,
+      "image": null
+    },
+    {
+      "id": "f86c9c0739bc",
+      "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
+      "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+      "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write.&#160; Dong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but determinedly, he wrote&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-01T09:09:00+00:00",
+      "score": 3.71,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/05/china-bci.jpg?resize=1200,600"
+    },
+    {
+      "id": "35b13abe0c67",
+      "title": "LangChain 1.0: The Complexity Tax Verdict",
+      "url": "https://dev.to/richard_dillon_b9c238186e/langchain-10-the-complexity-tax-verdict-504i",
+      "summary": "LangChain 1.0: The Complexity Tax Verdict\n\n\nThe framework wars of 2024-2025 asked one question repeatedly: is LangChain's abstraction layer worth the cognitive overhead? With the 1.0 stable release now shipping, we finally have an answer — but it's not the binary verdict most teams wanted. LangChain 1.0 is a much better version of what came before, not a fundamentally different framework, and understanding that distinction determines whether migration or adoption makes sense for your specific workload.\n\nThe timing matters. We're watching the agentic AI landscape consolidate rapidly, with Alice",
+      "source": "Dev.to Programming",
+      "published": "2026-06-01T12:03:34+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "94ba2264aaf7",
+      "title": "next MiniMax will be released in ~10 Days",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ttkz1c/next_minimax_will_be_released_in_10_days/",
+      "summary": "https://x.com/MiniMax_AI/status/2061266317815296322 but will be probably too big for my setup  &#32; submitted by &#32;  /u/jacek2023   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-01T07:35:52+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "ae93a23e35c1",
+      "title": "Context Engineering Is the New DSA — and Most Developers Are Missing It",
+      "url": "https://dev.to/shanmukha_donepudi/context-engineering-is-the-new-dsa-and-most-developers-are-missing-it-4d0h",
+      "summary": "For two decades, the best programmers were the ones who could tame data. In the age of AI, the best builders will be the ones who can tame context.\n\nShanmukh  ·  June 2026  ·  5 min read\nI remember the first time I genuinely understood why DSA mattered. Not the textbook answer — not \"to crack interviews\" — but the real reason. It was the moment I realized that every decision a programmer makes is secretly a resource allocation decision. You're always trading something. Time for space. Simplicity for speed. And the engineers who built things that actually scaled were the ones who could think cl",
+      "source": "Dev.to AI",
+      "published": "2026-06-01T12:18:29+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "5ab75416882b",
+      "title": "Event Tournament Configuration Was Our Server Health Downfall",
+      "url": "https://dev.to/dev-architecture-blog/event-tournament-configuration-was-our-server-health-downfall-4b93",
+      "summary": "The Problem We Were Actually Solving\n\n\nI still remember the day our server health began to deteriorate, it was around the 6-month mark after our initial launch, our user base had grown exponentially and our event tournament system was struggling to keep up. We were using Veltrix, a popular event management tool, but its documentation failed to provide us with the necessary guidance on how to configure it for long-term server health. Our operators were consistently running into issues at the same stage of server growth, and it was up to me to find a solution. The error messages we were seeing w",
+      "source": "Dev.to Programming",
+      "published": "2026-06-01T12:21:33+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b7db6f3eb2c6",
+      "title": "Escaping the Valley of Choice in BI",
+      "url": "https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analysts/",
+      "summary": "Why Agentic BI threatens an entire profession\nThe post Escaping the Valley of Choice in BI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T12:00:00+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "59ae9b0bc900",
+      "title": "Arabic ASR model struggling to converge during training [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tt7jt2/arabic_asr_model_struggling_to_converge_during/",
+      "summary": "i'm trying to train an ASR model using the LibriSpeech recipe from SpeechBrain (without the language model) on a 100-hour dataset of dialectal Arabic speech. the model architecture uses a Conformer-small encoder and a Transformer decoder, with a total of around 13M parameters. the recipe uses a combination of two loss functions: CTC and KL divergence, specifically: 0.3 * CTC + 0.7 * KLDiv during training, both losses drop significantly during the first few weight updates, but then quickly plateau. the CTC loss gets stuck fluctuating around the 60-80 range, while the KL divergence loss remains ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-05-31T21:08:58+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "1cb4052d2992",
+      "title": "GPU Prices. Buy now, or buy later?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt9r8j/gpu_prices_buy_now_or_buy_later/",
+      "summary": "If the Community could sound off on this, I'd be grateful.  Do you think GPU prices are going to stop skyrocketing? Is this FOMO and hype driving the adoption of local inference? I wonder if this mass-market adoption will last for years? Is it a long-term trend? If I wait 6 months, will I regret it? (cause prices are going to keep screaming). I don't know about RAM pricing... is that temporary? Backstory: I bought an M3 mbp max in Nov 2023 (128g, 4tb, 16core cpu / 40core gpu). I use it as a desktop, with 20tb of external memory.  5 different production workflows running about a dozen daily cro",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T22:38:16+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "a7a14422d34c",
+      "title": "Llama Studio v0.2.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tt4pag/llama_studio_v020/",
+      "summary": "I have made an update to my llama-server WebUI based on some awesome feedback and interaction with the community. 1) JSON model config replaced by per-model shell scripts. Run from CLI, paste from unsloth, email to your buddy or post to reddit: Using real shell scripts to store config is superior in every way. And if you don't care about the shell and just want clicky WebUI - All good, the full functionality of the WebUI remains perfectly as it has always been. 2) Splitting across GPU. Done! If tensor-split is detected, you now get to choose which GPUs to split to, and it is retained in the sh",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-05-31T19:21:28+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "2b690390055a",
+      "title": "Solving a Murder Mystery Using Bayesian Inference",
+      "url": "https://towardsdatascience.com/solving-a-murder-mystery-using-bayesian-inference/",
+      "summary": "How Knives Out teaches Bayesian thinking (without you realizing it) \nThe post Solving a Murder Mystery Using Bayesian Inference appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-31T17:00:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "8138724b6bd6",
+      "title": "Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs",
+      "url": "https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/",
+      "summary": "Structure-guided NER optimization for enterprise GraphRAG systems\nThe post Proxy-Pointer RAG: Eliminating Wasteful Entity &#038; Relations Extraction in Knowledge Graphs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-05-31T13:00:00+00:00",
+      "score": 2.19,
+      "image": null
+    }
+  ]
+}

@@ -794,3 +794,37 @@
 2026-05-31 09:43:04,519  INFO     ────────────────────────────────────────────────────────────
 2026-05-31 09:43:04,519  INFO     Done!  Open: output/index.html
 2026-05-31 09:43:04,519  INFO     Headline: I built mlx-Chronos — a community benchmark leaderboard for local LLM engines on Apple Silicon (oMLX, Rapid-MLX, mlx-lm, Ollama) [P]
+2026-06-01 12:29:23,034  INFO     ============================================================
+2026-06-01 12:29:23,035  INFO     TECHPULSE Digest — 2026-06-01 12:29 UTC
+2026-06-01 12:29:23,035  INFO     ============================================================
+2026-06-01 12:29:23,035  INFO     Step 1/3 — Crawling feeds…
+2026-06-01 12:29:23,322  INFO       Hacker News                    → 1 significant articles
+2026-06-01 12:29:23,682  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-01 12:29:24,037  INFO       Ars Technica                   → 0 significant articles
+2026-06-01 12:29:24,851  INFO       The Register AI                → 0 significant articles
+2026-06-01 12:29:25,050  INFO       MIT Tech Review                → 2 significant articles
+2026-06-01 12:29:25,291  INFO       Dev.to AI                      → 2 significant articles
+2026-06-01 12:29:25,553  INFO       Dev.to Programming             → 3 significant articles
+2026-06-01 12:29:25,934  INFO       GitHub Blog                    → 0 significant articles
+2026-06-01 12:29:26,922  INFO       Google Research                → 0 significant articles
+2026-06-01 12:29:27,855  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-06-01 12:29:28,670  INFO       Reddit r/LocalLLaMA            → 4 significant articles
+2026-06-01 12:29:29,075  INFO       InfoQ                          → 0 significant articles
+2026-06-01 12:29:29,358  INFO       Towards Data Science           → 3 significant articles
+2026-06-01 12:29:29,697  INFO       Wired AI                       → 0 significant articles
+2026-06-01 12:29:29,850  INFO       TechCrunch AI                  → 0 significant articles
+2026-06-01 12:29:29,850  INFO     Fetching images for top articles…
+2026-06-01 12:29:29,978  INFO       🖼  From Zero to Hero: Train Your Own LLM From Scratch in 7 Simp
+2026-06-01 12:29:30,177  INFO       🖼  Nvidia announces new AI chip for personal computers
+2026-06-01 12:29:30,283  INFO       🖼  The First LLM Agent Cyberattack: How an AI Hacker Exfiltrate
+2026-06-01 12:29:30,431  INFO       🖼  The Download: China’s brain implant ambitions
+2026-06-01 12:29:30,678  INFO       🖼  China has approved the world’s first invasive brain-computer
+2026-06-01 12:29:30,678  INFO     Total selected: 16 articles from 15 feeds
+2026-06-01 12:29:30,678  INFO     Selected 16 significant articles
+2026-06-01 12:29:30,678  INFO     Step 2/3 — Generating digest…
+2026-06-01 12:29:30,963  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-01 12:29:30,963  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-01 12:29:30,963  INFO     Step 3/3 — Rendering HTML…
+2026-06-01 12:29:30,964  INFO     ────────────────────────────────────────────────────────────
+2026-06-01 12:29:30,964  INFO     Done!  Open: output/index.html
+2026-06-01 12:29:30,964  INFO     Headline: From Zero to Hero: Train Your Own LLM From Scratch in 7 Simple Steps!
