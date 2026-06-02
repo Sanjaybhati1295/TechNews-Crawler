@@ -828,3 +828,36 @@
 2026-06-01 12:29:30,964  INFO     ────────────────────────────────────────────────────────────
 2026-06-01 12:29:30,964  INFO     Done!  Open: output/index.html
 2026-06-01 12:29:30,964  INFO     Headline: From Zero to Hero: Train Your Own LLM From Scratch in 7 Simple Steps!
+2026-06-02 11:12:00,752  INFO     ============================================================
+2026-06-02 11:12:00,752  INFO     TECHPULSE Digest — 2026-06-02 11:12 UTC
+2026-06-02 11:12:00,752  INFO     ============================================================
+2026-06-02 11:12:00,752  INFO     Step 1/3 — Crawling feeds…
+2026-06-02 11:12:01,105  INFO       Hacker News                    → 1 significant articles
+2026-06-02 11:12:01,442  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-02 11:12:01,713  INFO       Ars Technica                   → 0 significant articles
+2026-06-02 11:12:02,277  INFO       The Register AI                → 1 significant articles
+2026-06-02 11:12:02,382  INFO       MIT Tech Review                → 2 significant articles
+2026-06-02 11:12:02,603  INFO       Dev.to AI                      → 2 significant articles
+2026-06-02 11:12:02,828  INFO       Dev.to Programming             → 1 significant articles
+2026-06-02 11:12:02,964  INFO       GitHub Blog                    → 0 significant articles
+2026-06-02 11:12:03,742  INFO       Google Research                → 0 significant articles
+2026-06-02 11:12:04,454  INFO       Reddit r/MachineLearning       → 5 significant articles
+2026-06-02 11:12:05,067  INFO       Reddit r/LocalLLaMA            → 4 significant articles
+2026-06-02 11:12:05,637  INFO       InfoQ                          → 4 significant articles
+2026-06-02 11:12:05,797  INFO       Towards Data Science           → 5 significant articles
+2026-06-02 11:12:05,960  INFO       Wired AI                       → 0 significant articles
+2026-06-02 11:12:06,046  INFO       TechCrunch AI                  → 3 significant articles
+2026-06-02 11:12:06,046  INFO     Fetching images for top articles…
+2026-06-02 11:12:06,497  INFO       🖼  From Spreadsheet to Signature: AI-Powered Proposal Automatio
+2026-06-02 11:12:07,207  INFO       🖼  Google Workspace CLI: Unified Command-Line Tool Built for Hu
+2026-06-02 11:12:07,278  INFO       🖼  How to Generate Images and Video in Claude Code (Without Lea
+2026-06-02 11:12:07,346  INFO       🖼  How to Generate Unlimited Emails: Scaling a Gmail Farm Witho
+2026-06-02 11:12:07,346  INFO     Total selected: 28 articles from 15 feeds
+2026-06-02 11:12:07,346  INFO     Selected 28 significant articles
+2026-06-02 11:12:07,347  INFO     Step 2/3 — Generating digest…
+2026-06-02 11:12:07,796  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-02 11:12:07,796  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-02 11:12:07,796  INFO     Step 3/3 — Rendering HTML…
+2026-06-02 11:12:07,798  INFO     ────────────────────────────────────────────────────────────
+2026-06-02 11:12:07,798  INFO     Done!  Open: output/index.html
+2026-06-02 11:12:07,798  INFO     Headline: Browse CVPR 2026 papers on PapersWithCode [P]

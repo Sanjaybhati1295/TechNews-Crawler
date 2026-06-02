@@ -1,0 +1,299 @@
+{
+  "digest": {
+    "headline": "Browse CVPR 2026 papers on PapersWithCode [P]",
+    "tldr": "Today's digest covers 28 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Browse CVPR 2026 papers on PapersWithCode [P] (Reddit r/MachineLearning). From Spreadsheet to Signature: AI-Powered Proposal Automation for Catering Pros (Dev.to AI). NVIDIA releases Cosmos 3 Omnimodal world modelson HF (Reddit r/LocalLLaMA). Google Workspace CLI: Unified Command-Line Tool Built for Humans and AI Agents (InfoQ). How to Generate Images and Video in Claude Code (Without Leaving the Terminal) (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "[D] Self-Promotion Thread (Reddit r/MachineLearning). Escaping the Valley of Choice in BI (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the open-source team at Hugging Face. It's been 2 weeks since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting.  I've just added conference support as a new feature. The idea is that you should be able to easily browse all papers of major AI conferences like NeurIPS, CVPR, and ICML. "
+  },
+  "articles": [
+    {
+      "id": "16c75137614a",
+      "title": "Browse CVPR 2026 papers on PapersWithCode [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/",
+      "summary": "https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the open-source team at Hugging Face. It's been 2 weeks since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting.  I've just added conference support as a new feature. The idea is that you should be able to easily browse all papers of major AI conferences like NeurIPS, CVPR, and ICML. ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-02T08:32:17+00:00",
+      "score": 4.45,
+      "image": null
+    },
+    {
+      "id": "10ebb386b030",
+      "title": "From Spreadsheet to Signature: AI-Powered Proposal Automation for Catering Pros",
+      "url": "https://dev.to/ken_deng_ai/from-spreadsheet-to-signature-ai-powered-proposal-automation-for-catering-pros-ke",
+      "summary": "You’ve just spent an hour tweaking a menu for a bride with nut allergies, reformatting pricing tables, and double-checking that your logo matches the last proposal. Sound familiar? For local catering companies, custom proposals are a necessary evil—but manual effort eats into margins and introduces risk. AI automation can transform this chore into a polished, client-ready PDF in minutes, while ensuring allergen accuracy and consistent branding.\n\n\n  \n  \n  The Modular Document Blueprint\n\n\nThe key principle is a Modular Document Blueprint—a pre-built template that enforces professional standards ",
+      "source": "Dev.to AI",
+      "published": "2026-06-02T11:00:46+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fknhddmpl5piv5iqsmslw.png"
+    },
+    {
+      "id": "92ee95ae56ef",
+      "title": "NVIDIA releases Cosmos 3 Omnimodal world modelson HF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuhea4/nvidia_releases_cosmos_3_omnimodal_world_modelson/",
+      "summary": "https://huggingface.co/nvidia/Cosmos3-Super-Text2Image Nano: 16B Super: 64B  Cosmos3 is a collection of Omnimodal world models capable of generating dynamic, high-quality video, image, audio, and action commands from combinations of text, image, video, and action trajectory inputs. It serves as a foundational building block for a broad range of Physical AI applications and research spanning world understanding, world generation, simulation, and embodied policy learning.  Haven't seen much here yet.  Some twitter discussion: https://x.com/victormustar/status/2061354267546427595  &#32; submitted",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-02T05:26:14+00:00",
+      "score": 4.08,
+      "image": null
+    },
+    {
+      "id": "f14877ed5950",
+      "title": "Google Workspace CLI: Unified Command-Line Tool Built for Humans and AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/google-workspace-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released a new CLI for Google Workspace, offering a unified interface for various services like Drive, Gmail, and Calendar. Built in Rust, the tool dynamically adjusts to API changes and features over 100 bundled skills. It requires Node.js and a Google Cloud project for setup. Initial community feedback is mixed, highlighting both its dynamic capabilities and setup challenges. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-02T06:33:00+00:00",
+      "score": 3.94,
+      "image": "https://res.infoq.com/news/2026/06/google-workspace-cli/en/headerimage/generatedHeaderImage-1780314884182.jpg"
+    },
+    {
+      "id": "a8b68409fb09",
+      "title": "How to Generate Images and Video in Claude Code (Without Leaving the Terminal)",
+      "url": "https://dev.to/gauravsinghbisen/how-to-generate-images-and-video-in-claude-code-without-leaving-the-terminal-2c3b",
+      "summary": "If you live in Claude Code, you've hit this: you ask for a hero image, an OG card, or a placeholder asset, and the agent writes the markup that references the file but can't create the file. It's a text coding agent, not an image model. So you stop, open a separate image tool, generate something, download it, drag it into your repo, and pick up where you left off. That context switch is small but it happens constantly, and it pulls you out of the flow that made the agent useful in the first place.\n\nThe fix is to give the agent a command it can run itself. The Masonry CLI generates images and v",
+      "source": "Dev.to AI",
+      "published": "2026-06-02T11:02:32+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh3zmxejw0ett2oyq2q4f.png"
+    },
+    {
+      "id": "6d8985fad184",
+      "title": "How to Generate Unlimited Emails: Scaling a Gmail Farm Without Risk of Bans",
+      "url": "https://dev.to/onlineproxy_io/how-to-generate-unlimited-emails-scaling-a-gmail-farm-without-risk-of-bans-2n9m",
+      "summary": "The nightmare of every digital marketer, farmer, or automation specialist is the \"Account Disabled\" notification. You've spent weeks warming up the infrastructure, fine-tuning the scripts, and investing in high-quality proxies, only to watch Google's relentless AI incinerate your progress in a single afternoon.\n\nThe industry is currently locked in an arms race. On one side, we have the \"cheap and fast\" crowd, relying on temporary domains and massive SMS-activation sites. On the other, we have the \"quality scale\" elite who understand that Google doesn't just look at who you say you are; it look",
+      "source": "Dev.to Programming",
+      "published": "2026-06-02T10:57:13+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flp6c8n4mc8m3s4em16nr.jpeg"
+    },
+    {
+      "id": "8dc8d8751a47",
+      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-01T20:03:40+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "094afbc4c474",
+      "title": "I scraped over 2 million job postings across 100,000+ company career sites into a unified, daily-updated dataset. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tujedq/i_scraped_over_2_million_job_postings_across/",
+      "summary": "Over the past few months, I've been working on a high-scale scraping pipeline to aggregate listings directly from company job boards and applicant tracking systems. Mapping over 100,000 distinct companies to their career pages turned out to be a massive engineering headache, but it's finally stable. The result is a unified database of more than 2 million active job postings, which I'm opening up to everyone for free. I am running daily delta refreshes to keep it current. Dataset Overview  Scale: 2M+ active job listings across 100,000+ unique companies. Format: Parquet. (To keep storage costs t",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-02T07:14:32+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "85d825677bf0",
+      "title": "Anthropic, now atop the AI bubble, files for its IPO",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/01/anthropic-now-atop-the-ai-bubble-files-for-its-ipo/5249753",
+      "summary": "First it tops OpenAI's valuation, then it beats Altman to the IPO punch",
+      "source": "The Register AI",
+      "published": "2026-06-01T18:12:22+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "15bad2f9ee7e",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-02T02:15:14+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "b1a84575d976",
+      "title": "Claude Code Adds Dynamic Workflows for Parallel Agent Coordination",
+      "url": "https://www.infoq.com/news/2026/06/dynamic-workflows-claude-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic introduced Dynamic Workflows, a new capability for Claude Code designed to handle complex software engineering tasks by coordinating large numbers of AI agents within a single workflow.  The feature allows Claude to dynamically create orchestration scripts, break work into subtasks, run them in parallel, and validate results before presenting a final answer. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-06-01T16:55:00+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "fa825a0129aa",
+      "title": "Java News Roundup: OpenJDK JEPs, Hazelcast, Quarkus, Hibernate, Koog, JHipster, Introducing Endive",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-may25-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for May 25th, 2026, features news highlighting: lifecycle changes with two of the JEPs that were targeted for JDK 27; the GA release of Koog 1.0; point releases of Hazelcast, Quarkus, Hibernate and JHipster; the eighth milestone release of Spring AI 2.0; and introducing Endive, a JVM-native WebAssembly (Wasm) runtime. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-01T21:30:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "cb5db8dcaf3d",
+      "title": "Alphabet announces $80B equity capital raise to expand AI infra and compute",
+      "url": "https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-01T20:55:15+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "fe21b03da870",
+      "title": "This AI weather startup is out-forecasting government agencies",
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "summary": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collected by the balloons is fed into the models.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-01T16:00:00+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "d0eeabe5782c",
+      "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "summary": "Alternative search engine DuckDuckGo launches 'no AI' web extensions for Chrome and Firefox users.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-01T14:49:10+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "cbe764787c75",
+      "title": "Computex 2026: Intel launches Crescent Island GPU with up to 480GB VRAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu2kbq/computex_2026_intel_launches_crescent_island_gpu/",
+      "summary": "https://www.neowin.net/news/computex-2026-intel-launches-crescent-island-gpu-with-up-to-480gb-vram/  Crescent Island is based on the company&quot;s Arc Xe 3P architecture which lies inside current Panther Lake iGPs as well. This is Intel&quot;s latest, most powerful card and it packs up to 480 GB of VRAM capacity. Unlike typical high-end professional GPUs which rely on HBM for improving power efficiency, the Intel GPU here has LPDDR5X. Cooling on the unit is handled by air cooler that can handle a TDP of 350 watts. Intel says that these cards can deal with next generation AI workloads and come",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-01T19:13:57+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "8c14ee4978d7",
+      "title": "RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem",
+      "url": "https://towardsdatascience.com/rag-is-not-machine-learning-and-the-ml-toolkit-solves-the-wrong-problem/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #3] - Why the ML toolkit (hyperparameter sweeps, train/test splits, explainability frameworks) solves the wrong problem, and what to use instead\nThe post RAG Is Not Machine Learning, and the ML Toolkit Solves the Wrong Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T18:49:53+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "e5c0d9e4b1e4",
+      "title": "ICML Conference Ticket (looking to purchase) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tu935n/icml_conference_ticket_looking_to_purchase_d/",
+      "summary": "Hi everyone, I missed the ICML conference tickets because I was waiting for some travel funding confirmation and now they are sold out. Do you know any other ways I could still purchase one? There seems to be no waiting list… or if you know anyone who needs to cancel theirs, please let me know 🙏🏻  &#32; submitted by &#32;  /u/TopPerformance1255   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-01T23:08:41+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "87f1c93f060c",
+      "title": "Stop asking what model to run. There are literally only two.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu82wi/stop_asking_what_model_to_run_there_are_literally/",
+      "summary": "Can we please ban the daily &quot;I have an RTX 3060, what should I run?&quot; slop threads? It’s not complicated. As of right now, Hugging Face is empty and exactly two local models exist on this entire planet:  Qwen 3.6 35b a3b Qwen 3.6 27b  That is the entire list. Your specs don’t matter. Your use case doesn’t matter. Stop coping with your pristine, full-precision Q8s of tiny 1B models just because they &quot;fit perfectly in your VRAM.&quot; You look ridiculous. Grab a heavily brain-damaged, ultra-low quant of the 35B, force-feed it to your GPU, and let your system RAM bleed. A garbage qu",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-01T22:29:23+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "efdb064f8df0",
+      "title": "Shopify Reports 15X Faster Graphql Execution with Breadth First Engine",
+      "url": "https://www.infoq.com/news/2026/06/shopify-graphql-cardinal-bfs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Shopify introduced GraphQL Cardinal, a new execution engine replacing depth-first traversal with breadth-first execution. The redesign improves large-scale GraphQL performance with up to 15x faster field execution, 6x lower GC overhead, and +4s P50 latency gains. It focuses on execution-layer efficiency and batched resolver processing for high-cardinality commerce queries. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-06-01T14:25:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "e6f26ccdbde3",
+      "title": "RTX Spark does not have 600GB/s Bandwith",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tu639j/rtx_spark_does_not_have_600gbs_bandwith/",
+      "summary": "Check the slides from Computex. Every outlet that reported 600GB/s is completely wrong. That is the NvLink speed like everyone here said.  &#32; submitted by &#32;  /u/rpiguy9907   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-01T21:16:32+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "3fe4ea82b34d",
+      "title": "Why our #1 LightGBM feature by importance made predictions worse [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tu0y14/why_our_1_lightgbm_feature_by_importance_made/",
+      "summary": "We recently hit a classic gradient boosting trap with our pricing engine (Flyback), and I wanted to share the ablation data. We run LightGBM quantile regression to forecast secondary market watch prices. We engineered a variant-conditioned Bayesian target encoder to isolate within-reference pricing dynamics. LightGBM absolutely loved it. It ranked #1 in feature importance at q90 by a wide margin, with gains several times the next-highest feature, across all our multi seed runs. But when we ran a strict 4-seed × 3-variant ablation on the hold-out set, the results inverted. Test MAPE regressed b",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-01T18:20:57+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "41b7a3a96d49",
+      "title": "The Download: China’s brain implant ambitions",
+      "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. China has approved the world’s first invasive brain-computer chip—here’s what’s next Sitting in the courtyard of his house in China’s Henan province last October, Dong Hui decided to try holding a&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-01T12:10:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "74eccbced06a",
+      "title": "How to Combine Claude Code and Codex for Maximum Coding Power",
+      "url": "https://towardsdatascience.com/how-to-combining-claude-code-and-codex-for-max-coding-power/",
+      "summary": "Get the most out of each coding model to have a very powerful coding setup \nThe post How to Combine Claude Code and Codex for Maximum Coding Power appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T17:30:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "f86c9c0739bc",
+      "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
+      "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+      "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write.&#160; Dong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but determinedly, he wrote&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-01T09:09:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "73e9391e7776",
+      "title": "Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain",
+      "url": "https://towardsdatascience.com/ensuring-data-integrity-with-cryptographic-hashing-and-the-ethereum-blockchain/",
+      "summary": "Applying blockchain primitives to dataset versioning, provenance, and integrity assurance\nThe post Ensuring Data Integrity with Cryptographic Hashing and the Ethereum Blockchain appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T15:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "054d5723db45",
+      "title": "It’s the Lessons We Learned Along the Way. Or, Is It?",
+      "url": "https://towardsdatascience.com/its-the-lessons-we-learned-along-the-way-or-is-it/",
+      "summary": "Research projects in the age of AI\nThe post It’s the Lessons We Learned Along the Way. Or, Is It? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T13:30:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "b7db6f3eb2c6",
+      "title": "Escaping the Valley of Choice in BI",
+      "url": "https://towardsdatascience.com/escaping-the-valley-of-choice-in-bi-how-agentic-bi-will-kill-data-analysts/",
+      "summary": "Why Agentic BI threatens an entire profession\nThe post Escaping the Valley of Choice in BI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-01T12:00:00+00:00",
+      "score": 2.21,
+      "image": null
+    }
+  ]
+}
