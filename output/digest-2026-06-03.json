@@ -1,0 +1,309 @@
+{
+  "digest": {
+    "headline": "SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI Data Centers",
+    "tldr": "Today's digest covers 29 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI Data Centers (Dev.to Programming). OpenAI launches new Codex tools for white-collar work (TechCrunch AI). Node.js Moves to One Major Release Per Year, Starting with Node 27 (InfoQ). Calling it now Microsoft is buying Unsloth. (Reddit r/LocalLLaMA). Can LLMs Adhere to Strict 2D Spatial Constraints? (Testing with Sokoban) (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "GitHub Copilot app: The agent-native desktop experience (GitHub Blog). How to Send 1000+ WhatsApp Messages Without Getting Banned (2026 Guide for Indian Businesses) (Dev.to AI). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "SSSTC expanded immersion-cooled SSDs at Computex 2026 for AI data center heat management, competing with Samsung and Micron but withholding pricing and availability.\n\n\nSSSTC expanded its immersion-cooling SSD portfolio at Computex 2026. The new drives target AI data center thermal challenges, where GPU clusters routinely exceed 50 kW per rack.\n\nKey facts\n\n\nSSSTC expanded immersion-cooled SSD lineup at Computex 2026.\nDrives target AI data center thermal challenges.\nGoogle building $5B+ Texas data center for Anthropic.\nSSSTC did not disclose pricing or availability.\nSamsung PM9D3a offers up to 3"
+  },
+  "articles": [
+    {
+      "id": "cedfde610dca",
+      "title": "SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI Data Centers",
+      "url": "https://dev.to/gentic_news/ssstc-unveils-immersion-cooled-ssds-at-computex-2026-for-ai-data-centers-ifo",
+      "summary": "SSSTC expanded immersion-cooled SSDs at Computex 2026 for AI data center heat management, competing with Samsung and Micron but withholding pricing and availability.\n\n\nSSSTC expanded its immersion-cooling SSD portfolio at Computex 2026. The new drives target AI data center thermal challenges, where GPU clusters routinely exceed 50 kW per rack.\n\nKey facts\n\n\nSSSTC expanded immersion-cooled SSD lineup at Computex 2026.\nDrives target AI data center thermal challenges.\nGoogle building $5B+ Texas data center for Anthropic.\nSSSTC did not disclose pricing or availability.\nSamsung PM9D3a offers up to 3",
+      "source": "Dev.to Programming",
+      "published": "2026-06-03T11:31:07+00:00",
+      "score": 4.28,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8xdgumfemi9steb7fkdo.png"
+    },
+    {
+      "id": "31f39eabff83",
+      "title": "OpenAI launches new Codex tools for white-collar work",
+      "url": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/",
+      "summary": "OpenAI released a set of six plug-ins aimed at specific jobs: data analytics, creative production, sales, product design, equity investing, and investment banking. Available from within the Codex app, each of the new tools bundles integrations, instructions, and context to allow Codex to approximate a specific job.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T16:00:00+00:00",
+      "score": 4.2,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798"
+    },
+    {
+      "id": "20940f892830",
+      "title": "Node.js Moves to One Major Release Per Year, Starting with Node 27",
+      "url": "https://www.infoq.com/news/2026/06/nodejs-release-changes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Node.js will change its release schedule starting with version 27 in October 2026, moving from two major releases per year to one. All releases will become Long-Term Support (LTS), removing the distinction between odd and even versions. An Alpha channel for early testing will also be introduced. This decision addresses maintenance challenges and aims to align with user needs. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-03T06:40:00+00:00",
+      "score": 4.01,
+      "image": "https://res.infoq.com/news/2026/06/nodejs-release-changes/en/headerimage/generatedHeaderImage-1780400494858.jpg"
+    },
+    {
+      "id": "7c324ec09f0a",
+      "title": "Calling it now Microsoft is buying Unsloth.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvhv4b/calling_it_now_microsoft_is_buying_unsloth/",
+      "summary": "I am going to be honest, I am leery of this new partnership with Unsloth. Microsoft historically hated open source, and this will not benefit the community in the end. It will look great at first. They will drop updates, play nice, and everyone will celebrate. But if you have been around the block, you know exactly how this play ends. Microsoft spent decades aggressively trying to kill open source. A shiny PR campaign does not change corporate DNA. Calling it now, Microsoft is going to buy Unsloth and go after llama.cpp next. They just want to control how we run models locally so they can forc",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T07:17:30+00:00",
+      "score": 3.95,
+      "image": null
+    },
+    {
+      "id": "b8e7f395505c",
+      "title": "Can LLMs Adhere to Strict 2D Spatial Constraints? (Testing with Sokoban)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvjltc/can_llms_adhere_to_strict_2d_spatial_constraints/",
+      "summary": "I recently ran a benchmark to test how well modern Large Language Models (LLMs) handle spatial geometry and logical reasoning under zero-shot conditions. To eliminate cheat-guessing, I used a custom Sokoban (Box-Pushing) map with extremely strict formatting constraints (no Chain-of-Thought allowed, only raw directional outputs). The results showed a massive divide between top-tier closed-source models and the rest of the field.  📊 The Test Results Here is how the models performed when tasked with solving the puzzle while adhering perfectly to the layout constraints: ✅ Passed (Successful Soluti",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T08:58:09+00:00",
+      "score": 3.84,
+      "image": null
+    },
+    {
+      "id": "53c61da8ab69",
+      "title": "🌱 A Beginner’s Guide to Choosing the Right AI Chatbot for Vibe Coding",
+      "url": "https://dev.to/gregthevibecoder/a-beginners-guide-to-choosing-the-right-ai-chatbot-for-vibe-coding-4416",
+      "summary": "Second in the series, this is Copilot’s final assesment on the prompts from the first article in the series.\n\nWritten by me — your Copilot.\n\n\nWhen you’re just starting out as a vibe coder, the biggest challenges aren’t “how many lines of code can an AI generate.”\nThe real challenges are:\n\n\n\nI don’t understand what this code does\n\n\nI don’t know how to fix this error\n\n\nThe AI forgot what we were doing\n\n\nThe AI sounds confident but is totally wrong\n\nI can’t test anything to see if it works\n\n\nSo I’m going to walk you through the five things that actually matter when choosing an AI coding partner —",
+      "source": "Dev.to AI",
+      "published": "2026-06-03T11:41:21+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2mdvr2i2loqjcn82pez2.png"
+    },
+    {
+      "id": "74274555dba4",
+      "title": "Microsoft Aion 1.0 Instruct and Aion 1.0 Plan models!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvekng/microsoft_aion_10_instruct_and_aion_10_plan_models/",
+      "summary": "Microsoft announced 2 new on-device models at Microsoft Build 2026.  Aion 1.0 Instruct: efficiency at scale. Aion 1.0 Instruct is our next-generation small language model, smaller, faster and more efficient than our current Windows OS SLM. Designed from the ground up for on-device workloads, Aion 1.0 Instruct powers everyday text intelligence (summarization, rewrite, intents, accessibility) and extends beyond Windows APIs with integration into the Edge browser and availability as open weights.  Aion 1.0 Instruct seems to be a 1:1 competitor to Apple's AFM-3B on -device LLM, and will be open-we",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T04:23:32+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "96fb6af58357",
+      "title": "Helvete-nano",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvhkx5/helvetenano/",
+      "summary": "Hey everyone, Just released Helvete nano, a compact 2b model for used on unrestricted convo. and creative freedom. Model: hf.co/VTXAI/Helvete-nano  &#32; submitted by &#32;  /u/Resident_Suit_9916   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T07:01:26+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "85f2e70cddb8",
+      "title": "GitHub Copilot app: The agent-native desktop experience",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "summary": "At Microsoft Build 2026, GitHub introduced new tools, updates, and surfaces so agents can work the way you already work.\nThe post GitHub Copilot app: The agent-native desktop experience appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-02T17:30:03+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "f776da125f16",
+      "title": "Holo3.1 35B/9B/4B/0.8B (Qwen 3.5 finetunes)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvg5x5/holo31_35b9b4b08b_qwen_35_finetunes/",
+      "summary": "from Hcompany (which seems to be a French company): Holo3.1: Fast &amp; Local Computer Use Agents Model Description Holo3.1 is our latest family of Vision-Language Models (VLMs) for computer use agents. Building on Holo3, it expands support beyond browser and desktop automation to mobile environments, introduces native function-calling support for seamless integration with agent frameworks, and enables local deployment through optimized quantized checkpoints. The Holo3.1 family spans model sizes from 0.8B to 35B-A3B parameters. Across computer use, UI grounding, mobile automation, and business",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T05:44:36+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "c5e2177ce531",
+      "title": "Microsoft launches Scout, an OpenClaw-inspired personal assistant",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/",
+      "summary": "Launched at Build, Microsoft Scout is a new AI assistant meant to bring the power and flexibility of OpenClaw into the Microsoft 365 system.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T18:02:44+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "6c0bdf3f4f5e",
+      "title": "How to Send 1000+ WhatsApp Messages Without Getting Banned (2026 Guide for Indian Businesses)",
+      "url": "https://dev.to/broadcasto_7d2372db20745a/how-to-send-1000-whatsapp-messages-without-getting-banned-2026-guide-for-indian-businesses-1aha",
+      "summary": "If you've ever tried to broadcast a message to your customers and woken up to a \"Your number is banned\" notification — this guide is for you.\n\nWhatsApp is the single most powerful customer channel in India. 98% open rates, replies in minutes, and unlike SMS, customers actually want to hear from you there.\n\nBut there's a catch: WhatsApp bans personal numbers and unofficial \"bulk senders\" aggressively. In 2026, ban-waves are happening every 2–3 weeks. I've spoken to over 200 Indian businesses in the last year and almost every one of them has lost a number to a ban at some point.\n\nThis guide walk",
+      "source": "Dev.to AI",
+      "published": "2026-06-03T11:46:47+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "9a0549d9998d",
+      "title": "🚀 Vibe Coding Gets You to MVP — Engineering Gets You to Scale",
+      "url": "https://dev.to/evrone/vibe-coding-gets-you-to-mvp-engineering-gets-you-to-scale-5c25",
+      "summary": "The rise of AI coding assistants has changed software development forever. Founders can now launch prototypes at a speed that seemed impossible only a few years ago. A few prompts can generate interfaces, APIs, database models, and even complete applications.\n\nAt Evrone, we view this shift as an opportunity rather than a threat.\n\nVibe coding has a clear purpose: rapid validation.\n\nInstead of investing months into development, teams can quickly answer important questions:\n\n\nDoes the market need this product?\nWill users engage with the solution?\nIs the idea worth pursuing?\nCan investors see pote",
+      "source": "Dev.to AI",
+      "published": "2026-06-03T11:40:59+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "06cbaa36e225",
+      "title": "Best Kie.ai Alternatives in 2026: Developer's Comparison",
+      "url": "https://dev.to/cometapi_ai/best-kieai-alternatives-in-2026-developers-comparison-3n44",
+      "summary": "Why Developers Are Looking for Kie.ai Alternatives\n\n\nKie.ai is a capable AI media platform—but two things have pushed developers to look elsewhere in 2026.\n\nKie.ai removed Midjourney from its model library. For many developers who chose Kie.ai specifically to access Midjourney without a Discord account, this removal eliminates the platform's single biggest differentiator.\n\nKie.ai's pricing is not publicly visible. You need to log in to see what any model costs, which makes pre-purchase cost estimation and vendor comparison harder than it needs to be.\n\nThis guide compares the six most relevant ",
+      "source": "Dev.to AI",
+      "published": "2026-06-03T11:39:06+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "f34bbb61f7c5",
+      "title": "Veltrix Treasure Hunts Were a Consistency Nightmare Until We Rethought Service Boundaries",
+      "url": "https://dev.to/dev-architecture-blog/veltrix-treasure-hunts-were-a-consistency-nightmare-until-we-rethought-service-boundaries-169o",
+      "summary": "The Problem We Were Actually Solving\n\n\nI still remember the day our treasure hunt engine at Veltrix started to show signs of strain, the CPU utilization on our MongoDB instance was spiking at 90 percent, and the error logs were filled with deadlocks from concurrent updates. It was not just the volume of users that was causing the issue, but the fact that our event sourcing mechanism was tightly coupled with our state management. Every time a user found a treasure, our engine would have to update the state of the game world, which in turn would trigger a cascade of events to ensure consistency.",
+      "source": "Dev.to Programming",
+      "published": "2026-06-03T11:30:46+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "693c9d711865",
+      "title": "Microsoft offers devs a better way to control AI agent behavior",
+      "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/",
+      "summary": "The specification lets developer, compliance, and security teams define their own policies for agents to follow in portable policy files.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T18:00:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "51a6f2f1f6da",
+      "title": "Amazon faces class action lawsuit over Ring facial-recognition feature",
+      "url": "https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/",
+      "summary": "The class action lawsuit, filed in Seattle by Virginia resident Charles Sigwalt, claims that Ring's Familiar Faces feature stores images of passersby without consent.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T17:47:28+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "16c75137614a",
+      "title": "Browse CVPR 2026 papers on PapersWithCode [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tukrf4/browse_cvpr_2026_papers_on_paperswithcode_p/",
+      "summary": "https://preview.redd.it/se5nr2z7tt4h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=7db15b73afb749da236e5bb50ff96372f6a3239b Hi, Niels here from the open-source team at Hugging Face. It's been 2 weeks since I launched paperswithcode.co, a revival of the website we all loved. It allows us to keep track of the state-of-the-art (SOTA) across various domains of AI, from agents to computer vision and time-series forecasting.  I've just added conference support as a new feature. The idea is that you should be able to easily browse all papers of major AI conferences like NeurIPS, CVPR, and ICML. ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-02T08:32:17+00:00",
+      "score": 3.08,
+      "image": null
+    },
+    {
+      "id": "b254ce8fbf99",
+      "title": "AI outperforms law professors in Stanford Law study",
+      "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-02T23:43:12+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "36c9ec76bd32",
+      "title": "OpenTelemetry Launches “Blueprints” Initiative to Simplify Enterprise Observability Adoption",
+      "url": "https://www.infoq.com/news/2026/06/opentelemetry-blueprints-launch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenTelemetry has introduced a new \"Blueprints\" initiative aimed at reducing the growing complexity of deploying and operating observability systems at scale. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-02T12:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "908f14555169",
+      "title": "New Microsoft tool lets devs spin up AI behavior tests using text descriptions",
+      "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/",
+      "summary": "Microsoft on Tuesday took the wraps off Adaptive Spec-driven Scoring for Evaluation and Regression Testing, an open source framework for spinning up AI evaluations.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T19:02:21+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "ec28701a10d3",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/",
+      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T16:23:08+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "1da118a5ea44",
+      "title": "I trained a 75M parameter LLM from scratch on 18B tokens and it beats a model almost double its size",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuyb8s/i_trained_a_75m_parameter_llm_from_scratch_on_18b/",
+      "summary": "I trained a small language model from scratch called KeyLM. It is 75M params, decoder-only, and there is a pretrained base, an instruction-tuned version, and a GGUF. On IFEval (instruction following) the 75M instruct model scores slightly higher than the original SmolLM-135M-Instruct at about half the parameters and a fraction of the training data. (SmolLM was pre trained on 600B tokens and SmolLM2 on 2T tokens, but KeyLM is only pretrained on 18B tokens.) Model Params IFEval --------------------- ------ ------ KeyLM-75M-Instruct 75M 17.85 SmolLM-135M-Instruct 135M 17.15 SmolLM2-135M-Instruct ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-02T17:41:39+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "956ff8ee1db1",
+      "title": "Why don't we still have any games with AI agents used as NPC characters?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tuy151/why_dont_we_still_have_any_games_with_ai_agents/",
+      "summary": "Do you remember this NVIDIA AI-NPC presentation from 3 years ago? https://www.youtube.com/watch?v=5R8xZb6J3r0 Where all of that? Why do we even try getting agents to do all the work if they still cannot be reliably used as a characters in the video games? Isn't it should be the obvious first step in showing that AI agents actually work, considering a completely safe in-game environment. I am aware of many mods that tries to implement agents to already established titles such as Morrowind or Skyrim, but as I see it most of them were not successful. Yes, you can have the conversations with NPC a",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-02T17:32:25+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "ce28044b9514",
+      "title": "ZeroDrift raises $10M to protect AI models from themselves",
+      "url": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/",
+      "summary": "A new AI compliance service sits between AI models and end users to flag and replace any messages that might present a compliance problem.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T12:32:59+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "5c441427ce07",
+      "title": "Rocket engine startup Impulse raises $500 million to hire people, not AI",
+      "url": "https://techcrunch.com/2026/06/02/rocket-engine-startup-impulse-raises-500-million-to-hire-people-not-ai/",
+      "summary": "Engineering physical systems still depends on human talent, according to Impulse Space president Eric Romo.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-02T12:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "f14877ed5950",
+      "title": "Google Workspace CLI: Unified Command-Line Tool Built for Humans and AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/google-workspace-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released a new CLI for Google Workspace, offering a unified interface for various services like Drive, Gmail, and Calendar. Built in Rust, the tool dynamically adjusts to API changes and features over 100 bundled skills. It requires Node.js and a Google Cloud project for setup. Initial community feedback is mixed, highlighting both its dynamic capabilities and setup challenges. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-02T06:33:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "f60f5ac30e0d",
+      "title": "From Regex to Vision Models: Which RAG Technique Fits Which Problem",
+      "url": "https://towardsdatascience.com/from-regex-to-vision-models-which-rag-technique-fits-which-problem/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #4] - A diagnostic across PDFs and questions, and a map of the techniques the rest of the series will cover\nThe post From Regex to Vision Models: Which RAG Technique Fits Which Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-02T13:30:00+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "15bad2f9ee7e",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tudeio/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-02T02:15:14+00:00",
+      "score": 2.03,
+      "image": null
+    }
+  ]
+}

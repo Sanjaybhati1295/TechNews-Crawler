@@ -861,3 +861,36 @@
 2026-06-02 11:12:07,798  INFO     ────────────────────────────────────────────────────────────
 2026-06-02 11:12:07,798  INFO     Done!  Open: output/index.html
 2026-06-02 11:12:07,798  INFO     Headline: Browse CVPR 2026 papers on PapersWithCode [P]
+2026-06-03 11:50:22,099  INFO     ============================================================
+2026-06-03 11:50:22,099  INFO     TECHPULSE Digest — 2026-06-03 11:50 UTC
+2026-06-03 11:50:22,100  INFO     ============================================================
+2026-06-03 11:50:22,100  INFO     Step 1/3 — Crawling feeds…
+2026-06-03 11:50:22,544  INFO       Hacker News                    → 1 significant articles
+2026-06-03 11:50:23,017  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-03 11:50:23,128  INFO       Ars Technica                   → 0 significant articles
+2026-06-03 11:50:23,839  INFO       The Register AI                → 0 significant articles
+2026-06-03 11:50:23,930  INFO       MIT Tech Review                → 0 significant articles
+2026-06-03 11:50:24,039  INFO       Dev.to AI                      → 4 significant articles
+2026-06-03 11:50:24,160  INFO       Dev.to Programming             → 2 significant articles
+2026-06-03 11:50:24,293  INFO       GitHub Blog                    → 1 significant articles
+2026-06-03 11:50:25,025  INFO       Google Research                → 0 significant articles
+2026-06-03 11:50:25,795  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-03 11:50:26,440  INFO       Reddit r/LocalLLaMA            → 7 significant articles
+2026-06-03 11:50:26,834  INFO       InfoQ                          → 3 significant articles
+2026-06-03 11:50:26,952  INFO       Towards Data Science           → 1 significant articles
+2026-06-03 11:50:27,201  INFO       Wired AI                       → 0 significant articles
+2026-06-03 11:50:27,256  INFO       TechCrunch AI                  → 8 significant articles
+2026-06-03 11:50:27,256  INFO     Fetching images for top articles…
+2026-06-03 11:50:27,297  INFO       🖼  SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI 
+2026-06-03 11:50:27,337  INFO       🖼  OpenAI launches new Codex tools for white-collar work
+2026-06-03 11:50:27,831  INFO       🖼  Node.js Moves to One Major Release Per Year, Starting with N
+2026-06-03 11:50:27,994  INFO       🖼  🌱 A Beginner’s Guide to Choosing the Right AI Chatbot for Vi
+2026-06-03 11:50:27,994  INFO     Total selected: 29 articles from 15 feeds
+2026-06-03 11:50:27,994  INFO     Selected 29 significant articles
+2026-06-03 11:50:27,994  INFO     Step 2/3 — Generating digest…
+2026-06-03 11:50:28,277  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-03 11:50:28,277  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-03 11:50:28,278  INFO     Step 3/3 — Rendering HTML…
+2026-06-03 11:50:28,279  INFO     ────────────────────────────────────────────────────────────
+2026-06-03 11:50:28,279  INFO     Done!  Open: output/index.html
+2026-06-03 11:50:28,279  INFO     Headline: SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI Data Centers
