@@ -894,3 +894,36 @@
 2026-06-03 11:50:28,279  INFO     ────────────────────────────────────────────────────────────
 2026-06-03 11:50:28,279  INFO     Done!  Open: output/index.html
 2026-06-03 11:50:28,279  INFO     Headline: SSSTC Unveils Immersion-Cooled SSDs at Computex 2026 for AI Data Centers
+2026-06-04 10:33:37,037  INFO     ============================================================
+2026-06-04 10:33:37,038  INFO     TECHPULSE Digest — 2026-06-04 10:33 UTC
+2026-06-04 10:33:37,038  INFO     ============================================================
+2026-06-04 10:33:37,038  INFO     Step 1/3 — Crawling feeds…
+2026-06-04 10:33:37,432  INFO       Hacker News                    → 2 significant articles
+2026-06-04 10:33:37,813  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-04 10:33:37,969  INFO       Ars Technica                   → 0 significant articles
+2026-06-04 10:33:38,434  INFO       The Register AI                → 0 significant articles
+2026-06-04 10:33:38,605  INFO       MIT Tech Review                → 0 significant articles
+2026-06-04 10:33:38,772  INFO       Dev.to AI                      → 2 significant articles
+2026-06-04 10:33:38,939  INFO       Dev.to Programming             → 2 significant articles
+2026-06-04 10:33:39,096  INFO       GitHub Blog                    → 0 significant articles
+2026-06-04 10:33:39,755  INFO       Google Research                → 0 significant articles
+2026-06-04 10:33:40,398  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-04 10:33:40,980  INFO       Reddit r/LocalLLaMA            → 9 significant articles
+2026-06-04 10:33:41,641  INFO       InfoQ                          → 2 significant articles
+2026-06-04 10:33:41,801  INFO       Towards Data Science           → 3 significant articles
+2026-06-04 10:33:41,928  INFO       Wired AI                       → 0 significant articles
+2026-06-04 10:33:41,981  INFO       TechCrunch AI                  → 2 significant articles
+2026-06-04 10:33:41,981  INFO     Fetching images for top articles…
+2026-06-04 10:33:42,672  INFO       🖼  Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and
+2026-06-04 10:33:42,713  INFO       🖼  How to Hire Senior AI/ML Engineers Remotely in 2026 (Without
+2026-06-04 10:33:42,830  INFO       🖼  Fine-Tuning Llama 3.2 3B on Medical QA: Week 3 – The First T
+2026-06-04 10:33:42,886  INFO       🖼  Custom Blockchain Development vs Off-the-Shelf Solutions: Wh
+2026-06-04 10:33:42,886  INFO     Total selected: 24 articles from 15 feeds
+2026-06-04 10:33:42,887  INFO     Selected 24 significant articles
+2026-06-04 10:33:42,887  INFO     Step 2/3 — Generating digest…
+2026-06-04 10:33:43,492  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-04 10:33:43,492  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-04 10:33:43,492  INFO     Step 3/3 — Rendering HTML…
+2026-06-04 10:33:43,493  INFO     ────────────────────────────────────────────────────────────
+2026-06-04 10:33:43,493  INFO     Done!  Open: output/index.html
+2026-06-04 10:33:43,493  INFO     Headline: Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents

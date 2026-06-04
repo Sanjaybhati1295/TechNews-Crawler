@@ -1,0 +1,255 @@
+{
+  "digest": {
+    "headline": "Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents (InfoQ). How to Hire Senior AI/ML Engineers Remotely in 2026 (Without Paying $200/hr) (Dev.to AI). Does anyone have news about the next GLM or Kimi model? (Reddit r/LocalLLaMA). Fine-Tuning Llama 3.2 3B on Medical QA: Week 3 – The First Training Run (Dev.to Programming). Gemma 4 QAT confirmed to release soon! (Reddit r/LocalLLaMA)."
+      }
+    ],
+    "key_takeaway": "Vercel has released Next.js 16.2, featuring performance enhancements that make development startup 400% faster and rendering up to 60% quicker. The update includes AI-assisted development tools, improved Turbopack efficiency, and better error reporting. Migration from Next.js 15 is supported, and compatibility is set for Node.js 20.9 and TypeScript 5.1 or newer. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "b70df4173a74",
+      "title": "Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/nextjs-6-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released Next.js 16.2, featuring performance enhancements that make development startup 400% faster and rendering up to 60% quicker. The update includes AI-assisted development tools, improved Turbopack efficiency, and better error reporting. Migration from Next.js 15 is supported, and compatibility is set for Node.js 20.9 and TypeScript 5.1 or newer. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-04T06:47:00+00:00",
+      "score": 4.29,
+      "image": "https://res.infoq.com/news/2026/06/nextjs-6-2/en/card_header_image/generatedCard-1780409718508.jpg"
+    },
+    {
+      "id": "cc18a89a97f6",
+      "title": "How to Hire Senior AI/ML Engineers Remotely in 2026 (Without Paying $200/hr)",
+      "url": "https://dev.to/chirag_sharma_11a97ed21d3/how-to-hire-senior-aiml-engineers-remotely-in-2026-without-paying-200hr-3a1b",
+      "summary": "The market for AI/ML talent is broken.\n\nA senior ML engineer with RAG, LangChain, and production LLM experience commands $150–220/hr in the US. For a startup trying to build an AI product, that's $25,000–35,000/month for a single engineer. Before equity. Before benefits.\n\nMeanwhile, the same calibre of engineer — same GitHub history, same system design skills, same English fluency — is working out of Bangalore or Pune for $45–65/hr.\n\nThis isn't a quality gap. It's an awareness gap. And in 2026, it's closing fast.\n\n\n\n\n\n  \n  \n  What the Market Actually Looks Like\n\n\nOver the last 18 months, deman",
+      "source": "Dev.to AI",
+      "published": "2026-06-04T10:22:34+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fu477nnf6kyptlotyz8he.png"
+    },
+    {
+      "id": "ecc81f7f5e87",
+      "title": "Does anyone have news about the next GLM or Kimi model?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twhsnh/does_anyone_have_news_about_the_next_glm_or_kimi/",
+      "summary": "Hi. It seems neither of recent Minimax, DeepSeek and Qwen models have been able to &quot;dethrone&quot; GLM 5.1 and Kimi K2.6 as &quot;Opus(es) of open models&quot;. That's why I'm eagerly waiting for their next releases to see whether they can comfortably claim 2026 level of frontier performance.  Does anyone have any news about whether they are working on something? Any other rumored model you think can reach that level? Thanks  &#32; submitted by &#32;  /u/ihatebeinganonymous   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-04T08:45:52+00:00",
+      "score": 3.8,
+      "image": null
+    },
+    {
+      "id": "ecb188b612a9",
+      "title": "Fine-Tuning Llama 3.2 3B on Medical QA: Week 3 – The First Training Run",
+      "url": "https://dev.to/nicholas-ugbala-dev/fine-tuning-llama-32-3b-on-medical-qa-week-3-the-first-training-run-14pl",
+      "summary": "What Happened This Week\n\n\nWeek 2 ended with a cleaned dataset formatted and pushed to Hugging Face Hub. Week 3 is where the actual fine-tuning happened: configuring LoRA adapters, running the training loop, and comparing the fine-tuned model's outputs against the Week 1 baseline.\n\nIt did not go smoothly. This post documents what broke, why it broke, and what the results actually showed.\n\n\n\n\n\n  \n  \n  The Stack for This Week\n\n\nThe fine-tuning stack builds on top of what was installed in Week 1:\n\n\n\npeft – implements LoRA. It adds small trainable adapter matrices to specific layers of the frozen b",
+      "source": "Dev.to Programming",
+      "published": "2026-06-04T09:48:18+00:00",
+      "score": 3.66,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1glolnjy9q9yyjsn2x70.png"
+    },
+    {
+      "id": "8d7b8a6e8829",
+      "title": "Gemma 4 QAT confirmed to release soon!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twid14/gemma_4_qat_confirmed_to_release_soon/",
+      "summary": "It seems like this comment has gone widely unnoticed. https://old.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/opjj681/ Maybe hold off on testing quantization and wait for it's refinements. The account is Omar from the gemma team.   &#32; submitted by &#32;  /u/Aaaaaaaaaeeeee   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-04T09:18:18+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "3f64b4a3ae50",
+      "title": "Custom Blockchain Development vs Off-the-Shelf Solutions: What Indian Businesses Are Getting Wrong in 2026",
+      "url": "https://dev.to/comfygencompany2001/custom-blockchain-development-vs-off-the-shelf-solutions-what-indian-businesses-are-getting-wrong-34an",
+      "summary": "I have seen this happen more times than I can count. A startup in Bangalore or a mid-size company in Pune picks up a white-label blockchain tool, wraps it in their branding, and calls it a day. Six months later, they are back at square one because the tool cannot handle their transaction volume, does not support their compliance requirements, or simply cannot be modified to fit their actual business logic.\n\nThe off-the-shelf route feels safer at first. Lower upfront cost, faster deployment, no need to hire a specialised team. But the problems it creates tend to show up at the worst possible ti",
+      "source": "Dev.to AI",
+      "published": "2026-06-04T10:21:15+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F07s79zi16rmtxtxbvmdr.png"
+    },
+    {
+      "id": "854f37d7faa5",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-539o",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-06-04T09:27:09+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "0fa23d2f7221",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw70v7/trump_signs_narrower_executive_order_on_ai/",
+      "summary": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/ I presume open weight US models that are considered &quot;powerful&quot; will need Trump's approval to release after a 30-day review. Very bad news for the US LLM scene for both open and closed.  &#32; submitted by &#32;  /u/Ok_Warning2146   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T23:54:46+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "1a192453a45b",
+      "title": "This day in LLM history….105 years ago today, Qwen 3.6 27b was released open source. /s",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvsvv2/this_day_in_llm_history105_years_ago_today_qwen/",
+      "summary": "Unfortunately, the steam-powered GPUs of the era were incapable of anything higher than a 4K context limit.   &#32; submitted by &#32;  /u/Porespellar   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T15:31:29+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "2cf88db995a9",
+      "title": "Gemma 4 12B first coding agent test on a 4080 Super",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw364k/gemma_4_12b_first_coding_agent_test_on_a_4080/",
+      "summary": "Just threw the new Gemma 4 12B into VSCodium with the Pi Agent extension to see how it handles tools, and it nailed the test on the first try. I gave it a prompt to write a Python script that reads logs line-by-line, grabs the error modules, and dumps the counts to a JSON file. I also told it to make its own mock log data and run a live terminal test to verify the results. Instead of just spitting out a block of code for me to copy and paste, the agent actually went to work. It created the script, populated a dummy app.log file with a mix of random logs, opened up a terminal shell to run the c",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T21:23:25+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "ce79f8488912",
+      "title": "Publishers will be able to opt out of AI Search, thanks to new regulation",
+      "url": "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/",
+      "summary": "U.K. regulators are requiring Google offer a tool allowing website publishers to opt-out of generative AI search features. The option will be tested in the U.K. then rolled out globally.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-03T14:58:33+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "cae5f652cb71",
+      "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
+      "url": "https://news.ycombinator.com/item?id=48387095",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-03T17:39:53+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "c0e85e43aee4",
+      "title": "Coralogix raises $200M on bet that someone needs to watch the AI agents",
+      "url": "https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/",
+      "summary": "Coralogix is among a growing number of infrastructure firms betting that as AI systems move into production, demand will rise for tools that can monitor their behavior, troubleshoot failures, and provide the operational data needed to keep them running reliably.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-03T13:02:51+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "1ba460729d63",
+      "title": "Gemma 4 Unified is coming",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvswv1/gemma_4_unified_is_coming/",
+      "summary": "https://github.com/ggml-org/llama.cpp/pull/24077 (just merged) is missing a description or any hints, but if you look at the code it is the implementation of a new “Gemma 4 Unified” model type… Seems like the llama.cpp folks got early access in order that the model could launch with support. Some of the comments in the code are interesting: “this is a transformer-less vision tower, the params below are redundant but set to avoid error”… very curious to see what architecture this is that Google are getting ready to release.  &#32; submitted by &#32;  /u/eapache   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T15:32:28+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "8266af418e5d",
+      "title": "First paper acceptance (ICML Workshop), should I attend? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tw0j33/first_paper_acceptance_icml_workshop_should_i/",
+      "summary": "I just finished my first year of undergrad, and I got my first first-author paper accepted to an ICML workshop! Super stoked, especially since I was lowk a crashout in high school  I wanted to know if it is worth it for me to go? It's quite expensive, and I will be the only one in my lab in attendance, so I will be on my own. If I do attend, how would I best maximize this opportunity? I got an email saying main conference tickets would also be made available for accepted authors, so I would likely be able to attend that as well. What are the best ways to network, meet people, and make sure it'",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-03T19:48:47+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "0a8c849454f8",
+      "title": "gemma-4-12b-it vs Qwen3.5-9B on shared benchmarks: Qwen is overall winner beating gemma in 5/8 benchmarks despite a smaller footprint",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tw0lua/gemma412bit_vs_qwen359b_on_shared_benchmarks_qwen/",
+      "summary": "I don't really understand the gemma hype. Qwen outperforms gemma gb for gb, and kv cache is lighter. Sure gemma-4-12b-it might be a slight better coder than Qwen3.5-9b, but you could also just use omnicoder-9b (Qwen3.5-9b finetune for coding). Note: Benchmark results come from the official huggingface model cards; formatted into a table with ChatGPT  &#32; submitted by &#32;  /u/fulgencio_batista   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T19:51:33+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "06b330aa316f",
+      "title": "google/gemma-4-12B · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvtn6m/googlegemma412b_hugging_face/",
+      "summary": "Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input (with audio supported on E2B, E4B, and 12B) and generating text output. This release includes open-weights models in both pre-trained and instruction-tuned variants. Gemma 4 features a context window of up to 256K tokens and maintains multilingual support in over 140 languages. Featuring both Dense and Mixture-of-Experts (MoE) architectures, Gemma 4 is well-suited for tasks like text generation, coding, and reasoning. The models are available in five distinct sizes: E2B, E4B,",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T15:57:33+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "20940f892830",
+      "title": "Node.js Moves to One Major Release Per Year, Starting with Node 27",
+      "url": "https://www.infoq.com/news/2026/06/nodejs-release-changes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Node.js will change its release schedule starting with version 27 in October 2026, moving from two major releases per year to one. All releases will become Long-Term Support (LTS), removing the distinction between odd and even versions. An Alpha channel for early testing will also be introduced. This decision addresses maintenance challenges and aims to align with user needs. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-03T06:40:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "cfdfcdfba1d3",
+      "title": "I Built a C++ Backend So My GPU Would Stop Eating Air",
+      "url": "https://towardsdatascience.com/i-built-a-c-backend-so-my-gpu-would-stop-eating-air/",
+      "summary": "A comprehensive guide to optimizing LLM inference by eliminating padding overhead with hardware-aware sequence packing.\nThe post I Built a C++ Backend So My GPU Would Stop Eating Air appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-03T13:30:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "7c324ec09f0a",
+      "title": "Calling it now Microsoft is buying Unsloth.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tvhv4b/calling_it_now_microsoft_is_buying_unsloth/",
+      "summary": "I am going to be honest, I am leery of this new partnership with Unsloth. Microsoft historically hated open source, and this will not benefit the community in the end. It will look great at first. They will drop updates, play nice, and everyone will celebrate. But if you have been around the block, you know exactly how this play ends. Microsoft spent decades aggressively trying to kill open source. A shiny PR campaign does not change corporate DNA. Calling it now, Microsoft is going to buy Unsloth and go after llama.cpp next. They just want to control how we run models locally so they can forc",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-03T07:17:30+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "fe428482e707",
+      "title": "NeurIPS used uncalibrated AI detector for desk rejections [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tvwctd/neurips_used_uncalibrated_ai_detector_for_desk/",
+      "summary": "I recently had a submission desk-rejected from the NeurIPS 2026 Position Paper Track for an alleged AI-policy violation. After corresponding with the track leadership and reading their public blog post, I think the broader methodological issue is worth discussing here. The track used Pangram, a proprietary AI-text detector, as part of the desk-rejection process. I was told that the materials considered for desk rejection were:  the detector output the authors’ AI-use attestation  This creates a potential circularity problem. If a high detector score is used to judge the author’s attestation as",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-03T17:28:03+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "70fbbe037b32",
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-03T12:25:14+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "43cf55b0e561",
+      "title": "What AI Agents Should Never Do on Their Own",
+      "url": "https://towardsdatascience.com/what-ai-agents-should-never-do-on-their-own/",
+      "summary": "How to set the rules that keep agents effective and out of trouble\nThe post What AI Agents Should Never Do on Their Own appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-03T12:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "e2b64c1ce6d2",
+      "title": "Why AI Is NOT Stealing Your Job",
+      "url": "https://towardsdatascience.com/why-ai-is-not-stealing-your-job/",
+      "summary": "AI does not decide who gets fired. Companies do.\nThe post Why AI Is NOT Stealing Your Job appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-03T15:00:00+00:00",
+      "score": 2.41,
+      "image": null
+    }
+  ]
+}
