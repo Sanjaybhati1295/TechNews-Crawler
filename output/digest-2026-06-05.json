@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance (InfoQ). Are We Underestimating Small Edge AI Models?[D] (Reddit r/MachineLearning). Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns (TechCrunch AI). Airbnb’s Brian Chesky plans to launch a new AI lab (TechCrunch AI). Why Privacy-First Mobile Apps Need Flutter On-Device AI Development (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates (TechCrunch AI). GitHub Universe is back: All together now, in the agentic era (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "TypeORM 1.0 is the first major release of the open-source TypeScript and JavaScript ORM since its inception in 2016. This version modernizes platform requirements, removes deprecated APIs, and introduces numerous bug fixes and new features. TypeORM now supports ECMAScript 2023, dropping older Node.js versions and dependencies while enhancing security and migration processes. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "de7bc4a61b76",
+      "title": "TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance",
+      "url": "https://www.infoq.com/news/2026/06/typeorm-1-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeORM 1.0 is the first major release of the open-source TypeScript and JavaScript ORM since its inception in 2016. This version modernizes platform requirements, removes deprecated APIs, and introduces numerous bug fixes and new features. TypeORM now supports ECMAScript 2023, dropping older Node.js versions and dependencies while enhancing security and migration processes. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-05T06:52:00+00:00",
+      "score": 4.69,
+      "image": "https://res.infoq.com/news/2026/06/typeorm-1-released/en/headerimage/generatedHeaderImage-1780570519122.jpg"
+    },
+    {
+      "id": "c2940ba4061e",
+      "title": "Are We Underestimating Small Edge AI Models?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1txgeu0/are_we_underestimating_small_edge_ai_modelsd/",
+      "summary": "A lot of recent discussion around Edge AI focuses on running increasingly larger local LLMs. Meanwhile modern smartphones already have enough compute for many practical computer vision tasks that don't require massive models at all. I recently built and released an Android feature that performs offline recognition of handwritten and printed Morse code from images and live camera frames. The final solution combines lightweight ML and computer vision techniques running entirely on-device. The AI module is under 5 MB, works fully offline, and runs on Android devices using LiteRT for inference. Wh",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-05T09:55:39+00:00",
+      "score": 4.26,
+      "image": null
+    },
+    {
+      "id": "1858a5daeecf",
+      "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
+      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+      "summary": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T22:43:26+00:00",
+      "score": 3.74,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/55314412841_11b924318f_c.jpg?w=799"
+    },
+    {
+      "id": "6e07b148513b",
+      "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
+      "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+      "summary": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T22:29:50+00:00",
+      "score": 3.72,
+      "image": "https://techcrunch.com/wp-content/uploads/2017/05/gettyimages-652988834.jpg?w=1024"
+    },
+    {
+      "id": "006c825531c5",
+      "title": "Why Privacy-First Mobile Apps Need Flutter On-Device AI Development",
+      "url": "https://dev.to/jessica_bbc4d5a7293af02e2/why-privacy-first-mobile-apps-need-flutter-on-device-ai-development-55o1",
+      "summary": "Artificial Intelligence has become a core part of modern mobile applications. From personalized recommendations and voice assistants to image recognition and predictive analytics, AI-powered features are helping businesses deliver smarter user experiences. However, as AI adoption grows, so do concerns about data privacy, security, and compliance.\n\nUsers are increasingly cautious about how their personal information is collected, stored, and processed. For industries such as healthcare, fintech, insurance, and enterprise software, protecting sensitive user data is no longer optional—it is a bus",
+      "source": "Dev.to AI",
+      "published": "2026-06-05T10:29:33+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1n957f5p0p03ltuk3lhf.png"
+    },
+    {
+      "id": "67f4f20382cd",
+      "title": "What Is Elixir Used For? Use Cases, Benefits, and Limits",
+      "url": "https://dev.to/shahinur-rahman/what-is-elixir-used-for-use-cases-benefits-and-limits-44n8",
+      "summary": "`\nAt some point, every growing product hits the same wall.\n\nTraffic increases. Features pile up. Real-time expectations become harder to ignore. Users expect instant updates, stable performance, and systems that do not collapse under pressure.\n\nThen the backend stack that felt “good enough” starts feeling fragile.\n\nIf you have ever worried about systems slowing down under load, or features breaking because one small thing failed, you are not alone.\n\nThis is exactly where many teams start asking a deeper question:\n\nIs our technology built for where we are going, or only for where we started?\n\nT",
+      "source": "Dev.to Programming",
+      "published": "2026-06-05T10:34:10+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F531zdr52pv82l28ez1iy.png"
+    },
+    {
+      "id": "a163f00f81d9",
+      "title": "I Added Legal Compliance Checks to My E2E Test Suite for €0. Here's How (and Why a Non-Developer Had To).",
+      "url": "https://dev.to/holistis/i-added-legal-compliance-checks-to-my-e2e-test-suite-for-eu0-heres-how-and-why-a-non-developer-45h2",
+      "summary": "Originally published on longevityai.nl — for full context, comments and related articles, visit the source.\n\n\n\n  \n  \n  I Added Legal Compliance Checks to My E2E Test Suite for €0. Here's How (and Why a Non-Developer Had To).\n\n\nI am not a developer. I run a health AI platform in the Netherlands called Longevity AI. It generates personalized health reports using LLMs, auto-publishes blog posts about longevity, and operates under Dutch medical regulation: the IGJ (Health and Youth Care Inspectorate), Wet BIG, and GDPR.\n\nThat last part is the part most builders skip. I cannot.\n\nIf my platform publ",
+      "source": "Dev.to AI",
+      "published": "2026-06-05T10:23:25+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "dcea28bd37e1",
+      "title": "Benchmark & Reality Check on Gemma 4 12B: Great model, but your local settings are probably breaking it (Fix inside)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txgvrh/benchmark_reality_check_on_gemma_4_12b_great/",
+      "summary": "I completed a Python bug hunting benchmark with Gemma 4 12B. I used the Unsloth Dynamic Q5 GGUF model. The model has good capabilities. Default settings in LM Studio disable the reasoning. Fix the LM Studio reasoning configuration. LM Studio looks for Qwen tokens. Gemma 4 uses different tokens. Change your settings with these steps. • Open your inference settings. • Add this text to the first line of your Jinja template: {%- set enable_thinking = true %}  • Set the start token to &lt;|channel&gt;thought  • Set the end token to &lt;channel|&gt; Change your sampling parameters. Do not decrease t",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-05T10:21:09+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "b1b34012fef4",
+      "title": "RTX Pro 4500 Blackwell Performance Numbers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txfiws/rtx_pro_4500_blackwell_performance_numbers/",
+      "summary": "RTX Pro 4500 Blackwell About one month ago I asked the fine people of Reddit for some upgrade advice, on where to take the following AI server next.  AMD Ryzen 7 7700 CPU ​Corsair Vengeance RGB DDR5 5600MHz 32GB (2x16) ​RTX 5060 Ti 16GB  At first I was considering upgrading system RAM to 96GB to enable larger MoE models, however the feedback was clearly in the direction of &quot;VRAM is king no matter what&quot; and to be honest, there's not much happening around model sizes in the 100B range. So I decided to upgrade the GPU instead, the choice of upgrading the GPU to an RTX Pro 4500 Blackwell",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-05T09:05:00+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "b61e0944c453",
+      "title": "When Is the Right Time to Hire a Next.js Development Company?",
+      "url": "https://dev.to/devang_chavda_641057d210b/when-is-the-right-time-to-hire-a-nextjs-development-company-4io4",
+      "summary": "The best moment to engage a Next.js development firm is when you require a more rapid, productive, extensive, or seamless experience than your existing team can provide, particularly regarding SEO and production-grade performance. Typically, when you reach this point is when you're launching a high-traffic site, moving to App Router, creating an AI-powered product, or growing beyond a generalist developer's capabilities. If your application is straightforward, static and stable, you might not have an existing niche partner.\n\nNext.js is now the go-to solution for all serious React applications.",
+      "source": "Dev.to Programming",
+      "published": "2026-06-05T10:33:53+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "3d572b64c46f",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-52ff",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-06-05T10:05:11+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "74b95bcee00a",
+      "title": "Apple approves Poke as the first AI agent on its Messages for Business platform",
+      "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+      "summary": "Poke, the startup that lets people use AI agents through simple text messages, has become the first AI agent approved for Apple’s Messages for Business platform.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T19:20:58+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "048addc1abcf",
+      "title": "You guys were right - Qwen 3.6 35B IS good...and KV Cache DOES matter.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1twyoqe/you_guys_were_right_qwen_36_35b_is_goodand_kv/",
+      "summary": "WARNING: I'm speed typing this, no time to organizea/format, so if short paragraph chunks bother you, just keep it moving. CONTEXT UPDATE: (for those interested, otherwise skip)  For those interested in the data points, the task was building an agentic workflow inside of rivet that included an mcp subgraph (with a list of 11 tools) that received json instructions from the main subgraph so that I could shave off 30K tokens from the main agent's memory. The main subgraph included context trimming and pre-injection of memory, soul, and agent .md files. Task also included testing, rigging it up wi",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-04T19:57:06+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "b70df4173a74",
+      "title": "Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/nextjs-6-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released Next.js 16.2, featuring performance enhancements that make development startup 400% faster and rendering up to 60% quicker. The update includes AI-assisted development tools, improved Turbopack efficiency, and better error reporting. Migration from Next.js 15 is supported, and compatibility is set for Node.js 20.9 and TypeScript 5.1 or newer. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-04T06:47:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "fc5cc02a8516",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T16:31:12+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "509209c01122",
+      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
+      "url": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-04T12:10:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "d3f8e32fc25b",
+      "title": "Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model",
+      "url": "https://towardsdatascience.com/five-ways-to-fine-tune-chronos-2-the-time-series-foundation-model/",
+      "summary": "In Part 1 of this series, we introduced Chronos-2, a time-series foundation model. We got our hands dirty by walking through a real case study and saw what Chronos-2 can do straight out of the box, with no training. But as we noted at the end of Part 1, zero-shot isn&#8217;t always enough. In cases [&#8230;]\nThe post Five Ways to Fine-Tune Chronos-2, the Time Series Foundation Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-04T16:30:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "57bacf40d597",
+      "title": "How courts are coping with a flood of AI-generated lawsuits",
+      "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mindful of how daunting&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-04T10:50:18+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "9181afe03b45",
+      "title": "GitHub Universe is back: All together now, in the agentic era",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "summary": "GitHub Universe is back: returning to the historic Fort Mason Center in San Francisco on October 28–29, 2026.\nThe post GitHub Universe is back: All together now, in the agentic era appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-04T16:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "f6e7d11908fb",
+      "title": "On-policy distillation: one of the hottest terms on PapersWithCode [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. At paperswithcode.co I am trying to make it easier for people to learn about the newest techniques used across AI papers. One of the hottest terms in AI research that I've recently added is On-policy distillation, also abbreviated as OPD. It's the key post-training behind models like Qwen 3.6 and 3.7, GLM-5.1, and DeepSeek-V4. https://preview.redd.it/yegq2gfag95h1.png?width=3046&amp;format=png&amp;auto=webp&amp;s=f68fdf3ca075f3c4e56051fdd0ebcf97be9bcbc9 On PapersWithCode, you can find the original paper that introduced it, learn more ab",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-04T12:40:48+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "22f8ee015d7c",
+      "title": "How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI",
+      "url": "https://towardsdatascience.com/how-to-navigate-the-shift-from-prompt-based-tools-to-workflow-driven-ai/",
+      "summary": "Abacus.AI and the case for unified AI workflows\nThe post How to Navigate the Shift from Prompt-Based Tools to Workflow-Driven AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-04T17:04:27+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "dcf4c8a3c08b",
+      "title": "FPN Paper Walkthrough: Leveraging the Internal Pyramid",
+      "url": "https://towardsdatascience.com/fpn-paper-walkthrough-leveraging-the-internal-pyramid/",
+      "summary": "Understanding how FPN allows deep learning models detecting small objects and how to implement it from scratch\nThe post FPN Paper Walkthrough: Leveraging the Internal Pyramid appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-04T13:30:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "b60a62ad867e",
+      "title": "Is an Online Master’s Degree in AI a Good Idea?",
+      "url": "https://towardsdatascience.com/is-an-online-masters-degree-in-ai-a-good-idea/",
+      "summary": "A look at the real-world value of online graduate AI programs, combining hard data with firsthand experience of a big tech machine learning engineer\nThe post Is an Online Master’s Degree in AI a Good Idea? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-04T12:00:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "024a109e7988",
+      "title": "Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce",
+      "url": "https://towardsdatascience.com/small-data-big-maps-training-geospatial-ml-models-when-samples-are-scarce/",
+      "summary": "When images, mosaics, and data cubes exist in abundance, but field labels are expensive, rare, and imperfect.\nThe post Small Data, Big Maps: Training Geospatial ML Models When Samples Are Scarce appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-04T15:00:00+00:00",
+      "score": 2.41,
+      "image": null
+    }
+  ]
+}

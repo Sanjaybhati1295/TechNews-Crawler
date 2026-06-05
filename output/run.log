@@ -927,3 +927,37 @@
 2026-06-04 10:33:43,493  INFO     ────────────────────────────────────────────────────────────
 2026-06-04 10:33:43,493  INFO     Done!  Open: output/index.html
 2026-06-04 10:33:43,493  INFO     Headline: Next.js 16.2: 400% Faster Dev Startup, Faster Rendering, and Deeper Tooling for AI Agents
+2026-06-05 10:41:10,211  INFO     ============================================================
+2026-06-05 10:41:10,211  INFO     TECHPULSE Digest — 2026-06-05 10:41 UTC
+2026-06-05 10:41:10,211  INFO     ============================================================
+2026-06-05 10:41:10,211  INFO     Step 1/3 — Crawling feeds…
+2026-06-05 10:41:10,467  INFO       Hacker News                    → 0 significant articles
+2026-06-05 10:41:10,869  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-05 10:41:11,036  INFO       Ars Technica                   → 0 significant articles
+2026-06-05 10:41:12,026  INFO       The Register AI                → 0 significant articles
+2026-06-05 10:41:12,165  INFO       MIT Tech Review                → 2 significant articles
+2026-06-05 10:41:12,307  INFO       Dev.to AI                      → 2 significant articles
+2026-06-05 10:41:12,495  INFO       Dev.to Programming             → 3 significant articles
+2026-06-05 10:41:12,633  INFO       GitHub Blog                    → 1 significant articles
+2026-06-05 10:41:13,258  INFO       Google Research                → 0 significant articles
+2026-06-05 10:41:13,999  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-05 10:41:14,566  INFO       Reddit r/LocalLLaMA            → 3 significant articles
+2026-06-05 10:41:14,967  INFO       InfoQ                          → 2 significant articles
+2026-06-05 10:41:15,098  INFO       Towards Data Science           → 5 significant articles
+2026-06-05 10:41:15,299  INFO       Wired AI                       → 0 significant articles
+2026-06-05 10:41:15,444  INFO       TechCrunch AI                  → 4 significant articles
+2026-06-05 10:41:15,444  INFO     Fetching images for top articles…
+2026-06-05 10:41:15,911  INFO       🖼  TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewe
+2026-06-05 10:41:15,965  INFO       🖼  Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doub
+2026-06-05 10:41:15,996  INFO       🖼  Airbnb’s Brian Chesky plans to launch a new AI lab
+2026-06-05 10:41:16,040  INFO       🖼  Why Privacy-First Mobile Apps Need Flutter On-Device AI Deve
+2026-06-05 10:41:16,100  INFO       🖼  What Is Elixir Used For? Use Cases, Benefits, and Limits
+2026-06-05 10:41:16,100  INFO     Total selected: 24 articles from 15 feeds
+2026-06-05 10:41:16,100  INFO     Selected 24 significant articles
+2026-06-05 10:41:16,100  INFO     Step 2/3 — Generating digest…
+2026-06-05 10:41:16,436  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-05 10:41:16,436  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-05 10:41:16,436  INFO     Step 3/3 — Rendering HTML…
+2026-06-05 10:41:16,437  INFO     ────────────────────────────────────────────────────────────
+2026-06-05 10:41:16,437  INFO     Done!  Open: output/index.html
+2026-06-05 10:41:16,437  INFO     Headline: TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance
