@@ -1,0 +1,175 @@
+{
+  "digest": {
+    "headline": "Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF (Reddit r/LocalLLaMA). Dropbox Introduces Nova, an Internal Platform for Running AI Coding Agents at Scale (InfoQ). The Unseen Gap: Why Your E-commerce AI Needs Live Product Data, Not Just Features (Dev.to AI). Python Decorators Explained Simply (Dev.to Programming). TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Here model: https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF New features:  Stability for coding. Even on Q4_K_M quant (APEX Compact), with complex roleplay System Prompt. Short thinking chain. Both thinking and non-thinking modes work. Fully uncensored with Claude 4.6 Opus reasoning. Improved function and tool calling.  Model is based on this release and made via delta merge: https://www.reddit.com/r/LocalLLaMA/comments/1tm3toi/qwen3635ba3buncensoredgenesisapexmtp/ Recommended quant: APEX, APEX Compact works fine too. Recommended settings for LM Studi"
+  },
+  "articles": [
+    {
+      "id": "450260ad0b73",
+      "title": "Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyb6u7/qwen3635ba3buncensoredclaude46genesisapexgguf/",
+      "summary": "Here model: https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF New features:  Stability for coding. Even on Q4_K_M quant (APEX Compact), with complex roleplay System Prompt. Short thinking chain. Both thinking and non-thinking modes work. Fully uncensored with Claude 4.6 Opus reasoning. Improved function and tool calling.  Model is based on this release and made via delta merge: https://www.reddit.com/r/LocalLLaMA/comments/1tm3toi/qwen3635ba3buncensoredgenesisapexmtp/ Recommended quant: APEX, APEX Compact works fine too. Recommended settings for LM Studi",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-06T08:01:32+00:00",
+      "score": 4.23,
+      "image": null
+    },
+    {
+      "id": "16826c5a2fdf",
+      "title": "Dropbox Introduces Nova, an Internal Platform for Running AI Coding Agents at Scale",
+      "url": "https://www.infoq.com/news/2026/06/dropbox-nova-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Dropbox has unveiled Nova, an internal platform designed to orchestrate and operationalize AI coding agents across the company's engineering workflows. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-05T12:00:00+00:00",
+      "score": 3.62,
+      "image": "https://res.infoq.com/news/2026/06/dropbox-nova-ai-coding-agents/en/headerimage/generatedHeaderImage-1779952906697.jpg"
+    },
+    {
+      "id": "8997a7574997",
+      "title": "The Unseen Gap: Why Your E-commerce AI Needs Live Product Data, Not Just Features",
+      "url": "https://dev.to/eshopset/the-unseen-gap-why-your-e-commerce-ai-needs-live-product-data-not-just-features-3aig",
+      "summary": "Hello everyone! As a Senior Tech Writer at EShopSet, I dedicate considerable effort to understanding the intricate workings of online stores. Often, the most valuable insights stem from authentic, real-world discussions among fellow merchants. Recently, a community forum thread particularly caught my attention, highlighting a crucial aspect of AI-powered customer service tools that frequently goes entirely unaddressed.\n\nThe initial post raised a vital point: when evaluating AI helpdesks like Gorgias or Zendesk, focus typically falls on features such as pricing, user interface, integrations, an",
+      "source": "Dev.to AI",
+      "published": "2026-06-06T09:02:09+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdrive.google.com%2Fthumbnail%3Fid%3D17oCVJTswY8u3zzrH93Lm1vJc8eZ8EcrN%26sz%3Dw750"
+    },
+    {
+      "id": "3819fc39194f",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-22hc",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-06-06T08:38:34+00:00",
+      "score": 3.46,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F98qa2ktfvcax5g3comn9.png"
+    },
+    {
+      "id": "de7bc4a61b76",
+      "title": "TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance",
+      "url": "https://www.infoq.com/news/2026/06/typeorm-1-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeORM 1.0 is the first major release of the open-source TypeScript and JavaScript ORM since its inception in 2016. This version modernizes platform requirements, removes deprecated APIs, and introduces numerous bug fixes and new features. TypeORM now supports ECMAScript 2023, dropping older Node.js versions and dependencies while enhancing security and migration processes. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-05T06:52:00+00:00",
+      "score": 3.43,
+      "image": "https://res.infoq.com/news/2026/06/typeorm-1-released/en/headerimage/generatedHeaderImage-1780570519122.jpg"
+    },
+    {
+      "id": "4e488fc653ae",
+      "title": "Google will pay SpaceX $920M per month for compute",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "summary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-05T18:57:20+00:00",
+      "score": 3.4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2259661359.jpg?w=1024"
+    },
+    {
+      "id": "0fff3e247482",
+      "title": "The back cover of C++: The Language raises questions not answered by front cover",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-06T03:23:47+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "fe60d66b48e6",
+      "title": "OpenLumara - A different kind of AI agent, written from scratch, not vibecoded. Extremely token-efficient, super small system prompt, made for local models. Everything is modular.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txxgpq/openlumara_a_different_kind_of_ai_agent_written/",
+      "summary": "Hi locallama community! Yes, I know, yet another AI agent announcement post. There are a dime a dozen out there... most of them though, are vibecoded, often very sloppy, and eat through context like no tomorrow. This is different. This runs beautifully and very fast with local models on modest hardware. I've spent months working on this in my free time, with lots of manual coding, and i use it as a daily driver in my personal life, as my personal assistant managing my calendar, todos, that kinda stuff. Some folks in the koboldcpp community discord have also been using it! I believe i've manage",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-05T21:05:08+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "63771432477e",
+      "title": "PSA: Gemma 4 12B is NOT completely broken for coding and tool calling, you need a special chat template",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txro73/psa_gemma_4_12b_is_not_completely_broken_for/",
+      "summary": "This is a PSA for people like me who tried it and hit the wall with tool calls failing left and right, so much so that harnesses like OpenCode just didn't work: There is a fix for that. You need to pass a better chat template file, which is available (I did not write it). See also this comment. To actually use it with llama.cpp, first compile llama.cpp from source, then download the chat template file I linked above, then try this (8 bit quant in this case): ./build/bin/llama-server -hf unsloth/gemma-4-12b-it-GGUF:UD-Q8_K_XL --host 127.0.0.1 --port 8899 --jinja --chat-template-file ./custom-pu",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-05T17:31:53+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "58e95e227e0f",
+      "title": "I implemented KVarN in my llama.cpp fork and ran KLD benchmarks. It's promising!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1txlhxu/i_implemented_kvarn_in_my_llamacpp_fork_and_ran/",
+      "summary": "Saw this post here yesterday: KVarN: new KV-cache quant from Huawei. 3–5× KV cache compression with actual speed-up instead of slow-down, and unlike TurboQuant it holds up on reasoning (Apache 2.0, vLLM single flag) Cheap KV cache with good precision? Sign me up! Oh, vLLM only... Wait, I do have my own llama.cpp fork, and I do have an extensive reference for KLD benchmarking. I should act! And so I acted. Until 6 am. So now KVarN is implemented in a publicly available BeeLlama.cpp v0.3.2 Preview, and you can literally just try it yourself: download a prebuilt, launch it with --cache-type-k kva",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-05T13:48:37+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "df971a5c93c9",
+      "title": "My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server",
+      "url": "https://towardsdatascience.com/my-ai-couldnt-see-my-files-i-built-a-zero-dependency-mcp-server/",
+      "summary": "I got tired of copying files into an AI chat just to get feedback. So I built a pure Python MCP server that gives AI tools direct access to my local project—no frameworks, no dependencies. It runs over stdio for local use and switches to HTTP/SSE for concurrent clients with a single flag. The result: 5 clients, under 50ms, and a design that stays simple without sacrificing capability.\nThe post My AI Couldn’t See My Files — I Built a Zero-Dependency MCP Server appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-05T16:30:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "ae02b76f90c7",
+      "title": "How Netflix Maps Thousands of Microservices in Real-Time",
+      "url": "https://www.infoq.com/news/2026/06/netflix-microservices-realtime/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Netflix has shared details about Service Topology. This internal system creates and updates a live dependency graph for thousands of microservices. It helps engineers see how services connect and resolve issues more quickly. The system merges three separate data sources into a single, queryable graph. It updates almost in real-time as traffic patterns shift. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-06-05T12:00:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "550b9f25e3e8",
+      "title": "How to Fine-Tune an SLM for Emotion Recognition",
+      "url": "https://towardsdatascience.com/how-to-fine-tune-an-slm-for-emotion-recognition/",
+      "summary": "Python tutorial for fine-tuning a Mistral Small 3.1 on an imbalanced training set to classify 15 emotions in social media communication\nThe post How to Fine-Tune an SLM for Emotion Recognition appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-05T12:00:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "1858a5daeecf",
+      "title": "Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns",
+      "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+      "summary": "Anthropic has been growing at a breakneck pace. The company announced that annualized revenue crossed $47 billion in May, up dramatically from roughly $9 billion at the end of 2025. That trajectory faces a real test, though.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T22:43:26+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "6e07b148513b",
+      "title": "Airbnb’s Brian Chesky plans to launch a new AI lab",
+      "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+      "summary": "The Airbnb CEO said last year it hasn't struck an LLM partnership because existing products weren't quite ready.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-04T22:29:50+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "f8bc7438a7f8",
+      "title": "Automate Writing Your LLM Prompts",
+      "url": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
+      "summary": "Using DSPy to automatically create, evaluate, and optimize your prompts\nThe post Automate Writing Your LLM Prompts appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-05T13:30:00+00:00",
+      "score": 2.4,
+      "image": null
+    }
+  ]
+}

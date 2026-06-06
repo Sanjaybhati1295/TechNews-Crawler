@@ -961,3 +961,37 @@
 2026-06-05 10:41:16,437  INFO     ────────────────────────────────────────────────────────────
 2026-06-05 10:41:16,437  INFO     Done!  Open: output/index.html
 2026-06-05 10:41:16,437  INFO     Headline: TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewed Maintenance
+2026-06-06 09:18:35,949  INFO     ============================================================
+2026-06-06 09:18:35,949  INFO     TECHPULSE Digest — 2026-06-06 09:18 UTC
+2026-06-06 09:18:35,949  INFO     ============================================================
+2026-06-06 09:18:35,949  INFO     Step 1/3 — Crawling feeds…
+2026-06-06 09:18:36,088  INFO       Hacker News                    → 1 significant articles
+2026-06-06 09:18:36,377  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-06 09:18:36,560  INFO       Ars Technica                   → 0 significant articles
+2026-06-06 09:18:37,706  INFO       The Register AI                → 0 significant articles
+2026-06-06 09:18:37,861  INFO       MIT Tech Review                → 0 significant articles
+2026-06-06 09:18:38,128  INFO       Dev.to AI                      → 1 significant articles
+2026-06-06 09:18:38,365  INFO       Dev.to Programming             → 1 significant articles
+2026-06-06 09:18:38,639  INFO       GitHub Blog                    → 0 significant articles
+2026-06-06 09:18:39,717  INFO       Google Research                → 0 significant articles
+2026-06-06 09:18:40,642  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-06-06 09:18:41,554  INFO       Reddit r/LocalLLaMA            → 4 significant articles
+2026-06-06 09:18:41,884  INFO       InfoQ                          → 3 significant articles
+2026-06-06 09:18:42,110  INFO       Towards Data Science           → 3 significant articles
+2026-06-06 09:18:42,418  INFO       Wired AI                       → 0 significant articles
+2026-06-06 09:18:42,495  INFO       TechCrunch AI                  → 3 significant articles
+2026-06-06 09:18:42,495  INFO     Fetching images for top articles…
+2026-06-06 09:18:42,882  INFO       🖼  Dropbox Introduces Nova, an Internal Platform for Running AI
+2026-06-06 09:18:42,984  INFO       🖼  The Unseen Gap: Why Your E-commerce AI Needs Live Product Da
+2026-06-06 09:18:43,075  INFO       🖼  Python Decorators Explained Simply
+2026-06-06 09:18:43,376  INFO       🖼  TypeORM Reaches 1.0 After Nearly a Decade, Signalling Renewe
+2026-06-06 09:18:43,449  INFO       🖼  Google will pay SpaceX $920M per month for compute
+2026-06-06 09:18:43,449  INFO     Total selected: 16 articles from 15 feeds
+2026-06-06 09:18:43,449  INFO     Selected 16 significant articles
+2026-06-06 09:18:43,449  INFO     Step 2/3 — Generating digest…
+2026-06-06 09:18:43,928  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-06 09:18:43,928  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-06 09:18:43,928  INFO     Step 3/3 — Rendering HTML…
+2026-06-06 09:18:43,929  INFO     ────────────────────────────────────────────────────────────
+2026-06-06 09:18:43,929  INFO     Done!  Open: output/index.html
+2026-06-06 09:18:43,929  INFO     Headline: Qwen3.6-35B-A3B-Uncensored-Claude-4.6-Genesis-APEX-GGUF
