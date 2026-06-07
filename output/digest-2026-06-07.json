@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "ExtendDB: Open Source Amazon DynamoDB Compatible Adapter with Pluggable Storage Backends",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "ExtendDB: Open Source Amazon DynamoDB Compatible Adapter with Pluggable Storage Backends (InfoQ). Clustering 3x Jetson Nano Orin Supers (Reddit r/LocalLLaMA). I keep wondering: if AI already writes 22-46% of new code, what is MAI-Code-1 really training on? (Dev.to Programming). OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks (TechCrunch AI). Alternatives to ChromaDB for easy RAG search (Reddit r/LocalLLaMA)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "AWS recently announced ExtendDB, a DynamoDB-compatible adapter that lets developers use the DynamoDB API with different storage backends, starting with PostgreSQL. The project supports existing SDKs and tools without modification, giving teams greater flexibility to run DynamoDB-style workloads outside of native DynamoDB while maintaining compatibility with current applications and workflows. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "4fea4f046627",
+      "title": "ExtendDB: Open Source Amazon DynamoDB Compatible Adapter with Pluggable Storage Backends",
+      "url": "https://www.infoq.com/news/2026/06/extenddb-dynamodb-adapter/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced ExtendDB, a DynamoDB-compatible adapter that lets developers use the DynamoDB API with different storage backends, starting with PostgreSQL. The project supports existing SDKs and tools without modification, giving teams greater flexibility to run DynamoDB-style workloads outside of native DynamoDB while maintaining compatibility with current applications and workflows. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-07T06:25:00+00:00",
+      "score": 4.7,
+      "image": "https://res.infoq.com/news/2026/06/extenddb-dynamodb-adapter/en/headerimage/generatedHeaderImage-1779640650229.jpg"
+    },
+    {
+      "id": "9c68b277d1c5",
+      "title": "Clustering 3x Jetson Nano Orin Supers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz7s8n/clustering_3x_jetson_nano_orin_supers/",
+      "summary": "Hey everyone! Recently, I released a blog on how to setup a cluster out of your Raspberry Pi 4bs and Mac minis for distributed training and inference Now its time to do the same with Jetson Nano Orin Super! Why ? - 1024 CUDA Cores (Ampere) - 8GB unified memory LPDDR5 - 6x ARM Cortex-A78 @ 1728 MHz, 1024-core Ampere GPU @ 1020 MHz  This is a part of my current series where I’ll be releasing blogs and guides around learning distributed learning and building your own small compute clusters. The goal is simple: help more people get started with running and training AI models using the hardware the",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-07T09:45:30+00:00",
+      "score": 4.09,
+      "image": null
+    },
+    {
+      "id": "5415bfd9c07c",
+      "title": "I keep wondering: if AI already writes 22-46% of new code, what is MAI-Code-1 really training on?",
+      "url": "https://dev.to/carlosortet/i-keep-wondering-if-ai-already-writes-22-46-of-new-code-what-is-mai-code-1-really-training-on-2m1k",
+      "summary": "A budgeting note that bites everyone the first time: with any reasoning model you pay for the 'thinking tokens' even though they never show up in the response (they can run up to ~6x the cost of input tokens), and you eat 40 to 90 seconds of latency on tasks a classic LLM answers instantly. \n\nReserve reasoning for deliberate work (architecture reviews, migrations, incident post-mortems). Use a fast model for autocomplete. More thinking is not always better.\n\nFor price context while you wait for MAI numbers: OpenAI o3 sits at $10/$40 per 1M in/out tokens, Gemini 2.5 Pro at $1.25/$10 with a 200K",
+      "source": "Dev.to Programming",
+      "published": "2026-06-07T09:27:46+00:00",
+      "score": 4.07,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzq8fa8kbue6zn3iocpcf.png"
+    },
+    {
+      "id": "7140b0758202",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T20:32:24+00:00",
+      "score": 3.86,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2201630077.jpg?resize=1200,798"
+    },
+    {
+      "id": "6c9bef3306b6",
+      "title": "Alternatives to ChromaDB for easy RAG search",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tz2akk/alternatives_to_chromadb_for_easy_rag_search/",
+      "summary": "I'm disappointed that ChromaDB's local, free &quot;single node&quot; version is still getting second-class, hand-me-down features while the &quot;distributed&quot; version (a SaaS offering, unsurprisingly) gets built in hybrid search, BM25, etc. I tried to give the benefit of the doubt and wait, but half a year later there's not even an announcement or discussion of feature parity on the roadmap.  What are some truly open source, on-premises alternatives well suited to semantically searching and re-ranking large collections of long (200+ page) documents? Exact string matches, semantic matches,",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-07T04:30:42+00:00",
+      "score": 3.8,
+      "image": null
+    },
+    {
+      "id": "ef693cf49582",
+      "title": "Research collection of Arxiv whitepapers [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
+      "summary": "I read and collected Arxiv whitepapers starting after the launch of ChatGPT. I copied and pasted excerpts into Word to track them. Then migrated to Obsidian. That vault of some 1700 papers is now online. I figured it was time to see if others would find the collection useful.  My whitepapers were organized into some 90 categories, all of which emerged from paper topics. New categories became necessary with the discussion of new methods, techniques, models etc. If I wanted to write about a topic, I'd upload an md file containing research excerpts on that topic to ChatGPT. This worked to a degre",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-07T08:59:58+00:00",
+      "score": 3.75,
+      "image": null
+    },
+    {
+      "id": "3e0e4332a400",
+      "title": "How to build a faceless YouTube channel with AI in 30 days",
+      "url": "https://dev.to/already_herellc_c954583f/how-to-build-a-faceless-youtube-channel-with-ai-in-30-days-2mf0",
+      "summary": "How to Build a Faceless YouTube Channel with AI in 30 Days\n\n\nIn today's digital landscape, building a income-generating YouTube channel without showing your face is entirely feasible, thanks to AI tools. This guide will walk you through the process of creating a faceless YouTube channel in just 30 days, monetizing it effectively, and earning passive income. Let’s dive into the essential steps and recommended tools that will help you achieve your goal.\n\n\n  \n  \n  Day 1-7: Setting Up Your Channel\n\n\n\n  \n  \n  Choose Your Niche\n\n\nThe first step is to select a niche that interests you and has a poten",
+      "source": "Dev.to AI",
+      "published": "2026-06-07T09:39:26+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "e72c68e4215a",
+      "title": "What Metrics Should I Track to Know If My AI Lead Generation Efforts Are Working?",
+      "url": "https://dev.to/robozillaai/what-metrics-should-i-track-to-know-if-my-ai-lead-generation-efforts-are-working-4h74",
+      "summary": "Track metrics across the full funnel: lead volume, lead quality (MQL-to-SQL conversion rate), cost per lead, conversion rate, customer acquisition cost, and return on investment. The strongest signal isn't raw volume — it's whether your AI is producing qualified leads that close at a lower cost over time.\n\n\n  \n  \n  Why is tracking the right metrics the hard part?\n\n\nMost small and mid-sized businesses don't lack data — they drown in it. AI lead generation tools surface clicks, opens, form fills, chat sessions, and \"leads\" by the hundreds. The problem is that vanity metrics feel like progress wh",
+      "source": "Dev.to AI",
+      "published": "2026-06-07T09:37:27+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "7a90fdb8cf1b",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-j6c",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-06-07T09:14:06+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "ff22280a3615",
+      "title": "Z.ai, we need Air! GLM GGUF wen?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyresc/zai_we_need_air_glm_gguf_wen/",
+      "summary": "First we never saw an upgraded Air model after 4.5. Then GLM 4.7 Turbo was great, but quickly surpassed for coding. Now GLM 5.1 is a coding beast, but too huge for most to run locally, and even slow on API. Will we ever get another Air model with frontier reasoning and knowledge? Or a turbo model that surpasses Qwen 3.6 35B in agentic coding with way fewer tokens? Will you QAT like Gemma to leave Qwen in the dust?  &#32; submitted by &#32;  /u/temperature_5   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-06T20:06:46+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "b72b02100a67",
+      "title": "Does it make sense to use alternative quantizations of QAT models? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyo8gf/does_it_make_sense_to_use_alternative/",
+      "summary": "From TF's website:  Quantization aware training emulates inference-time quantization, creating a model that downstream tools will use to produce actually quantized models.  So is it designed to work with a very specific quantization method (for Gemma-4, presumably, Google's own)? Or would it make sense to use alternative quantization methods? According to the benchmarks unsloth released, its (alternative) quantizations of Gemma-4-QAT are closer to the QAT fine-tunes, but is this a good thing, or does it defeat the purpose of QAT?  &#32; submitted by &#32;  /u/we_are_mammals   [link] &#32; [com",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-06T18:02:28+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "e6765aaa71b7",
+      "title": "ML reading group to read recent interesting and trending papers from ICML/ICLR/NeurIPS [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyy0vj/ml_reading_group_to_read_recent_interesting_and/",
+      "summary": "Hi, I am a PhD student and trying to run a ML reading group focused on interpretability and robustness every weekend. Its always nice to hear different takes and opinions on a paper and this discussion group could serve the purpose. If you are a fellow PhD student or a ML researcher interested in reading recent papers in depth then please fill this google form to be added in the group for receiving further updates on when we can meet and discuss: https://docs.google.com/forms/d/e/1FAIpQLSdNg4x60lUHV7YW_kKPFlpPR3Rom_rOovbryD8YtOGQR8x0Kw/viewform  &#32; submitted by &#32;  /u/Ok_Access_9159   [l",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-07T00:58:14+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "4f81c8a2d12c",
+      "title": "RTX 3090 EBay Pricing is Crazy!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tysbyj/rtx_3090_ebay_pricing_is_crazy/",
+      "summary": "Couple of years ago, before Local LLMs were in vogue, I bought 8 RTX 3090 @ $700 each to build a AI rig, it been working great and I was looking to build another to increase my capacity but looking at EBay those are now selling for 1,300 -1,500 range! That price seems totally crazy because on my main machine I have 3090 Ti that I bought new 5 years ago for about 1,400. Needless to say, I was in shock and started looking for other GPUs. Then I went to Amazon and can buy a brand spanking new 3090 for 1,550! Please tell me if you can buy a new GPU with great thermals why are people buying 5 years",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-06T20:44:46+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "f35a68f58dac",
+      "title": "120 tok/s on 12GB VRAM with Gemma 4 12B QAT MTP",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1typjmc/120_toks_on_12gb_vram_with_gemma_4_12b_qat_mtp/",
+      "summary": "Google just released the QAT (Quantization-Aware Training) variant of their Gemma 4 models, including 12B, so it was only natural for me to benchmark it on my 12GB GPU since it fits entirely in VRAM. I was pleasantly surprised with the result! By using llama.cpp patched with the Gemma 4 MTP PR, and loading Unsloth's gemma-4-12B-it-qat-GGUF quant and Google's gemma-4-12B-it-qat-q4_0-unquantized-assistant QAT assistant / draft model, which I converted to GGUF and uploaded to HuggingFace as gemma-4-12B-it-qat-assistant-MTP-Q8_0-GGUF using llama.cpp's convert_hf_to_gguf.py, I was able to achieve 1",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-06T18:53:19+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "0be181f79089",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T18:13:36+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "a8cf56fd7589",
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-06T17:42:15+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "3427b53348b5",
+      "title": "Training-free graph SSL matches GCN with 5× fewer labels — live demo [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyovlr/trainingfree_graph_ssl_matches_gcn_with_5_fewer/",
+      "summary": "Hi all, I have been working on this method based on a hunch along with many llm for quite some time. Though first it was being engineered by me but I was learning in supervised ml area but this hunch took to semi-supervised ml and that to too deep. I then became llm orchestrator of sort while 4 llm's tried to figure it out. I put up a live demo on Hugging Face Spaces where you can try it yourself — set the number of labels, click run, see the accuracy. No installation, no code required. Brief about method Optimus — Graph SSL under Extreme Label Scarcity   Key Results (PathMNIST, N=2000, 9 clas",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-06T18:27:18+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "9d9a5dead3f4",
+      "title": "It felt good to return my Asus Spark",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tyo03k/it_felt_good_to_return_my_asus_spark/",
+      "summary": "It's an incredible little package but too expensive of a price to pay for the performance and I simply didn't want to be part of the great &quot;Superchip lie&quot; - it could be super, but its super ruined by its limited memory bandwidth even though it *could* be 2x throughput - it isn't. (The c2c is 600gb/sec but the memory isn't) I wanted better experience for larger models and these fail miserably at 27b and do ok at MoE's which actually shine on much cheaper hardware, and I don't have the interest or wallet to buy 3-8 of these to go &quot;All in private&quot; and still just be at a few to",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-06T17:53:41+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "4ae0c37e2003",
+      "title": "My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax",
+      "url": "https://towardsdatascience.com/my-scipy-ode-solver-was-killing-my-bayesian-inference-a-cosmologists-honest-account-of-discovering-diffrax/",
+      "summary": "what it costs, what it gains and the three mistakes that I make\nThe post My SciPy ODE Solver Was Killing My Bayesian Inference: A Cosmologist’s Honest Account of Discovering Diffrax appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-06T13:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    }
+  ]
+}
