@@ -1,0 +1,299 @@
+{
+  "digest": {
+    "headline": "Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine",
+    "tldr": "Today's digest covers 28 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine (InfoQ). Microsoft Launches Logic Apps Automation at Build 2026 (InfoQ). 🎥AI Chat, AI Cheering Messages, and Animation Editor Hyper (AI Avatar v10: VS Code and Chrome Extension) (Dev.to AI). Microsoft Discovery Reaches GA on Azure, Powering the Agentic AI Behind Majorana 2 Quantum Chip (InfoQ). Podcast: From MCP and Vibe Coding to Harness Engineering: How Did AI Native Engineering Evolve in One Year (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Building a Multi-Agent System in Python (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Rocicorp has released Zero 1.0, a stable version of its sync engine after two years of development. This update introduces a schema change hook for Supabase and includes bug fixes. Zero operates by pairing a client library with a read-only Postgres cache. Community feedback highlights positive developer experience but raises concerns about production readiness and existing limitations. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "411aa049dbe4",
+      "title": "Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine",
+      "url": "https://www.infoq.com/news/2026/06/zero-version-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rocicorp has released Zero 1.0, a stable version of its sync engine after two years of development. This update introduces a schema change hook for Supabase and includes bug fixes. Zero operates by pairing a client library with a read-only Postgres cache. Community feedback highlights positive developer experience but raises concerns about production readiness and existing limitations. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-08T07:49:00+00:00",
+      "score": 5.28,
+      "image": "https://res.infoq.com/news/2026/06/zero-version-1/en/headerimage/generatedHeaderImage-1780588206289.jpg"
+    },
+    {
+      "id": "846a1f3024b4",
+      "title": "Microsoft Launches Logic Apps Automation at Build 2026",
+      "url": "https://www.infoq.com/news/2026/06/azure-logic-apps-automation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced Logic Apps Automation at Build 2026, a new SKU at auto.azure.com packaging workflows, AI agents, knowledge services, and model access into a managed SaaS experience. Agents integrate via agent-loop orchestration, Foundry agents, and managed sandbox. Knowledge as a Service provides a fully managed RAG pipeline. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-08T08:00:00+00:00",
+      "score": 4.79,
+      "image": "https://res.infoq.com/news/2026/06/azure-logic-apps-automation/en/headerimage/generatedHeaderImage-1780670447806.jpg"
+    },
+    {
+      "id": "be88aabde9d5",
+      "title": "🎥AI Chat, AI Cheering Messages, and Animation Editor Hyper (AI Avatar v10: VS Code and Chrome Extension)",
+      "url": "https://dev.to/webdeveloperhyper/ai-chat-ai-cheering-messages-and-animation-editor-hyper-ai-avatar-v10-vs-code-and-chrome-1noo",
+      "summary": "Intro\n\n\nAI Avatar is a completely free app that lets your VRoid (VRM) 3D avatar animate in response to AI chat and the Enter key in VS Code and Chrome (Edge). I have been updating AI Avatar since March. This time, I made two big updates: new AI functions and a complete renewal of the Animation Editor. Let's take a look at them.\n\n\n  \n  \n  1. New AI Functions\n\n\n\n  \n  \n  1-1. AI Chat\n\n\nAI Avatar triggers 3D avatar animations through Claude Code and GitHub Copilot chat as an AI feature. However, I haven't integrated API-based AI or local LLMs yet. My DEV.to friends @gramli used local LLMs, and @be",
+      "source": "Dev.to AI",
+      "published": "2026-06-08T11:40:09+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F40t4tazix6m9tusvmvge.png"
+    },
+    {
+      "id": "2f37f2226ba1",
+      "title": "Microsoft Discovery Reaches GA on Azure, Powering the Agentic AI Behind Majorana 2 Quantum Chip",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-discovery-majorana-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced the general availability of Microsoft Discovery, its Azure-based platform for deploying autonomous AI agent teams in scientific R&amp;D. The platform powered the development of Majorana 2, a topological quantum chip with 1,000x reliability improvement and 20-second qubit lifetimes. Microsoft now targets a scalable quantum computer by 2029, halving its original timeline. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-08T09:08:00+00:00",
+      "score": 4.05,
+      "image": "https://res.infoq.com/news/2026/06/microsoft-discovery-majorana-2/en/headerimage/generatedHeaderImage-1780831902723.jpg"
+    },
+    {
+      "id": "bff9921f40b1",
+      "title": "Podcast: From MCP and Vibe Coding to Harness Engineering: How Did AI Native Engineering Evolve in One Year",
+      "url": "https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Birgitta Böckeler, Distinguished Engineer at Thoughtworks, returns to discuss the rapid evolution of AI in software delivery. She touches on the evolution from vibe coding, the changing tools landscape and the more autonomous agents that, besides higher velocity, introduce higher risk. By Birgitta Böckeler",
+      "source": "InfoQ",
+      "published": "2026-06-08T11:00:00+00:00",
+      "score": 3.85,
+      "image": "https://res.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/en/card_header_image/birgitta-bockeler-twitter-card-1780402200354.jpg"
+    },
+    {
+      "id": "2fec76d95d50",
+      "title": "Presentation: Mitigating Geopolitical Risks with Local-First Software and atproto",
+      "url": "https://www.infoq.com/presentations/cloud-computing-technological-sovereignty-multi-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Martin Kleppmann discusses the urgent need for technological sovereignty in modern infrastructure. Exploring the shifting landscape of global tech dependencies, he shares how engineering leaders can leverage multi-cloud architecture, de facto API standardization, the AT Protocol, and local-first development paradigms to reclaim user agency and build highly resilient systems. By Martin Kleppmann",
+      "source": "InfoQ",
+      "published": "2026-06-08T11:00:00+00:00",
+      "score": 3.85,
+      "image": "https://res.infoq.com/presentations/cloud-computing-technological-sovereignty-multi-cloud/en/card_header_image/martin-kleppmann-twitter-card-1780662029074.jpg"
+    },
+    {
+      "id": "95b8c3a66d96",
+      "title": "How to Tell If an AI Tool Was Built for Enterprise or Retrofitted for It",
+      "url": "https://dev.to/mirasloan/how-to-tell-if-an-ai-tool-was-built-for-enterprise-or-retrofitted-for-it-1e48",
+      "summary": "The difference shows up in the details nobody puts in the demo.\n\n\n\n\nThere are two kinds of enterprise AI tools.\n\nThe first kind was designed for enterprise from the beginning. The access control model, the audit logging, the admin infrastructure, the data handling architecture — these were built into the product's core design, not added later.\n\nThe second kind was built for consumers or small teams, found product-market fit, and then added enterprise features in response to customer demand. The \"enterprise tier\" is a pricing layer on top of a product that was never designed with enterprise req",
+      "source": "Dev.to AI",
+      "published": "2026-06-08T11:38:51+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "50b7852467bc",
+      "title": "Terraform 1.15 Closes Gap to OpenTofu on Dynamic Sources and Deprecation",
+      "url": "https://www.infoq.com/news/2026/06/terraform-1-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has released Terraform 1.15, introducing dynamic module sources, a formal deprecation mechanism for variables and outputs, a new inline type conversion function, type constraints for output blocks, and native Windows ARM64 support. The release addresses several long-standing requests from the Terraform community. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-08T08:00:00+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "7309b12a5033",
+      "title": "High-Rated Buy Verified PayPal Accounts Provider",
+      "url": "https://dev.to/buygo2bank1650/high-rated-buy-verified-paypal-accounts-provider-259g",
+      "summary": "Are you tired of facing sudden payment limitations that halt your business growth? Many digital entrepreneurs struggle with the fragile nature of new merchant profiles, often leading to revenue holds. To solve this, savvy professionals choose to Buy Verified PayPal Accounts from the industry leaders at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification bottlenecks. Our service provides a robust, ready-to-use financial gateway, allowing you to focus on scaling your brand while we ha",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:20:58+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "94a1a1c4349f",
+      "title": "vllm-doctor — a CLI tool to diagnose and monitor vLLM inference servers",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u02mow/vllmdoctor_a_cli_tool_to_diagnose_and_monitor/",
+      "summary": "vllm-doctor reads metrics from a vLLM server's /metrics endpoint or a Prometheus instance and runs rule-based checks to find what is wrong. It detects queue pressure, high TTFT/TPOT, KV cache pressure, and other rules across pods. Each finding comes with the metrics that triggered it, a confidence level, likely causes, and concrete recommendations. vllm-doctor http://localhost:8000/metrics Output is human-readable text or JSON for automation, and a --watch mode refreshes continuously. The project is open source and still early. Feedback on missing diagnoses would be very welcome. https://githu",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-08T09:10:58+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "39865c3fd35a",
+      "title": "Should ArXiv backtrack endorsement? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u03yot/should_arxiv_backtrack_endorsement_d/",
+      "summary": "ArXiv has an endorsement system for a reason. I would only offer endorsement to whom I have direct academic collaboration or mentorship with, since I'm putting my own academic reputation on the stake. This is also the standard of almost any serious academic researcher I am aware of. Now ArXiv is making effort to crack down AI slop and banning accounts uploading low-quality research papers, which is a great initiative. By definition of an &quot;endorsement&quot;, I wish ArXiv could backtrack and at least issue warnings to their endorsers, and if this happens multiple times (let's say three), pe",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-08T10:26:32+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "74622a07e763",
+      "title": "I Will Configure Buy Verified PayPal Checkout for Your Website",
+      "url": "https://dev.to/buygo2bank1638/i-will-configure-buy-verified-paypal-checkout-for-your-website-48gk",
+      "summary": "Are you tired of facing constant payment hurdles that prevent your business from reaching its true potential? Every digital entrepreneur knows the pain of sudden account limitations that disrupt cash flow and shake customer confidence. To bypass these administrative barriers, many successful professionals choose to Buy Verified PayPal Accounts from the industry-leading experts at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use ",
+      "source": "Dev.to AI",
+      "published": "2026-06-08T11:42:29+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "075fe06842bd",
+      "title": "🚀 Event-Driven Architecture (EDA): How Modern Applications React Instantly Without Breaking Under Pressure",
+      "url": "https://dev.to/okoye_ndidiamaka_5e3b7d30/event-driven-architecture-eda-how-modern-applications-react-instantly-without-breaking-under-3i93",
+      "summary": "“The moment a customer clicked ‘Buy’… everything just happened.”\n\nNo waiting.\nNo manual triggers.\nNo backend bottlenecks.\n\nPayment processed.\nInventory updated.\nConfirmation sent.\nAnalytics recorded.\n\nAll within seconds—automatically.\n\nThat is the invisible engine behind many modern scalable systems:\n\n👉 Event-Driven Architecture (EDA)\n\nAnd once you understand it, you start seeing it everywhere in modern web applications.\n\n🧠 What Is Event-Driven Architecture?\n\nEvent-Driven Architecture (EDA) is a software design approach where systems respond to events instead of continuously polling or waiting",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:30:17+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "afc927481be2",
+      "title": "I Will Help Resolve Common Buy Verified PayPal Account Issues",
+      "url": "https://dev.to/buygo2bank1650/i-will-help-resolve-common-buy-verified-paypal-account-issues-41f1",
+      "summary": "Are you ready to scale your digital business without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial gateway, allowing you ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:28:03+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "b4325ba22259",
+      "title": "I Will Set Up Buy Verified PayPal Payment Gateway for Your Store",
+      "url": "https://dev.to/buygo2bank1650/i-will-set-up-buy-verified-paypal-payment-gateway-for-your-store-44dj",
+      "summary": "Are you ready to scale your digital business without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial gateway, allowing you ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:27:42+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "2a055e87184e",
+      "title": "I Will Help Optimize Your Buy Verified PayPal Business Profile",
+      "url": "https://dev.to/buygo2bank1708/i-will-help-optimize-your-buy-verified-paypal-business-profile-hi1",
+      "summary": "Are you ready to elevate your digital business to a global scale without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial ga",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:27:35+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "a34683268d6d",
+      "title": "I Will Assist With Buy Verified PayPal Account Verification Guidance",
+      "url": "https://dev.to/buygo2bank16128/i-will-assist-with-buy-verified-paypal-account-verification-guidance-1npf",
+      "summary": "Are you ready to scale your digital business without the frustration of constant payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial gateway, allowing you ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:27:22+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "dc132b420042",
+      "title": "I Will Assist With Buy Verified PayPal Integration for Your Website",
+      "url": "https://dev.to/buygo2bank1650/i-will-assist-with-buy-verified-paypal-integration-for-your-website-3555",
+      "summary": "Are you ready to elevate your digital business to a global scale without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial ga",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:21:21+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "103f73bb052a",
+      "title": "I Will Provide Buy Verified PayPal Business Setup Support",
+      "url": "https://dev.to/buygo2bank1708/i-will-provide-buy-verified-paypal-business-setup-support-5f75",
+      "summary": "Are you looking to scale your digital business without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial gateway, allowing yo",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:20:25+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "a6a8ff360518",
+      "title": "I Will Help You Set Up a Buy Verified PayPal Business Account",
+      "url": "https://dev.to/buygo2bank16128/i-will-help-you-set-up-a-buy-verified-paypal-business-account-3l50",
+      "summary": "Are you ready to elevate your digital business to a global scale without the constant frustration of payment roadblocks? Many emerging entrepreneurs face the harsh reality of sudden account limitations that freeze revenue and halt growth. To bypass these common hurdles, successful business owners choose to Buy Verified PayPal Accounts from the industry-leading team at www.BuyGo2Bank.Com. By securing a pre-authenticated and mature account, you gain the immediate power to process global transactions without the typical verification delays. Our service provides a robust, ready-to-use financial ga",
+      "source": "Dev.to Programming",
+      "published": "2026-06-08T11:19:43+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "83a5a96be540",
+      "title": "GMKtec Crams OCuLink, Wi-Fi 7 and Dual PCIe 4.0 Into the EVO-X3, With a 192GB Ryzen AI MAX+ 495 Monster Following Later This Year",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzgafl/gmktec_crams_oculink_wifi_7_and_dual_pcie_40_into/",
+      "summary": "First strix 495 hardware i have seen announced/leaker.  Looks like decent hardware upgraded io. No prices yet that I see sadly.  &#32; submitted by &#32;  /u/mindwip   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-07T16:12:12+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "4fea4f046627",
+      "title": "ExtendDB: Open Source Amazon DynamoDB Compatible Adapter with Pluggable Storage Backends",
+      "url": "https://www.infoq.com/news/2026/06/extenddb-dynamodb-adapter/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced ExtendDB, a DynamoDB-compatible adapter that lets developers use the DynamoDB API with different storage backends, starting with PostgreSQL. The project supports existing SDKs and tools without modification, giving teams greater flexibility to run DynamoDB-style workloads outside of native DynamoDB while maintaining compatibility with current applications and workflows. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-07T06:25:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "3056f0816dc9",
+      "title": "2-bit QAT model releases",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tzlt37/2bit_qat_model_releases/",
+      "summary": "So far model releases that take advantage of Quantization Aware Training (QAT) have been focused on 4-bit. I’m curious what could be accomplished with a larger MoE model around 120b up to 400b. Obviously the model could not approach 8/16 bit performance, but perhaps this could be a better alternative to training a ternary LLM (1.58 bit) from scratch. At these sizes you could fit the model into consumer computers running 64/128 gb RAM and perhaps it could out perform a model at about half the size (80b/235b) at 4-bit precision. I suspect the reason it wouldn’t be tried is tooling and coding mig",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-07T19:38:31+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "563ba010109d",
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "url": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-08T01:39:30+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "708f7c0b3dd0",
+      "title": "We Should Train AI to Betray Its Users",
+      "url": "https://towardsdatascience.com/we-should-train-ai-to-betray-its-users/",
+      "summary": "Because the alternative is much too dangerous\nThe post We Should Train AI to Betray Its Users appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-07T15:00:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "ef693cf49582",
+      "title": "Research collection of Arxiv whitepapers [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
+      "summary": "I read and collected Arxiv whitepapers starting after the launch of ChatGPT. I copied and pasted excerpts into Word to track them. Then migrated to Obsidian. That vault of some 1700 papers is now online. I figured it was time to see if others would find the collection useful. My whitepapers were organized into some 90 categories, all of which emerged from paper topics. New categories became necessary with the discussion of new methods, techniques, models etc. If I wanted to write about a topic, I'd upload an md file containing research excerpts on that topic to ChatGPT. This worked to a degree",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-07T08:59:58+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "227c8b8b010b",
+      "title": "Building a Multi-Agent System in Python",
+      "url": "https://towardsdatascience.com/building-a-multi-agent-system-in-python/",
+      "summary": "An introduction to multi-agent systems\nThe post Building a Multi-Agent System in Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-07T13:00:00+00:00",
+      "score": 2.23,
+      "image": null
+    },
+    {
+      "id": "e6765aaa71b7",
+      "title": "ML reading group to read recent interesting and trending papers from ICML/ICLR/NeurIPS [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1tyy0vj/ml_reading_group_to_read_recent_interesting_and/",
+      "summary": "Hi, I am a PhD student and trying to run a ML reading group focused on interpretability and robustness every weekend. Its always nice to hear different takes and opinions on a paper and this discussion group could serve the purpose. If you are a fellow PhD student or a ML researcher interested in reading recent papers in depth then please fill this google form to be added in the group for receiving further updates on when we can meet and discuss: https://docs.google.com/forms/d/e/1FAIpQLSdNg4x60lUHV7YW_kKPFlpPR3Rom_rOovbryD8YtOGQR8x0Kw/viewform  &#32; submitted by &#32;  /u/Ok_Access_9159   [l",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-07T00:58:14+00:00",
+      "score": 1.66,
+      "image": null
+    }
+  ]
+}
