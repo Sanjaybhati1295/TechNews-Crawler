@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Still a VERY lightweight open web-search tool for smaller local LLMs - now with SearXNG support",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Still a VERY lightweight open web-search tool for smaller local LLMs - now with SearXNG support (Reddit r/LocalLLaMA). ChatGPT vs Claude vs Gemini in 2026: Which AI Assistant Should You Use? (Dev.to AI). Microsoft Foundry Adds Runtime, Tooling, and Governance for Production Agents (InfoQ). AWS Releases Next Generation of Amazon OpenSearch Serverless (InfoQ). Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "What Is a No-Code Website Builder and How Does It Work for Non-Developers? (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Hey everyone, TinySearch v0.2.0 (first stable beta) is out. The first version used DuckDuckGo directly, which worked well enough to prove the idea, but yeah.. relying on one search source was way too fragile lol. DDG started throwing limits/CAPTCHAs more often in the last 2 weeks, I guess they realized how many of us where doing exactly this, and for an MCP tool that agents depend on, that’s not really good enough. So in v0.2.0, TinySearch now uses SearXNG as the default search backend. Repo: https://github.com/MarcellM01/TinySearch TinySearch is still the same basic idea: A small open-source "
+  },
+  "articles": [
+    {
+      "id": "a167cb6d732b",
+      "title": "Still a VERY lightweight open web-search tool for smaller local LLMs - now with SearXNG support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u106rc/still_a_very_lightweight_open_websearch_tool_for/",
+      "summary": "Hey everyone, TinySearch v0.2.0 (first stable beta) is out. The first version used DuckDuckGo directly, which worked well enough to prove the idea, but yeah.. relying on one search source was way too fragile lol. DDG started throwing limits/CAPTCHAs more often in the last 2 weeks, I guess they realized how many of us where doing exactly this, and for an MCP tool that agents depend on, that’s not really good enough. So in v0.2.0, TinySearch now uses SearXNG as the default search backend. Repo: https://github.com/MarcellM01/TinySearch TinySearch is still the same basic idea: A small open-source ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T09:34:46+00:00",
+      "score": 4.15,
+      "image": null
+    },
+    {
+      "id": "b2af19761038",
+      "title": "ChatGPT vs Claude vs Gemini in 2026: Which AI Assistant Should You Use?",
+      "url": "https://dev.to/toty_cartooncartoon_c254/chatgpt-vs-claude-vs-gemini-in-2026-which-ai-assistant-should-you-use-3c6k",
+      "summary": "ChatGPT vs Claude vs Gemini in 2026: a fair, task-by-task comparison of writing, coding, research, images, voice, pricing, and privacy.\n\nThe honest verdict: there is no single winner. The best AI assistant in 2026 depends on what you're doing. Roughly: Claude is the favorite for writing, coding quality, and privacy; Gemini leads research, multimodality, image/video, and Google Workspace; ChatGPT wins on voice, ecosystem breadth, and all-round versatility.\n\nThis comparison is task-by-task and deliberately honest about one thing most \"best AI\" articles ignore: the specifics change monthly. Model",
+      "source": "Dev.to AI",
+      "published": "2026-06-09T10:20:13+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzdco22af07vizsxxjoo1.png"
+    },
+    {
+      "id": "a644cd8ab980",
+      "title": "Microsoft Foundry Adds Runtime, Tooling, and Governance for Production Agents",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-foundry-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft used their Build 2026 event to announce new functionality for Microsoft Foundry. Citing Foundry as \"the place where AI agents move from experiments to production systems,\" in a blog post, Nick Brady writes that the release brings “runtime, tools, memory, grounding, models, observability, and governance” that developers need for production agents, rather than just new model endpoints. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-09T08:00:00+00:00",
+      "score": 4.06,
+      "image": "https://res.infoq.com/news/2026/06/microsoft-foundry-agents/en/headerimage/generatedHeaderImage-1780920733025.jpg"
+    },
+    {
+      "id": "3df6dddc44dc",
+      "title": "AWS Releases Next Generation of Amazon OpenSearch Serverless",
+      "url": "https://www.infoq.com/news/2026/06/aws-opensearch-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon Web Services has recently announced the general availability of the next generation of Amazon OpenSearch Serverless, with a redesigned architecture that enables 20 times faster resource provisioning than the previous serverless architecture, true scale-to-zero capability, and up to 60% lower cost than a provisioned cluster for peak loads. By Gianmarco Nalin",
+      "source": "InfoQ",
+      "published": "2026-06-08T17:00:00+00:00",
+      "score": 4.03,
+      "image": "https://res.infoq.com/news/2026/06/aws-opensearch-serverless/en/headerimage/generatedHeaderImage-1780931892223.jpg"
+    },
+    {
+      "id": "411aa049dbe4",
+      "title": "Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine",
+      "url": "https://www.infoq.com/news/2026/06/zero-version-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rocicorp has released Zero 1.0, a stable version of its sync engine after two years of development. This update introduces a schema change hook for Supabase and includes bug fixes. Zero operates by pairing a client library with a read-only Postgres cache. Community feedback highlights positive developer experience but raises concerns about production readiness and existing limitations. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-08T07:49:00+00:00",
+      "score": 4.02,
+      "image": "https://res.infoq.com/news/2026/06/zero-version-1/en/headerimage/generatedHeaderImage-1780588206289.jpg"
+    },
+    {
+      "id": "27152032849b",
+      "title": "Smart Security: How AI Helps Prevent Online Fraud and Hacking",
+      "url": "https://dev.to/poddar_groupofinstituti/smart-security-how-ai-helps-prevent-online-fraud-and-hacking-3ngk",
+      "summary": "Fraud and hacking present huge problems in the modern world. Problems will only get worse as new digital banking, payments, e-commerce, and social media innovations are exploited. Smart security solutions powered by Artificial Intelligence take a different approach from the traditional reliance on rules. AI recognizes fraudulent transactions and behavior, and acts by locking the threat in real-time. Traditional systems are static. AI systems make security a growing and proactive service.\n\nIdentity theft, account takeover, and payment fraud are all instances of growing fraud that AI seeks to el",
+      "source": "Dev.to AI",
+      "published": "2026-06-09T10:16:41+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm0oapj73rc3zjbcbd42y.jpg"
+    },
+    {
+      "id": "c2d8d349f5e5",
+      "title": "Five things you need to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-09T09:16:45+00:00",
+      "score": 3.83,
+      "image": null
+    },
+    {
+      "id": "16c7c5c17f19",
+      "title": "Your AI agent kept running. Your user's session didn't survive it.",
+      "url": "https://dev.to/ablyblog/your-ai-agent-kept-running-your-users-session-didnt-survive-it-49m2",
+      "summary": "TL;DR: AI agent sessions break in production in four specific ways — and none of them are model problems. This post covers the failure modes, why the standard Redis buffer workaround has sharp edges, and what a proper session layer actually needs to provide.\n\n\n\n\nTake any AI agent demo from the last six months. It works. Now ship it to real users on real networks, real devices, real attention spans. A meaningful share of those users will never finish their first conversation cleanly. Not because the model gave a bad answer. Because the connection dropped, the tab refreshed, the phone took over ",
+      "source": "Dev.to AI",
+      "published": "2026-06-09T10:18:12+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "3fb2c7474710",
+      "title": "Changes to LLM pricing: Io Net",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-io-net-3b7j",
+      "summary": "Model price changes detected for Io Net. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-06-09T10:16:04+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "1f8a6ff184e1",
+      "title": "What Is a No-Code Website Builder and How Does It Work for Non-Developers?",
+      "url": "https://dev.to/fan-song/what-is-a-no-code-website-builder-and-how-does-it-work-for-non-developers-1aj7",
+      "summary": "The average custom website build costs between $2,500 and $10,000 and takes 8–12 weeks to launch. Meanwhile, 60% of small business owners have never learned to code, creating a significant barrier to digital presence. This gap between cost, timeline, and capability has created a market crisis—until no-code website builders emerged. These revolutionary tools democratize web development, allowing anyone—regardless of technical background—to build professional, fully functional websites without writing a single line of code. Whether you're launching a portfolio, launching an e-commerce store, or ",
+      "source": "Dev.to AI",
+      "published": "2026-06-09T10:15:52+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "fe8e734d4c4b",
+      "title": "Have we reached the point where open-source LLMs are “just good enough”?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0yo32/have_we_reached_the_point_where_opensource_llms/",
+      "summary": "The question I’m asking myself is whether open-source LLMs are now “just good enough” to meet 95% of requirements. I know, of course, that they still need to and will get even better, but where does the added value of the remaining 5% come from?  a) Better answer quality? Okay, but does that justify the extra cost? b) Cleaner automated loops? Do the extra costs justify the effort of manual interventions to produce the same or similar quality? c) Reduced risk of facing internal/external criticism for betting on the wrong/slower horse (since the prevailing opinion is that only the first ones are",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T08:02:32+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "6cd9f8f60eab",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "summary": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-08T19:41:32+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "1bde27805652",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-09T07:33:16+00:00",
+      "score": 3.54,
+      "image": null
+    },
+    {
+      "id": "846a1f3024b4",
+      "title": "Microsoft Launches Logic Apps Automation at Build 2026",
+      "url": "https://www.infoq.com/news/2026/06/azure-logic-apps-automation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced Logic Apps Automation at Build 2026, a new SKU at auto.azure.com packaging workflows, AI agents, knowledge services, and model access into a managed SaaS experience. Agents integrate via agent-loop orchestration, Foundry agents, and managed sandbox. Knowledge as a Service provides a fully managed RAG pipeline. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-08T08:00:00+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "2d7ba1a8c410",
+      "title": "Apple plays catch-up at WWDC",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "summary": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-08T21:15:42+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "42de889c09cc",
+      "title": "Can Machine Learning Predict the World Cup?",
+      "url": "https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/",
+      "summary": "Building an ML football forecaster in R\nThe post Can Machine Learning Predict the World Cup? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-09T05:53:28+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "64539ff317db",
+      "title": "Jetbrains Mellum 2: a really good and performant model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0r3jh/jetbrains_mellum_2_a_really_good_and_performant/",
+      "summary": "Oh Hey Folks, I took the Mellum 2 model for a spin, so I wanted to share my impressions here.  Disclaimer: the tests presented here are not cientific nor have those nice names like perplexity,etc. These tests are somewhat more akin to what Im working in a daily basis or how useful a model is helping me on a given task. Just saying.  First of all, being a 12b moe model with 2.5b params activated is somewhat uncommon but look at the speed:   Model JetBrains/Mellum2-12B-A2.5B-Thinking    Prompt eval 492.7 t/s   Generation 111.2 t/s   ms / token 9.0 ms   Context 131 072 tokens   KV cache bf16   Ba",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T01:28:54+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "90af96e4f66b",
+      "title": "How to Keep Quantum Information Alive for Machine Learning",
+      "url": "https://towardsdatascience.com/how-to-keep-quantum-information-alive-for-machine-learning/",
+      "summary": "Quantum Machine Learning promises powerful new ways of processing information, but quantum states are extraordinarily fragile. In this article, we explore why quantum information is so difficult to protect, how noise and decoherence introduce errors, and the fundamental ideas behind Quantum Error Correction: the technology that may make large-scale quantum machine learning possible.\nThe post How to Keep Quantum Information Alive for Machine Learning appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-08T16:30:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "090fc40da0b3",
+      "title": "Amazon now lets you design custom merch using AI",
+      "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "summary": "A new feature in the Amazon Shopping app allows users to generate designs with Alexa, then print them on products like T-shirts, hoodies, and tumblers.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-08T15:49:12+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "420106c715fa",
+      "title": "Java News Roundup: JDK 27 in Rampdown, JDK 28 Expert Group, GlassFish, Infinispan, Kotlin",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-jun01-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 1st, 2026, features news highlighting: JDK 27 in Rampdown Phase One; the formation of the JDK 28 Expert Group; the GlassFish Arquillian Connectors Suite for Jakarta EE TCKs; point releases for Infinispan and Kotlin; maintenance releases of GlassFish and Micronaut; and the June 2026 beta release of Open Liberty. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-08T13:45:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "2f37f2226ba1",
+      "title": "Microsoft Discovery Reaches GA on Azure, Powering the Agentic AI behind Majorana 2 Quantum Chip",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-discovery-majorana-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft announced the general availability of Microsoft Discovery, its Azure-based platform for deploying autonomous AI agent teams in scientific R&amp;D. The platform powered the development of Majorana 2, a topological quantum chip with 1,000x reliability improvement and 20-second qubit lifetimes. Microsoft now targets a scalable quantum computer by 2029, halving its original timeline. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-08T09:08:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "5f6433b33e6e",
+      "title": "Pinterest Uses Content Fingerprints for URL Deduplication Across Millions of Domains",
+      "url": "https://www.infoq.com/news/2026/06/pinterest-miqps-url-dedup/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Pinterest introduced MIQPS, a URL normalization system that identifies which query parameters affect page identity using rendered content fingerprints. It reduces duplicate processing across millions of domains by replacing rule-based approaches with offline analysis, anomaly detection, and runtime parameter maps, improving ingestion efficiency and scalability in large-scale content pipelines. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-06-08T14:37:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "bff9921f40b1",
+      "title": "Podcast: From MCP and Vibe Coding to Harness Engineering: How Did AI Native Engineering Evolve in One Year",
+      "url": "https://www.infoq.com/podcasts/mcp-vibe-coding-harness-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Birgitta Böckeler, Distinguished Engineer at Thoughtworks, returns to discuss the rapid evolution of AI in software delivery. She touches on the evolution from vibe coding, the changing tools landscape and the more autonomous agents that, besides higher velocity, introduce higher risk. By Birgitta Böckeler",
+      "source": "InfoQ",
+      "published": "2026-06-08T11:00:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "2fec76d95d50",
+      "title": "Presentation: Mitigating Geopolitical Risks with Local-First Software and atproto",
+      "url": "https://www.infoq.com/presentations/cloud-computing-technological-sovereignty-multi-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Martin Kleppmann discusses the urgent need for technological sovereignty in modern infrastructure. Exploring the shifting landscape of global tech dependencies, he shares how engineering leaders can leverage multi-cloud architecture, de facto API standardization, the AT Protocol, and local-first development paradigms to reclaim user agency and build highly resilient systems. By Martin Kleppmann",
+      "source": "InfoQ",
+      "published": "2026-06-08T11:00:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "869e7c888501",
+      "title": "Increase Recommendation Systems’ Precision with LLMs, Using Python",
+      "url": "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
+      "summary": "This is how LLMs are used today to increase precision in recommendation systems\nThe post Increase Recommendation Systems’ Precision with LLMs, Using Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-08T18:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "9d2e6f30bc53",
+      "title": "Xiaomi just claimed 1,000+ tps on a 1T model using a standard 8-GPU server",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u0buhm/xiaomi_just_claimed_1000_tps_on_a_1t_model_using/",
+      "summary": "Just saw Xiaomi MiMo announce MiMo-V2.5-Pro UltraSpeed, claiming they broke the 1,000 tokens/sec output barrier on a 1 trillion parameter MoE model. According to them, they’re doing it on a single standard 8-GPU node, not custom wafer-scale hardware like Cerebras and not SRAM-heavy hardware like Groq.  Crazy if true.  &#32; submitted by &#32;  /u/No-Selection2972   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-08T15:51:46+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "50b7852467bc",
+      "title": "Terraform 1.15 Closes Gap to OpenTofu on Dynamic Sources and Deprecation",
+      "url": "https://www.infoq.com/news/2026/06/terraform-1-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has released Terraform 1.15, introducing dynamic module sources, a formal deprecation mechanism for variables and outputs, a new inline type conversion function, type constraints for output blocks, and native Windows ARM64 support. The release addresses several long-standing requests from the Terraform community. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-08T08:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "158cf366cd56",
+      "title": "4 New Techniques to Maximize Claude Code",
+      "url": "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
+      "summary": "Get the most out of Claude Code with these four techniques\nThe post 4 New Techniques to Maximize Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-08T15:00:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "6b95593ca17a",
+      "title": "Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks",
+      "url": "https://towardsdatascience.com/sequential-fitting-a-different-perspective-on-the-spectral-bias-of-neural-networks/",
+      "summary": "What Fourier analysis misses\nThe post Sequential Fitting: A Different Perspective on the Spectral Bias of Neural Networks appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-08T13:30:00+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "39865c3fd35a",
+      "title": "Should ArXiv backtrack endorsement? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u03yot/should_arxiv_backtrack_endorsement_d/",
+      "summary": "ArXiv has an endorsement system for a reason. I would only offer endorsement to whom I have direct academic collaboration or mentorship with, since I'm putting my own academic reputation on the stake. This is also the standard of almost any serious academic researcher I am aware of. Now ArXiv is making effort to crack down AI slop and banning accounts uploading low-quality research papers, which is a great initiative. By definition of an &quot;endorsement&quot;, I wish ArXiv could backtrack and at least issue warnings to their endorsers, and if this happens multiple times (let's say three), pe",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-08T10:26:32+00:00",
+      "score": 2.26,
+      "image": null
+    }
+  ]
+}

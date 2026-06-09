@@ -1062,3 +1062,37 @@
 2026-06-08 11:49:23,913  INFO     ────────────────────────────────────────────────────────────
 2026-06-08 11:49:23,913  INFO     Done!  Open: output/index.html
 2026-06-08 11:49:23,913  INFO     Headline: Zero Reaches 1.0, Marking the First Stable Release of Rocicorp's Web Sync Engine
+2026-06-09 10:28:46,971  INFO     ============================================================
+2026-06-09 10:28:46,971  INFO     TECHPULSE Digest — 2026-06-09 10:28 UTC
+2026-06-09 10:28:46,971  INFO     ============================================================
+2026-06-09 10:28:46,971  INFO     Step 1/3 — Crawling feeds…
+2026-06-09 10:28:47,097  INFO       Hacker News                    → 1 significant articles
+2026-06-09 10:28:47,246  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-09 10:28:47,345  INFO       Ars Technica                   → 0 significant articles
+2026-06-09 10:28:48,520  INFO       The Register AI                → 0 significant articles
+2026-06-09 10:28:48,621  INFO       MIT Tech Review                → 1 significant articles
+2026-06-09 10:28:48,726  INFO       Dev.to AI                      → 5 significant articles
+2026-06-09 10:28:48,842  INFO       Dev.to Programming             → 0 significant articles
+2026-06-09 10:28:48,954  INFO       GitHub Blog                    → 0 significant articles
+2026-06-09 10:28:49,733  INFO       Google Research                → 0 significant articles
+2026-06-09 10:28:50,564  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-06-09 10:28:51,393  INFO       Reddit r/LocalLLaMA            → 4 significant articles
+2026-06-09 10:28:51,673  INFO       InfoQ                          → 10 significant articles
+2026-06-09 10:28:51,811  INFO       Towards Data Science           → 5 significant articles
+2026-06-09 10:28:51,969  INFO       Wired AI                       → 0 significant articles
+2026-06-09 10:28:52,055  INFO       TechCrunch AI                  → 3 significant articles
+2026-06-09 10:28:52,055  INFO     Fetching images for top articles…
+2026-06-09 10:28:52,131  INFO       🖼  ChatGPT vs Claude vs Gemini in 2026: Which AI Assistant Shou
+2026-06-09 10:28:52,331  INFO       🖼  Microsoft Foundry Adds Runtime, Tooling, and Governance for 
+2026-06-09 10:28:52,540  INFO       🖼  AWS Releases Next Generation of Amazon OpenSearch Serverless
+2026-06-09 10:28:52,736  INFO       🖼  Zero Reaches 1.0, Marking the First Stable Release of Rocico
+2026-06-09 10:28:52,797  INFO       🖼  Smart Security: How AI Helps Prevent Online Fraud and Hackin
+2026-06-09 10:28:52,797  INFO     Total selected: 30 articles from 15 feeds
+2026-06-09 10:28:52,797  INFO     Selected 30 significant articles
+2026-06-09 10:28:52,797  INFO     Step 2/3 — Generating digest…
+2026-06-09 10:28:53,571  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-09 10:28:53,571  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-09 10:28:53,571  INFO     Step 3/3 — Rendering HTML…
+2026-06-09 10:28:53,572  INFO     ────────────────────────────────────────────────────────────
+2026-06-09 10:28:53,572  INFO     Done!  Open: output/index.html
+2026-06-09 10:28:53,572  INFO     Headline: Still a VERY lightweight open web-search tool for smaller local LLMs - now with SearXNG support
