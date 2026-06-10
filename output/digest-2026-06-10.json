@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Hyperlinq Technology Launches AI Growth Systems for MSME Businesses",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Hyperlinq Technology Launches AI Growth Systems for MSME Businesses (Dev.to AI). Without open source LLMs, US AI companies could have already monopoled the technology (Reddit r/LocalLLaMA). Releasing Cohere North Mini Code (Reddit r/LocalLLaMA). Local LLms releases (Reddit r/LocalLLaMA). Introducing Papers Without Code [P] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI (GitHub Blog). 10 Common RAG Mistakes We Keep Seeing in Production (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "New AI-Powered Solutions Combine Automation, SEO, Software Development, and Analytics to Accelerate Business Growth\nHyperlinq Technology, an emerging technology and digital growth company, has announced the launch of its comprehensive AI Growth Systems for MSME businesses. The integrated solution brings together AI Automation Systems, AI Search Optimization (AI SEO), Custom Business Software, AI + CRM Automation, SaaS Development, Conversion-Focused Web Applications, AI Dashboards &amp; Analytics, Lead Generation &amp; Sales Automation, and Startup Technology Consulting under one unified ecosy"
+  },
+  "articles": [
+    {
+      "id": "ca88c7834783",
+      "title": "Hyperlinq Technology Launches AI Growth Systems for MSME Businesses",
+      "url": "https://dev.to/hyperlinqtech/hyperlinq-technology-launches-ai-growth-systems-for-msme-businesses-bm4",
+      "summary": "New AI-Powered Solutions Combine Automation, SEO, Software Development, and Analytics to Accelerate Business Growth\nHyperlinq Technology, an emerging technology and digital growth company, has announced the launch of its comprehensive AI Growth Systems for MSME businesses. The integrated solution brings together AI Automation Systems, AI Search Optimization (AI SEO), Custom Business Software, AI + CRM Automation, SaaS Development, Conversion-Focused Web Applications, AI Dashboards &amp; Analytics, Lead Generation &amp; Sales Automation, and Startup Technology Consulting under one unified ecosy",
+      "source": "Dev.to AI",
+      "published": "2026-06-10T10:36:17+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh63mgkp78aqcz7gkmygl.png"
+    },
+    {
+      "id": "781e293d3ee8",
+      "title": "Without open source LLMs, US AI companies could have already monopoled the technology",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1siyl/without_open_source_llms_us_ai_companies_could/",
+      "summary": "For such technology with clear importance and impact on all of us, I believe that making it open source is an ethical duty, otherwise, especially with the 1-sided politics of the US we experience today, they could have already monopolized the technology by now, maybe make it exclusively available to US companies only, and starve the entire world including Europe. You could disagree with China on many topics, but the fact they released a couple of powerful open source LLMs is a direct contribution to humanity. What do you think what should be the future AI model.  &#32; submitted by &#32;  /u/I",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T05:00:42+00:00",
+      "score": 4.08,
+      "image": null
+    },
+    {
+      "id": "941489d4a90f",
+      "title": "Releasing Cohere North Mini Code",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1ci1r/releasing_cohere_north_mini_code/",
+      "summary": "Hi folks! Jay here from Cohere. we just officially launched North Mini Code after getting some great feedback from you guys this weekend on the unreleased version. I wanted to come here and answer some of the questions you asked and provide some extra detail about the model itself. You can download the weights on Hugging Face (fp8 here) or try it on OpenCode for free. if you want to read more about what I mentioned in the video, feel free to look at our technical blog post on HuggingFace as well as the announcement post! If you're deploying with vllm, please use vLLM main for North Mini Code u",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T17:54:36+00:00",
+      "score": 4.06,
+      "image": null
+    },
+    {
+      "id": "604edc5c8e74",
+      "title": "Local LLms releases",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1x2b4/local_llms_releases/",
+      "summary": "Here are some graphs for the Local LLMs releases, it's strange except for the last month, i thought that this year was very heavy in terms of release, but is seems that the peak was last year. Maybe the hype about the quality improvement this year made it seems that it was richer than last year.  &#32; submitted by &#32;  /u/crowtain   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T09:18:35+00:00",
+      "score": 4.02,
+      "image": null
+    },
+    {
+      "id": "9f72e9361ba3",
+      "title": "Introducing Papers Without Code [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. I've recently relaunched paperswithcode.co as a source for finding the state of the art (SOTA) across various AI domains, from 3D generation to AI agents. This is done by automatically parsing research papers published on arXiv/Hugging Face, enabling leaderboards to be created. See BrowseComp below as an example (a scatter plot and a table are available for each benchmark). - Scatter plot (you can hover over the dots to see the models): https://preview.redd.it/9rz2r3ffcf6h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=b3f8e7a870802",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-10T08:58:36+00:00",
+      "score": 4.0,
+      "image": null
+    },
+    {
+      "id": "dc5a0d08f92f",
+      "title": "Technical SEO for developers: the checklist you should run before your site goes live",
+      "url": "https://dev.to/nilshan_5719f91/technical-seo-for-developers-the-checklist-you-should-run-before-your-site-goes-live-1on6",
+      "summary": "Building a technically sound site is the developer's responsibility. What happens to that site's visibility after launch in traditional search, in AI-generated answers, and across the broader web is where growing businesses lose momentum.\nTechnical SEO failures at launch are the result of no one explicitly owning the bridge between engineering and search. This checklist is for developers who want to close that gap before going live.\nToday, search isn't just Google crawling your pages and ranking them, AI systems like ChatGPT, Perplexity, Google's AI Mode, Gemini are synthesising answers from y",
+      "source": "Dev.to AI",
+      "published": "2026-06-10T10:30:52+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdgkk9k19bfu75knxhev0.png"
+    },
+    {
+      "id": "097f5b92e553",
+      "title": "I Built an Open Source Telebirr SDK for Laravel After Fighting Signature Failures for Days",
+      "url": "https://dev.to/ogbek/open-source-telebirr-php-laravel-sdk-for-production-ready-ethiopian-payment-integration-4ldg",
+      "summary": "If you've integrated Telebirr in Laravel or PHP before, you've probably seen this error:\n\n\n\n60200099 Verify the sign field failed\n\n\n\n\n\n\nAt first it looks simple.\n\nThen you spend hours debugging:\n\n\nRSA padding\nparameter ordering\nwebhook verification\nH5 signing rules\nPEM formatting\nsandbox vs production differences\n\n\n…and nothing works consistently.\n\nAfter dealing with these problems repeatedly, I decided to build a production-focused Telebirr PHP &amp; Laravel SDK that handles the interoperability issues automatically.\n\n\n  \n  \n  GitHub Repository\n\n\nhttps://github.com/OgBek/Telebirr-laravel-pack",
+      "source": "Dev.to Programming",
+      "published": "2026-06-10T10:25:51+00:00",
+      "score": 3.78,
+      "image": null
+    },
+    {
+      "id": "df3302d3b04a",
+      "title": "Meta signs first AI data center deal in India with Reliance",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "summary": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T07:05:26+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "6f2ddc4d77fb",
+      "title": "Guard Your Heart, Guard Your Health",
+      "url": "https://dev.to/ajay_bahadur_d5ad8938b37d/guard-your-heart-guard-your-health-i16",
+      "summary": "The human heart is the body's most hardworking muscle, pumping nearly 2,000 gallons of blood every single day. Yet, cardiovascular diseases remain the leading cause of health complications globally. Whether you are in your 20s or your 60s, the time to prioritize heart health is now.\nFor residents of Uttar Pradesh, finding a trusted heart doctor in Lucknow is often the first step toward a long and healthy life. Early intervention and preventive care are the only ways to stay ahead of \"silent\" conditions like hypertension and high cholesterol. This article explores how you can guard your heart t",
+      "source": "Dev.to AI",
+      "published": "2026-06-10T10:29:39+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "c988e11851b7",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "summary": "Apple primarily made the case for an improved experience with its long-standing Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-09T18:04:24+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "f57755337d75",
+      "title": "Match the silence.",
+      "url": "https://dev.to/earthbound_misfit/match-the-silence-41pi",
+      "summary": "When a team's pull-request culture is bot-loud and human-silent, the author's reflex to post a warm thank-you on merge breaks the team's voice. The merge itself is the acknowledgment. Read what the maintainer doesn't write.\n\nA maintainer's voice lives in two places: the threads they write, and the threads they don't. The first one is easy to mirror; you read a few merged PRs and pick up the rhythm. The second one is the trap. The absence reads to a new contributor like room to fill, and the reflex is to fill it with something warm. Almost always wrong.\n\n\n  \n  \n  One merge\n\n\nThis week one of my",
+      "source": "Dev.to Programming",
+      "published": "2026-06-10T10:07:05+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "748cf94a77a2",
+      "title": "Releasing Apodex-1.0 Smol Models (0.8B, 2B, 4B Open-Weights) optimized for Agentic Verification + AgentHarness Evals",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1p2me/releasing_apodex10_smol_models_08b_2b_4b/",
+      "summary": "Hey r/LocalLLaMA, We just released Apodex 1.0, and alongside our flagship API, we are releasing the weights for our Smol models (0.8B, 2B, and 4B). Our core research focuses on independent verification in long-horizon tasks. Instead of just scaling up parameter sizes for raw generation, we’ve been experimenting with small, highly specialized local models that handle specific sub-tasks in an agentic loop (like source cross-examination, hypothesis testing, and tool-grounded synthesis). We wanted to share the open weights and our evaluation harness with the community to get your thoughts on local",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T02:11:47+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "7efcaaa23c1c",
+      "title": "Anthropic’s Claude Fable 5 is a version of Mythos the public can access today",
+      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
+      "summary": "Anthropic is releasing Claude Fable 5, its first Mythos-class model available to the public. The model comes with guardrails that block responses in high-risk areas like cybersecurity and biology.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-09T17:00:00+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "50db89863bed",
+      "title": "What's up on CPU inference these days?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1sj9d/whats_up_on_cpu_inference_these_days/",
+      "summary": "What are the best models, quants and llama.cpp versions/forks for CPU inference these days? I have AVX2 but no AVX512 - Intel core ultra 7 165H; 64G RAM This seems to ask for massive MoE (a lot of RAM, not a lot of bandwidth/compute). So Qwen3.6 35B A3B Q4_K_M with standard llama.cpp produces about 10 tps - usable in non-thinking mode, not usable in thinking mode. Is this the best I can get or are there other options?  &#32; submitted by &#32;  /u/ramendik   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T05:01:02+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "5d1e51a72dd2",
+      "title": "I Built Paper Deck: A Better Way to Discover AI/ML Papers [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1rf09/i_built_paper_deck_a_better_way_to_discover_aiml/",
+      "summary": "I do AI research and keep juggling tabs: new ones on arXiv, trending ones on Hugging Face, famous ones somewhere else again. https://preview.redd.it/cg32bshjqd6h1.png?width=1919&amp;format=png&amp;auto=webp&amp;s=00055bb8af699061be0bdcff59f2cb8fa9ab38b6 So I built one site that brings them all together. Pick a paper, read it right there, star the ones you want for later, and it remembers where you stopped reading, even if you switch from laptop to phone.  Live: https://ppdeck.com Demo: https://youtu.be/vtyx34JvxX0 It's free and open source - a star on GitHub would mean a lot ⭐ https://github.c",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-10T04:02:25+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "6b041dacf7bf",
+      "title": "What will be the next breakthrough in ASR? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1cklt/what_will_be_the_next_breakthrough_in_asr_d/",
+      "summary": "Hey All, I am currently working on ASR models, and I have gathered some recent literature. From my literature search, it seems like the ASR models are getting more and more powerful due to two main things.  Because pseudo-labelled data is growing, supervised models are rising rapidly. Whisper-large-v3 has been trained on 5M hours of weakly supervised data, and Nvidia Parakeet v3 has been trained on 660k hours of labelled data (open-sourced). Funny enough, Nvidia Parakeet v3 actually beats Whisper-large-v3 on almost every benchmark, even though it has a smaller model size and smaller data scale",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-09T17:57:14+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "35bb172e88de",
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "summary": "Custom agents let GitHub Copilot CLI understand your stack and team workflows, turning one-off terminal prompts into repeatable, reviewable processes.\nThe post From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-09T16:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "b3e27f51b6df",
+      "title": "Apple announced new on device inference engine for Apple Silicon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1516w/apple_announced_new_on_device_inference_engine/",
+      "summary": "This news seem to have flown under the radar. Apple announced CoreAI on WWDC which is basically a future replacement for CoreML and an alternative to MLX/llama.cpp/torch for on-device optimized inference, especially on phones and tablets.  The model weights need to be converted similarly to CoreML via python script, atm the list of supported models is mostly from mid 2025 year though https://github.com/apple/coreai-models/tree/main/models . For anyone wondering how is that anything new - CoreML out of the box didn't even support models beyond a few billion params and had very limited supported",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T13:29:13+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "a23f62118220",
+      "title": "IBM Vault Enterprise 2.0 Brings Automated LDAP Secrets Management to Enterprise Identity Security",
+      "url": "https://www.infoq.com/news/2026/06/ibm-hashicorp-vault-ldap-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "IBM and HashiCorp have announced new LDAP secrets management capabilities in IBM Vault Enterprise 2.0, introducing a redesigned architecture to manage LDAP credentials, support password rotation, and automate the identity lifecycle. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-09T12:00:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "1b8b338710f6",
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams/",
+      "summary": "Sandstone's Series A comes just six months after a Sequoia-led seed round.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-09T13:47:25+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "a644cd8ab980",
+      "title": "Microsoft Foundry Adds Runtime, Tooling, and Governance for Production Agents",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-foundry-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft used their Build 2026 event to announce new functionality for Microsoft Foundry. Citing Foundry as \"the place where AI agents move from experiments to production systems,\" in a blog post, Nick Brady writes that the release brings “runtime, tools, memory, grounding, models, observability, and governance” that developers need for production agents, rather than just new model endpoints. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-09T08:00:00+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "b19cebe31fd9",
+      "title": "Time Series Forecasting for Agriculture/Crop Volume & Pricing – Looking for Advice [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1brfv/time_series_forecasting_for_agriculturecrop/",
+      "summary": "Hi everyone, I work for a major berry company, and a large part of my role involves forecasting total industry crop volumes (weekly harvest/production forecasts) as well as future pricing. I'm relatively new to ML-based forecasting. This is only my second professional role, and I have a bachelor's degree in Information Systems with a few machine learning courses under my belt, but I'm definitely not a forecasting expert. For crop forecasting, I've been working with USDA and other industry datasets. I started with SARIMA models and have recently been experimenting with XGBoost and Holt-Winters ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-09T17:28:18+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "c47ad5ed1119",
+      "title": "How an e-scooter founder raised $5 million to build space data centers",
+      "url": "https://techcrunch.com/2026/06/09/how-an-e-scooter-founder-raised-5-million-to-build-space-data-centers/",
+      "summary": "Orbital founder Euwyn Poon built 250,000 scooters at Spin. Now he wants to launch 10,000 space data centers.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-09T12:00:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "9b45eaa21e6c",
+      "title": "Cohere North Mini Code 1.0",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u19pcg/cohere_north_mini_code_10/",
+      "summary": "Early access was linked here a few days ago, but final release seems to be now. 30B A3B coding model. Weights: https://huggingface.co/CohereLabs/North-Mini-Code-1.0 Blog: https://huggingface.co/blog/CohereLabs/introducing-north-mini-code Artificial analysis score of 28 is pretty weak against Qwen 3.6 35B (43), but it's more competitive in coding index (33 vs 35) and well above Gemma 4 26B (22) there: https://artificialanalysis.ai/models/north-mini-code  &#32; submitted by &#32;  /u/Middle_Bullfrog_6173   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-09T16:17:03+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "89ecc4d21046",
+      "title": "David Sinclair plans to test whole-body rejuvenation drugs in the XPrize competition",
+      "url": "https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition/",
+      "summary": "The outspoken longevity scientist David Sinclair has been predicting that one day, you’ll go to the doctor and get a prescription that will make you 10 years younger. Now MIT Technology Review has learned that he has plans to launch human tests of an oral &#8220;reprogramming&#8221; drug as part of a $101 million competition organized&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-09T10:00:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "3500a2fcc439",
+      "title": "Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines",
+      "url": "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
+      "summary": "Stop re-computing the same context. Learn how to build a C++ runtime with copy-on-fork KV snapshots to eliminate redundant LLM prefills in multi-agent pipelines.\nThe post Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-09T13:30:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "c2d8d349f5e5",
+      "title": "Five things you need to know about AI",
+      "url": "https://www.technologyreview.com/2026/06/09/1138582/five-things-you-need-to-know-about-ai/",
+      "summary": "At SXSW London last week I gave a talk called “Five things you need to know about AI,” in which I shared what I think are the biggest themes in AI right now. I pulled a few things from our first AI10 list, an annual guide to the most important trends in this buzzy world,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-09T09:16:45+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "201342d7b252",
+      "title": "10 Common RAG Mistakes We Keep Seeing in Production",
+      "url": "https://towardsdatascience.com/10-common-rag-mistakes-we-keep-seeing-in-production/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #4bis] - A coauthor note on the brick-by-brick pitfalls that justified the four-brick split, before Part II walks the fixes\nThe post 10 Common RAG Mistakes We Keep Seeing in Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-09T16:30:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "98d939f12266",
+      "title": "The Hardware That Makes AI Possible",
+      "url": "https://towardsdatascience.com/the-hardware-that-makes-ai-possible/",
+      "summary": "CPUs, GPUs, TPUs, and NPUs\nThe post The Hardware That Makes AI Possible appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-09T15:00:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "42de889c09cc",
+      "title": "Can Machine Learning Predict the World Cup?",
+      "url": "https://towardsdatascience.com/can-machine-learning-predict-the-world-cup/",
+      "summary": "Building an ML football forecaster in R\nThe post Can Machine Learning Predict the World Cup? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-09T05:53:28+00:00",
+      "score": 1.89,
+      "image": null
+    }
+  ]
+}
