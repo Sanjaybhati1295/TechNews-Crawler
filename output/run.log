@@ -1127,3 +1127,36 @@
 2026-06-10 10:48:58,445  INFO     ────────────────────────────────────────────────────────────
 2026-06-10 10:48:58,445  INFO     Done!  Open: output/index.html
 2026-06-10 10:48:58,445  INFO     Headline: Hyperlinq Technology Launches AI Growth Systems for MSME Businesses
+2026-06-11 11:17:53,640  INFO     ============================================================
+2026-06-11 11:17:53,640  INFO     TECHPULSE Digest — 2026-06-11 11:17 UTC
+2026-06-11 11:17:53,640  INFO     ============================================================
+2026-06-11 11:17:53,640  INFO     Step 1/3 — Crawling feeds…
+2026-06-11 11:17:54,011  INFO       Hacker News                    → 0 significant articles
+2026-06-11 11:17:54,247  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-11 11:17:54,374  INFO       Ars Technica                   → 0 significant articles
+2026-06-11 11:17:54,963  INFO       The Register AI                → 0 significant articles
+2026-06-11 11:17:55,157  INFO       MIT Tech Review                → 1 significant articles
+2026-06-11 11:17:55,345  INFO       Dev.to AI                      → 3 significant articles
+2026-06-11 11:17:55,898  INFO       Dev.to Programming             → 1 significant articles
+2026-06-11 11:17:56,054  INFO       GitHub Blog                    → 1 significant articles
+2026-06-11 11:17:56,842  INFO       Google Research                → 0 significant articles
+2026-06-11 11:17:57,677  INFO       Reddit r/MachineLearning       → 5 significant articles
+2026-06-11 11:17:58,209  INFO       Reddit r/LocalLLaMA            → 8 significant articles
+2026-06-11 11:17:58,839  INFO       InfoQ                          → 1 significant articles
+2026-06-11 11:17:59,012  INFO       Towards Data Science           → 5 significant articles
+2026-06-11 11:17:59,166  INFO       Wired AI                       → 0 significant articles
+2026-06-11 11:17:59,254  INFO       TechCrunch AI                  → 7 significant articles
+2026-06-11 11:17:59,254  INFO     Fetching images for top articles…
+2026-06-11 11:17:59,861  INFO       🖼  OpenAI's GPT-5.5 and Codex Reach General Availability on Ama
+2026-06-11 11:17:59,925  INFO       🖼  What You Need to Know About Anthropic's New AI Model Naming
+2026-06-11 11:17:59,999  INFO       🖼  Google DeepMind is worried about what happens when millions 
+2026-06-11 11:18:00,111  INFO       🖼  WWDC 2026 - Apple Just Opened the Foundation Models Framewor
+2026-06-11 11:18:00,153  INFO     Total selected: 30 articles from 15 feeds
+2026-06-11 11:18:00,153  INFO     Selected 30 significant articles
+2026-06-11 11:18:00,154  INFO     Step 2/3 — Generating digest…
+2026-06-11 11:18:00,458  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-11 11:18:00,458  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-11 11:18:00,459  INFO     Step 3/3 — Rendering HTML…
+2026-06-11 11:18:00,460  INFO     ────────────────────────────────────────────────────────────
+2026-06-11 11:18:00,460  INFO     Done!  Open: output/index.html
+2026-06-11 11:18:00,460  INFO     Headline: OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock

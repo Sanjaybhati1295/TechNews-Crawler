@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock (InfoQ). What You Need to Know About Anthropic's New AI Model Naming (Dev.to AI). Google DeepMind is worried about what happens when millions of agents start to interact (MIT Tech Review). Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N] (Reddit r/MachineLearning). WWDC 2026 - Apple Just Opened the Foundation Models Framework to Any LLM Provider (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Tiny Scale Is All I Can Spare To Play With Transformer (Reddit r/LocalLLaMA). Give GitHub Copilot CLI real code intelligence with language servers (GitHub Blog). Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "OpenAI's GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock, one month after OpenAI revised its exclusive Azure arrangement. Pricing matches OpenAI's direct rates with usage counting toward AWS commitments. Codex shifts to pay-per-token billing with no seat fees. GPT-5.4 is the first OpenAI model available in AWS GovCloud. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "f6ba4ef29526",
+      "title": "OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock",
+      "url": "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI's GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock, one month after OpenAI revised its exclusive Azure arrangement. Pricing matches OpenAI's direct rates with usage counting toward AWS commitments. Codex shifts to pay-per-token billing with no seat fees. GPT-5.4 is the first OpenAI model available in AWS GovCloud. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-11T09:24:00+00:00",
+      "score": 4.89,
+      "image": "https://res.infoq.com/news/2026/06/openai-frontier-models-aws/en/headerimage/generatedHeaderImage-1780936908139.jpg"
+    },
+    {
+      "id": "b4ea282ebdac",
+      "title": "What You Need to Know About Anthropic's New AI Model Naming",
+      "url": "https://dev.to/yuravolontir/what-you-need-to-know-about-anthropics-new-ai-model-naming-276n",
+      "summary": "What You Need to Know About Anthropic's New AI Model Naming\n\n\nImagine if naming your favorite coffee drink became a whole new trend. Instead of just asking for a latte, you found yourself navigating a menu with quirky names that describe flavors, feelings, or even experiences. Well, that's sort of what's happening in the world of artificial intelligence, particularly with the latest developments from Anthropic, an AI research company. \n\n\n  \n  \n  What Did Anthropic Announce?\n\n\nRecently, Anthropic unveiled their new model naming approach. They’ve decided to use a more intuitive and descriptive s",
+      "source": "Dev.to AI",
+      "published": "2026-06-11T11:02:44+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9ft369nn8urh5lle1bw8.png"
+    },
+    {
+      "id": "11e089b70b07",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of millions of different AI agents interacting with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other agents creates&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-11T11:00:45+00:00",
+      "score": 4.28,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/corralling-agents.jpg?resize=1200,600"
+    },
+    {
+      "id": "5ddbcb0e6b19",
+      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
+      "summary": "From Wired:  “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.” Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model.  Full article: https://www.wired.com/story/anthropic-responds-to-",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-11T08:51:10+00:00",
+      "score": 4.06,
+      "image": null
+    },
+    {
+      "id": "cff8ca6236e0",
+      "title": "WWDC 2026 - Apple Just Opened the Foundation Models Framework to Any LLM Provider",
+      "url": "https://dev.to/arshtechpro/wwdc-2026-apple-just-opened-the-foundation-models-framework-to-any-llm-provider-5ejn",
+      "summary": "Until WWDC 2026, the Foundation Models framework had one rule: Apple's on-device model or nothing. That rule is gone.\n\nSession 339 introduces a public protocol layer that any LLM — a cloud API, an open-source local model, a fine-tune you host yourself — can implement. Once a provider ships a conforming Swift package, your existing LanguageModelSession code works with it unchanged. No rewrites. No new session abstractions. One line swap.\n\nThis article is not a transcript summary. It explains the decisions you now have to make as a developer building on Foundation Models in iOS 27 / macOS 27.\n\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-06-11T11:07:49+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flcjvc78tt46my6rb56yu.png"
+    },
+    {
+      "id": "7b27363c23f6",
+      "title": "How I implemented ASR bias for voice transcription models [Open Source]",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2vr8g/how_i_implemented_asr_bias_for_voice/",
+      "summary": "I've been spending the last couple of weeks building a Wispr Flow clone as an open source project. For context, it is a voice dictation app that lets you type faster, by speaking instead of actually typing. I spent the first week building the basic STT capabilities. One of the coolest features that Wispr Flow has is ASR biasing. Wispr Flow calls it its dictionary. I was able to figure out how to implement that for my project and wanted to share how it was done.  What is ASR biasing? ASR biasing is a transcription technique that guides the model with hints on how words are spelled, or what phra",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-11T10:56:34+00:00",
+      "score": 3.88,
+      "image": null
+    },
+    {
+      "id": "94fa585ba427",
+      "title": "I ran an AI coding agent autonomously for a month. A 15-line script showed me it produced almost nothing.",
+      "url": "https://dev.to/yurukusa/i-ran-an-ai-coding-agent-autonomously-for-a-month-a-15-line-script-showed-me-it-produced-almost-1g0h",
+      "summary": "I spent a month making sure my autonomous AI coding agent would never sit idle. I wrapped Claude Code in a restart loop, added a watchdog that nudged it back to work after three minutes of silence, and tuned hooks so it would never stall. It worked. The machine almost never idled.\n\nThen one evening I ran a fifteen-line script over every session log on disk, and it reframed everything I thought I knew about running an agent on its own.\n\n\n  \n  \n  The number I was watching\n\n\nThe fear when you first leave an agent running unattended is obvious: what if it just stops? What if it sits there burning ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-11T10:43:55+00:00",
+      "score": 3.87,
+      "image": null
+    },
+    {
+      "id": "8139e911d0ca",
+      "title": "Accelerating Software Testing Through AI-Driven Data Masking and Synthetic Data",
+      "url": "https://dev.to/itidoltechnologies/accelerating-software-testing-through-ai-driven-data-masking-and-synthetic-data-29lb",
+      "summary": "Software testing has traditionally been treated as a technical checkpoint within the software delivery lifecycle. In many enterprises, it still operates as a downstream function tasked with validating releases after development decisions have already been made. That model is becoming increasingly difficult to sustain. \n\nModern digital systems evolve continuously, release cycles are shortening, and enterprise architectures now span cloud-native platforms, APIs, distributed data pipelines, AI services, and interconnected applications operating across multiple environments simultaneously.\n\nAt the",
+      "source": "Dev.to AI",
+      "published": "2026-06-11T11:04:10+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "dfeb9eb1fd36",
+      "title": "AMD R9700 vs GB10",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2r6g6/amd_r9700_vs_gb10/",
+      "summary": "I have a budget of 5K, and want to buy some gpus my requirement is 48gb+ vram, because I finetune small language model, perform DPO, in general tinkering/ development is my usecase. if you where in my shoe which among these would you get, on one hand amd is better bang for buck, faster but has low vram. Nvidia has cuda, but is slow af, and the memory although large, it’s speed is trash, making large model training/inference useless. is there any other machine which i can consider, due to travelling constraints, I cannot Another constraint only buy at max 2 gpus and that too not large in size p",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-11T06:30:42+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "07973410c9d2",
+      "title": "Refiner: Robotics library from the ex-Hugging Face pre-training team",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2uod7/refiner_robotics_library_from_the_exhugging_face/",
+      "summary": "ex-Huggingface pre-training team just announce a new library create for robotics data refinment! It supports ingestion of all robotics formats (Parquet, HDF5, MCAP, Zarr, RLDS, and LeRobot), as well as the common processing flows like visual hand-tracking, subtask annotations and reward model running.  &#32; submitted by &#32;  /u/Other_Housing8453   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-11T09:57:01+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "77660257b747",
+      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T22:31:19+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "a714762e3a7e",
+      "title": "How can Deepseek v4 top the coding leaderboards and still sit 8 months behind the frontier?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2nn2f/how_can_deepseek_v4_top_the_coding_leaderboards/",
+      "summary": "Two numbers on this model that don't sit comfortably with each other. The Pro config posts coding scores near the top of every board, 80.6 on SWE-bench Verified and 93.5 on LiveCodeBench. Then CAISI ran it across a spread of domains and landed on it being roughly eight months behind the US frontier, around where GPT-5 was. DeepSeek's own framing at launch put it two months back, right behind the frontier at the time. Same weights, very different verdicts. The way I read it, both are right and they are measuring different things. A coding leaderboard is a narrow slice and it is the slice everyo",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-11T03:25:59+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "6577fab02a98",
+      "title": "Tiny Scale Is All I Can Spare To Play With Transformer",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u2pnfx/tiny_scale_is_all_i_can_spare_to_play_with/",
+      "summary": "Hi! I am a student from India, this is my first paper that I published. I was curious whether I can combine both Attention and FFN together to save parameters without sacrificing performance, specifically at parameters &lt;= 10M. Basically my intuition was that Attention is dynamic and smart about which information to mix, but it has no strong non-linearity to actually transform that information. SwiGLU has the strong non-linearity but it's static. Same weights for every input. So instead of running both separately and wasting parameters, why not replace the static linear matrices in FFN with ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-11T05:05:58+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "67e72808f2b9",
+      "title": "Jedify raises $24M to help companies arm AI agents with context on their business",
+      "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+      "summary": "The funding round was led by Norwest, with participation from S Capital VC, Cerca Partners, and Oceans Ventures. Snowflake Ventures also participated as a strategic investor.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T13:33:09+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "c42d17bb6c64",
+      "title": "Cohere released North Mini Code: It's first Open-Source Agentic Coding Model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1za0m/cohere_released_north_mini_code_its_first/",
+      "summary": "Small: 30 billion parameters, 3B active. Efficient: Benchmarks to 33.4 on the Artificial Analysis Coding Index, competitive among similar sized models. Open Source: Apache 2.0 license HF: https://huggingface.co/CohereLabs/North-Mini-Code-1.0  &#32; submitted by &#32;  /u/beasthunterr69   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T11:18:53+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "85cde4143512",
+      "title": "Pyrecall open source tool for detecting catastrophic forgetting during LLM fine-tuning[P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2hjye/pyrecall_open_source_tool_for_detecting/",
+      "summary": "Surprised there's no real tooling for this given how much research exists on continual learning.  Built pyrecall to fill the gap. Snapshots skill scores before/after fine-tuning, flags regressions, rolls back LoRA adapters by name.  Fully local, no external APIs. v0.1.0, MIT, pip install pyrecall  Curious if anyone has thoughts on the benchmark design that's the part I'm least confident about.  https://github.com/Arths17/Pyrecall  &#32; submitted by &#32;  /u/Level_Frosting_7950   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-10T22:49:52+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "9332a684c47a",
+      "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "summary": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T20:19:31+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "faace1c62c74",
+      "title": "Lemonade v10.7 release and project organization update",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u26wkb/lemonade_v107_release_and_project_organization/",
+      "summary": "Today's v10.7 release is the start of an exciting new chapter for the Lemonade project, so I thought I should share an project-level update. Lemonade's roadmap and development is now driven by 6 working groups, 4 of which are led by non-AMDers. Here are highlights from 3 of the groups in the v10.7 release, which had 19 contributors. Local Omni Models True omni-modal chat, including image gen/editing, by seamlessly combining multiple backends and models. v10.7 makes these LMX-Omni virtual models compatible with Open WebUI and other OpenAI clients that support multimedia rendering. Auto Tuning E",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T16:19:26+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "5c40d2e2ae9b",
+      "title": "Warner Music acquires AI attribution startup Sureel AI",
+      "url": "https://techcrunch.com/2026/06/10/warner-music-acquires-ai-attribution-startup-sureel-ai/",
+      "summary": "Through the acquisition, WMG aims to better track when its artists' work is used in AI-generated content or for training AI models.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T14:31:30+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "affdd3743a49",
+      "title": "Datadog veterans launch AI coding startup Niteshift on a bet against Big AI lock-in",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "summary": "AI coding agent startup Niteshift has raised a $7 million seed round from a who's who of angels. It's betting companies will want power over, not lock-in with model makers.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T15:00:00+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "c0450c61422b",
+      "title": "Analysis of the results of the \"Transforming autoencoders\" architecture mentioned by Hilton, for my dissertation. [r]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2fgx1/analysis_of_the_results_of_the_transforming/",
+      "summary": "Hello everyone, tomorrow I have a meeting with my dissertation supervisor and I wanted to have a dissertation proposal ready. Initially, I moved forward with the following proposal: &quot;Interpreting the Routing Dynamics of Capsule Networks for Explainable AI.&quot; My first approach to this topic was to study the paper &quot;Transforming autoencoders,&quot; which is the first paper about capsule networks. Next, I did a search on the state of the art of transforming autoencoders and only found 2 papers since 2011. I think I should take advantage of the work I have developed so far on transfor",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-10T21:26:34+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "5c95d128156f",
+      "title": "How to Refactor Code with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-refactor-code-with-claude-code/",
+      "summary": "Improve coding agent productiveness with refactored code\nThe post How to Refactor Code with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-10T18:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "e2c308baf277",
+      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+      "summary": "Install and configure LSP servers for GitHub Copilot CLI, replacing brute-force grep/decompile with real code intelligence. \nThe post Give GitHub Copilot CLI real code intelligence with language servers appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-10T16:00:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "781e293d3ee8",
+      "title": "Without open source LLMs, US AI companies could have already monopoled the technology",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u1siyl/without_open_source_llms_us_ai_companies_could/",
+      "summary": "For such technology with clear importance and impact on all of us, I believe that making it open source is an ethical duty, otherwise, especially with the 1-sided politics of the US we experience today, they could have already monopolized the technology by now, maybe make it exclusively available to US companies only, and starve the entire world including Europe. You could disagree with China on many topics, but the fact they released a couple of powerful open source LLMs is a direct contribution to humanity. What do you think what should be the future AI model.  &#32; submitted by &#32;  /u/I",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-10T05:00:42+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "ece3b0d989e8",
+      "title": "Decart’s new world model can simulate hours of photorealistic driving — with some caveats",
+      "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+      "summary": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T13:07:56+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "258cfc94da68",
+      "title": "How to Train a Scoring Model in the Age of Artificial Intelligence",
+      "url": "https://towardsdatascience.com/how-to-train-a-scoring-model-in-the-age-of-artificial-intelligence/",
+      "summary": "A structured methodology for comparing candidate models, testing stability, and selecting a robust final score\nThe post How to Train a Scoring Model in the Age of Artificial Intelligence appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-10T16:30:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "9f72e9361ba3",
+      "title": "Introducing Papers Without Code [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u1wq0a/introducing_papers_without_code_p/",
+      "summary": "Hi, Niels here from the open-source team at Hugging Face. I've recently relaunched paperswithcode.co as a source for finding the state of the art (SOTA) across various AI domains, from 3D generation to AI agents. This is done by automatically parsing research papers published on arXiv/Hugging Face, enabling leaderboards to be created. See BrowseComp below as an example (a scatter plot and a table are available for each benchmark). - Scatter plot (you can hover over the dots to see the models): https://preview.redd.it/9rz2r3ffcf6h1.png?width=2880&amp;format=png&amp;auto=webp&amp;s=b3f8e7a870802",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-10T08:58:36+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "00856d6b9e7f",
+      "title": "Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality",
+      "url": "https://towardsdatascience.com/beyond-extract_text-the-two-layers-of-a-pdf-that-drive-rag-quality/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5A] - Document signals (metadata, native TOC, source software) and page-level content (text vs scans, tables, images, columns, page profile)\nThe post Beyond extract_text: The Two Layers of a PDF That Drive RAG Quality appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-10T15:00:00+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "df3302d3b04a",
+      "title": "Meta signs first AI data center deal in India with Reliance",
+      "url": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "summary": "The 168-megawatt facility will support Meta's global AI computing needs and can be expanded over time.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-10T07:05:26+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "fd8879873c5b",
+      "title": "Bayesian Networks and Markov Networks: An Intuitive Guide to Structured Uncertainty",
+      "url": "https://towardsdatascience.com/bayesian-networks-and-markov-networks-an-intuitive-guide-to-structured-uncertainty/",
+      "summary": "An intuitive introduction to reasoning with uncertainty, from directed Bayesian networks to undirected Markov networks and weighted logical rules.\nThe post Bayesian Networks and Markov Networks: An Intuitive Guide to Structured Uncertainty appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-10T13:30:00+00:00",
+      "score": 2.29,
+      "image": null
+    }
+  ]
+}
