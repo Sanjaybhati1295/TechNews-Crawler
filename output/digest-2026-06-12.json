@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Why “reprogramming” is the buzziest approach to reversing aging right now (MIT Tech Review). Building an Open Source Edge Semantic Cache for LLMs in Rust/WASM – Sanity check on the architecture? [D] (Reddit r/MachineLearning). The Token Tax of Technical Debt (Dev.to AI). How to Make Money Promoting AI APIs: A Complete Guide From Someone Who's Taught It to 400+ Students (Dev.to AI). Oracle's OpenJDK Bans Generative AI Contributions While Oracle's GraalVM Allows Them (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But&#8230;"
+  },
+  "articles": [
+    {
+      "id": "79f0801ec574",
+      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+      "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
+      "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-12T09:00:00+00:00",
+      "score": 4.39,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/a-pill-life.jpg?resize=1200,600"
+    },
+    {
+      "id": "4b3533534ef2",
+      "title": "Building an Open Source Edge Semantic Cache for LLMs in Rust/WASM – Sanity check on the architecture? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u3quwk/building_an_open_source_edge_semantic_cache_for/",
+      "summary": "Hey everyone, I am planning out a new open-source infrastructure project and want to get some brutal feedback on the architecture and use-case validity from people running high volume LLM workloads in production. The Problem: Python-based proxies/gateways introduce too much latency overhead for real-time streaming agent steps or fast UI completions. Additionally, centralized semantic caching still suffers from cross-region network latency (e.g., London to us-east-1), and enterprise API costs remain a massive bottleneck for repetitive/predictable user queries (like customer support or structure",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-12T09:53:27+00:00",
+      "score": 4.24,
+      "image": null
+    },
+    {
+      "id": "4d16be66c51d",
+      "title": "The Token Tax of Technical Debt",
+      "url": "https://dev.to/clearcodeintel/the-token-tax-of-technical-debt-1kmj",
+      "summary": "AI coding does not make technical debt disappear.\n\nIt changes the way technical debt charges interest.\n\nBefore AI-assisted delivery, the cost of technical debt showed up as slow onboarding, fragile releases, confusing ownership, duplicated work, and long debugging sessions. Those costs still exist. But there is now another layer: every AI agent that touches a messy repository has to spend more context, more tool calls, more retries, and more validation effort just to understand what the system is supposed to do.\n\nThat is the token tax of technical debt.\n\nThe model provider does not charge a se",
+      "source": "Dev.to AI",
+      "published": "2026-06-12T10:46:45+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flb85jlargia4t46fy3gy.png"
+    },
+    {
+      "id": "4df7dedd9968",
+      "title": "How to Make Money Promoting AI APIs: A Complete Guide From Someone Who's Taught It to 400+ Students",
+      "url": "https://dev.to/quickdash/how-to-make-money-promoting-ai-apis-a-complete-guide-from-someone-whos-taught-it-to-400-students-577k",
+      "summary": "Check this out: when I launched my first online course about digital side hustles back in 2022, I had no idea the AI space was about to explode. Fast forward to today, and roughly 400 students have gone through my \"AI Income Lab\" curriculum. The single question I get asked more than any other? \"Can I actually make money in AI without being a developer?\"\nThe answer is yes — and the path I teach most often is the AI API reseller business. In this guide, I'm going to walk you through the entire curriculum I use with my students, step by step, the same way I break it down inside my course platform",
+      "source": "Dev.to AI",
+      "published": "2026-06-12T10:44:26+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnzj5rhzggbcj3dbs4unn.png"
+    },
+    {
+      "id": "90aa171e52f5",
+      "title": "Oracle's OpenJDK Bans Generative AI Contributions While Oracle's GraalVM Allows Them",
+      "url": "https://www.infoq.com/news/2026/06/oracle-genai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Two related, Oracle-backed projects published opposing policies on open-source contributions created with generative AI: The OpenJDK Governing Board approved an interim policy prohibiting such contributions, while the Coding Assistants policy from GraalVM permits them. Both projects require contributors to sign the same Oracle Contributor Agreement (OCA) for intellectual property. By Karsten Silz",
+      "source": "InfoQ",
+      "published": "2026-06-12T06:00:00+00:00",
+      "score": 3.93,
+      "image": "https://res.infoq.com/news/2026/06/oracle-genai-policies/en/headerimage/generatedHeaderImage-1781176880866.jpg"
+    },
+    {
+      "id": "ea497b2ac3ab",
+      "title": "StudyQuiz v1.2.0 — AI-Assisted Quiz Generation from PDFs",
+      "url": "https://dev.to/aissalaribi/studyquiz-v120-ai-assisted-quiz-generation-from-pdfs-2ph5",
+      "summary": "StudyQuiz has reached a significant milestone since the previous UX and reliability improvement release. \nThis update focuses on a complete learning flow: users can now upload their study notes as a PDF, let AI generate a structured quiz, take the quiz, and receive the next review date for recall-based revision.\n\n`\n\n\n  \n\n\n`\n\n\n  \n  \n  What's New\n\n\n\nUpload PDF study materials and generate structured quizzes automatically.\nDedicated URLs for quiz creation and quiz editing.\nHighlighted late reviews\nVisual homepage animation showcasing the user experience flow.\n\n\n\n  \n  \n  Improved\n\n\n\nImproved quiz ",
+      "source": "Dev.to AI",
+      "published": "2026-06-12T10:48:27+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fambafkgdqv7u9p3hb18i.png"
+    },
+    {
+      "id": "b5ec42a73c93",
+      "title": "Podcast: Craig McLuckie on Culture as a Team's Operating System in the AI Era",
+      "url": "https://www.infoq.com/podcasts/team-operating-system-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods spoke to Craig McLuckie, co-creator of Kubernetes and CEO of Stacklok, about the impact of AI coding tools on open source communities and engineering teams, designing deliberate organisational culture, and navigating evolving career paths for engineers in the age of AI. By Craig McLuckie",
+      "source": "InfoQ",
+      "published": "2026-06-12T09:00:00+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "f6ba4ef29526",
+      "title": "OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock",
+      "url": "https://www.infoq.com/news/2026/06/openai-frontier-models-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI's GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock, one month after OpenAI revised its exclusive Azure arrangement. Pricing matches OpenAI's direct rates with usage counting toward AWS commitments. Codex shifts to pay-per-token billing with no seat fees. GPT-5.4 is the first OpenAI model available in AWS GovCloud. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-11T09:24:00+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "3c2994f2fe88",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-12T04:42:53+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "a9755bba9459",
+      "title": "From Idea to Launch: App Development Services, Timelines, and Budgets in the US",
+      "url": "https://dev.to/b2cinfosol/from-idea-to-launch-app-development-services-timelines-and-budgets-in-the-us-1e3p",
+      "summary": "Introduction\n\n\nWhen a US business decides to build an app, two questions surface almost immediately: how long will it take, and what will it involve. Cost gets most of the attention, but timeline and scope are just as important, because they shape everything from your launch plans to your hiring to your fundraising conversations. A vague answer here is a warning sign. A clear one is the foundation of a project that actually ships.\nThis guide walks through what app development services in the United States cover in 2026, the phases a real project moves through, how long each one takes, and how ",
+      "source": "Dev.to AI",
+      "published": "2026-06-12T10:50:11+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "cfa7396be8fa",
+      "title": "Best Ai coding assistant open source in 2026",
+      "url": "https://dev.to/shammi_bajaj_dd836c3d3c73/best-ai-coding-assistant-open-source-in-2026-1f5c",
+      "summary": "Best ai coding assistant open source in 2026: A Practical Guide\n\n\n\n🛒 Recommended: Jasper AI Writing — Learn more (affiliate link)\nQuick Summary\n\n\nChoosing the right ai coding assistant open source saves time, money, and frustration. This guide cuts through the noise with practical recommendations based on real-world use — no sponsored placements, no hype.\n\n\n  \n  \n  What to Look For in ai coding assistant open source\n\n\nBefore comparing specific options, know what actually matters. Here are the criteria that separate good choices from bad ones:\n\n\n  \n  \n  1. Reliability Over Features\n\n\nA tool wit",
+      "source": "Dev.to AI",
+      "published": "2026-06-12T10:46:15+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "041ff902bdab",
+      "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T01:04:38+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "236791c0ab88",
+      "title": "GitHub availability report: May 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
+      "summary": "In May, we experienced nine incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: May 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-11T21:30:15+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "11e089b70b07",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-11T11:00:45+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "4f9aae068b78",
+      "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "summary": "Deezer introduced a tool that scans playlists from Spotify, Apple Music, and other platforms to identify AI music.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-11T16:36:20+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "fa257017cca7",
+      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+      "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+      "summary": "Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning.\nThe post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-11T16:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "5ddbcb0e6b19",
+      "title": "Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u2tk0i/anthropic_walks_back_policy_on_silent_nerfing_for/",
+      "summary": "From Wired:  “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.” Anthropic now says it’s changing course, and that Claude Fable 5’s safeguards for AI development will be visible to users. If the company suspects a user is trying to use Claude to build a highly capable AI it will alert them that it’s either refusing the request, or rerouting the user to a less capable model.  Full article: https://www.wired.com/story/anthropic-responds-to-",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-11T08:51:10+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "5b08d3bc793d",
+      "title": "When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI",
+      "url": "https://towardsdatascience.com/when-gpu-utilization-lies-the-hidden-systems-problem-slowing-modern-ai/",
+      "summary": "Why “average utilization” lies about how full your GPUs really are\nThe post When GPU Utilization Lies: The Hidden Systems Problem Slowing Modern AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-11T13:30:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "cc7fbd6ddb38",
+      "title": "Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs",
+      "url": "https://towardsdatascience.com/stop-returning-flat-text-from-a-pdf-the-relational-shape-rag-needs/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5B] - One PDF in, a relational set of DataFrames out: lines, pages, TOC, images, cross-references, captions, spans, and a parsing summary\nThe post Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-11T16:30:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "101f4c0f5414",
+      "title": "NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran",
+      "url": "https://towardsdatascience.com/nucs-vs-choco/",
+      "summary": "An in-depth performance test comparing Nucs and Choco\nThe post NuCS vs Choco: A Pure-Python Constraint Solver Meets a JVM Veteran appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-11T12:00:00+00:00",
+      "score": 2.23,
+      "image": null
+    }
+  ]
+}

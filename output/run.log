@@ -1160,3 +1160,37 @@
 2026-06-11 11:18:00,460  INFO     ────────────────────────────────────────────────────────────
 2026-06-11 11:18:00,460  INFO     Done!  Open: output/index.html
 2026-06-11 11:18:00,460  INFO     Headline: OpenAI's GPT-5.5 and Codex Reach General Availability on Amazon Bedrock
+2026-06-12 10:56:42,160  INFO     ============================================================
+2026-06-12 10:56:42,160  INFO     TECHPULSE Digest — 2026-06-12 10:56 UTC
+2026-06-12 10:56:42,160  INFO     ============================================================
+2026-06-12 10:56:42,160  INFO     Step 1/3 — Crawling feeds…
+2026-06-12 10:56:42,449  INFO       Hacker News                    → 1 significant articles
+2026-06-12 10:56:42,915  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-12 10:56:43,206  INFO       Ars Technica                   → 0 significant articles
+2026-06-12 10:56:43,762  INFO       The Register AI                → 0 significant articles
+2026-06-12 10:56:43,965  INFO       MIT Tech Review                → 2 significant articles
+2026-06-12 10:56:44,085  INFO       Dev.to AI                      → 5 significant articles
+2026-06-12 10:56:44,184  INFO       Dev.to Programming             → 0 significant articles
+2026-06-12 10:56:44,390  INFO       GitHub Blog                    → 2 significant articles
+2026-06-12 10:56:45,202  INFO       Google Research                → 0 significant articles
+2026-06-12 10:56:45,994  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-12 10:56:46,054  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-12 10:56:46,546  INFO       InfoQ                          → 3 significant articles
+2026-06-12 10:56:46,764  INFO       Towards Data Science           → 3 significant articles
+2026-06-12 10:56:47,043  INFO       Wired AI                       → 0 significant articles
+2026-06-12 10:56:47,188  INFO       TechCrunch AI                  → 2 significant articles
+2026-06-12 10:56:47,188  INFO     Fetching images for top articles…
+2026-06-12 10:56:47,220  INFO       🖼  Why “reprogramming” is the buzziest approach to reversing ag
+2026-06-12 10:56:47,292  INFO       🖼  The Token Tax of Technical Debt
+2026-06-12 10:56:47,322  INFO       🖼  How to Make Money Promoting AI APIs: A Complete Guide From S
+2026-06-12 10:56:47,883  INFO       🖼  Oracle's OpenJDK Bans Generative AI Contributions While Orac
+2026-06-12 10:56:47,933  INFO       🖼  StudyQuiz v1.2.0 — AI-Assisted Quiz Generation from PDFs
+2026-06-12 10:56:47,934  INFO     Total selected: 20 articles from 15 feeds
+2026-06-12 10:56:47,934  INFO     Selected 20 significant articles
+2026-06-12 10:56:47,934  INFO     Step 2/3 — Generating digest…
+2026-06-12 10:56:48,246  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-12 10:56:48,246  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-12 10:56:48,246  INFO     Step 3/3 — Rendering HTML…
+2026-06-12 10:56:48,248  INFO     ────────────────────────────────────────────────────────────
+2026-06-12 10:56:48,248  INFO     Done!  Open: output/index.html
+2026-06-12 10:56:48,248  INFO     Headline: Why “reprogramming” is the buzziest approach to reversing aging right now
