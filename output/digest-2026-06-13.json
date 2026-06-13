@@ -1,0 +1,263 @@
+{
+  "digest": {
+    "headline": "AWS Introduces CDK Mixins for Composable Infrastructure Abstractions",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Google Launches Colab CLI for Developers, Automation, and AI Agents (InfoQ). WebMCP Standard Proposal for Agentic Web Actuation Now Available in Chrome (Origin Trials) (InfoQ). Shipping an Android podcast player with on-device Whisper — 6 lessons from a Czech indie launch (Dev.to AI). errors.Join in 2026: The Multi-Error Pattern Most Go Devs Still Hand-Roll (Dev.to Programming). Event Production Company in India That Delivers When It Actually Matters (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces CDK Mixins for Composable Infrastructure Abstractions (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "SpaceX IPO: Live updates on everything you need to know (TechCrunch AI). How we made GitHub Copilot CLI more selective about delegation (GitHub Blog). Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents (Hacker News). When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "AWS recently announced CDK Mixins, a new AWS CDK feature that lets developers add reusable capabilities like security, monitoring, and configuration to AWS resources. Mixins work across different construct types, making infrastructure code more flexible and reusable. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "c5c1cde81a09",
+      "title": "AWS Introduces CDK Mixins for Composable Infrastructure Abstractions",
+      "url": "https://www.infoq.com/news/2026/06/cdk-mixins-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced CDK Mixins, a new AWS CDK feature that lets developers add reusable capabilities like security, monitoring, and configuration to AWS resources. Mixins work across different construct types, making infrastructure code more flexible and reusable. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-13T05:38:00+00:00",
+      "score": 4.37,
+      "image": "https://res.infoq.com/news/2026/06/cdk-mixins-aws/en/headerimage/generatedHeaderImage-1780155748389.jpg"
+    },
+    {
+      "id": "9f753fc6c0f3",
+      "title": "Google Launches Colab CLI for Developers, Automation, and AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/google-colab-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced the Google Colab CLI, a command-line tool that allows developers and AI agents to interact with remote Colab runtimes directly from a local terminal. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-06-12T17:13:00+00:00",
+      "score": 3.88,
+      "image": "https://res.infoq.com/news/2026/06/google-colab-cli/en/headerimage/generatedHeaderImage-1781274285302.jpg"
+    },
+    {
+      "id": "8e2e3892b988",
+      "title": "WebMCP Standard Proposal for Agentic Web Actuation Now Available in Chrome (Origin Trials)",
+      "url": "https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google recently announced that WebMCP is entering origin trials in Chrome 149. The new WebMCP standard proposal lets sites expose tools (e.g., JavaScript functions and HTML forms) to in-browser AI agents, which can thus reliably simulate user actions instead of resorting to possibly expensive (e.g., on-screen reading) and often unreliable guesswork (e.g., DOM scraping). By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-06-13T03:32:00+00:00",
+      "score": 3.85,
+      "image": "https://res.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/en/headerimage/generatedHeaderImage-1781307482428.jpg"
+    },
+    {
+      "id": "163ba8daa2ca",
+      "title": "Shipping an Android podcast player with on-device Whisper — 6 lessons from a Czech indie launch",
+      "url": "https://dev.to/falki_c12885af24ba/shipping-an-android-podcast-player-with-on-device-whisper-6-lessons-from-a-czech-indie-launch-1n93",
+      "summary": "After a year of nights and weekends, I shipped Lucidcast — an\nAndroid podcast player I built because every mainstream app I tried\nwas missing the same three things. The app went live on Google Play\nthis week. This post is for indie devs thinking about shipping\ntheir own Android project — six lessons I learned the expensive way.\n\n\n  \n  \n  What Lucidcast does (90-second context)\n\n\nA podcast player with on-device AI:\n\n\n\nWhisper transcribes downloaded episodes locally (audio never\nleaves the phone)\n\nAI episode summaries via Gemini, with a live progress ring\n\n\"Podcast\" wake-word voice commands that",
+      "source": "Dev.to AI",
+      "published": "2026-06-13T09:45:33+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr32351kqv5bdra2vbbve.png"
+    },
+    {
+      "id": "057f9deb850a",
+      "title": "errors.Join in 2026: The Multi-Error Pattern Most Go Devs Still Hand-Roll",
+      "url": "https://dev.to/gabrielanhaia/errorsjoin-in-2026-the-multi-error-pattern-most-go-devs-still-hand-roll-j1o",
+      "summary": "Book: The Complete Guide to Go Programming\n\n\nAlso by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go\n\n\nMy project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools\n\nMe: xgabriel.com | GitHub\n\n\n\n\n\n\nYou open a config validator written by someone who left the team\ntwo years ago. It checks twelve fields. It returns on the first one\nthat fails. The user fixes that field, runs again, hits the next\nfailure, fixes that, runs again. Twelve round trips to validate one\nfile. Somewhere in the same package t",
+      "source": "Dev.to Programming",
+      "published": "2026-06-13T09:38:49+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Felwds8z2pl6ojf2fuq23.png"
+    },
+    {
+      "id": "0be446be31d9",
+      "title": "Event Production Company in India That Delivers When It Actually Matters",
+      "url": "https://dev.to/oliverjameshub_3eeb55cdb/event-production-company-in-india-that-delivers-when-it-actually-matters-54ch",
+      "summary": "Event Production Company in India That Delivers When It Actually Matters\n\nAn event production company in India is often the difference between a flawless live experience and a complete on-ground failure.\n\nThree hours before a 900-person product launch in Delhi, a tilted LED wall revealed a problem no one had anticipated. The venue's false ceiling could not take the rigging load. Nobody had done a venue recce with the production brief in hand.\n\nThat is what production prevents. Not the drama. The gap between what a beautifully rendered design promises and what the physical world can actually ho",
+      "source": "Dev.to Programming",
+      "published": "2026-06-13T09:48:34+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fukp6p90bjhc8wjoe521i.png"
+    },
+    {
+      "id": "bbec50cddff3",
+      "title": "First impressions of Fable 5 and the racing game I built with it",
+      "url": "https://dev.to/vijaykodam/first-impressions-of-fable-5-and-the-racing-game-i-built-with-it-43np",
+      "summary": "My first impressions of Fable 5 before it was suspended.\n\nBest way to use Fable 5 is to start with /goal in Claude Code. Tell it what you want as clearly as you can. Give it necessary context, tech stack if you have preference (like me), ask it to interview you for design decision and then let it build it for you.\n\nOnce /goal command is run and requirements are clarified, then Fable 5 ran continuously for more than 30 minutes before returning with the final product. In my case, I had to run it few more iterations to build the game to suit my design goals.\n\nOne new thing, I observed, is how goo",
+      "source": "Dev.to AI",
+      "published": "2026-06-13T09:39:51+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7dfca9917861",
+      "title": "Angular's Official Agent Skills Helps AI Coding Tools Write Modern Angular",
+      "url": "https://www.infoq.com/news/2026/06/angular-agent-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google's Angular team has released a repository called angular/skills, focusing on Agent Skills that enhance AI coding agents' ability to write modern Angular code. The repository includes skills for generating code and scaffolding applications, reinforcing current Angular conventions. It serves as a snapshot, aiming to improve AI suggestions by providing updated context. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-12T13:30:00+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "1a8c6e1d7a12",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T23:15:14+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "e137e59ee936",
+      "title": "Open source AI must win",
+      "url": "https://opensourceaimustwin.com/?share=v2",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-13T02:14:24+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "051952554936",
+      "title": "How we made GitHub Copilot CLI more selective about delegation",
+      "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+      "summary": "Better orchestration, fewer handoffs, faster progress, without a single new knob.\nThe post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-12T22:26:23+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "79f0801ec574",
+      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+      "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
+      "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-12T09:00:00+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "54cd97a5332f",
+      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+      "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-12T12:10:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "9bea8e6d5615",
+      "title": "Mistral is rumored to be raising €3B at €20B valuation",
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T17:38:11+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "dea36500ea6b",
+      "title": "Pinecone Brings AI Agents Directly to Enterprise Data with Microsoft OneLake Integration",
+      "url": "https://www.infoq.com/news/2026/06/pinecone-ai-agents-onelake/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Pinecone has announced a new integration between its Nexus knowledge engine and Microsoft OneLake, aiming to fundamentally change how enterprise AI agents access and reason over corporate data. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-12T12:00:00+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "4b3533534ef2",
+      "title": "Building an Open Source Edge Semantic Cache for LLMs in Rust/WASM – Sanity check on the architecture? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u3quwk/building_an_open_source_edge_semantic_cache_for/",
+      "summary": "Hey everyone, I am planning out a new open-source infrastructure project and want to get some brutal feedback on the architecture and use-case validity from people running high volume LLM workloads in production. The Problem: Python-based proxies/gateways introduce too much latency overhead for real-time streaming agent steps or fast UI completions. Additionally, centralized semantic caching still suffers from cross-region network latency (e.g., London to us-east-1), and enterprise API costs remain a massive bottleneck for repetitive/predictable user queries (like customer support or structure",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-12T09:53:27+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "b89f6f5e175c",
+      "title": "Run Untrusted AI Agent Code Safely with Azure Container Apps Sandboxes",
+      "url": "https://www.infoq.com/news/2026/06/untrusted-ai-agents-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has announced the public preview of Azure Container Apps Sandboxes. This new ARM resource type is Microsoft.App/SandboxGroups, runs untrusted code generated by agents in hardware-isolated environments. Each sandbox starts from an OCI disk image in less than a second. It can scale to thousands of instances at once and costs nothing when idle. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-06-12T11:00:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "01945e4a5941",
+      "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "url": "https://bitboard.work/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-12T16:58:03+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "712d1f4e93e7",
+      "title": "Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem)",
+      "url": "https://towardsdatascience.com/why-this-decade-old-idea-still-powers-all-of-ai-and-why-its-a-problem/",
+      "summary": "For nearly a decade, this part of neural networks barely changed. DeepSeek is trying to reinvent it.\nThe post Why Decade-Old Residual Connections Still Power All of AI (And Why That’s a Problem) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-12T16:30:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "90aa171e52f5",
+      "title": "Oracle's OpenJDK Bans Generative AI Contributions While Oracle's GraalVM Allows Them",
+      "url": "https://www.infoq.com/news/2026/06/oracle-genai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Two related, Oracle-backed projects published opposing policies on open-source contributions created with generative AI: The OpenJDK Governing Board approved an interim policy prohibiting such contributions, while the Coding Assistants policy from GraalVM permits them. Both projects require contributors to sign the same Oracle Contributor Agreement (OCA) for intellectual property. By Karsten Silz",
+      "source": "InfoQ",
+      "published": "2026-06-12T06:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "f5336c045250",
+      "title": "When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout",
+      "url": "https://towardsdatascience.com/when-pymupdf-cant-see-the-table-parse-pdfs-for-rag-with-azure-layout/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5bis] - The same relational tables. Native table cells. OCR for scanned pages and images. Captions and headings without regex.\nThe post When PyMuPDF Can’t See the Table: Parse PDFs for RAG with Azure Layout appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-12T18:00:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "1d9c0d41e5d1",
+      "title": "A Harness for Every Task: Putting a Team of Claudes on One Job",
+      "url": "https://towardsdatascience.com/a-harness-for-every-task-putting-a-team-of-claudes-on-one-job/",
+      "summary": "Claude can now write its own harness on the fly, custom-built for the task at hand.\nThe post A Harness for Every Task: Putting a Team of Claudes on One Job appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-12T15:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "b5ec42a73c93",
+      "title": "Podcast: Craig McLuckie on Culture as a Team's Operating System in the AI Era",
+      "url": "https://www.infoq.com/podcasts/team-operating-system-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods spoke to Craig McLuckie, co-creator of Kubernetes and CEO of Stacklok, about the impact of AI coding tools on open source communities and engineering teams, designing deliberate organisational culture, and navigating evolving career paths for engineers in the age of AI. By Craig McLuckie",
+      "source": "InfoQ",
+      "published": "2026-06-12T09:00:00+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "041ff902bdab",
+      "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T01:04:38+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
