@@ -1229,3 +1229,37 @@
 2026-06-13 09:51:20,315  INFO     ────────────────────────────────────────────────────────────
 2026-06-13 09:51:20,315  INFO     Done!  Open: output/index.html
 2026-06-13 09:51:20,315  INFO     Headline: AWS Introduces CDK Mixins for Composable Infrastructure Abstractions
+2026-06-14 10:19:40,421  INFO     ============================================================
+2026-06-14 10:19:40,421  INFO     TECHPULSE Digest — 2026-06-14 10:19 UTC
+2026-06-14 10:19:40,421  INFO     ============================================================
+2026-06-14 10:19:40,421  INFO     Step 1/3 — Crawling feeds…
+2026-06-14 10:19:40,767  INFO       Hacker News                    → 0 significant articles
+2026-06-14 10:19:41,180  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-14 10:19:41,338  INFO       Ars Technica                   → 0 significant articles
+2026-06-14 10:19:42,140  INFO       The Register AI                → 0 significant articles
+2026-06-14 10:19:42,274  INFO       MIT Tech Review                → 0 significant articles
+2026-06-14 10:19:42,411  INFO       Dev.to AI                      → 4 significant articles
+2026-06-14 10:19:42,641  INFO       Dev.to Programming             → 1 significant articles
+2026-06-14 10:19:42,954  INFO       GitHub Blog                    → 1 significant articles
+2026-06-14 10:19:43,767  INFO       Google Research                → 0 significant articles
+2026-06-14 10:19:44,423  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-14 10:19:44,486  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-14 10:19:45,132  INFO       InfoQ                          → 4 significant articles
+2026-06-14 10:19:45,287  INFO       Towards Data Science           → 3 significant articles
+2026-06-14 10:19:45,528  INFO       Wired AI                       → 0 significant articles
+2026-06-14 10:19:45,584  INFO       TechCrunch AI                  → 1 significant articles
+2026-06-14 10:19:45,584  INFO     Fetching images for top articles…
+2026-06-14 10:19:45,628  INFO       🖼  Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for He
+2026-06-14 10:19:46,106  INFO       🖼  AWS Introduces Durable Storage Option for ElastiCache for Va
+2026-06-14 10:19:46,178  INFO       🖼  Startup vs Enterprise AI API: The Real Cost Breakdown 2025
+2026-06-14 10:19:46,235  INFO       🖼  Why Your Solana AI Agent Needs a Dedicated Runtime (Not Just
+2026-06-14 10:19:46,291  INFO       🖼  Nvidia RTX Pro 6000 Hits $13,250, Up 55% in a Year
+2026-06-14 10:19:46,291  INFO     Total selected: 16 articles from 15 feeds
+2026-06-14 10:19:46,291  INFO     Selected 16 significant articles
+2026-06-14 10:19:46,292  INFO     Step 2/3 — Generating digest…
+2026-06-14 10:19:46,785  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-14 10:19:46,786  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-14 10:19:46,786  INFO     Step 3/3 — Rendering HTML…
+2026-06-14 10:19:46,787  INFO     ────────────────────────────────────────────────────────────
+2026-06-14 10:19:46,787  INFO     Done!  Open: output/index.html
+2026-06-14 10:19:46,787  INFO     Headline: Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for Hedge Fund Alpha

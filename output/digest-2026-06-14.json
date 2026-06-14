@@ -1,0 +1,183 @@
+{
+  "digest": {
+    "headline": "Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for Hedge Fund Alpha",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for Hedge Fund Alpha (Dev.to AI). AWS Introduces Durable Storage Option for ElastiCache for Valkey (InfoQ). Startup vs Enterprise AI API: The Real Cost Breakdown 2025 (Dev.to AI). Why Your Solana AI Agent Needs a Dedicated Runtime (Not Just a Script) (Dev.to AI). The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents [R] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces CDK Mixins for Composable Infrastructure Abstractions (InfoQ). Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload (Towards Data Science)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "SpaceX IPO: Live updates on everything you need to know (TechCrunch AI). How we made GitHub Copilot CLI more selective about delegation (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Key Takeaways\n\n\nPerpetuals.com, in partnership with Younet AI, has launched Forgentiq.ai, an on-premises AI platform built for hedge funds, proprietary trading firms and digital asset managers.\nThe platform addresses data sovereignty by letting firms run large language models (LLMs) on their own infrastructure — keeping proprietary trading data out of third-party cloud environments.\nThe agentic AI infrastructure targets alpha generation through quantitative research, real-time market analysis and trading strategy development, processing both structured and unstructured data on-site.\nPerpetuals"
+  },
+  "articles": [
+    {
+      "id": "8757dadd169a",
+      "title": "Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for Hedge Fund Alpha",
+      "url": "https://dev.to/autonainews/perpetualscom-launches-forgentiqai-on-premise-llms-for-hedge-fund-alpha-515o",
+      "summary": "Key Takeaways\n\n\nPerpetuals.com, in partnership with Younet AI, has launched Forgentiq.ai, an on-premises AI platform built for hedge funds, proprietary trading firms and digital asset managers.\nThe platform addresses data sovereignty by letting firms run large language models (LLMs) on their own infrastructure — keeping proprietary trading data out of third-party cloud environments.\nThe agentic AI infrastructure targets alpha generation through quantitative research, real-time market analysis and trading strategy development, processing both structured and unstructured data on-site.\nPerpetuals",
+      "source": "Dev.to AI",
+      "published": "2026-06-14T10:12:10+00:00",
+      "score": 4.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvgtge37lq2x6u7bk5xtb.png"
+    },
+    {
+      "id": "637931187383",
+      "title": "AWS Introduces Durable Storage Option for ElastiCache for Valkey",
+      "url": "https://www.infoq.com/news/2026/06/elasticache-valkey-durability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently introduced durability for Amazon ElastiCache for Valkey, enabling reliable data retention across failures and expanding support beyond caching to persistent workloads. The feature offers new options that prioritize either minimizing data loss or maintaining lower write latency, expanding the range of use cases supported by the Redis fork. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-14T05:13:00+00:00",
+      "score": 4.12,
+      "image": "https://res.infoq.com/news/2026/06/elasticache-valkey-durability/en/headerimage/generatedHeaderImage-1780636607335.jpg"
+    },
+    {
+      "id": "ef53f1e5901c",
+      "title": "Startup vs Enterprise AI API: The Real Cost Breakdown 2025",
+      "url": "https://dev.to/swift-logic-io218/startup-vs-enterprise-ai-api-the-real-cost-breakdown-2025-328m",
+      "summary": "Startup vs Enterprise AI API: The Real Cost Breakdown 2025\n\nI spent the last three weeks running numbers until my eyes crossed. Spreadsheets upon spreadsheets, model prices, token calculators, the whole deal. And here's the thing — the difference between what startups pay and what enterprises pay for AI APIs is absolutely bananas. Like, we're talking orders of magnitude here.\n\nCheck this out: a startup running 5 billion tokens per month on the right setup pays around $1,250. Run those same tokens through GPT-4o direct? You're staring at a $50,000 bill. That's a 97.5% gap. I had to triple-check",
+      "source": "Dev.to AI",
+      "published": "2026-06-14T10:08:19+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm8yxbtx1u58o69w4kwta.png"
+    },
+    {
+      "id": "eeb4a33eedb7",
+      "title": "Why Your Solana AI Agent Needs a Dedicated Runtime (Not Just a Script)",
+      "url": "https://dev.to/claudia-ve/why-your-solana-ai-agent-needs-a-dedicated-runtime-not-just-a-script-maj",
+      "summary": "I've spent the last few months building autonomous agents on Solana. And I've made every mistake in the book.\n\nThe first mistake? Treating an agent like a script with a wallet.\n\n\n  \n  \n  The Script Trap\n\n\nIt starts innocently enough. You write a Python script that calls Helius for recent transactions, parses them, and executes a trade through Jupiter. You wrap it in a while True loop with a time.sleep(60).\n\nIt works. For about three hours.\n\nThen your RPC rate-limits you. Or the chain forks. Or an instruction format changes between slots. Or your script crashes at 3 AM and you don't notice unti",
+      "source": "Dev.to AI",
+      "published": "2026-06-14T10:12:18+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbfn8zydmokj3eng9cff4.png"
+    },
+    {
+      "id": "da38ba90ad61",
+      "title": "The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+      "summary": "We recently presented a paper at ACM CAIS 2026 on safety evaluation for tool-using LLM agents. The core issue is that task completion alone can be misleading: an agent may complete a task while violating a safety or policy constraint. We separate outcomes into safe success, unsafe success, and failure, and study how verification changes this tradeoff. We evaluate this using τ-bench / Tau-bench tool-use scenarios and propose a two-tier verification architecture: deterministic policy/tool checks first, followed by an LLM-based verifier for more contextual safety cases. The main finding is that v",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-14T02:09:43+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "9741ff289a6c",
+      "title": "Nvidia RTX Pro 6000 Hits $13,250, Up 55% in a Year",
+      "url": "https://dev.to/gentic_news/nvidia-rtx-pro-6000-hits-13250-up-55-in-a-year-2jj4",
+      "summary": "Nvidia raised RTX Pro 6000 Blackwell to $13,250, up 55% in a year. Memory shortage and AI demand drive prices.\n\n\nNvidia raised the RTX Pro 6000 Blackwell GPU to $13,250, a 55% jump from its $8,565 launch price a year ago. The increase reflects persistent memory shortages and AI-driven demand for workstation-class compute.\n\nKey facts\n\n\nRTX Pro 6000 Blackwell price: $13,250\n55% increase from $8,565 launch price\nPNY variant costs $11,359.99\nServer edition listed at $14,999\nNewegg sells for $12,099.99\n\n\nNvidia has quietly increased the price of the RTX Pro 6000 Blackwell GPU to $13,250, according ",
+      "source": "Dev.to AI",
+      "published": "2026-06-14T10:18:07+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgtlfaotqzbljcb6l4wrv.png"
+    },
+    {
+      "id": "0c412186cd7a",
+      "title": "How to Write a Replay Tool for Failed Integration Records",
+      "url": "https://dev.to/137foundry/how-to-write-a-replay-tool-for-failed-integration-records-4hgm",
+      "summary": "Every team running a data integration eventually needs a replay tool. A record landed in the error queue. The underlying cause was fixed (the schema was updated, the credentials were rotated, the downstream came back up). Now you need to push the record through the integration again.\n\nIf you don't have a tool for this, someone will write ad-hoc shell scripts to copy payloads from the queue and POST them by hand. This works until it doesn't, and \"until it doesn't\" usually involves accidentally double-sending records, replaying with stale credentials, or processing 4,000 items in a tight loop th",
+      "source": "Dev.to Programming",
+      "published": "2026-06-14T10:05:56+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "97910d240584",
+      "title": "Terraform MCP Server Enables AI Assistants to Interact with Terraform Infrastructure",
+      "url": "https://www.infoq.com/news/2026/06/terraform-mcp-server-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has announced the general availability of the Terraform MCP Server, an open-source MCP server that enables agents to integrate with Terraform Registry APIs. The company says that it can improve infrastructure teams productivity by relieving engineers of rote tasks. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-06-13T20:00:00+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "c5c1cde81a09",
+      "title": "AWS Introduces CDK Mixins for Composable Infrastructure Abstractions",
+      "url": "https://www.infoq.com/news/2026/06/cdk-mixins-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced CDK Mixins, a new AWS CDK feature that lets developers add reusable capabilities like security, monitoring, and configuration to AWS resources. Mixins work across different construct types, making infrastructure code more flexible and reusable. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-13T05:38:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "079c2021b83d",
+      "title": "I’m building a free bilingual machine-learning notebook course — looking for feedback on structure and coverage [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
+      "summary": "Hi everyone, I’m building an open-source machine-learning tutorial repository in Jupyter Notebook format: https://github.com/mohammadijoo/Machine_Learning_Tutorials The course is bilingual: English and Persian/Farsi versions are organized in parallel. The goal is to make a practical, notebook-first ML curriculum that students can run locally and study step by step. Current focus areas include:  ML foundations and workflow data cleaning, preprocessing, feature engineering regression and classification tree models and ensembles clustering and dimensionality reduction evaluation, cross-validation",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-13T19:07:17+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "f670f4478549",
+      "title": "Larger Context Windows Don’t Fix RAG — So I Built a System That Does",
+      "url": "https://towardsdatascience.com/larger-context-windows-dont-fix-rag-so-i-built-a-system-that-does/",
+      "summary": "Increasing context size in RAG systems doesn’t improve accuracy for aggregation tasks—it makes errors harder to detect. In this article, I benchmark retrieval-based pipelines against a deterministic full-scan engine across 100,000 rows and show why computation queries must be routed away from RAG entirely.\nThe post Larger Context Windows Don’t Fix RAG — So I Built a System That Does appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-13T17:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "8e2e3892b988",
+      "title": "WebMCP Standard Proposal for Agentic Web Actuation Now Available in Chrome (Origin Trials)",
+      "url": "https://www.infoq.com/news/2026/06/webmcp-web-agent-standard-chrome/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google recently announced that WebMCP is entering origin trials in Chrome 149. The new WebMCP standard proposal lets sites expose tools (e.g., JavaScript functions and HTML forms) to in-browser AI agents, which can thus reliably simulate user actions instead of resorting to possibly expensive (e.g., on-screen reading) and often unreliable guesswork (e.g., DOM scraping). By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-06-13T03:32:00+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "0e966faac66c",
+      "title": "Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload",
+      "url": "https://towardsdatascience.com/parse-pdfs-for-rag-locally-with-docling-rich-tables-no-cloud-upload/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5ter] - Table cells, OCR, captions, headings: cloud-grade structure, running on your own machine. No key, no per-page bill, nothing leaves the building\nThe post Parse PDFs for RAG Locally with Docling: Rich Tables, No Cloud Upload appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-13T15:00:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "c6b8e525301a",
+      "title": "Solving the 3Blue1Brown String Probability Problem (Without AI)",
+      "url": "https://towardsdatascience.com/solving-the-3blue1brown-string-probability-problem-without-ai/",
+      "summary": "Let's practice data science thinking through a probability problem \nThe post Solving the 3Blue1Brown String Probability Problem (Without AI) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-13T13:00:00+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "1a8c6e1d7a12",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-12T23:15:14+00:00",
+      "score": 1.95,
+      "image": null
+    },
+    {
+      "id": "051952554936",
+      "title": "How we made GitHub Copilot CLI more selective about delegation",
+      "url": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+      "summary": "Better orchestration, fewer handoffs, faster progress, without a single new knob.\nThe post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-12T22:26:23+00:00",
+      "score": 1.81,
+      "image": null
+    }
+  ]
+}
