@@ -1,0 +1,135 @@
+{
+  "digest": {
+    "headline": "Anthropic Releases and Temporarily Suspends Claude Fable 5",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Anthropic Releases and Temporarily Suspends Claude Fable 5 (InfoQ). From Automation to Intelligence: The Next Stage of DevOps (Dev.to AI). Podcast: Increasing Users' Data Agency: From BlueSky's AT Protocol to the Local-First Software Movement (InfoQ). Article: Governing AI in the Cloud: A Practical Guide for Architects (InfoQ). Kit Docente IA 2026: 50 Prompts para Transformar tus Clases de Secundaria (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "On June 9, 2026, Anthropic launched Claude Fable 5, a model designed for long-horizon tasks, but it was taken offline shortly after due to a U.S. government export directive. It shares architecture with Claude Mythos 5, supporting extensive token usage. The model includes mandatory data retention requirements, which have affected its deployment with partners like Microsoft. By Andrew Hoblitzell"
+  },
+  "articles": [
+    {
+      "id": "b41f5f2ad4fa",
+      "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5",
+      "url": "https://www.infoq.com/news/2026/06/claude-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "On June 9, 2026, Anthropic launched Claude Fable 5, a model designed for long-horizon tasks, but it was taken offline shortly after due to a U.S. government export directive. It shares architecture with Claude Mythos 5, supporting extensive token usage. The model includes mandatory data retention requirements, which have affected its deployment with partners like Microsoft. By Andrew Hoblitzell",
+      "source": "InfoQ",
+      "published": "2026-06-15T05:01:00+00:00",
+      "score": 4.36,
+      "image": "https://cdn.infoq.com/statics_s1_20260612085426/styles/static/images/logo/logo-big.jpg"
+    },
+    {
+      "id": "c8ff00508554",
+      "title": "From Automation to Intelligence: The Next Stage of DevOps",
+      "url": "https://dev.to/brillius/from-automation-to-intelligence-the-next-stage-of-devops-2643",
+      "summary": "DevOps has always evolved with technology. \n\nCloud changed how teams manage infrastructure. Containers changed how applications are deployed. CI/CD changed how software is released. Observability changed how teams monitor systems. \n\nNow AI is starting to change DevOps again. \n\nThe next stage of DevOps is not only automation. It is intelligence. \n\n*DevOps Was Built on Automation *\n\nAutomation is one of the strongest foundations of DevOps. \n\nDevOps teams automate: \n\n• Builds \n• Tests \n• Deployments \n• Infrastructure provisioning \n• Monitoring alerts \n• Rollbacks \n• Scaling \n• Security checks \nTh",
+      "source": "Dev.to AI",
+      "published": "2026-06-15T12:44:19+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4guhjyco065v0dt7qptz.png"
+    },
+    {
+      "id": "97bc2d7b42cc",
+      "title": "Podcast: Increasing Users' Data Agency: From BlueSky's AT Protocol to the Local-First Software Movement",
+      "url": "https://www.infoq.com/podcasts/increasing-users-data-agency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Martin Kleppmann, an associate professor at Cambridge and author of Designing Data-Intensive Applications, discusses the evolution of data systems over the last decade, mainly the shift from monolithic databases to modular building blocks. Kleppmann underlines the importance of moving from cloud-centric data storage systems to decentralised data storage similar to Bluesky’s AT protocol. By Martin Kleppmann",
+      "source": "InfoQ",
+      "published": "2026-06-15T11:00:00+00:00",
+      "score": 3.79,
+      "image": "https://res.infoq.com/podcasts/increasing-users-data-agency/en/card_header_image/martin-kleppmann-twitter-card-1780998670120.jpg"
+    },
+    {
+      "id": "6758b64ecd4f",
+      "title": "Article: Governing AI in the Cloud: A Practical Guide for Architects",
+      "url": "https://www.infoq.com/articles/governing-ai-cloud-guide/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this article, the author outlines a practical approach to AI governance in the cloud, covering discovery of shadow AI, data classification at creation, IAM-based enforcement, policy-as-code, and operational controls. The article shows how organizations can embed governance into delivery pipelines, balancing security, compliance, and developer productivity without relying on manual processes. By Dave Ward",
+      "source": "InfoQ",
+      "published": "2026-06-15T11:00:00+00:00",
+      "score": 3.59,
+      "image": "https://res.infoq.com/articles/governing-ai-cloud-guide/en/headerimage/governing-ai-cloud-guide-header-1781010249930.jpg"
+    },
+    {
+      "id": "f508f27f27a4",
+      "title": "Kit Docente IA 2026: 50 Prompts para Transformar tus Clases de Secundaria",
+      "url": "https://dev.to/dgmh10uk/kit-docente-ia-2026-50-prompts-para-transformar-tus-clases-de-secundaria-57l1",
+      "summary": "Kit Docente IA 2026: 50 Prompts para Transformar tus Clases\n\n\n¿Pasas horas preparando exámenes, rúbricas y programaciones? La inteligencia artificial puede darte ese tiempo de vuelta — si sabes cómo usarla.\n\n\n  \n  \n  El problema real de los docentes con la IA\n\n\nEl 73% de los profesores que intentan usar ChatGPT en su día a día lo abandonan en las primeras semanas. ¿El motivo? No tienen prompts específicos para su contexto. Los prompts genéricos dan resultados genéricos.\n\n\n  \n  \n  Qué cambia con los prompts correctos\n\n\nUn buen prompt docente marca la diferencia entre:\n\n\n❌ \"Hazme un examen de Hi",
+      "source": "Dev.to AI",
+      "published": "2026-06-15T12:53:32+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp4lhdjakp31hxl05q2np.png"
+    },
+    {
+      "id": "c894bdd0e2bd",
+      "title": "Vapor Concentration Monitors Market: Technological Advancements and Industry Trends 2026-2034",
+      "url": "https://dev.to/prerana_kulkarni_90af0ed5/vapor-concentration-monitors-market-technological-advancements-and-industry-trends-2026-2034-30gm",
+      "summary": "The global Vapor Concentration Monitors Market is experiencing a period of robust and sustained expansion, underpinned by escalating demand from advanced semiconductor manufacturing processes and tightening environmental and workplace safety regulations across major industrial economies. A comprehensive new report published by Semiconductor Insight provides an in-depth analysis of the market's current valuation, growth trajectory, competitive dynamics, and the technological forces shaping its future through the forecast period. The study underscores the increasingly indispensable role of vapor",
+      "source": "Dev.to Programming",
+      "published": "2026-06-15T12:28:59+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbsv94pmsd241q9eqojo3.png"
+    },
+    {
+      "id": "1fe61db8f4b1",
+      "title": "How does the ML community view evolutionary algorithm research? Career implications of an EA PhD? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u66q3l/how_does_the_ml_community_view_evolutionary/",
+      "summary": "How does the ML research community feel about evolutionary algorithms? Should I do a PhD in this area? Quick remark: I know some people in the ML community dunk on evolutionary algorithms because there’s often a better optimizer, but they do have their place, which is what researchers in my community aim to quantify. Background: I just finished my first year as a mathematics master’s student working on the theory of evolutionary algorithms (EAs)/randomized search heuristics. I’m fortunate to be on a research assistantship and have already coauthored several papers in strong conferences in our ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-15T04:48:39+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "637931187383",
+      "title": "AWS Introduces Durable Storage Option for ElastiCache for Valkey",
+      "url": "https://www.infoq.com/news/2026/06/elasticache-valkey-durability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently introduced durability for Amazon ElastiCache for Valkey, enabling reliable data retention across failures and expanding support beyond caching to persistent workloads. The feature offers new options that prioritize either minimizing data loss or maintaining lower write latency, expanding the range of use cases supported by the Redis fork. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-14T05:13:00+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "64026ad3c65a",
+      "title": "GPU Time-Slicing for Concurrent LLM Agents on Kubernetes",
+      "url": "https://towardsdatascience.com/gpu-time-slicing-for-concurrent-llm-agents-on-kubernetes/",
+      "summary": "A systems-level deep dive into the hidden microarchitectural costs of Kubernetes GPU time-slicing, and what it actually costs to co-locate Agentic AI workloads.\nThe post GPU Time-Slicing for Concurrent LLM Agents on Kubernetes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-14T13:00:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "c40b168f8d5f",
+      "title": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
+      "url": "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures\nThe post Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-14T15:00:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "7dc74dcb4bda",
+      "title": "4 Lines You Should Include in Your Claude Skill",
+      "url": "https://towardsdatascience.com/4-lines-you-must-include-in-your-claude-skill/",
+      "summary": "Without these, Claude will be confidently wrong.\nThe post 4 Lines You Should Include in Your Claude Skill appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-14T17:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "da38ba90ad61",
+      "title": "The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+      "summary": "We recently presented a paper at ACM CAIS 2026 on safety evaluation for tool-using LLM agents. The core issue is that task completion alone can be misleading: an agent may complete a task while violating a safety or policy constraint. We separate outcomes into safe success, unsafe success, and failure, and study how verification changes this tradeoff. We evaluate this using τ-bench / Tau-bench tool-use scenarios and propose a two-tier verification architecture: deterministic policy/tool checks first, followed by an LLM-based verifier for more contextual safety cases. The main finding is that v",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-14T02:09:43+00:00",
+      "score": 2.07,
+      "image": null
+    }
+  ]
+}

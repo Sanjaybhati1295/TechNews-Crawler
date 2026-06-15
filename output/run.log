@@ -1263,3 +1263,38 @@
 2026-06-14 10:19:46,787  INFO     ────────────────────────────────────────────────────────────
 2026-06-14 10:19:46,787  INFO     Done!  Open: output/index.html
 2026-06-14 10:19:46,787  INFO     Headline: Perpetuals.com Launches Forgentiq.ai: On-Premise LLMs for Hedge Fund Alpha
+2026-06-15 12:58:07,452  INFO     ============================================================
+2026-06-15 12:58:07,452  INFO     TECHPULSE Digest — 2026-06-15 12:58 UTC
+2026-06-15 12:58:07,452  INFO     ============================================================
+2026-06-15 12:58:07,452  INFO     Step 1/3 — Crawling feeds…
+2026-06-15 12:58:07,852  INFO       Hacker News                    → 0 significant articles
+2026-06-15 12:58:08,288  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-15 12:58:08,561  INFO       Ars Technica                   → 0 significant articles
+2026-06-15 12:58:09,117  INFO       The Register AI                → 0 significant articles
+2026-06-15 12:58:09,294  INFO       MIT Tech Review                → 0 significant articles
+2026-06-15 12:58:09,494  INFO       Dev.to AI                      → 2 significant articles
+2026-06-15 12:58:10,190  INFO       Dev.to Programming             → 1 significant articles
+2026-06-15 12:58:10,410  INFO       GitHub Blog                    → 0 significant articles
+2026-06-15 12:58:11,420  INFO       Google Research                → 0 significant articles
+2026-06-15 12:58:12,303  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-15 12:58:12,415  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-15 12:58:12,920  INFO       InfoQ                          → 4 significant articles
+2026-06-15 12:58:13,356  INFO       Towards Data Science           → 3 significant articles
+2026-06-15 12:58:13,701  INFO       Wired AI                       → 0 significant articles
+2026-06-15 12:58:13,871  INFO       TechCrunch AI                  → 0 significant articles
+2026-06-15 12:58:13,871  INFO     Fetching images for top articles…
+2026-06-15 12:58:14,346  INFO       🖼  Anthropic Releases and Temporarily Suspends Claude Fable 5
+2026-06-15 12:58:14,448  INFO       🖼  From Automation to Intelligence: The Next Stage of DevOps
+2026-06-15 12:58:14,886  INFO       🖼  Podcast: Increasing Users' Data Agency: From BlueSky's AT Pr
+2026-06-15 12:58:15,343  INFO       🖼  Article: Governing AI in the Cloud: A Practical Guide for Ar
+2026-06-15 12:58:15,429  INFO       🖼  Kit Docente IA 2026: 50 Prompts para Transformar tus Clases 
+2026-06-15 12:58:15,580  INFO       🖼  Vapor Concentration Monitors Market: Technological Advanceme
+2026-06-15 12:58:15,580  INFO     Total selected: 12 articles from 15 feeds
+2026-06-15 12:58:15,581  INFO     Selected 12 significant articles
+2026-06-15 12:58:15,581  INFO     Step 2/3 — Generating digest…
+2026-06-15 12:58:15,906  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-15 12:58:15,906  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-15 12:58:15,906  INFO     Step 3/3 — Rendering HTML…
+2026-06-15 12:58:15,907  INFO     ────────────────────────────────────────────────────────────
+2026-06-15 12:58:15,908  INFO     Done!  Open: output/index.html
+2026-06-15 12:58:15,908  INFO     Headline: Anthropic Releases and Temporarily Suspends Claude Fable 5
