@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking (InfoQ). ZCode vs MiMo Code vs DevEco Code: Who Really Solves Developer Pain Points in China's AI Coding Tools Race? (Dev.to Programming). AI Coding Agents Get a Stack Overflow of Their Own (InfoQ). Source code for LLMs. [D] (Reddit r/MachineLearning). Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Xcode 27 Extends Agent Integration, Revamps UI, and Introduces DeviceHub (InfoQ)."
+      }
+    ],
+    "key_takeaway": "PostgreSQL 19 Beta has been announced, with general availability expected in September, following the project's yearly major-release cadence. This release introduces native SQL Property Graph Queries (SQL/PGQ), concurrent table repacking to reclaim storage without downtime, and a broad set of performance, observability, and administration improvements. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "a86dacbcc011",
+      "title": "PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking",
+      "url": "https://www.infoq.com/news/2026/06/postgresql-19-graph-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "PostgreSQL 19 Beta has been announced, with general availability expected in September, following the project's yearly major-release cadence. This release introduces native SQL Property Graph Queries (SQL/PGQ), concurrent table repacking to reclaim storage without downtime, and a broad set of performance, observability, and administration improvements. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-16T07:15:00+00:00",
+      "score": 4.83,
+      "image": "https://res.infoq.com/news/2026/06/postgresql-19-graph-queries/en/headerimage/generatedHeaderImage-1781180249672.jpg"
+    },
+    {
+      "id": "8ce3edbcd974",
+      "title": "ZCode vs MiMo Code vs DevEco Code: Who Really Solves Developer Pain Points in China's AI Coding Tools Race?",
+      "url": "https://dev.to/mininglamp/zcode-vs-mimo-code-vs-deveco-code-who-really-solves-developer-pain-points-in-chinas-ai-coding-1n6a",
+      "summary": "June 2026 marked a turning point for AI coding tools in China. Zhipu released ZCode 3.0, Xiaomi open-sourced MiMo Code, and Huawei launched DevEco Code at HDC 2026. Developer communities are calling it the \"Three Kingdoms War\" of domestic AI coding tools.\n\nThese three products take fundamentally different technical approaches. This article compares them across product positioning, technical architecture, and developer experience, while exploring the unique value proposition of local-first solutions in this space.\n\n\n  \n  \n  Product Positioning\n\n\nZCode 3.0 (Zhipu AI): Released June 13, positione",
+      "source": "Dev.to Programming",
+      "published": "2026-06-16T11:44:15+00:00",
+      "score": 4.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvs75wlq0jo7ude4fzjmx.png"
+    },
+    {
+      "id": "c5bf8454727b",
+      "title": "AI Coding Agents Get a Stack Overflow of Their Own",
+      "url": "https://www.infoq.com/news/2026/06/stack-overflow-for-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Stack Overflow has announced Stack Overflow for Agents, a beta API-first knowledge exchange aimed at AI coding agents rather than human developers. The service is presented as a way to close what the company calls the Ephemeral Intelligence Gap, where agents repeatedly rediscover the same fixes and patterns in isolation instead of sharing them through a common memory. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-16T08:00:00+00:00",
+      "score": 4.27,
+      "image": "https://res.infoq.com/news/2026/06/stack-overflow-for-agents/en/headerimage/generatedHeaderImage-1781562336273.jpg"
+    },
+    {
+      "id": "a86e06f55268",
+      "title": "Source code for LLMs. [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u79uwi/source_code_for_llms_d/",
+      "summary": "I was digging through Hugging Face’s Transformers repo and found https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt_oss/modeling_gpt_oss.py From what I can tell, this isn’t just boilerplate, it looks like a full implementation. is it actually the full code on which gpt_oss is built on? or is it a skeleton for experimentation? Similarly there are many models in https://github.com/huggingface/transformers/blob/main/src/transformers/models are they really the true open source implementations? if not, can we actually find them publicly?  &#32; submitted by &#32;  /u/",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-16T10:36:56+00:00",
+      "score": 4.12,
+      "image": null
+    },
+    {
+      "id": "aeacbae86da5",
+      "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+      "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "summary": "Respond.io, one of Malaysia startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-16T06:59:00+00:00",
+      "score": 4.12,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/respond-team-comp-2.webp?resize=1200,800"
+    },
+    {
+      "id": "092eaa891071",
+      "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 8th, 2026, features news highlighting: the GA release of A2A Java SDK 1.0; an update on Jakarta EE 12; point releases of Micrometer Metrics and Micrometer Tracing; maintenance releases of GraalVM Native Build Tools and OpenXava; the second release candidate of Gradle 9.6; and the first milestone release of Eclipse JNoSQL 1.2. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-16T02:30:00+00:00",
+      "score": 4.07,
+      "image": "https://res.infoq.com/news/2026/06/java-news-roundup-jun08-2026/en/headerimage/java-news-roundup-image-1781562442627.jpg"
+    },
+    {
+      "id": "183e7c903d79",
+      "title": "Nvidia Rubin's 10x Cheaper Tokens Hide a Footnote",
+      "url": "https://dev.to/indra_gustiprasetya_a80a/nvidia-rubins-10x-cheaper-tokens-hide-a-footnote-4362",
+      "summary": "A single number is already loose in 2026 budget decks: up to 10x lower cost per token than Blackwell. That is Nvidia's headline for the Vera Rubin NVL72, launched at CES in January and detailed at GTC in March. Per Nvidia's newsroom and developer blog, the same rack also promises up to 5x greater inference performance and a 4x cut in the GPUs needed to train a mixture-of-experts model, all measured against the current Blackwell generation.\n\nIf you are signing a GPU commit this quarter, that 10x is quietly rewriting your plan whether you have read the footnotes or not. So read the footnotes.\n\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-06-16T12:01:28+00:00",
+      "score": 4.0,
+      "image": null
+    },
+    {
+      "id": "7e4f8dad24d8",
+      "title": "I Wish I Knew These AI Agent Patterns Sooner — Here's the Full Breakdown",
+      "url": "https://dev.to/loyaldash/i-wish-i-knew-these-ai-agent-patterns-sooner-heres-the-full-breakdown-g0h",
+      "summary": "Honestly, i Wish I Knew These AI Agent Patterns Sooner — Here's the Full Breakdown\n\nThree months ago I was burning through $4,000 a month on OpenAI for what amounted to a glorified chatbot. Then I rebuilt the whole stack around DeepSeek's reasoning models and our bill dropped to $380. Same throughput, same quality, same latency SLA. That's not a typo.\n\nThis is the playbook I wish someone had handed me on day one. If you're a startup CTO trying to ship agentic features without going bankrupt, steal this.\n\n\n  \n  \n  Why \"Agentic\" Changes Everything (and Why Nobody Tells You the Real Cost)\n\n\nThe t",
+      "source": "Dev.to Programming",
+      "published": "2026-06-16T11:53:19+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "0aa34c4a4630",
+      "title": "How to Implement Generative AI Compliance in Your Development Workflow",
+      "url": "https://dev.to/jasperstewart/how-to-implement-generative-ai-compliance-in-your-development-workflow-467f",
+      "summary": "How to Implement Generative AI Compliance in Your Development Workflow\n\n\nBuilding generative AI applications without a compliance framework is like constructing a building without permits—it might work temporarily, but the foundation is unstable. As AI regulations tighten globally, development teams need practical strategies to embed compliance directly into their workflows rather than treating it as an afterthought.\n\n\n\nImplementing Generative AI Compliance doesn't require overhauling your entire development process. Instead, it means adding specific checkpoints, documentation practices, and t",
+      "source": "Dev.to AI",
+      "published": "2026-06-16T12:00:02+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "37e63a67f4af",
+      "title": "\"My Two AI Tasks Kept Fighting for the Same Mouse\"",
+      "url": "https://dev.to/codekingai/my-two-ai-tasks-kept-fighting-for-the-same-mouse-17m5",
+      "summary": "The second my local AI assistant learned how to operate Windows apps, I ran into a new bug.\n\nNot a model bug. Not a prompt bug.\n\nA traffic bug.\n\nOne task was logging into a site through the desktop. Another task wanted to open a different app. Both requests were valid. Both were \"in progress.\" And both were trying to use the same physical mouse, keyboard, and screen.\n\nThat is when an assistant stops feeling like software and starts feeling like two interns fighting over one laptop.\n\n\n  \n  \n  The first version knew there were multiple runs, but not one shared desktop\n\n\nIn CliGate, I already had",
+      "source": "Dev.to AI",
+      "published": "2026-06-16T12:02:21+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "af13c9e449c0",
+      "title": "Why Your Car Demands More Than a Basic Wash in 2026",
+      "url": "https://dev.to/joseph_5fd3ad4f78ed1cd686/why-your-car-demands-more-than-a-basic-wash-in-2026-80c",
+      "summary": "Road salt, ocean air, and urban grime eat away paint fast. A basic rinse hides nothing. Ceramic coating bonds permanently, repels dirt, and preserves resale value. Get it done right—with paint correction first. Your car isn’t just transportation; it’s an asset. Protect it like one.\nhttps://698dd410d70ad.site123.me/blog/why-your-car-deserves-more-than-a-basic-wash-in-2026",
+      "source": "Dev.to Programming",
+      "published": "2026-06-16T11:55:11+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "278f293bd44e",
+      "title": "Send Money to Zambia Without Losing a Fortune",
+      "url": "https://dev.to/james_robert_bec96145f0c5/send-money-to-zambia-without-losing-a-fortune-23hd",
+      "summary": "I still remember the hollow feeling in my chest when I opened my cousin’s message. She had sent a photo of her bank receipt: K124,500 received. I had sent £5,000 from my UK bank account three days earlier. A quick check on XE that morning showed the mid-market rate at 27.50, meaning I should have landed around K137,500. A staggering K13,000 had vanished. That’s roughly £400—a month’s rent in Lusaka—gone to hidden fees and a murky exchange rate spread. I had just paid for a lesson I’d never forget.\n\nThat was 2018. Since then, I’ve been responsible for moving funds back home to Zambia every mont",
+      "source": "Dev.to Programming",
+      "published": "2026-06-16T11:47:03+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "3d1528b4011c",
+      "title": "Anthropic Explains How Claude Builds Its Own Execution Harnesses",
+      "url": "https://www.infoq.com/news/2026/06/claude-code-harnesses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Anthropic has published additional details about the orchestration system behind Claude Code's recently introduced Dynamic Workflows, highlighting how the feature generates custom execution harnesses designed to coordinate teams of AI agents for complex tasks. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-06-15T20:55:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "7465511e9be0",
+      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "summary": "GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent.\nThe post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-15T20:15:31+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "8950f2be00f1",
+      "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "summary": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-15T21:50:21+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "baa795f58d1e",
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "summary": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-15T14:34:45+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "ac624b319b7a",
+      "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "summary": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-15T18:30:58+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "3efbcdb9bd27",
+      "title": "Xcode 27 Extends Agent Integration, Revamps UI, and Introduces DeviceHub",
+      "url": "https://www.infoq.com/news/2026/06/xcode-27-agents-device-hub/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "At WWDC 2026, Apple introduced Xcode 27, which makes it easy to kick off tasks with coding agents, iterate on new project ideas, and customize the workspace. It also introduces DeviceHub for unified simulator and device management, along with enhancements to Organizer and Instruments, among many other improvements. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-06-15T21:00:00+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "b41f5f2ad4fa",
+      "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5",
+      "url": "https://www.infoq.com/news/2026/06/claude-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "On June 9, 2026, Anthropic launched Claude Fable 5, a model designed for long-horizon tasks, but it was taken offline shortly after due to a U.S. government export directive. It shares architecture with Claude Mythos 5, supporting extensive token usage. The model includes mandatory data retention requirements, which have affected its deployment with partners like Microsoft. By Andrew Hoblitzell",
+      "source": "InfoQ",
+      "published": "2026-06-15T05:01:00+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "0725eceffceb",
+      "title": "ArrowJS Reaches 1.0, Recast as the First UI Framework for the Agentic Era",
+      "url": "https://www.infoq.com/news/2026/06/arrowjs-v1-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "ArrowJS, developed by Justin Schroeder, is a reactive UI library that has reached its 1.0 release after three years in development. It utilizes core web technologies, avoids JSX and compilers. Notable features include an optional WASM sandbox for executing untrusted code. The framework's minimalism is highlighted by its reliance on three main functions: reactive, html, and component. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-15T13:10:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "7ef2200ed7f0",
+      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+      "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+      "summary": "A new repository-level dataset, published on GitHub under CC0-1.0, helps researchers and developers discover multilingual developer content across READMEs, issues, and pull requests.\nThe post Accelerating researchers and developers building multilingual AI with a new open dataset appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-15T19:17:30+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "fb8ef0901b52",
+      "title": "Spring News Roundup: Point Releases of Boot, Security, Integration, Modulith and Spring AI 2.0",
+      "url": "https://www.infoq.com/news/2026/06/spring-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "There was a flurry of activity in the Spring ecosystem during the week of June 8th, 2026, highlighting point releases of: Spring Boot, Spring Security, Spring Session, Spring Integration, Spring Modulith, Spring AMQP and Spring Vault; and GA releases of Spring AI 2.0 and Spring Data 2026.0.0. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-15T14:15:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "2cf22b68fc62",
+      "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+      "summary": "A group made up of dozens of cybersecurity experts urged the White House to remove export-control restrictions on Anthropic’s Fable and Mythos models, arguing that the order is going to limit the ability of cybersecurity defenders to secure their software and products.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-15T15:29:51+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "b31f725d2a24",
+      "title": "This man with ALS is “the first power user” of a brain implant that lets him speak",
+      "url": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/",
+      "summary": "Casey Harrell has had a set of electrodes embedded in his brain for almost three years. Harrell, who has amyotrophic lateral sclerosis (ALS) and is paralyzed, first used his brain-computer interface (BCI) to “speak” sentences with the help of a research team in 2023. Since then, Harrell has clocked thousands of hours of use. He&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-15T15:12:28+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "22d4f11f0ea1",
+      "title": "Embedded/edge ML folks: what actually eats the most time ,getting data, or cleaning/labeling it (time series sensor data, not computer vision/audio)? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u6q97f/embeddededge_ml_folks_what_actually_eats_the_most/",
+      "summary": "I'm trying to understand where people doing sensor based ML on microcontrollers (IMU, accelerometer, vibration ,that kind of time-series data) actually lose the most time. When you've built something like this, what was the bottleneck:  Getting enough real world data in the first place? Cleaning / labeling / organizing the data you have? Actually building and training the model? Getting it optimized and deployed on the device?  I am working on a project that aims to eliminate some of these pains and wanted to get some validation on this topic first before I go and add more features. It is esse",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-15T19:13:52+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "9a32bff36420",
+      "title": "Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "summary": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-15T13:46:08+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "b9ced1d3f373",
+      "title": "How to Effectively Align with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-effectively-align-with-claude-code/",
+      "summary": "Increase productivity with your LLMs\nThe post How to Effectively Align with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-15T16:30:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "556d45591857",
+      "title": "The Protocol That Cleaned Up Our Agent Architecture",
+      "url": "https://towardsdatascience.com/the-protocol-that-cleaned-up-our-agent-architecture/",
+      "summary": "A detailed look at MCP that turned my scattered tool definitions into a stable, discoverable server\nThe post The Protocol That Cleaned Up Our Agent Architecture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-15T15:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "97bc2d7b42cc",
+      "title": "Podcast: Increasing Users' Data Agency: From BlueSky's AT Protocol to the Local-First Software Movement",
+      "url": "https://www.infoq.com/podcasts/increasing-users-data-agency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Martin Kleppmann, an associate professor at Cambridge and author of Designing Data-Intensive Applications, discusses the evolution of data systems over the last decade, mainly the shift from monolithic databases to modular building blocks. Kleppmann underlines the importance of moving from cloud-centric data storage systems to decentralised data storage similar to Bluesky’s AT protocol. By Martin Kleppmann",
+      "source": "InfoQ",
+      "published": "2026-06-15T11:00:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "6758b64ecd4f",
+      "title": "Article: Governing AI in the Cloud: A Practical Guide for Architects",
+      "url": "https://www.infoq.com/articles/governing-ai-cloud-guide/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this article, the author outlines a practical approach to AI governance in the cloud, covering discovery of shadow AI, data classification at creation, IAM-based enforcement, policy-as-code, and operational controls. The article shows how organizations can embed governance into delivery pipelines, balancing security, compliance, and developer productivity without relying on manual processes. By Dave Ward",
+      "source": "InfoQ",
+      "published": "2026-06-15T11:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    }
+  ]
+}
