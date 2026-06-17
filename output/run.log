@@ -1332,3 +1332,36 @@
 2026-06-16 12:04:06,284  INFO     ────────────────────────────────────────────────────────────
 2026-06-16 12:04:06,284  INFO     Done!  Open: output/index.html
 2026-06-16 12:04:06,284  INFO     Headline: PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking
+2026-06-17 11:27:49,322  INFO     ============================================================
+2026-06-17 11:27:49,323  INFO     TECHPULSE Digest — 2026-06-17 11:27 UTC
+2026-06-17 11:27:49,323  INFO     ============================================================
+2026-06-17 11:27:49,323  INFO     Step 1/3 — Crawling feeds…
+2026-06-17 11:27:49,642  INFO       Hacker News                    → 0 significant articles
+2026-06-17 11:27:50,036  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-17 11:27:50,140  INFO       Ars Technica                   → 0 significant articles
+2026-06-17 11:27:50,790  INFO       The Register AI                → 0 significant articles
+2026-06-17 11:27:50,950  INFO       MIT Tech Review                → 2 significant articles
+2026-06-17 11:27:51,132  INFO       Dev.to AI                      → 4 significant articles
+2026-06-17 11:27:51,280  INFO       Dev.to Programming             → 2 significant articles
+2026-06-17 11:27:51,454  INFO       GitHub Blog                    → 0 significant articles
+2026-06-17 11:27:52,245  INFO       Google Research                → 0 significant articles
+2026-06-17 11:27:53,103  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-06-17 11:27:53,221  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-17 11:27:53,692  INFO       InfoQ                          → 4 significant articles
+2026-06-17 11:27:53,988  INFO       Towards Data Science           → 4 significant articles
+2026-06-17 11:27:54,208  INFO       Wired AI                       → 0 significant articles
+2026-06-17 11:27:54,337  INFO       TechCrunch AI                  → 4 significant articles
+2026-06-17 11:27:54,337  INFO     Fetching images for top articles…
+2026-06-17 11:27:54,439  INFO       🖼  Android 17 launches with new multitasking tools as Google ex
+2026-06-17 11:27:54,524  INFO       🖼  # 5 Essential Ransomware Prevention Tips for Small Businesse
+2026-06-17 11:27:54,992  INFO       🖼  GitHub Copilot Desktop App Targets Parallel Agentic Workflow
+2026-06-17 11:27:55,558  INFO       🖼  PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurre
+2026-06-17 11:27:55,659  INFO     Total selected: 21 articles from 15 feeds
+2026-06-17 11:27:55,659  INFO     Selected 21 significant articles
+2026-06-17 11:27:55,659  INFO     Step 2/3 — Generating digest…
+2026-06-17 11:27:56,763  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-17 11:27:56,763  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-17 11:27:56,763  INFO     Step 3/3 — Rendering HTML…
+2026-06-17 11:27:56,764  INFO     ────────────────────────────────────────────────────────────
+2026-06-17 11:27:56,764  INFO     Done!  Open: output/index.html
+2026-06-17 11:27:56,764  INFO     Headline: Android 17 launches with new multitasking tools as Google expands Gemini features

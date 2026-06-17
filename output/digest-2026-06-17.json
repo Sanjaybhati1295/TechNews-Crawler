@@ -1,0 +1,229 @@
+{
+  "digest": {
+    "headline": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Android 17 launches with new multitasking tools as Google expands Gemini features (TechCrunch AI). # 5 Essential Ransomware Prevention Tips for Small Businesses (Dev.to Programming). GitHub Copilot Desktop App Targets Parallel Agentic Workflows (InfoQ). Changes to LLM pricing: Io Net (Dev.to AI). PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Web Performance Optimization: The Complete Guide for 2025 (Dev.to AI). RAG Questions Need Parsing Too: Turn the User’s String Into Briefs for Retrieval and Generation (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices."
+  },
+  "articles": [
+    {
+      "id": "38bbef9f5395",
+      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades. The launch is also accompanied by a Pixel Drop that brings Google’s latest AI models to its devices.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-16T18:00:00+00:00",
+      "score": 4.03,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472.jpg?w=1024"
+    },
+    {
+      "id": "95b2d802b11b",
+      "title": "# 5 Essential Ransomware Prevention Tips for Small Businesses",
+      "url": "https://dev.to/rv_688a20c2e1fe40b6498568/-5-essential-ransomware-prevention-tips-for-small-businesses-n22",
+      "summary": "Ransomware remains one of the top threats facing small businesses. Attackers encrypt files and demand payment, often exploiting weak backups or untrained staff.\n\n\n  \n  \n  1. Maintain offline backups\n\n\nKeep daily backups stored offline or in immutable cloud storage. Test restores monthly — a backup you cannot restore is useless.\n\n\n  \n  \n  2. Patch systems promptly\n\n\nApply security updates for Windows, browsers, and business apps within days of release. Many ransomware strains exploit known CVEs.\n\n\n  \n  \n  3. Train employees on phishing\n\n\nMost ransomware enters through malicious email links or a",
+      "source": "Dev.to Programming",
+      "published": "2026-06-17T11:07:50+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4rwffh10fa3my9b1gab5.png"
+    },
+    {
+      "id": "55a00dbf483e",
+      "title": "GitHub Copilot Desktop App Targets Parallel Agentic Workflows",
+      "url": "https://www.infoq.com/news/2026/06/github-copilot-app/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub has introduced the GitHub Copilot app, a desktop control centre for agent-native development that aims to keep engineers in charge while AI agents handle more coding work. Mario Rodriguez writes on the GitHub blog that the recent wave of coding agents has brought faster delivery but also \"disjointed workflows, more context switching, and too much time spent reviewing agent-generated code\". By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-17T08:00:00+00:00",
+      "score": 3.91,
+      "image": "https://res.infoq.com/news/2026/06/github-copilot-app/en/headerimage/generatedHeaderImage-1781650188827.jpg"
+    },
+    {
+      "id": "5c9694a86ee5",
+      "title": "Changes to LLM pricing: Io Net",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-io-net-25h0",
+      "summary": "Model price changes detected for Io Net. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-06-17T11:25:58+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "a86dacbcc011",
+      "title": "PostgreSQL 19 Beta Introduces SQL Graph Queries and Concurrent Table Repacking",
+      "url": "https://www.infoq.com/news/2026/06/postgresql-19-graph-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "PostgreSQL 19 Beta has been announced, with general availability expected in September, following the project's yearly major-release cadence. This release introduces native SQL Property Graph Queries (SQL/PGQ), concurrent table repacking to reclaim storage without downtime, and a broad set of performance, observability, and administration improvements. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-16T07:15:00+00:00",
+      "score": 3.53,
+      "image": "https://res.infoq.com/news/2026/06/postgresql-19-graph-queries/en/headerimage/generatedHeaderImage-1781180249672.jpg"
+    },
+    {
+      "id": "12410f46c193",
+      "title": "Web Performance Optimization: The Complete Guide for 2025",
+      "url": "https://dev.to/the_beyond_horizon/web-performance-optimization-the-complete-guide-for-2025-262i",
+      "summary": "From image optimization and code splitting to caching strategies and performance budgets — make your website fast on Indian 4G networks\n\n\n\nThe Real Cost of Slow Websites\nAmazon found that every 100ms of latency cost them 1% in sales. Google found that 53% of mobile users abandon sites that take longer than 3 seconds to load. For Indian businesses on 4G networks, where average page load times hover around 5–8 seconds, the performance gap is a massive opportunity.\n\nWeb performance is not a technical nicety — it is a business metric. Every second of load time directly impacts conversion rate, bou",
+      "source": "Dev.to AI",
+      "published": "2026-06-17T11:26:12+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "bcbe4ca8589b",
+      "title": "Why VPN Stability Matters More Than Speed for AI Tools and Remote Work",
+      "url": "https://dev.to/wenrugou/why-vpn-stability-matters-more-than-speed-for-ai-tools-and-remote-work-52j7",
+      "summary": "When people evaluate a VPN or network acceleration tool, they usually start with one simple question:\n\n\nHow fast is it?\n\n\nSpeed is easy to understand. A speed test gives you a number. Higher download speed looks better. Lower ping looks better. It feels objective.\n\nBut in real-world usage, especially for AI tools, remote work, cloud dashboards, developer tools, and browser-based productivity apps, raw speed is often not the most important metric.\n\nFor many users, connection stability matters more than peak bandwidth.\n\nThis article explains why.\n\n\n\n\n\n  \n  \n  1. Speed Tests Do Not Tell the Whole",
+      "source": "Dev.to AI",
+      "published": "2026-06-17T11:26:11+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "6b7da233e7c5",
+      "title": "Automotive Lightweight Materials Market Size to Reach USD 155.75 Billion by 2034 Driven by Vehicle Electrification and Sustainability Goals",
+      "url": "https://dev.to/dipak45/automotive-lightweight-materials-market-size-to-reach-usd-15575-billion-by-2034-driven-by-vehicle-9ln",
+      "summary": "The global Automotive Lightweight Materials Market is witnessing significant growth as automakers increasingly focus on reducing vehicle weight, improving fuel efficiency, and meeting stringent environmental regulations. Lightweight materials have become essential in modern vehicle manufacturing, helping improve performance, reduce emissions, and enhance energy efficiency across both conventional and electric vehicles.\n\nAccording to Straits Research, the global automotive lightweight materials market was valued at USD 88.36 billion in 2025 and is projected to grow from USD 94.11 billion in 202",
+      "source": "Dev.to AI",
+      "published": "2026-06-17T11:18:24+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "fe88a4010dfe",
+      "title": "Developer Take on: GLM-5.2 is the New Leading Open Weights Model on Artificial Analysis",
+      "url": "https://dev.to/kelvin_kariuki_20f4bec616/developer-take-on-glm-52-is-the-new-leading-open-weights-model-on-artificial-analysis-e0h",
+      "summary": "markdown\n# Developer Take on: GLM-5.2 is the New Leading Open Weights Model on Artificial Analysis\n\n🤯 Another week, another breakthrough! If you're building with AI, you know the landscape shifts faster than a git rebase gone wrong. But this one? This is huge. A new contender, GLM-5.2, has just snatched the top spot on Artificial Analysis, dethroning previous giants as the leading open-weights model. This isn't just a win for one model; it's a massive leap for open-source AI and a game-changer for every developer out there.\n\nWhy does this matter? Because open-weight models empower us. They're ",
+      "source": "Dev.to Programming",
+      "published": "2026-06-17T11:18:35+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "0a852551cfc8",
+      "title": "ChatGPT’s market share slips below 50% for first time",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "summary": "The chatbot still remains the most popular AI assistant worldwide with over 1.1 billion monthly users, followed by Gemini with 662 million and Claude with 245 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-16T10:30:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "1a8c1c632aa3",
+      "title": "Exclusive eBook: How AI is becoming the next military advisor",
+      "url": "https://www.technologyreview.com/2026/06/16/1138905/exclusive-ebook-how-ai-is-becoming-the-next-military-advisor/",
+      "summary": "A collection of stories about how militaries are using AI models to make decisions. This subscriber-only eBook is a package of six stories that were originally published in MIT Technology Review between April 11, 2025, and April 21, 2026, and have been updated to reflect recent developments. by James O&#8217;Donnell Choose which file format to&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-16T20:35:02+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "c5bf8454727b",
+      "title": "AI Coding Agents Get a Stack Overflow of Their Own",
+      "url": "https://www.infoq.com/news/2026/06/stack-overflow-for-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Stack Overflow has announced Stack Overflow for Agents, a beta API-first knowledge exchange aimed at AI coding agents rather than human developers. The service is presented as a way to close what the company calls the Ephemeral Intelligence Gap, where agents repeatedly rediscover the same fixes and patterns in isolation instead of sharing them through a common memory. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-16T08:00:00+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "a86e06f55268",
+      "title": "Source code for LLMs. [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u79uwi/source_code_for_llms_d/",
+      "summary": "I was digging through Hugging Face’s Transformers repo and found https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt_oss/modeling_gpt_oss.py From what I can tell, this isn’t just boilerplate, it looks like a full implementation. is it actually the full code on which gpt_oss is built on? or is it a skeleton for experimentation? Similarly there are many models in https://github.com/huggingface/transformers/blob/main/src/transformers/models are they really the true open source implementations? if not, can we actually find them publicly?  &#32; submitted by &#32;  /u/",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-16T10:36:56+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "aeacbae86da5",
+      "title": "Malaysia’s AI agent-powered messaging app Respond.io raises $62.5M, eyes acquisitions",
+      "url": "https://techcrunch.com/2026/06/15/malaysias-respond-io-raises-62-5m-eyes-acquisitions-in-north-america-and-europe/",
+      "summary": "Respond.io, one of Malaysia's startups to watch, uses AI agents to handle high volumes of customer inquiries and charges per convo, not per seat.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-16T06:59:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "092eaa891071",
+      "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 8th, 2026, features news highlighting: the GA release of A2A Java SDK 1.0; an update on Jakarta EE 12; point releases of Micrometer Metrics and Micrometer Tracing; maintenance releases of GraalVM Native Build Tools and OpenXava; the second release candidate of Gradle 9.6; and the first milestone release of Eclipse JNoSQL 1.2. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-16T02:30:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "0b8813cde78e",
+      "title": "LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer",
+      "url": "https://towardsdatascience.com/llm-fallbacks-break-agent-pipelines-i-built-the-missing-recovery-layer/",
+      "summary": "LLM rate limits don't just interrupt agent pipelines—they can silently corrupt structured outputs when fallback models receive incompatible payloads. I built a recovery layer that classifies failures, adapts payloads across model tiers, preserves execution state, and maintains schema integrity during provider swaps.\nThe post LLM Fallbacks Break Agent Pipelines — I Built the Missing Recovery Layer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-16T13:30:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "c59f94edba03",
+      "title": "Probably raises $9M to build a more reliable kind of AI",
+      "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+      "summary": "Probably wants to prevent hallucinations and factual errors from reaching users, and achieve accuracy on par with deterministic systems.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-16T13:15:09+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "6e38cdd55d85",
+      "title": "The Download: the first brain implant power user and South Korea’s AI obsession",
+      "url": "https://www.technologyreview.com/2026/06/16/1139010/the-download-brain-implant-power-user-bci-south-korea-ai-obsession/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This man with ALS is the first “power user” of a brain implant that lets him speak Casey Harrell has had a set of electrodes embedded in his brain for almost&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-16T12:10:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "aa2d9243f08f",
+      "title": "Drilling Into AI’s Financial Sustainability",
+      "url": "https://towardsdatascience.com/drilling-into-ais-financial-sustainability/",
+      "summary": "Budgets for AI tokens can’t be infinite, no matter how much hyperscalers wish they were\nThe post Drilling Into AI’s Financial Sustainability appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-16T16:30:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "6a7cbb99c191",
+      "title": "Run a Local LLM with OpenClaw on Your Mac Mini",
+      "url": "https://towardsdatascience.com/run-a-local-llm-with-openclaw-on-your-mac-mini/",
+      "summary": "Tired of your monthly API bill? Follow this tested guide to set up a high-performance local LLM on your Mac Mini without the headaches. \nThe post Run a Local LLM with OpenClaw on Your Mac Mini appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-16T15:00:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "1db4b2389d0e",
+      "title": "RAG Questions Need Parsing Too: Turn the User’s String Into Briefs for Retrieval and Generation",
+      "url": "https://towardsdatascience.com/question-parsing-in-rag-structure-before-you-search/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6a] - Why a user question deserves the same parsing as the document, and how it splits into a retrieval brief and a generation brief before either runs\nThe post RAG Questions Need Parsing Too: Turn the User’s String Into Briefs for Retrieval and Generation appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-16T12:00:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
