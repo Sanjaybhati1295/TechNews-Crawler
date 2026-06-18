@@ -1365,3 +1365,38 @@
 2026-06-17 11:27:56,764  INFO     ────────────────────────────────────────────────────────────
 2026-06-17 11:27:56,764  INFO     Done!  Open: output/index.html
 2026-06-17 11:27:56,764  INFO     Headline: Android 17 launches with new multitasking tools as Google expands Gemini features
+2026-06-18 11:04:41,352  INFO     ============================================================
+2026-06-18 11:04:41,352  INFO     TECHPULSE Digest — 2026-06-18 11:04 UTC
+2026-06-18 11:04:41,352  INFO     ============================================================
+2026-06-18 11:04:41,352  INFO     Step 1/3 — Crawling feeds…
+2026-06-18 11:04:41,721  INFO       Hacker News                    → 1 significant articles
+2026-06-18 11:04:41,901  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-18 11:04:42,003  INFO       Ars Technica                   → 0 significant articles
+2026-06-18 11:04:42,551  INFO       The Register AI                → 0 significant articles
+2026-06-18 11:04:42,745  INFO       MIT Tech Review                → 1 significant articles
+2026-06-18 11:04:42,917  INFO       Dev.to AI                      → 1 significant articles
+2026-06-18 11:04:43,064  INFO       Dev.to Programming             → 3 significant articles
+2026-06-18 11:04:43,463  INFO       GitHub Blog                    → 1 significant articles
+2026-06-18 11:04:44,334  INFO       Google Research                → 0 significant articles
+2026-06-18 11:04:44,994  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-18 11:04:45,062  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-18 11:04:45,540  INFO       InfoQ                          → 4 significant articles
+2026-06-18 11:04:45,739  INFO       Towards Data Science           → 3 significant articles
+2026-06-18 11:04:46,070  INFO       Wired AI                       → 0 significant articles
+2026-06-18 11:04:46,219  INFO       TechCrunch AI                  → 4 significant articles
+2026-06-18 11:04:46,220  INFO     Fetching images for top articles…
+2026-06-18 11:04:46,798  INFO       🖼  Athena Coalition Brings Coordinated Defence to Open Source S
+2026-06-18 11:04:46,877  INFO       🖼  You.com — Deep Dive
+2026-06-18 11:04:47,375  INFO       🖼  Microsoft Scout, New  Enterprise Autopilot Built on OpenClaw
+2026-06-18 11:04:47,654  INFO       🖼  Scaling Beyond Direct Sales: Architecting a Developer-First 
+2026-06-18 11:04:48,154  INFO       🖼  VS Code 1.123 Adds Two-Hour Extension Update Delay to Limit 
+2026-06-18 11:04:48,188  INFO       🖼  The search for dark matter has been blown wide open
+2026-06-18 11:04:48,188  INFO     Total selected: 20 articles from 15 feeds
+2026-06-18 11:04:48,188  INFO     Selected 20 significant articles
+2026-06-18 11:04:48,188  INFO     Step 2/3 — Generating digest…
+2026-06-18 11:04:48,778  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-18 11:04:48,778  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-18 11:04:48,778  INFO     Step 3/3 — Rendering HTML…
+2026-06-18 11:04:48,779  INFO     ────────────────────────────────────────────────────────────
+2026-06-18 11:04:48,780  INFO     Done!  Open: output/index.html
+2026-06-18 11:04:48,780  INFO     Headline: Athena Coalition Brings Coordinated Defence to Open Source Security

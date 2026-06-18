@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Athena Coalition Brings Coordinated Defence to Open Source Security",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Athena Coalition Brings Coordinated Defence to Open Source Security (InfoQ). You.com — Deep Dive (Dev.to Programming). Scaling Beyond Direct Sales: Architecting a Developer-First B2B Channel Partner Program (Dev.to AI). VS Code 1.123 Adds Two-Hour Extension Update Delay to Limit Supply Chain Attacks (InfoQ). The search for dark matter has been blown wide open (MIT Tech Review)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Microsoft Scout, New  Enterprise Autopilot Built on OpenClaw, Announced at Build 2026 (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Cybersecurity firm Chainguard has announced the launch of Athena, an industry coalition to use artificial intelligence to find and fix vulnerabilities in widely-used open-source software before attackers can exploit them. The coalition focuses on libraries, containers and other components that underpin web browsers, data centres, smartphones and payment systems. By Matt Saunders"
+  },
+  "articles": [
+    {
+      "id": "ef3ca8abc5fe",
+      "title": "Athena Coalition Brings Coordinated Defence to Open Source Security",
+      "url": "https://www.infoq.com/news/2026/06/athena-security-coalition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cybersecurity firm Chainguard has announced the launch of Athena, an industry coalition to use artificial intelligence to find and fix vulnerabilities in widely-used open-source software before attackers can exploit them. The coalition focuses on libraries, containers and other components that underpin web browsers, data centres, smartphones and payment systems. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-18T08:00:00+00:00",
+      "score": 4.63,
+      "image": "https://res.infoq.com/news/2026/06/athena-security-coalition/en/headerimage/generatedHeaderImage-1781653362933.jpg"
+    },
+    {
+      "id": "fe8100fabcbf",
+      "title": "You.com — Deep Dive",
+      "url": "https://dev.to/gautammanak1/youcom-deep-dive-3mom",
+      "summary": "Company Overview\n\n\nYou.com is not just a search engine; it is a privacy-focused AI platform that has fundamentally reimagined how users interact with information. Founded by Marc Benioff (Salesforce) and Alex Rush, You.com launched with a mission to provide a superior alternative to traditional search engines by prioritizing user privacy, transparency, and AI-driven instant answers. Unlike legacy incumbents that monetize user data through surveillance capitalism, You.com operates on a model that respects user anonymity while leveraging advanced Large Language Models (LLMs) to synthesize web re",
+      "source": "Dev.to Programming",
+      "published": "2026-06-18T10:21:29+00:00",
+      "score": 4.56,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdzfapeytbk23woftcsxe.png"
+    },
+    {
+      "id": "b883415f4498",
+      "title": "Microsoft Scout, New  Enterprise Autopilot Built on OpenClaw, Announced at Build 2026",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-scout-openclaw-build/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft recently introduced at Build 2026 Microsoft Scout, an always-on agent. Scout belongs to a new category of agents Microsoft called Autopilots: always-on agents that work autonomously on a user’s behalf with their own identity, without needing to be prompted each time. Microsoft Scout integrates with Work IQ and is based on the open-source agent framework OpenClaw. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-06-18T05:26:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/06/microsoft-scout-openclaw-build/en/headerimage/generatedHeaderImage-1781749879309.jpg"
+    },
+    {
+      "id": "10e811000c7b",
+      "title": "Scaling Beyond Direct Sales: Architecting a Developer-First B2B Channel Partner Program",
+      "url": "https://dev.to/michaelaiglobal/scaling-beyond-direct-sales-architecting-a-developer-first-b2b-channel-partner-program-gn1",
+      "summary": "As tech builders, engineers, and AI founders, we naturally gravitate toward product. We love optimizing architectures, fine-tuning LLMs, and shipping features. But as your SaaS or platform matures, you quickly realize a hard truth: great code doesn't sell itself.\n\nTo truly scale, you need distribution. And one of the most powerful distribution levers in the B2B world is building an indirect sales channel.\n\nIn this post, we’re going to break down how to design and build a channel partner program from scratch, treating your partners not just as salespeople, but as critical nodes in your ecosyste",
+      "source": "Dev.to AI",
+      "published": "2026-06-18T11:02:42+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxc2bvms9vvvu3ei11mug.png"
+    },
+    {
+      "id": "03c3a3d7c3d9",
+      "title": "VS Code 1.123 Adds Two-Hour Extension Update Delay to Limit Supply Chain Attacks",
+      "url": "https://www.infoq.com/news/2026/06/vscode-extension-update-delay/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VS Code 1.123 adds a two-hour delay before auto-updating extensions to newly published versions, creating a revocation window against supply chain attacks. The delay does not apply to trusted publishers like Microsoft, GitHub, and OpenAI. Similar cooldown mechanisms have now spread across pip, RubyGems, npm, pnpm, Yarn, and Bun. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-18T10:15:00+00:00",
+      "score": 3.85,
+      "image": "https://res.infoq.com/news/2026/06/vscode-extension-update-delay/en/card_header_image/generatedCard-1781614115073.jpg"
+    },
+    {
+      "id": "bebd0ab58bb4",
+      "title": "The search for dark matter has been blown wide open",
+      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/",
+      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liquid xenon aim to make the first direct detections of dark matter, the long-sought invisible substance whose gravity has sculpted&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-18T09:00:00+00:00",
+      "score": 3.78,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/GettyImages-1278321226_h.png?resize=1200,600"
+    },
+    {
+      "id": "d89b6f4e137a",
+      "title": "How AI Web Development Improves Website Performance and Speed",
+      "url": "https://dev.to/liquidtechnologies/how-ai-web-development-improves-website-performance-and-speed-22kf",
+      "summary": "AI web development improves website performance and speed by automating optimization, improving code efficiency, reducing page load times, optimizing content delivery, and using machine learning to identify performance issues in real time. This helps businesses create faster, more responsive websites that improve user experience, search visibility, and conversions.\n\nToday, users do not wait around for a website to load. If a page takes more than a few seconds to appear, most visitors leave and look elsewhere. Google reports that 53% of users abandon sites taking longer than 3 seconds to load.\n",
+      "source": "Dev.to Programming",
+      "published": "2026-06-18T10:27:47+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "f2081a3f9096",
+      "title": "The biometric authentication loop that took me a while to figure out",
+      "url": "https://dev.to/shehabin_sinad/the-biometric-authentication-loop-that-took-me-a-while-to-figure-out-3egk",
+      "summary": "A Flutter edge case in ChainCare — a blockchain-based medical records system\n\n\nWhen we added biometric authentication to ChainCare, the basic flow worked fine. User opens the app, fingerprint prompt appears, they authenticate, they're in. Simple enough.\n\nThe requirement we had was a bit more than that though. We wanted the app to lock whenever the user leaves it — like a banking app would — and require biometric re-authentication when they come back. That's when things got weird.\n\n\n\n\n  \n  \n  What was happening\n\n\nThe loop looked like this:\n\n\nUser is in the app\nFingerprint prompt appears\nUser au",
+      "source": "Dev.to Programming",
+      "published": "2026-06-18T10:40:35+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "9e40b3fd0b84",
+      "title": "Anthropic becomes first AI startup to join the Frontier carbon removal coalition",
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "summary": "Anthropic has joined the Frontier coalition, which received another $915M in pledges to fund carbon removal projects.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-17T18:30:56+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "e02d401efa56",
+      "title": "Pinterest launches an experimental AI shopping app called ‘Ask Pinterest’",
+      "url": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+      "summary": "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-17T11:00:00+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "81d38dc8205f",
+      "title": "After unveiling ridiculously expensive AR glasses, Snap’s stock takes a dive",
+      "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+      "summary": "Snap's long-awaited smart glasses debut hasn't exactly done wonders for the company's stock.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-17T20:24:28+00:00",
+      "score": 3.08,
+      "image": null
+    },
+    {
+      "id": "45a22139612d",
+      "title": "Getting more from each token: How Copilot improves context handling and model routing",
+      "url": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "summary": "How GitHub Copilot is making more of each session go toward useful work, so your credits go further.\nThe post Getting more from each token: How Copilot improves context handling and model routing appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-17T19:41:46+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "3407c9e98e25",
+      "title": "ACL 2026 first author with weak GPA. How should I approach PhD applications? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u8bp65/acl_2026_first_author_with_weak_gpa_how_should_i/",
+      "summary": "Hi everyone, I have a fairly weak undergraduate: a 3.3/5 GPA in Computer Engineering from an average Nigerian university. For my Master's, I studied Artificial Intelligence at an average European university, where I finished with an 8/10 GPA. A condensed version of my Master's thesis was recently accepted at ACL 2026, with a meta-review score of 8/10 and a confidence score of 5/5. It's scheduled for presentation next month. I want to pursue a PhD focused on expanding linguistic resources for low-resource African languages. I know my weak undergrad GPA and the relatively unknown reputation of m",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-17T14:26:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "19fa8d5958a5",
+      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "summary": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation — where errors can be costly and reliability is at a premium.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-17T14:15:22+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "fa991933e2a7",
+      "title": "You Probably Don’t Need an Agent Framework",
+      "url": "https://towardsdatascience.com/you-probably-dont-need-an-agent-framework/",
+      "summary": "Most LLM applications need a clear workflow, not an autonomous agent. Here's how to build one in plain Python.\nThe post You Probably Don’t Need an Agent Framework appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-17T13:30:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "894460bdca7f",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-17T16:14:04+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "55a00dbf483e",
+      "title": "GitHub Copilot Desktop App Targets Parallel Agentic Workflows",
+      "url": "https://www.infoq.com/news/2026/06/github-copilot-app/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub has introduced the GitHub Copilot app, a desktop control centre for agent-native development that aims to keep engineers in charge while AI agents handle more coding work. Mario Rodriguez writes on the GitHub blog that the recent wave of coding agents has brought faster delivery but also \"disjointed workflows, more context switching, and too much time spent reviewing agent-generated code\". By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-17T08:00:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "c9827b8bb462",
+      "title": "The Secret to Reproducible and Portable Optimization: ORPilot’s Intermediate Representation (IR)",
+      "url": "https://towardsdatascience.com/the-secret-to-reproducible-and-portable-optimization-orpilots-intermediate-representation-ir/",
+      "summary": "Why production-level AI optimization modeling agent needs reproducibility and portability, and how IR helps achieve them\nThe post The Secret to Reproducible and Portable Optimization: ORPilot’s Intermediate Representation (IR) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-17T15:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "826ed9994514",
+      "title": "ICML (DL4C) Accepted ( Few queries ) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u8a9gy/icml_dl4c_accepted_few_queries_d/",
+      "summary": "Just got the email that I have been accepted in DL4C @ICML 2026 , as the email did not contain any details on logistics can someone help here  &#x200b; - is it mandatory to visit the workshop ?  - what's the usual expense apart from flights, can someone add details like fees and all ? - in the email there's no mention of whether its poster or what ? - How will the overall process works from here it's my first time, any input will be very valuable. &#x200b; Thanks in advance &#x200b;  &#32; submitted by &#32;  /u/shifuThePandaGod   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-17T13:30:45+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "bec16bac883a",
+      "title": "What the Question Parser Extracts from a User String: Keywords, Scope, Shape, Decomposition, Clarification",
+      "url": "https://towardsdatascience.com/what-the-question-parser-extracts-from-a-user-string-keywords-scope-shape-decomposition-clarification/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6b] - The five field families the parser reads straight from the user’s question, with the code that fills each one\nThe post What the Question Parser Extracts from a User String: Keywords, Scope, Shape, Decomposition, Clarification appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-17T12:00:00+00:00",
+      "score": 2.22,
+      "image": null
+    }
+  ]
+}
