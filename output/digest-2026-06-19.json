@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "A startup claims it broke through a bottleneck that’s holding back LLMs (MIT Tech Review). Java's Project Valhalla Finally Lands: Value Classes Coming to JDK 28 (Dev.to Programming). Windows Platform Security and the Race to Secure AI Agents (InfoQ). Brain-computer interface trials are taking off (MIT Tech Review). Reverse-Engineering the B2B Buyer's Journey: Map Your 2024 Sales Funnel Like a State Machine (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Microsoft Scout, New  Enterprise Autopilot Built on OpenClaw, Announced at Build 2026 (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the&#8230;"
+  },
+  "articles": [
+    {
+      "id": "a97e6c8ae1b7",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-19T10:40:24+00:00",
+      "score": 4.57,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/cheetah-speed2a.jpg?resize=1200,600"
+    },
+    {
+      "id": "089970ee1d06",
+      "title": "Java's Project Valhalla Finally Lands: Value Classes Coming to JDK 28",
+      "url": "https://dev.to/techmag/javas-project-valhalla-finally-lands-value-classes-coming-to-jdk-28-h8g",
+      "summary": "After more than a decade of development, Java's long-awaited Project Valhalla has finally reached the finish line — or at least the preview gate. Oracle engineer Lois Foltan confirmed this week that JEP 401, which introduces value classes and objects to the Java language, will be integrated into the OpenJDK mainline early next month, targeting the JDK 28 release in March 2027. The change is massive: 197,000 lines of code across 1,816 modified files, so large that Foltan has asked other OpenJDK committers to pause major work during the integration window.\n\nProject Valhalla addresses one of Java",
+      "source": "Dev.to Programming",
+      "published": "2026-06-19T11:06:05+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fefz0oqb5xawfecvcdf72.png"
+    },
+    {
+      "id": "02257a099893",
+      "title": "Windows Platform Security and the Race to Secure AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/windows-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In a new Windows Developer Blog post titled \"Windows platform security for AI agents\", Microsoft positions Windows as the trustworthy operating system for autonomous agents and introduces the Microsoft Execution Containers (MXC) SDK as the core of that strategy. The post argues that containment, identity and manageability must be built into the operating system. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-19T08:00:00+00:00",
+      "score": 4.02,
+      "image": "https://res.infoq.com/news/2026/06/windows-security-agents/en/headerimage/generatedHeaderImage-1781565951953.jpg"
+    },
+    {
+      "id": "1d767cd2852c",
+      "title": "Brain-computer interface trials are taking off",
+      "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+      "summary": "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently without the device. He has now spent almost three years using a brain-computer interface (BCI) that enables&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-19T09:00:00+00:00",
+      "score": 3.78,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/bci-brain2.jpg?resize=1200,600"
+    },
+    {
+      "id": "bceb77c28343",
+      "title": "Reverse-Engineering the B2B Buyer's Journey: Map Your 2024 Sales Funnel Like a State Machine",
+      "url": "https://dev.to/michaelaiglobal/reverse-engineering-the-b2b-buyers-journey-map-your-2024-sales-funnel-like-a-state-machine-4bp4",
+      "summary": "If you're an AI engineer building the next breakthrough LLM tool or a developer shipping a new DevTools API, writing the code is only half the battle. The other half? Figuring out how businesses actually buy your software.\n\nDevelopers often cringe at marketing buzzwords, but understanding the B2B buyer's journey is critical if you want your product to survive. B2B purchasing isn't an impulse buy; it's a logical, multi-step process that involves multiple stakeholders, security reviews, and technical evaluations.\n\nIn this guide, we're going to strip away the fluff. We will look at B2B marketing ",
+      "source": "Dev.to AI",
+      "published": "2026-06-19T11:02:06+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpo0jzhgneu315ijmsmb9.png"
+    },
+    {
+      "id": "385c00c92da3",
+      "title": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "url": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/",
+      "summary": "OpenAI is bulking up before its IPO, landing Transformer co-inventor Noam Shazeer from Google DeepMind and former Trump AI policy official Dean Ball in the same week.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-18T19:59:22+00:00",
+      "score": 3.65,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/noam-shazeer-deal-ball.png?resize=1200,800"
+    },
+    {
+      "id": "6a18903c46b7",
+      "title": "I Built My First Discord AI Bot and Here's What Blew My Mind",
+      "url": "https://dev.to/rileykim/i-built-my-first-discord-ai-bot-and-heres-what-blew-my-mind-3ea8",
+      "summary": "So here's what happened: i Built My First Discord AI Bot and Here's What Blew My Mind\n\nThree months ago I graduated from a coding bootcamp. Last week I shipped my first Discord bot that talks to an AI. I genuinely did not think I would be writing about something like this so soon, and I'm still a little stunned at how cheap it ended up being.\n\nLet me back up. My friends run a small Discord server for our book club. We have about 40 people in there. Someone asked if we could get a bot that would summarize articles people pasted into the channel, because apparently nobody in our group has the at",
+      "source": "Dev.to Programming",
+      "published": "2026-06-19T10:46:23+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "6c84454912ce",
+      "title": "What Successful Students Do Differently in Their First Year of College",
+      "url": "https://dev.to/ai_scholars/what-successful-students-do-differently-in-their-first-year-of-college-pn3",
+      "summary": "Most students enter college thinking they have plenty of time to plan their future.\n\nSuccessful students think differently.\n\nThey don't wait until the final year to start building their career. Instead, they use their first year to learn new skills, improve communication, build networks, explore opportunities, and gain practical experience.\n\n\nWhile others focus only on passing exams, successful students focus on becoming industry-ready.\n\n✅ They learn skills beyond the classroom.\n\n✅ They build good habits and manage their time wisely.\n\n✅ They connect with mentors, seniors, and professionals.\n\n✅",
+      "source": "Dev.to Programming",
+      "published": "2026-06-19T10:45:46+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "ef3ca8abc5fe",
+      "title": "Athena Coalition Brings Coordinated Defence to Open Source Security",
+      "url": "https://www.infoq.com/news/2026/06/athena-security-coalition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cybersecurity firm Chainguard has announced the launch of Athena, an industry coalition to use artificial intelligence to find and fix vulnerabilities in widely-used open-source software before attackers can exploit them. The coalition focuses on libraries, containers and other components that underpin web browsers, data centres, smartphones and payment systems. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-18T08:00:00+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "8902cad705f7",
+      "title": "Fearless Concurrency on the GPU: Safe GPU inference in Rust, competitive with vLLM/SGLang [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u9j7md/fearless_concurrency_on_the_gpu_safe_gpu/",
+      "summary": "I maintain cuTile Rust and just posted the paper &quot;Fearless Concurrency on the GPU.&quot;  As more GPU code gets AI-generated, the bottleneck moves from writing it to trusting it. cuTile Rust lets you write or generate GPU kernels whose memory safety and data-race freedom are verified by the compiler, through Rust's ownership and borrow checking. You get those guarantees by construction. It's a tile-based programming model that lowers to CUDA Tile IR, carrying Rust's ownership model across the launch boundary. You partition a mutable output into disjoint mutable sub-tensors, pass inputs as",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-18T21:36:14+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "121789246402",
+      "title": "‘Queer Eye’ life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
+      "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone/",
+      "summary": "After spending a year and a half focusing on his own journey — from fitness and nutrition to meditation, sobriety, relationships, and personal growth — Brown wants to help others do the same.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-18T16:55:04+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "fcc113259122",
+      "title": "Ky 2.0 Fetch API Wrapper with Revamped Hooks, Smarter Timeouts, and Built-In Schema Validation",
+      "url": "https://www.infoq.com/news/2026/06/ky-2-revamp-axios/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Ky 2.0 is an open-source JavaScript HTTP client built on the Fetch API, featuring significant updates such as consolidated hook handling, enhanced timeout management, and improved URL processing. The release includes response validation through schema validation libraries and addresses migration from earlier versions. It aims to provide a lightweight alternative to axios. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-06-18T11:30:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "b883415f4498",
+      "title": "Microsoft Scout, New  Enterprise Autopilot Built on OpenClaw, Announced at Build 2026",
+      "url": "https://www.infoq.com/news/2026/06/microsoft-scout-openclaw-build/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft recently introduced at Build 2026 Microsoft Scout, an always-on agent. Scout belongs to a new category of agents Microsoft called Autopilots: always-on agents that work autonomously on a user’s behalf with their own identity, without needing to be prompted each time. Microsoft Scout integrates with Work IQ and is based on the open-source agent framework OpenClaw. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-06-18T05:26:00+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "6a08daaea1ff",
+      "title": "Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each",
+      "url": "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
+      "summary": "Getting reliable, readable responses out of your LLM, and knowing which tool to reach for\nThe post Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-18T18:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "03c3a3d7c3d9",
+      "title": "VS Code 1.123 Adds Two-Hour Extension Update Delay to Limit Supply Chain Attacks",
+      "url": "https://www.infoq.com/news/2026/06/vscode-extension-update-delay/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VS Code 1.123 adds a two-hour delay before auto-updating extensions to newly published versions, creating a revocation window against supply chain attacks. The delay does not apply to trusted publishers like Microsoft, GitHub, and OpenAI. Similar cooldown mechanisms have now spread across pip, RubyGems, npm, pnpm, Yarn, and Bun. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-18T10:15:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "b60040bb88ad",
+      "title": "Is ACL now irrelevant? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u945j5/is_acl_now_irrelevant_d/",
+      "summary": "I just read in a comment of another Post that an ACL paper is considered a weak signal in the community apparently, and having an ACL first author paper is not a great plus for improving chances at finding a PhD position. Is this some kind of ragebait or is academia becoming more and more insane on a daily basis?? &#x200b; ACL is an A+ venue. Sure, it's not as big as Nips, ICML, ICLR or CVPR, fair point, but it's not some regional B conference... &#x200b; I know a lot of folks in &quot;classical&quot; CS have an issue with AI venues, as they are receiving more focus in recent years than ICSE o",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-18T11:52:27+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "6032cd25700c",
+      "title": "How Powerful is Claude Fable (Mythos) 5 for Coding?",
+      "url": "https://towardsdatascience.com/how-powerful-is-claude-fable-mythos-5-for-coding/",
+      "summary": "Learn about the upsides and downsides of Claude Fable 5\nThe post How Powerful is Claude Fable (Mythos) 5 for Coding? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-18T16:30:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "bebd0ab58bb4",
+      "title": "The search for dark matter has been blown wide open",
+      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open/",
+      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liquid xenon aim to make the first direct detections of dark matter, the long-sought invisible substance whose gravity has sculpted&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-18T09:00:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "5d30d3251247",
+      "title": "Dispatching the Parsed RAG Question: Chunk Strategy, Model Tier, Activations, Audit",
+      "url": "https://towardsdatascience.com/dispatching-the-parsed-rag-question-chunk-strategy-model-tier-activations-audit/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6c] - The decisions the parser makes on top of the user string, using the document’s profile: dispatch, activations, full schema, three approaches to deciding what fires, the audit _meta block, and a broker-corpus walkthrough\nThe post Dispatching the Parsed RAG Question: Chunk Strategy, Model Tier, Activations, Audit appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-18T13:30:00+00:00",
+      "score": 2.29,
+      "image": null
+    }
+  ]
+}
