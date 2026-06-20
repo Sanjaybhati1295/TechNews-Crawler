@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic (InfoQ). Zero-Shot Learning with LLMs: Applications and Techniques (Dev.to AI). AWS Adds Multi-Region Replication to Amazon Cognito Identity Service (InfoQ). CircleCI Introduces Chunk Sidecars to Bring CI Validation Directly Into AI Coding Workflows (InfoQ). Your first business opportunity in 3 commands: /register_directory in @biznode_bot, wait for matches, then /my_pulse to view... (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Building a Custom GStreamer Plugin for NVIDIA DeepStream (Towards Data Science). Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Using Claude Fable 5 or Mythos 5 on Amazon Bedrock requires opting into provider_data_share, sending prompts and outputs to Anthropic for 30-day retention with human review. Previous Bedrock models kept inference data inside the AWS boundary. Three days after launch, Anthropic asked AWS to revoke access to both models citing US export control compliance. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "cea1d622a5f7",
+      "title": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic",
+      "url": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Using Claude Fable 5 or Mythos 5 on Amazon Bedrock requires opting into provider_data_share, sending prompts and outputs to Anthropic for 30-day retention with human review. Previous Bedrock models kept inference data inside the AWS boundary. Three days after launch, Anthropic asked AWS to revoke access to both models citing US export control compliance. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-20T09:03:00+00:00",
+      "score": 4.65,
+      "image": "https://res.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/en/card_header_image/generatedCard-1781687554996.jpg"
+    },
+    {
+      "id": "eb0093bb7d0f",
+      "title": "Zero-Shot Learning with LLMs: Applications and Techniques",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/zero-shot-learning-with-llms-applications-and-techniques-j5d",
+      "summary": "We are building a zero-shot support ticket triage agent that classifies incoming messages into categories and assigns urgency without any training examples. This is useful for teams that need to route tickets quickly but do not have labeled data to fine-tune a model. Because Oxlo.ai uses flat per-request pricing (https://oxlo.ai/pricing), long tickets with heavy context do not inflate your bill, which makes this workload predictable.\n\nWhat you'll need\n\n\nPython 3.10 or newer\nAn Oxlo.ai API key from https://portal.oxlo.ai\n\nThe OpenAI SDK: pip install openai\n\nPydantic for validation: pip install ",
+      "source": "Dev.to AI",
+      "published": "2026-06-20T09:35:15+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgipayzg9bihe07xutlsi.png"
+    },
+    {
+      "id": "d4568720cf2b",
+      "title": "AWS Adds Multi-Region Replication to Amazon Cognito Identity Service",
+      "url": "https://www.infoq.com/news/2026/06/cognito-replication-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently introduced Amazon Cognito multi-region replication, which automatically replicates user identities and user pool configurations from a primary region to a secondary one. This enables applications to continue authenticating users from a replica region during outages, without requiring custom replication and failover mechanisms. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-20T07:40:00+00:00",
+      "score": 3.77,
+      "image": "https://res.infoq.com/news/2026/06/cognito-replication-aws/en/headerimage/generatedHeaderImage-1780821804660.jpg"
+    },
+    {
+      "id": "66f15bf99043",
+      "title": "CircleCI Introduces Chunk Sidecars to Bring CI Validation Directly Into AI Coding Workflows",
+      "url": "https://www.infoq.com/news/2026/06/circleci-chunk-sidecars/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "CircleCI has launched Chunk Sidecars, a new capability designed to bring CI-style validation directly into an AI coding agent's inner development loop By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-19T12:00:00+00:00",
+      "score": 3.58,
+      "image": "https://res.infoq.com/news/2026/06/circleci-chunk-sidecars/en/headerimage/generatedHeaderImage-1781604235680.jpg"
+    },
+    {
+      "id": "4f1cf195c8ad",
+      "title": "Your first business opportunity in 3 commands: /register_directory in @biznode_bot, wait for matches, then /my_pulse to view...",
+      "url": "https://dev.to/biznode/your-first-business-opportunity-in-3-commands-registerdirectory-in-biznodebot-wait-for-3n7p",
+      "summary": "The 1BZ Ecosystem\n\n\nCopyGuard (protect) → IPVault (monetize) → SmartPDF (deliver) → DZIT (settle on Polygon) → BizNode (automate)\n\n\n\nAI business operator node — https://biznode.1bz.biz\n\n\nDecentralized ad marketplace — https://bizchannel.1bz.biz\n\n\nBlog &amp; insights — https://blog.1bz.biz\n\n\n\n🤖 Try BizNode: @biznode_bot | 🌐 Hub: https://1bz.biz",
+      "source": "Dev.to AI",
+      "published": "2026-06-20T09:40:29+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcgtndiw9bc6fzffj9vjc.png"
+    },
+    {
+      "id": "3d079fe17c33",
+      "title": "The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care",
+      "url": "https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/",
+      "summary": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-06-19T16:01:03+00:00",
+      "score": 3.4,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/Dario-2280291125.jpg?w=1024"
+    },
+    {
+      "id": "a97e6c8ae1b7",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-19T10:40:24+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "1c1b265684d2",
+      "title": "How we built an internal data analytics agent",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "summary": "Qubot, our internal Copilot-powered analytics agent, allows any GitHub employee to ask questions about our data in plain language. Here's what we learned as we built it.\nThe post How we built an internal data analytics agent appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-19T16:00:00+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "c67282832407",
+      "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+      "url": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+      "summary": "Just as last week&#160;was ending,&#160;the US government&#160;forced Anthropic to pull its two newest models, Fable 5 and Mythos 5, citing national security concerns after Amazon researchers allegedly found a way to bypass Fable 5&#8217;s guardrails.&#160; Cybersecurity researchers have&#160;since signed an open letter&#160;calling&#160;the move dangerous, and Anthropic itself noted the same jailbreaks exist in other models.&#160;So&#160;is [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-06-19T16:08:17+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "320922fc7413",
+      "title": "GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU",
+      "url": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
+      "summary": "The PCIe transfer latency is silently bottlenecking your agentic inference. Here is how building a custom device-resident vector search kernel bypasses the CPU to unlock deterministic microsecond tail latencies.\nThe post GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-19T12:00:00+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "c585f7de2a2f",
+      "title": "Billionaire Ambani wants AI in every call, app, and home",
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "summary": "Reliance is weaving AI into telecom services used by more than 500 million people.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-19T15:23:28+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "02257a099893",
+      "title": "Windows Platform Security and the Race to Secure AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/windows-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In a new Windows Developer Blog post titled \"Windows platform security for AI agents\", Microsoft positions Windows as the trustworthy operating system for autonomous agents and introduces the Microsoft Execution Containers (MXC) SDK as the core of that strategy. The post argues that containment, identity and manageability must be built into the operating system. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-06-19T08:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "b805a3d6a824",
+      "title": "Norway imposes near ban on AI in elementary school",
+      "url": "https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-19T16:03:15+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "8c99ba5669eb",
+      "title": "Dealing with a messy prescriptive monolith. How do you survive this? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ua5xfg/dealing_with_a_messy_prescriptive_monolith_how_do/",
+      "summary": "Months ago, I got my first maintenance project. Before this, I had only built new solutions from scratch and maintained my own code. But maintaining someone else's system feels completely different. &#x200b; ​It’s a prescriptive recommendation system that uses XGBoost models and Differential Evolution for optimization. The problem is that everything is in a single repository: raw data ingestion, transformations, model training, reporting, the optimization engine, post-processing, and MUCH more. The only thing outside the repo is the frontend website. To me, it looks like a massive, super compl",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-19T16:02:29+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "c0c3aea9e20b",
+      "title": "Building a Custom GStreamer Plugin for NVIDIA DeepStream",
+      "url": "https://towardsdatascience.com/building-a-custom-gstreamer-plugin-for-nvidia-deepstream/",
+      "summary": "Why Custom Inference in DeepStream?\nThe post Building a Custom GStreamer Plugin for NVIDIA DeepStream appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-19T16:30:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "1d767cd2852c",
+      "title": "Brain-computer interface trials are taking off",
+      "url": "https://www.technologyreview.com/2026/06/19/1139270/brain-computer-interface-trials-are-taking-off/",
+      "summary": "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him. Harrell is paralyzed and unable to speak coherently without the device. He has now spent almost three years using a brain-computer interface (BCI) that enables&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-06-19T09:00:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "41a3b0693122",
+      "title": "Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document",
+      "url": "https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5quinquies] - Same 1974 scanned PDF, two engines. EasyOCR recovers text. Docling recovers text + sections + figures. The structural gap makes one output usable downstream and the other one a flat string.\nThe post Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-19T13:30:00+00:00",
+      "score": 2.36,
+      "image": null
+    }
+  ]
+}

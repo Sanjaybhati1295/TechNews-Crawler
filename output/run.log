@@ -1435,3 +1435,38 @@
 2026-06-19 11:14:15,528  INFO     ────────────────────────────────────────────────────────────
 2026-06-19 11:14:15,528  INFO     Done!  Open: output/index.html
 2026-06-19 11:14:15,528  INFO     Headline: A startup claims it broke through a bottleneck that’s holding back LLMs
+2026-06-20 09:57:34,553  INFO     ============================================================
+2026-06-20 09:57:34,553  INFO     TECHPULSE Digest — 2026-06-20 09:57 UTC
+2026-06-20 09:57:34,554  INFO     ============================================================
+2026-06-20 09:57:34,554  INFO     Step 1/3 — Crawling feeds…
+2026-06-20 09:57:34,935  INFO       Hacker News                    → 1 significant articles
+2026-06-20 09:57:35,197  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-20 09:57:35,365  INFO       Ars Technica                   → 0 significant articles
+2026-06-20 09:57:35,887  INFO       The Register AI                → 0 significant articles
+2026-06-20 09:57:35,993  INFO       MIT Tech Review                → 2 significant articles
+2026-06-20 09:57:36,422  INFO       Dev.to AI                      → 2 significant articles
+2026-06-20 09:57:36,680  INFO       Dev.to Programming             → 0 significant articles
+2026-06-20 09:57:36,790  INFO       GitHub Blog                    → 1 significant articles
+2026-06-20 09:57:37,757  INFO       Google Research                → 0 significant articles
+2026-06-20 09:57:38,486  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-06-20 09:57:38,527  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-20 09:57:39,019  INFO       InfoQ                          → 4 significant articles
+2026-06-20 09:57:39,156  INFO       Towards Data Science           → 3 significant articles
+2026-06-20 09:57:39,332  INFO       Wired AI                       → 0 significant articles
+2026-06-20 09:57:39,384  INFO       TechCrunch AI                  → 3 significant articles
+2026-06-20 09:57:39,384  INFO     Fetching images for top articles…
+2026-06-20 09:57:39,993  INFO       🖼  Claude Fable 5 on Bedrock Requires Sharing Inference Data wi
+2026-06-20 09:57:40,029  INFO       🖼  Zero-Shot Learning with LLMs: Applications and Techniques
+2026-06-20 09:57:40,636  INFO       🖼  AWS Adds Multi-Region Replication to Amazon Cognito Identity
+2026-06-20 09:57:41,244  INFO       🖼  CircleCI Introduces Chunk Sidecars to Bring CI Validation Di
+2026-06-20 09:57:41,323  INFO       🖼  Your first business opportunity in 3 commands: /register_dir
+2026-06-20 09:57:41,377  INFO       🖼  The US banned Anthropic’s Fable 5 release, but the numbers d
+2026-06-20 09:57:41,377  INFO     Total selected: 17 articles from 15 feeds
+2026-06-20 09:57:41,378  INFO     Selected 17 significant articles
+2026-06-20 09:57:41,378  INFO     Step 2/3 — Generating digest…
+2026-06-20 09:57:41,703  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-20 09:57:41,704  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-20 09:57:41,704  INFO     Step 3/3 — Rendering HTML…
+2026-06-20 09:57:41,705  INFO     ────────────────────────────────────────────────────────────
+2026-06-20 09:57:41,705  INFO     Done!  Open: output/index.html
+2026-06-20 09:57:41,705  INFO     Headline: Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic
