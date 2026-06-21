@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "GLM-5.2 benchmarked on DeepSWE: Beats Gemini & GPT-5.4, but the token volume/cost makes it wildly inefficient? (Theo - t3.gg)",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "GLM-5.2 benchmarked on DeepSWE: Beats Gemini & GPT-5.4, but the token volume/cost makes it wildly inefficient? (Theo - t3.gg) (Reddit r/LocalLLaMA). AllenAI releases MolmoMotion vision models for predicting future motion based on short frame history (Reddit r/LocalLLaMA). Nextbase iQ Pro Predicts Collisions Before They Happen (Dev.to AI). Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI (InfoQ). AI Technology Won't Save You — Closing the AI Coordination Gap (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Saw this breakdown from Theo (t3.gg) on X showing the latest DeepSWE leaderboard stats for the new GLM-5.2 open-weight model.The good news: it's officially surpassing GPT-5.4 and the entire Gemini lineup in raw coding capability. Seeing an open-weight model punch that high is incredibly dope.The catch? It is not cheap to run.According to the chart:GPT-5.5 (medium) and Claude Opus 4.8 (high) are both cheaper and smarter on an average cost-per-task basis.GLM-5.2 is sitting far lower on the efficiency curve despite its open-weight status.Theo points out a massive caveat in the replies: GLM-5.2 ap"
+  },
+  "articles": [
+    {
+      "id": "de5762ad4aed",
+      "title": "GLM-5.2 benchmarked on DeepSWE: Beats Gemini & GPT-5.4, but the token volume/cost makes it wildly inefficient? (Theo - t3.gg)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubll9u/glm52_benchmarked_on_deepswe_beats_gemini_gpt54/",
+      "summary": "Saw this breakdown from Theo (t3.gg) on X showing the latest DeepSWE leaderboard stats for the new GLM-5.2 open-weight model.The good news: it's officially surpassing GPT-5.4 and the entire Gemini lineup in raw coding capability. Seeing an open-weight model punch that high is incredibly dope.The catch? It is not cheap to run.According to the chart:GPT-5.5 (medium) and Claude Opus 4.8 (high) are both cheaper and smarter on an average cost-per-task basis.GLM-5.2 is sitting far lower on the efficiency curve despite its open-weight status.Theo points out a massive caveat in the replies: GLM-5.2 ap",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-21T09:23:51+00:00",
+      "score": 4.14,
+      "image": null
+    },
+    {
+      "id": "e5e03e4c3c06",
+      "title": "AllenAI releases MolmoMotion vision models for predicting future motion based on short frame history",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubgj8j/allenai_releases_molmomotion_vision_models_for/",
+      "summary": "AllenAI just released two models in the MolmoMotion family: https://huggingface.co/allenai/MolmoMotion-4B-H3-F30 https://huggingface.co/allenai/MolmoMotion-4B-H1-F32  MolmoMotion is a 4B vision-language model that forecasts 3D point trajectories under natural-language action instructions. Given a short RGB observation history, a set of user-specified 2D query points with their 3D history, and an action description, it predicts where those points move in 3D (camera frame, in meters) over a future horizon.  One model is trained on a three-frame history, and the other on a one-frame history. Thes",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-21T04:26:18+00:00",
+      "score": 3.87,
+      "image": null
+    },
+    {
+      "id": "ac89c22e4ebe",
+      "title": "Nextbase iQ Pro Predicts Collisions Before They Happen",
+      "url": "https://dev.to/autonainews/nextbase-iq-pro-predicts-collisions-before-they-happen-4963",
+      "summary": "Key Takeaways\n\n\nNextbase launched the iQ Pro this week, featuring a localised Large Vision Model that processes 4K video on-device to detect road hazards in real time.\nModern AI dashcams use spatial awareness to differentiate between harmless roadside objects and erratic pedestrians, significantly reducing false alerts.\nMajor insurance providers are now offering premium discounts for vehicles equipped with active AI monitoring hardware.\nNextbase‘s new iQ Pro doesn’t just record what happens on the road — it tries to predict it. The dashcam runs a Large Vision Model (LVM) directly on the device",
+      "source": "Dev.to AI",
+      "published": "2026-06-21T10:12:09+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5l5yydraap2gsfbyz4n7.png"
+    },
+    {
+      "id": "8691e200c7e5",
+      "title": "Apple Launches Core AI for Apple-Silicon Optimized On-Device Generative AI",
+      "url": "https://www.infoq.com/news/2026/06/apple-core-ai-wwdc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "At WWDC 26, Apple announced the Core AI framework, the official successor to Core ML. It is designed to allow developers to run large language models and generative AI entirely on-device, supporting both custom-converted PyTorch models and pre-optimized open-source models. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-06-20T11:00:00+00:00",
+      "score": 3.7,
+      "image": "https://res.infoq.com/news/2026/06/apple-core-ai-wwdc/en/headerimage/jetbrains-rustrover-ide-1781953134950.jpeg"
+    },
+    {
+      "id": "d1e799ef2fe8",
+      "title": "AI Technology Won't Save You — Closing the AI Coordination Gap",
+      "url": "https://dev.to/aarhamforensics_eb3c024eb/ai-technology-wont-save-you-closing-the-ai-coordination-gap-3oef",
+      "summary": "Originally published at twarx.com - read the full interactive version there.\n\nLast Updated: June 21, 2026\n\nMost AI technology workflows are solving the wrong problem entirely. While Nvidia CEO Jensen Huang tours the country telling a worried public to 'just go engage' AI technology, the engineers shipping these systems know the real bottleneck isn't model intelligence — it's coordination. The gap between a brilliant demo and a reliable production deployment is where most enterprise AI initiatives quietly die.\n\nOn June 16, 2026, Huang — whose chips power nearly every frontier model from OpenAI ",
+      "source": "Dev.to AI",
+      "published": "2026-06-21T10:19:08+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff511eenap1x4jznlbask.png"
+    },
+    {
+      "id": "3ab438152ec7",
+      "title": "Error Handling — Learning to Love `if err != nil`",
+      "url": "https://dev.to/mihirmohapatra/error-handling-learning-to-love-if-err-nil-21e9",
+      "summary": "Error Handling — Learning to Love if err != nil\n\n\nIn part 3 I covered goroutines and channels, and how Go's concurrency model sidesteps a lot of the ceremony I was used to from the JVM. This time I'm tackling the thing I complained about in part 1 of this series before I'd even really tried it: error handling. I called if err != nil repetitive back then. A few weeks and a lot of real code later, I owe Go a partial apology.\n\n\n  \n  \n  No Exceptions, On Purpose\n\n\nComing from Java, the absence of try/catch is the first thing that feels like a missing feature. It isn't — it's a deliberate design ch",
+      "source": "Dev.to Programming",
+      "published": "2026-06-21T09:48:23+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjb5agfdq1fe986lsjqq0.png"
+    },
+    {
+      "id": "2de72868eaca",
+      "title": "BELAJAR NGODING: MEMBUAT WEBSITE PERTAMAKU (Panduan Dasar HTML untuk Anak SD)",
+      "url": "https://dev.to/lois_poetra/belajar-ngoding-membuat-website-pertamaku-panduan-dasar-html-untuk-anak-sd-4gmb",
+      "summary": "📘 BELAJAR NGODING – MEMBUAT WEBSITE PERTAMAKU\n\n(Panduan Dasar HTML untuk Anak SD)\n\nBuku ini mengajak anak-anak untuk mengenal dunia pemrograman komputer dengan cara yang sederhana, menyenangkan, dan mudah dipahami.\n\nTanpa perlu pengalaman sebelumnya, pembaca akan belajar bagaimana sebuah website dibuat dari nol menggunakan HTML (HyperText Markup Language), yaitu bahasa dasar untuk membangun halaman web di internet.\n\nMelalui pendekatan yang ringan dan praktis, anak-anak tidak hanya membaca teori, tetapi juga langsung mencoba membuat website pertama mereka sendiri.\n\nDi dalam buku ini, anak-anak ",
+      "source": "Dev.to AI",
+      "published": "2026-06-21T10:17:58+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "cea1d622a5f7",
+      "title": "Claude Fable 5 on Bedrock Requires Sharing Inference Data with Anthropic",
+      "url": "https://www.infoq.com/news/2026/06/bedrock-fable-5-data-sharing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Using Claude Fable 5 or Mythos 5 on Amazon Bedrock requires opting into provider_data_share, sending prompts and outputs to Anthropic for 30-day retention with human review. Previous Bedrock models kept inference data inside the AWS boundary. Three days after launch, Anthropic asked AWS to revoke access to both models citing US export control compliance. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-20T09:03:00+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "641be2f4919d",
+      "title": "It’s time to decentralize model distribution! Introducing Noema Atlas",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ubasxo/its_time_to_decentralize_model_distribution/",
+      "summary": "TL;DR: Noema Atlas is a peer-to-peer network software using Iroh for local LLM weights, free and open source (Apache-2.0). Models come from whichever peers have them, with Hugging Face and mirrors as fallback (opt-in). Every file is identified by its content hash and a signed manifest, so the same weights from any source dedupe into one verified copy and every byte is checked as it streams in. Downloads fail over automatically when a source dies, identical files are stored once (reflink/hardlink), and you can rescue and reshare weights that got taken down from HF. Native lightweight desktop ap",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-20T23:33:24+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "9294b8eadca5",
+      "title": "Board where every tile is an agent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub3e2x/board_where_every_tile_is_an_agent/",
+      "summary": "I've been hacking a project which I find extremely useful and wanted to share. Imagine a board where every tile is an agent those job is to maintain the tile. I tried to illustrate the idea with a video here. The project is open source on GitHub and you can also try it out here. (p.s. it requires coding agent to be installed like Claude Code or Codex). Any feedback is much appreciated!  &#32; submitted by &#32;  /u/1amrocket   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-20T18:13:16+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "1d51be0cb1d5",
+      "title": "You can now convert EXL3 quants on Apple Silicon Mac",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ub0vqa/you_can_now_convert_exl3_quants_on_apple_silicon/",
+      "summary": "Hi, I'm here with an update. But this time it's quite a bigger news on local llm. Normally accessing the high fidelity quant like EXL3 is CUDA gated, and imagine you need 96GB-128GB with RTX cards, they are very specialized and expensive. But now on a more general basis, MacOS and Apple Silicon you can find those with 64GB+ quite easily, they don't come cheap but they are available for normal people. You can now run, inference and even convert EXL3 models. I've done it with MiniCPM5 and Qwen3.6-27B. The mean KLD of MiniCPM5 is on par with model converted with RTX card, and Qwen3.6-27B is just ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-20T16:29:46+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "e09b7fe3cebe",
+      "title": "Python packages for particle swarms, genetic algorithms. Scikit-opt maybe? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ub81us/python_packages_for_particle_swarms_genetic/",
+      "summary": "I'm working with a client on a curve-fitting optimization problem. They are currently using a constrained Levenburg-Marquardt optimizer for their task which is complex, slow, and sometimes gets stuck in local minima. I suggested using particle swarm optimization (PSO), and the client suggested genetic algorithms (GA). I would like to compare the existing method to at least these two other options. For this first phase, I don't need to worry about speed or GPU-friendliness. I would like data visualization to be easy. I have experience with scikit-learn, and I just discovered scikit-opt. I have ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-20T21:28:20+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "27dff6a0ce41",
+      "title": "Inside Atlassian’s Forge Billing Architecture for Distributed Usage Tracking at Scale",
+      "url": "https://www.infoq.com/news/2026/06/forge-billing-usage-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Atlassian details the Forge billing platform built for usage-based pricing across its cloud ecosystem. It processes large-scale usage events with correct attribution, deduplication, and aggregation using a streaming pipeline, idempotent processing, and layered storage to enable accurate billing, near real-time visibility, and reliable reconciliation across distributed services. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-06-20T14:21:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "4e99a42e4bf0",
+      "title": "Would you let an ML PhD student graduate without a top-tier paper? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uazlhg/would_you_let_an_ml_phd_student_graduate_without/",
+      "summary": "Suppose you’re a PhD advisor in machine learning. Your student has been in the program for 4 years, has done solid work, and has a coherent thesis direction but they haven’t published in an A*ML venue or top journal. No NeurIPS/ICML/ICLR/CVPR/etc., and no equivalent top venue in their subfield either but 3 First author A level paper. Would you still support them graduating if the thesis itself is solid?   &#32; submitted by &#32;  /u/Hope999991   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-20T15:36:16+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "94d18eb28c0d",
+      "title": "7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture",
+      "url": "https://towardsdatascience.com/7-crucial-barriers-between-data-teams-and-self-healing-data-architecture/",
+      "summary": "What data teams need to build with AI to make self-healing data architecture a practical reality\nThe post 7 Crucial Barriers Between Data Teams and Self-Healing Data Architecture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-20T17:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "5d70ef48235a",
+      "title": "z.AI as the number 2 gives praise to the number 1 open source model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1uaxktf/zai_as_the_number_2_gives_praise_to_the_number_1/",
+      "summary": "&#32; submitted by &#32;  /u/Charuru   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-06-20T14:10:04+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "8dcd712b5c2c",
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "url": "https://github.com/mysk-research/loupe",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-20T12:08:23+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "11005b6eafad",
+      "title": "Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All",
+      "url": "https://towardsdatascience.com/making-a-pdfs-images-searchable-for-rag-without-paying-to-read-them-all/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5sexies] - image_df tells you where every picture is. Turning the few that matter into searchable text is a separate, cost-ordered job\nThe post Making a PDF’s Images Searchable for RAG, Without Paying to Read Them All appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-20T15:00:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "d4568720cf2b",
+      "title": "AWS Adds Multi-Region Replication to Amazon Cognito Identity Service",
+      "url": "https://www.infoq.com/news/2026/06/cognito-replication-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently introduced Amazon Cognito multi-region replication, which automatically replicates user identities and user pool configurations from a primary region to a secondary one. This enables applications to continue authenticating users from a replica region during outages, without requiring custom replication and failover mechanisms. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-20T07:40:00+00:00",
+      "score": 2.41,
+      "image": null
+    }
+  ]
+}
