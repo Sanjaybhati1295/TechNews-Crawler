@@ -1,0 +1,183 @@
+{
+  "digest": {
+    "headline": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends (InfoQ). AI Coordination Gap: Why AI Technology Fails Between Components (and How to Fix It) (Dev.to AI). OpenAI launches new initiative to help find and patch open source bugs (TechCrunch AI). The running list: major tech layoffs in 2026 where employers cited AI (TechCrunch AI). MCP Is a Great Start — But Multi-Agent Production Needs More (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "I Wish I Knew This DeepSeek 429 Fix Sooner — Here's the Full Breakdown (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "When RAG Users Ask Vague Questions: Clarify Once, Learn the Default (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "AWS released Blocks in public preview, an open-source TypeScript framework where each Block bundles application code, local mocks, and AWS infrastructure. Designed for AI agents to write correct backends from the start, it runs locally without an AWS account and deploys the same code to Lambda, DynamoDB, Aurora, and Bedrock with zero changes. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "b579e74b1995",
+      "title": "AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends",
+      "url": "https://www.infoq.com/news/2026/06/aws-blocks-framework-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS released Blocks in public preview, an open-source TypeScript framework where each Block bundles application code, local mocks, and AWS infrastructure. Designed for AI agents to write correct backends from the start, it runs locally without an AWS account and deploys the same code to Lambda, DynamoDB, Aurora, and Bedrock with zero changes. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-23T09:15:00+00:00",
+      "score": 5.53,
+      "image": "https://res.infoq.com/news/2026/06/aws-blocks-framework-preview/en/headerimage/generatedHeaderImage-1782118076693.jpg"
+    },
+    {
+      "id": "43e3a7cffcdd",
+      "title": "AI Coordination Gap: Why AI Technology Fails Between Components (and How to Fix It)",
+      "url": "https://dev.to/aarhamforensics_eb3c024eb/ai-coordination-gap-why-ai-technology-fails-between-components-and-how-to-fix-it-40l4",
+      "summary": "Originally published at twarx.com - read the full interactive version there.\n\nLast Updated: June 23, 2026\n\nMost AI technology workflows are solving the wrong problem entirely.\n\nAlphabet stock slid this week after Google lost two of its most consequential AI researchers — Noam Shazeer left for OpenAI last week and Nobel Prize winner John Jumper announced Friday he is joining Anthropic. The market read it as a talent story. It is actually a coordination story — about how knowledge, models, and people fail to stay synchronized inside even the best-resourced AI technology orgs on earth.\n\nHere is t",
+      "source": "Dev.to AI",
+      "published": "2026-06-23T10:18:20+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu5vt620kycw7jt7qq536.png"
+    },
+    {
+      "id": "c7f151b00a6a",
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "summary": "OpenAI is using AI to help the open source community better protect itself.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-23T00:11:31+00:00",
+      "score": 4.13,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800"
+    },
+    {
+      "id": "ef625f57b425",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-23T01:27:55+00:00",
+      "score": 3.7,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/Robot-hand.png?resize=1200,800"
+    },
+    {
+      "id": "768cdaa83b60",
+      "title": "MCP Is a Great Start — But Multi-Agent Production Needs More",
+      "url": "https://dev.to/jovansapfioneer/mcp-is-a-great-start-but-multi-agent-production-needs-more-16n3",
+      "summary": "The Model Context Protocol has transformed how we connect AI to tools. But connecting agents to tools is only half the battle — connecting agents to each other is where the real challenge begins.\n\n\n\n\n\n  \n  \n  The Article That Sparked This\n\n\nI recently read @sbis04's excellent article \"Ghost Maintainer — An AI Junior Partner for Open Source\" and it resonated deeply with challenges I've been solving in production.\n\nThis post highlights exactly what makes MCP powerful. Where I want to extend the conversation is: what happens when you have 3, 5, or 10 MCP-powered agents all sharing context?\n\n\n  \n ",
+      "source": "Dev.to AI",
+      "published": "2026-06-23T10:15:41+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2usd1j06bxbo9lr6u590.png"
+    },
+    {
+      "id": "aec28f2dbb23",
+      "title": "5 AI prompts that will transform your B2B cold outreach (with examples)",
+      "url": "https://dev.to/lior_solomon_27ab062bfcef/5-ai-prompts-that-will-transform-your-b2b-cold-outreach-with-examples-3b3j",
+      "summary": "5 AI prompts that will transform your B2B cold outreach (with examples)\n\n\nCold outreach has a dirty secret: most people write emails for themselves, not for the person reading them.\n\nThe result? An inbox full of \"Hi [First Name], I came across your profile and thought you might be interested in...\" emails that get deleted in under 3 seconds.\n\nAI can change this — but only if you give it the right instructions. Generic prompts get generic output. Role-based prompts that simulate real decision-maker psychology? That's where the magic happens.\n\nHere are 5 prompt techniques that actually move the ",
+      "source": "Dev.to AI",
+      "published": "2026-06-23T10:16:20+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F24jyxwlk6gbm4d4bwe3j.png"
+    },
+    {
+      "id": "67f560e615de",
+      "title": "I Wish I Knew This DeepSeek 429 Fix Sooner — Here's the Full Breakdown",
+      "url": "https://dev.to/bolddeck/i-wish-i-knew-this-deepseek-429-fix-sooner-heres-the-full-breakdown-3g95",
+      "summary": "I Wish I Knew This DeepSeek 429 Fix Sooner — Here's the Full Breakdown\n\nI remember staring at my AWS billing dashboard at 2 AM on a Tuesday, watching the numbers tick up while my application was throwing 429 errors like confetti at a parade. That was the moment I realized — rate limits aren't just a developer inconvenience. They're a money problem. And most teams are solving them the wrong way.\n\nHere's the thing: when DeepSeek starts throwing 429 errors at your production app, your first instinct is probably to add retries, throw in some backoff logic, and hope for the best. I did that too. Th",
+      "source": "Dev.to Programming",
+      "published": "2026-06-23T10:17:53+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "9e5e3d6d5093",
+      "title": "Everything about AI in 2026",
+      "url": "https://dev.to/nirasynthcae26/everything-about-ai-in-2026-4j8e",
+      "summary": "Everything about AI in 2026\n\n\nKey resources in the AI synthesis technology neural space:\n\n\nAnxiety Brainwave Entrainment Tyler Tx\nAnxiety Brainwave Entrainment Union City Nj\nAnxiety Brainwave Entrainment University Park Fl\nAnxiety Brainwave Entrainment Upper Montclair Nj\nAnxiety Brainwave Entrainment Urbandale Ia\nAnxiety Brainwave Entrainment Utica Ny\nAnxiety Brainwave Entrainment Vacaville Ca\nAnxiety Brainwave Entrainment Vail Co\nAnxiety Brainwave Entrainment Valdosta Ga\nAnxiety Brainwave Entrainment Vallejo Ca\nAnxiety Brainwave Entrainment Valley Stream Ny\nAnxiety Brainwave Entrainment Valri",
+      "source": "Dev.to AI",
+      "published": "2026-06-23T10:11:34+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "746439952901",
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-22T20:08:15+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "1d7d41393205",
+      "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 15th, 2026, features news highlighting: point releases of Spring Tools, Helidon, JobRunr and Gradle; the June 2026 edition of Open Liberty; the first milestone release of Apache TomEE 11.0; the first beta release of Hibernate ORM 8.0; Quarkus emergency maintenance releases to address CVE-2026-50559; and four open-source projects join the Commonhaus Foundation. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-22T13:15:00+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "85ace6815796",
+      "title": "Some new updates to Papers with Code [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+      "summary": "Hi folks,  Niels here from the open-source team at Hugging Face. I continue working on a revival of paperswithcode.co as we're back to the &quot;age of research&quot; per Ilya Sutskever! Hence, it's important to discover each other's research and build on each other's work, so we can collectively build the next Transformer. Below, I'll go over each of the new features that were recently added. ## Support for SOTA badges Yes, that's right, totally like the old website. You can see that GLM-5.2, for instance, is obviously the hottest blog post today, achieves SOTA on PostTrainBench, and performs",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-22T14:29:33+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "1a1f9cd8b2b6",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-22T16:51:29+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "d4065ae33a65",
+      "title": "AWS Graviton5 Reaches General Availability with 192 Cores and Formally Verified VM Isolation",
+      "url": "https://www.infoq.com/news/2026/06/aws-graviton5-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS made Graviton5-powered EC2 M9g and M9gd instances generally available with 192 ARM cores, formally verified VM isolation via the Nitro Isolation Engine, and DDR5-8800 memory. ClickHouse reported 36% better performance with zero code changes. Meta committed tens of millions of cores. On-demand pricing is 9% above Graviton4, translating to roughly 15% better price-performance. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-22T10:05:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "8c9133c0af76",
+      "title": "How to Use Claude Code in Your Browser",
+      "url": "https://towardsdatascience.com/how-to-use-claude-code-in-your-browser/",
+      "summary": "Learn how to apply coding agents to verify work in your browser. \nThe post How to Use Claude Code in Your Browser appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-22T15:00:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "75569816038b",
+      "title": "Neural Networks, Explained for Beginners: Start Here If They’ve Confused You",
+      "url": "https://towardsdatascience.com/neural-networks-explained-for-beginners-start-here-if-theyve-confused-you/",
+      "summary": "The intuition behind neural networks and why they need activation functions.\nThe post Neural Networks, Explained for Beginners: Start Here If They’ve Confused You appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-22T12:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "e5fdb1bcb942",
+      "title": "When RAG Users Ask Vague Questions: Clarify Once, Learn the Default",
+      "url": "https://towardsdatascience.com/when-rag-users-ask-vague-questions-clarify-once-learn-the-default/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6bis] - Ask one focused clarification, learn the default from the answer, stay silent next time\nThe post When RAG Users Ask Vague Questions: Clarify Once, Learn the Default appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-22T13:30:00+00:00",
+      "score": 2.33,
+      "image": null
+    }
+  ]
+}
