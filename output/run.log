@@ -1573,3 +1573,38 @@
 2026-06-23 10:28:17,994  INFO     ────────────────────────────────────────────────────────────
 2026-06-23 10:28:17,994  INFO     Done!  Open: output/index.html
 2026-06-23 10:28:17,994  INFO     Headline: AWS Launches Blocks, an Open-Source TypeScript Framework Designed for AI Agents to Build Backends
+2026-06-24 10:13:33,465  INFO     ============================================================
+2026-06-24 10:13:33,465  INFO     TECHPULSE Digest — 2026-06-24 10:13 UTC
+2026-06-24 10:13:33,465  INFO     ============================================================
+2026-06-24 10:13:33,465  INFO     Step 1/3 — Crawling feeds…
+2026-06-24 10:13:33,798  INFO       Hacker News                    → 0 significant articles
+2026-06-24 10:13:34,121  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-24 10:13:34,294  INFO       Ars Technica                   → 0 significant articles
+2026-06-24 10:13:34,801  INFO       The Register AI                → 0 significant articles
+2026-06-24 10:13:34,874  INFO       MIT Tech Review                → 2 significant articles
+2026-06-24 10:13:35,169  INFO       Dev.to AI                      → 3 significant articles
+2026-06-24 10:13:35,597  INFO       Dev.to Programming             → 6 significant articles
+2026-06-24 10:13:35,684  INFO       GitHub Blog                    → 1 significant articles
+2026-06-24 10:13:36,451  INFO       Google Research                → 0 significant articles
+2026-06-24 10:13:37,233  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-06-24 10:13:37,276  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-24 10:13:38,011  INFO       InfoQ                          → 3 significant articles
+2026-06-24 10:13:38,174  INFO       Towards Data Science           → 5 significant articles
+2026-06-24 10:13:38,348  INFO       Wired AI                       → 0 significant articles
+2026-06-24 10:13:38,404  INFO       TechCrunch AI                  → 3 significant articles
+2026-06-24 10:13:38,404  INFO     Fetching images for top articles…
+2026-06-24 10:13:38,489  INFO       🖼  the memory-transparency tradeoff: ai's structural pivot
+2026-06-24 10:13:39,170  INFO       🖼  AWS Launches Blocks, an Open-Source TypeScript Framework Des
+2026-06-24 10:13:39,507  INFO       🖼  How To Turbocharge Your Google Apps with Personalized Gemini
+2026-06-24 10:13:39,545  INFO       🖼  What Is an Agent Gateway? (And Why Our AI Gateway Stopped Be
+2026-06-24 10:13:39,850  INFO       🖼  Claude Rate Limits Are Getting Stricter. Here's How a Manage
+2026-06-24 10:13:39,886  INFO       🖼  How a Solo Founder Launched a SaaS in 12 Days Using Nexora
+2026-06-24 10:13:39,886  INFO     Total selected: 23 articles from 15 feeds
+2026-06-24 10:13:39,886  INFO     Selected 23 significant articles
+2026-06-24 10:13:39,886  INFO     Step 2/3 — Generating digest…
+2026-06-24 10:13:40,504  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-24 10:13:40,504  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-24 10:13:40,504  INFO     Step 3/3 — Rendering HTML…
+2026-06-24 10:13:40,506  INFO     ────────────────────────────────────────────────────────────
+2026-06-24 10:13:40,506  INFO     Done!  Open: output/index.html
+2026-06-24 10:13:40,506  INFO     Headline: the memory-transparency tradeoff: ai's structural pivot
