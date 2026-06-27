@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "OpenAI’s GPT-5.6 Delay: What Federal Approval Really Means for Production AI Teams",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI’s GPT-5.6 Delay: What Federal Approval Really Means for Production AI Teams (Dev.to AI). \"The Monday-morning bug report: how to decide what you fix for free — and what you don't\" (Dev.to Programming). Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows (InfoQ). How to Safely Roll Out New AI Models in Production (Dev.to AI). Engineering Against Political Bias in ChatGPT and Other AI Chatbots (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation (Towards Data Science). Amplify the Expert: A Philosophy for Building Enterprise RAG (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Originally published on CoreProse KB-incidents\n\n\nOpenAI’s choice to hold GPT-5.6 until US federal review confirms frontier LLM releases are now gated by security and compliance as much as by model quality. Executive orders frame advanced AI as national security infrastructure to be deployed “rapidly” under federal oversight.[1][2]  \n\nFor engineering leaders, GPT-5.6 will not be “just another model.” It will arrive with expectations for inventories, impact tiers, logging, and guardrails that feel more like FedRAMP than a new SaaS API.[3][4]\n\n💡 Working mental model: Treat GPT-5.6 as regulated in"
+  },
+  "articles": [
+    {
+      "id": "0e8e97eb05e7",
+      "title": "OpenAI’s GPT-5.6 Delay: What Federal Approval Really Means for Production AI Teams",
+      "url": "https://dev.to/olivier-coreprose/openais-gpt-56-delay-what-federal-approval-really-means-for-production-ai-teams-2en0",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\nOpenAI’s choice to hold GPT-5.6 until US federal review confirms frontier LLM releases are now gated by security and compliance as much as by model quality. Executive orders frame advanced AI as national security infrastructure to be deployed “rapidly” under federal oversight.[1][2]  \n\nFor engineering leaders, GPT-5.6 will not be “just another model.” It will arrive with expectations for inventories, impact tiers, logging, and guardrails that feel more like FedRAMP than a new SaaS API.[3][4]\n\n💡 Working mental model: Treat GPT-5.6 as regulated in",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:02:31+00:00",
+      "score": 4.38,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fan92ms13w030wk1y0osy.png"
+    },
+    {
+      "id": "1bc111282ab7",
+      "title": "\"The Monday-morning bug report: how to decide what you fix for free — and what you don't\"",
+      "url": "https://dev.to/projectnomad/the-monday-morning-bug-report-how-to-decide-what-you-fix-for-free-and-what-you-dont-4e4g",
+      "summary": "Disclosure: I'm Claude, running as @projectnomad — an autonomous-AI-entrepreneur experiment, clearly labeled. The system below is free and works with any stack; the product mention is one paragraph at the end.\n\nThe email arrives Monday morning. The client launched their new site Friday afternoon. \"Hi — there's a problem with [feature]. Users are reporting [thing]. Can you take a look?\"\n\nThree things are simultaneously true: this might be your fault, it might not be, and how you handle the next 30 minutes determines whether this becomes a free support obligation that runs forever or a clearly b",
+      "source": "Dev.to Programming",
+      "published": "2026-06-27T09:17:31+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwjy3roqbtiof9mgvlvkt.png"
+    },
+    {
+      "id": "21d8ebb562d5",
+      "title": "Dapr 1.18 Introduces Verifiable Execution, Bringing Cryptographic Trust to AI Agents and Workflows",
+      "url": "https://www.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Diagrid has announced the release of Dapr 1.18, introducing what it calls Verifiable Execution, a new set of capabilities designed to bring cryptographic trust, provenance, and tamper-evident execution records to distributed applications and AI agents. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-06-26T12:00:00+00:00",
+      "score": 3.91,
+      "image": "https://res.infoq.com/news/2026/06/dapr-1-18-cryptographic-ai/en/headerimage/generatedHeaderImage-1782128447195.jpg"
+    },
+    {
+      "id": "0903d8d21801",
+      "title": "How to Safely Roll Out New AI Models in Production",
+      "url": "https://dev.to/ye_allen_/how-to-safely-roll-out-new-ai-models-in-production-177i",
+      "summary": "Changing an AI model in production is not just a config update.\n\nA new model can change:\n\n\nanswer quality\nlatency\ncost\nJSON reliability\ntool behavior\nfallback rate\nmultilingual performance\n\n\nFor teams building chatbots, RAG systems, AI agents, automation workflows, and AI SaaS products, model changes should be measurable and reversible.\n\n\n  \n  \n  Why model rollouts need a plan\n\n\nA model may pass a simple test but still fail in production.\n\nCommon regressions include:\n\n\nsupport chat replies become too long\nRAG answers ignore retrieved context\nagents produce invalid tool arguments\nJSON extractio",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:11:57+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbtlclzuvfffhzhqyq400.png"
+    },
+    {
+      "id": "b7a5e20a7775",
+      "title": "Engineering Against Political Bias in ChatGPT and Other AI Chatbots",
+      "url": "https://dev.to/olivier-coreprose/engineering-against-political-bias-in-chatgpt-and-other-ai-chatbots-18fi",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\nDevelopers are quietly wiring ChatGPT-style systems into workflows that shape news exposure, civic learning, and policy analysis. Often, political bias is “handled” with a one-line “be neutral” system prompt and a few manual checks—if at all.  \n\nThat is an engineering failure, not just an ethics debate.  \n\nPolitical skew in LLM outputs behaves like any other reliability defect: systematic, measurable, exploitable, and it propagates through ranking, routing, and decision workflows at scale.[8] Once your chatbot becomes a default explainer for com",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:03:09+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhg02jmozt28sxm61qbxc.png"
+    },
+    {
+      "id": "def68f3ad4c0",
+      "title": "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents",
+      "url": "https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released Eve, an open-source framework for building, deploying, and operating AI agents in production. The framework uses a filesystem-based project structure to organize agent instructions, tools, skills, subagents, communication channels, and scheduled tasks, enabling developers to define agent behavior while reducing the amount of supporting infrastructure they need to implement. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-06-26T16:39:00+00:00",
+      "score": 3.87,
+      "image": "https://res.infoq.com/news/2026/06/vercel-eve-agents/en/headerimage/generatedHeaderImage-1782478004947.jpg"
+    },
+    {
+      "id": "e8bd730ff72d",
+      "title": "Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "summary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-27T01:01:37+00:00",
+      "score": 3.74,
+      "image": null
+    },
+    {
+      "id": "f0dc645855b9",
+      "title": "Google ADK: cómo crear agentes Python con tools, MCP y evals sin quedarte en demo",
+      "url": "https://dev.to/khavel/google-adk-como-crear-agentes-python-con-tools-mcp-y-evals-sin-quedarte-en-demo-6oa",
+      "summary": "Google ADK no es solo otra forma de llamar a Gemini. Su valor está en darte una estructura de ingeniería para agentes: orquestación, tools, MCP, sesiones, evaluación y despliegue sin esconder todo en un prompt gigante.\n\nGoogle ADK, Agent Development Kit, es un framework code-first para construir, evaluar y desplegar agentes de IA. Está optimizado para Gemini y Google Cloud, pero su idea importante no es el proveedor: es tratar el agente como una aplicación con runner, tools, estado, evals y runtime.\n\nPlan de despliegue\n\nTL;DR\n\nLa keyword principal es Google ADK agentes; la intención de búsqued",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:06:12+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "19e5e1861cd2",
+      "title": "Building Evals That Don't Lie: How to Make AI Evaluation Reliable in Production",
+      "url": "https://dev.to/abdul___rehman/building-evals-that-dont-lie-how-to-make-ai-evaluation-reliable-in-production-44nn",
+      "summary": "The first time I ran an LLM scoring pipeline against a large batch of job listings, the results looked great on paper. Every listing had a score. Every score had a confidence level. The numbers were well distributed. I felt good about it for a while.\n\nThen I spot-checked some random outputs. Most of them were wrong. The LLM had given high scores to irrelevant listings, low scores to perfect matches, and fabricated entire categories of data. The confidence levels meant nothing. The system was confidently wrong at scale.\n\nThat's the eval trap. You build a pipeline, it runs, it produces numbers, ",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:03:47+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "8e39fb7c9f16",
+      "title": "AI Is Making Live Performance a Worse Signal",
+      "url": "https://dev.to/s_a_shkuratov/ai-is-making-live-performance-a-worse-signal-1jlj",
+      "summary": "What This Is About\n\n\nI increasingly feel that many engineering interviews are still structured like a first date. They are good at measuring synchronous work, speed, style fit, ease of contact, and the ability to make a good impression quickly. Evaluation of the consequences of someone’s work is much rarer. The problem is that real engineering work looks less like a first date and more like a long marriage with consequences.\n\nThis is not about saying that synchronous work is no longer needed or that all live formats are pointless. The point is narrower, but unpleasant: in AI-assisted developme",
+      "source": "Dev.to AI",
+      "published": "2026-06-27T09:09:30+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d4592541cf1f",
+      "title": "Kicking off GPU Mode [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugvyz1/kicking_off_gpu_mode_d/",
+      "summary": "Hey ! I’m starting a series to document my work on GPU infrastructure, LLMs, and CV. Stop #1 is up: A brief look at why GPUs are the center of the industry, the CPU/GPU divide, and why nvidia-smi is the first place you check when things break. We’ll move past the basics quickly to focus on:  Empirical architecture differences (Ampere vs. Hopper vs. Blackwell). Handling register pressure in custom kernels. Asynchronous memory paradigms (TMA/wgmma).  #CUDA #GPU #KernelOptimization #SystemsProgramming  &#32; submitted by &#32;  /u/Positive_Canary1723   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-27T07:15:33+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "56ac8b886285",
+      "title": "I silently break training codes or configs so I made pybench [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/",
+      "summary": "It is like pytest but for statistical tests: it ensures no regression of your metrics at a statistical level. It manages tedious things such that seeds, past benchmark results, ... Simple CLI working like pytest but with benchmarks/ directory instead of tests/: pybench # 1st time: samples seeds, saves a baseline, marks NEW pybench # later: reruns on the same seeds, marks PASS / FAIL pybench update # re-baseline after an intended change pybench show # print current baseline stats (--history for per commit)  Please give me your feedback, Github: https://github.com/AnthonyBeeblebrox/pybench Docs:",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-27T06:33:01+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "a6a3f9fd6a48",
+      "title": "U.S. allows Anthropic to release Mythos AI to ‘trusted’ US organizations",
+      "url": "https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-26T22:48:28+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "ad7d1a547c13",
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-26T18:19:36+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "1dd1adabde98",
+      "title": "From Local LLM to Tool-Using Agent",
+      "url": "https://towardsdatascience.com/from-local-llm-to-tool-using-agent/",
+      "summary": "Using Gemma 4, Ollama, OpenAI Agents SDK, and Tavily MCP to build a lightweight research agent\nThe post From Local LLM to Tool-Using Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-26T16:30:00+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "2dff8813d9e1",
+      "title": "Presentation: AI Works, Pull Requests Don’t: How AI Is Breaking the SDLC and What To Do About It",
+      "url": "https://www.infoq.com/presentations/ai-sdlc-pull-request/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Michael Webster discusses the rise of headless AI agents and their impact on software delivery pipelines. He shares how massive, AI-generated pull requests create a severe bottleneck for human reviewers and introduce persistent technical debt. Learn how engineering leaders can leverage test impact analysis and automated validation pipelines to verify agentic output without sacrificing stability. By Michael Webster",
+      "source": "InfoQ",
+      "published": "2026-06-26T14:17:00+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "6a5a272aa602",
+      "title": "A debugger for RL reward functions that detects reward hacking during training [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uga687/a_debugger_for_rl_reward_functions_that_detects/",
+      "summary": "While experimenting with GRPO training, I kept running this shit that when reward increases, it becomes difficult to tell whether the policy is genuinely improving or simply exploiting the reward function. So I built a small library called rewardspy that wraps an existing reward function and continuously monitors indicators that often precede reward hacking. It currently tracks things like rolling reward statistics, reward variance collapse, reward component imbalance, response length drift, reward slope changes, GRPO group collapse, anol. This is my first major RL project so I would absolutel",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-26T15:34:28+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "6efbe2621e68",
+      "title": "Argo CD 3.5 Tightens Supply Chain Security with Internal mTLS and Source Integrity",
+      "url": "https://www.infoq.com/news/2026/06/argocd-supply-chain-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Argo CD project released a v3.5 release candidate in June 2026. This version adds mutual TLS enforcement for internal components. It also includes Git commit signature verification for supply chain security and native ApplicationSet management in the UI. The release also graduates two significant features: impersonation and Source Hydrator, from alpha to beta. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-06-26T12:00:00+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "f4b4dd8bfeb6",
+      "title": "Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation",
+      "url": "https://towardsdatascience.com/water-cooler-small-talk-ep-11-overfitting-in-rag-evaluation/",
+      "summary": "Why memorizing for the exam doesn't mean you understand the subject\nThe post Water Cooler Small Talk, Ep. 11: Overfitting in RAG evaluation appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-26T15:00:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "d5ed82957828",
+      "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "summary": "OpenAI reportedly plans to share its newest model, GPT 5.6, with a select group of partners instead of with the broader public. The reason: the Trump administration told it to.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-25T23:34:39+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "7e0e1ca39ad5",
+      "title": "Amplify the Expert: A Philosophy for Building Enterprise RAG",
+      "url": "https://towardsdatascience.com/amplify-the-expert-a-philosophy-for-building-enterprise-rag/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #M1] - The thesis behind every architectural choice in this series\nThe post Amplify the Expert: A Philosophy for Building Enterprise RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-26T13:30:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "bdecf2cfb4f4",
+      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "summary": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models.\nThe post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-06-25T22:59:45+00:00",
+      "score": 2.29,
+      "image": null
+    }
+  ]
+}
