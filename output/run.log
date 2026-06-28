@@ -1713,3 +1713,38 @@
 2026-06-27 09:23:04,872  INFO     ────────────────────────────────────────────────────────────
 2026-06-27 09:23:04,872  INFO     Done!  Open: output/index.html
 2026-06-27 09:23:04,872  INFO     Headline: OpenAI’s GPT-5.6 Delay: What Federal Approval Really Means for Production AI Teams
+2026-06-28 09:53:30,078  INFO     ============================================================
+2026-06-28 09:53:30,078  INFO     TECHPULSE Digest — 2026-06-28 09:53 UTC
+2026-06-28 09:53:30,078  INFO     ============================================================
+2026-06-28 09:53:30,078  INFO     Step 1/3 — Crawling feeds…
+2026-06-28 09:53:30,248  INFO       Hacker News                    → 1 significant articles
+2026-06-28 09:53:30,407  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-28 09:53:30,550  INFO       Ars Technica                   → 0 significant articles
+2026-06-28 09:53:31,606  INFO       The Register AI                → 0 significant articles
+2026-06-28 09:53:31,749  INFO       MIT Tech Review                → 0 significant articles
+2026-06-28 09:53:31,861  INFO       Dev.to AI                      → 6 significant articles
+2026-06-28 09:53:32,014  INFO       Dev.to Programming             → 1 significant articles
+2026-06-28 09:53:32,222  INFO       GitHub Blog                    → 0 significant articles
+2026-06-28 09:53:33,066  INFO       Google Research                → 0 significant articles
+2026-06-28 09:53:33,975  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-06-28 09:53:34,072  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-28 09:53:34,399  INFO       InfoQ                          → 3 significant articles
+2026-06-28 09:53:34,526  INFO       Towards Data Science           → 2 significant articles
+2026-06-28 09:53:34,696  INFO       Wired AI                       → 0 significant articles
+2026-06-28 09:53:34,828  INFO       TechCrunch AI                  → 1 significant articles
+2026-06-28 09:53:34,829  INFO     Fetching images for top articles…
+2026-06-28 09:53:34,901  INFO       🖼  OpenAI Launches GPT-5.6 Sol Under US Government Restrictions
+2026-06-28 09:53:34,971  INFO       🖼  GPT-5.6 Is a Model Launch. The Real Story Is the Access List
+2026-06-28 09:53:35,029  INFO       🖼  Using LLMs for Entertainment: A Guide
+2026-06-28 09:53:35,070  INFO       🖼  How to Estimate GPT-4 API Costs Before Building
+2026-06-28 09:53:35,301  INFO       🖼  AWS Previews FinOps Agent for Cost Analysis and Optimization
+2026-06-28 09:53:35,374  INFO       🖼  Browser Agents Need Receipts, Not Just Clicks: A Practical R
+2026-06-28 09:53:35,374  INFO     Total selected: 16 articles from 15 feeds
+2026-06-28 09:53:35,375  INFO     Selected 16 significant articles
+2026-06-28 09:53:35,375  INFO     Step 2/3 — Generating digest…
+2026-06-28 09:53:35,956  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-28 09:53:35,956  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-28 09:53:35,956  INFO     Step 3/3 — Rendering HTML…
+2026-06-28 09:53:35,957  INFO     ────────────────────────────────────────────────────────────
+2026-06-28 09:53:35,957  INFO     Done!  Open: output/index.html
+2026-06-28 09:53:35,957  INFO     Headline: OpenAI Launches GPT-5.6 Sol Under US Government Restrictions

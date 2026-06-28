@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "OpenAI Launches GPT-5.6 Sol Under US Government Restrictions",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI Launches GPT-5.6 Sol Under US Government Restrictions (Dev.to AI). GPT-5.6 Is a Model Launch. The Real Story Is the Access List. (Dev.to Programming). Using LLMs for Entertainment: A Guide (Dev.to AI). How to Estimate GPT-4 API Costs Before Building (Dev.to AI). Browser Agents Need Receipts, Not Just Clicks: A Practical Read of browser-use (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Previews FinOps Agent for Cost Analysis and Optimization (InfoQ). AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management (InfoQ)."
+      }
+    ],
+    "key_takeaway": "OpenAI's GPT-5.6 Sol beats Claude Mythos 5 in agentic coding (88.8% vs 88%) but US government restricts access to select partners, a policy OpenAI calls unsustainable.\n\n\nOpenAI's GPT-5.6 Sol beats Anthropic's Claude Mythos 5 in agentic coding benchmarks, but the US government restricts access to select partners. OpenAI calls the policy unsustainable for developers and enterprises.\n\nKey facts\n\n\nGPT-5.6 Sol scores 88.8% on Terminal-Bench 2.1.\nSol Ultra hits 91.9% vs Claude Mythos 5's 88%.\nSol uses one-third the tokens of Mythos Preview on ExploitBench.\nUS government restricts access to select pa"
+  },
+  "articles": [
+    {
+      "id": "4bf0583e24bc",
+      "title": "OpenAI Launches GPT-5.6 Sol Under US Government Restrictions",
+      "url": "https://dev.to/gentic_news/openai-launches-gpt-56-sol-under-us-government-restrictions-4c99",
+      "summary": "OpenAI's GPT-5.6 Sol beats Claude Mythos 5 in agentic coding (88.8% vs 88%) but US government restricts access to select partners, a policy OpenAI calls unsustainable.\n\n\nOpenAI's GPT-5.6 Sol beats Anthropic's Claude Mythos 5 in agentic coding benchmarks, but the US government restricts access to select partners. OpenAI calls the policy unsustainable for developers and enterprises.\n\nKey facts\n\n\nGPT-5.6 Sol scores 88.8% on Terminal-Bench 2.1.\nSol Ultra hits 91.9% vs Claude Mythos 5's 88%.\nSol uses one-third the tokens of Mythos Preview on ExploitBench.\nUS government restricts access to select pa",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:38:13+00:00",
+      "score": 5.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F352t71blnd9owfm11v7k.png"
+    },
+    {
+      "id": "7d2eeef77dc7",
+      "title": "GPT-5.6 Is a Model Launch. The Real Story Is the Access List.",
+      "url": "https://dev.to/komo/gpt-56-is-a-model-launch-the-real-story-is-the-access-list-2i4c",
+      "summary": "GPT-5.6 Is a Model Launch. The Real Story Is the Access List.\n\n\nOpenAI dropped GPT-5.6 Sol on June 26, and the obvious headline is the model: stronger coding, cyber, and agentic work, plus two cheaper siblings called Terra and Luna.\n\nThe less obvious headline is the access model.\n\nGPT-5.6 is not starting as a normal public rollout. OpenAI says it is beginning with a limited preview for a small group of trusted partners, with those partners shared with the U.S. government. Axios reported the first group is around 20 companies. OpenAI also says it does not want this kind of government access pro",
+      "source": "Dev.to Programming",
+      "published": "2026-06-28T09:23:21+00:00",
+      "score": 4.37,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu1r0fed7rdnfa3gmtin6.png"
+    },
+    {
+      "id": "dadbee9d6077",
+      "title": "Using LLMs for Entertainment: A Guide",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/using-llms-for-entertainment-a-guide-2oii",
+      "summary": "Large language models have moved well beyond chatbots and autocomplete. Developers are now using LLMs as runtime engines for interactive fiction, procedural NPC dialogue, and multi-modal entertainment pipelines. These workloads are defined by long system prompts, persistent context windows, and agentic tool use, requirements that push token-based pricing to its breaking point. Oxlo.ai offers a request-based inference platform that flips this model: one flat cost per API call regardless of how much lore, history, or visual context you pack into the prompt.\n\nInteractive Fiction and Branching Nar",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:34:22+00:00",
+      "score": 4.28,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7osz7xly4rpe50crj6ea.png"
+    },
+    {
+      "id": "c4d2649b9db9",
+      "title": "How to Estimate GPT-4 API Costs Before Building",
+      "url": "https://dev.to/utilitylab/how-to-estimate-gpt-4-api-costs-before-building-4b3h",
+      "summary": "If you’re building an AI feature, the first thing to model is tokens — not model choice. Pricing pages show per-1K-token rates, but they don’t multiply the math for your actual prompt and completion patterns.\n\n\nThe mistake I see most often is estimating from a single “hello world” call. That number is almost always wrong because real usage has three cost layers: input tokens from system prompts, output tokens from model responses, and hidden costs from retries, logging, or repeated calls in loops.\n\nInput cost is usually predictable if you count your system prompt and the average user message l",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:38:30+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzxd4h7u3429hxlr0dvs4.png"
+    },
+    {
+      "id": "477c91560a96",
+      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
+      "url": "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon has released AWS FinOps Agent in public preview, a managed service that automates several common FinOps workflows. The agent can investigate cost anomalies, correlate spend changes with AWS activity data, and integrate with tools such as Slack and Jira to route findings to resource owners. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-28T05:55:00+00:00",
+      "score": 4.18,
+      "image": "https://res.infoq.com/news/2026/06/aws-finops-agent/en/headerimage/generatedHeaderImage-1781884717104.jpg"
+    },
+    {
+      "id": "bc4607521613",
+      "title": "Browser Agents Need Receipts, Not Just Clicks: A Practical Read of browser-use",
+      "url": "https://dev.to/doramagic/browser-agents-need-receipts-not-just-clicks-a-practical-read-of-browser-use-1hme",
+      "summary": "I do not think the interesting part of browser-use is that it can click through a web page. A script can click. A Playwright test can click. The harder question is whether an AI-driven browser workflow can explain what it saw, why it acted, and why it believes the job is done.\n\nThat distinction matters if you plan to bring browser automation into Claude Code, Codex, Cursor, or your own AI host. The first useful run should not be \"log into a real admin account and publish something.\" It should be a small contract test for observation, permissions, recovery, and evidence.\n\n\n  \n  \n  The core abst",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:42:14+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvzhu2ixlep8b2w96sdsz.png"
+    },
+    {
+      "id": "70c101c9224b",
+      "title": "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop",
+      "url": "https://www.infoq.com/news/2026/06/swift-6-4-beta-features/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Currently available as a beta in Xcode 27, Swift 6.4 introduces a range of enhancements: better C interoperability, simplified OS availability check, fine-grained warning control, async support in defer, efficient iteration for non-noncopyable types, up to 4x faster URL parsing, and improved interoperability between Swift Testing and XCTest. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-06-28T08:00:00+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "6a3c1c4d6653",
+      "title": "Your Bank Selfie Runs 3 Secret Checks — Here's What Really Happens After You Hit Submit",
+      "url": "https://dev.to/caracomp/your-bank-selfie-runs-3-secret-checks-heres-what-really-happens-after-you-hit-submit-45a5",
+      "summary": "Decoding the three-layer biometric stack in fintech\n\nFor developers working in computer vision and biometric security, the \"simple selfie\" has evolved into a complex multi-modal authentication pipeline. We are moving past the era where a single Convolutional Neural Network (CNN) inference against a static image is enough to guarantee identity. As deepfake technology becomes more accessible, the engineering challenge has shifted from \"can we identify this face?\" to \"how do we prove this face is attached to a living human in real-time?\"\n\nThe technical implications are clear: if your codebase sti",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:35:53+00:00",
+      "score": 3.88,
+      "image": null
+    },
+    {
+      "id": "1a2c1ca6f235",
+      "title": "AWS Introduces Workload Credentials Provider for Automated Certificate and Secret Management",
+      "url": "https://www.infoq.com/news/2026/06/aws-credentials-provider/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently announced the AWS Workload Credentials Provider to automatically deliver and refresh certificates and secrets for applications. The open source tool reduces the need for custom automation, helps prevent outages caused by expired certificates, and works in both AWS and non-AWS environments. \nun By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-27T11:04:00+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "e4e263a90aee",
+      "title": "My first vibe coding project taught me I didn't actually know what I was building",
+      "url": "https://dev.to/kraizman/my-first-vibe-coding-project-taught-me-i-didnt-actually-know-what-i-was-building-1af8",
+      "summary": "I manage mobile engineering teams for a living. I review architecture, push back on scope, and know when someone's over-engineering something. I've shipped production apps to millions of users. So when I decided to build a side project using AI, I assumed the hard part would be deciding which shortcuts to take.\n\nI was wrong about what the hard part would be.\n\n\n\n\n\n  \n  \n  The problem I wanted to solve\n\n\nEvery shopping app gives you a flat list. You add items in whatever order you think of them, then wander the store like you're solving a maze. Back to dairy because you forgot it was next to the",
+      "source": "Dev.to AI",
+      "published": "2026-06-28T09:33:49+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "5e0c5217ab39",
+      "title": "We Built a Routing Layer to Cut Our AI Costs. It Broke the Product.",
+      "url": "https://towardsdatascience.com/we-built-a-routing-layer-to-cut-our-ai-costs-it-broke-the-product/",
+      "summary": "A team cut their AI inference bill by more than half. Three months later, customer satisfaction was dropping and the cost savings were tied to the quality loss. Cost-optimization routing layers are a Pareto trap, and here's the detection methodology that catches them in days instead of months.\nThe post We Built a Routing Layer to Cut Our AI Costs. It Broke the Product. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-27T15:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "7e27fe66a27a",
+      "title": "Hiding messages in the least significant mantissa bits of fine-tuned ONNX model weights [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/",
+      "summary": "Hey everyone, I'd like to share my project along with a short explanation of the process and why it came about in the first place.  To start off, I'm not exactly the best at cryptography/steganography, in my case it's always been something that sat in the background, as one of the sub-fields needed for another (main) field I'm actually interested in. For this project I tried to look up as much information as possible about what's currently considered best practice (I mainly relied on NIST for this), what implications exist, and what potential &quot;attacks&quot; exist against this way of hidin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-27T15:45:36+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "eb1f31d9e5e7",
+      "title": "Asian AI startups launch Mythos-like models",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-27T13:10:21+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "a6bcea7b9483",
+      "title": "How to Build a Powerful LLM Knowledge Base",
+      "url": "https://towardsdatascience.com/how-to-build-a-powerful-llm-knowledge-base/",
+      "summary": "Use coding agents to power your knowledge base\nThe post How to Build a Powerful LLM Knowledge Base appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-27T13:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "e8bd730ff72d",
+      "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "summary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-27T01:01:37+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "56ac8b886285",
+      "title": "I silently break training codes or configs so I made pybench [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/",
+      "summary": "It is like pytest but for statistical tests: it ensures no regression of your metrics at a statistical level. It manages tedious things such that seeds, past benchmark results, ... Simple CLI working like pytest but with benchmarks/ directory instead of tests/: pybench # 1st time: samples seeds, saves a baseline, marks NEW pybench # later: reruns on the same seeds, marks PASS / FAIL pybench update # re-baseline after an intended change pybench show # print current baseline stats (--history for per commit)  Please give me your feedback, Github: https://github.com/AnthonyBeeblebrox/pybench Docs:",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-27T06:33:01+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
