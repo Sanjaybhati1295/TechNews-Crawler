@@ -1748,3 +1748,37 @@
 2026-06-28 09:53:35,957  INFO     ────────────────────────────────────────────────────────────
 2026-06-28 09:53:35,957  INFO     Done!  Open: output/index.html
 2026-06-28 09:53:35,957  INFO     Headline: OpenAI Launches GPT-5.6 Sol Under US Government Restrictions
+2026-06-29 11:52:41,364  INFO     ============================================================
+2026-06-29 11:52:41,364  INFO     TECHPULSE Digest — 2026-06-29 11:52 UTC
+2026-06-29 11:52:41,364  INFO     ============================================================
+2026-06-29 11:52:41,364  INFO     Step 1/3 — Crawling feeds…
+2026-06-29 11:52:41,679  INFO       Hacker News                    → 2 significant articles
+2026-06-29 11:52:41,932  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-29 11:52:42,093  INFO       Ars Technica                   → 0 significant articles
+2026-06-29 11:52:42,756  INFO       The Register AI                → 0 significant articles
+2026-06-29 11:52:42,906  INFO       MIT Tech Review                → 0 significant articles
+2026-06-29 11:52:43,069  INFO       Dev.to AI                      → 2 significant articles
+2026-06-29 11:52:43,518  INFO       Dev.to Programming             → 2 significant articles
+2026-06-29 11:52:43,633  INFO       GitHub Blog                    → 0 significant articles
+2026-06-29 11:52:44,374  INFO       Google Research                → 0 significant articles
+2026-06-29 11:52:45,238  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-06-29 11:52:45,281  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-29 11:52:45,836  INFO       InfoQ                          → 3 significant articles
+2026-06-29 11:52:45,970  INFO       Towards Data Science           → 2 significant articles
+2026-06-29 11:52:46,072  INFO       Wired AI                       → 0 significant articles
+2026-06-29 11:52:46,133  INFO       TechCrunch AI                  → 0 significant articles
+2026-06-29 11:52:46,133  INFO     Fetching images for top articles…
+2026-06-29 11:52:46,172  INFO       🖼  The VS Code Marketplace Funnel Is Broken. Here's What 443 Ac
+2026-06-29 11:52:46,817  INFO       🖼  Podcast: Architectural Patterns: Moving Beyond Cloud-Native 
+2026-06-29 11:52:46,886  INFO       🖼  The Audit You Should Run Before Touching Your Website Redesi
+2026-06-29 11:52:46,925  INFO       🖼  # GLM 5.2 Beats Claude in Benchmarks
+2026-06-29 11:52:46,965  INFO       🖼  Agents & Agent Orchestration; MCP; Skills; Context, Prompt &
+2026-06-29 11:52:46,966  INFO     Total selected: 14 articles from 15 feeds
+2026-06-29 11:52:46,966  INFO     Selected 14 significant articles
+2026-06-29 11:52:46,966  INFO     Step 2/3 — Generating digest…
+2026-06-29 11:52:47,522  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-29 11:52:47,522  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-29 11:52:47,522  INFO     Step 3/3 — Rendering HTML…
+2026-06-29 11:52:47,523  INFO     ────────────────────────────────────────────────────────────
+2026-06-29 11:52:47,523  INFO     Done!  Open: output/index.html
+2026-06-29 11:52:47,523  INFO     Headline: The VS Code Marketplace Funnel Is Broken. Here's What 443 Acquisitions in 15 Days Taught Me

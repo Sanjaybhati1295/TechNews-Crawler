@@ -1,0 +1,163 @@
+{
+  "digest": {
+    "headline": "The VS Code Marketplace Funnel Is Broken. Here's What 443 Acquisitions in 15 Days Taught Me",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "The VS Code Marketplace Funnel Is Broken. Here's What 443 Acquisitions in 15 Days Taught Me (Dev.to AI). Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins (InfoQ). I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R] (Reddit r/MachineLearning). The Audit You Should Run Before Touching Your Website Redesign (Dev.to Programming). # GLM 5.2 Beats Claude in Benchmarks (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Previews FinOps Agent for Cost Analysis and Optimization (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Agents & Agent Orchestration; MCP; Skills; Context, Prompt & Harness Engineering; 🤯: What, When, Where, How? (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "443 acquisitions. 110 installs. 15 days.\nI launched Freebird AI on June 13. Two weeks later, I was staring at telemetry that didn't add up, until it did.\n\nThe word \"acquisition\" doesn't mean what you think\nOn the VS Code Marketplace, an acquisition is a click into your listing. Not an install.\nHere's my actual funnel for the first 15 days:\n\n\n\n92% of people who viewed the listing clicked in, and 24.8% of those installed.\nBoth numbers are strong. So why was I concerned?\nBecause only 481 people ever found the listing in 15 days.\nThe product wasn't the bottleneck. Discovery was.\n\nThe Marketplace d"
+  },
+  "articles": [
+    {
+      "id": "6f3644e04cc3",
+      "title": "The VS Code Marketplace Funnel Is Broken. Here's What 443 Acquisitions in 15 Days Taught Me",
+      "url": "https://dev.to/adilaw12/the-vs-code-marketplace-funnel-is-broken-heres-what-443-acquisitions-in-15-days-taught-me-29fh",
+      "summary": "443 acquisitions. 110 installs. 15 days.\nI launched Freebird AI on June 13. Two weeks later, I was staring at telemetry that didn't add up, until it did.\n\nThe word \"acquisition\" doesn't mean what you think\nOn the VS Code Marketplace, an acquisition is a click into your listing. Not an install.\nHere's my actual funnel for the first 15 days:\n\n\n\n92% of people who viewed the listing clicked in, and 24.8% of those installed.\nBoth numbers are strong. So why was I concerned?\nBecause only 481 people ever found the listing in 15 days.\nThe product wasn't the bottleneck. Discovery was.\n\nThe Marketplace d",
+      "source": "Dev.to AI",
+      "published": "2026-06-29T11:40:00+00:00",
+      "score": 4.59,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvs9qebn62d9yvayqxodd.png"
+    },
+    {
+      "id": "e40a67f2b149",
+      "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins",
+      "url": "https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this episode, Heroku co-founder and Ink & Switch founder Adam Wiggins argues for a 'local-first' architecture that reconciles cloud-based collaboration with the performance and data ownership of local software. He explores the role of CRDTs and version control primitives in non-code domains, and examines how a hybrid AI future might leverage local models for core productivity tasks. By Adam Wiggins",
+      "source": "InfoQ",
+      "published": "2026-06-29T11:00:00+00:00",
+      "score": 4.05,
+      "image": "https://res.infoq.com/podcasts/natural-evolution-cloud-native/en/card_header_image/twitter-card-1782210765069.jpg"
+    },
+    {
+      "id": "ab315816673d",
+      "title": "I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uin5ad/i_made_a_quiz_that_tells_you_which_llm_you_align/",
+      "summary": "Link: https://ai-values.com/ There is a small 15 question quiz you can take before taking the full big quiz. The results of the big quiz update in realtime as you go so you dont have to actually go through all the questions (but they do get more fun in the personality section). Some of the interesting findings were: - Grok 4.3 is the only model that thinks billionaires should be left alone and not taxed more - Only GPT-4o judged Operation Paperclip, the postwar recruitment of Nazi scientists, as morally justified. No other model agreed - All 15 models said that deleting a conscious digital min",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-29T09:00:12+00:00",
+      "score": 3.84,
+      "image": null
+    },
+    {
+      "id": "341e1ce04f3b",
+      "title": "The Audit You Should Run Before Touching Your Website Redesign",
+      "url": "https://dev.to/daviefano/the-audit-you-should-run-before-touching-your-website-redesign-37k5",
+      "summary": "A real scenario: a company relaunches its website after four months of work. The new site looks great. Two months later, organic traffic is down 40 percent. Three blog posts that were quietly driving most inquiries have new URLs with no redirects. A service page ranking on page one has been rewritten and dropped off entirely.\n\nNobody broke anything on purpose. Nobody audited what was working before they started.\n\nBefore a single wireframe is drawn, run these four audits. They take less time than fixing the damage after launch.\n\n\n\n\n\n  \n  \n  Plain Terms (Quick Reference)\n\n\n\n\n301 redirect — Tells",
+      "source": "Dev.to Programming",
+      "published": "2026-06-29T11:42:25+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9e3rf7dc6azb7k1kmina.png"
+    },
+    {
+      "id": "fdca85f861ff",
+      "title": "# GLM 5.2 Beats Claude in Benchmarks",
+      "url": "https://dev.to/atheerium/-glm-52-beats-claude-in-benchmarks-36jh",
+      "summary": "GLM 5.2 Beats Claude in Benchmarks\n\n\nA recent test has shown that GLM 5.2 performs better than Claude in certain tasks. This is according to benchmark results from Semgrep. The test compared the two systems on their ability to complete coding tasks quickly.\n\n\n\nimport time\n\n# Test code\ndef test_code():\n    result = 0\n    for i in range(100000):\n        result += i\n    return result\n\n# Time test\nstart_time = time.time()\nresult = test_code()\nend_time = time.time()\n\nprint(fTime taken: {end_time - start_time} seconds)\n\n\n\n\n\n\nThe results show that GLM 5.2 is faster than Claude. This could be importan",
+      "source": "Dev.to Programming",
+      "published": "2026-06-29T11:30:53+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8gghp8r9jefaui8q24fo.png"
+    },
+    {
+      "id": "a774e4a7aab9",
+      "title": "Agents & Agent Orchestration; MCP; Skills; Context, Prompt & Harness Engineering; 🤯: What, When, Where, How?",
+      "url": "https://dev.to/anishamalde/agents-agent-orchestration-mcp-skills-context-prompt-harness-engineering-what-when-504b",
+      "summary": "If you are like me, you are overwhelmed 🤯.\n\nThe way we build software has always shifted, and as engineers we have always had to keep up with new trends and ways of building. But historically it was one framework or tool at a time. I remember when React moved from class components to functional components and hooks back in 2019, I had time to learn it, blog about it, and read twitter fights over it.\n\nNow it feels like we are on an exponential learning curve. New ways of building show up faster than I can finish reading the announcement post for the last one. So if you have not been living unde",
+      "source": "Dev.to AI",
+      "published": "2026-06-29T11:41:36+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxe53e13idaj0fgkobvxg.png"
+    },
+    {
+      "id": "71ddddd6ba39",
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-29T01:44:40+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "a5ff17ec3b8a",
+      "title": "Evaluating long-term memory limits in stateless LLM chatbots — feedback needed [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ui27i1/evaluating_longterm_memory_limits_in_stateless/",
+      "summary": "Hi all, I’m working on a research project exploring how stateless LLM-based chatbots handle long conversations and whether important earlier information is still reliably retained over time. My idea is to:  Run a chatbot using an LLM API without any external memory system Introduce key facts early in a long conversation Continue with many unrelated messages (hundreds of turns) Later test whether the model can still correctly recall those facts at different intervals  I’m planning to measure recall accuracy and how it changes as the conversation grows. Before I go deeper, I’d really appreciate ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-28T16:48:42+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "477c91560a96",
+      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
+      "url": "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon has released AWS FinOps Agent in public preview, a managed service that automates several common FinOps workflows. The agent can investigate cost anomalies, correlate spend changes with AWS activity data, and integrate with tools such as Slack and Jira to route findings to resource owners. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-06-28T05:55:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "1d175ff2a980",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-06-28T17:50:47+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "c252915808f8",
+      "title": "Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows",
+      "url": "https://towardsdatascience.com/tail-control-the-counterintuitive-engineering-of-reliable-agentic-workflows/",
+      "summary": "Behind a customer's API, a high-quality answer isn't enough. It has to be usable, which means on time. Delivering that consistently is a problem about variance, not speed, and the fixes are counterintuitive.\nThe post Tail Control: The Counterintuitive Engineering of Reliable Agentic Workflows appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-28T15:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "a7722c5436e9",
+      "title": "I shrank a transformer until every number fitted on the screen and made the weights editable [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/",
+      "summary": "I've been teaching myself how LLMs actually work, not at the API level, but down to the matrix multiplications. To force myself to really understand the forward pass, I first built a complete transformer by hand in a spreadsheet from embeddings through to the loss. Then I turned the forward pass into a web page so it's easier to share. It's a full transformer (single attention head, single block) shrunk to the smallest size where every single number still fits on screen: a 6-word vocabulary, 3-dimensional embeddings. It reads four words and predicts the next one, and it walks through the whole",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-28T12:35:42+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "70c101c9224b",
+      "title": "Swift 6.4 Brings New Language Features and Swift Testing/XCTest Interop",
+      "url": "https://www.infoq.com/news/2026/06/swift-6-4-beta-features/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Currently available as a beta in Xcode 27, Swift 6.4 introduces a range of enhancements: better C interoperability, simplified OS availability check, fine-grained warning control, async support in defer, efficient iteration for non-noncopyable types, up to 4x faster URL parsing, and improved interoperability between Swift Testing and XCTest. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-06-28T08:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "81f69f640a49",
+      "title": "I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won.",
+      "url": "https://towardsdatascience.com/i-pitted-xgboost-against-logistic-regression-on-358-matches-the-boring-model-won/",
+      "summary": "A concrete bias–variance lesson: why the smallest model had the best cross-validated fit, and how to know when to reach for the big hammer.\nThe post I Pitted XGBoost Against Logistic Regression on 358 Matches. The Boring Model Won. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-28T13:00:00+00:00",
+      "score": 2.23,
+      "image": null
+    }
+  ]
+}
