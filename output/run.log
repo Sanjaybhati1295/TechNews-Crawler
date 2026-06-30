@@ -1782,3 +1782,38 @@
 2026-06-29 11:52:47,523  INFO     ────────────────────────────────────────────────────────────
 2026-06-29 11:52:47,523  INFO     Done!  Open: output/index.html
 2026-06-29 11:52:47,523  INFO     Headline: The VS Code Marketplace Funnel Is Broken. Here's What 443 Acquisitions in 15 Days Taught Me
+2026-06-30 10:25:12,004  INFO     ============================================================
+2026-06-30 10:25:12,004  INFO     TECHPULSE Digest — 2026-06-30 10:25 UTC
+2026-06-30 10:25:12,004  INFO     ============================================================
+2026-06-30 10:25:12,004  INFO     Step 1/3 — Crawling feeds…
+2026-06-30 10:25:12,227  INFO       Hacker News                    → 0 significant articles
+2026-06-30 10:25:12,517  INFO       VentureBeat AI                 → 0 significant articles
+2026-06-30 10:25:12,604  INFO       Ars Technica                   → 0 significant articles
+2026-06-30 10:25:13,299  INFO       The Register AI                → 0 significant articles
+2026-06-30 10:25:13,417  INFO       MIT Tech Review                → 0 significant articles
+2026-06-30 10:25:13,523  INFO       Dev.to AI                      → 0 significant articles
+2026-06-30 10:25:13,692  INFO       Dev.to Programming             → 1 significant articles
+2026-06-30 10:25:13,823  INFO       GitHub Blog                    → 0 significant articles
+2026-06-30 10:25:14,767  INFO       Google Research                → 0 significant articles
+2026-06-30 10:25:15,666  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-06-30 10:25:15,772  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-06-30 10:25:16,050  INFO       InfoQ                          → 5 significant articles
+2026-06-30 10:25:16,188  INFO       Towards Data Science           → 1 significant articles
+2026-06-30 10:25:17,479  INFO       Wired AI                       → 0 significant articles
+2026-06-30 10:25:17,566  INFO       TechCrunch AI                  → 4 significant articles
+2026-06-30 10:25:17,566  INFO     Fetching images for top articles…
+2026-06-30 10:25:17,793  INFO       🖼  AWS Launches Lambda MicroVMs for Isolated Agent and User Cod
+2026-06-30 10:25:18,037  INFO       🖼  Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Qu
+2026-06-30 10:25:18,113  INFO       🖼  Vibe coding platform Base44 launches own model as AI startup
+2026-06-30 10:25:18,174  INFO       🖼  How Data-Driven Innovation Is Reshaping Modern E-Commerce Op
+2026-06-30 10:25:18,246  INFO       🖼  Arena, the AI leaderboard everyone uses, is now a $100M busi
+2026-06-30 10:25:18,326  INFO       🖼  Cursor now has a mobile app for guiding your coding agent on
+2026-06-30 10:25:18,326  INFO     Total selected: 14 articles from 15 feeds
+2026-06-30 10:25:18,326  INFO     Selected 14 significant articles
+2026-06-30 10:25:18,326  INFO     Step 2/3 — Generating digest…
+2026-06-30 10:25:18,649  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-06-30 10:25:18,649  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-06-30 10:25:18,649  INFO     Step 3/3 — Rendering HTML…
+2026-06-30 10:25:18,650  INFO     ────────────────────────────────────────────────────────────
+2026-06-30 10:25:18,650  INFO     Done!  Open: output/index.html
+2026-06-30 10:25:18,650  INFO     Headline: AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution

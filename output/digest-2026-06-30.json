@@ -1,0 +1,159 @@
+{
+  "digest": {
+    "headline": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution (InfoQ). Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI (InfoQ). Vibe coding platform Base44 launches own model as AI startups seek defensibility (TechCrunch AI). How Data-Driven Innovation Is Reshaping Modern E-Commerce Operations (Dev.to Programming). Arena, the AI leaderboard everyone uses, is now a $100M business (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Cursor now has a mobile app for guiding your coding agent on the go (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours. Reddit community analysis found the minimum setup costs $3.03/day, roughly 9x Fargate spot pricing. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "0a6e77aeb38c",
+      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
+      "url": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state preservation for up to eight hours. Reddit community analysis found the minimum setup costs $3.03/day, roughly 9x Fargate spot pricing. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-06-30T09:09:00+00:00",
+      "score": 5.33,
+      "image": "https://res.infoq.com/news/2026/06/aws-lambda-microvms/en/headerimage/generatedHeaderImage-1782380968528.jpg"
+    },
+    {
+      "id": "4ffe4977db59",
+      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
+      "url": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta release of WildFly 41; and introducing Eliya JDK and the Open Source Sustainability Initiative (OSSI), the latter of which was founded by HeroDevs and Commonhaus Foundation. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-06-29T23:30:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/06/java-news-roundup-jun22-2026/en/headerimage/java-news-roundup-image-1782763644221.jpg"
+    },
+    {
+      "id": "534a67ec1d1b",
+      "title": "Vibe coding platform Base44 launches own model as AI startups seek defensibility",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "summary": "Wix-owned vibe coding platform Base44 has started rolling out its own AI model — with hopes that it will eventually outperform frontier models.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-30T02:28:41+00:00",
+      "score": 3.76,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/Maor-Shlomo-headshot-1.jpeg?resize=1200,754"
+    },
+    {
+      "id": "607d2619ddee",
+      "title": "How Data-Driven Innovation Is Reshaping Modern E-Commerce Operations",
+      "url": "https://dev.to/beatrixie/how-data-driven-innovation-is-reshaping-modern-e-commerce-operations-3nhg",
+      "summary": "The e-commerce industry has evolved far beyond simply creating an online store and attracting visitors through digital marketing. Today's businesses compete in an environment where customer expectations continue to rise, supply chains are becoming increasingly complex, and operational efficiency often determines long-term success. Companies that rely solely on intuition or outdated processes frequently struggle to keep pace with changing market conditions.\n\nModern online retailers now generate enormous amounts of information every day. Every product search, customer review, inventory update, a",
+      "source": "Dev.to Programming",
+      "published": "2026-06-30T10:09:39+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnhvtrvallknqef7ngc7n.png"
+    },
+    {
+      "id": "84554f2bc1eb",
+      "title": "Arena, the AI leaderboard everyone uses, is now a $100M business",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "summary": "The startup, which runs a popular free AI leaderboard, launched its commercial service just last September.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-29T17:39:17+00:00",
+      "score": 3.27,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801"
+    },
+    {
+      "id": "9665bc4af006",
+      "title": "Cursor now has a mobile app for guiding your coding agent on the go",
+      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "summary": "Cursor has launched a new mobile app for remote oversight over coding agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-29T17:03:50+00:00",
+      "score": 3.24,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/12/Anysphere-Cursor-Michael-Truell-.png?resize=1200,745"
+    },
+    {
+      "id": "64797203a141",
+      "title": "I'm trying to implement CALM paper, and I have some questions. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uix556/im_trying_to_implement_calm_paper_and_i_have_some/",
+      "summary": "Hello, I'm trying to implement the Pocket TTS by kyutai-labs represented by this paper. Since they have didn't released the training/fine-tuning code. I'm trying to implement it on my own for learning some stuff. I have read the paper, tried to implement it with much more smaller parameters with smaller amount of data. I implemented this text to speech with one speaker on LJSpeech (1) and LibriSpeech clean subset but its hardly failing. For (1), Since it's a single speaker dataset I didn't added the voice cloning just simple text and target latents. flow matching loss became nearly 0.20 mse , ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-29T16:20:14+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "4a54fd56cc74",
+      "title": "Robot hand company settles Tesla trade secret suit and announces $11M raise",
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+      "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+      "source": "TechCrunch AI",
+      "published": "2026-06-29T14:00:08+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "4fc9099ab8d5",
+      "title": "Prompt Engineering Fails Quietly —  Prompt Regression Is Why",
+      "url": "https://towardsdatascience.com/prompt-engineering-fails-quietly-prompt-regression-is-why/",
+      "summary": "Small prompt changes can silently break critical behavior in production. This article introduces a practical framework to detect hidden regressions before users notice.\nThe post Prompt Engineering Fails Quietly —  Prompt Regression Is Why appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-06-29T15:00:00+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "5eaba3f3f3e7",
+      "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS",
+      "url": "https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Asymm Systems has released Eliya 25.0.3, an OpenJDK 25 LTS distribution aimed at improving production diagnostics in Java environments. It consolidates several HotSpot features into an opt-in Production profile. Eliya is designed for teams needing reliable diagnostic data, especially in regulated settings. Future enhancements are planned for Phase 2. By A N M Bazlur Rahman",
+      "source": "InfoQ",
+      "published": "2026-06-29T14:50:00+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "69bead64a46d",
+      "title": "Rejected MICCAI paper: workshop -> journal/conference or directly journal/conference [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uj35gh/rejected_miccai_paper_workshop_journalconference/",
+      "summary": "Premise: this work is my first year PhD, and I dropped out for personal reasons. I still want to do research but independently. I have tried to submit my explainability paper to MICCAI. Sadly, for doubtful/good reasons, it got rejected. Among the reviewers, one explicitly suggested to make it stronger and that the work is &quot;novel&quot;.  I was wondering if a good strategy would be to work on it more (maybe improving also the time it takes for doing experiments, since currently it's a way too big model) and then submitting it to a journal, or first submitting to a workshop and then extend t",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-29T19:58:44+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "e40a67f2b149",
+      "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins",
+      "url": "https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this episode, Heroku co-founder and Ink & Switch founder Adam Wiggins argues for a 'local-first' architecture that reconciles cloud-based collaboration with the performance and data ownership of local software. He explores the role of CRDTs and version control primitives in non-code domains, and examines how a hybrid AI future might leverage local models for core productivity tasks. By Adam Wiggins",
+      "source": "InfoQ",
+      "published": "2026-06-29T11:00:00+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "ab315816673d",
+      "title": "I made a quiz that tells you which LLM you align with most, based on personality and values research across 15 models [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uin5ad/i_made_a_quiz_that_tells_you_which_llm_you_align/",
+      "summary": "Link: https://ai-values.com/ There is a small 15 question quiz you can take before taking the full big quiz. The results of the big quiz update in realtime as you go so you dont have to actually go through all the questions (but they do get more fun in the personality section). Some of the interesting findings were: - Grok 4.3 is the only model that thinks billionaires should be left alone and not taxed more - Only GPT-4o judged Operation Paperclip, the postwar recruitment of Nazi scientists, as morally justified. No other model agreed - All 15 models said that deleting a conscious digital min",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-06-29T09:00:12+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "a227c1701ac4",
+      "title": "Presentation: Million PDFs: Building a Modern Document Infrastructure with Rust and Typst",
+      "url": "https://www.infoq.com/presentations/document-infrastructure-rust-typst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Erik Steiger discusses the operational pain of legacy PDF generation in regulated banking and manufacturing. He explains how transitioning from resource-heavy engines like Puppeteer and LaTeX to a serverless Rust architecture powered by Typst can drop render latencies below 2ms. He shares how applying Git and Docker concepts to template registries ensures ironclad compliance and rapid debugging. By Erik Steiger",
+      "source": "InfoQ",
+      "published": "2026-06-29T12:35:00+00:00",
+      "score": 2.49,
+      "image": null
+    }
+  ]
+}
