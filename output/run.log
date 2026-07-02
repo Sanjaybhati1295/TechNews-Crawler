@@ -1851,3 +1851,38 @@
 2026-07-01 10:37:17,372  INFO     ────────────────────────────────────────────────────────────
 2026-07-01 10:37:17,372  INFO     Done!  Open: output/index.html
 2026-07-01 10:37:17,372  INFO     Headline: Anthropic launches Claude Sonnet 5 as a cheaper way to run agents
+2026-07-02 09:52:34,138  INFO     ============================================================
+2026-07-02 09:52:34,138  INFO     TECHPULSE Digest — 2026-07-02 09:52 UTC
+2026-07-02 09:52:34,138  INFO     ============================================================
+2026-07-02 09:52:34,138  INFO     Step 1/3 — Crawling feeds…
+2026-07-02 09:52:34,234  INFO       Hacker News                    → 0 significant articles
+2026-07-02 09:52:34,395  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-02 09:52:34,492  INFO       Ars Technica                   → 1 significant articles
+2026-07-02 09:52:35,923  INFO       The Register AI                → 1 significant articles
+2026-07-02 09:52:36,048  INFO       MIT Tech Review                → 1 significant articles
+2026-07-02 09:52:36,554  INFO       Dev.to AI                      → 2 significant articles
+2026-07-02 09:52:36,700  INFO       Dev.to Programming             → 4 significant articles
+2026-07-02 09:52:37,006  INFO       GitHub Blog                    → 1 significant articles
+2026-07-02 09:52:38,123  INFO       Google Research                → 0 significant articles
+2026-07-02 09:52:38,998  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-07-02 09:52:39,103  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-02 09:52:39,361  INFO       InfoQ                          → 2 significant articles
+2026-07-02 09:52:39,539  INFO       Towards Data Science           → 3 significant articles
+2026-07-02 09:52:39,753  INFO       Wired AI                       → 0 significant articles
+2026-07-02 09:52:39,833  INFO       TechCrunch AI                  → 6 significant articles
+2026-07-02 09:52:39,834  INFO     Fetching images for top articles…
+2026-07-02 09:52:40,112  INFO       🖼  Enabling Boundless Intelligent Collaboration: UModel Now Ope
+2026-07-02 09:52:40,225  INFO       🖼  AI Just Hit 16.1%: The Remote Labor Index Shows Claude Fable
+2026-07-02 09:52:40,314  INFO       🖼  The Download: Anthropic launches Claude Science, and Califor
+2026-07-02 09:52:40,428  INFO       🖼  Free Clip Pack Beats — beatsyncpro.ai Jul 2026
+2026-07-02 09:52:41,526  INFO       🖼  Free Music Production Samples — beatsyncpro.ai Jul 2026
+2026-07-02 09:52:41,646  INFO       🖼  Afrobeats Instrumental Free — beatsyncpro.ai Jul 2026
+2026-07-02 09:52:41,646  INFO     Total selected: 24 articles from 15 feeds
+2026-07-02 09:52:41,646  INFO     Selected 24 significant articles
+2026-07-02 09:52:41,646  INFO     Step 2/3 — Generating digest…
+2026-07-02 09:52:42,226  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-02 09:52:42,227  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-02 09:52:42,227  INFO     Step 3/3 — Rendering HTML…
+2026-07-02 09:52:42,228  INFO     ────────────────────────────────────────────────────────────
+2026-07-02 09:52:42,228  INFO     Done!  Open: output/index.html
+2026-07-02 09:52:42,228  INFO     Headline: Enabling Boundless Intelligent Collaboration: UModel Now Open Source, Launching the Universal Semantics Standard Initiative
