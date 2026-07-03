@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI (InfoQ). What does \"Safe AI\" look like? [D] (Reddit r/MachineLearning). Using LLM for Engineering: A Comprehensive Guide (Dev.to AI). Model Context Protocol (MCP) is the Biggest AI Breakthrough Since ChatGPT (Dev.to Programming). Anthropic is discussing a new custom chip with Samsung (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "[D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Google has released A2UI v0.9, a framework-agnostic standard for AI agents to declare user interface intent across multiple platforms without arbitrary code. The update emphasizes alignment with existing design systems. It includes a new SDK for Python, improved error handling, and various transport methods. Migration guidance and evolution specifications are also provided. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "2f22497bdb3d",
+      "title": "Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI",
+      "url": "https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released A2UI v0.9, a framework-agnostic standard for AI agents to declare user interface intent across multiple platforms without arbitrary code. The update emphasizes alignment with existing design systems. It includes a new SDK for Python, improved error handling, and various transport methods. Migration guidance and evolution specifications are also provided. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-03T06:38:00+00:00",
+      "score": 4.62,
+      "image": "https://res.infoq.com/news/2026/07/google-a2ui-genui/en/headerimage/generatedHeaderImage-1782891711698.jpg"
+    },
+    {
+      "id": "3fcea42749e3",
+      "title": "What does \"Safe AI\" look like? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1um9bs7/what_does_safe_ai_look_like_d/",
+      "summary": "&#x200b; For open-weight LLMs, how practical is it to study defenses against post-release fine-tuning that weakens refusal or safety behavior? I've been seeing “uncensored” or “heretic” variants of new models appear very quickly after release, which raises a question I’m curious about: is fine-tuning resistance a meaningful safety goal for open-weight releases, or is it too narrow because determined users can always modify weights, switch models, or use other workarounds? And to a larger extent, is current safety training even worth the cost and effort if it takes 30 minutes and an automated s",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-03T09:07:26+00:00",
+      "score": 4.56,
+      "image": null
+    },
+    {
+      "id": "81199d79ffc6",
+      "title": "Using LLM for Engineering: A Comprehensive Guide",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-engineering-a-comprehensive-guide-5994",
+      "summary": "We are going to build a system design review agent that reads an engineering design document and returns a structured critique covering scalability, failure modes, and tradeoffs. It helps staff engineers and tech leads enforce consistency during design reviews without becoming a bottleneck. Because Oxlo.ai uses flat per-request pricing, you can feed it long documents without watching the cost scale with every extra paragraph.\n\nWhat you'll need\n\nBefore starting, grab an Oxlo.ai API key from https://portal.oxlo.ai. You will also need Python 3.10 or newer and the OpenAI SDK.\n\npip install openai\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-07-03T09:33:38+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5zonmjs0loaeyuiqkr43.png"
+    },
+    {
+      "id": "4a38c4b438a3",
+      "title": "Model Context Protocol (MCP) is the Biggest AI Breakthrough Since ChatGPT",
+      "url": "https://dev.to/rahul_agarwal18/model-context-protocol-mcp-is-the-biggest-ai-breakthrough-since-chatgpt-45ai",
+      "summary": "For the past two years, the AI world has been obsessed with finding the perfect prompt or building better UI wrappers around LLMs. But while everyone was distracted by the models themselves, a silent revolution happened at the architecture layer.\n\nIt is called Agentic AI, and it is being entirely reshaped by a new standard: Model Context Protocol (MCP).\n\nIf you are building AI agents in 2026 and you aren't using MCP, you are already falling behind. Here is why this changes everything.\n\n\n  \n  \n  The Problem: The Custom Tooling Nightmare\n\n\nUp until recently, building an autonomous AI agent was i",
+      "source": "Dev.to Programming",
+      "published": "2026-07-03T09:24:04+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe6xdt2o44rjg216juru6.png"
+    },
+    {
+      "id": "287d97830072",
+      "title": "Anthropic is discussing a new custom chip with Samsung",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "summary": "The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-02T18:31:09+00:00",
+      "score": 4.05,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+    },
+    {
+      "id": "15ac6d396939",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-03T09:00:00+00:00",
+      "score": 3.85,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/cig-template-new.jpg?resize=1200,600"
+    },
+    {
+      "id": "e7bf8814d233",
+      "title": "Fable 5 Returns: First Model Lobotomized by US Policy Comes Back Online",
+      "url": "https://dev.to/gentic_news/fable-5-returns-first-model-lobotomized-by-us-policy-comes-back-online-5837",
+      "summary": "Fable 5, lobotomized June 12 under US export controls, returned online today — first frontier model restored by policy.\n\n\nFable 5 is live again as of today, according to @SemiAnalysis_. The frontier model was taken offline June 12 under a US export-control directive, marking the first known case of a model lobotomized and later restored by policy.\n\nKey facts\n\n\nFable 5 was offline from June 12, 2025 to today.\nUS export-control directive forced the takedown.\nFirst frontier model restored by policy action.\nMythos family model; 'lobotomized' by weight removal.\n@SemiAnalysis_ broke the news on X.\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-07-03T09:38:15+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "b6f91a4b65c9",
+      "title": "That \"Made by AI\" Label? It's Hiding Something You Can't See",
+      "url": "https://dev.to/caracomp/that-made-by-ai-label-its-hiding-something-you-cant-see-24m2",
+      "summary": "unmasking the invisible metadata layer\n\nThe EU AI Act is officially putting a deadline on the \"wild west\" era of generative media, and for developers in the computer vision and biometrics space, the implications go far beyond a simple UI label. By August 2026, any AI-generated content must be machine-readable and robustly watermarked. This isn't about slapping a logo on a JPG; it’s about a fundamental shift in how we handle file provenance and pixel-level data integrity.\n\nFor engineers building tools in facial comparison and OSINT, this regulatory shift introduces a critical technical hurdle: ",
+      "source": "Dev.to AI",
+      "published": "2026-07-03T09:36:24+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "0e1005d620b6",
+      "title": "Meta quietly launches vibe-coded gaming app Pocket",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "summary": "Meta has quietly launched Pocket, an experimental AI app that lets users generate and share interactive mini games using text prompts.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-02T18:44:02+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "33ef2394bc8e",
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-03T08:31:37+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "513b26e8cec0",
+      "title": "Hierarchos: Preliminary Findings From a 232M Recurrent Memory-Augmented Assistant Model [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1um123n/hierarchos_preliminary_findings_from_a_232m/",
+      "summary": "Project Release / Research Draft] Hierarchos at 232M Parameters: Preliminary Findings From a Recurrent Memory-Augmented Assistant Model Technical Report: July 2nd, 2026 Project: Hierarchos / KortexHOS Authors: Makhi Burroughs / netcat420, Lost Time, and the Hierarchos project team TL;DR: We built and trained Hierarchos, an experimental 232M-parameter recurrent, memory-augmented language model from scratch. It is not a GPT-3/3.5-class model, but it successfully proves that a hybrid non-Transformer architecture (combining an RWKV backbone, hierarchical manager/worker loops, differentiable slot-b",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-03T01:48:02+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "2eb7b659b892",
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-02T13:53:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "962945800dbd",
+      "title": "AI Sales Assistants: The Future of Intelligent Sales Automation",
+      "url": "https://dev.to/gaurav_goswami_aebe658b56/ai-sales-assistants-the-future-of-intelligent-sales-automation-b1n",
+      "summary": "AI Sales Assistants: The Future of Intelligent Sales Automation\n\n\nModern sales teams face a common challenge: responding to every lead quickly while maintaining a personalized customer experience. As lead volumes grow, manual qualification and follow-ups become difficult to manage.\n\nThis is where AI Sales Assistants are making a significant impact.\n\nAn AI Sales Assistant can engage leads instantly, answer product-related questions, qualify prospects based on predefined criteria, schedule meetings, and automatically update CRM systems. By automating repetitive sales tasks, businesses can reduce",
+      "source": "Dev.to AI",
+      "published": "2026-07-03T09:32:48+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "72492d172238",
+      "title": "Achieving operational excellence with AI",
+      "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-02T15:37:08+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "60efc0dc902c",
+      "title": "Time-Series LLMs, Explained with t0-alpha",
+      "url": "https://towardsdatascience.com/time-series-llms-explained-with-t0-alpha/",
+      "summary": "t0-alpha is a decoder-style patch transformer for probabilistic time-series forecasting. Raw series are split into 32-step patches, embedded, processed through causal time-attention and group-attention layers, and decoded into future quantiles rather than a single point forecast.\nThe post Time-Series LLMs, Explained with t0-alpha appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-02T13:30:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "9569f1149e1f",
+      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
+      "url": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware ledger and dual-vendor attestation roots. AWS and Azure are not part of the collaboration. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-02T10:04:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "8f2c3ccb665c",
+      "title": "Tokenminning: How to Get More from Your Chatbot for Less",
+      "url": "https://towardsdatascience.com/tokenminning-how-to-get-more-from-your-chatbot-for-less/",
+      "summary": "Tokenmaxxing is out. Real patterns for reducing costs without sacrificing AI effectiveness\nThe post Tokenminning: How to Get More from Your Chatbot for Less appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-02T16:30:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "82f3c62fdfa5",
+      "title": "The Untaught Lessons of RAG Question Parsing: Structure Before You Search",
+      "url": "https://towardsdatascience.com/the-untaught-lessons-of-rag-question-parsing-structure-before-you-search/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6ter] - Six positions on the question-parsing brick that contradict the mainstream RAG playbook\nThe post The Untaught Lessons of RAG Question Parsing: Structure Before You Search appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-02T12:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "b2292bee0c5c",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ul5bgf/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-02T02:15:27+00:00",
+      "score": 2.15,
+      "image": null
+    }
+  ]
+}

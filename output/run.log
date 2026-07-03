@@ -1886,3 +1886,37 @@
 2026-07-02 09:52:42,228  INFO     ────────────────────────────────────────────────────────────
 2026-07-02 09:52:42,228  INFO     Done!  Open: output/index.html
 2026-07-02 09:52:42,228  INFO     Headline: Enabling Boundless Intelligent Collaboration: UModel Now Open Source, Launching the Universal Semantics Standard Initiative
+2026-07-03 09:49:20,163  INFO     ============================================================
+2026-07-03 09:49:20,164  INFO     TECHPULSE Digest — 2026-07-03 09:49 UTC
+2026-07-03 09:49:20,164  INFO     ============================================================
+2026-07-03 09:49:20,164  INFO     Step 1/3 — Crawling feeds…
+2026-07-03 09:49:20,499  INFO       Hacker News                    → 1 significant articles
+2026-07-03 09:49:20,759  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-03 09:49:20,871  INFO       Ars Technica                   → 0 significant articles
+2026-07-03 09:49:21,386  INFO       The Register AI                → 0 significant articles
+2026-07-03 09:49:21,501  INFO       MIT Tech Review                → 2 significant articles
+2026-07-03 09:49:21,745  INFO       Dev.to AI                      → 4 significant articles
+2026-07-03 09:49:21,818  INFO       Dev.to Programming             → 1 significant articles
+2026-07-03 09:49:22,267  INFO       GitHub Blog                    → 0 significant articles
+2026-07-03 09:49:23,139  INFO       Google Research                → 0 significant articles
+2026-07-03 09:49:23,743  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-07-03 09:49:23,792  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-03 09:49:24,418  INFO       InfoQ                          → 2 significant articles
+2026-07-03 09:49:24,591  INFO       Towards Data Science           → 3 significant articles
+2026-07-03 09:49:25,081  INFO       Wired AI                       → 0 significant articles
+2026-07-03 09:49:25,129  INFO       TechCrunch AI                  → 3 significant articles
+2026-07-03 09:49:25,129  INFO     Fetching images for top articles…
+2026-07-03 09:49:25,794  INFO       🖼  Google Releases A2UI v0.9: Portable, Framework-Agnostic Gene
+2026-07-03 09:49:25,900  INFO       🖼  Using LLM for Engineering: A Comprehensive Guide
+2026-07-03 09:49:25,983  INFO       🖼  Model Context Protocol (MCP) is the Biggest AI Breakthrough 
+2026-07-03 09:49:26,025  INFO       🖼  Anthropic is discussing a new custom chip with Samsung
+2026-07-03 09:49:26,058  INFO       🖼  The UK’s generational tobacco ban might not work. I’m suppor
+2026-07-03 09:49:26,058  INFO     Total selected: 19 articles from 15 feeds
+2026-07-03 09:49:26,058  INFO     Selected 19 significant articles
+2026-07-03 09:49:26,059  INFO     Step 2/3 — Generating digest…
+2026-07-03 09:49:26,362  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-03 09:49:26,362  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-03 09:49:26,362  INFO     Step 3/3 — Rendering HTML…
+2026-07-03 09:49:26,364  INFO     ────────────────────────────────────────────────────────────
+2026-07-03 09:49:26,364  INFO     Done!  Open: output/index.html
+2026-07-03 09:49:26,364  INFO     Headline: Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI
