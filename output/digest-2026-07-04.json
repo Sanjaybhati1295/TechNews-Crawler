@@ -1,0 +1,195 @@
+{
+  "digest": {
+    "headline": "Inside the Zeta–Palantir Alliance: Architecting AI-Native Enterprise Marketing",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Inside the Zeta–Palantir Alliance: Architecting AI-Native Enterprise Marketing (Dev.to AI). I Built an AI Pipeline That Scores 10,000+ Listings Daily Without Breaking the Bank (Dev.to AI). What Is Video Editing? A Complete Beginner’s Guide (2026) (Dev.to AI). AI News today - July 04th - A behind-the-scenes look at Midjourney’s medical scanner leaves many... (Dev.to AI). The NSA wrote the MCP threat model. It never says what your agent does after the block. (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Originally published on CoreProse KB-incidents\n\n\nEnterprise marketing is shifting from channel tweaks to AI-orchestrated journeys that adapt in real time. By 2026, large language models (LLMs) and agentic AI are core infrastructure for automation, RAG, and domain copilots that drive revenue and CX. [2][3][11]  \n\nA Zeta–Palantir-style partnership—data operating system plus marketing AI cloud—only works when treated as production infrastructure with observability, governance, and cost control, not as a demo. [1][3][7]  \n\n\n\n\n\n  \n  \n  1. Why an AI-Native Partnership Matters for Enterprise Marketin"
+  },
+  "articles": [
+    {
+      "id": "2a5596277ccb",
+      "title": "Inside the Zeta–Palantir Alliance: Architecting AI-Native Enterprise Marketing",
+      "url": "https://dev.to/olivier-coreprose/inside-the-zeta-palantir-alliance-architecting-ai-native-enterprise-marketing-27dg",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\nEnterprise marketing is shifting from channel tweaks to AI-orchestrated journeys that adapt in real time. By 2026, large language models (LLMs) and agentic AI are core infrastructure for automation, RAG, and domain copilots that drive revenue and CX. [2][3][11]  \n\nA Zeta–Palantir-style partnership—data operating system plus marketing AI cloud—only works when treated as production infrastructure with observability, governance, and cost control, not as a demo. [1][3][7]  \n\n\n\n\n\n  \n  \n  1. Why an AI-Native Partnership Matters for Enterprise Marketin",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T09:01:32+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjiag6ug5i4vzdsjfn2me.png"
+    },
+    {
+      "id": "37b9ae24fc7b",
+      "title": "I Built an AI Pipeline That Scores 10,000+ Listings Daily Without Breaking the Bank",
+      "url": "https://dev.to/abdul___rehman/i-built-an-ai-pipeline-that-scores-10000-listings-daily-without-breaking-the-bank-2cjn",
+      "summary": "The Moment the Cost Problem Snapped Into Focus\n\n\nThe first time I ran the LLM scoring pipeline against our full backlog of job listings, I watched the OpenAI API costs climb in real time. What worked beautifully for 100 test listings was economically impossible at 10,000 per day.\n\nThis wasn't a side project. This was a production job board platform I was building for a client, processing listings from major ATS sources. Users needed scores. The client needed the system to be profitable. And I needed to rethink everything about how I was calling LLMs at scale.\n\nThe naive approach was simple: ta",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T09:01:40+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fchmwlnxu2x9qrhtiy78f.png"
+    },
+    {
+      "id": "67074806cceb",
+      "title": "What Is Video Editing? A Complete Beginner’s Guide (2026)",
+      "url": "https://dev.to/w3webschoolkolkata/what-is-video-editing-a-complete-beginners-guide-2026-1lfo",
+      "summary": "Scroll through Instagram, YouTube, or even LinkedIn for five minutes, and you’ll notice something. Almost everything is video now. Product launches, tutorials, wedding memories, office updates, even job application videos have quietly become the default way people communicate online.\n\nBehind almost every video you enjoy, there’s an editor who made it work  someone trimmed the boring parts, dropped in the right music at the right second, and made sure it didn’t feel like a raw phone recording.\n\nThat’s video editing. And in 2026, with AI speeding up parts of the process and short-form content ea",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T08:54:53+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa4bljorycaf742uh8boh.png"
+    },
+    {
+      "id": "c931e796e416",
+      "title": "AI News today - July 04th - A behind-the-scenes look at Midjourney’s medical scanner leaves many...",
+      "url": "https://dev.to/jonas_prenissl_5eb6eaa63c/ai-news-today-july-04th-a-behind-the-scenes-look-at-midjourneys-medical-scanner-leaves-many-4fl",
+      "summary": "TL;DR: AI News today - July 04th - A behind-the-scenes look at Midjourney’s medical scanner leaves many...\n\n\n📅 July 04, 2026 • ⏱️ 5-min read • 🎧 Also available as a podcast\n\n\n  \n  \n  Today's Top AI Stories\n\n\n\n  \n  \n  A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered\n\n\nMidjourney has shown more of its futuristic medical scanner. It still hasn't shown much proof it works. The AI startup, best known for generating images, released a behind-the-scenes video of its dunk\n\n\n  \n  \n  The only AI glossary you’ll need this year\n\n\nThe rise of AI has brought an avala",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T09:00:02+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkqgumjk2of275uj5i9hn.png"
+    },
+    {
+      "id": "adae38a08ce6",
+      "title": "The NSA wrote the MCP threat model. It never says what your agent does after the block.",
+      "url": "https://dev.to/vdalal/the-nsa-wrote-the-mcp-threat-model-it-never-says-what-your-agent-does-after-the-block-3959",
+      "summary": "In May 2026 the NSA's AI Security Center published a Cybersecurity Information Sheet: Model Context Protocol (MCP): Security Design Considerations for AI-Driven Automation (U/OO/6030316-26). It is the first government-authored threat model for MCP, and if you run agents through MCP servers, it is worth the read.\n\nRead it end to end and one word never appears: recover.\n\nThat absence is the whole point of this post.\n\n\n  \n  \n  The part the NSA gets exactly right\n\n\nThe report does not treat a tool call like an API request. It treats it like a loaded gun:\n\n\n\"It is prudent to treat any tool executio",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T09:02:18+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl8l07dqru8mogr4lv2n4.png"
+    },
+    {
+      "id": "bc4a0beb23e3",
+      "title": "Your career profile is a database with terrible normalization — so I fixed mine and made it free",
+      "url": "https://dev.to/vadim7j7/your-career-profile-is-a-database-with-terrible-normalization-so-i-fixed-mine-and-made-it-free-m0a",
+      "summary": "The bug report on my own career\n\n\nHere's a data model I'd fail you for in code review.\n\nThe same fact — \"shipped a habit-tracking app called Quietleaf\" — stored independently in my CV, my LinkedIn, my portfolio site, my Upwork profile, and two freelance profiles I'd forgotten the passwords to. Six copies. No source of truth. Updates applied by hand, one surface at a time, and never to all of them.\n\nIf a junior handed me that, I'd write \"denormalize this — one row, render per view\" and move on. It took me embarrassingly long to point that review at myself.\n\nSo I did the obvious thing. One maste",
+      "source": "Dev.to AI",
+      "published": "2026-07-04T09:01:29+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6rbzoyodxygqcj3kuvjq.png"
+    },
+    {
+      "id": "58ab64fc2650",
+      "title": "I built my 'first' flow matching image generator, here's what I learned [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1un0v49/i_built_my_first_flow_matching_image_generator/",
+      "summary": "Today I put out my first flow matching image generation model! This is a toy example trained on a 2024 MPS Macbook Pro using a small sample of images—specifically, the Apple emoji library and their text labels. Because of this, it’s not a massive model (clocking in at ~4.7 million parameters), but it was an incredible learning experience. My original approach (which failed): I initially tried taking the emoji images, converting them to grayscale, and using an extremely basic CNN to expand the gray channels into 64 feature maps. I applied a ReLU activation, repeated this three times, and then c",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-04T05:46:08+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "2f22497bdb3d",
+      "title": "Google Releases A2UI v0.9: Portable, Framework-Agnostic Generative UI",
+      "url": "https://www.infoq.com/news/2026/07/google-a2ui-genui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released A2UI v0.9, a framework-agnostic standard for AI agents to declare user interface intent across multiple platforms without arbitrary code. The update emphasizes alignment with existing design systems. It includes a new SDK for Python, improved error handling, and various transport methods. Migration guidance and evolution specifications are also provided. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-03T06:38:00+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "3fcea42749e3",
+      "title": "What does \"Safe AI\" look like? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1um9bs7/what_does_safe_ai_look_like_d/",
+      "summary": "&#x200b; For open-weight LLMs, how practical is it to study defenses against post-release fine-tuning that weakens refusal or safety behavior? I've been seeing “uncensored” or “heretic” variants of new models appear very quickly after release, which raises a question I’m curious about: is fine-tuning resistance a meaningful safety goal for open-weight releases, or is it too narrow because determined users can always modify weights, switch models, or use other workarounds? And to a larger extent, is current safety training even worth the cost and effort if it takes 30 minutes and an automated s",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-03T09:07:26+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "616f8e70b9f8",
+      "title": "New serious vulnerabilities spiked around release of Claude Mythos Preview",
+      "url": "https://epoch.ai/data-insights/cve-severity-spike",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-03T21:16:16+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "2fdab7eee17f",
+      "title": "OpenTelemetry Graduates to CNCF's Highest Maturity Level",
+      "url": "https://www.infoq.com/news/2026/07/opentelemetry-cncf-maturity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Cloud Native Computing Foundation (CNCF) has announced the graduation of OpenTelemetry, elevating the project to the foundation's highest level of maturity and formally recognizing it as production-ready for enterprise use. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-03T12:00:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "0e3fc6841c7d",
+      "title": "AI Agents Explained: What Is a ReAct Loop and How Does It Work?",
+      "url": "https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/",
+      "summary": "How agents reason, act, and observe their way to a final answer, one step at a time\nThe post AI Agents Explained: What Is a ReAct Loop and How Does It Work? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-03T16:30:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "cac59d2666ab",
+      "title": "The Download: a smoking “endgame” and a new Elizabeth Bear story",
+      "url": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The UK’s generational tobacco ban might not work. I’m supporting it anyway. —Jessica Hamzelou As the parent of two little girls, I often think about how their childhood is different from&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-03T12:10:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "276273bfd511",
+      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
+      "url": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Oracle halved the Always Free Ampere A1 compute allowance from 4 OCPUs and 24 GB RAM to 2 OCPUs and 12 GB RAM with no public announcement. Support agents gave conflicting answers on whether PAYG accounts are affected. Documentation states the new limits apply to \"all tenancies\" while support emails say only free-tier accounts. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-03T10:13:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "e8333f44e461",
+      "title": "LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler",
+      "url": "https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/",
+      "summary": "Most \"LLM wikis\" use agents, embeddings, and repeated model calls to organize local notes. I built a deterministic alternative: a pure Python compiler that turns messy markdown into a linked, linted wiki using only the standard library. Along the way, I fixed two real bugs, benchmarked the pipeline on two operating systems, and showed why a compiler is often a better fit than an agent for mechanical text organization.\nThe post LLM Wikis Are Over-Engineered — I Replaced Mine With a Pure Python Compiler appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-03T13:30:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "15ac6d396939",
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "url": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "summary": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-03T09:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "71569dea09a2",
+      "title": "The Untaught Lessons of RAG Retrieval: Cosine Is Not the Foundation",
+      "url": "https://towardsdatascience.com/the-untaught-lessons-of-rag-retrieval-cosine-is-not-the-foundation/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #7ter] - Six positions on the retrieval brick that contradict the cosine-first reflex of mainstream RAG\nThe post The Untaught Lessons of RAG Retrieval: Cosine Is Not the Foundation appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-03T12:00:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "b80dc1d44a6c",
+      "title": "Long Context vs. Short Context Model: When Does a Long Context Model Win?",
+      "url": "https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-context-model-win/",
+      "summary": "Balancing context capability against cost, speed, and data\nThe post Long Context vs. Short Context Model: When Does a Long Context Model Win? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-03T15:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    }
+  ]
+}
