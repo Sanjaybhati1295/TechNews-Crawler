@@ -1,0 +1,175 @@
+{
+  "digest": {
+    "headline": "AWS Introduces Amazon S3 Annotations",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AWS Introduces Amazon S3 Annotations (InfoQ). Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It (InfoQ). Top 10 AI Trends in 2026 Every Developer and Business Leader Should Know (Dev.to AI). Docs skills for AI (Dev.to Programming). What I learned about typing unofficial API responses in TypeScript without a schema (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations can be updated independently of the object and queried across datasets, reducing the need for separate metadata systems. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "a351b47d8681",
+      "title": "AWS Introduces Amazon S3 Annotations",
+      "url": "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations can be updated independently of the object and queried across datasets, reducing the need for separate metadata systems. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-05T08:55:00+00:00",
+      "score": 5.26,
+      "image": "https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg"
+    },
+    {
+      "id": "5737f8e57762",
+      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
+      "url": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI but not Foundry. European practitioners from banking and healthcare report the offering is unapproved for production. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-05T08:13:00+00:00",
+      "score": 4.22,
+      "image": "https://res.infoq.com/news/2026/07/claude-foundry-ga-europe/en/headerimage/generatedHeaderImage-1783070384778.jpg"
+    },
+    {
+      "id": "361aa632d236",
+      "title": "Top 10 AI Trends in 2026 Every Developer and Business Leader Should Know",
+      "url": "https://dev.to/shiftscoretoday/top-10-ai-trends-in-2026-every-developer-and-business-leader-should-know-b5l",
+      "summary": "Artificial Intelligence is no longer just an emerging technology—it's becoming a core part of how businesses build products, automate operations, and make smarter decisions. In 2026, AI adoption is accelerating across industries, from healthcare and finance to sports analytics and manufacturing.\n\nFor developers, startups, and business leaders, staying updated with the latest AI trends isn't optional anymore. It's a competitive advantage.\n\nHere are the top AI trends shaping 2026.\n\n\nAgentic AI\n\n\nAI systems are moving beyond simple chatbots. Modern AI agents can perform multi-step tasks, make dec",
+      "source": "Dev.to AI",
+      "published": "2026-07-05T09:13:40+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fv7nwrvoif5o9u0o4af9c.png"
+    },
+    {
+      "id": "f7553705d7e1",
+      "title": "Docs skills for AI",
+      "url": "https://dev.to/cookiemonsterdev/docs-skills-for-ai-a11",
+      "summary": "I need to accept that I can't compete with AI in terms of speed. Although I’m still waiting for the exact moment the bubble bursts and pricing forces people to use tokens more mindfully, I just can't match the speed of an AI agent when I'm searching for something in the codebase.\n\nHowever, models still hallucinate sometimes, which is why RAG was created. RAG is cool when you need to search the internet for something, but what’s even cooler is giving your agents skills backed by references from official documentation.\n\nAlthough I originally built this for myself, I thought this repo of skills w",
+      "source": "Dev.to Programming",
+      "published": "2026-07-05T08:34:11+00:00",
+      "score": 3.84,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwydnx0vhpowiyxpcbri5.png"
+    },
+    {
+      "id": "e3b9245ac289",
+      "title": "What I learned about typing unofficial API responses in TypeScript without a schema",
+      "url": "https://dev.to/morinaga/what-i-learned-about-typing-unofficial-api-responses-in-typescript-without-a-schema-4jjf",
+      "summary": "The three directory sites I launched in April — Top AI Tools, Find Games Like, and Open Alternative To — all pull from external APIs that share one property: the response shape is either poorly documented, partially unofficial, or capable of returning unexpected values in production without any server-side change that I'd be notified about. See the original architecture overview for the full stack context.\n\nI wrote thin TypeScript fetch clients for each: GitHub's REST API, Steam's Store Web API, and HuggingFace's model registry. None of them use an official SDK. Combined, they're 167 lines of ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-05T08:37:47+00:00",
+      "score": 3.75,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Faiappdex.com%2Fog%2Farticles%2F62-2026-06-18-typescript-interfaces-unofficial-api-responses.png"
+    },
+    {
+      "id": "2e0d2de04906",
+      "title": "Cutting AI API Costs: A Backend Engineer's Field Notes",
+      "url": "https://dev.to/rarenode/cutting-ai-api-costs-a-backend-engineers-field-notes-2a1e",
+      "summary": "Cutting AI API Costs: A Backend Engineer's Field Notes\n\nI still remember the morning I opened the dashboard and saw a $14,200 line item for \"AI services.\" I'd been a backend engineer for a decade at that point, and I'd seen plenty of infrastructure bills. But this one made me laugh out loud, because it was almost entirely avoidable.\n\nHere's the thing nobody tells you when you're shipping your first LLM-powered feature: the defaults are expensive on purpose. The vendors want you to think of these models as interchangeable, so you reach for the brand-name one for everything from \"summarize this ",
+      "source": "Dev.to AI",
+      "published": "2026-07-05T09:22:53+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ylayvroaqsdliuk33a2.png"
+    },
+    {
+      "id": "993a7c50761d",
+      "title": "Meta’s Muse Spark AI for Code: Architecture, DevOps Integration, and Secure LLM Engineering",
+      "url": "https://dev.to/olivier-coreprose/metas-muse-spark-ai-for-code-architecture-devops-integration-and-secure-llm-engineering-440b",
+      "summary": "Originally published on CoreProse KB-incidents\n\n\n\n  \n  \n  1. Problem Framing: Why an Enterprise-Grade Coding Model Like Muse Spark Matters\n\n\nBy 2026, LLMs are mission‑critical infrastructure for automation, analytics, and decision support—not experiments.[1] A coding‑optimized Muse Spark is therefore a strategic platform choice.\n\nKey enterprise realities:\n\n\nWrong LLM choice raises costs, delays projects, and creates brittle systems—not just bad prototypes.[1]\n\nGoogle DORA data: despite AI code tools, throughput is down ~1.5% and stability ~7.5% worse.[4]\n\nMore code is shipped, but reliability ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-05T09:01:08+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "ec23922848f7",
+      "title": "I built a open source neural network shape validator [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unvbdb/i_built_a_open_source_neural_network_shape/",
+      "summary": "Built a visual editor that validates tensor shapes, counts params, estimates FLOPs/VRAM while you design. Catches incompatible residuals, mismatched Linear layers, all that before you waste GPU time. 63 ops. Proper shape inference. Exports PyTorch code that actually runs.  URL- tensey.vercel.app Github- github.com/aarocy/tensey – MIT licensed.  &#32; submitted by &#32;  /u/uselessfuh   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-05T06:58:02+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "cf95e6aa693c",
+      "title": "Week 19: We Thought Students Needed Answers What They Actually Needed Was Something Else",
+      "url": "https://dev.to/baint_computer_1b47584c10/week-19we-thought-students-needed-answers-what-they-actually-needed-was-something-else-4fm8",
+      "summary": "When we started building BAINT we believed the biggest challenge students faced was finding answers\n\nThe more students we speak with the more we realize the problem goes much deeper than that\n\nThis week we had a conversation with a Mass Communication student\n\nWe asked a simple question\n\nWhich course has been the most difficult for you to understand so far\n\nThe answer was Data Analysis in Communication Research\n\nWe wanted to understand why\nSo we asked another question\nWhat makes it difficult\n\nThe student replied with just one word\nEverything\nAt first we smiled\n\nIt sounded like a funny response\n",
+      "source": "Dev.to AI",
+      "published": "2026-07-05T09:07:19+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "4cc0e5b9d01b",
+      "title": "I open-sourced the product that IS the business. Here's the cold logic.",
+      "url": "https://dev.to/jeonsewon/i-open-sourced-the-product-that-is-the-business-heres-the-cold-logic-225a",
+      "summary": "My repo is public under MIT. The detector, the frozen parameters, the eval harness, even the log of where it fails (the E3 limitation) — all of it. For a solo founder whose product is that code, people reasonably ask if I've just given away the company. I don't think I have, and the reasoning is colder than \"open source is nice.\"\nFirst, the practical driver: my entire bottleneck is getting real traces from real systems, and traces are sensitive data. The single most effective thing I can say to someone hesitant is \"the data never has to leave your machine — run the tool locally and read every ",
+      "source": "Dev.to AI",
+      "published": "2026-07-05T09:05:41+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "2f6fc0b6a29c",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "source": "TechCrunch AI",
+      "published": "2026-07-04T15:51:32+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "15c2d95103d6",
+      "title": "If your GPU can run inference, it should be able to fine-tune too. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unl62q/if_your_gpu_can_run_inference_it_should_be_able/",
+      "summary": "I spent the last few months building a new sparse fine-tuning method for MoE models called **USAF**. The goal was simple: if your GPU can run inference on an MoE model, it should also be able to fine-tune it. On my AMD RX 6750 XT (12 GB), I can fine-tune Qwen3-30B-A3B by training sparse expert weights and the router instead of adapters. The project is completely open source under the Apache 2.0 license. I'm not trying to build a business, sell anything, or monetize it in any way—I just wanted to share something I built that I think is genuinely interesting. I'd love to hear your feedback, espe",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-04T21:56:48+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "7a350947a798",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-04T16:32:08+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "a4e8cddb41e4",
+      "title": "Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/",
+      "summary": "I've been trying to come up with a solution for keeping extremely long ai sessions coherent. Sometimes there is too much substance to risk compaction. With so much buzz around diffusion going on it got me thinking, what if we treat the context like a progressive render, blurry&gt;sharp. The practical way to make text &quot;blurry&quot; is compression. This is a &quot;diffusion inspired&quot; system which borrows the coarse-to-fine process, not the formal math. It uses semantic compression so the overall structure of the session stays intact. Read the compressed version first to build an outlin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-04T10:56:40+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "406b5167357c",
+      "title": "Setting Up Your Own Large Language Model",
+      "url": "https://towardsdatascience.com/setting-up-your-own-large-language-model/",
+      "summary": "Still a long way to go, but the future is promising\nThe post Setting Up Your Own Large Language Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-04T15:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "51dfb6d7e731",
+      "title": "Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination",
+      "url": "https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable\nThe post Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-04T13:00:00+00:00",
+      "score": 2.36,
+      "image": null
+    }
+  ]
+}

@@ -1955,3 +1955,38 @@
 2026-07-04 09:13:59,489  INFO     ────────────────────────────────────────────────────────────
 2026-07-04 09:13:59,489  INFO     Done!  Open: output/index.html
 2026-07-04 09:13:59,489  INFO     Headline: Inside the Zeta–Palantir Alliance: Architecting AI-Native Enterprise Marketing
+2026-07-05 09:34:24,607  INFO     ============================================================
+2026-07-05 09:34:24,607  INFO     TECHPULSE Digest — 2026-07-05 09:34 UTC
+2026-07-05 09:34:24,607  INFO     ============================================================
+2026-07-05 09:34:24,607  INFO     Step 1/3 — Crawling feeds…
+2026-07-05 09:34:24,831  INFO       Hacker News                    → 0 significant articles
+2026-07-05 09:34:25,080  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-05 09:34:25,149  INFO       Ars Technica                   → 0 significant articles
+2026-07-05 09:34:25,824  INFO       The Register AI                → 0 significant articles
+2026-07-05 09:34:25,937  INFO       MIT Tech Review                → 0 significant articles
+2026-07-05 09:34:26,046  INFO       Dev.to AI                      → 4 significant articles
+2026-07-05 09:34:26,225  INFO       Dev.to Programming             → 3 significant articles
+2026-07-05 09:34:26,421  INFO       GitHub Blog                    → 0 significant articles
+2026-07-05 09:34:27,221  INFO       Google Research                → 0 significant articles
+2026-07-05 09:34:27,871  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-07-05 09:34:27,927  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-05 09:34:28,469  INFO       InfoQ                          → 2 significant articles
+2026-07-05 09:34:28,695  INFO       Towards Data Science           → 2 significant articles
+2026-07-05 09:34:28,944  INFO       Wired AI                       → 0 significant articles
+2026-07-05 09:34:29,098  INFO       TechCrunch AI                  → 2 significant articles
+2026-07-05 09:34:29,098  INFO     Fetching images for top articles…
+2026-07-05 09:34:29,669  INFO       🖼  AWS Introduces Amazon S3 Annotations
+2026-07-05 09:34:30,163  INFO       🖼  Claude Reaches GA on Microsoft Foundry: European Enterprises
+2026-07-05 09:34:30,199  INFO       🖼  Top 10 AI Trends in 2026 Every Developer and Business Leader
+2026-07-05 09:34:30,228  INFO       🖼  Docs skills for AI
+2026-07-05 09:34:30,310  INFO       🖼  What I learned about typing unofficial API responses in Type
+2026-07-05 09:34:30,389  INFO       🖼  Cutting AI API Costs: A Backend Engineer's Field Notes
+2026-07-05 09:34:30,389  INFO     Total selected: 16 articles from 15 feeds
+2026-07-05 09:34:30,389  INFO     Selected 16 significant articles
+2026-07-05 09:34:30,389  INFO     Step 2/3 — Generating digest…
+2026-07-05 09:34:30,888  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-05 09:34:30,889  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-05 09:34:30,889  INFO     Step 3/3 — Rendering HTML…
+2026-07-05 09:34:30,890  INFO     ────────────────────────────────────────────────────────────
+2026-07-05 09:34:30,890  INFO     Done!  Open: output/index.html
+2026-07-05 09:34:30,890  INFO     Headline: AWS Introduces Amazon S3 Annotations
