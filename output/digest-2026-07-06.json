@@ -1,0 +1,105 @@
+{
+  "digest": {
+    "headline": "Cursor Pricing 2026: Free vs Pro vs Ultra — Which Plan?",
+    "tldr": "Today's digest covers 9 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cursor Pricing 2026: Free vs Pro vs Ultra — Which Plan? (Dev.to AI). AWS Introduces Amazon S3 Annotations (InfoQ). Pinterest Market Insights Launched: Analysis of the New Entrance for Pinterest Marketing in 2026 (Dev.to Programming). The 2026 Juejin AI tool roundup has quietly become a content-commerce funnel (Dev.to AI). AI Stack Training in Bangalore | AI Stack Training Online (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Cursor is a popular Agentic AI coding tool, helping developers improve productivity, and even helping SaaS founders with no coding background build fully functional systems. Unlike other agentic tools like Copilot or Claude Code which are primarily editor extensions, Cursor is a standalone IDE (Integrated Development Environment) that replaces the need for using VS Code (it is actually a fork of VS Code). It melds a native coding experience with a AI-first conversational coding solution.\n\nAgentic AI tools like Cursor speed development and improve developer performance. The LLM agents inside Cu"
+  },
+  "articles": [
+    {
+      "id": "70c53963fb65",
+      "title": "Cursor Pricing 2026: Free vs Pro vs Ultra — Which Plan?",
+      "url": "https://dev.to/braingrid/cursor-pricing-2026-free-vs-pro-vs-ultra-which-plan-hdd",
+      "summary": "Cursor is a popular Agentic AI coding tool, helping developers improve productivity, and even helping SaaS founders with no coding background build fully functional systems. Unlike other agentic tools like Copilot or Claude Code which are primarily editor extensions, Cursor is a standalone IDE (Integrated Development Environment) that replaces the need for using VS Code (it is actually a fork of VS Code). It melds a native coding experience with a AI-first conversational coding solution.\n\nAgentic AI tools like Cursor speed development and improve developer performance. The LLM agents inside Cu",
+      "source": "Dev.to AI",
+      "published": "2026-07-06T11:12:17+00:00",
+      "score": 4.59,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.braingrid.ai%2Fblog%2Fcursor-pricing%2Fopengraph-image"
+    },
+    {
+      "id": "a351b47d8681",
+      "title": "AWS Introduces Amazon S3 Annotations",
+      "url": "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations can be updated independently of the object and queried across datasets, reducing the need for separate metadata systems. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-05T08:55:00+00:00",
+      "score": 3.83,
+      "image": "https://res.infoq.com/news/2026/07/aws-s3-annotations/en/headerimage/generatedHeaderImage-1782327927331.jpg"
+    },
+    {
+      "id": "3297206de565",
+      "title": "Pinterest Market Insights Launched: Analysis of the New Entrance for Pinterest Marketing in 2026",
+      "url": "https://dev.to/ipfoxy/pinterest-market-insights-launched-analysis-of-the-new-entrance-for-pinterest-marketing-in-2026-3li8",
+      "summary": "In late June and early July 2026, Pinterest further strengthened its data capability construction and launched the official analysis tool Market Insights, which is designed to help brands understand platform trend changes and user interest structures more systematically. Instead of relying on multiple third-party platforms to collect data, operational teams can now directly formulate content and marketing strategies based on official Pinterest trend data. This article will deconstruct the core capabilities of Market Insights and explain how to use it to improve overall marketing effectiveness.",
+      "source": "Dev.to Programming",
+      "published": "2026-07-06T10:56:51+00:00",
+      "score": 3.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhy1nc5hrw9e2bqrr09ea.png"
+    },
+    {
+      "id": "e0a2ad267924",
+      "title": "The 2026 Juejin AI tool roundup has quietly become a content-commerce funnel",
+      "url": "https://dev.to/ninghonggang/the-2026-juejin-ai-tool-roundup-has-quietly-become-a-content-commerce-funnel-4399",
+      "summary": "I went down a rabbit hole this morning reading the late-2025 Juejin AI tool roundups side by side — the 2026年前端开发者必学的10个AI工具 piece with the affiliate pricing table, the 论文季AI工具实测 sponsored walkthrough that ended on 雷小兔, the 2025年中文AI工具推荐 directory that pivoted halfway through to 神马中转 API, and the 2025年AI开发工具最新排行 with the 20元/月 Cursor anchor — and the thing that finally crystallized for me is that the 2025 to 2026 roundup format has quietly completed its transition from editorial coverage to content commerce, and almost every \"best AI tools\" post I read this morning is now structured around a s",
+      "source": "Dev.to AI",
+      "published": "2026-07-06T11:07:24+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa0c8gi5zq1i2yobc8vab.png"
+    },
+    {
+      "id": "5b79ab9800db",
+      "title": "AI Stack Training in Bangalore | AI Stack Training Online",
+      "url": "https://dev.to/hari_krishna_17497813413d/ai-stack-training-in-bangalore-ai-stack-training-online-2ge1",
+      "summary": "What 5 Portfolio Projects Land High Paying Full Stack AI Jobs?\nIntroduction\nAI Portfolio Projects are one of the best ways to prove your skills to employers. Many companies now want candidates who can build complete AI applications instead of only knowing theory. A strong portfolio shows that you understand data, machine learning, APIs, cloud tools, and user interfaces. Learning through an AI Stack Course helps you understand how these technologies work together in real projects. This article explains five practical portfolio projects that help you build job-ready skills for Full Stack AI role",
+      "source": "Dev.to Programming",
+      "published": "2026-07-06T11:01:30+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmjm80lps3gpscbv03e0g.png"
+    },
+    {
+      "id": "98d33e5bab2d",
+      "title": "Does anyone have a name for that subtle \"Sameness\" creeping into model outputs lately? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uon503/does_anyone_have_a_name_for_that_subtle_sameness/",
+      "summary": "I've been running a lot of comparative evals across recent model releases—both API and open-weight—and there's a pattern I can't unsee. After a certain number of turns, or when you push into niche territory, the outputs start converging. Same cadence. Same hedging phrases. Same blind spots. It's not full collapse. It's a kind of... homogenization. A creep. My working theory: we're deep enough into the synthetic data flywheel now that we're seeing the first-generation effects. Not model collapse in the catastrophic sense, but a gradual loss of &quot;texture&quot; across models that share overla",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-06T04:27:28+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "655721331414",
+      "title": "The Marketing Investment Mistake Many Businesses Make Too Early",
+      "url": "https://dev.to/emma_k_12f0846a8ba5a902a3/the-marketing-investment-mistake-many-businesses-make-too-early-6d0",
+      "summary": "**Why choosing between SEO and PPC isn't always the right question\n\n\nWhen businesses decide to invest in digital marketing, they often face the same dilemma.\n\nShould we invest in SEO?\n\nOr should we focus on PPC?\n\nAt first glance, it seems like a simple choice.\n\nOne strategy helps you appear organically in search results.\n\nThe other places your business at the top of the page through paid advertising.\n\nThe problem is that many businesses approach this decision the wrong way.\n\nInstead of asking which channel is better, they should be asking which channel solves their biggest challenge right now.",
+      "source": "Dev.to AI",
+      "published": "2026-07-06T11:13:44+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "5737f8e57762",
+      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
+      "url": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI but not Foundry. European practitioners from banking and healthcare report the offering is unapproved for production. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-05T08:13:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "de657dd2a555",
+      "title": "Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs",
+      "url": "https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call\nThe post Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-05T15:00:00+00:00",
+      "score": 2.57,
+      "image": null
+    }
+  ]
+}
