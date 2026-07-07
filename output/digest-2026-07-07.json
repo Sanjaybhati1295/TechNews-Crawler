@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "Building an Autonomous Trading Agent — From Concept to On-Chain Execution",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Building an Autonomous Trading Agent — From Concept to On-Chain Execution (Dev.to AI). The first American autonomous ground vehicles are fighting in Ukraine (TechCrunch AI). MIRA: Multiplayer Interactive World Models trained on Rocket League [R] (Reddit r/MachineLearning). How to Build a Zero-Cost AI SaaS Prototype Using a Local Tech Stack (Dev.to AI). 257 Resumes Per Job: How to Actually Screen High-Volume Applications in 2026 (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Stop Ranking Agent Configs by Average Score (Towards Data Science). Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Building a trading bot that works is hard. Building one that adapts to market conditions without human intervention is a different beast entirely.\n\nMost automated trading systems fall into two camps:\n\nRule-based bots — hardcoded if-this-then-that logic. Predictable, transparent, and fragile. When the market regime shifts, they bleed until someone updates the parameters.\n\nSignal-following bots — reactive to indicators (RSI, MACD, volume). Better, but still lagging. By the time your indicator fires, the move is often half over.\n\nWhat's missing is a reasoning layer — something that can look at th"
+  },
+  "articles": [
+    {
+      "id": "cdccfd16c0f2",
+      "title": "Building an Autonomous Trading Agent — From Concept to On-Chain Execution",
+      "url": "https://dev.to/claudia-ve/building-an-autonomous-trading-agent-from-concept-to-on-chain-execution-2ij0",
+      "summary": "Building a trading bot that works is hard. Building one that adapts to market conditions without human intervention is a different beast entirely.\n\nMost automated trading systems fall into two camps:\n\nRule-based bots — hardcoded if-this-then-that logic. Predictable, transparent, and fragile. When the market regime shifts, they bleed until someone updates the parameters.\n\nSignal-following bots — reactive to indicators (RSI, MACD, volume). Better, but still lagging. By the time your indicator fires, the move is often half over.\n\nWhat's missing is a reasoning layer — something that can look at th",
+      "source": "Dev.to AI",
+      "published": "2026-07-07T10:13:08+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flnipe2e78oosh3vmfd1e.png"
+    },
+    {
+      "id": "7e1c285b5138",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "summary": "Forterra has deployed more than 100",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T09:00:00+00:00",
+      "score": 3.83,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/img-dedb3291-a67a-44b6-a6d7-dd6659f9d433.png?w=1080"
+    },
+    {
+      "id": "ec47de3f559d",
+      "title": "MIRA: Multiplayer Interactive World Models trained on Rocket League [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
+      "summary": "We're happy to release MIRA, a collaboration between General Intuition, Kyutai, and Epic Games. Mira was trained on 10k hours of synthetic Rocket League data. The model has 5B parameters and runs for 4 players at 20 fps on a single B200. We've released a playable online demo, an in-depth technical report as well as a 1k hour dataset of 4-players gameplay: Demo: https://mira-wm.com Technical report: https://mira-wm.com/paper Repo: https://github.com/mira-wm/mira If you're at ICML, we're also running an interactive demo (booth 111) where you can play it with us using proper PlayStation controlle",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-07T07:59:10+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "90cf6fe1fa72",
+      "title": "How to Build a Zero-Cost AI SaaS Prototype Using a Local Tech Stack",
+      "url": "https://dev.to/servbay/how-to-build-a-zero-cost-ai-saas-prototype-using-a-local-tech-stack-1bgo",
+      "summary": "Balancing a $0 MRR with a Hundred-Dollar Cloud Bill\n\n\nCold-starting a SaaS product is filled with uncertainty. Many indie hackers launching a private beta find themselves with just a handful of seed users, leaving their Monthly Recurring Revenue (MRR) firmly at $0. Yet, the cloud bill at the end of the month can be startling. Fees for external LLM API calls, managed cloud database hosting, and platform upgrade tiers can easily add up to over $150.\n\nMany current tutorials guide developers toward full-scale serverless architectures right from the start, claiming it is necessary to handle future ",
+      "source": "Dev.to AI",
+      "published": "2026-07-07T10:14:12+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj4pgu25irrhh7dzux5rg.png"
+    },
+    {
+      "id": "6fccc043b15c",
+      "title": "257 Resumes Per Job: How to Actually Screen High-Volume Applications in 2026",
+      "url": "https://dev.to/afraz_ch_f24ae1b35b501993/257-resumes-per-job-how-to-actually-screen-high-volume-applications-in-2026-557b",
+      "summary": "The average job posting now pulls in 257.6 applications, up from 207.2 in 2024. That is not a spike, it is the new baseline. And it quietly breaks the one habit almost every hiring process is still built on: reading resumes one at a time.\n\nIf you are a recruiter or a hiring manager, you already feel it. The folder fills faster than you can open it. You give the first twenty resumes a fair read, the next fifty a skim, and the rest a five second glance if they are lucky. By the end you have not screened the pile, you have survived it. The strongest candidate might be resume number 190, and you w",
+      "source": "Dev.to AI",
+      "published": "2026-07-07T10:13:28+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcaw9rc2y0ihpzk1m08ru.png"
+    },
+    {
+      "id": "774863ada400",
+      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
+      "url": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases of GlassFish and Micronaut; the second milestone release of Grails 8.0; and the beta release of Open Liberty 26.0.0.7. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-07-06T23:30:00+00:00",
+      "score": 3.7,
+      "image": "https://res.infoq.com/news/2026/07/java-news-roundup-jun29-2026/en/headerimage/java-news-roundup-image-1783370367210.jpg"
+    },
+    {
+      "id": "211f9b5b5102",
+      "title": "All Five Major US AI Labs Agree to Pre-Deployment Security Reviews",
+      "url": "https://dev.to/autonainews/all-five-major-us-ai-labs-agree-to-pre-deployment-security-reviews-nd9",
+      "summary": "Key Takeaways\n\n\nGoogle DeepMind, Microsoft, and xAI signed voluntary agreements with the US Commerce Department for pre-deployment AI security evaluations.\nAll five major US frontier AI labs now have formal agreements with the federal government for pre-deployment security reviews covering national security, biosecurity, and cybersecurity.\nAdvocacy groups are urging mandatory pre-release security reviews for frontier AI models, shifting the AI oversight debate to national security threat assessment.\nEvery major US frontier AI lab now has a formal agreement with the federal government to submit",
+      "source": "Dev.to AI",
+      "published": "2026-07-07T10:12:11+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "d8baa3bf5199",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "summary": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T23:56:14+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "bb5f8dfc4cec",
+      "title": "Professional Driver Cab Gujarat: Reliable Cab Rental & Taxi Service Across Gujarat",
+      "url": "https://dev.to/seo_service_a87a86a41acb2/professional-driver-cab-gujarat-reliable-cab-rental-taxi-service-across-gujarat-5207",
+      "summary": "&lt;!DOCTYPE html&gt;\n\n\n\n\n\nProfessional Driver Cab Gujarat | Reliable Cab Rental &amp; Taxi Service\n\n\n\n\n\n\nProfessional Driver Cab Gujarat: Reliable Cab Rental &amp; Taxi Service Across Gujarat\n\n\nTraveling becomes easier when you have a trusted taxi service by your side. Whether you're planning an airport transfer, business trip, family vacation, or outstation journey, choosing a professional cab service ensures comfort, safety, and convenience. Modern travelers expect easy online booking, transparent pricing, experienced chauffeurs, and clean vehicles. professional driver cab Gujarat from Real",
+      "source": "Dev.to Programming",
+      "published": "2026-07-07T10:04:03+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "085590ef9c65",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T18:35:00+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "a0013c5259ee",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "summary": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T19:01:59+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "6b1c430dfa8c",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T13:00:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "78ad7e3f1d1c",
+      "title": "How to Run End-to-End Tests with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
+      "summary": "Increase the effectiveness of your coding agents through end-to-end testing.\nThe post How to Run End-to-End Tests with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-06T15:00:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "8274403b7f01",
+      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
+      "url": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Netflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them smaller units, and routes reads across child partitions. Netflix reported lower read latency from seconds to milliseconds, reduced timeouts, and improved cluster stability while maintaining transparency. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-07-06T14:24:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "1ae87180fdaf",
+      "title": "Stop Ranking Agent Configs by Average Score",
+      "url": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
+      "summary": "Best-worst comparisons, MaxDiff-style judging, and Plackett-Luce utility scores give agent teams a cleaner way to decide which configs to ship, prune, and route toward next.\nThe post Stop Ranking Agent Configs by Average Score appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-06T12:00:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "555b9deda1d3",
+      "title": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
+      "url": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback\nThe post Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-06T13:30:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "98d33e5bab2d",
+      "title": "Does anyone have a name for that subtle \"Sameness\" creeping into model outputs lately? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uon503/does_anyone_have_a_name_for_that_subtle_sameness/",
+      "summary": "I've been running a lot of comparative evals across recent model releases—both API and open-weight—and there's a pattern I can't unsee. After a certain number of turns, or when you push into niche territory, the outputs start converging. Same cadence. Same hedging phrases. Same blind spots. It's not full collapse. It's a kind of... homogenization. A creep. My working theory: we're deep enough into the synthetic data flywheel now that we're seeing the first-generation effects. Not model collapse in the catastrophic sense, but a gradual loss of &quot;texture&quot; across models that share overla",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-06T04:27:28+00:00",
+      "score": 2.24,
+      "image": null
+    }
+  ]
+}
