@@ -1,0 +1,289 @@
+{
+  "digest": {
+    "headline": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+    "tldr": "Today's digest covers 27 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Hot French startup ZML releases free product to speed inference across lots of AI chips (TechCrunch AI). AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round (TechCrunch AI). Building the Future with Lokosoft: Smart Solutions for a Digital-First World. (Dev.to AI). **UK AI Weekly: Chat Control — The UK's Bold Step into AI Regulation** (Dev.to AI). AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code before Production (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A Production RAG Pipeline for PDFs: Relational Parsing, TOC Retrieval, Typed Answers (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly."
+  },
+  "articles": [
+    {
+      "id": "57f72514722c",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "summary": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T08:00:00+00:00",
+      "score": 4.83,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/ZML-founder-Steeve-Morin.jpg?resize=1200,800"
+    },
+    {
+      "id": "0e0010f02d14",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "summary": "AI chip maker SambaNova has raised at an $11B valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-08T07:16:00+00:00",
+      "score": 4.08,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/chip__1_.png?w=940"
+    },
+    {
+      "id": "316ad0ba2481",
+      "title": "Building the Future with Lokosoft: Smart Solutions for a Digital-First World.",
+      "url": "https://dev.to/ritshah/building-the-future-with-lokosoft-smart-solutions-for-a-digital-first-world-4kl0",
+      "summary": "In today’s fast-paced digital landscape, businesses are no longer asking if they need an app — they’re asking how soon they can launch one. With increasing reliance on smartphones and digital platforms, having a strong mobile presence is no longer optional; it’s essential.\n\nThis is where Lokosoft stands out. As a forward-thinking company, Lokosoft focuses on delivering scalable, user-friendly, and performance-driven solutions tailored to modern business needs. Whether it’s startups looking to build their first product or enterprises aiming to optimize their digital ecosystem, the right approac",
+      "source": "Dev.to AI",
+      "published": "2026-07-08T09:13:09+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwukcx3yi984v1ixrd6wf.png"
+    },
+    {
+      "id": "071ec7e1dcdd",
+      "title": "**UK AI Weekly: Chat Control — The UK's Bold Step into AI Regulation**",
+      "url": "https://dev.to/amrree/uk-ai-weekly-chat-control-the-uks-bold-step-into-ai-regulation-3fm4",
+      "summary": "UK AI Weekly: Chat Control — The UK's Bold Step into AI Regulation\n\nImagine a world where every message you send, every meme you share, and every email you draft is scanned, analyzed, and potentially flagged by an AI. Sounds like a Black Mirror episode, right? Well, welcome to the UK's latest AI development — Chat Control 1.0 and 2.0. This isn't just another tech update; it's a seismic shift in how we approach online privacy and AI regulation. So, let's dive into what this means for you, me, and the future of digital communication.\n\nChat Control is the UK's ambitious initiative to combat illeg",
+      "source": "Dev.to AI",
+      "published": "2026-07-08T09:11:57+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2sran00raejha0knux31.png"
+    },
+    {
+      "id": "623d7e621cff",
+      "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code before Production",
+      "url": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon Web Services (AWS) has announced a major expansion of its AWS DevOps Agent, introducing new release management capabilities designed to assess code changes and autonomously test software before it reaches production. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-07T12:00:00+00:00",
+      "score": 3.71,
+      "image": "https://res.infoq.com/news/2026/07/aws-devops-ai-agent/en/headerimage/generatedHeaderImage-1783328078228.jpg"
+    },
+    {
+      "id": "6d959ded53be",
+      "title": "I Tried 6 Affiliate Programs as a Dev — Here's What Actually Paid in 2026",
+      "url": "https://dev.to/vividbeam/i-tried-6-affiliate-programs-as-a-dev-heres-what-actually-paid-in-2026-55om",
+      "summary": "I keep a Notion board called \"Money Tracker\" that I update every Sunday night with two columns — what came in and what I spent on producing it. I'm not a finance bro. I'm a backend dev with a day job who got tired of watching other devs on Twitter brag about their \"passive income\" without showing the receipts. So this year I decided to test six different affiliate programs, track every single dollar, and write up what actually works when you're a software engineer with maybe eight free hours a week.\nHere's the math.\n\n\n  \n  \n  The Setup: Six Programs, Six Months, One Spreadsheet\n\n\nBefore I get ",
+      "source": "Dev.to AI",
+      "published": "2026-07-08T09:12:02+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fga6v1x979mnzacpr3cje.png"
+    },
+    {
+      "id": "a55cda87a79b",
+      "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+      "url": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+      "summary": "The new image-generating model has numerous use cases, including advertising and decorating, and creator-based opportunities.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T22:18:10+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "3951c5268f4a",
+      "title": "ECCV: Will there be another confirmation after “provisionally accepted”? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uqj6i3/eccv_will_there_be_another_confirmation_after/",
+      "summary": "I understand that it may not be appropriate to call it “officially accepted” yet because of the wording used in the notification, and I also saw on Twitter/X that they said they are working on it. However, it has already been around three weeks since then, and we have already submitted the camera-ready version. Registration, visa applications, travel planning, and funding requests all depend on this confirmation. For some people, it is difficult or even impossible to request funding without an official acceptance letter or clear confirmation. I really hope the organizers can handle this more p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-08T05:12:13+00:00",
+      "score": 3.57,
+      "image": null
+    },
+    {
+      "id": "b52b56b1a5e0",
+      "title": "My First Post on Dev.to 🚀",
+      "url": "https://dev.to/samiksha-lone/my-first-post-on-devto-23ao",
+      "summary": "Hi everyone! 👋\n\nI'm Samiksha, student from India with a passion for building software and continuously learning new technologies.\n\nOver the past few months, I've been diving deeper into:\n\n☕ Java &amp; Backend Development\n🌐 Full-Stack Web Development\n🤖 AI &amp; Developer Tools\n🐳 Docker &amp; DevOps\n🧠 Data Structures &amp; Algorithms\n\nI realized that I spend a lot of time learning, building, and solving problems—but very little time documenting what I learn.\n\nSo I've decided to change that.\n\nI'll be using Dev.to as my learning journal, where I'll share:\n\nThings I learn while building projects\nBa",
+      "source": "Dev.to Programming",
+      "published": "2026-07-08T09:12:37+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b14479fea0d6",
+      "title": "Building High-Performance Cross-Platform Applications: Strategies That Work",
+      "url": "https://dev.to/aanal_panchal/building-high-performance-cross-platform-applications-strategies-that-work-jie",
+      "summary": "In today's digital-first economy, businesses are expected to deliver fast, reliable, and feature-rich applications across multiple platforms. Whether customers use Android, iOS, Windows, or the web, they expect a seamless experience with consistent performance. Developing separate native applications for each platform can significantly increase development costs, project timelines, and maintenance efforts. This challenge has made cross-platform application development one of the most strategic technology investments for modern businesses.\n\nHowever, simply choosing a cross-platform framework do",
+      "source": "Dev.to Programming",
+      "published": "2026-07-08T08:26:13+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "ab9402df2b87",
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-08T04:12:13+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "9a447f3429d3",
+      "title": "What if a model could only learn what trusted LoRA adapters can express? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uq68li/what_if_a_model_could_only_learn_what_trusted/",
+      "summary": "Hello I published a paper. Most defenses against fine-tuning poisoning try to detect malicious data or reduce its impact. I explored a different question: What if the model simply could not learn certain malicious updates? The idea is to constrain fine-tuning to a subspace learned from trusted LoRA adapters. Useful adaptation remains possible, but some malicious directions become geometrically unreachable. A concrete example: a company fine-tunes a model on large datasets coming from users, external sources, or generated data. A small amount of poisoned data could introduce a hidden behavior t",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-07T20:00:11+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "a6e0b9e580f8",
+      "title": "Why the rise of open source AI isn’t hurting Anthropic … yet",
+      "url": "https://techcrunch.com/2026/07/07/why-the-rise-of-open-source-ai-isnt-hurting-anthropic-yet/",
+      "summary": "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T20:04:32+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "0ff288a559a3",
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-07T11:10:52+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "d4bb1346f4ac",
+      "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+      "url": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+      "summary": "The company confirmed that the issue had been affecting accounts since May, with an additional 200 users banned over the weekend before its team identified and fixed the problem.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T19:28:38+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "bc3feb2da356",
+      "title": "TorchJD: Training with multiple losses in PyTorch [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upzxk2/torchjd_training_with_multiple_losses_in_pytorch_p/",
+      "summary": "Hi everyone! I wanted to share some recent progress on TorchJD that might be useful to the machine learning community. When training models with multiple losses (multiple tasks, constraints, auxiliary losses, regularization terms, etc.), you typically have two options:  Scalarization: Various ways to combine those losses into a single loss (e.g. average them or combine them with trainable weights); then you can do gradient descent on it. Jacobian descent: Compute the Jacobian of the vector of losses (i.e. one gradient per loss), and aggregate it into an update vector that will decrease each in",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-07T16:20:47+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "16589613c66e",
+      "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+      "summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T12:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "3ab271c5ba48",
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "summary": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T16:27:18+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "8cec0a3d654a",
+      "title": "A Production RAG Pipeline for PDFs: Relational Parsing, TOC Retrieval, Typed Answers",
+      "url": "https://towardsdatascience.com/a-production-rag-pipeline-for-pdfs-relational-parsing-toc-retrieval-typed-answers/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9A] - Same paper, same question as Article 1. One upgraded contract per brick: document parsing, question parsing, retrieval, generation\nThe post A Production RAG Pipeline for PDFs: Relational Parsing, TOC Retrieval, Typed Answers appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-07T16:30:00+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "e2be33636230",
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-07T16:10:44+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "6d05735eb774",
+      "title": "Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation",
+      "url": "https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/",
+      "summary": "A technical comparison of Proxy-Pointer and LLM-Wiki\nThe post Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-07T15:00:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "24d2caf40742",
+      "title": "Raffi Krikorian (CTO, Mozilla) — AMA on the State of Open Source AI (July 14 @ 1pm EDT) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/",
+      "summary": "Hi r/MachineLearning, i’m Raffi, CTO at Mozilla. on Tuesday July 14 we publish our inaugural State of Open Source AI report, and i'll be here live answering whatever questions you throw at me! AMA time: 1pm ET / 10am PT / 6pm BST. the report is about what's actually happening with open source AI in production — developers, enterprises, the whole ecosystem — not the version of the story everyone already believes. things i want to dig into with you:  the hidden tax on &quot;free&quot; models — what it actually costs a business to run on closed tools they don't own enterprise adoption — what's re",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-07T14:51:29+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "7e1c285b5138",
+      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
+      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine/",
+      "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-07T09:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "ec47de3f559d",
+      "title": "MIRA: Multiplayer Interactive World Models trained on Rocket League [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1upofuw/mira_multiplayer_interactive_world_models_trained/",
+      "summary": "We're happy to release MIRA, a collaboration between General Intuition, Kyutai, and Epic Games. Mira was trained on 10k hours of synthetic Rocket League data. The model has 5B parameters and runs for 4 players at 20 fps on a single B200. We've released a playable online demo, an in-depth technical report as well as a 1k hour dataset of 4-players gameplay: Demo: https://mira-wm.com Technical report: https://mira-wm.com/paper Repo: https://github.com/mira-wm/mira If you're at ICML, we're also running an interactive demo (booth 111) where you can play it with us using proper PlayStation controlle",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-07T07:59:10+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "774863ada400",
+      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
+      "url": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases of GlassFish and Micronaut; the second milestone release of Grails 8.0; and the beta release of Open Liberty 26.0.0.7. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-07-06T23:30:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "c3363958ccf3",
+      "title": "Survival Analysis for Data Drift and ML Reliability",
+      "url": "https://towardsdatascience.com/survival-analysis-for-data-drift-and-ml-reliability/",
+      "summary": "Treating model degradation as a time-to-failure problem\nThe post Survival Analysis for Data Drift and ML Reliability appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-07T12:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "d8baa3bf5199",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "summary": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's headlines suggested.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-06T23:56:14+00:00",
+      "score": 2.24,
+      "image": null
+    }
+  ]
+}
