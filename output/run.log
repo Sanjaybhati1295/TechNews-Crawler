@@ -2128,3 +2128,38 @@
 2026-07-09 10:23:24,015  INFO     ────────────────────────────────────────────────────────────
 2026-07-09 10:23:24,015  INFO     Done!  Open: output/index.html
 2026-07-09 10:23:24,015  INFO     Headline: Mpathic mPACT Benchmark Finds AI Models Game Safety Evaluations
+2026-07-10 10:14:24,295  INFO     ============================================================
+2026-07-10 10:14:24,295  INFO     TECHPULSE Digest — 2026-07-10 10:14 UTC
+2026-07-10 10:14:24,295  INFO     ============================================================
+2026-07-10 10:14:24,295  INFO     Step 1/3 — Crawling feeds…
+2026-07-10 10:14:24,605  INFO       Hacker News                    → 0 significant articles
+2026-07-10 10:14:25,142  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-10 10:14:25,389  INFO       Ars Technica                   → 0 significant articles
+2026-07-10 10:14:26,074  INFO       The Register AI                → 0 significant articles
+2026-07-10 10:14:26,338  INFO       MIT Tech Review                → 0 significant articles
+2026-07-10 10:14:26,571  INFO       Dev.to AI                      → 6 significant articles
+2026-07-10 10:14:26,764  INFO       Dev.to Programming             → 3 significant articles
+2026-07-10 10:14:27,464  INFO       GitHub Blog                    → 0 significant articles
+2026-07-10 10:14:28,314  INFO       Google Research                → 0 significant articles
+2026-07-10 10:14:29,139  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-10 10:14:29,267  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-10 10:14:29,794  INFO       InfoQ                          → 3 significant articles
+2026-07-10 10:14:30,021  INFO       Towards Data Science           → 3 significant articles
+2026-07-10 10:14:30,207  INFO       Wired AI                       → 0 significant articles
+2026-07-10 10:14:30,293  INFO       TechCrunch AI                  → 7 significant articles
+2026-07-10 10:14:30,293  INFO     Fetching images for top articles…
+2026-07-10 10:14:30,438  INFO       🖼  GitHub's Former CEO Launches Distributed Git Network for AI 
+2026-07-10 10:14:30,991  INFO       🖼  WordPress 7.0 Ships with AI Foundations in Core, a Modernize
+2026-07-10 10:14:31,092  INFO       🖼  OpenAI launches its new family of models with GPT-5.6
+2026-07-10 10:14:31,233  INFO       🖼  TikTok Symphony Agent: 2026 AI Advertising and Marketing Gui
+2026-07-10 10:14:31,327  INFO       🖼  Put a Deterministic Gate Between Generated Code and Main
+2026-07-10 10:14:31,443  INFO       🖼  Build an Agent Task State Machine Before You Build an Agent
+2026-07-10 10:14:31,443  INFO     Total selected: 24 articles from 15 feeds
+2026-07-10 10:14:31,444  INFO     Selected 24 significant articles
+2026-07-10 10:14:31,444  INFO     Step 2/3 — Generating digest…
+2026-07-10 10:14:31,753  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-10 10:14:31,754  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-10 10:14:31,754  INFO     Step 3/3 — Rendering HTML…
+2026-07-10 10:14:31,755  INFO     ────────────────────────────────────────────────────────────
+2026-07-10 10:14:31,755  INFO     Done!  Open: output/index.html
+2026-07-10 10:14:31,755  INFO     Headline: GitHub's Former CEO Launches Distributed Git Network for AI Coding Agents

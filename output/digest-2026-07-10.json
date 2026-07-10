@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "GitHub's Former CEO Launches Distributed Git Network for AI Coding Agents",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "GitHub's Former CEO Launches Distributed Git Network for AI Coding Agents (Dev.to Programming). WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools (InfoQ). OpenAI launches its new family of models with GPT-5.6 (TechCrunch AI). TikTok Symphony Agent: 2026 AI Advertising and Marketing Guide (Dev.to Programming). Put a Deterministic Gate Between Generated Code and Main (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How to Find the Optimal Coding Agent Interface (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Claude Code users should monitor Nat Friedman's distributed Git network for faster agentic coding workflows. The new network optimizes Git for AI agents, potentially reducing clone/push latency.\n\n\n\n  \n  \n  Key Takeaways\n\n\n\nClaude Code users should monitor Nat Friedman's distributed Git network for faster agentic coding workflows.\nThe new network optimizes Git for AI agents, potentially reducing clone/push latency.\n\n\n\n  \n  \n  What Changed — A New Git Network for AI Agents\n\n\nGitHub's former CEO, Nat Friedman, has launched a distributed Git network specifically designed for the agentic coding age"
+  },
+  "articles": [
+    {
+      "id": "ad5fa6870191",
+      "title": "GitHub's Former CEO Launches Distributed Git Network for AI Coding Agents",
+      "url": "https://dev.to/gentic_news/githubs-former-ceo-launches-distributed-git-network-for-ai-coding-agents-40fo",
+      "summary": "Claude Code users should monitor Nat Friedman's distributed Git network for faster agentic coding workflows. The new network optimizes Git for AI agents, potentially reducing clone/push latency.\n\n\n\n  \n  \n  Key Takeaways\n\n\n\nClaude Code users should monitor Nat Friedman's distributed Git network for faster agentic coding workflows.\nThe new network optimizes Git for AI agents, potentially reducing clone/push latency.\n\n\n\n  \n  \n  What Changed — A New Git Network for AI Agents\n\n\nGitHub's former CEO, Nat Friedman, has launched a distributed Git network specifically designed for the agentic coding age",
+      "source": "Dev.to Programming",
+      "published": "2026-07-10T09:38:13+00:00",
+      "score": 4.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8jhlzjb99je2631txagx.png"
+    },
+    {
+      "id": "73e708e09683",
+      "title": "WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools",
+      "url": "https://www.infoq.com/news/2026/07/wordpress-7-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "WordPress 7.0, released on May 20, 2026, includes new AI infrastructure, a redesigned admin interface, and updated design tools. Key features comprise an AI Client, Abilities API, and Command Palette, alongside increased PHP requirements. Community feedback is mixed, particularly regarding AI integration. Developers are advised to consult the official documentation for upgrade guidance. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-10T06:30:00+00:00",
+      "score": 4.09,
+      "image": "https://res.infoq.com/news/2026/07/wordpress-7-ai/en/headerimage/generatedHeaderImage-1782916391166.jpg"
+    },
+    {
+      "id": "3ef0940f43a3",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T22:24:24+00:00",
+      "score": 3.94,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2224158119.jpg?resize=1200,837"
+    },
+    {
+      "id": "de146b4bec74",
+      "title": "TikTok Symphony Agent: 2026 AI Advertising and Marketing Guide",
+      "url": "https://dev.to/ipfoxy/tiktok-symphony-agent-2026-ai-advertising-and-marketing-guide-1ch4",
+      "summary": "Generative AI is rapidly entering advertising and marketing scenarios, and the TikTok AI advertising assistant, Symphony Agent, has begun to transform the traditional ad production workflow. This tool supports ad creative generation, creator recommendation, content localization, and delivery optimization, helping advertisers improve content production efficiency. Combining practical operations, this article will introduce the core features and usage methods of Symphony Agent.\n\n\n  \n  \n  Ⅰ. Why Is TikTok Symphony Agent Worth Your Attention?\n\n\nAs TikTok advertising competition intensifies, brands",
+      "source": "Dev.to Programming",
+      "published": "2026-07-10T09:55:40+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsm5l0udviwsbbu1mj9jd.png"
+    },
+    {
+      "id": "4c45ae5596ff",
+      "title": "Put a Deterministic Gate Between Generated Code and Main",
+      "url": "https://dev.to/kongkong1/put-a-deterministic-gate-between-generated-code-and-main-4kld",
+      "summary": "Generated code should enter a repository through the same narrow door as human code.\n\nThat door is not “the agent said the task succeeded.” It is a deterministic sequence: inspect the patch, classify risky paths, run repository checks, require the right reviewer, and only then allow a merge.\n\nThis tutorial builds the first gate as a small POSIX shell script. It does not judge whether the implementation is correct. It rejects patches that are too large for the chosen review budget, touch sensitive paths without escalation, or contain whitespace and conflict-marker errors detected by Git.\n\n\n  \n ",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:07:56+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fr5mrr481g0zvt26rvjcq.png"
+    },
+    {
+      "id": "abd26a48100a",
+      "title": "Build an Agent Task State Machine Before You Build an Agent",
+      "url": "https://dev.to/magickong/build-an-agent-task-state-machine-before-you-build-an-agent-a9h",
+      "summary": "“The agent is working” sounds like a status, but it hides several different situations.\n\nThe task may be waiting for a worker, running a command, blocked on a question, finished successfully, failed, or canceled. If all of those cases become one Boolean called is_running, the first retry or late network response will make the program confusing.\n\nA small state machine is a useful learning project because it teaches an important AI application lesson without requiring an API key or a model. We will define the legal task states, reject impossible transitions, preserve a tiny event history, and te",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:07:18+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpk0uu22ut7obbbdo5073.png"
+    },
+    {
+      "id": "57c361499386",
+      "title": "Build the Failure Path Before You Trust an AI Task CLI",
+      "url": "https://dev.to/rivera123/build-the-failure-path-before-you-trust-an-ai-task-cli-1hcb",
+      "summary": "The first version of an AI task runner usually has one feature: run a command and stream whatever it prints.\n\nThat is enough for a demo. It is not enough to answer the questions that arrive after the demo: Did it finish? Did it time out? Which command actually ran? Was the empty output a success, a crash, or a canceled process?\n\nBefore adding a queue, dashboard, or agent framework, I want a tiny contract around the failure path. The wrapper below runs any command, enforces a deadline, preserves a bounded output tail, and writes one JSON record that another tool can inspect.\n\n\n  \n  \n  The contr",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:06:56+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "16809dd0bae6",
+      "title": "AI Calling Software for Customer Support India: How BotSense Resolves 80% of Queries Without Human Agents",
+      "url": "https://dev.to/botsense_seo/ai-calling-software-for-customer-support-india-how-botsense-resolves-80-of-queries-without-human-54m5",
+      "summary": "Indian businesses spend Rs.35–80 per customer support call — and still can't resolve most queries on the first contact. BotSense AI Calling Software changes that.\n\n\n  \n  \n  What BotSense Does\n\n\nBotSense is an AI-powered calling platform built for Indian businesses. Founded by Mohit Nagwani in Indore in 2021, it has served 500+ clients across e-commerce, BFSI, healthcare, and SaaS.\n\nKey stat: 80% of customer queries resolved without any human agent.\n\n\n  \n  \n  Why Legacy IVR Fails\n\n\nTraditional IVR forces customers through frustrating menus. By the time they reach a human agent, they're already ",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:06:45+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "9ffafa51e70c",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T19:05:58+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "c7b6b7f975e9",
+      "title": "Should Your Team Self-Host AI Coding? A MonkeyCode Scorecard",
+      "url": "https://dev.to/bestbee/should-your-team-self-host-ai-coding-a-monkeycode-scorecard-2a3o",
+      "summary": "“Can we self-host it?” is a feature question. “Should we operate it?” is a product and organizational question.\n\nTeams often jump from a privacy concern to a deployment decision without pricing the new responsibilities: identity, upgrades, model access, development environments, incident response, adoption, and support. The reverse mistake also happens: a team buys a hosted tool, then discovers that its data boundary or workflow cannot pass review.\n\nThis scorecard turns that argument into a decision process. I use MonkeyCode as a concrete candidate because its official repository documents bot",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:07:39+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "9895aa9dbeb9",
+      "title": "Threat-Modeling MonkeyCode as a Self-Hosted AI Coding Platform",
+      "url": "https://dev.to/jaryn_123/threat-modeling-monkeycode-as-a-self-hosted-ai-coding-platform-kap",
+      "summary": "Self-hosting changes who operates an AI coding platform. It does not make the platform trusted by default.\n\nAn AI development task can combine repository content, model output, shell commands, credentials, package registries, preview servers, and human approval. That is a much larger authority surface than a chat box. The useful security question is not “is it open source?” It is “which input can cause which side effect across which trust boundary?”\n\nThis article uses MonkeyCode as a worked example because its public README describes private deployment, managed development environments, model ",
+      "source": "Dev.to AI",
+      "published": "2026-07-10T10:06:35+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "19e3fcc84105",
+      "title": "AI release governance Diagnostic Start route",
+      "url": "https://dev.to/yash_pritwani_07a77613fd6/ai-release-governance-diagnostic-start-route-4f14",
+      "summary": "Originally published on TechSaaS Cloud\n\n\n\n\n*Originally published on [TechSaaS Cloud](https://www.techsaas.cloud/blog/ai-release-governance-diagnostic-route?utm_source=devto&amp;utm_medium=article&amp;utm_campaign=ai-release-governance-diagnostic-route%29%2A&amp;utm_content=devto-ai-release-governance-diagnostic-route-2026-07-09\n\n\n\n\nAI product owners lose release governance when search visitors open a guide modal but never start a download, contact route, or owner-led diagnostic.\n\nResponse route snapshot\n\n\n\n\nRoute field\nWhat must be visible before publishing\nBuyer risk if blank\n\n\n\n\nCurrent trig",
+      "source": "Dev.to Programming",
+      "published": "2026-07-10T10:00:10+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "1102606327ec",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "summary": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T21:57:42+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "a36412eeb0d5",
+      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+      "summary": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T18:22:39+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "ebb3fed47002",
+      "title": "Hyperparameter tuning approach question [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1usa46w/hyperparameter_tuning_approach_question_r/",
+      "summary": "I am doing some work with cell type classification, where I have 4.3 million cells and 512 features (condensed embeddings from the encoder of a transformer). The broader goal is to implement a contextual bandit for augmenting the training set of the dataset, as it is currently imbalanced, and rare cell type classification is poor when I tried a baseline logistic regression classifier. Dataset: Feature matrix shape: (4290471, 512) Labels shape: (4290471,)  Class distribution: T cell 1966941 DC 858451 NK cell 561904 Monocyte 411170 B cell 375882 Platelet 54576 Progenitor cell 24689 ILC 24254 Ery",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-10T01:55:38+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "74373d58321c",
+      "title": "Talos-XII: hand-written autograd + small RL/MLP stack in Rust, applied to gacha probability modeling (no tch-rs/ndarray/PyTorch) — looking for benchmark help on ARM/AVX-512/GPU [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1urvxgb/talosxii_handwritten_autograd_small_rlmlp_stack/",
+      "summary": "What it is Talos-XII is a CLI simulator for the gacha system in Arknights: Endfield. Rather than sampling from a static probability table, it trains a small set of neural nets to model environment uncertainty and pull-decision policy, then uses them to answer questions a static table can’t easily express — e.g. “as a F2P player, what’s my probability of getting the rate-up unit on free currency alone?” or “given my current pity count, should I keep pulling or save for the next banner?” Models (trained on first run, ~30-45s, then cached to disk) • EnvNet — small MLP fitting an environment noise",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-09T16:52:11+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "319e1890fcfa",
+      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "summary": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T18:34:35+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "925e9a59def1",
+      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "summary": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T13:00:00+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "55f260f226bd",
+      "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+      "summary": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T12:00:00+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "10aeb01484d2",
+      "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+      "url": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-level crash analysis rather than examining individual core dumps. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-09T10:15:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "630e0567f5f6",
+      "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy",
+      "url": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
+      "summary": "A measured look at distributed training, from DDP and FSDP to the ZeRO stages in between, and why the wiring between your GPUs matters as much as the strategy you choose\nThe post Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-09T16:30:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "3030e7a49dd4",
+      "title": "How to Find the Optimal Coding Agent Interface",
+      "url": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
+      "summary": "Find the optimal way to interact with your coding agents\nThe post How to Find the Optimal Coding Agent Interface appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-09T15:00:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "4df2fbeb58a6",
+      "title": "Where Does an AI’s Personality Actually Come From?",
+      "url": "https://towardsdatascience.com/where-does-an-ais-personality-actually-come-from/",
+      "summary": "They aren’t designed, you can’t help perceiving one anyway, and that makes them an engineering problem almost no one is solving.\nThe post Where Does an AI’s Personality Actually Come From? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-09T12:00:00+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "944416fe5b12",
+      "title": "The Kubernetes Approach to AI-Assisted Maintainership Prioritises Human Accountability",
+      "url": "https://www.infoq.com/news/2026/07/kubernetes-ai-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Kubernetes community has introduced a framework for integrating AI into open-source maintainership, emphasising human accountability in code quality and oversight. AI tools may streamline workflows, but ultimate responsibility lies with human maintainers. The framework requires disclosure of AI usage in contributions and prohibits AI-generated commit messages. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-07-09T07:07:00+00:00",
+      "score": 2.19,
+      "image": null
+    }
+  ]
+}
