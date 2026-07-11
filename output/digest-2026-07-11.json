@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory? (Dev.to AI). AI Agents for Finance Workflow Automation: The 2026 CFO Deployment Guide (Dev.to AI). Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment (InfoQ). Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered  Threats (InfoQ). Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Better tools made Copilot code review worse. Here’s how we actually improved it. (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?\n\n\nMem0, Letta, and Zep are the three most-adopted open-source memory layers for AI agents, and they solve fundamentally different problems. Mem0 is a universal memory API — add, update, delete, retrieve — designed to drop into any agent with minimal integration. Letta (formerly MemGPT) is a stateful agent operating system that manages memory in tiers the agent itself can edit, inspired by OS memory management. Zep (with its Graphiti engine) stores memory as a temporal knowledge graph, preserving when facts were learned and how they r"
+  },
+  "articles": [
+    {
+      "id": "bab890c395ea",
+      "title": "Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?",
+      "url": "https://dev.to/plur9/mem0-vs-letta-vs-zep-which-should-you-use-for-agent-memory-1n8m",
+      "summary": "Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?\n\n\nMem0, Letta, and Zep are the three most-adopted open-source memory layers for AI agents, and they solve fundamentally different problems. Mem0 is a universal memory API — add, update, delete, retrieve — designed to drop into any agent with minimal integration. Letta (formerly MemGPT) is a stateful agent operating system that manages memory in tiers the agent itself can edit, inspired by OS memory management. Zep (with its Graphiti engine) stores memory as a temporal knowledge graph, preserving when facts were learned and how they r",
+      "source": "Dev.to AI",
+      "published": "2026-07-11T08:31:18+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F69x6ueh9un2j5bbo7m5k.png"
+    },
+    {
+      "id": "87eb425b691d",
+      "title": "AI Agents for Finance Workflow Automation: The 2026 CFO Deployment Guide",
+      "url": "https://dev.to/aarhamforensics_eb3c024eb/ai-agents-for-finance-workflow-automation-the-2026-cfo-deployment-guide-7c0",
+      "summary": "Originally published at twarx.com - read the full interactive version there.\n\nLast Updated: July 11, 2026\n\nYour finance team isn't slow because your people are inefficient — it's slow because your software was designed for humans, not agents. By 2026, every AP workflow still requiring a human to open an email, match an invoice, or compile a variance report is a liability. Deploying AI agents for finance workflow automation is now the clearest line between finance teams that compound and finance teams that fall behind quarter over quarter.\n\nThis is a systems guide — using real frameworks (LangG",
+      "source": "Dev.to AI",
+      "published": "2026-07-11T08:20:10+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6q8nd6x4tt68l0t7xx8n.png"
+    },
+    {
+      "id": "2359a6243649",
+      "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has recently introduced temporary accounts that let AI agents deploy Cloudflare Workers immediately, without first creating or authenticating with a permanent account. If left unclaimed, the accounts and their deployments expire automatically after 60 minutes. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-10T15:16:00+00:00",
+      "score": 3.53,
+      "image": "https://res.infoq.com/news/2026/07/cloudflare-temp-accounts/en/headerimage/generatedHeaderImage-1782506205282.jpg"
+    },
+    {
+      "id": "545cbcc1ca7c",
+      "title": "Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered  Threats",
+      "url": "https://www.infoq.com/news/2026/07/akrites-open-source-ai-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Linux Foundation has launched Akrites, a new industry-wide initiative aimed at defending the world's most critical open source software against a rapidly evolving generation of AI-enabled cyber threats. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-10T12:00:00+00:00",
+      "score": 3.45,
+      "image": "https://res.infoq.com/news/2026/07/akrites-open-source-ai-threats/en/headerimage/generatedHeaderImage-1783328525989.jpg"
+    },
+    {
+      "id": "c74633a89950",
+      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
+      "url": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Agentic testing is an AI-driven approach to end-to-end test automation introduced by Slack engineering. It uses AI agents that execute workflows based on intent rather than fixed scripts, adapting to UI and system changes at runtime. The approach aims to reduce brittle tests in distributed systems while complementing deterministic unit, integration, and E2E testing strategies. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-07-10T13:48:00+00:00",
+      "score": 3.35,
+      "image": "https://res.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/en/card_header_image/generatedCard-1782244608075.jpg"
+    },
+    {
+      "id": "c6175885a647",
+      "title": "Open source AI matters more than ever, according to Hugging Face’s Clem Delangue",
+      "url": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+      "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T19:00:00+00:00",
+      "score": 3.14,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/11f5fd43-3e13-4313-a003-9d36a81e3fde.png?resize=1200,602"
+    },
+    {
+      "id": "8f799535c0d6",
+      "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence.\nThe post Better tools made Copilot code review worse. Here&#8217;s how we actually improved it. appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-10T15:57:47+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "18141515c38c",
+      "title": "SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "summary": "The AI chip boom just produced its biggest Wall Street moment yet. Now SK Hynix and Samsung are being asked to build U.S. factories.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T17:17:12+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "33cb29d0b7da",
+      "title": "Hugging Face’s CEO on why companies are done renting their AI",
+      "url": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+      "summary": "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue. The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500. Delangue has seen the same story play out again and again: companies start [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-10T14:00:00+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "73e708e09683",
+      "title": "WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools",
+      "url": "https://www.infoq.com/news/2026/07/wordpress-7-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "WordPress 7.0, released on May 20, 2026, includes new AI infrastructure, a redesigned admin interface, and updated design tools. Key features comprise an AI Client, Abilities API, and Command Palette, alongside increased PHP requirements. Community feedback is mixed, particularly regarding AI integration. Developers are advised to consult the official documentation for upgrade guidance. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-10T06:30:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "b073f5009b5b",
+      "title": "Snails' teeth beats spider silk as nature's strongest material (2015)",
+      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-10T16:37:52+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "3ef0940f43a3",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T22:24:24+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "56b1150354de",
+      "title": "RAG Was Always a Temporary Workaround. What is Next?",
+      "url": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
+      "summary": "Vector databases are a temporary bridge. Discover why the next AI infrastructure revolution relies on persistent neural state and strict latency budgets, not on vector databases.\nThe post RAG Was Always a Temporary Workaround. What is Next? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-10T13:30:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "5e1e10c34a4b",
+      "title": "The Big Con of Agentic AI",
+      "url": "https://towardsdatascience.com/the-big-con-of-agentic-ai/",
+      "summary": "What our over-dependence on external consulting teaches us about delegating our minds to machines\nThe post The Big Con of Agentic AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-10T12:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "1102606327ec",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "summary": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-09T21:57:42+00:00",
+      "score": 2.17,
+      "image": null
+    },
+    {
+      "id": "ebb3fed47002",
+      "title": "Hyperparameter tuning approach question [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1usa46w/hyperparameter_tuning_approach_question_r/",
+      "summary": "I am doing some work with cell type classification, where I have 4.3 million cells and 512 features (condensed embeddings from the encoder of a transformer). The broader goal is to implement a contextual bandit for augmenting the training set of the dataset, as it is currently imbalanced, and rare cell type classification is poor when I tried a baseline logistic regression classifier. Dataset: Feature matrix shape: (4290471, 512) Labels shape: (4290471,)  Class distribution: T cell 1966941 DC 858451 NK cell 561904 Monocyte 411170 B cell 375882 Platelet 54576 Progenitor cell 24689 ILC 24254 Ery",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-10T01:55:38+00:00",
+      "score": 2.09,
+      "image": null
+    }
+  ]
+}

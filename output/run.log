@@ -2163,3 +2163,38 @@
 2026-07-10 10:14:31,755  INFO     ────────────────────────────────────────────────────────────
 2026-07-10 10:14:31,755  INFO     Done!  Open: output/index.html
 2026-07-10 10:14:31,755  INFO     Headline: GitHub's Former CEO Launches Distributed Git Network for AI Coding Agents
+2026-07-11 08:42:00,733  INFO     ============================================================
+2026-07-11 08:42:00,733  INFO     TECHPULSE Digest — 2026-07-11 08:42 UTC
+2026-07-11 08:42:00,734  INFO     ============================================================
+2026-07-11 08:42:00,734  INFO     Step 1/3 — Crawling feeds…
+2026-07-11 08:42:01,094  INFO       Hacker News                    → 1 significant articles
+2026-07-11 08:42:01,391  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-11 08:42:01,614  INFO       Ars Technica                   → 0 significant articles
+2026-07-11 08:42:02,495  INFO       The Register AI                → 0 significant articles
+2026-07-11 08:42:02,626  INFO       MIT Tech Review                → 0 significant articles
+2026-07-11 08:42:02,865  INFO       Dev.to AI                      → 2 significant articles
+2026-07-11 08:42:03,059  INFO       Dev.to Programming             → 0 significant articles
+2026-07-11 08:42:03,402  INFO       GitHub Blog                    → 1 significant articles
+2026-07-11 08:42:04,258  INFO       Google Research                → 0 significant articles
+2026-07-11 08:42:04,905  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-07-11 08:42:04,968  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-11 08:42:05,476  INFO       InfoQ                          → 4 significant articles
+2026-07-11 08:42:05,685  INFO       Towards Data Science           → 2 significant articles
+2026-07-11 08:42:05,905  INFO       Wired AI                       → 0 significant articles
+2026-07-11 08:42:06,050  INFO       TechCrunch AI                  → 5 significant articles
+2026-07-11 08:42:06,050  INFO     Fetching images for top articles…
+2026-07-11 08:42:06,128  INFO       🖼  Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?
+2026-07-11 08:42:06,183  INFO       🖼  AI Agents for Finance Workflow Automation: The 2026 CFO Depl
+2026-07-11 08:42:06,747  INFO       🖼  Cloudflare Introduces Temporary Accounts for Autonomous Work
+2026-07-11 08:42:07,248  INFO       🖼  Linux Foundation Launches Akrites to Protect Critical Open S
+2026-07-11 08:42:07,835  INFO       🖼  Slack Introduces Agent Driven End-to-End Testing to Improve 
+2026-07-11 08:42:07,894  INFO       🖼  Open source AI matters more than ever, according to Hugging 
+2026-07-11 08:42:07,895  INFO     Total selected: 16 articles from 15 feeds
+2026-07-11 08:42:07,895  INFO     Selected 16 significant articles
+2026-07-11 08:42:07,895  INFO     Step 2/3 — Generating digest…
+2026-07-11 08:42:08,504  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-11 08:42:08,505  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-11 08:42:08,505  INFO     Step 3/3 — Rendering HTML…
+2026-07-11 08:42:08,506  INFO     ────────────────────────────────────────────────────────────
+2026-07-11 08:42:08,506  INFO     Done!  Open: output/index.html
+2026-07-11 08:42:08,506  INFO     Headline: Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?
