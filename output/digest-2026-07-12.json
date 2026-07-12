@@ -1,0 +1,75 @@
+{
+  "digest": {
+    "headline": "AI-search checklist for Kickstarter prelaunch pages",
+    "tldr": "Today's digest covers 6 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI-search checklist for Kickstarter prelaunch pages (Dev.to AI). Claude Code, Beyond the Prompt — Part 5: Why I Stopped Letting Claude grep (Semantic Code Search) (Dev.to AI). Changes to LLM pricing: Novita (Dev.to AI). VultronRetriever family of models released on HuggingFace![R] (Reddit r/MachineLearning). Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "A Kickstarter prelaunch page is usually treated like a lightweight landing page. That is too small a job description. For hardware, design, and consumer product teams, it also becomes a trust document that people and AI search tools use to understand whether the project is specific, credible, and worth watching.\n\nThe short version: measure trust signals before you measure only email count. A large list with weak context is fragile. A smaller list that comes from people who understand the product, the risks, and the launch timeline is more useful.\n\n\n  \n  \n  The four signals I would check first\n"
+  },
+  "articles": [
+    {
+      "id": "dda1f49ca2e1",
+      "title": "AI-search checklist for Kickstarter prelaunch pages",
+      "url": "https://dev.to/sharkomode_bc138f5c236a34/ai-search-checklist-for-kickstarter-prelaunch-pages-2cg9",
+      "summary": "A Kickstarter prelaunch page is usually treated like a lightweight landing page. That is too small a job description. For hardware, design, and consumer product teams, it also becomes a trust document that people and AI search tools use to understand whether the project is specific, credible, and worth watching.\n\nThe short version: measure trust signals before you measure only email count. A large list with weak context is fragile. A smaller list that comes from people who understand the product, the risks, and the launch timeline is more useful.\n\n\n  \n  \n  The four signals I would check first\n",
+      "source": "Dev.to AI",
+      "published": "2026-07-12T08:43:20+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5tps7nqpop0fnfqut2fa.png"
+    },
+    {
+      "id": "b5116a4f79c9",
+      "title": "Claude Code, Beyond the Prompt — Part 5: Why I Stopped Letting Claude grep (Semantic Code Search)",
+      "url": "https://dev.to/gde03/claude-code-beyond-the-prompt-part-5-why-i-stopped-letting-claude-grep-semantic-code-search-1n4e",
+      "summary": "Part 5 of Claude Code, Beyond the Prompt — patterns from running a live automated trading system on Claude Code. Part 4: your first MCP server.\n\n\n\n\nAsk Claude \"where do we handle failed payments?\" and watch what it does.\n\nIt greps for payment. Too many hits. It greps for failed. Different too-many hits. It tries retry, then decline, then reads six files looking for the one function that's actually named process_declined_charge. It gets there eventually — but it burned tokens and wall-clock time spelunking, and here's the scary part: if your code used different vocabulary than your question, it",
+      "source": "Dev.to AI",
+      "published": "2026-07-12T08:40:54+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6xq4qlxn1rri2noe9som.png"
+    },
+    {
+      "id": "b8680bec2fe7",
+      "title": "Changes to LLM pricing: Novita",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-novita-28hg",
+      "summary": "Model price changes detected for Novita. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-07-12T08:39:29+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2FelGD6ctSsh.png"
+    },
+    {
+      "id": "1cb9d73a62ae",
+      "title": "VultronRetriever family of models released on HuggingFace![R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+      "summary": "Thrilled to announce the VultronRetriever family of models, which were revealed during Raise Summit Paris and demonstrated running Q&amp;A and embedding documents on the iPhone, fully offline! 📱 Some highlights from the VultronRetriever model family: 🥇 Each model ranks #1 in its respective class on the MTEB Leaderboard, with VultronRetrieverPrime-8B as the global #1 📦 VultronRetrieverPrime-8B has up to 16x smaller index storage footprint and 12x higher throughput versus previous 9B-class leaders 🎯 VultronRetrieverCore-4.5B ranks second only to Prime on the leaderboard, outperforming models twi",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-11T15:22:33+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "8922d74314cd",
+      "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+      "url": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+      "summary": "LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality. This article introduces a deterministic prompt-pruning layer that reduces token usage without breaking dependencies, backed by real benchmarks and production-tested design.\nThe post Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-11T15:00:00+00:00",
+      "score": 3.3,
+      "image": "https://towardsdatascience.com/wp-content/uploads/2026/07/Pruning-prompts-into-AI-flow.jpg"
+    },
+    {
+      "id": "506428a293f7",
+      "title": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
+      "url": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
+      "summary": "The best AI models still hallucinate. These hallucinations are sometimes funny, and sometimes cause actual damage. In this post we will consider recent tales of AI hallucinations, and then look under the hood to understand why they happen.\nThe post That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-11T13:00:00+00:00",
+      "score": 2.39,
+      "image": "https://towardsdatascience.com/wp-content/uploads/2026/07/gilang-fahmi-H4K_5qxu_9w-unsplash-scaled-1.jpg"
+    }
+  ]
+}

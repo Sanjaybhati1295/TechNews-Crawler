@@ -2198,3 +2198,37 @@
 2026-07-11 08:42:08,506  INFO     ────────────────────────────────────────────────────────────
 2026-07-11 08:42:08,506  INFO     Done!  Open: output/index.html
 2026-07-11 08:42:08,506  INFO     Headline: Mem0 vs Letta vs Zep: Which Should You Use for Agent Memory?
+2026-07-12 08:57:55,249  INFO     ============================================================
+2026-07-12 08:57:55,249  INFO     TECHPULSE Digest — 2026-07-12 08:57 UTC
+2026-07-12 08:57:55,250  INFO     ============================================================
+2026-07-12 08:57:55,250  INFO     Step 1/3 — Crawling feeds…
+2026-07-12 08:57:55,571  INFO       Hacker News                    → 0 significant articles
+2026-07-12 08:57:55,795  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-12 08:57:55,901  INFO       Ars Technica                   → 0 significant articles
+2026-07-12 08:57:56,351  INFO       The Register AI                → 0 significant articles
+2026-07-12 08:57:56,474  INFO       MIT Tech Review                → 0 significant articles
+2026-07-12 08:57:56,592  INFO       Dev.to AI                      → 3 significant articles
+2026-07-12 08:57:56,749  INFO       Dev.to Programming             → 0 significant articles
+2026-07-12 08:57:56,885  INFO       GitHub Blog                    → 0 significant articles
+2026-07-12 08:57:57,511  INFO       Google Research                → 0 significant articles
+2026-07-12 08:57:58,226  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-07-12 08:57:58,277  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-12 08:57:58,981  INFO       InfoQ                          → 0 significant articles
+2026-07-12 08:57:59,178  INFO       Towards Data Science           → 2 significant articles
+2026-07-12 08:57:59,379  INFO       Wired AI                       → 0 significant articles
+2026-07-12 08:57:59,506  INFO       TechCrunch AI                  → 0 significant articles
+2026-07-12 08:57:59,506  INFO     Fetching images for top articles…
+2026-07-12 08:57:59,606  INFO       🖼  AI-search checklist for Kickstarter prelaunch pages
+2026-07-12 08:57:59,644  INFO       🖼  Claude Code, Beyond the Prompt — Part 5: Why I Stopped Letti
+2026-07-12 08:57:59,725  INFO       🖼  Changes to LLM pricing: Novita
+2026-07-12 08:57:59,895  INFO       🖼  Long Context Isn’t Free — I Built a Safe Prompt-Pruning Laye
+2026-07-12 08:58:00,046  INFO       🖼  That Is Embarrassing: Why Frontier AI Still Makes Things Up,
+2026-07-12 08:58:00,046  INFO     Total selected: 6 articles from 15 feeds
+2026-07-12 08:58:00,046  INFO     Selected 6 significant articles
+2026-07-12 08:58:00,046  INFO     Step 2/3 — Generating digest…
+2026-07-12 08:58:00,353  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-12 08:58:00,353  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-12 08:58:00,353  INFO     Step 3/3 — Rendering HTML…
+2026-07-12 08:58:00,354  INFO     ────────────────────────────────────────────────────────────
+2026-07-12 08:58:00,354  INFO     Done!  Open: output/index.html
+2026-07-12 08:58:00,354  INFO     Headline: AI-search checklist for Kickstarter prelaunch pages
