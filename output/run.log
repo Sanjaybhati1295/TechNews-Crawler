@@ -2232,3 +2232,36 @@
 2026-07-12 08:58:00,354  INFO     ────────────────────────────────────────────────────────────
 2026-07-12 08:58:00,354  INFO     Done!  Open: output/index.html
 2026-07-12 08:58:00,354  INFO     Headline: AI-search checklist for Kickstarter prelaunch pages
+2026-07-13 10:15:52,399  INFO     ============================================================
+2026-07-13 10:15:52,399  INFO     TECHPULSE Digest — 2026-07-13 10:15 UTC
+2026-07-13 10:15:52,399  INFO     ============================================================
+2026-07-13 10:15:52,399  INFO     Step 1/3 — Crawling feeds…
+2026-07-13 10:15:52,630  INFO       Hacker News                    → 0 significant articles
+2026-07-13 10:15:53,071  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-13 10:15:53,247  INFO       Ars Technica                   → 0 significant articles
+2026-07-13 10:15:54,088  INFO       The Register AI                → 0 significant articles
+2026-07-13 10:15:54,280  INFO       MIT Tech Review                → 0 significant articles
+2026-07-13 10:15:54,497  INFO       Dev.to AI                      → 1 significant articles
+2026-07-13 10:15:55,003  INFO       Dev.to Programming             → 0 significant articles
+2026-07-13 10:15:55,335  INFO       GitHub Blog                    → 0 significant articles
+2026-07-13 10:15:56,296  INFO       Google Research                → 0 significant articles
+2026-07-13 10:15:57,144  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-07-13 10:15:57,256  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-13 10:15:57,642  INFO       InfoQ                          → 1 significant articles
+2026-07-13 10:15:57,982  INFO       Towards Data Science           → 2 significant articles
+2026-07-13 10:15:58,305  INFO       Wired AI                       → 0 significant articles
+2026-07-13 10:15:58,466  INFO       TechCrunch AI                  → 0 significant articles
+2026-07-13 10:15:58,466  INFO     Fetching images for top articles…
+2026-07-13 10:15:58,875  INFO       🖼  How to Build More Resilient Local-First Applications With AT
+2026-07-13 10:15:59,149  INFO       🖼  Why VPN Users Delete Apps After One Bad Connection
+2026-07-13 10:15:59,462  INFO       🖼  RAG vs Fine-Tuning Explained: What They Actually Do and When
+2026-07-13 10:15:59,632  INFO       🖼  How to Orchestrate 100+ Agents With Claude Code
+2026-07-13 10:15:59,632  INFO     Total selected: 8 articles from 15 feeds
+2026-07-13 10:15:59,633  INFO     Selected 8 significant articles
+2026-07-13 10:15:59,633  INFO     Step 2/3 — Generating digest…
+2026-07-13 10:16:00,251  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-13 10:16:00,251  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-13 10:16:00,251  INFO     Step 3/3 — Rendering HTML…
+2026-07-13 10:16:00,252  INFO     ────────────────────────────────────────────────────────────
+2026-07-13 10:16:00,253  INFO     Done!  Open: output/index.html
+2026-07-13 10:16:00,253  INFO     Headline: How to Build More Resilient Local-First Applications With AT Protocol Infrastructure

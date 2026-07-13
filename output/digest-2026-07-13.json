@@ -1,0 +1,95 @@
+{
+  "digest": {
+    "headline": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
+    "tldr": "Today's digest covers 8 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure (InfoQ). Evaluating J-space entropy as an error predictor across 7 datasets on Qwen3-4B [R] (Reddit r/MachineLearning). Why VPN Users Delete Apps After One Bad Connection (Dev.to AI). Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P] (Reddit r/MachineLearning). RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Jake Lazaroff discussed the AT Protocol as a framework for distributed applications beyond social networking. He emphasised a local-first architecture where users maintain data in PDSs while leveraging shared infrastructure for synchronisation and updates. The presentation included experiments showcasing collaborative tools and highlighted the benefits of reduced reliance on app-specific backends. By Olimpiu Pop"
+  },
+  "articles": [
+    {
+      "id": "b74dd2fa49de",
+      "title": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
+      "url": "https://www.infoq.com/news/2026/07/atproto-webapp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jake Lazaroff discussed the AT Protocol as a framework for distributed applications beyond social networking. He emphasised a local-first architecture where users maintain data in PDSs while leveraging shared infrastructure for synchronisation and updates. The presentation included experiments showcasing collaborative tools and highlighted the benefits of reduced reliance on app-specific backends. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-07-13T07:07:00+00:00",
+      "score": 4.03,
+      "image": "https://res.infoq.com/news/2026/07/atproto-webapp/en/card_header_image/generatedCard-1783922045026.jpg"
+    },
+    {
+      "id": "e9ef9239961e",
+      "title": "Evaluating J-space entropy as an error predictor across 7 datasets on Qwen3-4B [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/",
+      "summary": "Anthropic’s Jacobian Lens work introduced a way to inspect verbalizable representations inside language models. Follow-up experiments suggested that entropy in this internal “workspace” might help identify confidently incorrect answers. I tested that hypothesis on Qwen3-4B across ~11,400 examples from seven distinct datasets, including TriviaQA, PopQA, NQ-Open, TruthfulQA, HotpotQA, GSM8K, and CommonSenseQA. Three main findings:  It can complement output confidence on factual retrieval.   On datasets such as PopQA, workspace entropy sometimes improved error-routing precision at low review budg",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-13T08:27:09+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "08df1c318fe5",
+      "title": "Why VPN Users Delete Apps After One Bad Connection",
+      "url": "https://dev.to/fyre_way_8aa340ac6df987c1/why-vpn-users-delete-apps-after-one-bad-connection-1k7i",
+      "summary": "Introduction: One Failed Connection Can End the Relationship\n\n\nA VPN user does not always delete an app because the design is weak, the pricing is high, or the feature list is incomplete. Many times, they delete it because the app fails at the exact moment they expect it to protect them. They open the app, tap connect, wait for the VPN to respond, and instead of confidence, they see a spinning loader, failed server, unstable location, or slow connection that makes them question the entire product.\nThis is what makes VPN apps different from ordinary apps. A normal app can fail and still get ano",
+      "source": "Dev.to AI",
+      "published": "2026-07-13T10:02:20+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnm787q7w6wa5efg6x3h3.png"
+    },
+    {
+      "id": "cdd5972918cf",
+      "title": "Zer0Fit: I took Google's new TabFM & TimesFM ML foundation models and made them available as an MCP server for zero-shot ML tasks (forecasts / classifications / regressions). 100% local. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uue8cc/zer0fit_i_took_googles_new_tabfm_timesfm_ml/",
+      "summary": "TL:DR: I’m a grad student in AI, I saw that Google released TabFM and TimesFM last week, I built an MCP wrapper to serve both transformer models in a single Docker container so you can connect their new ML transformer models to a local LLM via Open WebUI, Claude Code, or Codex and do ML tasks that would have previously required building, training, and tuning ML models to do. Tested with classic ML datasets (Iris, California Housing, etc), Pretty solid scores for accuracy for being zero-shot: (94.7% for Iris) and R2 of 0.91 for regression test) vs. traditionally tuned ML models. You need about ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-12T12:32:29+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "97dbae19cddd",
+      "title": "RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each",
+      "url": "https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/",
+      "summary": "Two techniques, two different problems, and why the question is not really \"which one wins\"\nThe post RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-12T15:00:00+00:00",
+      "score": 2.83,
+      "image": "https://towardsdatascience.com/wp-content/uploads/2026/07/02F4CE50-0A1C-4278-9172-AD5748DF6FEA.jpg"
+    },
+    {
+      "id": "6ba0f9b2e08e",
+      "title": "How to Orchestrate 100+ Agents With Claude Code",
+      "url": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
+      "summary": "Run 100+ agents in parallel\nThe post How to Orchestrate 100+ Agents With Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-12T13:00:00+00:00",
+      "score": 2.52,
+      "image": "https://towardsdatascience.com/wp-content/uploads/2026/07/orchestrating-100-agents_cover.jpg"
+    },
+    {
+      "id": "eadd41c1ee13",
+      "title": "Where to publish a construction BIM Benchmark? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uufp11/where_to_publish_a_construction_bim_benchmark_d/",
+      "summary": "Hey! I'm an ML Engineer at a startup building AI for construction cost estimation, and we're getting ready to publish some research. We've paid professional construction estimators to create item-level takeoffs from construction drawing sets, then had multiple rounds of review with construction specialists to make sure the annotations are as accurate as possible. The idea is to release the benchmark publicly so anyone can test their own models against it and compare them with the approaches we've developed. The problem is that I'm having a hard time figuring out where to submit this work. I ha",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-12T13:36:08+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "daef98f73352",
+      "title": "Obtaining Irregular Learning Curves with HyberBand Tuned ANN model for Price Prediction [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uud3qj/obtaining_irregular_learning_curves_with/",
+      "summary": "I have used Hyperband automatic tuning for an ANN model to predict price. After running HyberBand automatic tuning to get the 'best' architecture, I am obtaining a strange Val/Training loss learning curve. I cannot figure out if this is due to an error within the code or just a case of me not understanding the graph and not be able to interpret why the graph is showing as it is. I am also obtaining an R2 score of 1.00 which may suggest overfitting. I've not come across a learning curve (only shown the most basic learning curves at Uni) such as this as of yet so any advice would be greatly appr",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-12T11:38:41+00:00",
+      "score": 2.34,
+      "image": null
+    }
+  ]
+}
