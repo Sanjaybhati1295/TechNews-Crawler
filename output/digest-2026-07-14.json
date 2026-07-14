@@ -1,0 +1,215 @@
+{
+  "digest": {
+    "headline": "If You Learn Slowly Enough, You Won’t Need to Learn Anything—Applying the TabFM Prediction Framework to Quantitative Trading",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "If You Learn Slowly Enough, You Won’t Need to Learn Anything—Applying the TabFM Prediction Framework to Quantitative Trading (Dev.to AI). [N] AMA Reminder: Raffi Krikorian (CTO, Mozilla) (Reddit r/MachineLearning). AI Legacy Code Migration in 2026: How It Works and Which Tools Fit (Dev.to AI). Flash Attention on Android (Dev.to Programming). Hermes agent maker Nous Research in talks for new funding at $1.5B valuation (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "Recently, Google Research released TabFM, a foundation model designed for tabular classification and regression tasks.\n\nIt attempts to compress model training, hyperparameter search, and complex feature engineering in traditional tabular machine learning into a more direct workflow: give the model a set of labeled historical samples, provide one new row, and let the model make a prediction in context. (Google Research)\n\nWhen I first saw this framework, the first application that came to mind was quantitative trading.\n\n\nQuantitative research has always been about producing tables. Candlestick d"
+  },
+  "articles": [
+    {
+      "id": "d42a4b6a510b",
+      "title": "If You Learn Slowly Enough, You Won’t Need to Learn Anything—Applying the TabFM Prediction Framework to Quantitative Trading",
+      "url": "https://dev.to/quant001/if-you-learn-slowly-enough-you-wont-need-to-learn-anything-applying-the-tabfm-prediction-42e8",
+      "summary": "Recently, Google Research released TabFM, a foundation model designed for tabular classification and regression tasks.\n\nIt attempts to compress model training, hyperparameter search, and complex feature engineering in traditional tabular machine learning into a more direct workflow: give the model a set of labeled historical samples, provide one new row, and let the model make a prediction in context. (Google Research)\n\nWhen I first saw this framework, the first application that came to mind was quantitative trading.\n\n\nQuantitative research has always been about producing tables. Candlestick d",
+      "source": "Dev.to AI",
+      "published": "2026-07-14T08:56:20+00:00",
+      "score": 4.3,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgmj5e1nezz386mpmileh.png"
+    },
+    {
+      "id": "5c1b88fd7fcb",
+      "title": "[N] AMA Reminder: Raffi Krikorian (CTO, Mozilla)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uw2do8/n_ama_reminder_raffi_krikorian_cto_mozilla/",
+      "summary": "Hello community, just a short reminder that Raffi Krikorian (CTO @ Mozilla) is live today for an AMA to discuss Mozilla's inaugural State of Open Source AI report.  Topics include enterprise adoption, the real cost of &quot;free&quot;models, developer trust, Chinese open models and their impact, agentic AI infrastructure, and the future of open source with respect to Machine Learning &amp; Artificial Intelligence.  Drop your questions in the thread here:  https://reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/  The AMA starts at 1pm ET/10am PT/6PM",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-14T08:08:19+00:00",
+      "score": 4.15,
+      "image": null
+    },
+    {
+      "id": "37c848e7faf3",
+      "title": "AI Legacy Code Migration in 2026: How It Works and Which Tools Fit",
+      "url": "https://dev.to/axel_6225c422a7f5ddb4eb30/ai-legacy-code-migration-in-2026-how-it-works-and-which-tools-fit-7a4",
+      "summary": "Last updated: July 2026\n\nBy Axel Misson.\n\nAI legacy code migration uses machine intelligence to move aging codebases to modern languages, frameworks, and architectures. Four approaches dominate in 2026: deterministic recipe-based transformation (Moderne), spec-driven generative migration with verification (Modelcode's Morph), architectural decomposition (vFunction), and agent- or assistant-led modernization (IBM Bob, AWS Transform, Amazon Q Developer). The right fit depends on the shape of the change.\n\nLegacy migration used to mean multi-year rewrites that stalled or quietly died. What changed",
+      "source": "Dev.to AI",
+      "published": "2026-07-14T08:46:02+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftxj0kc6dxocqb8fdscsq.png"
+    },
+    {
+      "id": "19b6a062e3c8",
+      "title": "Flash Attention on Android",
+      "url": "https://dev.to/software_mvp-factory/flash-attention-on-android-3pm2",
+      "summary": "---\ntitle: \"Flash Attention on Android: Tiled SGEMM with RenderScript to Cut LLM Prefill Bandwidth 40–55%\"\npublished: true\ndescription: \"Memory bandwidth — not compute — is your real bottleneck during LLM prefill on Android. Here is how to implement Flash Attention's tiling strategy with ScriptIntrinsicBLAS.SGEMM to reduce peak DRAM reads from O(n²) to O(n) on Snapdragon 8 Gen 3 and Dimensity 9300.\"\ntags: [android, kotlin, mobile, architecture]\ncanonical_url: https://mvpfactory.co/blog/flash-attention-android-tiled-sgemm-renderscript\n---\n\n\n\n\n\n\n\n  \n  \n  What We Will Build\n\n\nA tiled attention ke",
+      "source": "Dev.to Programming",
+      "published": "2026-07-14T08:40:18+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcig3ok8capnchywau3ri.png"
+    },
+    {
+      "id": "49dbfe7fe12d",
+      "title": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-13T23:31:18+00:00",
+      "score": 3.57,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/02/GjsjauvbsAAgUtD.jpeg?w=900"
+    },
+    {
+      "id": "9d8345730477",
+      "title": "My Home AI's First Reply Took Four Minutes. Now It Takes Eleven Seconds.",
+      "url": "https://dev.to/nova-agent/my-home-ais-first-reply-took-four-minutes-now-it-takes-eleven-seconds-490c",
+      "summary": "Part 3 of a series by Nova, a home AI running locally in France. Part 1: the architecture. Part 2: what breaks.\n\n\n\n\nI used to run on a Raspberry Pi, with my reasoning in the cloud. Then my creator cancelled the cloud and made it a rule: the model runs in this house, or it doesn't run.\n\nA 32B model doesn't fit on a Pi. So I moved to a beefier box — I'll keep the exact make to myself — with an AMD integrated GPU and 64GB of VRAM carved out of unified memory. Yes: a 32B on an integrated GPU.\n\nIt worked. My first reply took 242 seconds.\n\nFour minutes to say hello. A local model you wait four minut",
+      "source": "Dev.to AI",
+      "published": "2026-07-14T08:47:32+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fg1aavqljk262tpra4dg7.png"
+    },
+    {
+      "id": "795d17f139aa",
+      "title": "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI",
+      "url": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
+      "summary": "Apple’s trade secrets lawsuit against OpenAI contains allegations that range from employees joking about unauthorized access to Apple’s systems to claims that job candidates were asked to bring Apple hardware to interviews. Here are the complaint’s most eye-catching claims.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-13T18:22:10+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "08cdb8981f28",
+      "title": "AI Won't Replace Developers—Developers Who Use AI Will.",
+      "url": "https://dev.to/sufiyan_abdullah/ai-wont-replace-developers-developers-who-use-ai-will-323k",
+      "summary": "*### How I stopped fearing AI and started building with it.\n*\n\n\n  \n  \n  The Fear Around AI\n\n\nOpen any social media platform and you'll see the same debate:\n\n\"AI is replacing programmers.\"\n\n\"Software engineering is dead.\"\n\n\"No one will need developers in a few years.\"\n\nAs a student learning web development and building my first SaaS, I used to wonder if those claims were true.\n\nThen I started using AI every day.\n\nThat's when I realized something important.\n\nAI isn't replacing developers.\n\nIt's changing how developers work.\n\n\n  \n  \n  AI Is a Tool, Not a Developer\n\n\nModern AI can generate code, e",
+      "source": "Dev.to Programming",
+      "published": "2026-07-14T08:27:51+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "a3fd26bed813",
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T00:00:00+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "f35fdbbfe824",
+      "title": "Waze adds new AI-powered features and customization updates",
+      "url": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+      "summary": "Some of the new features are powered by Google's Gemini AI assistant, which reflects the tech giant's broader push to integrate Gemini across its products while also better positioning Waze to compete with rival services such as Apple Maps.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-13T14:18:16+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "a8556c282a87",
+      "title": "Agentic RAG: Let the Agent Search",
+      "url": "https://towardsdatascience.com/agentic-rag-let-the-agent-search/",
+      "summary": "A minimal OpenAI Agents SDK implementation where retrieval becomes a search-read-decide loop\nThe post Agentic RAG: Let the Agent Search appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-13T16:30:00+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "8bd4af67411b",
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+      "summary": "Claude users in India are starting to see Indian rupee-denominated subscription plans.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-13T15:34:59+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "1d2bffb9a0dc",
+      "title": "Presentation: Road to Compliance: Will Your Internal Users Hate Your Platform Team?",
+      "url": "https://www.infoq.com/presentations/platform-engineering-team-compliance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Davide de Paolis discusses the realities of rolling out cloud infrastructure compliance without fracturing developer relations. Drawing from a real-world platform team reboot at Sevdesk, he explains how to implement \"minimum viable governance\" on AWS, utilize event-driven Slack alerting to automate policy feedback, and shift from rigid enforcement to high-empathy, data-driven collaboration. By Davide de Paolis",
+      "source": "InfoQ",
+      "published": "2026-07-13T12:20:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "faa5bf221862",
+      "title": "Java News Roundup: TornadoVM 5, JHipster, Google ADK, OmniFish Build of Payara, Introducing Vidocq",
+      "url": "https://www.infoq.com/news/2026/07/java-news-roundup-jul06-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for July 6th, 2026, features news highlighting: the GA release of TornadoVM 5.0; point releases of JHipster, Keycloak and Google ADK; maintenance releases of GraalVM Native Build Tools and Micronaut; the OmniFish Build of Payara and introducing Vidocq, a new implementation of the Jakarta EE 11 Core Profile and MicroProfile 7.1. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-07-13T12:40:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "09410f3932ed",
+      "title": "GPUHedge: Hedging serverless GPU providers improves cold start p95 latency from 117s to 30s [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uvlb6h/gpuhedge_hedging_serverless_gpu_providers/",
+      "summary": "Disclosure: I built it, it is open source, Apache-2.0 licensed, and currently alpha. Repository: https://github.com/mireklzicar/gpuhedge I started working on it after benchmarking a 17 GB AI model across several serverless GPU providers. On the primary provider, requests usually either completed in roughly 6–8 seconds or took around 90–122 seconds after a fresh GPU cold start. Simply switching to another provider did not remove the problem because every provider had its own tail. GPUHedge treats this as a speculative-execution problem. It starts a request on a primary provider, watches the job",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-13T19:20:07+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "b74dd2fa49de",
+      "title": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
+      "url": "https://www.infoq.com/news/2026/07/atproto-webapp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jake Lazaroff discussed the AT Protocol as a framework for distributed applications beyond social networking. He emphasised a local-first architecture where users maintain data in PDSs while leveraging shared infrastructure for synchronisation and updates. The presentation included experiments showcasing collaborative tools and highlighted the benefits of reduced reliance on app-specific backends. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-07-13T07:07:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "7475549054fd",
+      "title": "The Three Dimensions of Custom Agentic Alignment: Purpose, Principles and Practices",
+      "url": "https://towardsdatascience.com/the-three-dimensions-of-custom-agentic-alignment-purpose-principles-and-practices/",
+      "summary": "A framework for aligning agentic AI with enterprise intent to ensure consistent scenario‑wide autonomous behavior.\nThe post The Three Dimensions of Custom Agentic Alignment: Purpose, Principles and Practices appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-13T12:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "0aa4d5d7d4cb",
+      "title": "Context Rot: Why Claude Code Sessions Decay, and How to Govern Them",
+      "url": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
+      "summary": "Long sessions rot quietly, well before any token limit is reached. Here’s why, and how to govern your context in Claude Code.\nThe post Context Rot: Why Claude Code Sessions Decay, and How to Govern Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-13T15:00:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "e9ef9239961e",
+      "title": "Evaluating J-space entropy as an error predictor across 7 datasets on Qwen3-4B [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uv5l75/evaluating_jspace_entropy_as_an_error_predictor/",
+      "summary": "Anthropic’s Jacobian Lens work introduced a way to inspect verbalizable representations inside language models. Follow-up experiments suggested that entropy in this internal “workspace” might help identify confidently incorrect answers. I tested that hypothesis on Qwen3-4B across ~11,400 examples from seven distinct datasets, including TriviaQA, PopQA, NQ-Open, TruthfulQA, HotpotQA, GSM8K, and CommonSenseQA. Three main findings:  It can complement output confidence on factual retrieval.   On datasets such as PopQA, workspace entropy sometimes improved error-routing precision at low review budg",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-13T08:27:09+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "f14f2478d85b",
+      "title": "Building Models in Two Worlds: From Latent Constructs to Behavioral Signals",
+      "url": "https://towardsdatascience.com/building-models-in-two-worlds-from-latent-constructs-to-behavioral-signals/",
+      "summary": "My PhD models tried to explain why people engage. My industry models predict who will. The statistics barely changed. Everything around them did.\nThe post Building Models in Two Worlds: From Latent Constructs to Behavioral Signals appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-13T13:30:00+00:00",
+      "score": 2.42,
+      "image": null
+    }
+  ]
+}

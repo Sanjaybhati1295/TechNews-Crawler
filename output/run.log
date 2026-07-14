@@ -2265,3 +2265,37 @@
 2026-07-13 10:16:00,252  INFO     ────────────────────────────────────────────────────────────
 2026-07-13 10:16:00,253  INFO     Done!  Open: output/index.html
 2026-07-13 10:16:00,253  INFO     Headline: How to Build More Resilient Local-First Applications With AT Protocol Infrastructure
+2026-07-14 08:59:19,291  INFO     ============================================================
+2026-07-14 08:59:19,291  INFO     TECHPULSE Digest — 2026-07-14 08:59 UTC
+2026-07-14 08:59:19,291  INFO     ============================================================
+2026-07-14 08:59:19,292  INFO     Step 1/3 — Crawling feeds…
+2026-07-14 08:59:19,610  INFO       Hacker News                    → 0 significant articles
+2026-07-14 08:59:19,864  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-14 08:59:20,043  INFO       Ars Technica                   → 0 significant articles
+2026-07-14 08:59:20,302  INFO       The Register AI                → 0 significant articles
+2026-07-14 08:59:20,399  INFO       MIT Tech Review                → 0 significant articles
+2026-07-14 08:59:20,531  INFO       Dev.to AI                      → 3 significant articles
+2026-07-14 08:59:20,702  INFO       Dev.to Programming             → 2 significant articles
+2026-07-14 08:59:20,846  INFO       GitHub Blog                    → 0 significant articles
+2026-07-14 08:59:21,542  INFO       Google Research                → 0 significant articles
+2026-07-14 08:59:22,180  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-07-14 08:59:22,219  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-14 08:59:22,766  INFO       InfoQ                          → 3 significant articles
+2026-07-14 08:59:22,986  INFO       Towards Data Science           → 4 significant articles
+2026-07-14 08:59:23,196  INFO       Wired AI                       → 0 significant articles
+2026-07-14 08:59:23,244  INFO       TechCrunch AI                  → 5 significant articles
+2026-07-14 08:59:23,244  INFO     Fetching images for top articles…
+2026-07-14 08:59:23,576  INFO       🖼  If You Learn Slowly Enough, You Won’t Need to Learn Anything
+2026-07-14 08:59:23,638  INFO       🖼  AI Legacy Code Migration in 2026: How It Works and Which Too
+2026-07-14 08:59:23,741  INFO       🖼  Flash Attention on Android
+2026-07-14 08:59:23,782  INFO       🖼  Hermes agent maker Nous Research in talks for new funding at
+2026-07-14 08:59:23,820  INFO       🖼  My Home AI's First Reply Took Four Minutes. Now It Takes Ele
+2026-07-14 08:59:23,820  INFO     Total selected: 20 articles from 15 feeds
+2026-07-14 08:59:23,820  INFO     Selected 20 significant articles
+2026-07-14 08:59:23,821  INFO     Step 2/3 — Generating digest…
+2026-07-14 08:59:24,137  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-14 08:59:24,137  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-14 08:59:24,138  INFO     Step 3/3 — Rendering HTML…
+2026-07-14 08:59:24,139  INFO     ────────────────────────────────────────────────────────────
+2026-07-14 08:59:24,139  INFO     Done!  Open: output/index.html
+2026-07-14 08:59:24,139  INFO     Headline: If You Learn Slowly Enough, You Won’t Need to Learn Anything—Applying the TabFM Prediction Framework to Quantitative Trading
