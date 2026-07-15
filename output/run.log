@@ -2299,3 +2299,38 @@
 2026-07-14 08:59:24,139  INFO     ────────────────────────────────────────────────────────────
 2026-07-14 08:59:24,139  INFO     Done!  Open: output/index.html
 2026-07-14 08:59:24,139  INFO     Headline: If You Learn Slowly Enough, You Won’t Need to Learn Anything—Applying the TabFM Prediction Framework to Quantitative Trading
+2026-07-15 09:04:27,716  INFO     ============================================================
+2026-07-15 09:04:27,716  INFO     TECHPULSE Digest — 2026-07-15 09:04 UTC
+2026-07-15 09:04:27,716  INFO     ============================================================
+2026-07-15 09:04:27,716  INFO     Step 1/3 — Crawling feeds…
+2026-07-15 09:04:27,967  INFO       Hacker News                    → 1 significant articles
+2026-07-15 09:04:28,361  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-15 09:04:28,534  INFO       Ars Technica                   → 0 significant articles
+2026-07-15 09:04:29,077  INFO       The Register AI                → 0 significant articles
+2026-07-15 09:04:29,283  INFO       MIT Tech Review                → 1 significant articles
+2026-07-15 09:04:29,369  INFO       Dev.to AI                      → 4 significant articles
+2026-07-15 09:04:29,579  INFO       Dev.to Programming             → 3 significant articles
+2026-07-15 09:04:29,879  INFO       GitHub Blog                    → 0 significant articles
+2026-07-15 09:04:30,658  INFO       Google Research                → 0 significant articles
+2026-07-15 09:04:31,282  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-15 09:04:31,351  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-15 09:04:31,817  INFO       InfoQ                          → 4 significant articles
+2026-07-15 09:04:31,999  INFO       Towards Data Science           → 4 significant articles
+2026-07-15 09:04:32,195  INFO       Wired AI                       → 0 significant articles
+2026-07-15 09:04:32,241  INFO       TechCrunch AI                  → 9 significant articles
+2026-07-15 09:04:32,241  INFO     Fetching images for top articles…
+2026-07-15 09:04:32,283  INFO       🖼  OpenAI researcher Miles Wang in talks to launch AI drug disc
+2026-07-15 09:04:32,324  INFO       🖼  Apple opens its new Siri AI to everyone with the iOS 27 publ
+2026-07-15 09:04:32,854  INFO       🖼  Google and Industry Partners Announce Agentic Resource Disco
+2026-07-15 09:04:32,920  INFO       🖼  Django Views – The Right Way: Embracing Type-Safety and Asyn
+2026-07-15 09:04:32,962  INFO       🖼  OpenAI’s first hardware device is reportedly a screenless sp
+2026-07-15 09:04:32,997  INFO       🖼  PermitLint: audit Claude Code and Codex permissions locally
+2026-07-15 09:04:32,997  INFO     Total selected: 28 articles from 15 feeds
+2026-07-15 09:04:32,997  INFO     Selected 28 significant articles
+2026-07-15 09:04:32,998  INFO     Step 2/3 — Generating digest…
+2026-07-15 09:04:34,560  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-15 09:04:34,560  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-15 09:04:34,561  INFO     Step 3/3 — Rendering HTML…
+2026-07-15 09:04:34,562  INFO     ────────────────────────────────────────────────────────────
+2026-07-15 09:04:34,562  INFO     Done!  Open: output/index.html
+2026-07-15 09:04:34,562  INFO     Headline: OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B

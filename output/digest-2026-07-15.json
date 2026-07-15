@@ -1,0 +1,299 @@
+{
+  "digest": {
+    "headline": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+    "tldr": "Today's digest covers 28 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B (TechCrunch AI). Apple opens its new Siri AI to everyone with the iOS 27 public beta (TechCrunch AI). Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents (InfoQ). Django Views – The Right Way: Embracing Type-Safety and Async Performance (Dev.to Programming). OpenAI’s first hardware device is reportedly a screenless speaker that can move (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go (InfoQ)."
+      }
+    ],
+    "key_takeaway": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences."
+  },
+  "articles": [
+    {
+      "id": "b47abe9a8322",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-15T00:27:04+00:00",
+      "score": 4.22,
+      "image": "https://techcrunch.com/wp-content/uploads/2021/10/biotech-header.jpg?resize=1200,807"
+    },
+    {
+      "id": "dfb756fb6771",
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "summary": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features before the software’s official launch this fall.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T19:42:27+00:00",
+      "score": 4.06,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/apple-siri-wwdc-2026.jpg?resize=1200,675"
+    },
+    {
+      "id": "b21252a73bf6",
+      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
+      "url": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on catalogs and registries, enabling dynamic capability discovery while leveraging existing protocols such as MCP and OpenAPI for execution and emphasizing trust and interoperability. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-07-14T13:40:00+00:00",
+      "score": 3.92,
+      "image": "https://res.infoq.com/news/2026/07/agentic-resource-discovery-spec/en/headerimage/generatedHeaderImage-1783309687458.jpg"
+    },
+    {
+      "id": "22a07c702ed1",
+      "title": "Django Views – The Right Way: Embracing Type-Safety and Async Performance",
+      "url": "https://dev.to/muhammad_abdullahiqbal_4/django-views-the-right-way-embracing-type-safety-and-async-performance-2djc",
+      "summary": "For years, building APIs in Django followed a predictable path: write a model, build a Django REST Framework (DRF) serializer, and wire it up to a Class-Based View (CBV) or ViewSet. While this pattern has powered thousands of production applications, it introduces significant overhead, verbose boilerplate, and architectural bottlenecks—particularly around data validation and serialization.\n\nModern Python has evolved. With the rise of type hinting, async/await support, and fast parsing engines, the \"right way\" to write Django views has shifted. Today, the gold standard for high-performance, dev",
+      "source": "Dev.to Programming",
+      "published": "2026-07-15T08:29:50+00:00",
+      "score": 3.77,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3sk5g7d8otbof4rdpkbe.png"
+    },
+    {
+      "id": "bec37c4a6060",
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T22:22:24+00:00",
+      "score": 3.71,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2273246979.jpg?resize=1200,800"
+    },
+    {
+      "id": "35d0d49be09b",
+      "title": "PermitLint: audit Claude Code and Codex permissions locally",
+      "url": "https://dev.to/nekoautomata/permitlint-audit-claude-code-and-codex-permissions-locally-43em",
+      "summary": "Permission files for coding agents can look restrictive while still allowing much more than intended. A missing wildcard boundary, a broad shell prefix, or an unsafe approval-and-sandbox combination can quietly undermine the policy.\n\nI built PermitLint to make those mistakes easier to spot. It is a read-only static linter for Claude Code and Codex permission configuration. It runs locally, does not execute configuration code, and does not rewrite files.\n\n\n  \n  \n  What it checks\n\n\nPermitLint looks for deterministic syntax and risk patterns such as:\n\n\nbroad shell grants;\nwildcard boundaries that",
+      "source": "Dev.to AI",
+      "published": "2026-07-15T08:52:11+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fh4yk4if9miqw2f5cs1lc.png"
+    },
+    {
+      "id": "5686be10010d",
+      "title": "Healthcare AI agents: an engineer's FAQ (PHI, audit trails, and the human gate)",
+      "url": "https://dev.to/vishal_kumar_cda28e061f86/healthcare-ai-agents-an-engineers-faq-phi-audit-trails-and-the-human-gate-cf5",
+      "summary": "The healthcare AI questions that matter to engineers aren't about the model — they're about everything wrapped around it. A quick FAQ from building this.\n\n\n\nHow do you keep PHI out of the model? Detection + redaction on the input path, before the prompt is built. The model reasons over de-identified text; raw identifiers never reach it.\n\nHow do you make decisions auditable? An append-only log capturing request → retrieval → decision → citation → sign-off. Every decision carries the policy clause it matched; \"why did it decide this\" is a query.\n\nWhere does the human fit? As a durable interrupt,",
+      "source": "Dev.to AI",
+      "published": "2026-07-15T08:50:10+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "5fd63a079c24",
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T22:07:42+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "d00c55116dcb",
+      "title": "Hossainul Sazzad",
+      "url": "https://dev.to/hossainul_sazzad_c5a37076/hossainul-sazzad-4167",
+      "summary": "Local SEO &amp; Paid Ads Specialist for Home Service Businesses\n\nCategory: SEO / Digital Marketing / PPC\nFounded: 2022 · \nTeam size: Freelancer/1 · \nLocation: Bangladesh (serving US, UK, Canada)\n\nAbout Myself\nI'm a Local SEO and Paid Ads specialist working exclusively with home service businesses — electricians, HVAC, pest control and plumbers — in the US, UK and Canada. Over 5+ years I've delivered 200% organic traffic growth in 6 months, doubled a Texas electrical company's Google traffic, and generated 359K organic clicks in 12 months for a UK client. Services: Local SEO &amp; Google Maps o",
+      "source": "Dev.to AI",
+      "published": "2026-07-15T08:49:40+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d8f8f676df32",
+      "title": "The 2026 Insurtech Data Stack: A Reference Architecture",
+      "url": "https://dev.to/vaibhav7387/the-2026-insurtech-data-stack-a-reference-architecture-22m1",
+      "summary": "Every insurance AI conversation eventually hits the same wall: the model is fine, but the data underneath it isn't reachable, clean, or fast enough. This post is the architecture I'd draw on a whiteboard for a carrier that wants underwriting, claims, and fraud AI to actually work — and the reasoning behind each layer.\n\nHere's the shape:\n\n\n\n① SOURCES            Policy Admin (mainframe/Oracle) · Claims · Billing · CRM · Docs\n                     External: telematics · weather · IoT · credit · satellite\n                          │\n② INGESTION          Batch/CDC (dbt · Airbyte)      Streaming (Kaf",
+      "source": "Dev.to AI",
+      "published": "2026-07-15T08:49:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "3720f73c36b2",
+      "title": "May the STL Be With You: C++ Data Structures Every Competitive Programmer Needs",
+      "url": "https://dev.to/timevolt/may-the-stl-be-with-you-c-data-structures-every-competitive-programmer-needs-15bj",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nI still remember the first time I tried to solve a graph problem on Codeforces. My code was a tangled mess of vectors, manual heap tricks, and a lot of push_back/pop_back gymnastics. After three failed submissions I was staring at the screen, feeling like Frodo staring at Mount Doom—the destination was visible, but every step seemed to sap my strength. I knew there had to be a better way, a set of tools that would let me focus on the algorithm instead of wrestling with the language. That’s when I dove back into the C++ STL, not just to copy‑paste snippets, but to",
+      "source": "Dev.to Programming",
+      "published": "2026-07-15T08:42:43+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "cbab76376fff",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-1kkp",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-07-15T08:37:19+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "273b72178488",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window into its models’ “internal thoughts” as they reason through answers,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-14T12:10:00+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "6aa6a348b8e2",
+      "title": "Google faces another AI training lawsuit from major publishers",
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T18:33:31+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "0bfeb2d87fcb",
+      "title": "Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains",
+      "url": "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Linkerd community has announced the release of Linkerd 2.20, introducing a series of performance, observability, and traffic management enhancements that further strengthen the CNCF-graduated service mesh's position as a lightweight alternative for Kubernetes networking. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-14T12:00:00+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "3ebcd8a805f3",
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T17:45:55+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "7b0174cecda7",
+      "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+      "url": "https://agnost.ai",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-14T16:06:18+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "ef09d5bafff4",
+      "title": "New York State halts construction of all new data centers",
+      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+      "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity costs, water supplies, or local control.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T15:17:59+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "bf9c8ae541ab",
+      "title": "Reflection inks $1B compute deal with Nebius",
+      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+      "summary": "Reflection AI has signed a $1 billion deal to access Nebius' compute. Reflection was founded in 2024 and is developing open source AI technology.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T14:37:48+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "5c1b88fd7fcb",
+      "title": "[N] AMA Reminder: Raffi Krikorian (CTO, Mozilla)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uw2do8/n_ama_reminder_raffi_krikorian_cto_mozilla/",
+      "summary": "Hello community, just a short reminder that Raffi Krikorian (CTO @ Mozilla) is live today for an AMA to discuss Mozilla's inaugural State of Open Source AI report.  Topics include enterprise adoption, the real cost of &quot;free&quot;models, developer trust, Chinese open models and their impact, agentic AI infrastructure, and the future of open source with respect to Machine Learning &amp; Artificial Intelligence.  Drop your questions in the thread here:  https://reddit.com/r/MachineLearning/comments/1upxdvc/raffi_krikorian_cto_mozilla_ama_on_the_state_of/  The AMA starts at 1pm ET/10am PT/6PM",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-14T08:08:19+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "fa9807f38683",
+      "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture",
+      "url": "https://www.infoq.com/articles/ai-speed-context-store-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AI makes the first 80% of development feel fast, but hides architectural complexity until it's too late. To prevent system instability, engineering leaders must shift from raw throughput to systemic comprehension. By unifying spec-anchored SDD, TDD, and automated fitness functions into a repo-bound \"Context Store,\" teams can ensure AI agents and human reviewers evolve code safely. By Stella Berhe, Stephan Bragner, Vikram Maran, Anand Jayaraman",
+      "source": "InfoQ",
+      "published": "2026-07-14T09:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "612c1a76634b",
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "url": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns let agents work after clients disconnect. Interruptible tools provide human-in-the-loop control with anti-forgery validation on resume. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-14T10:17:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "35b7b5752026",
+      "title": "Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs",
+      "url": "https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/",
+      "summary": "How to stop parsing JSON by hand and start trusting your model's output\nThe post Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-14T12:00:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "7b0525a8e12e",
+      "title": "A Gentle Introduction to Autoencoders & Latent Space",
+      "url": "https://towardsdatascience.com/gentle-introduction-to-autoencoders-latent-space/",
+      "summary": "Introduction Heavy computation is a well-known problem in various ML algorithms today, especially when generative AI is applied to text, images, and other unstructured data. One of the principal approaches to mitigate this problem is to compress input data into a lower-dimensional representation while preserving the main context. There are various methods that achieve this [&#8230;]\nThe post A Gentle Introduction to Autoencoders &#038; Latent Space appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-14T15:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "21146c283ac3",
+      "title": "LLM hallucination paper(using math) accepted to ICML workshop[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uw4j6a/llm_hallucination_paperusing_math_accepted_to/",
+      "summary": "Hello guys. I want to introduce my recent research presented at ICML workshop. github link : genji970/SRM-LoRA: official implementation of &quot;SRM-LoRA: Sub-Riemannian-Metric Updates for Mitigating LLM Hallucination in Low-Rank Adaptation&quot; ICML2026 Workshop FoGen Shot summarization of Paper.  &quot;&quot;&quot; SRM-LoRA is a sub-Riemannian-inspired LoRA method designed to reduce LLM hallucination. It builds a sensitivity-based Riemannian metric that reshapes backward gradients in the LoRA parameter space. This metric suppresses high-cost update directions while leaving the forward compu",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-14T10:13:24+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "b26772ffd6b8",
+      "title": "How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI",
+      "url": "https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/",
+      "summary": "The analytics career I signed up for five years ago doesn't exist anymore, and honestly, I am fine with that.\nThe post How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-14T16:30:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "25651726fa07",
+      "title": "How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured)",
+      "url": "https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/",
+      "summary": "I measured the actual GPU electricity for eight local models on one RTX 3090 — and the cheapest wasn't the smallest, nor the priciest the biggest.\nThe post How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-14T13:30:00+00:00",
+      "score": 2.41,
+      "image": null
+    },
+    {
+      "id": "a3fd26bed813",
+      "title": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "summary": "With the cash, the company aims to expand its world model offering and reach customers across geographies.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-14T00:00:00+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}
