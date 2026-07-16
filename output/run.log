@@ -2334,3 +2334,38 @@
 2026-07-15 09:04:34,562  INFO     ────────────────────────────────────────────────────────────
 2026-07-15 09:04:34,562  INFO     Done!  Open: output/index.html
 2026-07-15 09:04:34,562  INFO     Headline: OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B
+2026-07-16 09:07:57,310  INFO     ============================================================
+2026-07-16 09:07:57,311  INFO     TECHPULSE Digest — 2026-07-16 09:07 UTC
+2026-07-16 09:07:57,311  INFO     ============================================================
+2026-07-16 09:07:57,311  INFO     Step 1/3 — Crawling feeds…
+2026-07-16 09:07:57,426  INFO       Hacker News                    → 3 significant articles
+2026-07-16 09:07:57,658  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-16 09:07:57,742  INFO       Ars Technica                   → 0 significant articles
+2026-07-16 09:07:58,962  INFO       The Register AI                → 0 significant articles
+2026-07-16 09:07:59,101  INFO       MIT Tech Review                → 1 significant articles
+2026-07-16 09:07:59,243  INFO       Dev.to AI                      → 3 significant articles
+2026-07-16 09:07:59,956  INFO       Dev.to Programming             → 4 significant articles
+2026-07-16 09:08:00,098  INFO       GitHub Blog                    → 1 significant articles
+2026-07-16 09:08:00,938  INFO       Google Research                → 0 significant articles
+2026-07-16 09:08:01,767  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-07-16 09:08:01,876  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-16 09:08:02,081  INFO       InfoQ                          → 2 significant articles
+2026-07-16 09:08:02,395  INFO       Towards Data Science           → 4 significant articles
+2026-07-16 09:08:02,595  INFO       Wired AI                       → 0 significant articles
+2026-07-16 09:08:02,668  INFO       TechCrunch AI                  → 9 significant articles
+2026-07-16 09:08:02,669  INFO     Fetching images for top articles…
+2026-07-16 09:08:02,761  INFO       🖼  What Is AI Compliance? A Practical Guide for Developers Buil
+2026-07-16 09:08:03,031  INFO       🖼  AWS Ships Claude Apps Gateway as Self-Hosted Control Plane f
+2026-07-16 09:08:03,104  INFO       🖼  Amid hardware legal battle, OpenAI releases a $230 keyboard 
+2026-07-16 09:08:03,223  INFO       🖼  AI SaaS is Dead (For Solo Founders). Long Live AI Services.
+2026-07-16 09:08:03,519  INFO       🖼  Meet GPT-Red: an LLM super-hacker OpenAI built to make its m
+2026-07-16 09:08:03,641  INFO       🖼  W+ Introduces a New Approach to Digital Communities
+2026-07-16 09:08:03,641  INFO     Total selected: 28 articles from 15 feeds
+2026-07-16 09:08:03,642  INFO     Selected 28 significant articles
+2026-07-16 09:08:03,642  INFO     Step 2/3 — Generating digest…
+2026-07-16 09:08:03,932  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-16 09:08:03,933  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-16 09:08:03,933  INFO     Step 3/3 — Rendering HTML…
+2026-07-16 09:08:03,934  INFO     ────────────────────────────────────────────────────────────
+2026-07-16 09:08:03,934  INFO     Done!  Open: output/index.html
+2026-07-16 09:08:03,934  INFO     Headline: What Is AI Compliance? A Practical Guide for Developers Building AI Applications
