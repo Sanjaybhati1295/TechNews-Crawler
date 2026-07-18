@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Two AI Coders, One Subscription: Let Claude Code Delegate to Grok (Dev.to AI). Fable 5 lands in every Max plan on July 20, at half limits. The install data shows what developers do about limits (Dev.to AI). I Built a Local-First AI Video Editor That Runs in the Browser (Dev.to Programming). Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P] (Reddit r/MachineLearning). AI ERD Design With Ollama: Schema Help That Never Leaves Your Machine (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression (InfoQ). One RAG Pipeline, Four Very Different PDFs: Same Four Bricks, Every Answer Typed and Cited (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "DoltHub has recently released Dolt 2.0, a major update to the open source version-controlled SQL database. The latest major version adds automatic storage optimization, including garbage collection and compression, along with improved support for large and vector data types. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "24de0c1e7246",
+      "title": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression",
+      "url": "https://www.infoq.com/news/2026/07/dolt-version-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DoltHub has recently released Dolt 2.0, a major update to the open source version-controlled SQL database. The latest major version adds automatic storage optimization, including garbage collection and compression, along with improved support for large and vector data types. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-18T07:28:00+00:00",
+      "score": 4.83,
+      "image": "https://res.infoq.com/news/2026/07/dolt-version-control/en/headerimage/generatedHeaderImage-1783067948773.jpg"
+    },
+    {
+      "id": "dd1118157013",
+      "title": "Two AI Coders, One Subscription: Let Claude Code Delegate to Grok",
+      "url": "https://dev.to/xzawed/two-ai-coders-one-subscription-let-claude-code-delegate-to-grok-37bc",
+      "summary": "Claude Code can now pass some of your coding tasks to Grok (xAI's coding agent) and bring the result back for you to review.\nThe work is billed to your Grok subscription, not a pay-per-use API bill.\nIt's free, open source, and safe by default — Grok makes changes but never commits them. You always approve.\nRepo: github.com/xzawed/claude-grok-build-plugin ⭐\n\n\n\n\n\n\n\n  \n  \n  🤔 First, in one sentence\n\n\nIf you use Claude Code (Anthropic's AI assistant that helps you write and edit code), this little plugin lets Claude bring in a second AI helper — Grok — for certain jobs, and then hands the results ",
+      "source": "Dev.to AI",
+      "published": "2026-07-18T08:39:21+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi6oj88ctcpsul427jdw2.png"
+    },
+    {
+      "id": "c60b3786486f",
+      "title": "Fable 5 lands in every Max plan on July 20, at half limits. The install data shows what developers do about limits",
+      "url": "https://dev.to/skillselion/fable-5-lands-in-every-max-plan-on-july-20-at-half-limits-the-install-data-shows-what-developers-2e28",
+      "summary": "Anthropic posted the announcement at 2 AM UTC and it was everywhere by breakfast: starting July 20, Claude Fable 5 will be \"included in all Max and Team Premium plans, at 50% of limits.\" Pro and Team Standard users stay on usage credits and get a one-time $100 credit. Twelve hours in, the post sits at 32,175 likes and 6.2 million views.\n\nThe upside needs no explanation. Fable 5 is the strongest coding model Anthropic ships, and from Sunday it comes with the plan you already pay for. The catch is the second half of the sentence: half limits, for the hungriest model you can point at a repository",
+      "source": "Dev.to AI",
+      "published": "2026-07-18T08:36:24+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ff9jxnu242s5ifq7nq9oe.png"
+    },
+    {
+      "id": "4141c3f5cf0a",
+      "title": "I Built a Local-First AI Video Editor That Runs in the Browser",
+      "url": "https://dev.to/martindelophy/i-built-a-local-first-ai-video-editor-that-runs-in-the-browser-20og",
+      "summary": "Modern video editors are powerful, but many AI-assisted workflows require uploading media to a remote server.\n\n\n\n\n\nI wanted to explore a different direction:\n\n\nHow much of an AI video editing workflow can run directly inside the browser?\n\n\nThe result is Timeline Studio, an open-source, local-first AI video editor with a multi-track timeline, browser-side AI inference, and MP4/WebM export.\n\n\nGitHub: https://github.com/MartinDelophy/ai-video-editor\n\nLive demo: https://video-editor.ai-creator.top/\n\nDemo video: https://youtu.be/mUXduGpBmwE\n\n\n\n\n  \n  \n  What is Timeline Studio?\n\n\nTimeline Studio is ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-18T08:14:48+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fubeylyt64dcsmyz8j5xy.png"
+    },
+    {
+      "id": "7aab804f9df4",
+      "title": "Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/",
+      "summary": "I have released a model that I have been working on for ~6 months off and on. I've been enjoying listening to spatial music, but there is a lot of music out there with no real quality spatial mix. So I decided to make a model to convert stereo to spatial. I started by making a flow-matching diffusion model that operated in the latent space of a separately trained VAE (EAR-VAE). I used the VAE to encode the stereo input in to 1 latent and then separately on each channel of the 7.1.4 output. This design is similar to a paper I found about another stereo -&gt; spatial project (ImmersiveFlow (they",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-17T22:55:00+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "2cfe8554a407",
+      "title": "AI ERD Design With Ollama: Schema Help That Never Leaves Your Machine",
+      "url": "https://dev.to/tbson87/ai-erd-design-with-ollama-schema-help-that-never-leaves-your-machine-4c8n",
+      "summary": "Disclosure: I build Schemity, a desktop ERD tool - this post is from our blog and uses it for the examples.\n\n\nTL;DR: Blanket AI bans and air-gapped environments rule out even BYOK cloud AI. Schemity supports Ollama as a provider, so the same diagram-editing AI chat runs against local models on your own machine - zero network egress.\n\n\nSchemity supports Ollama as an AI provider, which means its diagram-editing AI chat can run entirely against local models on your own machine - no API key, no cloud call, zero network egress. For a lot of engineers, that is the difference between getting AI help ",
+      "source": "Dev.to AI",
+      "published": "2026-07-18T08:30:27+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fschemity.com%2Fimages%2Fblog%2Fai-schema-help-that-never-leaves-your-machine%2Fbanner.webp"
+    },
+    {
+      "id": "a9707de9bbe1",
+      "title": "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the company.&#160;OpenAI&#8217;s response so far&#160;has been carefully hedged, and the timing&#160;couldn&#8217;t&#160;be worse with the company&#160;reportedly eyeing&#160;an IPO [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-17T17:45:46+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "1d02d9dc2106",
+      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precision [R] ,[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+      "summary": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and output generation is around 8 tokens/s on this mobile. Point is i learned ai ml based on my interest and no formal PhD , I have compute and resources to test. Anyone willing to join or collab to test on this I tried publishing papers on arxiv and 4 papers are still on hold as im first author and from ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-18T01:40:59+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "5aa23fd14c11",
+      "title": "Apple’s lawsuit couldn’t come at a worse time for OpenAI",
+      "url": "https://techcrunch.com/podcast/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai/",
+      "summary": "Apple&#160;filed a trade secrets&#160;lawsuit against OpenAI&#160;last Friday, and&#160;it&#8217;s&#160;not messing around. The complaint alleges a pattern of misconduct reaching all the way up to OpenAI&#8217;s chief hardware officer and claims more than 400 former Apple employees now work at the company.&#160;OpenAI&#8217;s response so far&#160;has been carefully hedged, and the timing&#160;couldn&#8217;t&#160;be worse with the company&#160;reportedly eyeing&#160;an IPO [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-17T14:00:00+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "20d52b2c1d76",
+      "title": "AI-driven memory crunch jolts India’s smartphone market",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-17T20:09:27+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "b4b1d870a1fb",
+      "title": "EU AI Act OpenRAG: 933 legally structured chunks and BGE-M3 embeddings in one SQLite file [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uytlac/eu_ai_act_openrag_933_legally_structured_chunks/",
+      "summary": "I have released EU AI Act OpenRAG, a downloadable corpus of Regulation (EU) 2024/1689 designed for RAG and legal-NLP experimentation. Instead of sliding character windows, the corpus chunks on the Regulation’s legal structure:  one chunk per article paragraph one per recital one per Article 3 definition one per annex point chapter, section and provision metadata stored separately  The resulting SQLite database contains 933 chunks and a normalized 1024-dimensional BGE-M3 embedding for every chunk. It also includes exact EUR-Lex links, Article 113 application-date metadata and deliberately narro",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-17T08:18:09+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "fc3bf2f4a2ae",
+      "title": "How to Work Effectively with GPT-5.6",
+      "url": "https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/",
+      "summary": "Maximize the latest OpenAI model\nThe post How to Work Effectively with GPT-5.6 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-17T16:30:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "2861dc09b67c",
+      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "summary": "A $400 million chip-backed loan points to the next wave of AI infrastructure deals.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-17T12:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "ed5e95854641",
+      "title": "The cost of saying yes has changed",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.\nThe post The cost of saying yes has changed appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-17T16:46:47+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "c396869959c0",
+      "title": "Using Classical ML to Empower AI Agents",
+      "url": "https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/",
+      "summary": "On the value of building on existing foundations\nThe post Using Classical ML to Empower AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-17T15:00:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "623b1a8a3525",
+      "title": "The state of open source AI",
+      "url": "https://stateofopensource.ai/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-17T14:31:10+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "c201436c7a1f",
+      "title": "One RAG Pipeline, Four Very Different PDFs: Same Four Bricks, Every Answer Typed and Cited",
+      "url": "https://towardsdatascience.com/one-rag-pipeline-four-very-different-pdfs-same-four-bricks-every-answer-typed-and-cited/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9B] - One call wires the four upgraded bricks together, run on a paper, a NIST standard, and a report with a broken TOC\nThe post One RAG Pipeline, Four Very Different PDFs: Same Four Bricks, Every Answer Typed and Cited appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-17T10:30:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "4369ded81438",
+      "title": "Analog AI Is Back, But Can It Survive Its Own Noise?",
+      "url": "https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/",
+      "summary": "AI's energy crisis is reviving an old idea: computing with physics instead of digital logic. Here's how analog chips actually work, why noise nearly killed the idea once already, and what happens when you simulate that noise yourself.\nThe post Analog AI Is Back, But Can It Survive Its Own Noise? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-17T12:00:00+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "d8ad4fae2606",
+      "title": "New Fable5/Opus4.8 harness called \"Schema\" claims 99% on ARC-3 [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uyf8oo/new_fable5opus48_harness_called_schema_claims_99/",
+      "summary": "Schema, the harness we introduce today, reaches 99% on the ARC‑AGI‑3 Public set using Claude Opus 4.8 and Fable 5, and 95.35% using GPT‑5.6 Sol. It does not change the underlying model weights. Instead, it changes the process around them: how observations are turned into a working model of the game, how predictions are tested against the interaction history, and how plans are executed and revised. Both scores come from a fixed fallback rule: Opus 4.8 and Sol xhigh run first; games scoring below 80 are rerun with Fable 5 and Sol max, respectively, and the higher per-game score is retained.  htt",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-16T21:02:45+00:00",
+      "score": 2.02,
+      "image": null
+    }
+  ]
+}

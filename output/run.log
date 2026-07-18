@@ -2403,3 +2403,37 @@
 2026-07-17 09:03:15,471  INFO     ────────────────────────────────────────────────────────────
 2026-07-17 09:03:15,471  INFO     Done!  Open: output/index.html
 2026-07-17 09:03:15,471  INFO     Headline: My First Open-Source Contributor Arrived at the Perfectly Wrong Time
+2026-07-18 08:42:13,724  INFO     ============================================================
+2026-07-18 08:42:13,724  INFO     TECHPULSE Digest — 2026-07-18 08:42 UTC
+2026-07-18 08:42:13,724  INFO     ============================================================
+2026-07-18 08:42:13,724  INFO     Step 1/3 — Crawling feeds…
+2026-07-18 08:42:13,988  INFO       Hacker News                    → 1 significant articles
+2026-07-18 08:42:14,292  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-18 08:42:14,494  INFO       Ars Technica                   → 0 significant articles
+2026-07-18 08:42:15,089  INFO       The Register AI                → 0 significant articles
+2026-07-18 08:42:15,274  INFO       MIT Tech Review                → 0 significant articles
+2026-07-18 08:42:15,383  INFO       Dev.to AI                      → 3 significant articles
+2026-07-18 08:42:15,528  INFO       Dev.to Programming             → 1 significant articles
+2026-07-18 08:42:15,663  INFO       GitHub Blog                    → 1 significant articles
+2026-07-18 08:42:16,644  INFO       Google Research                → 0 significant articles
+2026-07-18 08:42:17,300  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-07-18 08:42:17,371  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-18 08:42:18,821  INFO       InfoQ                          → 1 significant articles
+2026-07-18 08:42:19,094  INFO       Towards Data Science           → 4 significant articles
+2026-07-18 08:42:19,322  INFO       Wired AI                       → 0 significant articles
+2026-07-18 08:42:19,405  INFO       TechCrunch AI                  → 4 significant articles
+2026-07-18 08:42:19,405  INFO     Fetching images for top articles…
+2026-07-18 08:42:20,081  INFO       🖼  Version Controlled SQL Database Dolt Releases 2.0 with Autom
+2026-07-18 08:42:20,147  INFO       🖼  Two AI Coders, One Subscription: Let Claude Code Delegate to
+2026-07-18 08:42:20,506  INFO       🖼  Fable 5 lands in every Max plan on July 20, at half limits. 
+2026-07-18 08:42:20,573  INFO       🖼  I Built a Local-First AI Video Editor That Runs in the Brows
+2026-07-18 08:42:20,792  INFO       🖼  AI ERD Design With Ollama: Schema Help That Never Leaves You
+2026-07-18 08:42:20,792  INFO     Total selected: 19 articles from 15 feeds
+2026-07-18 08:42:20,792  INFO     Selected 19 significant articles
+2026-07-18 08:42:20,792  INFO     Step 2/3 — Generating digest…
+2026-07-18 08:42:21,363  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-18 08:42:21,363  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-18 08:42:21,364  INFO     Step 3/3 — Rendering HTML…
+2026-07-18 08:42:21,365  INFO     ────────────────────────────────────────────────────────────
+2026-07-18 08:42:21,365  INFO     Done!  Open: output/index.html
+2026-07-18 08:42:21,365  INFO     Headline: Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression
