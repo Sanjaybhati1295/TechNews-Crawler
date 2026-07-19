@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "Open Weights Aren't Open Source: Aether-7B-5Attn, a From-Scratch Fully-Open Foundation Model (Apache-2.0)",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Open Weights Aren't Open Source: Aether-7B-5Attn, a From-Scratch Fully-Open Foundation Model (Apache-2.0) (Dev.to AI). How to get your site cited by AI assistants (Dev.to AI). AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments (InfoQ). I stopped trusting \"Bun vs Node\" blog posts and asked X what devs actually say this week (Dev.to Programming). Why Agent Orchestration Sucks and the Loop Wins (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression (InfoQ)."
+      }
+    ],
+    "key_takeaway": "A from-scratch, fully-open foundation model (Apache-2.0): Aether-7B-5Attn\n\n\nMost \"open\" LLMs ship one thing: a weights file. That's the compiled binary of an LLM. The training data, the training code, the hyperparameters, the logs — all closed. By the software definition of \"open source,\" that's just a published binary.\n\nVIDRAFT released Aether-7B-5Attn the other way. Under Apache-2.0, it opens the whole manufacturing process:\n\n\narchitecture source (attention + MoE + Latin square)\ndata recipe — reproducible byte-for-byte from public repos\ntokenizer scripts\ntraining code (FSDP launcher, loop, n"
+  },
+  "articles": [
+    {
+      "id": "1d726fdbd9cf",
+      "title": "Open Weights Aren't Open Source: Aether-7B-5Attn, a From-Scratch Fully-Open Foundation Model (Apache-2.0)",
+      "url": "https://dev.to/ai_openfree_b23025ef075cf/open-weights-arent-open-source-aether-7b-5attn-a-from-scratch-fully-open-foundation-model-2i81",
+      "summary": "A from-scratch, fully-open foundation model (Apache-2.0): Aether-7B-5Attn\n\n\nMost \"open\" LLMs ship one thing: a weights file. That's the compiled binary of an LLM. The training data, the training code, the hyperparameters, the logs — all closed. By the software definition of \"open source,\" that's just a published binary.\n\nVIDRAFT released Aether-7B-5Attn the other way. Under Apache-2.0, it opens the whole manufacturing process:\n\n\narchitecture source (attention + MoE + Latin square)\ndata recipe — reproducible byte-for-byte from public repos\ntokenizer scripts\ntraining code (FSDP launcher, loop, n",
+      "source": "Dev.to AI",
+      "published": "2026-07-19T08:44:42+00:00",
+      "score": 4.58,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1fjk41eapvfhpk7qqesd.png"
+    },
+    {
+      "id": "3987b60e763a",
+      "title": "How to get your site cited by AI assistants",
+      "url": "https://dev.to/turva-dev/how-to-get-your-site-cited-by-ai-assistants-35f1",
+      "summary": "When a person asks ChatGPT, Perplexity, Claude, or Gemini a question, the assistant answers from sources it can read and trust. Getting cited means being one of those sources. A site is cited when the assistant can reach its content, read it cheaply, confirm the facts, and find corroboration elsewhere. This guide covers what that takes.\n\n\n  \n  \n  Be readable, not just rendered\n\n\nAn assistant that does not run JavaScript sees an empty shell where a client-rendered page should be. The first requirement is that the content arrives in the response: a prerendered or static page, a markdown form ser",
+      "source": "Dev.to AI",
+      "published": "2026-07-19T09:00:00+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frjmhc858v1tfdiautvr4.png"
+    },
+    {
+      "id": "ba27967493e6",
+      "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments",
+      "url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently introduced CloudFormation express mode, a deployment option that can reduce infrastructure deployment times by marking stack operations complete once resource configuration is applied, rather than waiting for full resource stabilization. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-19T05:59:00+00:00",
+      "score": 4.03,
+      "image": "https://res.infoq.com/news/2026/07/cloudformation-express-mode/en/headerimage/generatedHeaderImage-1783162016860.jpg"
+    },
+    {
+      "id": "48662059d34f",
+      "title": "I stopped trusting \"Bun vs Node\" blog posts and asked X what devs actually say this week",
+      "url": "https://dev.to/booyaka101/i-stopped-trusting-bun-vs-node-blog-posts-and-asked-x-what-devs-actually-say-this-week-26ni",
+      "summary": "The top Google hit for \"bun vs node\" on my screen was written in early 2024. It benchmarks a Bun that's shipped a dozen releases since. That's how most of us pick tools: reading a snapshot of an argument that already moved on.\n\nThe argument that's actually current — the one with real production war stories — is happening on X this week. It's just not indexed anywhere you'd think to look.\n\nSo one weekend I built a CLI that asks it directly. It hands your question to Grok 4.5's live X search and makes every claim cite a real post, with a recency tag on each. It's called GrokScope, and you can wa",
+      "source": "Dev.to Programming",
+      "published": "2026-07-19T08:31:26+00:00",
+      "score": 3.77,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw6bbppv0etb1zn7ajnqh.png"
+    },
+    {
+      "id": "2eff2d6ecc13",
+      "title": "Why Agent Orchestration Sucks and the Loop Wins",
+      "url": "https://dev.to/dasein108/why-agent-orchestration-sucks-and-the-loop-wins-3am5",
+      "summary": "Eight agents, 298 tickets, 62 videos. Every failure came from the same place: everything was\nreadable, and nothing was delivered.\n\n\nThis is a retraction. I built a faceless AI YouTube channel and\nclosed it into a single autopilot loop. Then I tore that loop out and replaced it\nwith eight agents passing tickets, and wrote it up like it was progress. This is what\nrunning that company taught me. It stands on its own; you don't need the earlier posts.\n\nData status: real-now. Every count is measured from the live system. Open source.\n\n\n\n\n\nI built an eight-agent AI company to make 60-second videos. ",
+      "source": "Dev.to AI",
+      "published": "2026-07-19T08:53:58+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdouyyc3cgcrqbzgqq2dq.png"
+    },
+    {
+      "id": "1ae760c46832",
+      "title": "The Verification Ladder: A Field Guide",
+      "url": "https://dev.to/dang-w/the-verification-ladder-a-field-guide-3978",
+      "summary": "Claude has, at various points in our working relationship, warmly endorsed: an efficiency statistic fabricated over one too many turns of a massive write-up - oops (\"This is perfect... Nice work! 🎉\"). A test suite that had never once gone red, because a module remap had it quietly testing a mock. And its own confidently wrong claim that my repo hadn't been pushed - sourced from a stale cache, stated twice, in the middle of a project about not trusting verifiers.\n\nThe first one shipped. The other two never made it past the desk. And the difference isn't that the model got better, or that I did.",
+      "source": "Dev.to AI",
+      "published": "2026-07-19T08:51:26+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fut19k7nbeg0vn9jx5j7w.png"
+    },
+    {
+      "id": "825e7f2ef167",
+      "title": "The Fastest Way to Grow Your Business Might Already Be Your Customers",
+      "url": "https://dev.to/adalberto_delaney/the-fastest-way-to-grow-your-business-might-already-be-your-customers-bj9",
+      "summary": "Every business wants more customers, lower acquisition costs, and sustainable growth. Yet many brands spend heavily on advertising while overlooking one of the most powerful marketing channels available—the people who already trust them. A well-designed referral marketing strategy transforms satisfied customers into enthusiastic advocates who help your business grow through genuine recommendations.\n\nPeople trust recommendations from friends, family, and colleagues far more than traditional advertising. That trust makes referral marketing one of the highest-converting customer acquisition strat",
+      "source": "Dev.to AI",
+      "published": "2026-07-19T08:48:28+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "24de0c1e7246",
+      "title": "Version Controlled SQL Database Dolt Releases 2.0 with Automatic Storage Cleanup and Compression",
+      "url": "https://www.infoq.com/news/2026/07/dolt-version-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DoltHub has recently released Dolt 2.0, a major update to the open source version-controlled SQL database. The latest major version adds automatic storage optimization, including garbage collection and compression, along with improved support for large and vector data types. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-18T07:28:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "80ddfeeeb7a4",
+      "title": "Kimi: Threat or menace?",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-18T18:51:07+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "b8d70ad9560d",
+      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
+      "summary": "The Google DeepMind-sponsored Kaggle challenge &quot;Measuring Progress Toward AGI - Cognitive Abilities&quot; asked participants to design new cognitive-science-based AI benchmarks and they just announced the results this week. In my two posts I present evidence that deepmind &amp; kaggle rewarded a nonsensical number generation machine and a litany of unfounded claims with 25k and a grand prize stamp. What the authors of the work I analyze intended to do was to present an LLM with alternative viewpoints of other LLMs on 5 claims regarding a tricky situation and see whether the model changes ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-18T15:10:52+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "1e92f06b5efa",
+      "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
+      "url": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Now generally available, Pinecone Nexus is a \"knowledge engine\" for AI agents that transforms enterprise data into a structured layer agents can query directly. It enables teams to ingest and curate business context once for all, making it reusable across agents and reducing token costs while improving accuracy. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-07-18T14:00:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "e2c0bac21de6",
+      "title": "Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.",
+      "url": "https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/",
+      "summary": "A practical enterprise AI architecture with data agents, AI-powered QA, and AI governance.\nThe post Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-18T17:00:00+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "7d45b7438e14",
+      "title": "Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It",
+      "url": "https://towardsdatascience.com/loop-engineering-with-adaptive-pdf-parsing-start-cheap-pay-for-a-heavier-parser-only-when-the-page-needs-it/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #10A] - The escalation cascade and the free, deterministic checks that flag a failed parse before you pay for a deeper one\nThe post Loop Engineering with Adaptive PDF Parsing: Start Cheap, Pay for a Heavier Parser Only When the Page Needs It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-18T15:00:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "7aab804f9df4",
+      "title": "Stereo2Spatial: Convert Stereo Music Tracks to Spatialized Binaural Mixes [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzevbg/stereo2spatial_convert_stereo_music_tracks_to/",
+      "summary": "I have released a model that I have been working on for ~6 months off and on. I've been enjoying listening to spatial music, but there is a lot of music out there with no real quality spatial mix. So I decided to make a model to convert stereo to spatial. I started by making a flow-matching diffusion model that operated in the latent space of a separately trained VAE (EAR-VAE). I used the VAE to encode the stereo input in to 1 latent and then separately on each channel of the 7.1.4 output. This design is similar to a paper I found about another stereo -&gt; spatial project (ImmersiveFlow (they",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-17T22:55:00+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "1d02d9dc2106",
+      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precision [R] ,[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+      "summary": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and output generation is around 8 tokens/s on this mobile. Point is i learned ai ml based on my interest and no formal PhD , I have compute and resources to test. Anyone willing to join or collab to test on this I tried publishing papers on arxiv and 4 papers are still on hold as im first author and from ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-18T01:40:59+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}
