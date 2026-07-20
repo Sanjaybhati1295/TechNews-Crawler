@@ -1,0 +1,173 @@
+{
+  "digest": {
+    "headline": "GigaWorld-Policy-0.5 Hits 85ms on RTX 4090 for Robot Control",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "GigaWorld-Policy-0.5 Hits 85ms on RTX 4090 for Robot Control (Dev.to AI). Amazon Bedrock AgentCore Observability: Verify Per-Agent CloudWatch Logs and Traces (Dev.to AI). Terminal agents + 975B models: Weekly signals (Dev.to Programming). Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics (Dev.to AI). 239-Paper Survey Maps How AI Agents Self-Improve via Scaffold Updates (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "The Future of Quantum in Web Development: How Quantum Computing Could Transform the Internet We Build (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "GigaWorld-Policy-0.5 runs robot control at 85ms on an RTX 4090, using a Mixture-of-Transformers architecture for real-time local deployment.\n\n\nGigaWorld-Policy-0.5 runs robot control inference at 85ms on a local RTX 4090. The Mixture-of-Transformers architecture decouples visual dynamics from action generation for real-time deployment.\n\nKey facts\n\n\n85ms inference latency on RTX 4090.\nMixture-of-Transformers architecture used.\nSeparates visual dynamics from action generation.\nEnables local, real-time robot control.\nNo training or benchmark details released.\n\n\nGigaWorld-Policy-0.5, a new robot c"
+  },
+  "articles": [
+    {
+      "id": "772320a32cb2",
+      "title": "GigaWorld-Policy-0.5 Hits 85ms on RTX 4090 for Robot Control",
+      "url": "https://dev.to/gentic_news/gigaworld-policy-05-hits-85ms-on-rtx-4090-for-robot-control-3257",
+      "summary": "GigaWorld-Policy-0.5 runs robot control at 85ms on an RTX 4090, using a Mixture-of-Transformers architecture for real-time local deployment.\n\n\nGigaWorld-Policy-0.5 runs robot control inference at 85ms on a local RTX 4090. The Mixture-of-Transformers architecture decouples visual dynamics from action generation for real-time deployment.\n\nKey facts\n\n\n85ms inference latency on RTX 4090.\nMixture-of-Transformers architecture used.\nSeparates visual dynamics from action generation.\nEnables local, real-time robot control.\nNo training or benchmark details released.\n\n\nGigaWorld-Policy-0.5, a new robot c",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:38:13+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fklmaa4dlthqir00veviy.png"
+    },
+    {
+      "id": "0c44f0af070b",
+      "title": "Amazon Bedrock AgentCore Observability: Verify Per-Agent CloudWatch Logs and Traces",
+      "url": "https://dev.to/tran_tienvan_e45fc26d655/amazon-bedrock-agentcore-observability-verify-per-agent-cloudwatch-logs-and-traces-34j1",
+      "summary": "CloudWatch Transaction Search must be enabled before Amazon Bedrock AgentCore spans and traces become searchable, and first-time users may need to wait about ten minutes for those spans to appear.\n\nThat requirement should shape your observability rollout: prove the telemetry path before relying on it during an investigation.\n\n\n  \n  \n  Separate confirmed behavior from proposed defaults\n\n\nDo not design around a platform default until you have verified it.\n\nAWS documentation does not currently guarantee dedicated, per-agent log groups for all new AgentCore agents. Check the AgentCore release note",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:42:27+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn9h8exf80anvpmed3500.png"
+    },
+    {
+      "id": "7d65398ff902",
+      "title": "Terminal agents + 975B models: Weekly signals",
+      "url": "https://dev.to/devsignal/terminal-agents-975b-models-weekly-signals-2j59",
+      "summary": "This week's tooling landscape pushed in two directions simultaneously: heavyweight open-weight models challenging the closed-API incumbents, and infrastructure-layer releases that make running any of them cheaper and faster. If you've been watching the open vs. closed model debate, the economics shifted again.\n\n\n\n\n\n  \n  \n  Grok Build ships terminal agent for codebase edits\n\n\nGrok Build is a Rust-based TUI coding agent that edits files, runs shell commands, and searches the web—interactively or headless via Agent Client Protocol. It's not a wrapper around your editor; it runs in your existing t",
+      "source": "Dev.to Programming",
+      "published": "2026-07-20T09:20:33+00:00",
+      "score": 3.97,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffruiff2yemy0b8ysk6lm.png"
+    },
+    {
+      "id": "9601ea2a9312",
+      "title": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics",
+      "url": "https://dev.to/imus_d7584cbc8ee9b0336256/building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-1k4i",
+      "summary": "Building Production-Grade LLM Evaluation Pipelines: From Vibes to Metrics\n\n\nHow we replaced \"looks good to me\" with automated evaluation catching 92% of hallucinations before deployment\n\n\n\n\n\n  \n  \n  The Problem: Why \"Vibe Checks\" Fail in Production\n\n\nThree months ago, our team shipped a RAG-based customer support assistant. It worked great in testing — we'd ask it questions, read the answers, and say \"yeah, that looks right.\"\n\nThen it hit production.\n\nA customer asked about their billing cycle. The assistant confidently cited a policy that didn't exist. Another asked about API rate limits and ",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:41:23+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F13lccnrxswi2a95nriov.png"
+    },
+    {
+      "id": "a17ba25e15f6",
+      "title": "239-Paper Survey Maps How AI Agents Self-Improve via Scaffold Updates",
+      "url": "https://dev.to/gentic_news/239-paper-survey-maps-how-ai-agents-self-improve-via-scaffold-updates-48ga",
+      "summary": "A survey of 239 papers shows 68% of AI agent self-improvement methods focus on scaffold updates rather than model retraining, raising evaluation quality concerns.\n\n\nA new survey of 239 papers reveals two distinct paths for AI agent self-improvement: model updates and scaffold updates. Scaffold updates — modifying prompts, memory, or tools — account for 68% of recent work, per @HuggingPapers.\n\nKey facts\n\n\nSurvey covers 239 papers on AI agent self-improvement.\n68% of papers focus on scaffold updates (prompts, memory, tools).\nModel updates (fine-tuning, RLHF) account for 32% of approaches.\nOnly 1",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:38:15+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftgzwdl3z4vi39ygvtakg.png"
+    },
+    {
+      "id": "18dc433a50b2",
+      "title": "Can I Dispute a Charge with My Bank If Expedia Denies My Refund",
+      "url": "https://dev.to/calebfoster/can-i-dispute-a-charge-with-my-bank-if-expedia-denies-my-refund-1i8l",
+      "summary": "You canceled the booking. You followed every step. You waited the full processing window. And then Expedia came back with a denial — or worse, complete silence. Now you're staring at a charge on your statement for a trip that never happened, wondering if there's any path left that actually leads somewhere.\n\nThe short answer is yes, you can dispute a charge with your bank even after Expedia denies your refund — and understanding the Expedia refund policy and your rights as a consumer is exactly what makes that dispute winnable. If you need help right now figuring out where your refund stands or",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:39:08+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft1hba444zn2palg1mhyl.png"
+    },
+    {
+      "id": "41b787a55088",
+      "title": "The System Learns to Consult Before It Answers",
+      "url": "https://dev.to/kato_masato_c5593c81af5c6/the-system-learns-to-consult-before-it-answers-2h32",
+      "summary": "Series: Building with 74 AI Personas - Part 10\nTags: #ai #architecture #agents #localfirst #ux\n\nNote: In this series, a \"persona\" is not only a fictional character. It is a YAML-defined operational role with memory notes, routing behavior, handover responsibilities, and a specific way of entering the system.\n\n\n\n\n\n\nMeta Note: Part 9 ended with:\n\"Sometimes intelligence is the ability to become a handoff.\"\n\nPart 10 asks what happens after the handoff.\nWhen the next session begins, a continuity system should not only remember the previous day.\nIt should also know how to avoid answering too quickly",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:42:06+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "d3c3167bc7c6",
+      "title": "The Complete Guide to AI-Powered Mobile Apps: Features, Benefits & Real Use Cases",
+      "url": "https://dev.to/alphabit_infoway/the-complete-guide-to-ai-powered-mobile-apps-features-benefits-real-use-cases-mnn",
+      "summary": "Artificial intelligence has moved out of research labs and into the apps people use every single day. From the way Netflix recommends your next show to how your banking app flags a suspicious transaction in seconds, AI-powered mobile apps are quietly reshaping how businesses build products and how users expect apps to behave.\n\nIf you're a business owner, product manager, or founder trying to understand what an AI-powered mobile app actually is — and whether your business needs one — this guide breaks it down in plain language, backed by real use cases and practical next steps.\n\nWhat Is an AI-P",
+      "source": "Dev.to AI",
+      "published": "2026-07-20T09:41:35+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "0cbf18d15c52",
+      "title": "When Does a Prompt Become an Undocumented Program?",
+      "url": "https://dev.to/yura_solovey/when-does-a-prompt-become-an-undocumented-program-4i6b",
+      "summary": "When we first decided to bring AI into analysts’ work, the task seemed fairly down-to-earth. The company has several development teams and roughly fifteen analysts. They collect requirements, prepare tasks, describe changes in Confluence, think through testing, and help align future implementation with both business and development. A lot of this work is repetitive, so giving analysts a tool that could prepare first drafts felt like an obvious idea.\n\nThe problem is that a document in this kind of process almost never stands on its own. The same change exists in Jira, in Confluence, in mockups,",
+      "source": "Dev.to Programming",
+      "published": "2026-07-20T09:47:13+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "94f3c8d71624",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-19T19:24:45+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "d5b8d6c90679",
+      "title": "The Future of Quantum in Web Development: How Quantum Computing Could Transform the Internet We Build",
+      "url": "https://dev.to/okoye_ndidiamaka_5e3b7d30/the-future-of-quantum-in-web-development-how-quantum-computing-could-transform-the-internet-we-lok",
+      "summary": "What if the next generation of websites could solve problems that today's fastest supercomputers struggle with?\n\nA few decades ago, the internet was little more than a network for researchers. Then came e-commerce, social media, cloud computing, mobile apps, and artificial intelligence. Each wave reshaped the way we live, work, and communicate.\n\nNow imagine another leap—one where web applications can process incredibly complex calculations in moments, optimize global systems almost instantly, and unlock breakthroughs that today's computers simply can't handle.\n\nThat possibility is driving grow",
+      "source": "Dev.to Programming",
+      "published": "2026-07-20T09:29:06+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "f39ec5384df0",
+      "title": "Backpropagation Explained for Beginners (Part 1): Building the Intuition",
+      "url": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/",
+      "summary": "Let's discover how neural networks learn, step by step\nThe post Backpropagation Explained for Beginners (Part 1): Building the Intuition appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-19T17:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "ba27967493e6",
+      "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments",
+      "url": "https://www.infoq.com/news/2026/07/cloudformation-express-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently introduced CloudFormation express mode, a deployment option that can reduce infrastructure deployment times by marking stack operations complete once resource configuration is applied, rather than waiting for full resource stabilization. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-19T05:59:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "56bc733aae29",
+      "title": "Your AI Agent Passed Every Eval. Finance Still Killed It.",
+      "url": "https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/",
+      "summary": "An AI agent passed every metric in the eval harness I published, then the CFO killed it — its successful resolutions cost more than the humans it replaced.\nThe one metric that predicts whether an agent survives production, and how to measure it without a rebuild.\nThe post Your AI Agent Passed Every Eval. Finance Still Killed It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-19T13:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "bd88580fd57b",
+      "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
+      "url": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6quinquies] - Prompt engineering, then context engineering, then loop engineering. On the question side, the loop is small by design: read the doc, ask what is missing, re-parse.\nThe post Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-19T15:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    }
+  ]
+}
