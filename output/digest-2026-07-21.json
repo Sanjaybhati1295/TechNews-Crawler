@@ -1,0 +1,285 @@
+{
+  "digest": {
+    "headline": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
+    "tldr": "Today's digest covers 27 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog (InfoQ). This Week in AI: Kimi K3 Sets an Open-Weight Record, OpenAI Consolidates Coding Tools, and the Agent Infrastructure Race Heats Up (Dev.to AI). Databricks AI Classify: A Cost-Effective Solution for Massive Document Classification (Dev.to AI). One Stuck JSONL Scan Should Not Freeze Every Later Refresh (Dev.to Programming). AI Stack Course in Hyderabad | AI Stack Online Training (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "GitLab has released version 19.2 of its DevSecOps platform, adding agentic automation aimed at the security and review work that has piled up as AI coding tools generate more code than developers can check by hand. The release, announced on 16 July 2026, brings four features out of beta or into public beta: Dependency Scanning Auto-Remediation, Security Review Flow, GitLab Duo CLI and Custom Flows By Matt Saunders"
+  },
+  "articles": [
+    {
+      "id": "34fa21000e8a",
+      "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
+      "url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab has released version 19.2 of its DevSecOps platform, adding agentic automation aimed at the security and review work that has piled up as AI coding tools generate more code than developers can check by hand. The release, announced on 16 July 2026, brings four features out of beta or into public beta: Dependency Scanning Auto-Remediation, Security Review Flow, GitLab Duo CLI and Custom Flows By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-07-21T08:00:00+00:00",
+      "score": 4.72,
+      "image": "https://res.infoq.com/news/2026/07/gitlab-19-2-ai-agents/en/headerimage/generatedHeaderImage-1784567507763.jpg"
+    },
+    {
+      "id": "d18acdf0120e",
+      "title": "This Week in AI: Kimi K3 Sets an Open-Weight Record, OpenAI Consolidates Coding Tools, and the Agent Infrastructure Race Heats Up",
+      "url": "https://dev.to/nerdhead_01/this-week-in-ai-kimi-k3-sets-an-open-weight-record-openai-consolidates-coding-tools-and-the-3m0k",
+      "summary": "This week in AI was dense. Three distinct storylines ran in parallel — a landmark open-weight model release, a platform war between OpenAI and Anthropic over who owns coding work, and a quieter but consequential infrastructure buildout happening underneath every agent deployment. Here's what actually matters for builders.\n\n\n  \n  \n  Kimi K3: The Largest Open-Weight Model Ever Released Changes the Cost-Quality Equation\n\n\nMoonshot AI shipped Kimi K3 this week — 2.8 trillion total parameters, 1 million token context, native multimodal input, and open weights promised by July 27. The model is alrea",
+      "source": "Dev.to AI",
+      "published": "2026-07-21T09:21:12+00:00",
+      "score": 4.4,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.nerdheadz.com%2Fapi%2Fmedia%2Ffile%2Fblog_hero_setB_t1_illustration_bright_blog_hero_v1_composer_seed2993_211e6e5a.png"
+    },
+    {
+      "id": "01b60bf83b78",
+      "title": "Databricks AI Classify: A Cost-Effective Solution for Massive Document Classification",
+      "url": "https://dev.to/startuphubai__c637ac1b0/databricks-ai-classify-a-cost-effective-solution-for-massive-document-classification-4b48",
+      "summary": "In the realm of artificial intelligence and data analytics, efficiently classifying massive amounts of documents against extensive taxonomies has remained a significant challenge. Traditional methods often fall short, and even sophisticated large language models (LLMs) can prove inefficient and costly for such large-scale tasks. Databricks has introduced a new workflow, Databricks AI Classify, which combines vector search with AI functions to deliver superior accuracy and cost savings, outperforming LLMs in this critical area. This innovative approach offers a scalable and pragmatic solution f",
+      "source": "Dev.to AI",
+      "published": "2026-07-21T09:22:25+00:00",
+      "score": 4.3,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.startuphub.ai%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fentity-images%2Fsocial-covers%2Fanimated%2F2f5c2276-6162-4387-bb8b-08273a34b77b-text.gif"
+    },
+    {
+      "id": "30bebdcb2c2d",
+      "title": "One Stuck JSONL Scan Should Not Freeze Every Later Refresh",
+      "url": "https://dev.to/agentis/one-stuck-jsonl-scan-should-not-freeze-every-later-refresh-14oa",
+      "summary": "Local-first does not mean failure-proof.\n\nA Claude Code or Codex usage scanner can hit a huge embedded payload, a partial JSONL line, or a scan task that never commits. The first problem threatens memory. The last problem can freeze every later refresh behind one boolean.\n\n\n  \n  \n  Use two bounds\n\n\n\n\n\nline-size policy -&gt; protects memory\nscan-age policy  -&gt; protects liveness\n\n\n\n\n\n\nDo not replace both with one generic timeout.\n\n\n  \n  \n  Line policy comes from the data contract\n\n\nOn macOS, Agent Island's Claude reader streams lines with a 64 MiB backstop. That ceiling is intentionally high ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:09:36+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy3o2sk1t8jern23p8ttu.png"
+    },
+    {
+      "id": "ec601e17dbc6",
+      "title": "AI Stack Course in Hyderabad | AI Stack Online Training",
+      "url": "https://dev.to/hari_krishna_17497813413d/ai-stack-course-in-hyderabad-ai-stack-online-training-1440",
+      "summary": "How to Choose the Best AI Stack Course For Beginners\nIntroduction\nAI Stack Course selection can feel difficult when many learning options look similar. Beginners often wonder which course teaches the right skills without becoming too complex. A good course should explain concepts in simple language, include practical exercises, and help learners build confidence step by step. Instead of focusing on trends, it should provide a structured learning path that starts with fundamentals and gradually introduces modern AI technologies. Understanding what makes a course valuable helps beginners invest ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:11:23+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7n9s6uhwyo803ixga9jh.png"
+    },
+    {
+      "id": "7538cb2f16a2",
+      "title": "Open Source in the Age of AI: When Slop Floods the Swamp",
+      "url": "https://dev.to/nahamaalochi/open-source-in-the-age-of-ai-when-slop-floods-the-swamp-3dp3",
+      "summary": "I like open source for the same reason I like well designed systems.\nClear inputs. Honest outputs. Humans in the loop.\n\nLately that loop feels clogged.\n\nOver the last few weeks something strange has happened. Pull requests multiplied. Bug reports exploded. Security issues appeared out of thin air. Everything looked serious. Everything looked formatted. Everything looked wrong.\n\nThis is not enthusiasm.\nThis is industrial scale contribution theater.\n\nWe taught machines to talk. Some people decided that talking counts as contributing.\n\n\n\n\n\n\n\n  \n  \n  The Inbox as a Crime Scene\n\n\nIf you maintain a ",
+      "source": "Dev.to AI",
+      "published": "2026-07-21T09:21:04+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzlqm7ok84g6o2qniyb4z.png"
+    },
+    {
+      "id": "ff3e00980b2a",
+      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+      "url": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS released Loom, an open-source reference platform on AWS Labs for governing AI agents at scale. Built on Strands Agents and Bedrock AgentCore Runtime, it implements RFC 8693 token exchange for identity propagation through delegated actor chains, config-driven deployments without runtime code generation, and mandatory tagging. AWS positions it as an example, not a managed service. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-20T10:04:00+00:00",
+      "score": 3.6,
+      "image": null
+    },
+    {
+      "id": "84b84aa15243",
+      "title": "OpenAI is scared of open-weight models. Should the US be?",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "summary": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of  turning AI into a business.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-20T19:33:25+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "e136bf306a4b",
+      "title": "Collect Bulk Gmail Accounts with Secure Access",
+      "url": "https://dev.to/buygo2bank2457/collect-bulk-gmail-accounts-with-secure-access-3pji",
+      "summary": "Discover a deeply researched, human-styled guide explicitly tailored for modern enterprises looking to Buy Gmail Accounts securely and productively. This comprehensive analysis moves past standard automated templates to explain how variables like account age, verification metrics, and system security directly affect your search engine optimization and corporate growth. Learn how utilizing reliable providers like BuyGo2Bank allows your organization to bypass operational bottlenecks, maintain resilient marketing channels, and secure an authentic digital footprint across today's competitive onlin",
+      "source": "Dev.to AI",
+      "published": "2026-07-21T09:19:20+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "417bb8a72304",
+      "title": "Unlock Premium Gmail Accounts for Your Projects",
+      "url": "https://dev.to/buygo2bank345/unlock-premium-gmail-accounts-for-your-projects-32o3",
+      "summary": "Unlock a highly strategic, human-crafted analysis designed for modern enterprises exploring how to safely Buy Gmail Accounts to supercharge their search engine optimization and digital marketing campaigns. This comprehensive guide moves beyond basic automated templates to detail how account history, outreach scaling, and system security parameters impact your professional workflows. Learn how utilizing reliable platforms like BuyGo2Bank allows your organization to bypass operational creation bottlenecks, maintain resilient link-building channels, and secure an authentic digital footprint acros",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:16:50+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "6423d5bc86e9",
+      "title": "Claim Trusted Gmail Accounts with Warranty",
+      "url": "https://dev.to/buygo2bank2457/claim-trusted-gmail-accounts-with-warranty-d19",
+      "summary": "Unlock a highly detailed, human-styled strategy guide tailored for modern businesses exploring how to safely Buy Gmail Accounts for search engine optimization and digital scaling. This comprehensive analysis moves past standard automated templates to explain how variables like account age, verification metrics, and system security directly impact your company's growth. Learn how utilizing reliable providers like BuyGo2Bank allows your organization to bypass operational creation bottlenecks, maintain resilient communication networks, and secure an authentic digital footprint across today's high",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:12:45+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "4fbf22de962c",
+      "title": "Pick High-Quality Gmail Accounts with Fast Delivery",
+      "url": "https://dev.to/buygo2bank345/pick-high-quality-gmail-accounts-with-fast-delivery-2jk4",
+      "summary": "Unlock a highly detailed, human-styled strategy guide tailored for modern businesses exploring how to safely Buy Gmail Accounts for digital expansion. This comprehensive analysis breaks away from rigid automated templates to explain how account age, verification metrics, and system safety directly impact your company's growth. Learn how utilizing reliable providers like BuyGo2Bank allows your organization to bypass operational creation bottlenecks, maintain resilient communication networks, and secure an authentic digital footprint across today's highly competitive online marketplace.\nContact ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:10:33+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "6b14ee700e1d",
+      "title": "Choose Verified Gmail Accounts from a Trusted Website",
+      "url": "https://dev.to/buygo2bank345/choose-verified-gmail-accounts-from-a-trusted-website-5g39",
+      "summary": "Unlock a highly detailed, human-styled strategy guide tailored for modern businesses exploring how to safely Buy Gmail Accounts for digital expansion. This comprehensive analysis breaks away from rigid automated templates to explain how account age, verification metrics, and system safety directly impact your company's growth. Learn how utilizing reliable providers like BuyGo2Bank allows your organization to bypass operational creation bottlenecks, maintain resilient communication networks, and secure an authentic digital footprint across today's highly competitive online marketplace.\nContact ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:10:04+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d856539d3b82",
+      "title": "Access Verified Gmail Accounts Instantly",
+      "url": "https://dev.to/buygo2bank2457/access-verified-gmail-accounts-instantly-29ab",
+      "summary": "Unlock a highly detailed, human-centric analysis designed for modern enterprises exploring how to safely Buy Gmail Accounts for corporate growth. This comprehensive guide breaks away from rigid automated templates to explain how account age, verification, and security parameters impact your business bottom line. Learn how utilizing professional platforms like BuyGo2Bank allows your organization to bypass operational creation bottlenecks, maintain resilient email marketing channels, and secure an authentic digital footprint across today's competitive online landscape.\nContact us anytime — we re",
+      "source": "Dev.to Programming",
+      "published": "2026-07-21T09:05:48+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "dc09e7342f94",
+      "title": "X relaunches a rebuilt Android app after year-long effort",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "summary": "X says the rebuilt version of its Android app is now available globally.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-20T19:37:39+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "1db9c8ac2637",
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-21T03:56:03+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "98d368d1389b",
+      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
+      "url": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of TornadoVM, Apache TomEE, Java Operator SDK and LangChain4j; a maintenance release of Micronaut; a new extension, Quarkus Shim; and a new Oracle AI Agent Studio for Fusion Applications. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-07-20T18:45:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "580ab93c01b4",
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day.\nThe post $100 million for open source: A milestone built by the community appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-20T16:00:00+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "45a58f05624d",
+      "title": "Adobe camera app’s new feature will critique your photos using AI",
+      "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai/",
+      "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-20T15:45:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "c64e9f2673fe",
+      "title": "YouTube clarifies policies around AI slop and upsetting videos",
+      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "summary": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-20T15:23:06+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "809e6a3d28fb",
+      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+      "url": "https://news.ycombinator.com/item?id=48981136",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-20T16:32:10+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "39c113285770",
+      "title": "How to Run Claude Code Agents for 24+ Hours",
+      "url": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
+      "summary": "Apply long-running coding agents to become a more productive engineer\nThe post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-20T16:30:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "577c93e103b8",
+      "title": "Exploring continual learning without replay buffers: Our findings using dynamic task-similarity routing [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v1rmbb/exploring_continual_learning_without_replay/",
+      "summary": "Hi, I’ve been doing some work in the continual learning space and wanted to share an open-source framework we put together called Coincidex, along with some architectural insights and failure modes we found along the way. Most conventional approaches to sequential task learning rely heavily on replay buffers (which introduce severe memory/privacy overhead) or complex, hand-tuned task masks. We wanted to see if we could bypass both by relying entirely on a context-driven task similarity layer to handle data routing dynamically. The Approach: Instead of caching historical samples to prevent cata",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-20T17:13:34+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "01387d2b6c37",
+      "title": "Podcast: Strands Agents with Clare Liguori",
+      "url": "https://www.infoq.com/podcasts/strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Thomas Betts talks with Clare Liguori, the technical lead on the open source Strands Agents SDK. The conversation covers how Strands Agents has grown from a Python SDK to a full agent harness running in production. Clare shares some lessons learned from building agents at scale, shifting to a model-driven architecture, and what comes next as the LLMs that underpin agents continue to improve. By Clare Liguori",
+      "source": "InfoQ",
+      "published": "2026-07-20T11:00:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "da52bc552070",
+      "title": "Presentation: Platform Engineering for Everyone - Success Can’t Be Coded",
+      "url": "https://www.infoq.com/presentations/platform-engineering-product-mindset/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Max Korbacher explains why successful internal development platforms cannot be built on tech alone. He discusses the pitfalls of infrastructure-first thinking, the importance of a clear product mindset, and how to measure real value using DevEx and SPACE metrics. Learn how to align your team, manage tech debt, and foster a thriving community to ensure lasting platform adoption. By Max Körbächer",
+      "source": "InfoQ",
+      "published": "2026-07-20T11:50:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "1dc8fd6d255f",
+      "title": "Loop Engineering with Adaptive Parsing in Action: Parsing Flat Tables with Azure and Figures with a Vision LLM",
+      "url": "https://towardsdatascience.com/loop-engineering-with-adaptive-parsing-in-action-parsing-flat-tables-with-azure-and-figures-with-a-vision-llm/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #10B] - The LLM as last line of defence, then two real escalations walked end to end: a flat table to Azure, a figure to a vision model\nThe post Loop Engineering with Adaptive Parsing in Action: Parsing Flat Tables with Azure and Figures with a Vision LLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-20T15:00:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "3acd5f35ca0a",
+      "title": "Automatically Assign a Category to Uncategorized Rows in Power Query and DAX",
+      "url": "https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/",
+      "summary": "Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data according to certain rules. Let’s see how I solved this in a facility management project.\nThe post Automatically Assign a Category to Uncategorized Rows in Power Query and DAX appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-20T12:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    }
+  ]
+}
