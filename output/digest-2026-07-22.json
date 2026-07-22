@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Synthesia’s AI training platform is moving beyond videos into live coaching (TechCrunch AI). Google releases three new Gemini models — but no 3.5 Pro (TechCrunch AI). The Anthropic-Physical Intelligence rumor roiling AI Twitter (TechCrunch AI). SpaceX Aborts Starship Launch After Multiple Engines Fail to Ignite (Dev.to Programming). SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "I read all 141 comments asking if OpenClaw is dead and the answer is messier than people think (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness."
+  },
+  "articles": [
+    {
+      "id": "fcb688611841",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+      "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T08:00:00+00:00",
+      "score": 4.12,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Roleplay-Sessions_Press-Kit_Product_01.png?resize=1200,675"
+    },
+    {
+      "id": "ec57ba11b1c3",
+      "title": "Google releases three new Gemini models — but no 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "summary": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and Flash Cyber, but the continued absence of Gemini 3.5 Pro raises fresh questions about its AI strategy.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-21T17:11:50+00:00",
+      "score": 4.1,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/google-gemini-jagmeet-singh-techcrunch.jpg?resize=1200,800"
+    },
+    {
+      "id": "fedcdccad6a6",
+      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T03:20:57+00:00",
+      "score": 3.97,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/whisper.png?resize=1200,800"
+    },
+    {
+      "id": "75a817a9090d",
+      "title": "SpaceX Aborts Starship Launch After Multiple Engines Fail to Ignite",
+      "url": "https://dev.to/gabyjoe/spacex-aborts-starship-launch-after-multiple-engines-fail-to-ignite-4608",
+      "summary": "SpaceX has delayed its latest Starship test flight after the launch countdown reached zero, as a few engines on the Super Heavy booster did not ignite.\n\nThe rocket's built-in safety system detected the issue and automatically stopped the launch before liftoff.\n\nAccording to SpaceX, four of the 33 Raptor engines failed to start during the ignition sequence.\n\nSince the rocket did not meet the required launch conditions, the system safely aborted the mission.\n\nThis also marks the first time a fully assembled Starship reached the engine ignition stage before being stopped on the launch pad.\n\nElon ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-22T08:38:38+00:00",
+      "score": 3.76,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe6rv85trmnzg0gsosxsb.png"
+    },
+    {
+      "id": "205798f01eef",
+      "title": "I read all 141 comments asking if OpenClaw is dead and the answer is messier than people think",
+      "url": "https://dev.to/lars_winstand/i-read-all-141-comments-asking-if-openclaw-is-dead-and-the-answer-is-messier-than-people-think-4p13",
+      "summary": "I went through all 141 comments on the viral r/openclaw thread asking whether OpenClaw is dead.\n\nMy short version:\n\nOpenClaw is not dead.\n\nBut that was never the real question.\n\nThe thread exposed something more useful: people still want OpenClaw, installs appear to be growing, and some teams absolutely depend on it. At the same time, a lot of users do not trust it enough to update casually or run unattended without backup plans.\n\nFor hobby projects, that is annoying.\n\nFor production automations, that is the whole story.\n\nIf you are running agents through OpenClaw, n8n, Make, Zapier, or a cust",
+      "source": "Dev.to AI",
+      "published": "2026-07-22T09:12:10+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fstandardcompute.com%2Fapi%2Fog%2Fi-read-all-141-comments-asking-if-openclaw-is-dead-and-the-answer-is-messier-tha"
+    },
+    {
+      "id": "d031c7f2dd25",
+      "title": "SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/",
+      "summary": "Paper:https://arxiv.org/abs/2607.19058 Code (GitHub):https://github.com/nuemaan/skewadam Hi everyone, I just published a preprint on a new optimizer designed to tackle the massive VRAM bottleneck in Mixture-of-Experts (MoE) training. If you've trained MoEs, you know that optimizer state is usually the largest single line item in the memory budget. AdamW, for example, spends 50.6 GB of state memory just to update a 12.6 GB model. I built SkewAdam to fix this by using a tiered state allocation. Instead of treating all parameters equally, it allocates precision based on parameter behavior:  Backb",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-22T07:04:40+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "8eac58381968",
+      "title": "OpenAI says Hugging Face was breached by its pre-release models",
+      "url": "https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/",
+      "summary": "OpenAI has come forward to claim responsibility for the Hugging Face breach, saying it was the result of internal testing gone awry.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-21T20:56:55+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "34fa21000e8a",
+      "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
+      "url": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab has released version 19.2 of its DevSecOps platform, adding agentic automation aimed at the security and review work that has piled up as AI coding tools generate more code than developers can check by hand. The release, announced on 16 July 2026, brings four features out of beta or into public beta: Dependency Scanning Auto-Remediation, Security Review Flow, GitLab Duo CLI and Custom Flows By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-07-21T08:00:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "a54a18ad22c4",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-21T17:14:06+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "02c36b76081e",
+      "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding",
+      "url": "https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The latest release of Android Studio, Quail 2, now stable, expands Gemini/AI Agent Mode inside the IDE by enabling multiple AI conversations in parallel and further advancing Google's push to integrate AI-powered workflows directly into Android Studio. It also enhances debugging and profiling capabilities and makes it easier to explore experimental features. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-07-21T19:00:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "83423a2b285f",
+      "title": "RSPack 2.0: Performance Gains, Leaner Dependencies and ESM Core",
+      "url": "https://www.infoq.com/news/2026/07/rspack-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rspack, developed by ByteDance, has released version 2.0, featuring enhanced performance, reduced dependencies, and a focus on modern ECMAScript modules. Key updates include a pure ESM core, improved static analysis, and support for RSC. Performance benchmarks show big improvements in build times. The project has experienced substantial growth, with npm downloads exceeding 5 million weekly. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-21T15:23:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "387867f19833",
+      "title": "Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations",
+      "url": "https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9bis] - Your RAG isn’t hallucinating, it’s answering the wrong context faithfully. On real NIST and World Bank documents, watch each of the four bricks break, and the contract that closes it\nThe post Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-21T16:30:00+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "5bd2fa9899fc",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.\nThe post How to build interactive experiences with canvases appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-21T16:00:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "54e212e828c4",
+      "title": "Yelp Unifies ML Model Training with Training Orchestrator",
+      "url": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Yelp has launched Training Orchestrator. This new internal framework replaces individual team Spark training scripts. Now, it uses a configuration-driven, DAG-based execution model. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-07-21T10:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "aa24cbb89ade",
+      "title": "I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked",
+      "url": "https://towardsdatascience.com/i-tried-fine-tuning-a-robot-ai-model-on-colab-here-is-what-worked/",
+      "summary": "A reproducible 100-step LoRA fine-tuning run for OpenVLA, with dataset checks, Colab setup, training metrics, and W&#038;B evidence.\nThe post I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-21T15:00:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "dbab3cb5588d",
+      "title": "GitLab Brings Carbon Awareness to CI/CD to Measure the Environmental Cost of Software Delivery",
+      "url": "https://www.infoq.com/news/2026/07/gitlab-carbon-awareness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab has introduced a new approach to Green DevOps, demonstrating how software engineering teams can measure the carbon emissions generated by their CI/CD pipelines. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-07-21T12:00:00+00:00",
+      "score": 2.51,
+      "image": null
+    }
+  ]
+}
