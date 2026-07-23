@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "Which Business Processes Should You Automate With AI First? A 5-Factor Scoring Model",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Which Business Processes Should You Automate With AI First? A 5-Factor Scoring Model (Dev.to Programming). ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push (TechCrunch AI). Links: AI Agents & Automation (April 2026) (Dev.to AI). How I gave my AI agent memory and a private knowledge base — in a single SQLite file (Dev.to AI). The Download: NASA’s new space telescope and OpenAI’s autonomous hacker (MIT Tech Review)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Loop Engineering for RAG Generation: Iterate top-k One at a Time (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "OpenAI launched Presence on July 22, 2026, promising enterprise agents that can work across internal workflows with guardrails, approvals, and connected systems. \n\nThe controversial thing is not that every company now needs more agents. It is that most companies are buying automation capacity before deciding which process deserves it. That order is backwards. \n\nAI workflow automation creates value only when the selected process has enough volume, reliable data, manageable risk, and a measurable outcome. \n\nAfter 10+ years building AI web and mobile products, I use this five-factor scoring model"
+  },
+  "articles": [
+    {
+      "id": "fb74e0c3e634",
+      "title": "Which Business Processes Should You Automate With AI First? A 5-Factor Scoring Model",
+      "url": "https://dev.to/dhruvjoshi9/which-business-processes-should-you-automate-with-ai-first-a-5-factor-scoring-model-18j7",
+      "summary": "OpenAI launched Presence on July 22, 2026, promising enterprise agents that can work across internal workflows with guardrails, approvals, and connected systems. \n\nThe controversial thing is not that every company now needs more agents. It is that most companies are buying automation capacity before deciding which process deserves it. That order is backwards. \n\nAI workflow automation creates value only when the selected process has enough volume, reliable data, manageable risk, and a measurable outcome. \n\nAfter 10+ years building AI web and mobile products, I use this five-factor scoring model",
+      "source": "Dev.to Programming",
+      "published": "2026-07-23T08:59:50+00:00",
+      "score": 4.18,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxoyzdkrgh42empn5gp6d.png"
+    },
+    {
+      "id": "8bdbd9a84622",
+      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-23T06:09:13+00:00",
+      "score": 3.72,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/03/ServiceNow-Getty.jpg?resize=1200,800"
+    },
+    {
+      "id": "af18c46fc35a",
+      "title": "Links: AI Agents & Automation (April 2026)",
+      "url": "https://dev.to/amrree/links-ai-agents-automation-april-2026-448p",
+      "summary": "Navigating the AI Agent Revolution: Essential Reads for April 2026\n\n\nThe world of AI agents and automation is evolving at breakneck speed, and staying updated is crucial for developers and tech enthusiasts alike. Whether you're a seasoned AI professional or just starting to explore the potential of intelligent agents, this curated list of resources will provide valuable insights into the latest trends, tools, and predictions shaping the industry. Let's dive into the key highlights for April 2026.\n\n\n\n\nThe 2026 Hype Cycle for Agentic AI\nGartner's annual analysis of the agentic AI landscape is a ",
+      "source": "Dev.to AI",
+      "published": "2026-07-23T09:03:53+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzb5mid86wuczfup09xmf.png"
+    },
+    {
+      "id": "90e0708d2a9d",
+      "title": "How I gave my AI agent memory and a private knowledge base — in a single SQLite file",
+      "url": "https://dev.to/maximskorohod/how-i-gave-my-ai-agent-memory-and-a-private-knowledge-base-in-a-single-sqlite-file-49hi",
+      "summary": "Every AI agent I used had the same two failures. It forgot everything the moment I closed the chat, and it confidently invented facts it didn't have. I didn't want a cloud service holding my documents, and I didn't want to fork the agent. So I built two plugins.\n\nThis is the story of the design decisions behind them: why hybrid search, why \"quote or refuse\" belongs in code and not in a prompt, why I threw out PyTorch on purpose, how a version-keeping memory (SUPERSEDE) beats overwriting, and how you can run the whole thing without a cloud key at all, local ONNX embeddings included. Same direct",
+      "source": "Dev.to AI",
+      "published": "2026-07-23T09:03:15+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fewfm0h2qez1lygejg9by.png"
+    },
+    {
+      "id": "1eff5f363132",
+      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "url": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-22T12:10:00+00:00",
+      "score": 3.53,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/260708_RomanCoronagraph.gif?resize=1200,600"
+    },
+    {
+      "id": "6a49c5af5442",
+      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads/",
+      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sharing, and AI features designed to strengthen real-world relationships.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T18:13:58+00:00",
+      "score": 3.36,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/banner.png?resize=1200,750"
+    },
+    {
+      "id": "b8eb1fb94832",
+      "title": "Copilot vs. raw API access: What are you actually paying for?",
+      "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+      "summary": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.\nThe post Copilot vs. raw API access: What are you actually paying for? appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-22T19:00:00+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "9002430dc555",
+      "title": "Travis Kalanick’s robotics company raises $1.7B, led by a16z",
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T18:50:44+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "d4f086f237a0",
+      "title": "Menlo Ventures’ Matt Murphy explains what AI startups founders must do differently",
+      "url": "https://techcrunch.com/podcast/menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently/",
+      "summary": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025.&#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#160;Matt Murphy&#160;says&#160;he&#8217;s&#160;never seen in 25 years of investing, not in the internet wave, not in mobile, not in the first cloud boom. Menlo led Anthropic&#8217;s $500M Series D, and Murphy has had a front-row seat as the company went from a pre-revenue, [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T14:00:00+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "d795586aeea7",
+      "title": "Build an LLM Agent That Can Write and Run Code",
+      "url": "https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/",
+      "summary": "A hands-on walkthrough of code execution with the OpenAI Agents SDK and Docker\nThe post Build an LLM Agent That Can Write and Run Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-22T13:30:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "8458437ee995",
+      "title": "Arcee, a US open source AI lab, says Chinese models are not inherently dangerous",
+      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "summary": "As Chinese AI models grow in capability and popularity among U.S. companies, the arguing over what should be done about them has reached a fever pitch.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T16:24:08+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "fcb688611841",
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+      "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T08:00:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "858b2ce5d7c2",
+      "title": "Passionfroot raises $15M to expand its B2B creator marketplace to the US",
+      "url": "https://techcrunch.com/2026/07/22/passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us/",
+      "summary": "Passionfroot, a German startup building a marketplace connecting B2B creators with brands, has raised $15M in a Series A round led by Insight Partners.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T13:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "a58ad190dc03",
+      "title": "How To Build Your Own LLM Runtime From Scratch",
+      "url": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
+      "summary": "If you have ever wanted to actually build an LLM inference runtime yourself — pack your own weights, own every barrier, capture your own CUDA graphs — this is what that journey looks like on an H100. A step-by-step tour of a small runtime called annotated-llm-runtime, and the three bugs that produced most of the annotations.\nThe post How To Build Your Own LLM Runtime From Scratch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-22T15:00:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "fedcdccad6a6",
+      "title": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "url": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter/",
+      "summary": "Anthropic and OpenAI's aggressive 2026 acquisition sprees set the stage for a weekend rumor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-22T03:20:57+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "19e3fd1807c6",
+      "title": "Loop Engineering for RAG Generation: Iterate top-k One at a Time",
+      "url": "https://towardsdatascience.com/loop-engineering-for-rag-generation-when-top-1-is-enough-when-you-need-top-k/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8bis] - Two regimes for sending retrieved candidates to the generation brick, the sufficiency signal that picks between them, and the per-question type dispatch that makes it cheap\nThe post Loop Engineering for RAG Generation: Iterate top-k One at a Time appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-22T16:30:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "7611a0a7ac36",
+      "title": "Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment",
+      "url": "https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/",
+      "summary": "Static analysis nailed the malicious skill and over-flagged the useful one. The gap between those results is where human judgement actually earns its keep.\nThe post Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-22T12:00:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "d031c7f2dd25",
+      "title": "SkewAdam: A tiered optimizer that cuts MoE state memory by 97% (fits a 6.7B MoE on a 40GB GPU) [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v38k1m/skewadam_a_tiered_optimizer_that_cuts_moe_state/",
+      "summary": "Paper:https://arxiv.org/abs/2607.19058 Code (GitHub):https://github.com/nuemaan/skewadam Hi everyone, I just published a preprint on a new optimizer designed to tackle the massive VRAM bottleneck in Mixture-of-Experts (MoE) training. If you've trained MoEs, you know that optimizer state is usually the largest single line item in the memory budget. AdamW, for example, spends 50.6 GB of state memory just to update a 12.6 GB model. I built SkewAdam to fix this by using a tiered state allocation. Instead of treating all parameters equally, it allocates precision based on parameter behavior:  Backb",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-22T07:04:40+00:00",
+      "score": 2.14,
+      "image": null
+    }
+  ]
+}
