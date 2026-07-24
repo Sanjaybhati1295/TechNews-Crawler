@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3 (InfoQ). WebMCP is shaping up as a powerful new standard for AI-driven browsing (Dev.to Programming). Anthropic updates Claude voice mode with more capable models (TechCrunch AI). DOCKER (Dev.to Programming). What Is Brand Naming? (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents (Hacker News)."
+      }
+    ],
+    "key_takeaway": "Jotai v2.20.0 has been released, focusing on improved performance for high-throughput scenarios. Key changes involve adjustments to internal building blocks and addressing previous performance regressions. While the API for everyday use remains unchanged, library authors should note some deprecations as the groundwork for Jotai v3 begins. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "0d0f36c79927",
+      "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+      "url": "https://www.infoq.com/news/2026/07/jotai-rework-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jotai v2.20.0 has been released, focusing on improved performance for high-throughput scenarios. Key changes involve adjustments to internal building blocks and addressing previous performance regressions. While the API for everyday use remains unchanged, library authors should note some deprecations as the groundwork for Jotai v3 begins. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-24T06:26:00+00:00",
+      "score": 3.84,
+      "image": "https://res.infoq.com/news/2026/07/jotai-rework-performance/en/headerimage/generatedHeaderImage-1784795525005.jpg"
+    },
+    {
+      "id": "f126b01fcf78",
+      "title": "WebMCP is shaping up as a powerful new standard for AI-driven browsing",
+      "url": "https://dev.to/devsk001/webmcp-is-shaping-up-as-a-powerful-new-standard-for-ai-driven-browsing-52no",
+      "summary": "WebMCP is shaping up as a powerful new standard for AI-driven browsing, but adoption is still near zero. The July 2026 update shows Chrome origin trials live, Edge support behind a flag, and a spec shift to document.modelContext. While big names like Expedia and Shopify are piloting, no mainstream AI agent yet consumes WebMCP tools — making the next 12 months the critical window for early adopters.\n\n🔑 What WebMCP Is\nPurpose: Lets websites register typed JavaScript functions that AI agents can call directly, instead of scraping the DOM or relying on brittle computer vision.\n\nHow It Works:\n\nPage",
+      "source": "Dev.to Programming",
+      "published": "2026-07-24T09:00:00+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0hgkji7ux1ihco3ityf0.png"
+    },
+    {
+      "id": "4ee51e0aa60a",
+      "title": "Anthropic updates Claude voice mode with more capable models",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/",
+      "summary": "Claude's new voice model will let you reschedule your meeting or draft an email.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-23T19:00:00+00:00",
+      "score": 3.51,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Claude-Voice-2-3-up.jpeg?resize=1200,675"
+    },
+    {
+      "id": "bc9666576cf2",
+      "title": "DOCKER",
+      "url": "https://dev.to/prash_1_9a3a6266c93cd7276/docker-50if",
+      "summary": "Here's a follow-up post continuing the series — same voice, picking up where the Linux post left off:\n\n\n\n\nDocker Made Sense the Day I Stopped Treating It Like Magic\n\nAfter my last post on falling in love with Linux, a few people asked the obvious next question: \"okay, but when do I actually get to Docker?\"\n\nHere's the honest answer — I jumped into Docker way too early the first time, before Linux made sense, and it felt like memorizing spells. docker run. docker build. docker-compose up. Things worked when I copy-pasted commands, and broke in ways I couldn't explain when I didn't. It wasn't un",
+      "source": "Dev.to Programming",
+      "published": "2026-07-24T08:54:42+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frwjfgoc9qx1wxrwhm0df.png"
+    },
+    {
+      "id": "59651ee9fd71",
+      "title": "What Is Brand Naming?",
+      "url": "https://dev.to/pixel_mosaic/what-is-brand-naming-4d4l",
+      "summary": "When people hear names like Apple, Nike, Google, or Airbnb, they instantly recognize the company behind them. That's the power of effective brand naming. A brand name is often the first interaction customers have with your business, making it one of the most valuable assets for building recognition and trust.\n\nIn this guide, we'll explore what brand naming is, why it matters, and how to create a name that stands out in today's competitive market.\n\n\n  \n  \n  What Is Brand Naming?\n\n\nBrand naming is the strategic process of creating a unique name for a company, product, service, or organization. A",
+      "source": "Dev.to Programming",
+      "published": "2026-07-24T08:54:02+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdhxvj6ohcdc7fiocap5g.png"
+    },
+    {
+      "id": "ab3c6b3534f0",
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code.\nThe post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-23T16:00:00+00:00",
+      "score": 3.44,
+      "image": "https://github.blog/wp-content/uploads/2026/01/generic-security-logo-github-blocks.png?fit=1920%2C1080"
+    },
+    {
+      "id": "9954135b2125",
+      "title": "Runway launches AI model router as generative media gets crowded",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "summary": "The Media Router is a tool that automatically selects the best image, video, or audio generation model for a request based on whether a developer prioritizes quality, speed or cost.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-23T17:07:35+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "14cf993c0c0f",
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/",
+      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-23T16:28:50+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "f00fd572a42e",
+      "title": "Prompt Injection in NeurIPS 2026? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4j1uk/prompt_injection_in_neurips_2026_d/",
+      "summary": "The reviews were just released, and I downloaded my paper from OpenReview to identify areas that needed improvement. However, GPT warned me that the PDF contained a prompt injection. I never inserted such a prompt. After comparing my original submission with the version downloaded from OpenReview, it appears that the injection may have been added by NeurIPS. I would like to know whether anyone else has encountered the same issue. Also, check your reviews for suspiciously formulaic wording. If a review contains all of the phrases specified in the prompt below, you may want to report the review ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-23T16:34:33+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "4afd5fb7fc2e",
+      "title": "QCon AI New York 2026: Registration Opens for December 15-16 Production-AI Conference",
+      "url": "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "QCon AI New York 2026 (Dec 15-16) has opened registration at The Westin Jersey City Newport. Six tracks on production AI, chaired by Eder Ignatowicz with Faye Zhang and Wes Reisz. First sessions announced in August, full program by November. By Artenisa Chatziou",
+      "source": "InfoQ",
+      "published": "2026-07-23T10:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "2ba7d2c38ab7",
+      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+      "url": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Expedia Group has introduced STAR, an internal AI-assisted observability platform that helps engineers investigate production incidents using service telemetry and LLMs. Built with FastAPI, Datadog, Celery, Redis, and Langfuse, STAR follows structured workflows to analyze telemetry, generate root cause assessments, and support incident response while keeping engineers in the loop. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-07-23T14:15:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "66f28115f44e",
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-23T16:48:38+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "fc6c32a13bee",
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-23T16:49:57+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "e71be4ed20dc",
+      "title": "Why Adding More AI Agents Made Our System Slower",
+      "url": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
+      "summary": "The hidden cost of asynchronous systems, how tiny CPU tasks quietly became our biggest bottleneck while scaling hundreds of LLM agents.\nThe post Why Adding More AI Agents Made Our System Slower appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-23T12:00:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "c5ca95ae1f08",
+      "title": "IBM insists AI didn't kill software deals, just delayed them",
+      "url": "https://www.theregister.com/software/2026/07/23/ibm-insists-ai-didnt-kill-software-deals-just-delayed-them/5276977",
+      "summary": "Big Blue says customers postponed rather than abandoned major purchases as hardware soaked up enterprise budgets",
+      "source": "The Register AI",
+      "published": "2026-07-23T11:34:42+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "7f6688276214",
+      "title": "Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract",
+      "url": "https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8ter] - Naming the RAG error correctly matters: model reads the context, so a wrong answer is an extraction error, not a hallucination. Seven typed-contract patterns keep the generation brick honest, with a decomposition rule for small models\nThe post Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-23T15:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "0ee2c4e203d1",
+      "title": "First ML coding round (HackerRank) at Adyen, what should I expect? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v4c3tz/first_ml_coding_round_hackerrank_at_adyen_what/",
+      "summary": "Hi everyone, I recently received an interview offer for ML position at Adyen, and the first round will be a live coding round on HackerRank. I scheduled it for the end of August because that was the last available slot. The thing is, I’ve never had a live coding interview before. In all my previous interviews, the process was mostly verbal, answering technical questions, discussing projects, and explaining my work in detail. I’m aware of LeetCode and have started looking into it, but I’m not sure what level or type of coding questions typically asks for ML roles. If anyone here has interviewed",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-23T12:10:44+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "8bdbd9a84622",
+      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
+      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push/",
+      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-23T06:09:13+00:00",
+      "score": 2.39,
+      "image": null
+    }
+  ]
+}

@@ -2611,3 +2611,38 @@
 2026-07-23 09:18:37,919  INFO     ────────────────────────────────────────────────────────────
 2026-07-23 09:18:37,919  INFO     Done!  Open: output/index.html
 2026-07-23 09:18:37,919  INFO     Headline: Which Business Processes Should You Automate With AI First? A 5-Factor Scoring Model
+2026-07-24 09:14:42,116  INFO     ============================================================
+2026-07-24 09:14:42,116  INFO     TECHPULSE Digest — 2026-07-24 09:14 UTC
+2026-07-24 09:14:42,116  INFO     ============================================================
+2026-07-24 09:14:42,116  INFO     Step 1/3 — Crawling feeds…
+2026-07-24 09:14:42,290  INFO       Hacker News                    → 2 significant articles
+2026-07-24 09:14:42,595  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-24 09:14:42,720  INFO       Ars Technica                   → 0 significant articles
+2026-07-24 09:14:44,026  INFO       The Register AI                → 1 significant articles
+2026-07-24 09:14:44,252  INFO       MIT Tech Review                → 0 significant articles
+2026-07-24 09:14:44,407  INFO       Dev.to AI                      → 0 significant articles
+2026-07-24 09:14:44,559  INFO       Dev.to Programming             → 3 significant articles
+2026-07-24 09:14:44,780  INFO       GitHub Blog                    → 1 significant articles
+2026-07-24 09:14:45,973  INFO       Google Research                → 0 significant articles
+2026-07-24 09:14:46,753  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-24 09:14:46,870  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-24 09:14:47,181  INFO       InfoQ                          → 3 significant articles
+2026-07-24 09:14:47,393  INFO       Towards Data Science           → 2 significant articles
+2026-07-24 09:14:47,788  INFO       Wired AI                       → 0 significant articles
+2026-07-24 09:14:47,991  INFO       TechCrunch AI                  → 4 significant articles
+2026-07-24 09:14:47,992  INFO     Fetching images for top articles…
+2026-07-24 09:14:48,236  INFO       🖼  Jotai v2.20: Rework Store Building Blocks for High-Throughpu
+2026-07-24 09:14:48,299  INFO       🖼  WebMCP is shaping up as a powerful new standard for AI-drive
+2026-07-24 09:14:48,472  INFO       🖼  Anthropic updates Claude voice mode with more capable models
+2026-07-24 09:14:48,539  INFO       🖼  DOCKER
+2026-07-24 09:14:48,623  INFO       🖼  What Is Brand Naming?
+2026-07-24 09:14:48,817  INFO       🖼  The case for a cooldown: Why Dependabot now waits before iss
+2026-07-24 09:14:48,817  INFO     Total selected: 18 articles from 15 feeds
+2026-07-24 09:14:48,818  INFO     Selected 18 significant articles
+2026-07-24 09:14:48,818  INFO     Step 2/3 — Generating digest…
+2026-07-24 09:14:49,371  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-24 09:14:49,372  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-24 09:14:49,372  INFO     Step 3/3 — Rendering HTML…
+2026-07-24 09:14:49,373  INFO     ────────────────────────────────────────────────────────────
+2026-07-24 09:14:49,373  INFO     Done!  Open: output/index.html
+2026-07-24 09:14:49,373  INFO     Headline: Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3
