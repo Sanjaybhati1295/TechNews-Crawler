@@ -1,0 +1,155 @@
+{
+  "digest": {
+    "headline": "How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments (Dev.to Programming). How I Built a Local-First AI Video Editor with WebCodecs, WebGPU, and WASM (Dev.to AI). ‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street (TechCrunch AI). Anthropic launches Opus 5 (TechCrunch AI). Why Cognition bought Poke: AI personality is becoming a competitive advantage (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "Canonical version: https://thelooplet.com/posts/how-to-build-resilient-space-mission-architecture-lessons-from-2026-deployments\n\n\n\n  \n  \n  How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments\n\n\n\nTL;DR: 2026’s mix of nuclear‑powered drones, reflector satellites, DSN vulnerabilities, and rapid Starlink launches forces mission architects to adopt modular power, redundant communications, and flexible landing strategies now, or risk single‑point failures.\n\n\n\n  \n  \n  Introduction: The 2026 Reality Check for Space System Designers\n\n\nThe past twelve months have delivered a "
+  },
+  "articles": [
+    {
+      "id": "684c4fa8d5f5",
+      "title": "How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments",
+      "url": "https://dev.to/dheerajramasahayam/how-to-build-resilient-space-mission-architecture-lessons-from-2026-deployments-4g58",
+      "summary": "Canonical version: https://thelooplet.com/posts/how-to-build-resilient-space-mission-architecture-lessons-from-2026-deployments\n\n\n\n  \n  \n  How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments\n\n\n\nTL;DR: 2026’s mix of nuclear‑powered drones, reflector satellites, DSN vulnerabilities, and rapid Starlink launches forces mission architects to adopt modular power, redundant communications, and flexible landing strategies now, or risk single‑point failures.\n\n\n\n  \n  \n  Introduction: The 2026 Reality Check for Space System Designers\n\n\nThe past twelve months have delivered a ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-25T08:10:06+00:00",
+      "score": 3.76,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcl27tlogxkvucvbrxc7s.png"
+    },
+    {
+      "id": "70af1c0d5378",
+      "title": "How I Built a Local-First AI Video Editor with WebCodecs, WebGPU, and WASM",
+      "url": "https://dev.to/martindelophy/how-i-built-a-local-first-ai-video-editor-with-webcodecs-webgpu-and-wasm-4lkn",
+      "summary": "Modern video editors are powerful, but AI-assisted workflows often begin with the same trade-off: upload your media to someone else's server, wait for processing, and accept that the editable state lives somewhere else.\n\nI wanted to explore a different constraint:\n\n\nHow much of a serious AI video editing workflow can run entirely inside the browser?\n\n\nThe result is Timeline Studio, an MIT-licensed video editor built with React, browser media APIs, ONNX Runtime Web, WebGPU, WASM, and WebCodecs.\n\n\n\nThe interesting part was not adding another timeline UI. It was getting media playback, AI inferen",
+      "source": "Dev.to AI",
+      "published": "2026-07-25T08:35:21+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fab7q23n82gmyz8ivf3wm.png"
+    },
+    {
+      "id": "b9480a06f49c",
+      "title": "‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street",
+      "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+      "summary": "Chinese AI lab Moonshot&#8217;s&#160;open model Kimi went viral this week&#160;for reasons that had less to do with the model itself and more to do with&#160;how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real&#160;security breach at Hugging Face&#160;— a reminder [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-07-24T14:00:00+00:00",
+      "score": 3.35,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2286500505.jpg?resize=1200,800"
+    },
+    {
+      "id": "204fa3eb1ba9",
+      "title": "Anthropic launches Opus 5",
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "summary": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-24T17:00:00+00:00",
+      "score": 3.32,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-12.47.38-PM.jpg?w=1166"
+    },
+    {
+      "id": "a91368251778",
+      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-24T18:07:32+00:00",
+      "score": 3.28,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Poke-at-3.56.23-PM.jpg?resize=1200,610"
+    },
+    {
+      "id": "40b263b2c13b",
+      "title": "The quest to keep organs alive outside the body",
+      "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "summary": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that can be preserved&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-24T17:03:55+00:00",
+      "score": 3.02,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/07/organ-transport.jpg?resize=1200,600"
+    },
+    {
+      "id": "4000b95c0a6a",
+      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+      "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-24T15:51:49+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "e71d04bb1934",
+      "title": "I built an open-source multi-agent SDLC harness that beats a cold Claude Code run on large repos, by learning the repo once. Real benchmarks (incl. where it loses) inside. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v59pal/i_built_an_opensource_multiagent_sdlc_harness/",
+      "summary": "Built an open-source AI coding agent that was 7%–75% cheaper than a cold &quot;claude -p&quot; run on 6/6 well-localized tasks across repositories up to ~82k LOC. The biggest difference:  Cold agent: $6.83, 207 turns AutoDev Studio: ~$1.70 for the same bug  The full benchmark (including cases where it loses) is in the README. So what's different? Most AI coding agents re-explore a repository from scratch on every task just to figure out where the change belongs. AutoDev Studio pays that localization cost once. It ingests a repository and builds a persistent knowledge base using static analysis",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-24T12:15:31+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "d41adbdfb72c",
+      "title": "Loop Engineering for RAG Generation: An LLM Cascade from a Cheap Local Model Up to a Hosted Flagship",
+      "url": "https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8quater] - Two angles on the cascade, cost and a validation loop, backed by a real sweep of twenty local models against a hosted flagship\nThe post Loop Engineering for RAG Generation: An LLM Cascade from a Cheap Local Model Up to a Hosted Flagship appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-24T13:30:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "ef01a26ae081",
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "url": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement”&#160; When it comes to organ donation, time is everything. As soon as an organ has been removed from a donor’s&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-24T12:10:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "497778e9cc10",
+      "title": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory",
+      "url": "https://towardsdatascience.com/context-windows-forget-what-matters-i-used-a-140-year-old-psychology-paper-to-fix-ai-memory/",
+      "summary": "Most AI memory systems keep the newest information—not the most important. Here's how I used the Ebbinghaus forgetting curve to build a better memory engine for LLMs.\nThe post Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-24T12:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "83d119fa8937",
+      "title": "Build and Run an Intelligent Document Processing (IDP) System in the Cloud",
+      "url": "https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/",
+      "summary": "Automating the classification and extraction of PII from emails using AWS\nThe post Build and Run an Intelligent Document Processing (IDP) System in the Cloud appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-24T15:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "347ee7735565",
+      "title": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
+      "url": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
+      "summary": "Tabular foundation models predict the missing column of any spreadsheet zero-shot, the way an LLM completes text — and on the TabArena benchmark they now sit above fully tuned gradient-boosted trees. An introduction to how they work, an independent reproduction of the strongest open one, and a map of where XGBoost still wins.\nThe post Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-24T16:30:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "0d0f36c79927",
+      "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+      "url": "https://www.infoq.com/news/2026/07/jotai-rework-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jotai v2.20.0 has been released, focusing on improved performance for high-throughput scenarios. Key changes involve adjustments to internal building blocks and addressing previous performance regressions. While the API for everyday use remains unchanged, library authors should note some deprecations as the groundwork for Jotai v3 begins. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-24T06:26:00+00:00",
+      "score": 2.53,
+      "image": null
+    }
+  ]
+}
