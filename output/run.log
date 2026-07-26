@@ -2681,3 +2681,38 @@
 2026-07-25 08:54:43,045  INFO     ────────────────────────────────────────────────────────────
 2026-07-25 08:54:43,045  INFO     Done!  Open: output/index.html
 2026-07-25 08:54:43,045  INFO     Headline: How to Build Resilient Space Mission Architecture: Lessons from 2026 Deployments
+2026-07-26 09:07:13,903  INFO     ============================================================
+2026-07-26 09:07:13,903  INFO     TECHPULSE Digest — 2026-07-26 09:07 UTC
+2026-07-26 09:07:13,903  INFO     ============================================================
+2026-07-26 09:07:13,903  INFO     Step 1/3 — Crawling feeds…
+2026-07-26 09:07:14,001  INFO       Hacker News                    → 0 significant articles
+2026-07-26 09:07:14,171  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-26 09:07:14,263  INFO       Ars Technica                   → 0 significant articles
+2026-07-26 09:07:15,653  INFO       The Register AI                → 0 significant articles
+2026-07-26 09:07:15,781  INFO       MIT Tech Review                → 0 significant articles
+2026-07-26 09:07:15,900  INFO       Dev.to AI                      → 2 significant articles
+2026-07-26 09:07:16,100  INFO       Dev.to Programming             → 2 significant articles
+2026-07-26 09:07:16,242  INFO       GitHub Blog                    → 0 significant articles
+2026-07-26 09:07:17,194  INFO       Google Research                → 0 significant articles
+2026-07-26 09:07:18,061  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-07-26 09:07:18,176  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-26 09:07:18,394  INFO       InfoQ                          → 1 significant articles
+2026-07-26 09:07:18,517  INFO       Towards Data Science           → 1 significant articles
+2026-07-26 09:07:18,752  INFO       Wired AI                       → 0 significant articles
+2026-07-26 09:07:18,820  INFO       TechCrunch AI                  → 1 significant articles
+2026-07-26 09:07:18,820  INFO     Fetching images for top articles…
+2026-07-26 09:07:19,030  INFO       🖼  Building a GitHub App That Reviews Its Own Code: Lessons in 
+2026-07-26 09:07:19,281  INFO       🖼  Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of
+2026-07-26 09:07:19,345  INFO       🖼  What 14 Years of a Code-Download Site Taught Us About Demand
+2026-07-26 09:07:19,426  INFO       🖼  Monday.com is the latest tech company to blame AI for layoff
+2026-07-26 09:07:19,863  INFO       🖼  React useState Hook
+2026-07-26 09:07:20,018  INFO       🖼  Protecting Self Hosted Endpoints with Rate Limiting
+2026-07-26 09:07:20,018  INFO     Total selected: 7 articles from 15 feeds
+2026-07-26 09:07:20,019  INFO     Selected 7 significant articles
+2026-07-26 09:07:20,019  INFO     Step 2/3 — Generating digest…
+2026-07-26 09:07:20,697  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-26 09:07:20,697  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-26 09:07:20,697  INFO     Step 3/3 — Rendering HTML…
+2026-07-26 09:07:20,698  INFO     ────────────────────────────────────────────────────────────
+2026-07-26 09:07:20,698  INFO     Done!  Open: output/index.html
+2026-07-26 09:07:20,698  INFO     Headline: Building a GitHub App That Reviews Its Own Code: Lessons in Security Hardening

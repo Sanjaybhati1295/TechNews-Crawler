@@ -1,0 +1,89 @@
+{
+  "digest": {
+    "headline": "Building a GitHub App That Reviews Its Own Code: Lessons in Security Hardening",
+    "tldr": "Today's digest covers 7 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Building a GitHub App That Reviews Its Own Code: Lessons in Security Hardening (Dev.to AI). What 14 Years of a Code-Download Site Taught Us About Demand in the AI Era (Dev.to AI). Monday.com is the latest tech company to blame AI for layoffs — here are 20 others (TechCrunch AI). React useState Hook (Dev.to Programming). Protecting Self Hosted Endpoints with Rate Limiting (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade (InfoQ). How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "How I turned 27 silent failures into logged ones, closed three real attack surfaces, and pushed test coverage from 62% to 76% while building an automated code-review bot.\n\nA few months ago I set out to build something simple on paper: a GitHub App that reviews pull requests, scans for leaked secrets, applies safe autofixes, and responds to slash commands like a teammate would. I called it GitHub Autopilot. It runs on Flask, uses Redis for job queuing, and talks to GitHub through webhooks.\nThe first working version took a couple of weeks. Making it safe enough to trust with someone else's repos"
+  },
+  "articles": [
+    {
+      "id": "70f91419369f",
+      "title": "Building a GitHub App That Reviews Its Own Code: Lessons in Security Hardening",
+      "url": "https://dev.to/shweta_mishra_b3c97874de9/building-a-github-app-that-reviews-its-own-code-lessons-in-security-hardening-4ha7",
+      "summary": "How I turned 27 silent failures into logged ones, closed three real attack surfaces, and pushed test coverage from 62% to 76% while building an automated code-review bot.\n\nA few months ago I set out to build something simple on paper: a GitHub App that reviews pull requests, scans for leaked secrets, applies safe autofixes, and responds to slash commands like a teammate would. I called it GitHub Autopilot. It runs on Flask, uses Redis for job queuing, and talks to GitHub through webhooks.\nThe first working version took a couple of weeks. Making it safe enough to trust with someone else's repos",
+      "source": "Dev.to AI",
+      "published": "2026-07-26T08:44:16+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2c44l7g6t1pec0omox1b.png"
+    },
+    {
+      "id": "73253600bf8c",
+      "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade",
+      "url": "https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon EKS has recently introduced support for Kubernetes version rollbacks, letting practitioners revert a cluster's control plane to its previous Kubernetes version within 7 days of an upgrade if issues arise. The feature reduces the risk of in-place cluster upgrades by giving teams a safety net to recover quickly from problematic updates. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-26T06:04:00+00:00",
+      "score": 3.83,
+      "image": "https://res.infoq.com/news/2026/07/eks-version-rollback/en/headerimage/generatedHeaderImage-1783696042627.jpg"
+    },
+    {
+      "id": "8f9e63fce2ce",
+      "title": "What 14 Years of a Code-Download Site Taught Us About Demand in the AI Era",
+      "url": "https://dev.to/zuidaima/what-14-years-of-a-code-download-site-taught-us-about-demand-in-the-ai-era-1al0",
+      "summary": "I run Zuidaima (“Most Code”), a Chinese source-code sharing site that launched in 2012. At its peak it felt like a small economy: upload code, earn points, spend points to download, cash out points. About 537k registered users, nearly 10k shared projects, and millions of behavioral events later, search traffic dried up—and so did uploads.\n\nRecently I finally sat down with the production data (registrations, views, downloads, completed payments through mid‑2026) to answer a question I’d been avoiding:\n\nDo people still want downloadable student/side-project code—or did AI make that whole categor",
+      "source": "Dev.to AI",
+      "published": "2026-07-26T08:52:50+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4fsw8qzmo6gjnjbpvr0n.png"
+    },
+    {
+      "id": "a43cd096a11a",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-26T01:30:00+00:00",
+      "score": 3.78,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/robot-at-desk.png?resize=1200,800"
+    },
+    {
+      "id": "e4f5924680b3",
+      "title": "React useState Hook",
+      "url": "https://dev.to/vidhya_murali_5aabe7784bd/react-usestate-hook-1ol2",
+      "summary": "useState Hook in React \n\nThe React useState Hook allows us to track state in a function component.\n\nState generally refers to data or properties that need to be tracking in an application.\n\nImport useState\n\nTo use the useState Hook, we first need to import it into our component.\n\n\n\nNotice that we are destructuring useState from react as it is a named export.\n\nInitialize useState\n\nWe initialize our state by calling useState in our function component.\n\nuseState accepts an initial state and returns two values:\n\nThe current state.\nA function that updates the state.\n\n\n\n\nNotice that again, we are de",
+      "source": "Dev.to Programming",
+      "published": "2026-07-26T07:48:57+00:00",
+      "score": 3.73,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4soylg7dvzb1lwzzr76q.png"
+    },
+    {
+      "id": "dc4f13ca1a65",
+      "title": "Protecting Self Hosted Endpoints with Rate Limiting",
+      "url": "https://dev.to/chasebot/protecting-self-hosted-endpoints-with-rate-limiting-33n8",
+      "summary": "What You'll Need\n\n\n\n\nn8n Cloud or self-hosted n8n\n\nHetzner VPS or Contabo VPS for hosting\n\nNamecheap if domain needed\n\nDigitalOcean as alternative\n\n\n\n\n\n\n  \n  \n  Table of Contents\n\n\n\nWhy Rate Limiting is Critical for Self-Hosted Services\nConfiguring Nginx Reverse Proxy Rate Limiting\nAutomating IP Ban Rules with Fail2ban\nBuilding Custom Redis-Backed Application Rate Limiters\nGetting Started\n\n\n\n\n\n\n  \n  \n  Why Rate Limiting is Critical for Self-Hosted Services\n\n\nWhen running automation tools, API gateways, or workflow engines on your own server, exposing public HTTP endpoints is unavoidable. Webho",
+      "source": "Dev.to Programming",
+      "published": "2026-07-26T08:01:39+00:00",
+      "score": 3.44,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fchasebot.online%2Fblog%2Fimages%2Fprotecting-self-hosted-endpoints-with-rate-limiting.jpg"
+    },
+    {
+      "id": "339dea094304",
+      "title": "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes",
+      "url": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
+      "summary": "Architecting cost-effective infrastructure by navigating the latency and storage trade-offs of HNSW, SPANN, and DiskANN\nThe post How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-25T15:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    }
+  ]
+}
