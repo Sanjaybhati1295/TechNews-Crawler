@@ -1,0 +1,149 @@
+{
+  "digest": {
+    "headline": "Weekly Updates：Remote Search for Approval Notification Channels",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Weekly Updates：Remote Search for Approval Notification Channels (Dev.to AI). Are AI operators the next evolution beyond insurance chatbots? (Dev.to AI). The 5 Things That Silently Break AI Agents in Production (Dev.to Programming). Event Driven Architecture With Kafka (Dev.to Programming). Best Practices for Kafka in Python (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Summarize the weekly product update logs, and the latest releases can be checked on our blog.\n\nNocoBase is currently updated across three branches: main, next, and develop.\n\n\n\n\n\nmain: The most stable version to date, recommended for installation.\n\nnext: Beta version, contains upcoming new features and has been preliminarily tested. There might be some known or unknown issues. It is mainly used to collect feedback from test users and further optimize features. Ideal for test users who want to experience new features early and provide feedback.\n\ndevelop: Alpha version, contains the latest featur"
+  },
+  "articles": [
+    {
+      "id": "3eef8a54c50d",
+      "title": "Weekly Updates：Remote Search for Approval Notification Channels",
+      "url": "https://dev.to/nocobase/weekly-updatesremote-search-for-approval-notification-channels-233g",
+      "summary": "Summarize the weekly product update logs, and the latest releases can be checked on our blog.\n\nNocoBase is currently updated across three branches: main, next, and develop.\n\n\n\n\n\nmain: The most stable version to date, recommended for installation.\n\nnext: Beta version, contains upcoming new features and has been preliminarily tested. There might be some known or unknown issues. It is mainly used to collect feedback from test users and further optimize features. Ideal for test users who want to experience new features early and provide feedback.\n\ndevelop: Alpha version, contains the latest featur",
+      "source": "Dev.to AI",
+      "published": "2026-07-27T10:23:21+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjfezwnzs18g1dintz9dn.jpg"
+    },
+    {
+      "id": "360d342855b6",
+      "title": "Are AI operators the next evolution beyond insurance chatbots?",
+      "url": "https://dev.to/arjun_07/are-ai-operators-the-next-evolution-beyond-insurance-chatbots-1el7",
+      "summary": "Most discussions around AI in insurance focus on chatbots and customer support.\n\nBut I think the bigger opportunity is AI operators, systems that can actually execute workflows like claims processing, policy verification, fraud detection, and compliance instead of just answering questions.\n\nIt feels like the industry is moving from AI that responds to AI that acts.\n\nI've also noticed engineering firms like Accenture, IBM Consulting, EPAM Systems, Cognizant, Thoughtworks, LeewayHertz, Globant, and GeekyAnts exploring different approaches to enterprise AI and intelligent automation for regulated",
+      "source": "Dev.to AI",
+      "published": "2026-07-27T10:25:24+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F01gwkgtdp8bdik3s83ol.png"
+    },
+    {
+      "id": "cab6a90c3c13",
+      "title": "The 5 Things That Silently Break AI Agents in Production",
+      "url": "https://dev.to/astraedus/the-5-things-that-silently-break-ai-agents-in-production-3led",
+      "summary": "Your AI agent works in the demo because the demo runs once, on a clean input, while you watch. Production is thousands of runs, on messy inputs, with nobody watching. The gap is almost never the model's reasoning. It's five plumbing failures that stay invisible until they cost you a bad night.\n\nI run a fleet of agents unattended, every day. The first time I left one going overnight, it reported a clean run. Every step logged \"success.\" The actual work was half-finished, and it had burned a small fortune getting there. None of the five failures below throw an error. They quietly produce a wrong",
+      "source": "Dev.to Programming",
+      "published": "2026-07-27T10:17:51+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2FEMhVmya.png"
+    },
+    {
+      "id": "c9ff5ab24b98",
+      "title": "Event Driven Architecture With Kafka",
+      "url": "https://dev.to/gaper-ai/event-driven-architecture-with-kafka-3ie2",
+      "summary": "Synchronous request-response patterns between microservices frequently introduce tight coupling, cascade failures across service boundaries, and create performance bottlenecks. Event Driven Architecture solves these challenges by decoupling producers from consumers through an immutable append-only event stream. Apache Kafka sits at the core of modern distributed systems, serving as a high-throughput, fault-tolerant distributed commit log designed to handle millions of events per second. Detailed specifications for Kafka performance and architecture can be found on the official Apache foundatio",
+      "source": "Dev.to Programming",
+      "published": "2026-07-27T10:29:16+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F42xm7c4qqtcs384r5qds.png"
+    },
+    {
+      "id": "33ef73089f2b",
+      "title": "Best Practices for Kafka in Python",
+      "url": "https://dev.to/gaper-ai/best-practices-for-kafka-in-python-2kc5",
+      "summary": "Event driven architectures allow software systems to process high volumes of data asynchronously without forcing services to wait for blocking operations like database writes or external API calls. Apache Kafka serves as the backbone for many of these distributed systems due to its high throughput and horizontal scalability. When implementing Kafka consumers and producers in Python, developers often encounter performance bottlenecks and reliability issues if they rely solely on default configurations. Choosing the right client library is the first critical decision. While pure Python implement",
+      "source": "Dev.to Programming",
+      "published": "2026-07-27T10:10:02+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1wmdyv1hm94whftac8du.png"
+    },
+    {
+      "id": "e07934413b6b",
+      "title": "TanStack Table V9 Beta: Tree-Shakable Features, TanStack Store State, and Lower Memory Usage",
+      "url": "https://www.infoq.com/news/2026/07/tanstack-table-v9-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TanStack Table V9 is a beta release of a headless UI library for creating tables in various JavaScript frameworks. It features improved state management, memory usage, and extensibility. The notable change is an opt-in feature model, allowing developers to load only necessary components. Migration is gradual, with tools provided for legacy support. The library remains free and developer-focused. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-27T05:45:00+00:00",
+      "score": 3.43,
+      "image": "https://res.infoq.com/news/2026/07/tanstack-table-v9-beta/en/headerimage/generatedHeaderImage-1784821719878.jpg"
+    },
+    {
+      "id": "381c0186a6a6",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "source": "TechCrunch AI",
+      "published": "2026-07-26T16:33:13+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "de3a9e35e95e",
+      "title": "Recent project I worked on: End to End Edge ML platform [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/",
+      "summary": "Hi all, I recently made an end to end ML platform that eases the pain of going from raw sensor data to a deployed model on an MCU. I wanted to get some feedback from those of you who are interested in the tinyML space on anything I can improve, I intend on keeping it free and open sourced so others can contribute to the development if they would like. One main thing that I tried to add was an auto-labeling tool, as for time series sensor data it is very difficult to manually label data, so my goal was to create an auto-labeler that could streamline that process. It works fairly well as of righ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-27T02:38:26+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "604d12733362",
+      "title": "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+      "summary": "I have been running some experiments with smaller open-weight LLMs on multiple-choice questions of Swedish medical licensing exams. On a dataset called MedQA-SWE, GPT-4 scored 84% accuracy in 2024 and o3 scored 88% in 2025 on a smaller, overlapping dataset. With post-training (SFT) on data from earlier years, I got MedGemma-1.5-4B to a passing score of 60% on the final year’s exam. Find the implementation here: https://github.com/tarolangner/medqaswe_medgemma_sft But even though they were released just three months later, Gemma4-E4B and Qwen3.5-4B are flat out superior already, at 77% with no ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-26T11:58:39+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "cee646a86e8b",
+      "title": "How to Give an LLM Agent a Browser",
+      "url": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
+      "summary": "Building a browser-use agent with OpenAI Agents SDK and Playwright MCP\nThe post How to Give an LLM Agent a Browser appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-26T13:00:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "73253600bf8c",
+      "title": "Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade",
+      "url": "https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon EKS has recently introduced support for Kubernetes version rollbacks, letting practitioners revert a cluster's control plane to its previous Kubernetes version within 7 days of an upgrade if issues arise. The feature reduces the risk of in-place cluster upgrades by giving teams a safety net to recover quickly from problematic updates. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-07-26T06:04:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "43c2499d43c9",
+      "title": "How to Efficiently Prompt Claude Code",
+      "url": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
+      "summary": "Maximize your efficiency with Claude Code\nThe post How to Efficiently Prompt Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-26T15:00:00+00:00",
+      "score": 2.41,
+      "image": null
+    },
+    {
+      "id": "a43cd096a11a",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-26T01:30:00+00:00",
+      "score": 2.36,
+      "image": null
+    }
+  ]
+}

@@ -2716,3 +2716,38 @@
 2026-07-26 09:07:20,698  INFO     ────────────────────────────────────────────────────────────
 2026-07-26 09:07:20,698  INFO     Done!  Open: output/index.html
 2026-07-26 09:07:20,698  INFO     Headline: Building a GitHub App That Reviews Its Own Code: Lessons in Security Hardening
+2026-07-27 10:32:16,333  INFO     ============================================================
+2026-07-27 10:32:16,333  INFO     TECHPULSE Digest — 2026-07-27 10:32 UTC
+2026-07-27 10:32:16,333  INFO     ============================================================
+2026-07-27 10:32:16,333  INFO     Step 1/3 — Crawling feeds…
+2026-07-27 10:32:16,475  INFO       Hacker News                    → 0 significant articles
+2026-07-27 10:32:16,629  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-27 10:32:16,753  INFO       Ars Technica                   → 0 significant articles
+2026-07-27 10:32:17,456  INFO       The Register AI                → 0 significant articles
+2026-07-27 10:32:17,597  INFO       MIT Tech Review                → 0 significant articles
+2026-07-27 10:32:17,674  INFO       Dev.to AI                      → 2 significant articles
+2026-07-27 10:32:17,831  INFO       Dev.to Programming             → 3 significant articles
+2026-07-27 10:32:17,929  INFO       GitHub Blog                    → 0 significant articles
+2026-07-27 10:32:18,734  INFO       Google Research                → 0 significant articles
+2026-07-27 10:32:19,478  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-27 10:32:19,584  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-27 10:32:19,797  INFO       InfoQ                          → 2 significant articles
+2026-07-27 10:32:19,906  INFO       Towards Data Science           → 2 significant articles
+2026-07-27 10:32:20,399  INFO       Wired AI                       → 0 significant articles
+2026-07-27 10:32:20,460  INFO       TechCrunch AI                  → 2 significant articles
+2026-07-27 10:32:20,460  INFO     Fetching images for top articles…
+2026-07-27 10:32:20,599  INFO       🖼  Weekly Updates：Remote Search for Approval Notification Chann
+2026-07-27 10:32:20,653  INFO       🖼  Are AI operators the next evolution beyond insurance chatbot
+2026-07-27 10:32:20,716  INFO       🖼  The 5 Things That Silently Break AI Agents in Production
+2026-07-27 10:32:20,983  INFO       🖼  Event Driven Architecture With Kafka
+2026-07-27 10:32:21,326  INFO       🖼  Best Practices for Kafka in Python
+2026-07-27 10:32:21,579  INFO       🖼  TanStack Table V9 Beta: Tree-Shakable Features, TanStack Sto
+2026-07-27 10:32:21,579  INFO     Total selected: 13 articles from 15 feeds
+2026-07-27 10:32:21,579  INFO     Selected 13 significant articles
+2026-07-27 10:32:21,579  INFO     Step 2/3 — Generating digest…
+2026-07-27 10:32:22,346  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-27 10:32:22,347  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-27 10:32:22,347  INFO     Step 3/3 — Rendering HTML…
+2026-07-27 10:32:22,348  INFO     ────────────────────────────────────────────────────────────
+2026-07-27 10:32:22,348  INFO     Done!  Open: output/index.html
+2026-07-27 10:32:22,348  INFO     Headline: Weekly Updates：Remote Search for Approval Notification Channels
