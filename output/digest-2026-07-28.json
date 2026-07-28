@@ -1,0 +1,233 @@
+{
+  "digest": {
+    "headline": "Anthropic SDK v0.118.0 Adds Managed Agents — Plus Rust 1.97.0 & Latest Claude Models",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Anthropic SDK v0.118.0 Adds Managed Agents — Plus Rust 1.97.0 & Latest Claude Models (Dev.to Programming). Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system (TechCrunch AI). What Recruiters Really Look For in an ATS Platform (Dev.to AI). Architecture Should Follow Business Evolution—Not Technology Trends (Dev.to Programming). Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices (InfoQ)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing (InfoQ). How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Today's engineering digest is packed with AI advancements, featuring the Anthropic SDK v0.118.0 which now supports managed agents, alongside the announcement of Claude Sonnet 5 and Claude Opus 5 integration into GitHub Copilot and LangChain. Developers also received the latest Rust 1.97.0 release, while Google shared insights into scaling agentic RL training.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's Python SDK introduces robust support for Managed Agents and streaming, while a new Claude Sonnet 5 model is announced. Concurrently, Google unveils Tunix, a JAX-native library designed to o"
+  },
+  "articles": [
+    {
+      "id": "31762b5b5d18",
+      "title": "Anthropic SDK v0.118.0 Adds Managed Agents — Plus Rust 1.97.0 & Latest Claude Models",
+      "url": "https://dev.to/soytuber/anthropic-sdk-v01180-adds-managed-agents-plus-rust-1970-latest-claude-models-22lo",
+      "summary": "Today's engineering digest is packed with AI advancements, featuring the Anthropic SDK v0.118.0 which now supports managed agents, alongside the announcement of Claude Sonnet 5 and Claude Opus 5 integration into GitHub Copilot and LangChain. Developers also received the latest Rust 1.97.0 release, while Google shared insights into scaling agentic RL training.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's Python SDK introduces robust support for Managed Agents and streaming, while a new Claude Sonnet 5 model is announced. Concurrently, Google unveils Tunix, a JAX-native library designed to o",
+      "source": "Dev.to Programming",
+      "published": "2026-07-28T09:04:21+00:00",
+      "score": 6.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-07-28-cloud-stack.png"
+    },
+    {
+      "id": "f80af9ec149b",
+      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
+      "url": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&amp;CK classification. It is reachable through the AWS MCP Server, so investigations can run from agentic tooling. Preview quotas cap usage at 10 investigations per account per day. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-28T07:14:00+00:00",
+      "score": 4.67,
+      "image": "https://res.infoq.com/news/2026/07/guardduty-investigation-agent/en/headerimage/generatedHeaderImage-1784791165676.jpg"
+    },
+    {
+      "id": "434f3ebbec97",
+      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-27T18:32:11+00:00",
+      "score": 3.87,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/IMG_4458.jpeg?resize=1200,900"
+    },
+    {
+      "id": "3c3ca533d473",
+      "title": "What Recruiters Really Look For in an ATS Platform",
+      "url": "https://dev.to/tista_munshi_9cb48fbe49d3/what-recruiters-really-look-for-in-an-ats-platform-4kmc",
+      "summary": "Not the feature list on the sales page — the three things recruiters quietly test for in the first week of actually using the software.\n\nBy Tista Munshi · 11 min read · Updated July 2026\n\n\n\nAsk a recruiter what they want in an applicant tracking system, and most will start with something vague — \"something easy to use,\" \"something that doesn't waste my time.\" Ask again after they've actually used three or four platforms, and the answer gets sharper. It stops being about the interface and starts being about three very specific things: whether the system tells them the truth about a candidate, w",
+      "source": "Dev.to AI",
+      "published": "2026-07-28T09:20:16+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8w3xq1zjig1suflfjb7r.png"
+    },
+    {
+      "id": "012741f24091",
+      "title": "Architecture Should Follow Business Evolution—Not Technology Trends",
+      "url": "https://dev.to/ricardo_shinetech/architecture-should-follow-business-evolution-not-technology-trends-55c5",
+      "summary": "Software architecture has always been influenced by trends.\n\nOver the past two decades, organizations have moved from monolithic applications to service-oriented architecture, from microservices to serverless computing, from on-premises infrastructure to the cloud, and now toward AI-native systems.\n\nEach new architectural style promises greater scalability, flexibility, or developer productivity.\n\nEach introduces new tools, new frameworks, and new best practices.\n\nFor engineering leaders, the pressure to keep up is constant.\n\nIf competitors are adopting microservices, should we?\n\nIf cloud-nati",
+      "source": "Dev.to Programming",
+      "published": "2026-07-28T08:34:54+00:00",
+      "score": 3.75,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5fslftz9yxs2wb5im1lq.png"
+    },
+    {
+      "id": "11a9f773479f",
+      "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
+      "url": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A payroll and HR software team rebuilt three monoliths into over 120 smaller services over five years, with no dedicated migration budget. Every new feature was built as its own service instead of changing the old ones. The article covers the pull-based migration, the tools that made this possible, how costs were kept down, and the problems the team ran into along the way. By Prashanth Pasham",
+      "source": "InfoQ",
+      "published": "2026-07-28T09:00:00+00:00",
+      "score": 3.67,
+      "image": "https://res.infoq.com/articles/pull-based-migration/en/headerimage/pull-based-migration-header-1784812950594.jpg"
+    },
+    {
+      "id": "ead68aecbdb8",
+      "title": "HunterX: The AI-Powered Offensive Security Platform Redefining Red Teaming, Bug Bounty Hunting, and Penetration Testing",
+      "url": "https://dev.to/nullc0d3/hunterx-the-ai-powered-offensive-security-platform-redefining-red-teaming-bug-bounty-hunting-and-bb8",
+      "summary": "Traditional Vulnerability Scanners Are Reaching Their Limits\n\nThe cybersecurity industry has spent decades improving vulnerability scanners.\n\nThey became faster.\n\nThey became capable of sending millions of requests.\n\nThey accumulated massive payload databases.\n\nYet, despite all of this progress, one fundamental limitation remains:\n\nMost scanners still don't think.\n\nThey execute signatures.\n\nThey compare patterns.\n\nThey launch payloads.\n\nThey produce findings.\n\nBut experienced penetration testers know that successful offensive security has never been about sending the largest number of payloads",
+      "source": "Dev.to Programming",
+      "published": "2026-07-28T08:55:22+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "3f1518dce932",
+      "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+      "summary": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-27T15:01:50+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "7b818cd68cd5",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
+      "source": "Ars Technica",
+      "published": "2026-07-27T21:56:14+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "3d511e9baac1",
+      "title": "Pattern Recognition (Elsevier): \"With Editor\" status date changed, but status didn't. Is this normal? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8q9xc/pattern_recognition_elsevier_with_editor_status/",
+      "summary": "Hi everyone, I have a manuscript under review at Pattern Recognition (Elsevier), and I'm a bit confused about the Editorial Manager status. My timeline is:  Submitted: May 26, 2026 Re-submitted after making corrections, July 1: Status &quot;With Editor&quot; July 22: The Status Date updated to July 22, but the Current Status remained &quot;With Editor&quot; Today: Still showing &quot;With Editor&quot;  So the status date changed, but the visible status didn't. I'm wondering:  Has anyone experienced this with Pattern Recognition or other Elsevier journals? Approximately how long after this stag",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-28T06:42:34+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "7b46dd318f11",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-27T18:00:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "7310f03f0754",
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.\nThe post GitHub Copilot app for Beginners: Getting started appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-27T16:00:00+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "5c85807dea6d",
+      "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026/",
+      "summary": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-27T15:30:00+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "c82b7e99cb9c",
+      "title": "The harness is all you need (mostly)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.\nThe post The harness is all you need (mostly) appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-27T18:00:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "0b3d0a29733e",
+      "title": "Building the enterprise environment for agentic AI",
+      "url": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-07-27T11:32:58+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "1c48d2633e58",
+      "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+      "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+      "summary": "The massive seed round was led by  Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-27T13:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "f9115ec574b0",
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centralize guardrails, model routing, agent identity, action policy, and semantic audit within a single control plane to prevent costly incidents while keeping core platforms stable. By Joe Price, Branimir Đurek, Pavlos Migkiros, Trevor Dearham",
+      "source": "InfoQ",
+      "published": "2026-07-27T11:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "c00a053fc579",
+      "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing",
+      "url": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Johannes Schickling explores how he moved beyond the traditional three-tier web stack to a local-first approach. He shares his experience transitioning from Prisma to developing Overtone—a music curation app leveraging client-side event sourcing and SQLite. The discussion highlights the trade-offs between event sourcing and CRDTs. By Johannes Schickling",
+      "source": "InfoQ",
+      "published": "2026-07-27T13:00:00+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "99fba0c61b26",
+      "title": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
+      "url": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
+      "summary": "A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems.\nThe post How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-27T12:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "e07934413b6b",
+      "title": "TanStack Table V9 Beta: Tree-Shakable Features, TanStack Store State, and Lower Memory Usage",
+      "url": "https://www.infoq.com/news/2026/07/tanstack-table-v9-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TanStack Table V9 is a beta release of a headless UI library for creating tables in various JavaScript frameworks. It features improved state management, memory usage, and extensibility. The notable change is an opt-in feature model, allowing developers to load only necessary components. Migration is gradual, with tools provided for legacy support. The library remains free and developer-focused. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-07-27T05:45:00+00:00",
+      "score": 2.16,
+      "image": null
+    },
+    {
+      "id": "de3a9e35e95e",
+      "title": "Recent project I worked on: End to End Edge ML platform [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7nudc/recent_project_i_worked_on_end_to_end_edge_ml/",
+      "summary": "Hi all, I recently made an end to end ML platform that eases the pain of going from raw sensor data to a deployed model on an MCU. I wanted to get some feedback from those of you who are interested in the tinyML space on anything I can improve, I intend on keeping it free and open sourced so others can contribute to the development if they would like. One main thing that I tried to add was an auto-labeling tool, as for time series sensor data it is very difficult to manually label data, so my goal was to create an auto-labeler that could streamline that process. It works fairly well as of righ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-27T02:38:26+00:00",
+      "score": 1.89,
+      "image": null
+    }
+  ]
+}

@@ -2751,3 +2751,38 @@
 2026-07-27 10:32:22,348  INFO     ────────────────────────────────────────────────────────────
 2026-07-27 10:32:22,348  INFO     Done!  Open: output/index.html
 2026-07-27 10:32:22,348  INFO     Headline: Weekly Updates：Remote Search for Approval Notification Channels
+2026-07-28 09:30:15,719  INFO     ============================================================
+2026-07-28 09:30:15,720  INFO     TECHPULSE Digest — 2026-07-28 09:30 UTC
+2026-07-28 09:30:15,720  INFO     ============================================================
+2026-07-28 09:30:15,720  INFO     Step 1/3 — Crawling feeds…
+2026-07-28 09:30:15,831  INFO       Hacker News                    → 0 significant articles
+2026-07-28 09:30:16,089  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-28 09:30:16,208  INFO       Ars Technica                   → 1 significant articles
+2026-07-28 09:30:16,763  INFO       The Register AI                → 0 significant articles
+2026-07-28 09:30:16,891  INFO       MIT Tech Review                → 2 significant articles
+2026-07-28 09:30:17,113  INFO       Dev.to AI                      → 1 significant articles
+2026-07-28 09:30:17,345  INFO       Dev.to Programming             → 3 significant articles
+2026-07-28 09:30:17,486  INFO       GitHub Blog                    → 2 significant articles
+2026-07-28 09:30:18,315  INFO       Google Research                → 0 significant articles
+2026-07-28 09:30:19,217  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-28 09:30:19,329  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-28 09:30:19,695  INFO       InfoQ                          → 5 significant articles
+2026-07-28 09:30:19,921  INFO       Towards Data Science           → 1 significant articles
+2026-07-28 09:30:20,457  INFO       Wired AI                       → 0 significant articles
+2026-07-28 09:30:20,548  INFO       TechCrunch AI                  → 4 significant articles
+2026-07-28 09:30:20,548  INFO     Fetching images for top articles…
+2026-07-28 09:30:20,632  INFO       🖼  Anthropic SDK v0.118.0 Adds Managed Agents — Plus Rust 1.97.
+2026-07-28 09:30:20,951  INFO       🖼  AWS Launches Amazon GuardDuty Investigation Agent to Automat
+2026-07-28 09:30:21,014  INFO       🖼  Microsoft launches its first cybersecurity model, plus a new
+2026-07-28 09:30:21,305  INFO       🖼  What Recruiters Really Look For in an ATS Platform
+2026-07-28 09:30:21,461  INFO       🖼  Architecture Should Follow Business Evolution—Not Technology
+2026-07-28 09:30:21,757  INFO       🖼  Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Dom
+2026-07-28 09:30:21,757  INFO     Total selected: 21 articles from 15 feeds
+2026-07-28 09:30:21,757  INFO     Selected 21 significant articles
+2026-07-28 09:30:21,757  INFO     Step 2/3 — Generating digest…
+2026-07-28 09:30:22,180  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-28 09:30:22,181  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-28 09:30:22,181  INFO     Step 3/3 — Rendering HTML…
+2026-07-28 09:30:22,182  INFO     ────────────────────────────────────────────────────────────
+2026-07-28 09:30:22,182  INFO     Done!  Open: output/index.html
+2026-07-28 09:30:22,182  INFO     Headline: Anthropic SDK v0.118.0 Adds Managed Agents — Plus Rust 1.97.0 & Latest Claude Models
