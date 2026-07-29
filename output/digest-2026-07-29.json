@@ -1,0 +1,229 @@
+{
+  "digest": {
+    "headline": "MCP Python SDK v2.0.0 Stable — Plus Rust 1.97.0, Gemini Agents & GitHub Actions",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "MCP Python SDK v2.0.0 Stable — Plus Rust 1.97.0, Gemini Agents & GitHub Actions (Dev.to Programming). Claude Agents + Chat SDK, Gemini cuts tokens 17% (Dev.to AI). GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates (InfoQ). How I use GBNF grammars to make small local models stop hallucinating JSON (Dev.to AI). I Knew Basically Nothing, and I Finally Made the Story-Driven Mobile Game I Wanted (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Today brings significant updates across the engineering landscape, with the stable release of the MCP Python SDK v2.0.0 and Rust 1.97.0. Google's Gemini API introduces new managed agents, and GitHub Actions enhances security with approval for potentially malicious workflows.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nToday's highlights feature the stable release of the Model Context Protocol (MCP) specification and its Python SDK v2.0.0. Additionally, Google AI has launched new Gemini API Managed Agents, integrating the 3.6 Flash model and programmatic hooks for advanced agentic workflows.\n\n\n  \n  \n "
+  },
+  "articles": [
+    {
+      "id": "a80c5263a830",
+      "title": "MCP Python SDK v2.0.0 Stable — Plus Rust 1.97.0, Gemini Agents & GitHub Actions",
+      "url": "https://dev.to/soytuber/mcp-python-sdk-v200-stable-plus-rust-1970-gemini-agents-github-actions-1jai",
+      "summary": "Today brings significant updates across the engineering landscape, with the stable release of the MCP Python SDK v2.0.0 and Rust 1.97.0. Google's Gemini API introduces new managed agents, and GitHub Actions enhances security with approval for potentially malicious workflows.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nToday's highlights feature the stable release of the Model Context Protocol (MCP) specification and its Python SDK v2.0.0. Additionally, Google AI has launched new Gemini API Managed Agents, integrating the 3.6 Flash model and programmatic hooks for advanced agentic workflows.\n\n\n  \n  \n ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-29T09:04:38+00:00",
+      "score": 5.37,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-07-29-cloud-stack.png"
+    },
+    {
+      "id": "758d67969bb7",
+      "title": "Claude Agents + Chat SDK, Gemini cuts tokens 17%",
+      "url": "https://dev.to/devsignal/claude-agents-chat-sdk-gemini-cuts-tokens-17-533b",
+      "summary": "This week's releases cluster around two themes: reducing the infrastructure tax on agentic systems, and squeezing more throughput out of inference at lower cost. Whether you're wiring up multi-turn agent loops, running CPU-bound classifiers at scale, or trying to stop paying for context re-transmission on every round-trip, there are concrete, deployable options here.\n\n\n\n\n\n  \n  \n  Claude Managed Agents Now Work With Chat SDK\n\n\nAnthropic's managed agent runtime—model, tools, state, and execution loop included—now integrates directly with Vercel's AI Chat SDK via a type-safe handler. The SDK's ad",
+      "source": "Dev.to AI",
+      "published": "2026-07-29T09:20:21+00:00",
+      "score": 4.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxwzjnsh0lntzhq2uwgol.png"
+    },
+    {
+      "id": "5de36f0b2532",
+      "title": "GitHub Introduces Default \"Cooldown\" Policy for Dependabot Version Updates",
+      "url": "https://www.infoq.com/news/2026/07/github-dependabot-cooldown/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Instead of immediately opening pull requests when newer dependency versions are released, Dependabot now waits three days before suggesting upgrades, thus increasing the likelihood that malicious releases are identified and removed before they can be integrated. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-07-28T19:00:00+00:00",
+      "score": 4.69,
+      "image": "https://res.infoq.com/news/2026/07/github-dependabot-cooldown/en/card_header_image/generatedCard-1785264170412.jpg"
+    },
+    {
+      "id": "e4c3d5c462c7",
+      "title": "How I use GBNF grammars to make small local models stop hallucinating JSON",
+      "url": "https://dev.to/janpauldahlke/how-i-use-gbnf-grammars-to-make-small-local-models-stop-hallucinating-json-46g",
+      "summary": "Or: why your 8B model keeps breaking your agent's tool protocol, and what you can do about it at the token level.\n\nOriginally published on eris-system.dev/blog/gbnf-grammars\n\n\n\n\nI've been building Eris, a local-first AI agent written in Rust. It sits on your machine, reads and writes an Obsidian-compatible Markdown vault, and calls tools (memory, reminders, web fetch, email, calendar) through a structured JSON protocol. The LLM backend is llama.cpp, the models are 8-26B GGUFs, and nothing leaves your machine unless you explicitly opt in.\n\nThe single hardest engineering problem in the whole pro",
+      "source": "Dev.to AI",
+      "published": "2026-07-29T09:22:43+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyf9euxcs9joatj5u0djp.png"
+    },
+    {
+      "id": "77c854924c4d",
+      "title": "I Knew Basically Nothing, and I Finally Made the Story-Driven Mobile Game I Wanted",
+      "url": "https://dev.to/charlotte21110/i-knew-basically-nothing-and-i-finally-made-the-story-driven-mobile-game-i-wanted-4k9o",
+      "summary": "One person. No server bought, no AI API bought, not a single line of backend code written, and not a single environment configured.\n\n\n\n\n\nAs a coser who loves anime, I finally recreated the kind of otaku text game I loved when I was younger.\n\nCome on, let me show you the launch promo image first (sort of).\n\nThis is the first page you see after opening it: choosing a character.\n\n\n\n12 characters, 6 men and 6 women. Cold-faced CEO, silver-haired swordsman, sunny senior, aloof master... lined up right there for you to pick from.\n\nAfter choosing, you go straight into the game. The story roughly look",
+      "source": "Dev.to AI",
+      "published": "2026-07-29T09:22:42+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhdz452v4tyz0kuhmuy0x.png"
+    },
+    {
+      "id": "324ac7174a16",
+      "title": "Changes to LLM pricing: Novita and StreamLake",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-novita-and-streamlake-6pd",
+      "summary": "Model price changes detected for Novita and StreamLake. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-07-29T09:27:48+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2FLSCfgoJpHL.png"
+    },
+    {
+      "id": "9108d8d6030c",
+      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+      "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+      "summary": "The deal is Cyera's third acquisition this year.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-29T00:09:05+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "7ac165f72a64",
+      "title": "CAP Theorem Explained: Like Choosing Your Path in 'The Matrix'",
+      "url": "https://dev.to/timevolt/cap-theorem-explained-like-choosing-your-path-in-the-matrix-4glb",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nHonestly, I was just trying to stop my API from getting crushed by a sudden traffic spike. Imagine you’ve built a cool little service that lets users shorten URLs. Everything’s humming along until a flash‑sale email goes out and suddenly you’re seeing 10 k requests per second hammering your endpoint. My first instinct? Slap a simple in‑memory counter on each server and call it a day. Spoiler: that didn’t end well.\n\nWhen the traffic burst hit, each node started counting on its own. Two nodes behind a load balancer both thought they were under the limit, so togethe",
+      "source": "Dev.to Programming",
+      "published": "2026-07-29T09:22:09+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7f280f9a9516",
+      "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-28T14:00:00+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "ed5ec75bea30",
+      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+      "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+      "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "source": "Ars Technica",
+      "published": "2026-07-28T21:36:39+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "f80af9ec149b",
+      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
+      "url": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&amp;CK classification. It is reachable through the AWS MCP Server, so investigations can run from agentic tooling. Preview quotas cap usage at 10 investigations per account per day. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-28T07:14:00+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "5a20c8e290c1",
+      "title": "PIRL: From Open-Loop Exploration to Closed-Loop Reinforcement Learning [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8wq2b/pirl_from_openloop_exploration_to_closedloop/",
+      "summary": "TL;DR: Most RL post-training algorithms optimize the current batch and move on. But after an update, did the new policy actually become better? We introduce Policy Improvement Reinforcement Learning (PIRL) and its practical implementation, Policy Improvement Policy Optimization (PIPO)—a plug-and-play framework that lets RL training look back, verify the previous update, and reinforce or correct it accordingly. Why is current RL post-training often “open-loop”? Methods such as PPO, GRPO, GSPO, DAPO, on-policy distillation, and self-distillation differ in how they construct learning signals. But",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-28T12:13:38+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "c7c2823ab114",
+      "title": "PNAS: Over Half of All Academic Articles Now Show LLM Influence—7.3M-Paper Study [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v93q78/pnas_over_half_of_all_academic_articles_now_show/",
+      "summary": "Largest empirical study of AI penetration in academic publishing ever conducted—51%-by-2025 is the most authoritative quantitative marker yet of how thoroughly LLMs have reshaped scientific writing, and the inequality angle (adoption skews lower-prestige and non-English institutions) is a fresh policy dimension. --- Source: https://pnas.org/doi/10.1073/pnas.2605754123  &#32; submitted by &#32;  /u/Justgototheeffinmoon   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-28T16:38:32+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "37c0e3e1926b",
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+      "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact.\nThe post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-28T16:00:00+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "4a625d27daef",
+      "title": "How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon",
+      "url": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
+      "summary": "Five models, sustained generation, real wall-socket energy at $0.31/kWh — and the surprise the RTX-3090 numbers predicted, only bigger.\nThe post How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-28T16:30:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "2d9f9ff3f813",
+      "title": "MCP Explained: How Modern AI Agents Connect to the Real World",
+      "url": "https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/",
+      "summary": "from custom integrations to a universal standard for tool access\nThe post MCP Explained: How Modern AI Agents Connect to the Real World appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-28T15:00:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "d590b8c9bb9e",
+      "title": "Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You",
+      "url": "https://towardsdatascience.com/dont-just-throw-adam-at-it-misunderstanding-adam-will-cost-you/",
+      "summary": "You \"vibe coded\" the import. Understand Adam's optimization dynamics, why it fails spectacularly, and how to fix it.\nThe post Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-28T13:30:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "11a9f773479f",
+      "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
+      "url": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A payroll and HR software team rebuilt three monoliths into over 120 smaller services over five years, with no dedicated migration budget. Every new feature was built as its own service instead of changing the old ones. The article covers the pull-based migration, the tools that made this possible, how costs were kept down, and the problems the team ran into along the way. By Prashanth Pasham",
+      "source": "InfoQ",
+      "published": "2026-07-28T09:00:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "9dba893e5c9a",
+      "title": "Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way",
+      "url": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-2-there-has-to-be-a-better-way/",
+      "summary": "The idea that makes backpropagation possible.\nThe post Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-28T12:00:00+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "7b818cd68cd5",
+      "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+      "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms/",
+      "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
+      "source": "Ars Technica",
+      "published": "2026-07-27T21:56:14+00:00",
+      "score": 2.12,
+      "image": null
+    },
+    {
+      "id": "3d511e9baac1",
+      "title": "Pattern Recognition (Elsevier): \"With Editor\" status date changed, but status didn't. Is this normal? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v8q9xc/pattern_recognition_elsevier_with_editor_status/",
+      "summary": "Hi everyone, I have a manuscript under review at Pattern Recognition (Elsevier), and I'm a bit confused about the Editorial Manager status. My timeline is:  Submitted: May 26, 2026 Re-submitted after making corrections, July 1: Status &quot;With Editor&quot; July 22: The Status Date updated to July 22, but the Current Status remained &quot;With Editor&quot; Today: Still showing &quot;With Editor&quot;  So the status date changed, but the visible status didn't. I'm wondering:  Has anyone experienced this with Pattern Recognition or other Elsevier journals? Approximately how long after this stag",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-28T06:42:34+00:00",
+      "score": 2.11,
+      "image": null
+    }
+  ]
+}
