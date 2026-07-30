@@ -1,0 +1,165 @@
+{
+  "digest": {
+    "headline": "Anthropic SDK v0.120.2 Released — Plus Gemini CLI, Claude Code, Rust 1.97.1, and FastAPI",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Anthropic SDK v0.120.2 Released — Plus Gemini CLI, Claude Code, Rust 1.97.1, and FastAPI (Dev.to Programming). AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit (InfoQ). Node.js Security Patches + AI Agent Updates — Dev Signal #76 (Dev.to Programming). I taught an LSTM to move a mouse like a human [P] (Reddit r/MachineLearning). From Learning Machine Learning to Competing on Kaggle: My First End-to-End Playground Competition Journey (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Today brings significant updates across the engineering landscape, with the Anthropic Python SDK and Google Gemini CLI both receiving new versions. Rust also saw a patch release, alongside updates for Claude Code, cloudflared, and FastAPI.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic has released SDK v0.120.2 with critical MCP v2 compatibility. Google updated Gemini CLI to v0.53.0, bringing improved tool responses and an LLM triage orchestrator, while Anthropic's Claude Code v2.1.218 now features a background subagent for code reviews.\n\n\n  \n  \n  Anthropic SDK (Python) v0.120.2 Released (Anth"
+  },
+  "articles": [
+    {
+      "id": "5332cb831bd5",
+      "title": "Anthropic SDK v0.120.2 Released — Plus Gemini CLI, Claude Code, Rust 1.97.1, and FastAPI",
+      "url": "https://dev.to/soytuber/anthropic-sdk-v01202-released-plus-gemini-cli-claude-code-rust-1971-and-fastapi-fo0",
+      "summary": "Today brings significant updates across the engineering landscape, with the Anthropic Python SDK and Google Gemini CLI both receiving new versions. Rust also saw a patch release, alongside updates for Claude Code, cloudflared, and FastAPI.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic has released SDK v0.120.2 with critical MCP v2 compatibility. Google updated Gemini CLI to v0.53.0, bringing improved tool responses and an LLM triage orchestrator, while Anthropic's Claude Code v2.1.218 now features a background subagent for code reviews.\n\n\n  \n  \n  Anthropic SDK (Python) v0.120.2 Released (Anth",
+      "source": "Dev.to Programming",
+      "published": "2026-07-30T09:04:47+00:00",
+      "score": 5.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-07-30-cloud-stack.png"
+    },
+    {
+      "id": "811a9ec7f97a",
+      "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
+      "url": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are unchanged, and UpdateFunctionCode is still required after replacing an object. Terraform provider support remains an open enhancement request. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-30T07:57:00+00:00",
+      "score": 4.62,
+      "image": "https://res.infoq.com/news/2026/07/lambda-self-managed-storage/en/headerimage/generatedHeaderImage-1784880181733.jpg"
+    },
+    {
+      "id": "9ff586b8e2bb",
+      "title": "Node.js Security Patches + AI Agent Updates — Dev Signal #76",
+      "url": "https://dev.to/devsignal/nodejs-security-patches-ai-agent-updates-dev-signal-76-36k7",
+      "summary": "This week split cleanly between infrastructure hygiene and agent tooling maturity. Three Node.js releases dropped across active tracks—all patching the same family of HTTP/2 and permission model vulnerabilities—while the AI tooling side delivered a voice agent architecture worth paying attention to and a practical fix for one of the most wasteful patterns in coding agent design.\n\n\n\n\n\n  \n  \n  Node 26.5.1 patches nine security vulnerabilities\n\n\nTwo high-severity CVEs land in HTTP/2 stream handling and the permission radix tree implementation. The HTTP/2 issue affects any server handling concurre",
+      "source": "Dev.to Programming",
+      "published": "2026-07-30T09:20:01+00:00",
+      "score": 4.3,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6wtwuy5mbxmk046axhb3.png"
+    },
+    {
+      "id": "8946d44a073e",
+      "title": "I taught an LSTM to move a mouse like a human [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/",
+      "summary": "Precursor was recently released. It's a bot detector that uses cursor tracking. I thought it would be a fun challenge to train a deep neural network that could learn human mouse movements. It's an 2-layer LSTM model with a Mixture Density Network at the end. The results are actually quite impressive. Video: https://github.com/puffinsoft/mousecrack  &#32; submitted by &#32;  /u/Possible-Session9849   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-30T05:52:50+00:00",
+      "score": 3.9,
+      "image": null
+    },
+    {
+      "id": "275626ab3842",
+      "title": "From Learning Machine Learning to Competing on Kaggle: My First End-to-End Playground Competition Journey",
+      "url": "https://dev.to/vineet_chauhan_a828338181/from-learning-machine-learning-to-competing-on-kaggle-my-first-end-to-end-playground-competition-22bd",
+      "summary": "How I applied Exploratory Data Analysis, Feature Engineering, Pipelines, and Ensemble Models to solve a real-world machine learning problem—and the lessons I learned along the way.\n\n\n\n\n\n\n  \n  \n  Introduction\n\n\nThere comes a point in every machine learning learner's journey when watching tutorials and completing small practice exercises are no longer enough.\n\nAfter spending weeks understanding statistics, exploratory data analysis (EDA), feature engineering, preprocessing techniques, and classical machine learning algorithms, I wanted to answer one question:\n\n\nCan I apply everything I've learne",
+      "source": "Dev.to AI",
+      "published": "2026-07-30T09:16:23+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F79bbuv2gl8ygif1idw3m.png"
+    },
+    {
+      "id": "f08cecdc849f",
+      "title": "How Rotating Residential Proxies Work: Per-Request vs Sticky vs Timed",
+      "url": "https://dev.to/prithwish_nath/how-rotating-residential-proxies-work-per-request-vs-sticky-vs-timed-37ii",
+      "summary": "TL;DR: This article explains what a rotating residential proxy is, and how rotation is actually three genuinely different behaviors - and not a single toggle - using real exit IP logs.\n\n\n\n\nI wrote a previous post on concurrency in data fetching where the conclusion, roughly, was: residential proxies don't fix a start-rate burst, they just make the burst not matter — you spread it across different exit IPs. That's a fine reason to use proxies, but at best, it's a band-aid on a specific problem. I kept seeing rotation described the same way that post warned about concurrency being described -- a",
+      "source": "Dev.to Programming",
+      "published": "2026-07-30T09:23:59+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fydwyn0nsq81fkbb4kl49.png"
+    },
+    {
+      "id": "1fcec19a53a3",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-29T11:00:00+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "5663cd97a568",
+      "title": "Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS",
+      "url": "https://www.infoq.com/news/2026/07/microsoft-agents-aks-routing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released a reference architecture for routing agent traffic on Azure Kubernetes Service. It breaks down the issue into three key choices: which model answers a call, how the call is managed, and which GPU replica handles it. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-07-29T12:00:00+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "fcd1e0ed3c50",
+      "title": "Prompt Engineering Is Solved—Prompt Management Isn’t",
+      "url": "https://towardsdatascience.com/prompt-engineering-is-solved-prompt-management-isnt/",
+      "summary": "Prompt engineering helps you write better prompts—but it doesn’t help you change them safely. This article explores a common production failure where a simple variable rename breaks every live call, and introduces a lightweight static analysis tool that treats prompts like contracts, catching breaking changes before they ship.\nThe post Prompt Engineering Is Solved—Prompt Management Isn’t appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-29T16:33:57+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "21cfdc136e07",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+      "summary": "The startup analyzes calls, messages, and CRM data to identify effective sales techniques and turn them into playbooks for AI agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-29T14:41:06+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "15c10e202cb0",
+      "title": "Open-source tabular model validation toolkit TanML needs feedback [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1va7w4p/opensource_tabular_model_validation_toolkit_tanml/",
+      "summary": "We’re developing TanML, an MIT-licensed automated model-validation toolkit for tabular machine-learning models. TanML runs locally and provides an end-to-end workflow covering data profiling, preprocessing, feature-power ranking, model development, evaluation, drift analysis, stress testing, SHAP explainability, and audit-ready Word reports. It is designed particularly for model-risk workflows in banking, credit risk, insurance, and other regulated environments. We would appreciate critical feedback from model developers and validators:  Which capabilities would be useful in your existing work",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-29T20:22:16+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "bd298f81ab00",
+      "title": "Cloudflare Makes Internal DNS Generally Available",
+      "url": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has launched its Internal DNS service, providing authoritative and recursive DNS for private networks. This service simplifies DNS management by consolidating private and public DNS operations on a single platform. By Gianmarco Nalin",
+      "source": "InfoQ",
+      "published": "2026-07-29T10:30:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "b6bca7282398",
+      "title": "Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search",
+      "url": "https://towardsdatascience.com/los-movimientos-part-ii-solving-large-pickup-and-delivery-problems-with-adaptive-large-neighborhood-search/",
+      "summary": "Building an ALNS heuristic in Python for vehicle routing, time windows, capacity constraints, and mandatory driver breaks.\nThe post Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-29T13:30:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "9108d8d6030c",
+      "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+      "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/",
+      "summary": "The deal is Cyera's third acquisition this year.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-29T00:09:05+00:00",
+      "score": 2.25,
+      "image": null
+    },
+    {
+      "id": "ed5ec75bea30",
+      "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+      "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+      "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+      "source": "Ars Technica",
+      "published": "2026-07-28T21:36:39+00:00",
+      "score": 2.01,
+      "image": null
+    }
+  ]
+}

@@ -2821,3 +2821,37 @@
 2026-07-29 09:32:21,818  INFO     ────────────────────────────────────────────────────────────
 2026-07-29 09:32:21,818  INFO     Done!  Open: output/index.html
 2026-07-29 09:32:21,818  INFO     Headline: MCP Python SDK v2.0.0 Stable — Plus Rust 1.97.0, Gemini Agents & GitHub Actions
+2026-07-30 09:24:49,903  INFO     ============================================================
+2026-07-30 09:24:49,903  INFO     TECHPULSE Digest — 2026-07-30 09:24 UTC
+2026-07-30 09:24:49,903  INFO     ============================================================
+2026-07-30 09:24:49,903  INFO     Step 1/3 — Crawling feeds…
+2026-07-30 09:24:50,198  INFO       Hacker News                    → 0 significant articles
+2026-07-30 09:24:50,584  INFO       VentureBeat AI                 → 0 significant articles
+2026-07-30 09:24:50,765  INFO       Ars Technica                   → 1 significant articles
+2026-07-30 09:24:51,292  INFO       The Register AI                → 0 significant articles
+2026-07-30 09:24:51,397  INFO       MIT Tech Review                → 0 significant articles
+2026-07-30 09:24:51,551  INFO       Dev.to AI                      → 1 significant articles
+2026-07-30 09:24:52,224  INFO       Dev.to Programming             → 3 significant articles
+2026-07-30 09:24:52,320  INFO       GitHub Blog                    → 0 significant articles
+2026-07-30 09:24:52,913  INFO       Google Research                → 0 significant articles
+2026-07-30 09:24:53,709  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-07-30 09:24:53,773  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-07-30 09:24:54,324  INFO       InfoQ                          → 3 significant articles
+2026-07-30 09:24:54,574  INFO       Towards Data Science           → 2 significant articles
+2026-07-30 09:24:54,788  INFO       Wired AI                       → 0 significant articles
+2026-07-30 09:24:54,920  INFO       TechCrunch AI                  → 3 significant articles
+2026-07-30 09:24:54,920  INFO     Fetching images for top articles…
+2026-07-30 09:24:55,051  INFO       🖼  Anthropic SDK v0.120.2 Released — Plus Gemini CLI, Claude Co
+2026-07-30 09:24:55,682  INFO       🖼  AWS Lambda's Self-Managed Code Storage Lifts the Account Quo
+2026-07-30 09:24:55,714  INFO       🖼  Node.js Security Patches + AI Agent Updates — Dev Signal #76
+2026-07-30 09:24:55,860  INFO       🖼  From Learning Machine Learning to Competing on Kaggle: My Fi
+2026-07-30 09:24:56,127  INFO       🖼  How Rotating Residential Proxies Work: Per-Request vs Sticky
+2026-07-30 09:24:56,128  INFO     Total selected: 15 articles from 15 feeds
+2026-07-30 09:24:56,128  INFO     Selected 15 significant articles
+2026-07-30 09:24:56,128  INFO     Step 2/3 — Generating digest…
+2026-07-30 09:24:56,674  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-07-30 09:24:56,674  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-07-30 09:24:56,674  INFO     Step 3/3 — Rendering HTML…
+2026-07-30 09:24:56,675  INFO     ────────────────────────────────────────────────────────────
+2026-07-30 09:24:56,675  INFO     Done!  Open: output/index.html
+2026-07-30 09:24:56,675  INFO     Headline: Anthropic SDK v0.120.2 Released — Plus Gemini CLI, Claude Code, Rust 1.97.1, and FastAPI
