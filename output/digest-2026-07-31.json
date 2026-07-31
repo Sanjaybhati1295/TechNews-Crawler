@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI & More",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI & More (Dev.to Programming). Kimi K2.7 Code is Now Available in Microsoft Foundry (Dev.to AI). LAO: A Human Calibration Layer Between LLMs and Execution (Dev.to AI). Changes to LLM pricing: NextBit (Dev.to AI). The all-purpose agent isn't an architecture. It's a single point of failure with a system prompt. (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Stacked sessions and pull requests in the GitHub Copilot app (GitHub Blog). How to Organize All of Your Coding Agent Tasks (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Today's digest highlights the Anthropic Python SDK v0.119.0, which introduces a new model_context_window_exceeded stop reason and agent tool fixes. Additional releases include Anthropic Python SDK v0.120.1, Rust 1.96.1, FastAPI 0.141.0, MCP Python SDK v1.29.0, and cloudflared 2026.7.2, bringing various updates and enhancements across the ecosystem.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's Python SDK received two important updates, introducing a new 'model_context_window_exceeded' stop reason, improved agent tool handling, and a fix related to MCP. Concurrently, the MCP Python SDK relea"
+  },
+  "articles": [
+    {
+      "id": "d006cf6c73bb",
+      "title": "Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI & More",
+      "url": "https://dev.to/soytuber/anthropic-python-sdk-v01190-new-llm-stop-reason-plus-rust-fastapi-more-162h",
+      "summary": "Today's digest highlights the Anthropic Python SDK v0.119.0, which introduces a new model_context_window_exceeded stop reason and agent tool fixes. Additional releases include Anthropic Python SDK v0.120.1, Rust 1.96.1, FastAPI 0.141.0, MCP Python SDK v1.29.0, and cloudflared 2026.7.2, bringing various updates and enhancements across the ecosystem.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's Python SDK received two important updates, introducing a new 'model_context_window_exceeded' stop reason, improved agent tool handling, and a fix related to MCP. Concurrently, the MCP Python SDK relea",
+      "source": "Dev.to Programming",
+      "published": "2026-07-31T09:04:32+00:00",
+      "score": 5.27,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-07-31-cloud-stack.png"
+    },
+    {
+      "id": "fea5c2566345",
+      "title": "Kimi K2.7 Code is Now Available in Microsoft Foundry",
+      "url": "https://dev.to/taswar_bhatti/kimi-k27-code-is-now-available-in-microsoft-foundry-l7b",
+      "summary": "There are a lot of AI model announcements these days. But every now and then one lands that feels immediately practical for real engineering work.\n\nKimi K2.7 Code from Moonshot AI showing up in Microsoft Foundry feels like one of those releases.\n\nMicrosoft and Moonshot AI have made Kimi K2.7 Code available in the Foundry model catalog starting July 1, 2026. It is designed for the kind of software engineering that does not happen in a single prompt — multi-file refactors, feature work spanning multiple services, debugging sessions that need to hold context across many steps.\n\nThat is a differen",
+      "source": "Dev.to AI",
+      "published": "2026-07-31T09:26:32+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8s7rg3tp65850cy65vho.png"
+    },
+    {
+      "id": "82f8cd187121",
+      "title": "LAO: A Human Calibration Layer Between LLMs and Execution",
+      "url": "https://dev.to/zwiserfit/lao-a-human-calibration-layer-between-llms-and-execution-2ijn",
+      "summary": "Someone says \"I'll come next week.\" Your AI agent should know the difference between someone who means it and someone who says it — before either happens.\n\nMost agent frameworks treat every LLM output as equally trustworthy. They optimize for smarter models, not more reliable humans. We think the gap isn't intelligence — it's follow-through.\n\nThis is the thesis behind LAO — Long-term Anchored Ontology: a small, open-source layer that sits between a model and an action, adding the thing models were never trained for — predicting whether a promise turns into behavior.\n\nWe're pre-launch (Phase 1,",
+      "source": "Dev.to AI",
+      "published": "2026-07-31T09:28:23+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foviowj3c7z1fs4ni1v3r.png"
+    },
+    {
+      "id": "3ca3ba784ba3",
+      "title": "Changes to LLM pricing: NextBit",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-nextbit-4hn1",
+      "summary": "Model price changes detected for NextBit. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-07-31T09:27:02+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2Fx4ArO7a3WA.png"
+    },
+    {
+      "id": "7afe70977f56",
+      "title": "The all-purpose agent isn't an architecture. It's a single point of failure with a system prompt.",
+      "url": "https://dev.to/cyclopt_dimitrisk/the-all-purpose-agent-isnt-an-architecture-its-a-single-point-of-failure-with-a-system-prompt-3je0",
+      "summary": "Intro\n\n\nIn a demo, one agent that \"does everything\" looks like impressive economy: one prompt, one API call, one mental model. Nobody's testing it against thousands of edge cases a day, and nobody's paying for the tokens burned parsing forty unrelated instructions to answer a two-line question. In production, that same design is where teams spend their first real outage. Below are four failure modes that show up once a monolithic agent hits real traffic. (Illustrative composites, not case studies from a specific client.)\n\n\n  \n  \n  The system prompt that nobody can safely edit\n\n\nPicture a suppo",
+      "source": "Dev.to Programming",
+      "published": "2026-07-31T09:06:04+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3tivfmhus931nuvb4yn0.png"
+    },
+    {
+      "id": "671b0ce6e292",
+      "title": "MCP 2.0 + Security Patches: Rails RCE, Nuxt Updates",
+      "url": "https://dev.to/devsignal/mcp-20-security-patches-rails-rce-nuxt-updates-4pga",
+      "summary": "Two critical RCEs landed this week alongside a meaningful protocol revision in the MCP ecosystem—the kind of week where you're patching in parallel with upgrading. The security items aren't optional reading; if you're running Rails or Nuxt in production, those sections should override your normal triage queue.\n\n\n\n\n\n  \n  \n  mcp-handler 2.0 ships stateless protocol support\n\n\nmcp-handler@2.0.0 implements the 2026-07-28 MCP spec with a Streamable HTTP transport that requires no session state—no Redis, no sticky sessions, no external coordination layer. Existing Streamable HTTP clients continue wor",
+      "source": "Dev.to Programming",
+      "published": "2026-07-31T09:20:58+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0d14r19nm28zfowcsikp.png"
+    },
+    {
+      "id": "70cbdc6829ab",
+      "title": "Promote an AI Prototype to Production Behind a Provider Contract, Not a Rewrite",
+      "url": "https://dev.to/kongkong1/promote-an-ai-prototype-to-production-behind-a-provider-contract-not-a-rewrite-413p",
+      "summary": "A teammate asks the AI summary feature to \"just summarize this 40-page incident report.\" The demo worked last week. Today the request hits the free model endpoint, the response is truncated at the token limit, and the UI renders half a summary as if it were complete. The first layer that fails is not the model — it is the contract between your API and whatever model is behind it.\n\nThis is the classic prototype-to-production failure mode: the prototype was written directly against one provider's SDK, with one hard-coded model, no output validation, and no plan for what happens when you swap in ",
+      "source": "Dev.to Programming",
+      "published": "2026-07-31T09:04:09+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "e1121a984a5e",
+      "title": "Beginner Python Project: Dice Rolling Game",
+      "url": "https://dev.to/tochi_/beginner-python-project-dice-rolling-game-2a7n",
+      "summary": "Big shout out to Mosh Hamedani for compiling beginner projects for python developers.\n\n\n  \n  \n  Understanding the Problem\n\n\nBefore writing any code, I first broke the problem down into smaller steps. Solving the problem becomes much easier once the overall flow is clear.\n\nThe requirements are:\n\n\nThe player rolls a pair of dice.\nThe program returns the numbers rolled.\nThe program asks if the player wants to roll again.\nIf the answer is yes, roll the dice again.\nIf the answer is no, end the game.\n\n\nSince the same process repeats until the player decides to stop, this problem naturally requires a",
+      "source": "Dev.to Programming",
+      "published": "2026-07-31T08:47:55+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "d49afd5306c6",
+      "title": "If reviewing is mandatory for paper submissions, low-quality reviews can no longer be justified as “volunteer work” [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/",
+      "summary": "Several artificial intelligence conferences have recently introduced systems that require authors who submit papers to complete a certain number of reviews. Under such a system, reviewing is not optional volunteer work. It is an obligation that researchers must fulfill in exchange for having their own papers reviewed by the conference. However, many reviews repeatedly contain statements such as: The problem is not these statements themselves, but the fact that they are often presented without any concrete justification.  If a reviewer does not explain which prior work is similar, which specifi",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-31T03:05:48+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "a4b674c64517",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-30T20:26:38+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "811a9ec7f97a",
+      "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
+      "url": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are unchanged, and UpdateFunctionCode is still required after replacing an object. Terraform provider support remains an open enhancement request. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-07-30T07:57:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "3da55a22bf3e",
+      "title": "How Kimi K3 Engineered Its Way to the Frontier [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vaysjf/how_kimi_k3_engineered_its_way_to_the_frontier_r/",
+      "summary": "Kimi K3 by Moonshot reached the frontier as an open-weight model. Artificial Analysis ranks it fourth of 580 models, behind only Claude Opus 5, Fable 5, and GPT-5.6 Sol. Moonshot released more than the weights. I sat down to read the 47-page technical report and walk through the released code. Three things stood out.  Kimi Delta Attention replaces the KV cache in 69 of the 93 layers with one 128x128 matrix per head. A 1M-token context takes 27.2 GiB instead of 104.6. Quantile Balancing keeps 896 experts per layer evenly loaded. DeepSeek-V3's fixed-step bias nudging breaks at that expert count,",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-30T16:37:50+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "26f89c0ee081",
+      "title": "GCC steering committee announces AI policy",
+      "url": "https://lwn.net/Articles/1086041/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-07-30T11:45:44+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "998361c2bd3c",
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.\nThe post Stacked sessions and pull requests in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-07-30T17:30:24+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "13793f9f3249",
+      "title": "Meta says AI is making it easier to build new apps — and more are coming",
+      "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+      "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-30T15:41:16+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "a1b11e2b2bb9",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-30T13:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "8b2a3767f113",
+      "title": "How to Decode the Temperature Parameter in LLMs",
+      "url": "https://towardsdatascience.com/decoding-the-temperature-parameter-in-llms/",
+      "summary": "How statistical physics explains the transition from deterministic predictions to generative AI.\nThe post How to Decode the Temperature Parameter in LLMs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-30T12:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "ce76fe05f97f",
+      "title": "How to Build a Context Layer and a Company Brain",
+      "url": "https://towardsdatascience.com/how-to-build-a-context-layer-and-a-company-brain/",
+      "summary": "What it actually takes to turn a company's scattered knowledge into something an LLM can reliably use — and why the demo is 5% of the work.\nThe post How to Build a Context Layer and a Company Brain appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-30T14:00:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "8946d44a073e",
+      "title": "I taught an LSTM to move a mouse like a human [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vakwmq/i_taught_an_lstm_to_move_a_mouse_like_a_human_p/",
+      "summary": "Precursor was recently released. It's a bot detector that uses cursor tracking. I thought it would be a fun challenge to train a deep neural network that could learn human mouse movements. It's an 2-layer LSTM model with a Mixture Density Network at the end. The results are actually quite impressive. Video: https://github.com/puffinsoft/mousecrack  &#32; submitted by &#32;  /u/Possible-Session9849   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-30T05:52:50+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "b8cbbc9e33a6",
+      "title": "The Python Ecosystem That Changed AI Development",
+      "url": "https://towardsdatascience.com/the-python-ecosystem-that-changed-ai-development/",
+      "summary": "How one open-source ecosystem made state-of-the-art AI accessible\nThe post The Python Ecosystem That Changed AI Development appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-30T16:30:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "73f006ea6a53",
+      "title": "How to Organize All of Your Coding Agent Tasks",
+      "url": "https://towardsdatascience.com/how-to-organize-all-of-your-coding-agent-tasks/",
+      "summary": "Optimise how you interact with your coding agents\nThe post How to Organize All of Your Coding Agent Tasks appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-30T15:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "6370153b1b23",
+      "title": "A Simplified View of the Jacobian Conjecture",
+      "url": "https://towardsdatascience.com/a-simplified-view-of-the-jacobian-conjecture/",
+      "summary": "The full conjecture is stated over abstract fields, but the counterexample is a concrete 3D function that we can explain and visualize using familiar geometric ideas and a little algebra.\nThe post A Simplified View of the Jacobian Conjecture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-30T13:30:00+00:00",
+      "score": 2.38,
+      "image": null
+    }
+  ]
+}
