@@ -2890,3 +2890,37 @@
 2026-07-31 09:36:51,595  INFO     ────────────────────────────────────────────────────────────
 2026-07-31 09:36:51,595  INFO     Done!  Open: output/index.html
 2026-07-31 09:36:51,595  INFO     Headline: Anthropic Python SDK v0.119.0: New LLM Stop Reason — Plus Rust, FastAPI & More
+2026-08-01 08:59:46,329  INFO     ============================================================
+2026-08-01 08:59:46,329  INFO     TECHPULSE Digest — 2026-08-01 08:59 UTC
+2026-08-01 08:59:46,329  INFO     ============================================================
+2026-08-01 08:59:46,329  INFO     Step 1/3 — Crawling feeds…
+2026-08-01 08:59:46,541  INFO       Hacker News                    → 0 significant articles
+2026-08-01 08:59:46,854  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-01 08:59:47,054  INFO       Ars Technica                   → 0 significant articles
+2026-08-01 08:59:47,920  INFO       The Register AI                → 0 significant articles
+2026-08-01 08:59:48,085  INFO       MIT Tech Review                → 0 significant articles
+2026-08-01 08:59:48,203  INFO       Dev.to AI                      → 1 significant articles
+2026-08-01 08:59:48,452  INFO       Dev.to Programming             → 1 significant articles
+2026-08-01 08:59:48,586  INFO       GitHub Blog                    → 0 significant articles
+2026-08-01 08:59:49,285  INFO       Google Research                → 0 significant articles
+2026-08-01 08:59:50,174  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-08-01 08:59:50,313  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-01 08:59:50,664  INFO       InfoQ                          → 2 significant articles
+2026-08-01 08:59:50,941  INFO       Towards Data Science           → 3 significant articles
+2026-08-01 08:59:51,420  INFO       Wired AI                       → 0 significant articles
+2026-08-01 08:59:51,522  INFO       TechCrunch AI                  → 2 significant articles
+2026-08-01 08:59:51,522  INFO     Fetching images for top articles…
+2026-08-01 08:59:51,707  INFO       🖼  Build an MCP v2 Server in TypeScript with the New MCP SDK
+2026-08-01 08:59:52,022  INFO       🖼  AWS Introduces Free Sandbox Environments for Workshops
+2026-08-01 08:59:52,114  INFO       🖼  Honeywell’s Warehouse Automation Business Consolidates into 
+2026-08-01 08:59:52,397  INFO       🖼  Terraform Introduces tfpolicy, an HCL-based Policy-as-Code F
+2026-08-01 08:59:52,512  INFO       🖼  Google nixes its Earth AI feature one day after launch, amid
+2026-08-01 08:59:52,512  INFO     Total selected: 11 articles from 15 feeds
+2026-08-01 08:59:52,512  INFO     Selected 11 significant articles
+2026-08-01 08:59:52,512  INFO     Step 2/3 — Generating digest…
+2026-08-01 08:59:52,754  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-01 08:59:52,754  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-01 08:59:52,755  INFO     Step 3/3 — Rendering HTML…
+2026-08-01 08:59:52,755  INFO     ────────────────────────────────────────────────────────────
+2026-08-01 08:59:52,755  INFO     Done!  Open: output/index.html
+2026-08-01 08:59:52,755  INFO     Headline: Build an MCP v2 Server in TypeScript with the New MCP SDK

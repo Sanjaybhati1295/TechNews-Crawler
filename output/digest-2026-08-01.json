@@ -1,0 +1,129 @@
+{
+  "digest": {
+    "headline": "Build an MCP v2 Server in TypeScript with the New MCP SDK",
+    "tldr": "Today's digest covers 11 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Build an MCP v2 Server in TypeScript with the New MCP SDK (Dev.to Programming). Honeywell’s Warehouse Automation Business Consolidates into Trew (Dev.to AI). Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework (InfoQ). I have trained a model to predict my blood sugar [P] (Reddit r/MachineLearning). Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation (TechCrunch AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces Free Sandbox Environments for Workshops (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Build a stateless MCP v2 server in TypeScript. A hands-on guide to the MCP TypeScript v2 SDK — the new @modelcontextprotocol/server packages, createMcpHandler, Standard Schema tools, and what replaces session handling.\n\n\n  \n  \n  Introduction\n\n\nMCP v2 is final. Protocol revision 2026-07-28 shipped, and the TypeScript SDK shipped with it: @modelcontextprotocol/server 2.0.0 and its companion packages are on npm as stable releases.\n\nIf you want a v2 server running today, this guide gets you there. The fastest path is one command:\n\n\n\nnpx @agentailor/create-mcp-server@0.7.0 --name=fetch-mcp-server\n\n"
+  },
+  "articles": [
+    {
+      "id": "c58bd82b1a41",
+      "title": "Build an MCP v2 Server in TypeScript with the New MCP SDK",
+      "url": "https://dev.to/ialijr/build-an-mcp-v2-server-in-typescript-with-the-new-mcp-sdk-567j",
+      "summary": "Build a stateless MCP v2 server in TypeScript. A hands-on guide to the MCP TypeScript v2 SDK — the new @modelcontextprotocol/server packages, createMcpHandler, Standard Schema tools, and what replaces session handling.\n\n\n  \n  \n  Introduction\n\n\nMCP v2 is final. Protocol revision 2026-07-28 shipped, and the TypeScript SDK shipped with it: @modelcontextprotocol/server 2.0.0 and its companion packages are on npm as stable releases.\n\nIf you want a v2 server running today, this guide gets you there. The fastest path is one command:\n\n\n\nnpx @agentailor/create-mcp-server@0.7.0 --name=fetch-mcp-server\n\n",
+      "source": "Dev.to Programming",
+      "published": "2026-08-01T08:28:27+00:00",
+      "score": 3.97,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwt6pdhs3mtl0uif3mboj.png"
+    },
+    {
+      "id": "f23790ef96bb",
+      "title": "AWS Introduces Free Sandbox Environments for Workshops",
+      "url": "https://www.infoq.com/news/2026/08/aws-builder-sandbox/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS Builder Center now offers free, time-limited sandbox environments for workshops, so developers no longer need to use their own AWS account and credit card or worry about unexpected charges. This has been a long-standing request from the community and removes one of the biggest friction points for practitioners learning new AWS technologies. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-01T04:49:00+00:00",
+      "score": 3.77,
+      "image": "https://res.infoq.com/news/2026/08/aws-builder-sandbox/en/headerimage/generatedHeaderImage-1783889777241.jpg"
+    },
+    {
+      "id": "f0ce0b0b9425",
+      "title": "Honeywell’s Warehouse Automation Business Consolidates into Trew",
+      "url": "https://dev.to/rohanmehta1/honeywells-warehouse-automation-business-consolidates-into-trew-b75",
+      "summary": "Warehouse automation solutions are moving into a new wave of consolidation as technology vendors add new features and functions to address the increasing demands of e-commerce, manufacturing, retail and logistics firms. Customers are increasingly turning to an integrated approach, where robotics, material handling, software and lifecycle services are all provided by a single vendor, rather than developing a set of stand-alone solutions.",
+      "source": "Dev.to AI",
+      "published": "2026-08-01T08:46:18+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5gcnrhalwn0l795lybbt.png"
+    },
+    {
+      "id": "1341aa54124b",
+      "title": "Terraform Introduces tfpolicy, an HCL-based Policy-as-Code Framework",
+      "url": "https://www.infoq.com/news/2026/07/terraform-policy-as-code/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has introduced tfpolicy, a new HCL-based policy-as-code framework for Terraform, now available in public beta within HCP Terraform. It is designed to simplify and modernize infrastructure governance by integrating policy creation and enforcement directly into Terraform workflows, eliminating the need for separate tools and languages. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-07-31T18:00:00+00:00",
+      "score": 3.47,
+      "image": "https://res.infoq.com/news/2026/07/terraform-policy-as-code/en/headerimage/terraform-1-4-null-resource-1785517729441.jpeg"
+    },
+    {
+      "id": "3c7bb0753e54",
+      "title": "I have trained a model to predict my blood sugar [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc1txc/i_have_trained_a_model_to_predict_my_blood_sugar_p/",
+      "summary": "It's an encoder-only transformer that consumes past(blood glucose + carbs + insulin) and future(carbs + insulin) and predicts future blood glucose for the next 2 hours. Announced meals and boluses/basal are used to condition its predictions. The context size is variable (8 - 24 hours), and model can work in autoregressive mode to predict the next &gt;2 hours. It also predicts time by looking at the context, but it never consumes time. The architecture is BERT-style: bidirectional attention with future BG masked. DILATE loss was used to fit the median line; pinball loss to fit the uncertainty b",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-31T20:09:34+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "6422ae0f316d",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-31T19:47:28+00:00",
+      "score": 3.17,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/Screenshot-2026-07-31-at-12.31.10-PM.png?resize=1200,670"
+    },
+    {
+      "id": "d240f02eb7f1",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "source": "TechCrunch AI",
+      "published": "2026-07-31T14:47:11+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "b429625f6f83",
+      "title": "The 3× Token Bill We Didn’t See Coming",
+      "url": "https://towardsdatascience.com/the-3x-token-bill-we-didnt-see-coming/",
+      "summary": "How a seemingly harmless move to a multi-agent architecture quietly tripled our LLM costs and what actually fixed it.\nThe post The 3× Token Bill We Didn’t See Coming appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-31T16:30:00+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "121fd246cb4c",
+      "title": "When the Code Becomes the CEO: Why Your Next Manager Might Be a Decentralized Agentic Loop",
+      "url": "https://towardsdatascience.com/when-the-code-becomes-the-ceo-why-your-next-manager-might-be-a-decentralized-agentic-loop/",
+      "summary": "In five to ten years, the sharpest manager in your company might not be human, might not sleep, and might exist entirely in shared GPU memory. This is the systems-level view of the algorithmic corporation — why middle management collapses into a protocol, what breaks in the current AI stack, and what has to be built for autonomous agents to actually run a business.\nThe post When the Code Becomes the CEO: Why Your Next Manager Might Be a Decentralized Agentic Loop appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-31T15:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "65d3209cb14b",
+      "title": "How to Debug AI Coding Agents When They Change the Wrong Thing",
+      "url": "https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/",
+      "summary": "A practical tutorial for recording model tool requests, real function results, patches, checks, screenshots, and a saved run log.\nThe post How to Debug AI Coding Agents When They Change the Wrong Thing appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-07-31T13:30:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "d49afd5306c6",
+      "title": "If reviewing is mandatory for paper submissions, low-quality reviews can no longer be justified as “volunteer work” [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/",
+      "summary": "Several artificial intelligence conferences have recently introduced systems that require authors who submit papers to complete a certain number of reviews. Under such a system, reviewing is not optional volunteer work. It is an obligation that researchers must fulfill in exchange for having their own papers reviewed by the conference. However, many reviews repeatedly contain statements such as: The problem is not these statements themselves, but the fact that they are often presented without any concrete justification.  If a reviewer does not explain which prior work is similar, which specifi",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-07-31T03:05:48+00:00",
+      "score": 2.14,
+      "image": null
+    }
+  ]
+}
