@@ -2924,3 +2924,38 @@
 2026-08-01 08:59:52,755  INFO     ────────────────────────────────────────────────────────────
 2026-08-01 08:59:52,755  INFO     Done!  Open: output/index.html
 2026-08-01 08:59:52,755  INFO     Headline: Build an MCP v2 Server in TypeScript with the New MCP SDK
+2026-08-02 09:04:20,524  INFO     ============================================================
+2026-08-02 09:04:20,525  INFO     TECHPULSE Digest — 2026-08-02 09:04 UTC
+2026-08-02 09:04:20,525  INFO     ============================================================
+2026-08-02 09:04:20,525  INFO     Step 1/3 — Crawling feeds…
+2026-08-02 09:04:20,739  INFO       Hacker News                    → 0 significant articles
+2026-08-02 09:04:21,154  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-02 09:04:21,316  INFO       Ars Technica                   → 0 significant articles
+2026-08-02 09:04:22,711  INFO       The Register AI                → 0 significant articles
+2026-08-02 09:04:22,874  INFO       MIT Tech Review                → 0 significant articles
+2026-08-02 09:04:23,094  INFO       Dev.to AI                      → 3 significant articles
+2026-08-02 09:04:23,359  INFO       Dev.to Programming             → 5 significant articles
+2026-08-02 09:04:23,682  INFO       GitHub Blog                    → 0 significant articles
+2026-08-02 09:04:24,524  INFO       Google Research                → 0 significant articles
+2026-08-02 09:04:25,297  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-08-02 09:04:25,428  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-02 09:04:25,734  INFO       InfoQ                          → 2 significant articles
+2026-08-02 09:04:26,036  INFO       Towards Data Science           → 1 significant articles
+2026-08-02 09:04:26,350  INFO       Wired AI                       → 0 significant articles
+2026-08-02 09:04:26,492  INFO       TechCrunch AI                  → 1 significant articles
+2026-08-02 09:04:26,493  INFO     Fetching images for top articles…
+2026-08-02 09:04:26,898  INFO       🖼  Cloudflare Introduces Meerkat for Strongly Consistent Global
+2026-08-02 09:04:27,239  INFO       🖼  The One Ring: Forging SRP in Python
+2026-08-02 09:04:27,366  INFO       🖼  AI Scanning vs Manual Pen Testing: Which Secures Chrome Fast
+2026-08-02 09:04:27,501  INFO       🖼  Centralizing logs across servers or background workers often
+2026-08-02 09:04:27,607  INFO       🖼  Judge denies xAI’s request to block Minnesota ban on ‘nudify
+2026-08-02 09:04:27,791  INFO       🖼  Teaching Grok Build Taste: Tailwind v4, Aceternity, and Proj
+2026-08-02 09:04:27,791  INFO     Total selected: 16 articles from 15 feeds
+2026-08-02 09:04:27,791  INFO     Selected 16 significant articles
+2026-08-02 09:04:27,791  INFO     Step 2/3 — Generating digest…
+2026-08-02 09:04:28,001  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-02 09:04:28,001  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-02 09:04:28,001  INFO     Step 3/3 — Rendering HTML…
+2026-08-02 09:04:28,002  INFO     ────────────────────────────────────────────────────────────
+2026-08-02 09:04:28,002  INFO     Done!  Open: output/index.html
+2026-08-02 09:04:28,002  INFO     Headline: Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination

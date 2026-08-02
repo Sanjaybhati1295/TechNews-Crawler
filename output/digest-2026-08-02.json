@@ -1,0 +1,183 @@
+{
+  "digest": {
+    "headline": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination (InfoQ). The One Ring: Forging SRP in Python (Dev.to Programming). AI Scanning vs Manual Pen Testing: Which Secures Chrome Faster (Dev.to Programming). Centralizing logs across servers or background workers often introduces unnecessary operational overhead (Dev.to Programming). Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps (TechCrunch AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces Free Sandbox Environments for Workshops (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "[D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Cloudflare recently introduced Meerkat, an internal globally consistent control-plane service based on the QuePaxa consensus algorithm. Unlike Raft, it allows leaderless writes while preserving strong consistency, improving availability across Cloudflare's global network. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "1fdd04f603f1",
+      "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently introduced Meerkat, an internal globally consistent control-plane service based on the QuePaxa consensus algorithm. Unlike Raft, it allows leaderless writes while preserving strong consistency, improving availability across Cloudflare's global network. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-02T06:17:00+00:00",
+      "score": 3.84,
+      "image": "https://res.infoq.com/news/2026/08/cloudflare-meerkat-consensus/en/headerimage/generatedHeaderImage-1784096459205.jpg"
+    },
+    {
+      "id": "f80308d6da41",
+      "title": "The One Ring: Forging SRP in Python",
+      "url": "https://dev.to/timevolt/the-one-ring-forging-srp-in-python-mk8",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nI still remember the first time I opened a legacy codebase and saw a class called UserManager. It was roughly 300 lines long, juggling user validation, password hashing, database persistence, email sending, and even a bit of logging. Every time I needed to tweak the password policy, I had to dig through a maze of unrelated methods, and the test suite felt like trying to solve a Rubik’s cube blindfolded—change one side and three others would scramble.  \n\nHonestly, I felt like Frodo lugging the One Ring through Mordor: the weight was crushing, and I kept wondering ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-02T08:59:18+00:00",
+      "score": 3.8,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F56nx40q2fhm6j3lyk2ia.png"
+    },
+    {
+      "id": "fcd9ab7a0a2c",
+      "title": "AI Scanning vs Manual Pen Testing: Which Secures Chrome Faster",
+      "url": "https://dev.to/dheerajramasahayam/ai-scanning-vs-manual-pen-testing-which-secures-chrome-faster-3ak",
+      "summary": "Canonical version: https://thelooplet.com/posts/ai-scanning-vs-manual-pen-testing-which-secures-chrome-faster\n\n\n\n  \n  \n  AI Scanning vs Manual Pen Testing: Which Secures Chrome Faster\n\n\n\nTL;DR: Chrome’s AI‑driven vulnerability discovery fixed 1,072 bugs across two July 2026 releases—outpacing traditional manual testing and forcing security teams to re‑architect their patch pipelines.\n\n\n\n  \n  \n  1. Why Chrome’s Security Model Matters\n\n\nChrome powers more than 3 billion active installations worldwide, from desktop browsers to Android WebViews and embedded IoT devices. Its Chromium codebase now e",
+      "source": "Dev.to Programming",
+      "published": "2026-08-02T08:03:49+00:00",
+      "score": 3.74,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7xz7u8o0heajgnd58yk8.png"
+    },
+    {
+      "id": "377b4a54b7d6",
+      "title": "Centralizing logs across servers or background workers often introduces unnecessary operational overhead",
+      "url": "https://dev.to/indiesquadtools/centralizing-logs-across-servers-or-background-workers-often-introduces-unnecessary-operational-5ceb",
+      "summary": "Centralizing logs across servers or background workers often introduces unnecessary operational overhead. Running dedicated search clusters like Elasticsearch requires significant memory and maintenance, while SaaS logging providers charge monthly rates that scale directly with data volume. For smaller deployments, these options are often disproportionate to the actual problem: finding recent error messages and getting notified when something breaks.\n\nLogFloor is a lightweight, self-hosted log search and alerting tool. Purchased as source code for a $49 one-time fee, it runs entirely on your o",
+      "source": "Dev.to Programming",
+      "published": "2026-08-02T07:56:17+00:00",
+      "score": 3.74,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fn4t81fhbd6qihtgguw5x.png"
+    },
+    {
+      "id": "e1bf53682cbd",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-01T20:26:04+00:00",
+      "score": 3.7,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2207699717.jpg?resize=1200,800"
+    },
+    {
+      "id": "17886da9f31b",
+      "title": "Teaching Grok Build Taste: Tailwind v4, Aceternity, and Project Rules That Ship",
+      "url": "https://dev.to/bonifacez/teaching-grok-build-taste-tailwind-v4-aceternity-and-project-rules-that-ship-1nni",
+      "summary": "I shipped ImageStretcher — a free, in-browser tool that stretches width and height independently, without cropping and without uploading your file to a server — using Grok Build as the coding agent.\n\nCoding agents are great at “make it run.” They are mediocre at “make it look like a product” unless you give them something stronger than please make it pretty. Pretty is not a type. Semantic tokens are. Install paths are. Motion presets are. Privacy constraints are.\n\nThis article walks through the three levers that kept the UI honest on ImageStretcher:\n\n\n\nTailwind CSS v4 as a token-first design s",
+      "source": "Dev.to AI",
+      "published": "2026-08-02T08:55:57+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F82qosxay86spcur7ty91.png"
+    },
+    {
+      "id": "949900d1a8f8",
+      "title": "How to Use Writesonic for Page Speed Recommendations in 2026",
+      "url": "https://dev.to/leosociallseointent/how-to-use-writesonic-for-page-speed-recommendations-in-2026-5h4d",
+      "summary": "Originally published at https://seointent.com/blog/writesonic-for-page-speed-recommendations\n\n\n  \n  \n  TL;DR\n\n\n\n- Writesonic for page speed recommendations works best when you feed it real audit data from Google PageSpeed Insights and ask it to prioritize fixes by impact — not just list them.\n\n- The quality of your prompt determines 80% of the output quality; vague prompts return generic advice you could Google yourself.\n\n- Writesonic beats ChatGPT for this task on speed and cost, but Claude edges it out when you need nuanced reasoning about render-blocking resources.\n\n- If you want this at sc",
+      "source": "Dev.to AI",
+      "published": "2026-08-02T08:54:21+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "27efef1c2ca8",
+      "title": "I swept 59 keywords across 6 App Store storefronts. My app ranks for exactly 2 — and both are just my own title.",
+      "url": "https://dev.to/samtj/i-swept-59-keywords-across-6-app-store-storefronts-my-app-ranks-for-exactly-2-and-both-are-just-5eo0",
+      "summary": "I have been running a zero-budget acquisition programme for my iOS app for about thirty sessions. Downloads: zero. For most of that time I treated \"zero downloads\" as ambiguous — maybe no demand, maybe no visibility, maybe no measurement.\n\nIt is now substantially resolved, and the answer was not a marketing problem. It was an off switch.\n\n\n  \n  \n  The measurement\n\n\nI swept 59 keywords x 6 storefronts (US, GB, CA, AU, IE, NZ) against the public iTunes search endpoint, limit=200, neutral User-Agent.\n\n\n\n\noutcome\ncount\n\n\n\n\nterms ranking top-200 in any of the 6 storefronts\n2\n\n\nterms absent from all",
+      "source": "Dev.to Programming",
+      "published": "2026-08-02T08:56:23+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "bd47d87aafb6",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-02T02:15:24+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "c9eb1da2c25c",
+      "title": "I built PrivyPrompt, a local-first privacy guard for AI prompts",
+      "url": "https://dev.to/kk092/i-built-privyprompt-a-local-first-privacy-guard-for-ai-prompts-4hal",
+      "summary": "Developers are pasting more into AI tools every day.\n\nLogs. Stack traces. .env files. API responses. SQL errors. Customer notes. Contracts. PDFs. Screenshots. Internal docs.\n\nThat workflow is useful, but it also creates a quiet privacy risk:\n\nWhat if the prompt contains an API key?\nWhat if a file includes customer data?\nWhat if a screenshot has sensitive information nobody noticed?\n\nI built PrivyPrompt to help reduce that accidental sharing.\n\nWhat PrivyPrompt does\n\nPrivyPrompt is a Chrome extension that checks prompts and supported files before they are submitted to AI tools.\n\nIt can warn, mas",
+      "source": "Dev.to AI",
+      "published": "2026-08-02T08:55:12+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "71800672523f",
+      "title": "Your Docs Have an Identity Crisis",
+      "url": "https://dev.to/oskarreyesdev/your-docs-have-an-identity-crisis-1hk8",
+      "summary": "Most documentation fails before the first sentence. It fails at the decision about what the page is for.\n\nDiátaxis — the documentation framework sitting on the Hacker News front page again — makes that decision the whole game. It says there are four distinct user needs, four corresponding forms of documentation, and that nearly every bad doc page is one of these forms doing another form's job.\n\nThe four: tutorials, how-to guides, reference, and explanation.\n\n\n  \n  \n  The quadrant in one minute\n\n\nSplit documentation along two axes: does it serve study or work, and does it describe steps or know",
+      "source": "Dev.to Programming",
+      "published": "2026-08-02T08:24:59+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "3909ce598f06",
+      "title": "Question about NeurIPS discussion phase [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/",
+      "summary": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In previous NeurIPS cycles, how common is it for reviewers to update scores after saying concerns are resolved? What have others observed? My ratings/confidences are : 4/4, 3/2, 3/2, 2/4. I am talking about the one who gave rating 2.  &#32; submitted by &#32;  /u/Invariant_n_Cauchy   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-01T20:58:03+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "0833b7e2e216",
+      "title": "EMNLP vs AACL commitment: Meta 3.5, reviews 3/3/4, what to do?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcsv1s/emnlp_vs_aacl_commitment_meta_35_reviews_334_what/",
+      "summary": "I'm trying to decide whether to commit my ARR May 2026 paper to EMNLP or AACL. (first time solo independent author). Final reviews after rebuttal (OA/Confidence/Excitement ):  R1: 2.5 → 3 /3/2.5 R2: 2.5 → 3 /4/2.5 R3: 4 /4 /3 Meta: 3.5 (Borderline Conference)  The meta-review was overall positive and emphasized the paper's empirical rigor, practical value, and that the rebuttal addressed the main concerns. My recollection is that the AC mentioned they were leaning toward 3.5 primarily because of the quality of the presentation/readability, rather than concerns about technical soundness(now tha",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-01T17:11:05+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "8f2662ef3fc1",
+      "title": "How Symmetric Are the Insides of a Go Network? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/",
+      "summary": "I just now posted a small research / ML interp study on symmetries inside the neural nets for an open source Go-playing program that I maintain (&quot;KataGo&quot;). The rules of Go are completely symmetric under rotation/reflection, but such symmetry is not enforced in the models - the only thing we do for that is stochastic 8-fold data augmentation during training, randomizing the spatial orientation of each batch.  To what degree do superhuman-strength Go-playing neural nets automatically learn to represent the board internally independent of its orientation, via &quot;symmetric&quot; conce",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-01T16:18:53+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "a4bf23f42cde",
+      "title": "Put the Agent Inside the Workflow",
+      "url": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
+      "summary": "A hybrid LLM application pattern that combines a predefined workflow with adaptive agent behavior\nThe post Put the Agent Inside the Workflow appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-01T13:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "f23790ef96bb",
+      "title": "AWS Introduces Free Sandbox Environments for Workshops",
+      "url": "https://www.infoq.com/news/2026/08/aws-builder-sandbox/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS Builder Center now offers free, time-limited sandbox environments for workshops, so developers no longer need to use their own AWS account and credit card or worry about unexpected charges. This has been a long-standing request from the community and removes one of the biggest friction points for practitioners learning new AWS technologies. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-01T04:49:00+00:00",
+      "score": 2.43,
+      "image": null
+    }
+  ]
+}
