@@ -1,0 +1,139 @@
+{
+  "digest": {
+    "headline": "DeepSeek-V4-Flash Open-Sourced: 304B Model Beats V4-Pro at $0.14",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "DeepSeek-V4-Flash Open-Sourced: 304B Model Beats V4-Pro at $0.14 (Dev.to AI). Why I Chose upGrad Over Coding Ninjas and DeepLearning.AI (Dev.to Programming). Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds (InfoQ). HashiCorp Ships Public Beta of Vault Kubernetes Key Management (InfoQ). How to Check If an AI Website Is Down (Complete Troubleshooting Guide) (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How to Apply Coding Agents to Non-Programming Tasks (Towards Data Science). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "DeepSeek open-sourced V4-Flash-0731, a 304B model scoring 82.7 on VulcanBench, matching Claude Opus-4.8 at $0.14/M input tokens.\n\n\nDeepSeek open-sourced V4-Flash-0731 on July 31, scoring 82.7 on VulcanBench and matching Claude Opus-4.8. The 304B-parameter model undercuts V4-Pro preview pricing by 65%, at $0.14 per million input tokens.\n\nKey facts\n\n\nReleased July 31, 2026 as open-source\n304B parameters, 45% of V4's 671B\nVulcanBench score: 82.7, matches Opus-4.8\nPricing: $0.14/$0.28 per M tokens\nHugging Face trending: #2 within 24h\n\n\nDeepSeek released V4-Flash-0731 as an open-source model on Jul"
+  },
+  "articles": [
+    {
+      "id": "6dcaceb888cb",
+      "title": "DeepSeek-V4-Flash Open-Sourced: 304B Model Beats V4-Pro at $0.14",
+      "url": "https://dev.to/gentic_news/deepseek-v4-flash-open-sourced-304b-model-beats-v4-pro-at-014-5dc1",
+      "summary": "DeepSeek open-sourced V4-Flash-0731, a 304B model scoring 82.7 on VulcanBench, matching Claude Opus-4.8 at $0.14/M input tokens.\n\n\nDeepSeek open-sourced V4-Flash-0731 on July 31, scoring 82.7 on VulcanBench and matching Claude Opus-4.8. The 304B-parameter model undercuts V4-Pro preview pricing by 65%, at $0.14 per million input tokens.\n\nKey facts\n\n\nReleased July 31, 2026 as open-source\n304B parameters, 45% of V4's 671B\nVulcanBench score: 82.7, matches Opus-4.8\nPricing: $0.14/$0.28 per M tokens\nHugging Face trending: #2 within 24h\n\n\nDeepSeek released V4-Flash-0731 as an open-source model on Jul",
+      "source": "Dev.to AI",
+      "published": "2026-08-03T10:26:20+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw6io59cr6dcl4labaaf8.png"
+    },
+    {
+      "id": "2dc1d6bf5136",
+      "title": "Why I Chose upGrad Over Coding Ninjas and DeepLearning.AI",
+      "url": "https://dev.to/himanshu_madan_d9fe642656/why-i-chose-upgrad-over-coding-ninjas-and-deeplearningai-2k4d",
+      "summary": "When I was picking an AI course, I looked at three very different options  and here's why upGrad won out for me.\n\nupGrad (AI &amp; ML with IIIT-Bangalore)\nThis is university-backed, so the certificate carries real weight in India. It covers ML, deep learning, NLP, and Generative AI over ~12 months, mostly recorded with some live sessions. What sold me was the placement push  they claim ~95% placement and lifetime career support. I wanted the recognizable university brand plus hand-holding through placements, not just content.\n\nCoding Ninjas (Machine Learning / AI tracks)\nI considered this too ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-03T10:19:16+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fywgr6vwfz8srkfbun8zb.png"
+    },
+    {
+      "id": "814aa42b5bee",
+      "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds",
+      "url": "https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released TypeScript 7.0, featuring a native compiler that improves build speeds by 8x to 12x. Notable performance enhancements were evidenced in real codebases. The version lacks a stable programmatic API, anticipated in 7.1. Transitioning includes a compatibility package for existing tooling, and TypeScript remains an open-source project. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-03T05:22:00+00:00",
+      "score": 4.01,
+      "image": "https://res.infoq.com/news/2026/08/typescript-7-released/en/headerimage/generatedHeaderImage-1785691904681.jpg"
+    },
+    {
+      "id": "b3b3ec6aa693",
+      "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
+      "url": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has released a public beta of Vault Kubernetes key management, a KMS v2-compatible plugin that lets the Kubernetes API server delegate envelope encryption to Vault Enterprise, moving the key encryption keys that protect etcd data out of the cluster and into a separately governed trust domain. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-08-03T10:00:00+00:00",
+      "score": 3.97,
+      "image": "https://res.infoq.com/news/2026/08/vault-kubernetes-key-management/en/headerimage/header-1785442701344.jpeg"
+    },
+    {
+      "id": "394b61f7236a",
+      "title": "How to Check If an AI Website Is Down (Complete Troubleshooting Guide)",
+      "url": "https://dev.to/softcircles/how-to-check-if-an-ai-website-is-down-complete-troubleshooting-guide-101e",
+      "summary": "You're mid-conversation with ChatGPT, or waiting on a response from Claude AI, and suddenly nothing. The page hangs, the message fails to send, or you get a cryptic error. Before assuming your internet is broken or your account got banned, there's a faster question to answer: is the AI service itself down, or is it just you?\n\nKnowing how to check if an AI website is down takes less than two minutes once you know where to look, and it saves you from restarting routers or filing support tickets for a problem that isn't yours to fix. This guide covers every reliable method for checking AI website",
+      "source": "Dev.to AI",
+      "published": "2026-08-03T10:25:26+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4a93h0vlxn6w302g8z29.png"
+    },
+    {
+      "id": "690c009a3c29",
+      "title": "Qwen Code 0.21.4 Forked Subagent Isolation Checklist",
+      "url": "https://dev.to/ahab_indieseek/qwen-code-0214-forked-subagent-isolation-checklist-2agb",
+      "summary": "Qwen Code 0.21.4: test forked subagent prompt isolation\n\n\n\n  \n  \n  Quick answer\n\n\nQwen Code 0.21.4 fixes a concrete multi-agent isolation bug: when several forked subagents were launched in one model response, each fork could inherit the functionCall.args.prompt values belonging to its siblings. A tool-less fork could therefore describe work assigned to other forks even though it had no legitimate runtime path to those directives.\n\nUpgrade first, confirm the active version, then run a three-sentinel canary:\n\n\n\nnpm install -g @qwen-code/qwen-code@0.21.4\nqwen --version\n\n\n\n\n\n\nLaunch three paralle",
+      "source": "Dev.to Programming",
+      "published": "2026-08-03T10:18:37+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk79bj2ilyqp2s4qqpe3c.png"
+    },
+    {
+      "id": "4285ddd59f45",
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "url": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model providers and combines planning with predefined state machines, offering flexibility for agent workflows. By Erik Costlow",
+      "source": "InfoQ",
+      "published": "2026-08-03T04:43:00+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "2910b6a3b879",
+      "title": "Your first business opportunity in 3 commands: /register_directory in @biznode_bot, wait for matches, then /my_pulse to view...",
+      "url": "https://dev.to/biznode/your-first-business-opportunity-in-3-commands-registerdirectory-in-biznodebot-wait-for-af7",
+      "summary": "Your first business opportunity in 3 commands starts with a simple setup that puts the control directly into your hands by running an autonomous AI business operator on your own machine, no cloud subscriptions or monthly fees to pay anywhere else so you keep your data private and secure right where it belongs. Open Telegram and message @biznode_bot to type /register_directory which initiates the capture of real opportunities while waiting for matches in local database tables before proceeding to automate your lead management workflow. Once registered simply run the command /my_pulse within tha",
+      "source": "Dev.to AI",
+      "published": "2026-08-03T10:24:15+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "680de8d87dcb",
+      "title": "I Replaced a 15-Minute Booking Process with a LangGraph AI Agent",
+      "url": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
+      "summary": "A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse.\nThe post I Replaced a 15-Minute Booking Process with a LangGraph AI Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-02T13:00:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "1fdd04f603f1",
+      "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently introduced Meerkat, an internal globally consistent control-plane service based on the QuePaxa consensus algorithm. Unlike Raft, it allows leaderless writes while preserving strong consistency, improving availability across Cloudflare's global network. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-02T06:17:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "1d380470842c",
+      "title": "How to Apply Coding Agents to Non-Programming Tasks",
+      "url": "https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/",
+      "summary": "Perform non-programming tasks with coding agents\nThe post How to Apply Coding Agents to Non-Programming Tasks appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-02T15:00:00+00:00",
+      "score": 2.41,
+      "image": null
+    },
+    {
+      "id": "bd47d87aafb6",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-02T02:15:24+00:00",
+      "score": 2.11,
+      "image": null
+    }
+  ]
+}

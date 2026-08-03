@@ -2959,3 +2959,38 @@
 2026-08-02 09:04:28,002  INFO     ────────────────────────────────────────────────────────────
 2026-08-02 09:04:28,002  INFO     Done!  Open: output/index.html
 2026-08-02 09:04:28,002  INFO     Headline: Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination
+2026-08-03 10:32:17,540  INFO     ============================================================
+2026-08-03 10:32:17,540  INFO     TECHPULSE Digest — 2026-08-03 10:32 UTC
+2026-08-03 10:32:17,540  INFO     ============================================================
+2026-08-03 10:32:17,540  INFO     Step 1/3 — Crawling feeds…
+2026-08-03 10:32:17,969  INFO       Hacker News                    → 0 significant articles
+2026-08-03 10:32:18,179  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-03 10:32:18,382  INFO       Ars Technica                   → 0 significant articles
+2026-08-03 10:32:18,939  INFO       The Register AI                → 0 significant articles
+2026-08-03 10:32:19,049  INFO       MIT Tech Review                → 0 significant articles
+2026-08-03 10:32:19,185  INFO       Dev.to AI                      → 3 significant articles
+2026-08-03 10:32:19,280  INFO       Dev.to Programming             → 2 significant articles
+2026-08-03 10:32:19,405  INFO       GitHub Blog                    → 0 significant articles
+2026-08-03 10:32:20,068  INFO       Google Research                → 0 significant articles
+2026-08-03 10:32:20,826  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-08-03 10:32:20,882  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-03 10:32:21,333  INFO       InfoQ                          → 4 significant articles
+2026-08-03 10:32:21,493  INFO       Towards Data Science           → 2 significant articles
+2026-08-03 10:32:21,622  INFO       Wired AI                       → 0 significant articles
+2026-08-03 10:32:21,766  INFO       TechCrunch AI                  → 0 significant articles
+2026-08-03 10:32:21,766  INFO     Fetching images for top articles…
+2026-08-03 10:32:21,827  INFO       🖼  DeepSeek-V4-Flash Open-Sourced: 304B Model Beats V4-Pro at $
+2026-08-03 10:32:21,924  INFO       🖼  Why I Chose upGrad Over Coding Ninjas and DeepLearning.AI
+2026-08-03 10:32:22,523  INFO       🖼  Microsoft Releases TypeScript 7.0 with a Native Go Compiler,
+2026-08-03 10:32:23,105  INFO       🖼  HashiCorp Ships Public Beta of Vault Kubernetes Key Manageme
+2026-08-03 10:32:23,164  INFO       🖼  How to Check If an AI Website Is Down (Complete Troubleshoot
+2026-08-03 10:32:23,267  INFO       🖼  Qwen Code 0.21.4 Forked Subagent Isolation Checklist
+2026-08-03 10:32:23,268  INFO     Total selected: 12 articles from 15 feeds
+2026-08-03 10:32:23,268  INFO     Selected 12 significant articles
+2026-08-03 10:32:23,268  INFO     Step 2/3 — Generating digest…
+2026-08-03 10:32:23,553  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-03 10:32:23,553  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-03 10:32:23,553  INFO     Step 3/3 — Rendering HTML…
+2026-08-03 10:32:23,554  INFO     ────────────────────────────────────────────────────────────
+2026-08-03 10:32:23,554  INFO     Done!  Open: output/index.html
+2026-08-03 10:32:23,554  INFO     Headline: DeepSeek-V4-Flash Open-Sourced: 304B Model Beats V4-Pro at $0.14
