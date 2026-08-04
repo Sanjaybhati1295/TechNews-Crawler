@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "Claude Code v2.1.221 Released — Plus AI Agents, Tabular AI, & Rust",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Code v2.1.221 Released — Plus AI Agents, Tabular AI, & Rust (Dev.to Programming). eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem (InfoQ). Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven (InfoQ). Influencers draw backlash for attending OpenAI’s first luxury trip (TechCrunch AI). Microsoft Agent Framework Harness and Hosted Agents Reach General Availability (InfoQ)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents (Hacker News)."
+      }
+    ],
+    "key_takeaway": "Today features the release of Anthropic's Claude Code v2.1.221, alongside significant AI advancements from Google including modular prompt transpilation for agents and the TabFM tabular data model. Additionally, Cloudflare launched @cloudflare/computer for agent runtimes, LangChain updated its Anthropic integration, and crates.io received a major development refresh.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's developer tool, Claude Code, receives a crucial v2.1.221 update with a new 'Focus view' for enhanced tool interaction. Meanwhile, Google shares insights on building scalable AI agen"
+  },
+  "articles": [
+    {
+      "id": "aed6af9c0ac3",
+      "title": "Claude Code v2.1.221 Released — Plus AI Agents, Tabular AI, & Rust",
+      "url": "https://dev.to/soytuber/claude-code-v21221-released-plus-ai-agents-tabular-ai-rust-4jpa",
+      "summary": "Today features the release of Anthropic's Claude Code v2.1.221, alongside significant AI advancements from Google including modular prompt transpilation for agents and the TabFM tabular data model. Additionally, Cloudflare launched @cloudflare/computer for agent runtimes, LangChain updated its Anthropic integration, and crates.io received a major development refresh.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic's developer tool, Claude Code, receives a crucial v2.1.221 update with a new 'Focus view' for enhanced tool interaction. Meanwhile, Google shares insights on building scalable AI agen",
+      "source": "Dev.to Programming",
+      "published": "2026-08-04T09:04:28+00:00",
+      "score": 5.27,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-08-04-cloud-stack.png"
+    },
+    {
+      "id": "b76a065bfd26",
+      "title": "eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem",
+      "url": "https://www.infoq.com/news/2026/08/eslint-rspack-plugin-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Version 5.0.0 of eslint-rspack-plugin has been released as a pure ESM package, aligning with the Rspack ecosystem and removing its CommonJS build. The plugin continues to integrate ESLint in the build process but may affect build times. Users are advised to consider separate linting commands for efficiency. The project is open source and available via npm. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-04T07:39:00+00:00",
+      "score": 4.19,
+      "image": "https://res.infoq.com/news/2026/08/eslint-rspack-plugin-5/en/headerimage/generatedHeaderImage-1785692458963.jpg"
+    },
+    {
+      "id": "a73aeef5b05b",
+      "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for July 27th, 2026, features news highlighting: OpenJDK JEPs targeted and proposed to target for JDK 28; the GA release of GPULlama3.java 1.0; point releases of Micronaut, Quarkus and JobRunr; a maintenance release of JDKUpdater; the sixth release candidate of Maven 4.0; and the first milestone release of Jakarta Agentic AI 1.0. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-03T14:30:00+00:00",
+      "score": 3.74,
+      "image": "https://res.infoq.com/news/2026/08/java-news-roundup-jul27-2026/en/headerimage/java-news-roundup-image-1785767259108.jpg"
+    },
+    {
+      "id": "0295a9d611d8",
+      "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+      "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip/",
+      "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-03T19:09:56+00:00",
+      "score": 3.3,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1502799666.jpg?resize=1200,633"
+    },
+    {
+      "id": "6e6eac89dff4",
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "url": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foundry Hosted Agents have since reached GA. The shift is from an SDK for building agents to a governed platform for running them. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-03T10:30:00+00:00",
+      "score": 3.02,
+      "image": "https://res.infoq.com/news/2026/08/agent-framework-harness-ga/en/headerimage/generatedHeaderImage-1785148565256.jpg"
+    },
+    {
+      "id": "0b4220142a30",
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "url": "https://hoplite.sh",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-03T16:32:06+00:00",
+      "score": 2.75,
+      "image": "https://hoplite.sh/opengraph.png"
+    },
+    {
+      "id": "1d30f6b4cb1d",
+      "title": "Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On",
+      "url": "https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills the model’s window), loop (when the next call fires and when it stops). Knowing which layer you are standing on is half of building and debugging RAG\nThe post Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-03T16:30:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "814aa42b5bee",
+      "title": "Microsoft Releases TypeScript 7.0 with a Native Go Compiler, Delivering 10x Faster Builds",
+      "url": "https://www.infoq.com/news/2026/08/typescript-7-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released TypeScript 7.0, featuring a native compiler that improves build speeds by 8x to 12x. Notable performance enhancements were evidenced in real codebases. The version lacks a stable programmatic API, anticipated in 7.1. Transitioning includes a compatibility package for existing tooling, and TypeScript remains an open-source project. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-03T05:22:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "b3b3ec6aa693",
+      "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
+      "url": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has released a public beta of Vault Kubernetes key management, a KMS v2-compatible plugin that lets the Kubernetes API server delegate envelope encryption to Vault Enterprise, moving the key encryption keys that protect etcd data out of the cluster and into a separately governed trust domain. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-08-03T10:00:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "0426cc86074a",
+      "title": "Deep Dive on RL and OPD for Training LLMs [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1veat29/deep_dive_on_rl_and_opd_for_training_llms_d/",
+      "summary": "Hi everyone, if you have been reading the tech reports of Kimi, DS, Qwen and GLM, you will realize how much on policy distillation and GRPO style algorithms power the frontier. I thought it will be quite beneficial to do a deep dive explaining the maths and code behind this algorithms and how they connect to pretraining and supervised fine tuning. I have published a deep dive on this topics here Hope you enjoy it and it helps you understand training of LLMs better. Happy to answer questions on this https://youtu.be/MaZWafi4gYY?is=8jLkAp\\_Fe86abUVP  &#32; submitted by &#32;  /u/johnolafenwa   [",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-03T11:30:28+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "9aa219a1841f",
+      "title": "How to Build CLI Agents with Python & Ollama",
+      "url": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
+      "summary": "Create a local CLI Agent from scratch completely for free\nThe post How to Build CLI Agents with Python &#038; Ollama appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-03T15:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "d871becde1c5",
+      "title": "Article: Enabling Evolutionary Architecture Through the Preservation of Change Locality",
+      "url": "https://www.infoq.com/articles/evolutionary-architecture-change-locality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Why do simple features suddenly require cross-team negotiations? In this article, explore how boundary drift quietly destroys change locality and increases cognitive load across teams. Learn practical sociotechnical strategies - redistributing mechanics, exposing essential policy, and rehearsing exception paths - to restore domain boundaries and enable a truly evolutionary software architecture. By Michael Fischer, Nicholas Lawrence, Monica Karekar",
+      "source": "InfoQ",
+      "published": "2026-08-03T11:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "2970bbf77361",
+      "title": "The AI Was the Easy Part: What Is a Forward-Deployed Engineer in a Supply Chain?",
+      "url": "https://towardsdatascience.com/the-ai-was-the-easy-part-what-is-a-forward-deployed-engineer-in-a-supply-chain/",
+      "summary": "What actually makes a Forward Deployed Engineer, told through one supply chain project.\nThe post The AI Was the Easy Part: What Is a Forward-Deployed Engineer in a Supply Chain? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-03T13:30:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "4285ddd59f45",
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "url": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model providers and combines planning with predefined state machines, offering flexibility for agent workflows. By Erik Costlow",
+      "source": "InfoQ",
+      "published": "2026-08-03T04:43:00+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "d182be93c709",
+      "title": "How Claude Help Me Build My $200k+ ML Resume",
+      "url": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
+      "summary": "How use Claude to craft an outstanding resume that lands offers\nThe post How Claude Help Me Build My $200k+ ML Resume appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-03T12:00:00+00:00",
+      "score": 2.3,
+      "image": null
+    }
+  ]
+}
