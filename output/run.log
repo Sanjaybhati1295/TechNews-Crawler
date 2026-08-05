@@ -3029,3 +3029,38 @@
 2026-08-04 09:33:46,512  INFO     ────────────────────────────────────────────────────────────
 2026-08-04 09:33:46,512  INFO     Done!  Open: output/index.html
 2026-08-04 09:33:46,512  INFO     Headline: Claude Code v2.1.221 Released — Plus AI Agents, Tabular AI, & Rust
+2026-08-05 09:29:57,449  INFO     ============================================================
+2026-08-05 09:29:57,450  INFO     TECHPULSE Digest — 2026-08-05 09:29 UTC
+2026-08-05 09:29:57,450  INFO     ============================================================
+2026-08-05 09:29:57,450  INFO     Step 1/3 — Crawling feeds…
+2026-08-05 09:29:57,750  INFO       Hacker News                    → 0 significant articles
+2026-08-05 09:29:58,083  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-05 09:29:58,189  INFO       Ars Technica                   → 0 significant articles
+2026-08-05 09:29:58,579  INFO       The Register AI                → 0 significant articles
+2026-08-05 09:29:58,768  INFO       MIT Tech Review                → 0 significant articles
+2026-08-05 09:29:58,964  INFO       Dev.to AI                      → 4 significant articles
+2026-08-05 09:29:59,206  INFO       Dev.to Programming             → 3 significant articles
+2026-08-05 09:29:59,453  INFO       GitHub Blog                    → 2 significant articles
+2026-08-05 09:30:00,228  INFO       Google Research                → 0 significant articles
+2026-08-05 09:30:00,838  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-08-05 09:30:00,899  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-05 09:30:01,310  INFO       InfoQ                          → 2 significant articles
+2026-08-05 09:30:01,488  INFO       Towards Data Science           → 1 significant articles
+2026-08-05 09:30:01,709  INFO       Wired AI                       → 0 significant articles
+2026-08-05 09:30:01,764  INFO       TechCrunch AI                  → 3 significant articles
+2026-08-05 09:30:01,764  INFO     Fetching images for top articles…
+2026-08-05 09:30:01,830  INFO       🖼  Claude Code v2.1.222 Released — Plus Google AI, Streamlit, R
+2026-08-05 09:30:01,875  INFO       🖼  Eve agents browse the web, Gemini Flash Lite cuts image cost
+2026-08-05 09:30:02,101  INFO       🖼  Why the Same AI Feels Like a Different Person in a Different
+2026-08-05 09:30:02,683  INFO       🖼  SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence
+2026-08-05 09:30:02,719  INFO       🖼  Building IQX join the Builder List, reserve release credits 
+2026-08-05 09:30:02,841  INFO       🖼  Fixing High Amazon SES Bounce Rates: How to Stop Disposable 
+2026-08-05 09:30:02,841  INFO     Total selected: 16 articles from 15 feeds
+2026-08-05 09:30:02,841  INFO     Selected 16 significant articles
+2026-08-05 09:30:02,841  INFO     Step 2/3 — Generating digest…
+2026-08-05 09:30:03,133  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-05 09:30:03,133  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-05 09:30:03,133  INFO     Step 3/3 — Rendering HTML…
+2026-08-05 09:30:03,134  INFO     ────────────────────────────────────────────────────────────
+2026-08-05 09:30:03,135  INFO     Done!  Open: output/index.html
+2026-08-05 09:30:03,135  INFO     Headline: Claude Code v2.1.222 Released — Plus Google AI, Streamlit, Rust & Cloudflare

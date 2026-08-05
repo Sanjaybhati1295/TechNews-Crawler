@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "Claude Code v2.1.222 Released — Plus Google AI, Streamlit, Rust & Cloudflare",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Code v2.1.222 Released — Plus Google AI, Streamlit, Rust & Cloudflare (Dev.to Programming). Eve agents browse the web, Gemini Flash Lite cuts image costs in half, and Kotlin 2.4.0 lands stable context parameters (Dev.to AI). Why the Same AI Feels Like a Different Person in a Different App — The Answer Lies Beyond the Model (Dev.to AI). SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence (InfoQ). Building IQX join the Builder List, reserve release credits before we open (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How the GitHub legal team used Copilot CLI to streamline their workflows (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Today's engineering digest highlights new releases for Claude Code v2.1.222 and Streamlit 1.61.0. We also dive into Google's new unified AI model routing API, Gemini Nano optimizations, Rust's next borrow checker, and Cloudflare Workers gaining inbound TCP and gRPC support.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic delivers crucial security and stability fixes for Claude Code v2.1.222, enhancing agent development environments. Meanwhile, Google introduces a unified API for AI model routing in Public Preview and details technical accelerations for Gemini Nano on Pixel devices.\n\n\n  \n  \n  Cl"
+  },
+  "articles": [
+    {
+      "id": "838b0acabdb7",
+      "title": "Claude Code v2.1.222 Released — Plus Google AI, Streamlit, Rust & Cloudflare",
+      "url": "https://dev.to/soytuber/claude-code-v21222-released-plus-google-ai-streamlit-rust-cloudflare-4j7c",
+      "summary": "Today's engineering digest highlights new releases for Claude Code v2.1.222 and Streamlit 1.61.0. We also dive into Google's new unified AI model routing API, Gemini Nano optimizations, Rust's next borrow checker, and Cloudflare Workers gaining inbound TCP and gRPC support.\n\n\n  \n  \n  Cloud AI, APIs &amp; MCP\n\n\nAnthropic delivers crucial security and stability fixes for Claude Code v2.1.222, enhancing agent development environments. Meanwhile, Google introduces a unified API for AI model routing in Public Preview and details technical accelerations for Gemini Nano on Pixel devices.\n\n\n  \n  \n  Cl",
+      "source": "Dev.to Programming",
+      "published": "2026-08-05T09:04:03+00:00",
+      "score": 5.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmedia.patentllm.org%2Fstatic%2Fcovers%2F2026-08-05-cloud-stack.png"
+    },
+    {
+      "id": "a4dfdcfcd121",
+      "title": "Eve agents browse the web, Gemini Flash Lite cuts image costs in half, and Kotlin 2.4.0 lands stable context parameters",
+      "url": "https://dev.to/devsignal/eve-agents-browse-the-web-gemini-flash-lite-cuts-image-costs-in-half-and-kotlin-240-lands-79g",
+      "summary": "This week's releases cluster around two themes: making agents less brittle in the real world, and squeezing more performance out of constrained hardware. Cloudflare and Vercel both shipped tooling that closes gaps between what agents can do and what they're actually allowed to observe or control. Meanwhile, Google's Flash Lite Image and Ollama's flash attention update make the case that capability improvements are increasingly coming from cost and hardware accessibility, not raw model size.\n\n\n\n\n\n  \n  \n  Eve agents now navigate the web like humans\n\n\nThe @agent-browser/eve extension gives eve ag",
+      "source": "Dev.to AI",
+      "published": "2026-08-05T09:17:18+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx9v0guwoist2lpu47grw.png"
+    },
+    {
+      "id": "28be61a26a39",
+      "title": "Why the Same AI Feels Like a Different Person in a Different App — The Answer Lies Beyond the Model",
+      "url": "https://dev.to/rescenix/why-the-same-ai-feels-like-a-different-person-in-a-different-app-the-answer-lies-beyond-the-model-h51",
+      "summary": "On July 31, DeepSeek updated V4-Flash.\n\nWhile many focused on the new model's benchmark scores, I was caught by an inconspicuous footnote in the evaluation notes: the results for code tasks were not achieved by the model alone. It was accompanied by a system not yet publicly released, called Harness minimal mode.\n\nThe next day, DeepSeek Harness began recruiting developers for a closed beta. Applicants were required not only to leave their GitHub ID, but also to submit the Agent projects they had built.\n\nThis was unusual.\n\nThe model had already been updated — why build an additional Harness? Wh",
+      "source": "Dev.to AI",
+      "published": "2026-08-05T09:23:00+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffa8m7r219bqqf5thwigc.png"
+    },
+    {
+      "id": "202a46973938",
+      "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence",
+      "url": "https://www.infoq.com/news/2026/08/skia-sharp-4-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft and Uno Platform have released the first stable versions in the SkiaSharp 4 series, beginning with SkiaSharp 4.148.0 and followed shortly afterward by 4.150.0. A 4.151.0 prerelease line is also available, demonstrating the project’s new approach of aligning package versions and release cadence with upstream Skia milestones. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-05T08:00:00+00:00",
+      "score": 4.22,
+      "image": "https://res.infoq.com/news/2026/08/skia-sharp-4-release/en/headerimage/header-1670341892423-1785762488191.jpg"
+    },
+    {
+      "id": "1b76ddb206e0",
+      "title": "Building IQX join the Builder List, reserve release credits before we open",
+      "url": "https://dev.to/iqx/building-iqx-join-the-builder-list-reserve-release-credits-before-we-open-3ad5",
+      "summary": "I'm part of the IQX team. Wanted to share what we're building, while it's still in progress.\n\nAI can write you a first draft fast that part's basically solved now with the tools out there. What's still hard is everything after shaping that draft into something real, wiring the pieces together, and not losing momentum halfway through. That's the part IQX is for.\n\nIt's not open yet. Before it is, we're building a Builder List  join now and you get IQX release credits reserved for the moment we open. You'll be among the first to actually use it and tell us what you think.\nIf you want in: \nI'll be",
+      "source": "Dev.to Programming",
+      "published": "2026-08-05T09:20:44+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fowvk9iaipa0arv17az2o.png"
+    },
+    {
+      "id": "c4b47bfad3d5",
+      "title": "Fixing High Amazon SES Bounce Rates: How to Stop Disposable Email Account Suspensions",
+      "url": "https://dev.to/vtpshopy_9981/fixing-high-amazon-ses-bounce-rates-how-to-stop-disposable-email-account-suspensions-l4g",
+      "summary": "Amazon Simple Email Service (SES) is one of the most powerful, cost-effective, and scalable cloud email sending platforms in existence. From early-stage SaaS startups to global enterprises, engineering teams rely on AWS SES to deliver millions of transactional messages, password resets, billing receipts, and marketing campaigns daily.\n\nHowever, the cost-efficiency and power of Amazon SES come with a strict compliance catch: AWS maintains a zero-tolerance policy for poor list hygiene.\n\nIf your application suffers from a sudden influx of automated bot signups, free-trial abusers, or temporary em",
+      "source": "Dev.to AI",
+      "published": "2026-08-05T09:11:47+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqrviekh763xzk8hofvzu.png"
+    },
+    {
+      "id": "acf8eb5bad01",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+      "summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-04T13:00:00+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "b911dcf67655",
+      "title": "Continuous improvement: What we shipped to JengaStack this week 🛠️🇰🇪",
+      "url": "https://dev.to/ken_mwaura1/continuous-improvement-what-we-shipped-to-jengastack-this-week-4h5m",
+      "summary": "Building managed multi-tenant infrastructure for Odoo in Kenya comes with a unique set of engineering challenges. Beyond handling high uptime and container orchestration, local SaaS platforms must integrate reliably with regulatory APIs like the Kenya Revenue Authority (KRA) eTIMS and local payment gateways like M-Pesa.\n\nHere is an engineering deep-dive into what we updated, refactored, and fixed under the hood across JengaStack this week.\n\n\n  \n  \n  1. Resolving Odoo ORM Tax Group Errors in POS &amp; Zero-Downtime Migration\n\n\n\n  \n  \n  The Issue\n\n\nDuring Point of Sale (POS) checkouts, an edge-c",
+      "source": "Dev.to Programming",
+      "published": "2026-08-05T09:18:25+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "6621751d39c9",
+      "title": "The \"95% of AI Pilots Fail\" Stat Is About Architecture, Not Models",
+      "url": "https://dev.to/vishal_kumar_cda28e061f86/the-95-of-ai-pilots-fail-stat-is-about-architecture-not-models-344l",
+      "summary": "The most-quoted number in enterprise AI, and what it actually measures\n\n\nYou've seen it: \"95% of AI pilots fail.\" It comes from MIT Project NANDA's July 2025 report, The GenAI Divide: State of AI in Business 2025, which found only 5% of organizations were translating AI pilots into real operational or financial impact.\n\nMost people read that as \"the models aren't good enough yet.\" That's not what the report says. In their words, the divide \"does not seem to be driven by model quality or regulation, but seems to be determined by approach.\" And on the tools themselves: they \"fail not because of ",
+      "source": "Dev.to AI",
+      "published": "2026-08-05T09:11:39+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "ee6239399ce0",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-04T19:48:40+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "c7c06a36fb47",
+      "title": "NeurIPS 2026 Concept & Feasibility Track [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfv9fj/neurips_2026_concept_feasibility_track_d/",
+      "summary": "I could not find any discussion threads for the C&amp;F track. Have people actually submitted to this track? If so, what are your reviews and scores looking like, along with post rebuttal engagement? In our case, they received reviews not in line with the policy defined for the track, where most reviewers praised originality but complained about the scope of experiments. Despite the track saying that it would be possible that the idea cannot be validated in a single paper.  We provided experiments but no dice, none of the reviewers responded. Have any ACs seen papers and reviews in this track ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-05T02:58:39+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "1dd7108ee5ba",
+      "title": "Turn one giant AI-generated pull request to a reviewable stack",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+      "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests.\nThe post Turn one giant AI-generated pull request to a reviewable stack appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-04T16:47:18+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "849e4175eab0",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+      "summary": "Learn how to build tools to simplify how you work—without writing a single line of code.\nThe post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-04T19:02:34+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "2fd75f11dd8e",
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring artists opt in, receive credit, and are compensated.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-04T15:50:06+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "b76a065bfd26",
+      "title": "eslint-rspack-plugin 5.0.0 Ships as a Pure ESM Package, Aligning with the Rstack Ecosystem",
+      "url": "https://www.infoq.com/news/2026/08/eslint-rspack-plugin-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Version 5.0.0 of eslint-rspack-plugin has been released as a pure ESM package, aligning with the Rspack ecosystem and removing its CommonJS build. The plugin continues to integrate ESLint in the build process but may affect build times. Users are advised to consider separate linting commands for efficiency. The project is open source and available via npm. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-04T07:39:00+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "a89220f3c437",
+      "title": "Using Agents as Tools",
+      "url": "https://towardsdatascience.com/using-agents-as-tools/",
+      "summary": "Building manager–specialist workflows with the OpenAI Agents SDK\nThe post Using Agents as Tools appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-04T12:00:00+00:00",
+      "score": 2.71,
+      "image": null
+    }
+  ]
+}
