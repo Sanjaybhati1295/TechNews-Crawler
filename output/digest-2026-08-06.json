@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "VS Code 1.132 Is Here — And It's Packed with Features You'll Actually Use 🚀",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "VS Code 1.132 Is Here — And It's Packed with Features You'll Actually Use 🚀 (Dev.to AI). Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code (InfoQ). Meta launches Muse Code, an AI agent for large code bases (TechCrunch AI). Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes (InfoQ). How to Use Rytr for Seo Audit Summaries in 2026 (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod (Hacker News). Monodratic: learned product-hash routing for sparse causal attention [R] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Have you ever wished you could ask a quick question without breaking your AI agent's flow? Or leave feedback on a web page element the same way you'd leave a comment in a PR? VS Code 1.132, released on August 5, 2026, brings exactly those moments — and a handful more that quietly make your daily coding life smoother.\n\nLet's walk through everything new, and why it matters.\n\n\n\n\n\n  \n  \n  What Is VS Code 1.132?\n\n\nVisual Studio Code 1.132 is the latest monthly release from the VS Code team. Every release ships with new features, fixes, and quality improvements — but this one leans heavily into the "
+  },
+  "articles": [
+    {
+      "id": "d4ab40b7b5c3",
+      "title": "VS Code 1.132 Is Here — And It's Packed with Features You'll Actually Use 🚀",
+      "url": "https://dev.to/hamidrazadev/vs-code-1132-is-here-and-its-packed-with-features-youll-actually-use-2687",
+      "summary": "Have you ever wished you could ask a quick question without breaking your AI agent's flow? Or leave feedback on a web page element the same way you'd leave a comment in a PR? VS Code 1.132, released on August 5, 2026, brings exactly those moments — and a handful more that quietly make your daily coding life smoother.\n\nLet's walk through everything new, and why it matters.\n\n\n\n\n\n  \n  \n  What Is VS Code 1.132?\n\n\nVisual Studio Code 1.132 is the latest monthly release from the VS Code team. Every release ships with new features, fixes, and quality improvements — but this one leans heavily into the ",
+      "source": "Dev.to AI",
+      "published": "2026-08-06T09:26:56+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgvoa8tintrv0l8mpxcn2.png"
+    },
+    {
+      "id": "3f0621af29e9",
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+      "url": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching version 0.3.4, it compiles to native binaries for major operating systems. The language prioritizes size, speed, and agent usability, though it is still in development. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-06T05:51:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/08/vercel-ships-zero-ai/en/card_header_image/generatedCard-1785862436895.jpg"
+    },
+    {
+      "id": "13a41dea41f7",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-05T21:21:28+00:00",
+      "score": 3.72,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-2235448056.jpg?resize=1200,800"
+    },
+    {
+      "id": "cf994e7ec47d",
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+      "url": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod per agent wasteful. Agent-substrate adds a control plane to schedule logical “Actors” onto long-lived worker Pods. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-08-06T06:00:00+00:00",
+      "score": 3.7,
+      "image": "https://res.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/en/headerimage/header-1785763169197.jpeg"
+    },
+    {
+      "id": "277dc95196bf",
+      "title": "How to Use Rytr for Seo Audit Summaries in 2026",
+      "url": "https://dev.to/leosociallseointent/how-to-use-rytr-for-seo-audit-summaries-in-2026-2fng",
+      "summary": "Originally published at https://seointent.com/blog/rytr-for-seo-audit-summaries\n\n\n  \n  \n  TL;DR\n\n\n\n- Rytr for seo audit summaries lets you turn raw crawl data into clear, client-ready reports in minutes — not hours.\n\n- The biggest win is prompt structure: a well-formed SEO audit summaries prompt gets you 80% of a finished report on the first pass.\n\n- Rytr's free tier works for occasional use, but agencies handling volume should pair it with a dedicated AI SEO platform for scale.\n\n- Three mistakes kill most Rytr audit workflows: vague inputs, no tone instruction, and skipping a human fact-check",
+      "source": "Dev.to AI",
+      "published": "2026-08-06T09:24:35+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F40pcgvzb5ylgmy1lalwz.png"
+    },
+    {
+      "id": "e90f013b95bc",
+      "title": "What are the biggest challenges in collecting high-quality speech and egocentric video datasets? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgwecq/what_are_the_biggest_challenges_in_collecting/",
+      "summary": "We're currently involved in collecting two types of datasets that seem to be increasingly important for multimodal AI  Studio quality speech/audio datasets (high fidelity recordings) Egocentric household activity video datasets (first person daily task recordings)  One thing that has surprised us is how much the value of a dataset depends on the collection process rather than the model itself. Some of the recurring challenges we've encountered include: - Maintaining consistent recording environments - Device and microphone variability - Annotation quality and inter annotator consistency - Priv",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-06T06:35:24+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "e9f9bc817190",
+      "title": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+      "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+      "summary": "The serial entrepreneur joins the e-commerce company as CPO to lead its AI agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-05T20:05:00+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "d0d37e3ae246",
+      "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-05T19:30:19+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "202a46973938",
+      "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence",
+      "url": "https://www.infoq.com/news/2026/08/skia-sharp-4-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft and Uno Platform have released the first stable versions in the SkiaSharp 4 series, beginning with SkiaSharp 4.148.0 and followed shortly afterward by 4.150.0. A 4.151.0 prerelease line is also available, demonstrating the project’s new approach of aligning package versions and release cadence with upstream Skia milestones. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-05T08:00:00+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "ed2fc769fbaf",
+      "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+      "url": "https://www.hyperprobe.co",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-05T16:47:15+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "f29d9d58dbc2",
+      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+      "url": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids   At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-05T12:10:00+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "c5a5885a30a9",
+      "title": "Is This Slop? Detecting AI-Generated Content Without a Model",
+      "url": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
+      "summary": "Research-backed cues to detect LLM-generated text along with the mathematical intuition as to 'why'\nThe post Is This Slop? Detecting AI-Generated Content Without a Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-05T13:30:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "5b1794197a78",
+      "title": "Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG",
+      "url": "https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5octies] - Rules propose, LLM validates: six deterministic signals on span-level typography surface heading candidates, one bounded loop keeps the real ones, and the same toc_df drops back into the RAG pipeline\nThe post Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-05T12:00:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "a7637aedb65d",
+      "title": "Monodratic: learned product-hash routing for sparse causal attention [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vg3jda/monodratic_learned_producthash_routing_for_sparse/",
+      "summary": "Hi everyone, I'm an independent researcher sharing Monodratic, a sparse causal-attention architecture with learned product-hash routing. The idea is that after RoPE, source blocks are assigned to bounded causal posting lists, while each query probes product addresses, reranks the returned candidates, selects a fixed number of remote source blocks, adds guaranteed local blocks, and then runs exact causal softmax over just those tokens. I implemented it as a stateless [batch, sequence, width] -&gt; attention-delta mixer, so normalization, residual updates, feed-forward layers, and inference sche",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-05T10:28:44+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "c7c06a36fb47",
+      "title": "NeurIPS 2026 Concept & Feasibility Track [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vfv9fj/neurips_2026_concept_feasibility_track_d/",
+      "summary": "I could not find any discussion threads for the C&amp;F track. Have people actually submitted to this track? If so, what are your reviews and scores looking like, along with post rebuttal engagement? In our case, they received reviews not in line with the policy defined for the track, where most reviewers praised originality but complained about the scope of experiments. Despite the track saying that it would be possible that the idea cannot be validated in a single paper.  We provided experiments but no dice, none of the reviewers responded. Have any ACs seen papers and reviews in this track ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-05T02:58:39+00:00",
+      "score": 1.9,
+      "image": null
+    }
+  ]
+}
