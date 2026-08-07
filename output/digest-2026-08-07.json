@@ -1,0 +1,279 @@
+{
+  "digest": {
+    "headline": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
+    "tldr": "Today's digest covers 26 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools (InfoQ). Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support (InfoQ). npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live (InfoQ). Detailed Guide on MIPI CSI Camera Adaptation and Debugging Methods for Rockchip Platforms (Dev.to Programming). I Tested Kimi-K3 — Here's What You Need to Know (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A guide to slash commands in the GitHub Copilot app (GitHub Blog). Google Maps adds agentic features, including food ordering and hotel bookings (TechCrunch AI). Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks (Hacker News). I Built a Tool-Calling Agent in Python. Here’s How I Debugged It (Towards Data Science). Loop Engineering for Cross-References: When RAG Answers ‘see Section 7.2’ Instead of the Actual Answer (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "1bcb7b3e7bb5",
+      "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
+      "url": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-07T06:35:00+00:00",
+      "score": 4.62,
+      "image": "https://res.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/en/headerimage/generatedHeaderImage-1785739180016.jpg"
+    },
+    {
+      "id": "38ac363d380c",
+      "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
+      "url": "https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and automatic registration for the framework’s Model Context Protocol servers. The release also reduces XAML boilerplate, expands cross-platform WinUI API coverage, and improves accessibility and multilingual text handling. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-07T08:00:00+00:00",
+      "score": 4.29,
+      "image": "https://res.infoq.com/news/2026/08/uno-platform-6-6/en/headerimage/header-1670341892423-1785867079887.jpg"
+    },
+    {
+      "id": "ea10a54064aa",
+      "title": "npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live",
+      "url": "https://www.infoq.com/news/2026/08/npm-stage-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "npm has introduced staged publishing for Node.js, requiring maintainer approval before a version is installable. Versions are queued and must pass a two-factor authentication challenge for release. This feature aims to enhance security amid rising supply chain threats. It is available in npm CLI 11.15.0+ and Node 22.14.0+, alongside new configurable permission flags. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-07T06:12:00+00:00",
+      "score": 3.89,
+      "image": "https://res.infoq.com/news/2026/08/npm-stage-available/en/card_header_image/generatedCard-1786004086844.jpg"
+    },
+    {
+      "id": "65db27b0b4e6",
+      "title": "Detailed Guide on MIPI CSI Camera Adaptation and Debugging Methods for Rockchip Platforms",
+      "url": "https://dev.to/ronnie_r_152dc2151d9449c6/detailed-guide-on-mipi-csi-camera-adaptation-and-debugging-methods-for-rockchip-platforms-bc1",
+      "summary": "https://www.forlinx.net/article_view_833.html\nCamera bring-up is often one of the most challenging steps in embedded vision development involving sensor drivers, Device Tree configuration, ISP tuning, and image verification.\n\nTo help developers accelerate camera integration, Forlinx has released the MIPI CSI Camera Adaptation Baseline Guide, providing a practical reference workflow for embedded camera development.\n\nDesigned for developers building machine vision, smart surveillance, industrial inspection, and AI vision applications, this guide helps reduce debugging time and speed up deploymen",
+      "source": "Dev.to Programming",
+      "published": "2026-08-07T07:51:23+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fffwt9x52ei2pkpfs87zn.png"
+    },
+    {
+      "id": "e2296c11aa6e",
+      "title": "I Tested Kimi-K3 — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tested-kimi-k3-heres-what-you-need-to-know-4hj6",
+      "summary": "The News\n\n\nOpen Frontier Intelligence\n\n\n  \n  \n  What is Kimi-K3?\n\n\nKimi-K3 is a new open-source project with 8161 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nIndustry-leading — top-tier capabilities\n\nFaster inference — optimized for speed\n\nLower cost — free vs paid APIs\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple API\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  \n  \n  How to Get Started\n",
+      "source": "Dev.to AI",
+      "published": "2026-08-07T08:01:35+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdg5mx1figsd0zv9u0f8o.png"
+    },
+    {
+      "id": "3909e96aa9be",
+      "title": "I Tried Kimi-K3 — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-kimi-k3-heres-what-you-need-to-know-1f37",
+      "summary": "The Problem\n\n\nOpen Frontier Intelligence\n\n\n  \n  \n  What is Kimi-K3?\n\n\nKimi-K3 is a new open-source project with 8161 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  \n  \n  How to Get ",
+      "source": "Dev.to AI",
+      "published": "2026-08-07T08:00:54+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6mjass043xakx7wyzsic.png"
+    },
+    {
+      "id": "1dd58a6a1f2f",
+      "title": "I Tried anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-anydoc-heres-what-you-need-to-know-3imp",
+      "summary": "The Problem\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 9454 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ",
+      "source": "Dev.to AI",
+      "published": "2026-08-07T08:00:48+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b6e0fba6d7ab",
+      "title": "How to Launch a Profitable SaaS in One Weekend",
+      "url": "https://dev.to/qingluan/how-to-launch-a-profitable-saas-in-one-weekend-5b3k",
+      "summary": "How to Launch a Profitable SaaS in One Weekend\n\n\ntags: saas, money, startup, programming\n\n\n\n\ntags: python, saas, stripe, money\n\n\n\n\ntags: python, saas, stripe, money\n\n\n\n\n\n  \n  \n  How to Build a Profitable SaaS with Stripe and FastAPI\n\n\nImagine launching a SaaS product that generates revenue the moment a user clicks “Subscribe.” No manual invoicing, no chasing payments, and no complex billing logic to maintain. With FastAPI for your backend and Stripe for payments, you can build a production-ready billing system in a single afternoon. This isn’t theory—it’s a blueprint you can execute today to t",
+      "source": "Dev.to Programming",
+      "published": "2026-08-07T08:00:54+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "a4d19f269b5f",
+      "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly stolen information was properly protected.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-06T15:10:32+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "fc2a0caab938",
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-06T19:49:34+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "a7be612269db",
+      "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+      "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+      "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-06T12:30:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "cb9c8c68c6dc",
+      "title": "Naïve raises $28.5M to automate the grunt work of setting up and running a company",
+      "url": "https://techcrunch.com/2026/08/06/naive-raises-28-5m-to-automate-the-grunt-work-of-setting-up-and-running-a-company/",
+      "summary": "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-06T17:00:37+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "9a54045d7454",
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-06T20:23:11+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "1fba99a1ba40",
+      "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+      "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+      "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-06T13:00:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "7f6c5cc11a60",
+      "title": "I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.",
+      "url": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
+      "summary": "A step-by-step guide to building a data agent and conversational interface that let business users to explore data in natural language without SQL\nThe post I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-06T16:30:00+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "d0081ef4124a",
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-06T15:59:15+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "c62018892e44",
+      "title": "Omilia raises $67M to scale its customer support platform",
+      "url": "https://techcrunch.com/2026/08/06/omilia-raises-67m-to-scale-its-customer-support-platform/",
+      "summary": "The Series B is the company's second fundraise since it last raised capital in 2020. In that time, it has increased its ARR by 10x to $60 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-06T12:00:00+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "3f0621af29e9",
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+      "url": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching version 0.3.4, it compiles to native binaries for major operating systems. The language prioritizes size, speed, and agent usability, though it is still in development. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-06T05:51:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "4db308c4ae9e",
+      "title": "The current state of language models and human preference based rankings [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vh42ed/the_current_state_of_language_models_and_human/",
+      "summary": "&quot;Arena ai&quot; has been a great success in producing a human preference based ranking, additional to other more objective benchmarks. However, this (probably) had also played a role in the syncopancy crisis and the general tendency of some models to tilt towards overformatting to trigger a feeling of fluency (cogn load theory) in the users. The people at Max Planck Institute for Intelligent Systems (one of europes leading AI research hubs), recently published something quite similar with &quot;comparity ai&quot;. You can read their announcement in their linkedin post. This is of course a",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-06T13:19:57+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "a62553edfd35",
+      "title": "Last Month’s Machine Learning Lessons Learned",
+      "url": "https://towardsdatascience.com/last-months-lessons-learned/",
+      "summary": "The downside of conference travel\nThe post Last Month’s Machine Learning Lessons Learned appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-06T15:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "a36f50071557",
+      "title": "I Built a Tool-Calling Agent in Python. Here’s How I Debugged It",
+      "url": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
+      "summary": "A minimal loop with real API calls, validation, compact outputs, and trace evidence before adding an agent framework\nThe post I Built a Tool-Calling Agent in Python. Here’s How I Debugged It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-06T13:30:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "13a41dea41f7",
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-05T21:21:28+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "62f8c2cbcf23",
+      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
+      "url": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail latencies, and blast-radius risks. He demonstrates how direct-access Valkey architectures achieve microsecond latency, improve resilience, and slash infrastructure costs. By Dumanshu Goyal",
+      "source": "InfoQ",
+      "published": "2026-08-06T09:34:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "cf994e7ec47d",
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+      "url": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod per agent wasteful. Agent-substrate adds a control plane to schedule logical “Actors” onto long-lived worker Pods. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-08-06T06:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "f7049ef2b76d",
+      "title": "Loop Engineering for Cross-References: When RAG Answers ‘see Section 7.2’ Instead of the Actual Answer",
+      "url": "https://towardsdatascience.com/loop-engineering-for-cross-references-when-rag-answers-see-section-7-2-instead-of-the-actual-answer/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #11] - When the first answer points elsewhere in the document, the pipeline loops back to fetch the linked context\nThe post Loop Engineering for Cross-References: When RAG Answers ‘see Section 7.2’ Instead of the Actual Answer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-06T12:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "e90f013b95bc",
+      "title": "What are the biggest challenges in collecting high-quality speech and egocentric video datasets? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vgwecq/what_are_the_biggest_challenges_in_collecting/",
+      "summary": "We're currently involved in collecting two types of datasets that seem to be increasingly important for multimodal AI  Studio quality speech/audio datasets (high fidelity recordings) Egocentric household activity video datasets (first person daily task recordings)  One thing that has surprised us is how much the value of a dataset depends on the collection process rather than the model itself. Some of the recurring challenges we've encountered include: - Maintaining consistent recording environments - Device and microphone variability - Annotation quality and inter annotator consistency - Priv",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-06T06:35:24+00:00",
+      "score": 2.18,
+      "image": null
+    }
+  ]
+}
