@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents (InfoQ). Jame Gam (Dev.to Programming). Building Conversational AI with LLM and NLP (Dev.to AI). Changes to LLM pricing: Baidu, Novita and StreamLake (Dev.to AI). After Rippling blew millions on AI in months, it built an employee ROI tool (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Kitesurf: Agent-first browser that runs in V8 isolates (Hacker News). A guide to slash commands in the GitHub Copilot app (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast serverless execution, making agents cheaper, faster, and more scalable, according to the company. By Sergio De Simone"
+  },
+  "articles": [
+    {
+      "id": "afed2c8c3ba5",
+      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast serverless execution, making agents cheaper, faster, and more scalable, according to the company. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-08-07T21:00:00+00:00",
+      "score": 4.11,
+      "image": "https://res.infoq.com/news/2026/08/cloudflare-computer-agents/en/headerimage/cloudflare-computer-agents-1786134762378.jpeg"
+    },
+    {
+      "id": "deba913fc1ea",
+      "title": "Jame Gam",
+      "url": "https://dev.to/syedsakhiakram66/jame-gam-54da",
+      "summary": "Jame Gam\n\n\nSooo, I was viewing the Hack Club programs page and I came across a page called Jame Gam. I checked it out, but I always found making a game overwhelming. So I was pretty much convinced I wasn’t going to participate, but after viewing the page properly and reading the FAQ, I saw a section that said “How do I get started?” and it had a few resources. I made up my mind that it was time to get my first game released.\n\nI saw that we had 4 days (wait for the plot twist). I was doing my set of 100 push-ups (I’m not flexing, and also I only do push-ups on the weekend). I was trying to brai",
+      "source": "Dev.to Programming",
+      "published": "2026-08-08T07:40:02+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fokeka0oliarjc8tcnw70.jpg"
+    },
+    {
+      "id": "7dcfd5ef2022",
+      "title": "Building Conversational AI with LLM and NLP",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/building-conversational-ai-with-llm-and-nlp-2578",
+      "summary": "We are building a conversational support agent that handles order lookups, returns, and troubleshooting for an electronics store. It combines an LLM for dialogue with lightweight NLP for intent classification and entity extraction. I shipped a similar agent last quarter, and this is the minimal, runnable version I wish I had started with.\n\nWhat you'll need\n\n\nPython 3.10 or newer\nThe OpenAI SDK: pip install openai\n\nAn Oxlo.ai API key from https://portal.oxlo.ai\n\n\n\nOxlo.ai uses request-based pricing, so adding a long system prompt or multi-turn history does not inflate your cost per interaction.",
+      "source": "Dev.to AI",
+      "published": "2026-08-08T07:32:55+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftr29v3pv0182883hbrl0.png"
+    },
+    {
+      "id": "4485c853807a",
+      "title": "Changes to LLM pricing: Baidu, Novita and StreamLake",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-baidu-novita-and-streamlake-31b",
+      "summary": "Model price changes detected for Baidu, Novita and StreamLake. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-08-08T07:30:05+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2F348GkCM17J.png"
+    },
+    {
+      "id": "0d1fce010906",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-07T21:30:11+00:00",
+      "score": 3.63,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/Rippling-AI-Spend-Console.png?resize=1200,717"
+    },
+    {
+      "id": "6a3d740c5113",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-07T16:16:09+00:00",
+      "score": 3.54,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/kitesurf.webp?resize=1200,640"
+    },
+    {
+      "id": "20b39acb45af",
+      "title": "[US] What happens if an entire class of workers loses faith in th",
+      "url": "https://dev.to/amrree/us-what-happens-if-an-entire-class-of-workers-loses-faith-in-th-58fd",
+      "summary": "US AI Pulse: What happens if an entire class of workers loses faith in their careers\n\nSilicon Valley doesn't do cautious. What happens if an entire class of workers loses faith in their careers — 548 points on Hacker News — is today's reminder that the US AI ecosystem moves at a pace that makes regulation feel like a background process.\n\nWhat's interesting: US AI development is driven by a combination of research institutions, hyperscalers, and a startup culture that treats \"move fast and break things\" as a feature, not a bug. Stories like this are the output of that system.\n\nThe US angle: Dep",
+      "source": "Dev.to AI",
+      "published": "2026-08-08T07:29:14+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8ba6d6931efb",
+      "title": "The Evolution of Scientific Computing: Why Developers Still Need Dedicated Calculators",
+      "url": "https://dev.to/studyhubnetin/the-evolution-of-scientific-computing-why-developers-still-need-dedicated-calculators-3pao",
+      "summary": "As developers, we are surrounded by immense computational power. When we need to solve a math problem, our first instinct is often to fire up a Python REPL, open the Node.js terminal, or simply type Math.sin(90) into the browser's developer console. We build complex algorithms, design neural networks, and render 3D environments. Yet, despite having entire programming ecosystems at our fingertips, there is still a massive, undeniable need for a dedicated, accessible scientific calculator.\nWhy? Because context switching is the enemy of productivity, and raw programming languages don't always off",
+      "source": "Dev.to Programming",
+      "published": "2026-08-08T07:10:09+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "1bcb7b3e7bb5",
+      "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
+      "url": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-07T06:35:00+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "59682a41dacf",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spread in right-wing circles. The theory claimed that, under&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-07T14:20:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "a8511d9ef969",
+      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk’s Department of Government Efficiency had been cutting a wide swath through&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-07T14:00:00+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "adb900b25725",
+      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+      "url": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to generate grounded root cause hypotheses in Slack. It uses parallel subagents, MCP integrations, and incident history to reduce investigation time while keeping engineers in control. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-08-07T14:34:00+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "38ac363d380c",
+      "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
+      "url": "https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and automatic registration for the framework’s Model Context Protocol servers. The release also reduces XAML boilerplate, expands cross-platform WinUI API coverage, and improves accessibility and multilingual text handling. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-07T08:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "82b10fb0542c",
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-07T17:36:30+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "e4267c2c42a7",
+      "title": "​Built a tool to generate slides from research papers using local LLMs (because I hate formatting decks and privacy matters) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/",
+      "summary": "​​Hi guys, ​Every time I had to prepare a presentation based on a paper or research doc, I found the process super tedious. Plus, I really dislike uploading unpublished stuff or sensitive data to online AI services just to get a draft. ​So I put together a tool called academi\\_slide to automate this locally. ​Basically, it extracts sections, tables, charts, metrics, and citations from docs, and uses prompt optimization / deck planning to get a solid first draft out of a local model (ollama, llama.cpp, or cloud if you want). ​It also handles multilingual input/output if you need to present in a",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-07T13:14:39+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "4292c53b69e5",
+      "title": "Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One",
+      "url": "https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #12] - The category of question most RAG pipelines silently fail on, and the pipeline shape that handles them\nThe post Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-07T15:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "ea10a54064aa",
+      "title": "npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live",
+      "url": "https://www.infoq.com/news/2026/08/npm-stage-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "npm has introduced staged publishing for Node.js, requiring maintainer approval before a version is installable. Versions are queued and must pass a two-factor authentication challenge for release. This feature aims to enhance security amid rising supply chain threats. It is available in npm CLI 11.15.0+ and Node 22.14.0+, alongside new configurable permission flags. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-07T06:12:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "d4b6c0dcc259",
+      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "url": "https://blog.cloudflare.com/kitesurf/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-07T10:42:07+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "fc2a0caab938",
+      "title": "A guide to slash commands in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+      "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.\nThe post A guide to slash commands in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-06T19:49:34+00:00",
+      "score": 1.81,
+      "image": null
+    }
+  ]
+}
