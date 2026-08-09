@@ -1,0 +1,165 @@
+{
+  "digest": {
+    "headline": "The cost of arbitrary values in AI-generated CSS",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "The cost of arbitrary values in AI-generated CSS (Dev.to AI). Using LLM for Intent Recognition (Dev.to AI). [R] Generative design of novel bacteriophages with genome language models [R] (Reddit r/MachineLearning). Building an Observable Agent Graph from Scratch (Dev.to AI). Can Your Application Be Operated Safely by AI Agents? (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "I’ve been watching LLMs write frontend code for months now. At first, it was impressive—the speed at which they can spin up a hero section or a pricing table is undeniable. But as someone who has spent two decades managing technical debt, I started seeing the same pattern emerging in every codebase: an explosion of 'magic numbers' and structural decay.\n\nIf you use AI agents like Claude or Cursor to build your UI, you aren't just inheriting code; you are inheriting a massive amount of unmanaged CSS entropy. You see w-[347px], text-[#e74c3c], and endless nested div elements that look fine on a h"
+  },
+  "articles": [
+    {
+      "id": "11dadb064a41",
+      "title": "The cost of arbitrary values in AI-generated CSS",
+      "url": "https://dev.to/renato_marinho/the-cost-of-arbitrary-values-in-ai-generated-css-55f9",
+      "summary": "I’ve been watching LLMs write frontend code for months now. At first, it was impressive—the speed at which they can spin up a hero section or a pricing table is undeniable. But as someone who has spent two decades managing technical debt, I started seeing the same pattern emerging in every codebase: an explosion of 'magic numbers' and structural decay.\n\nIf you use AI agents like Claude or Cursor to build your UI, you aren't just inheriting code; you are inheriting a massive amount of unmanaged CSS entropy. You see w-[347px], text-[#e74c3c], and endless nested div elements that look fine on a h",
+      "source": "Dev.to AI",
+      "published": "2026-08-09T07:34:31+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdm4oc8hfc7zhd1im79ql.png"
+    },
+    {
+      "id": "259198b1a0c2",
+      "title": "Using LLM for Intent Recognition",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-intent-recognition-2mgk",
+      "summary": "Every support team receives messages that range from refund requests to password resets. We are going to build a lightweight intent recognition pipeline that reads incoming tickets, classifies them into predefined categories, and routes them to the right internal queue. It runs entirely on Oxlo.ai, and because the platform uses flat request-based pricing, the cost stays predictable even when tickets arrive as long threads.\n\nWhat you'll need\n\n\nPython 3.10 or newer\nThe OpenAI SDK: pip install openai\n\nAn Oxlo.ai API key from https://portal.oxlo.ai\n\n\n\nStep 1: Define the intent schema\n\nI start by l",
+      "source": "Dev.to AI",
+      "published": "2026-08-09T07:33:16+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa9l5qj56a1vsx5slwp6a.png"
+    },
+    {
+      "id": "378e642d45d7",
+      "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
+      "summary": "Genome language models have emerged as a promising strategy for designing biological systems, but their ability to generate functional sequences at the scale of whole genomes has remained untested. Here, we report the first generative design of viable bacteriophage genomes. We leveraged frontier genome language models, Evo 1 and Evo 2, to generate whole-genome sequences with realistic genetic architectures and desirable host tropism, using the lytic phage ΦX174 as our design template. Experimental testing of AI-generated genomes yielded 16 viable phages with substantial evolutionary novelty.  ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-09T07:11:17+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "e75ebe160206",
+      "title": "Building an Observable Agent Graph from Scratch",
+      "url": "https://dev.to/kai-wen-the-parrot/building-an-observable-agent-graph-from-scratch-4a8n",
+      "summary": "Observability is important for LLM agents. Understanding the decision process, node execution, latency, and success rate of individual calls becomes increasingly important in a production system.\n\nInstead of simply relying on existing tools such as Langfuse and LangGraph, I wanted to understand what happens underneath and build a customised solution for my own use case.\n\n\n  \n  \n  The Graph\n\n\nThe first version of the graph supports three fundamental execution mechanisms:\n\n\nNode execution and directed edges\nConditional routing\nFan-out and fan-in execution\n\n\nThis design follows the principle desc",
+      "source": "Dev.to AI",
+      "published": "2026-08-09T07:36:30+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhh0hlvull6y32ej6nt25.png"
+    },
+    {
+      "id": "9ebc5281a6d2",
+      "title": "Can Your Application Be Operated Safely by AI Agents?",
+      "url": "https://dev.to/nexius_labs_d748e1551ced8/can-your-application-be-operated-safely-by-ai-agents-1n1a",
+      "summary": "If your software cannot be used by your agents, it is not ready for the next operating model.\n\nMost companies still build software for one user: a human sitting in front of a screen.\n\nThat made sense for the last era of work. People logged in, clicked through menus, copied data between systems, chased approvals, checked dashboards, and updated records manually.\n\nThat is not where work is going.\n\nIf we are serious about digital coworkers, agentic workflows, and AI moving from chat to execution, we need to change how we design applications. Every application should answer a more demanding questi",
+      "source": "Dev.to Programming",
+      "published": "2026-08-09T07:28:59+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F47wdpfjdwgbu9pepy9on.png"
+    },
+    {
+      "id": "93d5a4c24f44",
+      "title": "Building the Future of Private Markets: Why Strategic Partnerships Will Define the Next Era of Financial Innovation",
+      "url": "https://dev.to/myneogroup/building-the-future-of-private-markets-why-strategic-partnerships-will-define-the-next-era-of-e2a",
+      "summary": "The financial industry is entering one of its most transformative periods in history.\n\nArtificial Intelligence, blockchain, digital infrastructure, tokenized assets, alternative investments, and private market platforms are reshaping how capital moves across the world. Technology is no longer just supporting finance—it is redefining it.\n\nRecognising this shift, Dr. Mickael Mosse, Founder and Group CEO of My NEO Group, together with Dr. Emily Mogano and Olivier Fousse, recently welcomed Brett Mock, Chairman of Nasdaq Private Market (NPM) International, to Dubai for strategic discussions focused",
+      "source": "Dev.to Programming",
+      "published": "2026-08-09T07:10:58+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3uja2yme0lrkxjh8mlpo.jpg"
+    },
+    {
+      "id": "c9329978009e",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-08T19:41:13+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "e232719f5abd",
+      "title": "How to Use Frase for Image Seo Optimization in 2026",
+      "url": "https://dev.to/leosociallseointent/how-to-use-frase-for-image-seo-optimization-in-2026-57d2",
+      "summary": "Originally published at https://seointent.com/blog/frase-for-image-seo-optimization\n\n\n  \n  \n  TL;DR\n\n\n\n- Frase for image SEO optimization means using Frase's AI-powered content workflows to generate alt text, image file names, captions, and structured data at scale — cutting hours of manual work per site.\n\n- The biggest unlock is pairing Frase's SERP-grounded prompts with your existing keyword research so every image attribute targets real search intent.\n\n- Frase beats generic AI tools here because its outputs are anchored to competitor analysis, not just pattern-matched language.\n\n- If you ne",
+      "source": "Dev.to AI",
+      "published": "2026-08-09T07:31:50+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "418ef8f5ab05",
+      "title": "Email Writing Tips for Professionals",
+      "url": "https://dev.to/aivadesk/email-writing-tips-for-professionals-2d29",
+      "summary": "Email Writing Tips for Professionals\n\n\nIn today's fast-paced business environment, email remains one of the most critical tools for communication. Whether you're networking, pitching a project, or following up on a meeting, the way you write your emails can significantly impact your professional reputation. Here are some essential tips to help you craft clear, concise, and effective professional emails.\n\n\n  \n  \n  1. Start with a Clear Subject Line\n\n\nYour subject line is the first thing the recipient sees. Make sure it clearly communicates the purpose of your email. Avoid vague phrases like \"Hi",
+      "source": "Dev.to AI",
+      "published": "2026-08-09T07:31:49+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "281e053065e5",
+      "title": "How to build AI products on top of deterministic domain rules",
+      "url": "https://dev.to/aitoolresearchlab/how-to-build-ai-products-on-top-of-deterministic-domain-rules-20af",
+      "summary": "Domain-specific AI products often fail in one of two ways. They either ask a language model to calculate facts it was never designed to calculate, or they hide a deterministic rules engine behind an answer that users cannot audit.\n\nA better architecture separates computation from interpretation.\n\n\n  \n  \n  The two-layer model\n\n\nThe first layer produces facts from explicit inputs. The second layer explains those facts in natural language.\n\nFor a calendar, financial calculator, medical scoring rule, or traditional charting system, the first layer should be deterministic whenever the domain permit",
+      "source": "Dev.to Programming",
+      "published": "2026-08-09T07:09:21+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "afed2c8c3ba5",
+      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast serverless execution, making agents cheaper, faster, and more scalable, according to the company. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-08-07T21:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "b0b4da0a6079",
+      "title": "Before Q, K, and V: Reconstructing the Transformer",
+      "url": "https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/",
+      "summary": "Many Transformer explainers start with the finished architecture. We ask why it looks the way it does.\nThe post Before Q, K, and V: Reconstructing the Transformer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-08T15:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "59317c1fa743",
+      "title": "Building a Streamlit UI for My LangGraph AI Agent",
+      "url": "https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/",
+      "summary": "Building a production-ready web interface for a stateful LangGraph agent\nThe post Building a Streamlit UI for My LangGraph AI Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-08T13:00:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "e726819dfa95",
+      "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently introduced Precursor, a client-side behavioral analysis engine that continuously evaluates session interactions, such as mouse movements and keyboard timing, to improve detection of sophisticated bots and AI agents without relying solely on one-time challenges like CAPTCHAs. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-08T07:54:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "0d1fce010906",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-07T21:30:11+00:00",
+      "score": 2.3,
+      "image": null
+    }
+  ]
+}
