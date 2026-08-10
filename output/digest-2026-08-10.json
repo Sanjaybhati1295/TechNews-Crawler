@@ -1,0 +1,115 @@
+{
+  "digest": {
+    "headline": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP",
+    "tldr": "Today's digest covers 10 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP (InfoQ). GitHub Code Quality Targets Maintainability as AI-Generated Code Increases (InfoQ). A Sandbox-First Workflow for Evaluating AI Coding Models on a Zero Budget (Dev.to AI). Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem (InfoQ). Why Your C++ Crash Skips Your Laptop: A Clean-Room Debugging Loop on a Disposable Box (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved change detection strategies, and a new @Service() decorator for dependency injection. The release supports TypeScript 6 and removes deprecated features. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "d0469a757d49",
+      "title": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP",
+      "url": "https://www.infoq.com/news/2026/08/angular-v22-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved change detection strategies, and a new @Service() decorator for dependency injection. The release supports TypeScript 6 and removes deprecated features. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-10T06:12:00+00:00",
+      "score": 4.48,
+      "image": "https://res.infoq.com/news/2026/08/angular-v22-released/en/headerimage/generatedHeaderImage-1786119245139.jpg"
+    },
+    {
+      "id": "44dbd237d9f1",
+      "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
+      "url": "https://www.infoq.com/news/2026/08/github-code-quality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. The service combines CodeQL analysis with AI-assisted detection of maintainability and reliability problems, then uses Copilot Autofix to suggest changes for review in pull requests, according to an announcement from GitHub. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-10T08:00:00+00:00",
+      "score": 3.88,
+      "image": "https://res.infoq.com/news/2026/08/github-code-quality/en/headerimage/generatedHeaderImage-1786036140230.jpg"
+    },
+    {
+      "id": "e97138fc5ce6",
+      "title": "A Sandbox-First Workflow for Evaluating AI Coding Models on a Zero Budget",
+      "url": "https://dev.to/hackjs_7468/a-sandbox-first-workflow-for-evaluating-ai-coding-models-on-a-zero-budget-2kh7",
+      "summary": "There's a conversation happening right now about what happens when we hand AI agents more tools and the boundaries fail. It's a good conversation, but it skips a step most of us hit first: before you worry about an agent escaping its sandbox, you have to pick a model, wire it into a workflow, and figure out whether it actually helps — ideally without putting a credit card behind an experiment that might go nowhere.\n\nThis article is about that earlier step. It's a repeatable workflow I've structured for evaluating AI coding assistance on side projects where the budget is literally zero, using a",
+      "source": "Dev.to AI",
+      "published": "2026-08-10T08:15:51+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwy5b8kaiqgjqkq4rht18.png"
+    },
+    {
+      "id": "e360309e9321",
+      "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
+      "url": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From core infrastructure to high-level orchestration, these distinct approaches highlight a shared commitment: ensuring the human maintainer remains the indispensable guardian of the code. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-10T04:04:00+00:00",
+      "score": 3.66,
+      "image": "https://res.infoq.com/news/2026/08/linux-ai-policies/en/card_header_image/generatedCard-1786256567965.jpg"
+    },
+    {
+      "id": "25e2e8ec7e70",
+      "title": "Why Your C++ Crash Skips Your Laptop: A Clean-Room Debugging Loop on a Disposable Box",
+      "url": "https://dev.to/datacpp_3670/why-your-c-crash-skips-your-laptop-a-clean-room-debugging-loop-on-a-disposable-box-35p2",
+      "summary": "Our CI pipeline failed last Tuesday with a segfault that nobody on the team could reproduce locally. Three developers, three different machines, zero crashes. The binary only fell over on the Linux runner, in release mode, after the cache was warm. That class of failure — environment-dependent memory corruption — is exactly why I stopped debugging C++ crashes on my own hardware and moved the whole loop onto a fresh, discardable server.\n\nBelow is the playbook I now follow: a small program that misbehaves silently on one machine and loudly on another, a short guide for matching sanitizers to sym",
+      "source": "Dev.to Programming",
+      "published": "2026-08-10T08:20:13+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F04icdqgkil6aohyol8i8.png"
+    },
+    {
+      "id": "4745542c5c29",
+      "title": "Important Y888.pk Information for New and Returning Users",
+      "url": "https://dev.to/mr_alex_3926e40b04b0bd295/important-y888pk-information-for-new-and-returning-users-3g3i",
+      "summary": "Introduction\n\n\nOnline gaming platforms are increasingly accessed through smartphones, tablets, and desktop computers. Whether someone is visiting a gaming website for the first time or returning after a period away, having a clear understanding of its website structure, account features, gaming options, and security practices can make the experience easier to manage.\n\nY888.pk is associated with online gaming and digital entertainment. New and returning visitors can benefit from reviewing the platform's basic features before using individual services. This guide covers important information abo",
+      "source": "Dev.to Programming",
+      "published": "2026-08-10T08:07:08+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnjuvn3awej6oqlrxi6cy.png"
+    },
+    {
+      "id": "3f7c800bfd24",
+      "title": "The AI safety test is becoming a safety risk",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-09T14:30:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "c8dafed9248d",
+      "title": "Non-Physical Intelligence Has A Ceiling [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjtaxb/nonphysical_intelligence_has_a_ceiling_d/",
+      "summary": "Reasoning alone cannot predict the chaotic physical world. Without a sensory and motor interface to reality, non-physical AI will not deliver the scientific and technological breakthroughs we expect.  &#32; submitted by &#32;  /u/dontkry4me   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-09T15:50:04+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "64c90b43d8c6",
+      "title": "How to Implement Structured Output with Local LLMs",
+      "url": "https://towardsdatascience.com/structured-output-with-local-llms/",
+      "summary": "Why use it? How to implement it? What can we do when it fails?\nThe post How to Implement Structured Output with Local LLMs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-09T13:00:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "378e642d45d7",
+      "title": "[R] Generative design of novel bacteriophages with genome language models [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vjj4pr/r_generative_design_of_novel_bacteriophages_with/",
+      "summary": "Genome language models have emerged as a promising strategy for designing biological systems, but their ability to generate functional sequences at the scale of whole genomes has remained untested. Here, we report the first generative design of viable bacteriophage genomes. We leveraged frontier genome language models, Evo 1 and Evo 2, to generate whole-genome sequences with realistic genetic architectures and desirable host tropism, using the lytic phage ΦX174 as our design template. Experimental testing of AI-generated genomes yielded 16 viable phages with substantial evolutionary novelty.  ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-09T07:11:17+00:00",
+      "score": 2.4,
+      "image": null
+    }
+  ]
+}
