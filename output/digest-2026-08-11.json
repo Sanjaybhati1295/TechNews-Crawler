@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "Cache affinity in practice: 5 patterns that keep your agent's prompt cache warm",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cache affinity in practice: 5 patterns that keep your agent's prompt cache warm (Dev.to AI). As AI-led attacks multiply, OpenAI launches a new cyber model (TechCrunch AI). JetBrains Details Its First Steps to Bring Rapidly Growing AI Spend Under Control (InfoQ). CloudFlare Previews Automatic WebMCP Support for Web Pages (InfoQ). Two Pointers: The Matrix of Sliding Windows (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Using the GitHub Copilot SDK for Java (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "You shipped an agent. Tokens/month exploded. You switched to a \"cheaper\" model and the bill barely moved.\n\nHere's the thing nobody prints on the pricing page: in a loop, the model price is often a rounding error next to the repeat tax — and the repeat tax is, at its core, a cache-affinity problem.\n\nThis is the practical follow-up to why agentic systems should care about cache-hit pricing. That post argued the cost lives in cache behavior, not in raw model price. This one is about what you can actually do about it.\n\n\n  \n  \n  What prefix caching actually rewards\n\n\nMost providers (OpenAI, Gemini,"
+  },
+  "articles": [
+    {
+      "id": "fe68b525a60b",
+      "title": "Cache affinity in practice: 5 patterns that keep your agent's prompt cache warm",
+      "url": "https://dev.to/tokenlat/cache-affinity-in-practice-5-patterns-that-keep-your-agents-prompt-cache-warm-3a9m",
+      "summary": "You shipped an agent. Tokens/month exploded. You switched to a \"cheaper\" model and the bill barely moved.\n\nHere's the thing nobody prints on the pricing page: in a loop, the model price is often a rounding error next to the repeat tax — and the repeat tax is, at its core, a cache-affinity problem.\n\nThis is the practical follow-up to why agentic systems should care about cache-hit pricing. That post argued the cost lives in cache behavior, not in raw model price. This one is about what you can actually do about it.\n\n\n  \n  \n  What prefix caching actually rewards\n\n\nMost providers (OpenAI, Gemini,",
+      "source": "Dev.to AI",
+      "published": "2026-08-11T07:46:05+00:00",
+      "score": 4.08,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqweltqugexmjlyhqjhd6.png"
+    },
+    {
+      "id": "c1d381bf28de",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-10T23:56:15+00:00",
+      "score": 3.95,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798"
+    },
+    {
+      "id": "824354f4406a",
+      "title": "JetBrains Details Its First Steps to Bring Rapidly Growing AI Spend Under Control",
+      "url": "https://www.infoq.com/news/2026/08/jetbrains-ai-spend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "JetBrains has described how it began centralising AI usage after development-related spending increased roughly tenfold in six months. Rather than restricting engineers to a small set of approved tools, the company built a shared access and accounting layer intended to preserve tool choice while giving teams greater visibility and control over consumption. By Matt Foster",
+      "source": "InfoQ",
+      "published": "2026-08-11T07:25:00+00:00",
+      "score": 3.66,
+      "image": "https://res.infoq.com/news/2026/08/jetbrains-ai-spend/en/headerimage/generatedHeaderImage-1786384052458.jpg"
+    },
+    {
+      "id": "be2ece5a7dfc",
+      "title": "CloudFlare Previews Automatic WebMCP Support for Web Pages",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-webmcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare announced a developer preview that lets any website enable a WebMCP (Web Model Context Protocol) interface with a single dashboard switch. This allows browser-based AI agents to interact with unmodified web pages through structured tools instead of scraping or guessing, keeping human traffic and control on the original site. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-08-10T20:00:00+00:00",
+      "score": 3.53,
+      "image": "https://res.infoq.com/news/2026/08/cloudflare-webmcp/en/headerimage/cloudflare-webmcp-1786389410161.jpeg"
+    },
+    {
+      "id": "02b94683a303",
+      "title": "Two Pointers: The Matrix of Sliding Windows",
+      "url": "https://dev.to/timevolt/two-pointers-the-matrix-of-sliding-windows-23p0",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nI still remember the first time I stared at a LeetCode problem that asked me to find two numbers in a sorted array that add up to a target. My brain went straight to the naïve double‑loop: for every i, scan every j &gt; i and check the sum. It worked on the tiny examples, but the moment the input size crept past a few thousand, my solution started to feel like trying to solve a Rubik’s Cube blindfolded while riding a unicycle—slow, clumsy, and definitely not interview‑ready.  \n\nI spent an hour tweaking indices, adding early breaks, even throwing in a hash map (wh",
+      "source": "Dev.to Programming",
+      "published": "2026-08-11T07:57:48+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fm4gr8bsyl9o16yji78kp.png"
+    },
+    {
+      "id": "dee660332d9a",
+      "title": "Project Valhalla's First Preview: JEP 401 Redefines == for Java Objects",
+      "url": "https://www.infoq.com/news/2026/08/jep401-value-objects-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "JEP 401, integrated into JDK 28, introduces value objects. These new class instances feature final fields, altered behavior for equality checks, and stricter construction and synchronization rules. It aims to enhance efficiency and reduce memory allocation costs. However, the preview is disabled by default and requires specific configuration at compile and run time. By A N M Bazlur Rahman",
+      "source": "InfoQ",
+      "published": "2026-08-10T14:32:00+00:00",
+      "score": 3.33,
+      "image": "https://res.infoq.com/news/2026/08/jep401-value-objects-preview/en/headerimage/java-istock-image-01-1762720446658-1786336881671.jpg"
+    },
+    {
+      "id": "d0469a757d49",
+      "title": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP",
+      "url": "https://www.infoq.com/news/2026/08/angular-v22-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved change detection strategies, and a new @Service() decorator for dependency injection. The release supports TypeScript 6 and removes deprecated features. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-10T06:12:00+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "2231dcf4c34f",
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking predicted that theoretical physics might be finished by the end of the century. With the explosive arrival of artificial intelligence, the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-10T09:00:00+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "56256fe3bcc1",
+      "title": "Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.\nThe post Using the GitHub Copilot SDK for Java appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-10T19:30:00+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "f803eeef0867",
+      "title": "How to file a complaint about a published CVPR paper? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vkn5x9/how_to_file_a_complaint_about_a_published_cvpr/",
+      "summary": "Hi, I would like to file a complaint about an accepted and published CVPR 2026 paper that its main contribution is a dataset but it was never released, and honestly I don’t know who to contact. The dataset was never released prior to the conference, or during the conference or after the conference. I personally feel there was a lack of proper checking that the dataset was gonna be available before the conference since this is a requirement. I’ve tried contacting the authors without any success (which tbh I wouldn’t even need to because it has to be released anyways).  The authors even point a ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-10T14:56:16+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "ca66d5256e51",
+      "title": "Java News Roundup: Shenandoah GC, TeamCity CVE, A2A Java SDK, Camel, Gradle, GlassFish, Groovy",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug03-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 3rd, 2026, features news highlighting: JEP 535, Shenandoah GC: Generational Mode by Default, targeted for JDK 28; point releases of A2A Java SDK, Apache Camel and Gradle; a maintenance release of GlassFish; the fifth milestone release of Groovy 8.0; and a follow-up of the JetBrains TeamCity CVE. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-10T12:45:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "9a1541aa610f",
+      "title": "How to Effectively Deploy Code With Claude Code",
+      "url": "https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/",
+      "summary": "Learn how to optimize your CI/CD pipeline for coding agents\nThe post How to Effectively Deploy Code With Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-10T16:30:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "5023b389af52",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them&#160;here. Way back in the summer of 2017, AI researchers at Google put out a paper called “Attention Is All You Need,” in which they described a new&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-10T09:00:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "16e553438a5c",
+      "title": "Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong",
+      "url": "https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/",
+      "summary": "Giving an AI agent access to a data warehouse doesn't automatically make it agent-ready. The real challenge lies in teaching the agent what the data means and when it's reliable enough to use. \nThe post Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-10T15:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "44dbd237d9f1",
+      "title": "GitHub Code Quality Targets Maintainability as AI-Generated Code Increases",
+      "url": "https://www.infoq.com/news/2026/08/github-code-quality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub Code Quality is now generally available on GitHub Enterprise Cloud and GitHub Team. The service combines CodeQL analysis with AI-assisted detection of maintainability and reliability problems, then uses Copilot Autofix to suggest changes for review in pull requests, according to an announcement from GitHub. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-10T08:00:00+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "517dc353077e",
+      "title": "Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the Reparameterization Trick",
+      "url": "https://towardsdatascience.com/variational-autoencoders-vaes-explained-from-theory-to-elbo-and-the-reparameterization-trick/",
+      "summary": "A clear, math-first walkthrough of how VAEs learn to generate new data\nThe post Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the Reparameterization Trick appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-10T13:30:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "465855dd76aa",
+      "title": "SPP-Net Paper Walkthrough: Breaking the Fixed-Size Constraint",
+      "url": "https://towardsdatascience.com/spp-net-paper-walkthrough-breaking-the-fixed-size-constraint/",
+      "summary": "Learn how Spatial Pyramid Pooling enables CNNs to handle any image size, with a from-scratch PyTorch implementation\nThe post SPP-Net Paper Walkthrough: Breaking the Fixed-Size Constraint appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-10T12:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "e360309e9321",
+      "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
+      "url": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From core infrastructure to high-level orchestration, these distinct approaches highlight a shared commitment: ensuring the human maintainer remains the indispensable guardian of the code. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-10T04:04:00+00:00",
+      "score": 2.34,
+      "image": null
+    }
+  ]
+}
