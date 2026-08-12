@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "We Published 118 Blog Posts With Zero Writers. Here's the Pipeline.",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "We Published 118 Blog Posts With Zero Writers. Here's the Pipeline. (Dev.to AI). Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials (Hacker News). OpenAI launches ChatGPT desktop app for Linux (TechCrunch AI). I Tested anydoc — Here's What You Need to Know (Dev.to AI). I Tried qm — Here's What You Need to Know (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "From coder to orchestrator: How agents shift the role of a developer (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "TL;DR\n\n\n\n\nPublishing surface is a REST endpoint, not a CMS. POST /api/outrank/webhook, bearer token, schema validated, revalidateTag() on write.\n\nAutomate the mechanical, keep humans on judgment. Most content ops teams do this backwards: humans proofreading for length, machines picking topics.\n\nGround drafts in your actual repo. A post that cites real file paths reads completely differently from a generic AI post. This is the whole trick.\n\nAllow the AI crawlers in robots.ts. GPTBot, Claude-Web, PerplexityBot.\n\nHonest caveat: the first three months of building this cost more than three months o"
+  },
+  "articles": [
+    {
+      "id": "613f2b983a64",
+      "title": "We Published 118 Blog Posts With Zero Writers. Here's the Pipeline.",
+      "url": "https://dev.to/nikolas_mi_5f4aa63cc4080/we-published-118-blog-posts-with-zero-writers-heres-the-pipeline-48lf",
+      "summary": "TL;DR\n\n\n\n\nPublishing surface is a REST endpoint, not a CMS. POST /api/outrank/webhook, bearer token, schema validated, revalidateTag() on write.\n\nAutomate the mechanical, keep humans on judgment. Most content ops teams do this backwards: humans proofreading for length, machines picking topics.\n\nGround drafts in your actual repo. A post that cites real file paths reads completely differently from a generic AI post. This is the whole trick.\n\nAllow the AI crawlers in robots.ts. GPTBot, Claude-Web, PerplexityBot.\n\nHonest caveat: the first three months of building this cost more than three months o",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T07:58:09+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F03zkjx91rxk5qfg7h2im.png"
+    },
+    {
+      "id": "1d70a737f66d",
+      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+      "url": "https://discoveredmaterials.com/research/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-12T07:51:20+00:00",
+      "score": 3.88,
+      "image": "https://discoveredmaterials.com/assets/og-image.png"
+    },
+    {
+      "id": "25809d3aff13",
+      "title": "OpenAI launches ChatGPT desktop app for Linux",
+      "url": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux/",
+      "summary": "OpenAI is finally bringing a dedicated ChatGPT desktop app to Linux operating systems.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-11T19:15:35+00:00",
+      "score": 3.88,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/EU-ai-1258475609.jpg?w=1024"
+    },
+    {
+      "id": "68bf45738a22",
+      "title": "I Tested anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tested-anydoc-heres-what-you-need-to-know-471l",
+      "summary": "The News\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 14721 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nIndustry-leading — top-tier capabilities\n\nFaster inference — optimized for speed\n\nLower cost — free vs paid APIs\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple API\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosyst",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T08:00:58+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsptf98bkzw1bj4u6rikw.png"
+    },
+    {
+      "id": "d745dd34ba46",
+      "title": "I Tried qm — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-qm-heres-what-you-need-to-know-2ko2",
+      "summary": "The Problem\n\n\nMultiplayer agent harness for work\n\n\n  \n  \n  What is qm?\n\n\nqm is a new open-source project with 13155 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  \n  \n  How to Get S",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T08:00:13+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1oziro17ojvg092s7ldo.png"
+    },
+    {
+      "id": "19c21221d2ad",
+      "title": "I Tried Kimi-K3 — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-kimi-k3-heres-what-you-need-to-know-4f35",
+      "summary": "The Problem\n\n\nOpen Frontier Intelligence\n\n\n  \n  \n  What is Kimi-K3?\n\n\nKimi-K3 is a new open-source project with 8373 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  \n  \n  How to Get ",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T08:00:56+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo1keyti44h0bvk95hlmz.png"
+    },
+    {
+      "id": "f95720f91ff8",
+      "title": "How to Rent Out Your GPU and Earn Passive Income",
+      "url": "https://dev.to/qingluan/how-to-rent-out-your-gpu-and-earn-passive-income-kp8",
+      "summary": "How to Rent Out Your GPU and Earn Passive Income\n\n\ntags: gpu, money, ai, passive\n\n\n\n\ntags: opensource, money, passive, programming\n\n\n\n\ntags: opensource, money, passive, programming\n\n\n\n\nYou’ve spent years building open source libraries, fixing bugs, and writing documentation for free. But what if that same code could start paying you while you sleep? The secret isn’t selling your software—it’s monetizing the value your software creates.\n\nOpen source has shifted from a hobbyist niche to a business engine. Companies run on Linux, Kubernetes, and React. Yet most developers still treat their projec",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T08:00:09+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "528ee2b9fdf4",
+      "title": "I Tried anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-anydoc-heres-what-you-need-to-know-1o3m",
+      "summary": "The Problem\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 14721 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing",
+      "source": "Dev.to AI",
+      "published": "2026-08-12T08:00:07+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "1a2fbaeed334",
+      "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
+      "url": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer, this family of neural networks has become the engine inside every major large&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-11T12:10:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "5570c557a3ab",
+      "title": "An unreleased Anthropic model made progress on one of math’s biggest unsolved problems",
+      "url": "https://techcrunch.com/2026/08/11/an-unreleased-anthropic-model-made-progress-on-one-of-maths-biggest-unsolved-problems/",
+      "summary": "For more than 150 years, the Riemann hypothesis has stood as one of the major unsolved problems in mathematics. Anthropic hasn't solved it — but the company's models made more progress than you might expect.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-11T16:25:20+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "1346d9212c36",
+      "title": "IBM and Red Hat Expand Lightwell to Strengthen Trust and Governance for AI-Era Open Source",
+      "url": "https://www.infoq.com/news/2026/08/lightwell-ai-open-source/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "IBM and Red Hat have announced an expansion of Lightwell, introducing new commercial offerings designed to help organizations establish trusted, verifiable software supply chains for the age of AI-assisted software development. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-08-11T12:00:00+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "ced50c66a22f",
+      "title": "Continued development of the model based on the SSN [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vlrajq/continued_development_of_the_model_based_on_the/",
+      "summary": "Back after ~6 months — rebuilding my spiking language model around CPU-first inference Hey everyone. It’s been around six months since I last posted anything about this project here. Some of you might remember Project NORD, my experimental hybrid spiking / brain-inspired language model architecture. I basicall disappeared for a while 😅, but recently I came back to the project, went through the old architecture again, and realized I didn’t really want to keep stacking fixes on top of it. So instead, I’ve started rebuilding a pretty large part of the system. The new version is called: NORD 5.5 —",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-11T19:25:06+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "a41dba9fb719",
+      "title": "From coder to orchestrator: How agents shift the role of a developer",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "summary": "Developers are owning more of the delivery system around code, not just code itself. Join us during GitHub Universe to meet other devs, learn something new, and explore what's next.\nThe post From coder to orchestrator: How agents shift the role of a developer appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-11T18:38:17+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "ebe5f1fd2210",
+      "title": "Can a Local LLM Run My AI Assistant?",
+      "url": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
+      "summary": "I replayed the same 27 real production tasks through two local models, one hardware upgrade apart, to find out what it actually takes to replace Claude as the brain behind a 90-tool personal agent.\nThe post Can a Local LLM Run My AI Assistant? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-11T12:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "c1d381bf28de",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-10T23:56:15+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "170612fa69aa",
+      "title": "Should AI Developers Make the Switch from Polars to Pandas?",
+      "url": "https://towardsdatascience.com/should-ai-developers-make-the-switch-from-polars-to-pandas/",
+      "summary": "Not all Python data libraries are created equal! \nThe post Should AI Developers Make the Switch from Polars to Pandas? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-11T15:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "ef36fe9240a8",
+      "title": "The Budget Split That Explains Itself",
+      "url": "https://towardsdatascience.com/the-budget-split-that-explains-itself/",
+      "summary": "How to diversify a budget without losing the shadow prices that explain the result\nThe post The Budget Split That Explains Itself appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-11T13:30:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "824354f4406a",
+      "title": "JetBrains Details Its First Steps to Bring Rapidly Growing AI Spend Under Control",
+      "url": "https://www.infoq.com/news/2026/08/jetbrains-ai-spend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "JetBrains has described how it began centralising AI usage after development-related spending increased roughly tenfold in six months. Rather than restricting engineers to a small set of approved tools, the company built a shared access and accounting layer intended to preserve tool choice while giving teams greater visibility and control over consumption. By Matt Foster",
+      "source": "InfoQ",
+      "published": "2026-08-11T07:25:00+00:00",
+      "score": 2.33,
+      "image": null
+    }
+  ]
+}
