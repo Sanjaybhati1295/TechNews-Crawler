@@ -3307,3 +3307,38 @@
 2026-08-12 08:08:53,677  INFO     ────────────────────────────────────────────────────────────
 2026-08-12 08:08:53,677  INFO     Done!  Open: output/index.html
 2026-08-12 08:08:53,677  INFO     Headline: We Published 118 Blog Posts With Zero Writers. Here's the Pipeline.
+2026-08-13 08:10:53,675  INFO     ============================================================
+2026-08-13 08:10:53,675  INFO     TECHPULSE Digest — 2026-08-13 08:10 UTC
+2026-08-13 08:10:53,675  INFO     ============================================================
+2026-08-13 08:10:53,675  INFO     Step 1/3 — Crawling feeds…
+2026-08-13 08:10:53,778  INFO       Hacker News                    → 2 significant articles
+2026-08-13 08:10:53,934  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-13 08:10:54,069  INFO       Ars Technica                   → 0 significant articles
+2026-08-13 08:10:54,553  INFO       The Register AI                → 0 significant articles
+2026-08-13 08:10:54,683  INFO       MIT Tech Review                → 1 significant articles
+2026-08-13 08:10:54,807  INFO       Dev.to AI                      → 7 significant articles
+2026-08-13 08:10:54,953  INFO       Dev.to Programming             → 0 significant articles
+2026-08-13 08:10:55,108  INFO       GitHub Blog                    → 3 significant articles
+2026-08-13 08:10:56,509  INFO       Google Research                → 0 significant articles
+2026-08-13 08:10:57,703  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-08-13 08:10:57,806  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-13 08:10:58,043  INFO       InfoQ                          → 2 significant articles
+2026-08-13 08:10:58,166  INFO       Towards Data Science           → 4 significant articles
+2026-08-13 08:10:58,377  INFO       Wired AI                       → 0 significant articles
+2026-08-13 08:10:58,517  INFO       TechCrunch AI                  → 5 significant articles
+2026-08-13 08:10:58,518  INFO     Fetching images for top articles…
+2026-08-13 08:10:58,664  INFO       🖼  Claude and GPT are effectively getting “open-sourced”.
+2026-08-13 08:10:58,790  INFO       🖼  I Tested qm — Here's What You Need to Know
+2026-08-13 08:10:59,069  INFO       🖼  Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 fo
+2026-08-13 08:10:59,141  INFO       🖼  OpenAI-backed Thrive Holdings raises $2B to bring AI to the 
+2026-08-13 08:10:59,267  INFO       🖼  I Tried qm — Here's What You Need to Know
+2026-08-13 08:10:59,395  INFO       🖼  I Tested anydoc — Here's What You Need to Know
+2026-08-13 08:10:59,395  INFO     Total selected: 25 articles from 15 feeds
+2026-08-13 08:10:59,395  INFO     Selected 25 significant articles
+2026-08-13 08:10:59,396  INFO     Step 2/3 — Generating digest…
+2026-08-13 08:10:59,696  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-13 08:10:59,697  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-13 08:10:59,697  INFO     Step 3/3 — Rendering HTML…
+2026-08-13 08:10:59,698  INFO     ────────────────────────────────────────────────────────────
+2026-08-13 08:10:59,698  INFO     Done!  Open: output/index.html
+2026-08-13 08:10:59,698  INFO     Headline: Claude and GPT are effectively getting “open-sourced”.

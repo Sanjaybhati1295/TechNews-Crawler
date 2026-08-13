@@ -1,0 +1,269 @@
+{
+  "digest": {
+    "headline": "Claude and GPT are effectively getting “open-sourced”.",
+    "tldr": "Today's digest covers 25 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude and GPT are effectively getting “open-sourced”. (Dev.to AI). I Tested qm — Here's What You Need to Know (Dev.to AI). Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 for Builds Up to 61% Faster (InfoQ). OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise (TechCrunch AI). I Tried qm — Here's What You Need to Know (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Alibaba has released the weights for Qwen3.8-2.4T-A95B — for the first time, a model at the Qwen-Max level is being published as open source.\nWithout diving too deep into technical details, this puts it in the same league as top-tier Claude and GPT.\n\nAnd that’s a big deal. Until now, the most powerful models were always closed, and open-source alternatives were noticeably weaker. But the situation is changing: now any company (if they can afford the compute) can self-host a truly strong model for their own use cases — and no longer needs to pay for a \nClaude subscription or API usage.\n\nWhich r"
+  },
+  "articles": [
+    {
+      "id": "897f588c74e0",
+      "title": "Claude and GPT are effectively getting “open-sourced”.",
+      "url": "https://dev.to/mrhamster888/claude-and-gpt-are-effectively-getting-open-sourced-36h5",
+      "summary": "Alibaba has released the weights for Qwen3.8-2.4T-A95B — for the first time, a model at the Qwen-Max level is being published as open source.\nWithout diving too deep into technical details, this puts it in the same league as top-tier Claude and GPT.\n\nAnd that’s a big deal. Until now, the most powerful models were always closed, and open-source alternatives were noticeably weaker. But the situation is changing: now any company (if they can afford the compute) can self-host a truly strong model for their own use cases — and no longer needs to pay for a \nClaude subscription or API usage.\n\nWhich r",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T07:59:46+00:00",
+      "score": 4.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqdphf4v6tr6f2b1jt8ez.png"
+    },
+    {
+      "id": "9270011cc641",
+      "title": "I Tested qm — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tested-qm-heres-what-you-need-to-know-4720",
+      "summary": "The News\n\n\nMultiplayer agent harness for work. https://qm.ycombinator.c\n\n\n  \n  \n  What is qm?\n\n\nqm is a new open-source project with 13312 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nIndustry-leading — top-tier capabilities\n\nFaster inference — optimized for speed\n\nLower cost — free vs paid APIs\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple API\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  ",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:00:15+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl41u03isykd9e2z7c9p3.png"
+    },
+    {
+      "id": "1e31e419ca62",
+      "title": "Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 for Builds Up to 61% Faster",
+      "url": "https://www.infoq.com/news/2026/08/astro-7-release-speed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Astro 7 focuses on build performance, utilizing native tooling and a rewritten compiler in Rust. The new version includes faster Markdown processing and stricter HTML rules. Recent updates introduced advanced routing and incremental builds, while issues around legacy file compatibility and dependency counts were raised in feedback. Astro targets content-driven sites with minimal JavaScript. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-13T06:16:00+00:00",
+      "score": 3.89,
+      "image": "https://res.infoq.com/news/2026/08/astro-7-release-speed/en/headerimage/generatedHeaderImage-1786526407228.jpg"
+    },
+    {
+      "id": "26e311ec1c77",
+      "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+      "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/",
+      "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T17:41:29+00:00",
+      "score": 3.89,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/holdings_all_team.jpg?resize=1200,407"
+    },
+    {
+      "id": "2ec26470a55e",
+      "title": "I Tried qm — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-qm-heres-what-you-need-to-know-2i2m",
+      "summary": "The Problem\n\n\nMultiplayer agent harness for work. https://qm.ycombinator.c\n\n\n  \n  \n  What is qm?\n\n\nqm is a new open-source project with 13312 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosyst",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:00:49+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0sibxrnyafg39m6xq4zf.png"
+    },
+    {
+      "id": "c4f97e74cdeb",
+      "title": "I Tested anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tested-anydoc-heres-what-you-need-to-know-233p",
+      "summary": "The News\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 15290 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nIndustry-leading — top-tier capabilities\n\nFaster inference — optimized for speed\n\nLower cost — free vs paid APIs\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple API\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosyst",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:00:09+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftesn3n97xnm3t4c5lisj.png"
+    },
+    {
+      "id": "6b6e7f5dcd5d",
+      "title": "I Tried Kimi-K3 — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-kimi-k3-heres-what-you-need-to-know-2pg6",
+      "summary": "The Problem\n\n\nOpen Frontier Intelligence\n\n\n  \n  \n  What is Kimi-K3?\n\n\nKimi-K3 is a new open-source project with 8403 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing ecosystem\n\n\n\n  \n  \n  How to Get ",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:01:35+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "62d0cc0b6d89",
+      "title": "I Tried anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-anydoc-heres-what-you-need-to-know-5g82",
+      "summary": "The Problem\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 15290 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:00:41+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7849cd80fea1",
+      "title": "5 Free Microsoft Tools I Wish I'd Started Using in My First Year of CS (Not Just Azure)",
+      "url": "https://dev.to/nicola_fiore_89b1628cd6af/5-free-microsoft-tools-i-wish-id-started-using-in-my-first-year-of-cs-not-just-azure-1e93",
+      "summary": "Every CS program hands you a syllabus full of theory and assumes you'll figure out the tooling on your own. Here's what I wish someone had pointed me to earlier — all free, all still active.\n\n\n  \n  \n  1. Azure for Students — stop hosting things on your laptop\n\n\n$100 in Azure credit, no credit card required, just a school email. I used mine to host a group project's API instead of running it locally and praying nobody's machine crashed during the demo. The free-tier services stick around even after the credit runs out.\n\nhttps://azure.microsoft.com/free/students?wt.mc_id=studentamb_503800\n\n\n  \n ",
+      "source": "Dev.to AI",
+      "published": "2026-08-13T08:00:02+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "3eb99b6d02d6",
+      "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026/",
+      "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T14:20:33+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "84d87ed8b9ce",
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "summary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T17:51:00+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "1880293b64f3",
+      "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+      "summary": "This new funding comes after Lovable hit $500 million in annualized run rate revenue in June, the startup told TechCrunch.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T16:04:27+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "b07daedacd7d",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: July 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T22:17:32+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "528173278550",
+      "title": "Your contributors are AI-first now. Is your project?",
+      "url": "https://github.blog/open-source/maintainers/your-contributors-are-ai-first-now-is-your-project/",
+      "summary": "AI contributors are already in your queue. AutoGPT maintainer Nicholas Tindle shares the repo instructions, gates, and boundaries that keep maintainers in control.\nThe post Your contributors are AI-first now. Is your project? appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T18:00:08+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "a617b144c6be",
+      "title": "Scientists just created female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive biologist at the University of Hawaii, who&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-12T18:59:48+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "a80e7043e01e",
+      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
+      "url": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Spotify introduced  external indexing architecture for Apache Parquet data lakes that enables low-latency point queries without replicating datasets into operational databases. The approach maps lookup keys to Parquet files and row locations, allowing targeted reads from cloud object storage while supporting analytics, machine learning, AI applications, and online services from the same datasets. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-08-12T14:26:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "57803b26113b",
+      "title": "Write your first prompt with the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+      "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence.\nThe post Write your first prompt with the GitHub Copilot app appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T19:00:00+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "c102a64d07ec",
+      "title": "How a $250 million acquisition collapsed into allegations of fraud and forged signatures",
+      "url": "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures/",
+      "summary": "Investors are still waiting for their share of the $250 million windfall, and VideoVerse co-founder Vinayak Shrivastav is now at the center of multiple legal cases.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-12T15:44:56+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "e776ca0691b6",
+      "title": "Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From",
+      "url": "https://towardsdatascience.com/before-full-agentic-rag-know-how-you-decide-and-the-parsing-methods-you-pick-from/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5nonies] - Nature, plan, execute, synthesize: closing brick 1 with a dispatcher that reads each PDF’s nature and picks the method that fits, fitz, Docling, PaddleOCR, EasyOCR, MinerU or Surya, then folds the outputs into one corpus\nThe post Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-12T16:30:00+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "efe0c03b9941",
+      "title": "Lovable raises $400M Series C",
+      "url": "https://lovable.dev/blog/series-c",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-12T16:20:34+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "7e7d0272e46c",
+      "title": "The Loss Does Not See the Basis, But Adam Does [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vmjb3p/the_loss_does_not_see_the_basis_but_adam_does_r/",
+      "summary": "In a factored model W = UV^T, the loss is invariant to rotations (U,V) → (UQ, VQ). Gradient Descent (GD) respects this property. Adam's per-coordinate second moment does not, because it depends on the specific basis in which the factors are written. The claim is that this single property dictates whether optimizers retain or lose GD's implicit low-rank bias. Nine update rules were evaluated on underdetermined matrix sensing, all compared at matched training loss to ensure no method benefits from underfitting. The results show two distinct clusters: GD, shared-scalar Adam, Muon, and Shampoo pre",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-12T16:39:12+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "06391d29ac27",
+      "title": "How to Place Vertiport Locations in Any City Using Geospatial Machine Learning",
+      "url": "https://towardsdatascience.com/how-to-place-vertiport-locations-in-any-city-using-geospatial-machine-learning/",
+      "summary": "A reproducible Lagos case study with population data, transport access, and airspace constraints\nThe post How to Place Vertiport Locations in Any City Using Geospatial Machine Learning appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-12T12:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "1d70a737f66d",
+      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+      "url": "https://discoveredmaterials.com/research/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-12T07:51:20+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "949f74284cbd",
+      "title": "Backpropagation Explained for Beginners (Part 3): How Backpropagation Really Works",
+      "url": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-3-how-backpropagation-really-works/",
+      "summary": "From one gradient to every gradient\nThe post Backpropagation Explained for Beginners (Part 3): How Backpropagation Really Works appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-12T15:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "dd0ca51bca12",
+      "title": "Building Multimodal Workflows with a Local LLM",
+      "url": "https://towardsdatascience.com/building-multimodal-workflows-with-a-local-llm/",
+      "summary": "Image inputs and structured outputs with Gemma 4 and Ollama\nThe post Building Multimodal Workflows with a Local LLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-12T13:30:00+00:00",
+      "score": 2.46,
+      "image": null
+    }
+  ]
+}
