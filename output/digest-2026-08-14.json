@@ -1,0 +1,225 @@
+{
+  "digest": {
+    "headline": "npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust (InfoQ). Qwen3.8-Max Open-Source Flagship Model Released: How to Seamlessly Switch AI Models (Dev.to Programming). Kubeflow Expands AI Capabilities as CNCF Graduation Nears (InfoQ). Writer introduces new AI model and upgraded harness to contain token costs (TechCrunch AI). OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "npm 12 introduces significant security-related changes, making certain installation behaviors opt-in. Notably, script allowances are now off by default, which requires explicit approval for running scripts, including implicit builds. The update also restricts non-registry sources and addresses community concerns about security risks from automatic script execution. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "06631d45f618",
+      "title": "npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust",
+      "url": "https://www.infoq.com/news/2026/08/npm-12-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "npm 12 introduces significant security-related changes, making certain installation behaviors opt-in. Notably, script allowances are now off by default, which requires explicit approval for running scripts, including implicit builds. The update also restricts non-registry sources and addresses community concerns about security risks from automatic script execution. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-14T06:39:00+00:00",
+      "score": 4.82,
+      "image": "https://res.infoq.com/news/2026/08/npm-12-released/en/headerimage/generatedHeaderImage-1786639332006.jpg"
+    },
+    {
+      "id": "859986721820",
+      "title": "Qwen3.8-Max Open-Source Flagship Model Released: How to Seamlessly Switch AI Models",
+      "url": "https://dev.to/servbay/qwen38-max-open-source-flagship-model-released-how-to-seamlessly-switch-ai-models-38al",
+      "summary": "On August 3, 2026, Alibaba's Tongyi Qwen team officially released Qwen3.8-Max [1]. This stands as the largest and most capable model in the Qwen family to date, marking the first time Alibaba has open-sourced a Max-level flagship model [1]. The open-source weights are expected to be available for public download via Hugging Face and ModelScope during the week of August 10, 2026 [1].\n\n\n\nWhat does the release of Qwen3.8-Max imply? First, it confirms that open-source model capabilities have reached a global frontier level. Second, for developers, it raises a practical question: as cutting-edge mo",
+      "source": "Dev.to Programming",
+      "published": "2026-08-14T07:47:31+00:00",
+      "score": 4.38,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fyf7xy0mh2l7qm9zsh9vq.png"
+    },
+    {
+      "id": "9059c8312a43",
+      "title": "Kubeflow Expands AI Capabilities as CNCF Graduation Nears",
+      "url": "https://www.infoq.com/news/2026/08/kubeflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Kubeflow project has unveiled several technical updates to enhance distributed AI and high-performance computing on Kubernetes. These advancements include Kale 2.0, a modernised SDK with native Spark support, and expanded capabilities for the Kubeflow Trainer. The developments arrive as the project moves towards graduation from the Cloud Native Computing Foundation. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-14T08:00:00+00:00",
+      "score": 4.29,
+      "image": "https://res.infoq.com/news/2026/08/kubeflow/en/headerimage/generatedHeaderImage-1786662140696.jpg"
+    },
+    {
+      "id": "952a2dd22c0e",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T21:13:24+00:00",
+      "score": 4.19,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/09/May-Habib-Disrupt-2023.jpg?resize=1200,800"
+    },
+    {
+      "id": "a894d6a4673a",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T19:22:40+00:00",
+      "score": 4.19,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/EU-ai-1258475609.jpg?w=1024"
+    },
+    {
+      "id": "085e8b69fe8a",
+      "title": "Rx.NET 7.0 Reduces Deployment Size by Splitting Windows UI Support",
+      "url": "https://www.infoq.com/news/2026/08/rx-net-7/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rx.NET 7.0 has been released with a narrowly focused change aimed at reducing deployment size for Windows applications. The new version separates WPF, Windows Forms, UWP, and Windows Runtime integration from the main System.Reactive package, avoiding cases where self-contained applications could acquire tens of megabytes of unused framework dependencies. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-14T08:00:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/08/rx-net-7/en/headerimage/header-1670341892423-1786614186714.jpg"
+    },
+    {
+      "id": "d786edd86847",
+      "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
+      "url": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta AI Research has introduced Muse Glimmer, a 30-billion-parameter open-weight model under the Apache 2.0 license, designed for local workflows. It enables autonomous agents and complex task execution on consumer GPUs without relying on cloud APIs. The model employs a multi-stage training approach for efficient performance and supports multimodal inputs, enhancing coding and automation tasks. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-14T05:05:00+00:00",
+      "score": 3.93,
+      "image": null
+    },
+    {
+      "id": "dda793b74e65",
+      "title": "Salesforce DevOps Online Training | Salesforce AI Course",
+      "url": "https://dev.to/vamsi_visualpath_826a9ad2/salesforce-devops-online-training-salesforce-ai-course-31kc",
+      "summary": "How Does AI Improve Salesforce DevOps? A Step-by-Step Guide\nIntroduction\nSalesforce teams make many changes every day. These changes can include code, settings, Flows, and custom objects. Each change needs proper testing before release. \nAI can make this work easier and faster. It can review changes and find possible problems. It can also study past release data. Professionals taking Salesforce AI Training can learn how AI supports these DevOps tasks.\nFeatured Snippet\nAI Salesforce DevOps uses AI to improve development, testing, deployment, and monitoring. Visualpath helps learners understand ",
+      "source": "Dev.to AI",
+      "published": "2026-08-14T07:57:22+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "b70411f0873d",
+      "title": "What 50 open source projects taught us about security in the AI era",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+      "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. \nThe post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-13T16:00:00+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "1209b165c966",
+      "title": "I Tried anydoc — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-anydoc-heres-what-you-need-to-know-577h",
+      "summary": "The Problem\n\n\nConvert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CS\n\n\n  \n  \n  What is anydoc?\n\n\nanydoc is a new open-source project with 15883 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growing",
+      "source": "Dev.to AI",
+      "published": "2026-08-14T08:00:15+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "ae55370a118a",
+      "title": "I Tried deepseek-harness — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-deepseek-harness-heres-what-you-need-to-know-13k7",
+      "summary": "The Problem\n\n\nDeepSeek Harness: Everything is a Plugin.\n\n\n  \n  \n  What is deepseek-harness?\n\n\ndeepseek-harness is a new open-source project with 78486 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — growin",
+      "source": "Dev.to AI",
+      "published": "2026-08-14T08:00:09+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "f643ddd6c56a",
+      "title": "My Env Var Scanner Gave My Own App a 0/100. So I Had to Figure Out Why",
+      "url": "https://dev.to/fathe__r/my-env-var-scanner-gave-my-own-app-a-0100-so-i-had-to-figure-out-why-57p7",
+      "summary": "I built Pookoo to catch a boring but real problem: environment variable drift.\n\nDead variables nobody deleted. Secrets accidentally exposed in a public bundle. The same variable with different fallback values in different files. Required configuration that never made it into .env.example or the documentation.\n\nThe idea was deliberately simple: use static analysis, not an LLM.\n\nParse the code, build a picture of which environment variables are declared and how they're used, then surface places where those two disagree.\n\nThe first real thing I did once Pookoo could run end-to-end was point it at",
+      "source": "Dev.to Programming",
+      "published": "2026-08-14T07:54:45+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "71ba9336556e",
+      "title": "Reproducible canvas-aligned low-level patterns in somerandomllm-generated images and their possible relation to iterative editing artifacts [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vnq08v/reproducible_canvasaligned_lowlevel_patterns_in/",
+      "summary": "I may have stumbled onto something interesting while trying to figure out a recurring artifact in ChatGPT image generation and editing (maybe applicable to other models as well?). It started with a very practical problem: After several rounds of generative editing on portraits, I would sometimes get this faint cloudy / mottled texture in areas that should have stayed smooth — backgrounds, walls, skin, and other low-detail regions. At first I wrote it off as normal denoising or regeneration noise. But the more I tested it, the less random it looked. What first caught my attention  Running essen",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-13T22:52:35+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "6158d2ab1b28",
+      "title": "Vercel Launches v0 API for Headless App Building",
+      "url": "https://www.infoq.com/news/2026/08/vercel-v0-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has made the v0 API generally available, enabling developers and AI agents to programmatically generate, iterate on, preview, and deploy applications through API calls. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-08-13T15:37:00+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "4b3e777cda95",
+      "title": "How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs",
+      "url": "https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/",
+      "summary": "Google's Open Knowledge Format (OKF) is a Markdown+YAML skeleton for sharing knowledge between humans and AI agents. This post reuses that skeleton for a very specific job — an agent-to-agent hand-off of pre-tokenized integer arrays between three Qwen2.5-Coder models (7B, 3B, 1.5B) — and shows the 28–37% TTFT reduction plus the one full-vocabulary equivalence check that keeps the whole thing safe.\nThe post How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-13T16:30:00+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "1e6ce4d0981f",
+      "title": "Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model",
+      "url": "https://towardsdatascience.com/cut-an-enterprise-rag-pipelines-latency-and-cost-by-calling-the-llm-less-not-by-buying-a-faster-model/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9ter] - The pipeline from Article 9 calls a model at several steps to be sure it is right. On easy questions that is needless latency. A per-question signal routes them past the model, about two seconds saved for a keyword match.\nThe post Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-13T15:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "cf0e25f64728",
+      "title": "City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial analysis in urban systems [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vn8oya/city2graph_a_python_library_for_heterogeneous/",
+      "summary": "City2Graph is a Python library I built that turns geospatial data into analysis-ready graphs (for spatial analysis, network analysis, and Graph Neural Networks as GeoAI), and the paper describing it has just been published, so I wanted to share it here. Repository: https://github.com/c2g-dev/city2graph import city2graph as c2g # buildings + street segments -&gt; heterogeneous morphological graph nodes, edges = c2g.morphological_graph(buildings, segments) # straight into PyTorch Geometric data = c2g.gdf_to_pyg(nodes, edges)  What it covers:  Morphology: graphs of buildings, streets, and tessell",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-13T11:59:58+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "6f4114025118",
+      "title": "LangChain vs LangGraph: 4 Key Differences and When to Use Each",
+      "url": "https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/",
+      "summary": "A practical guide to choose the proper tool for your agentic workflows and systems\nThe post LangChain vs LangGraph: 4 Key Differences and When to Use Each appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-13T12:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "1e31e419ca62",
+      "title": "Astro 7: Rust Compiler, Rust Markdown Pipeline and Vite 8 for Builds Up to 61% Faster",
+      "url": "https://www.infoq.com/news/2026/08/astro-7-release-speed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Astro 7 focuses on build performance, utilizing native tooling and a rewritten compiler in Rust. The new version includes faster Markdown processing and stricter HTML rules. Recent updates introduced advanced routing and incremental builds, while issues around legacy file compatibility and dependency counts were raised in feedback. Astro targets content-driven sites with minimal JavaScript. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-13T06:16:00+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "5abaf92c97b6",
+      "title": "Presentation: Migrating Uber Eats Feeds to Webview",
+      "url": "https://www.infoq.com/presentations/migration-mobile-application/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Nick DiStefano shares how Uber Eats migrated from traditional native app screens to a native-driven, single-page WebView architecture. He explains key strategies for engineering leaders and software architects looking to bypass native release cycles, manage cross-platform state, build generic native-web message bridges, and execute large-scale UI migrations without degrading metrics. By Nick DiStefano",
+      "source": "InfoQ",
+      "published": "2026-08-13T09:26:00+00:00",
+      "score": 2.44,
+      "image": null
+    },
+    {
+      "id": "b07daedacd7d",
+      "title": "GitHub availability report: July 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-july-2026/",
+      "summary": "In July, we experienced eight incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: July 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-12T22:17:32+00:00",
+      "score": 1.92,
+      "image": null
+    }
+  ]
+}
