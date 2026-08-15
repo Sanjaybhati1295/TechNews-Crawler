@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Building FinAssist: A Multilingual Indian Voice AI Agent for Financial Inclusion",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Building FinAssist: A Multilingual Indian Voice AI Agent for Financial Inclusion (Dev.to AI). BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R] (Reddit r/MachineLearning). The Interview Coding Quest: Lessons from The Matrix (Dev.to Programming). npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust (InfoQ). Does Mark Zuckerberg really believe AI is ‘for everyone’? (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How to bring your software delivery workflow into GitHub with agent apps (GitHub Blog). RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "A complete story and step-by-step guide on building an AI voice assistant for Indian banking using Murf Falcon, Deepgram Nova-3, Google Gemini, and LiveKit for the **10 Days of Voice Agents — VoiceForBharat Edition* challenge.*\n\n\n\n\n\n  \n  \n  1. Introduction &amp; Story\n\n\nFinancial services and scheme navigation in India can be daunting. With complex application forms, intricate eligibility criteria, and digital banking menus often available only in formal English, millions of everyday citizens, elderly callers, and small business owners face barriers to accessing essential financial guidance.\n\n"
+  },
+  "articles": [
+    {
+      "id": "59d89b0ce761",
+      "title": "Building FinAssist: A Multilingual Indian Voice AI Agent for Financial Inclusion",
+      "url": "https://dev.to/v_hh_9bb7ed1b83bd542f31dc/building-finassist-a-multilingual-indian-voice-ai-agent-for-financial-inclusion-gpn",
+      "summary": "A complete story and step-by-step guide on building an AI voice assistant for Indian banking using Murf Falcon, Deepgram Nova-3, Google Gemini, and LiveKit for the **10 Days of Voice Agents — VoiceForBharat Edition* challenge.*\n\n\n\n\n\n  \n  \n  1. Introduction &amp; Story\n\n\nFinancial services and scheme navigation in India can be daunting. With complex application forms, intricate eligibility criteria, and digital banking menus often available only in formal English, millions of everyday citizens, elderly callers, and small business owners face barriers to accessing essential financial guidance.\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-08-15T07:14:31+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2ktltdmjjasztlc6ciiu.png"
+    },
+    {
+      "id": "3e3c2399f335",
+      "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
+      "summary": "We introduce BDH-CQ, a reasoning system that brings these capabilities together. Demonstrations of a previously unseen task update recurrent memory; the query is then solved through iterative computation in a high-dimensional latent workspace. Intermediate reasoning states are not decoded into language. BDH-CQ makes memory, adaptation, and inference part of the same computational fabric. Inputs presented at inference time continuously update the model’s recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its inte",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-15T06:18:15+00:00",
+      "score": 3.84,
+      "image": null
+    },
+    {
+      "id": "face69534e8d",
+      "title": "The Interview Coding Quest: Lessons from The Matrix",
+      "url": "https://dev.to/timevolt/the-interview-coding-quest-lessons-from-the-matrix-3n59",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nEver walked out of a coding interview feeling like you’d just fought a dragon with a toothpick? I’ve been there. I remember one morning, sweat dripping onto my keyboard, staring at a whiteboard that asked for “two numbers that add up to a target”. My first instinct? Throw two nested loops at it, watch the runtime balloon to O(n²), and then panic when the interviewer raised an eyebrow. I felt like I was stuck in a looping cutscene, replaying the same mistake over and over.\n\nThat frustration sparked a question: What do the top coders do differently? They aren’t jus",
+      "source": "Dev.to Programming",
+      "published": "2026-08-15T06:52:31+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffyk6mc4jrv2s7yjn0weu.png"
+    },
+    {
+      "id": "06631d45f618",
+      "title": "npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust",
+      "url": "https://www.infoq.com/news/2026/08/npm-12-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "npm 12 introduces significant security-related changes, making certain installation behaviors opt-in. Notably, script allowances are now off by default, which requires explicit approval for running scripts, including implicit builds. The update also restricts non-registry sources and addresses community concerns about security risks from automatic script execution. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-14T06:39:00+00:00",
+      "score": 3.53,
+      "image": "https://res.infoq.com/news/2026/08/npm-12-released/en/headerimage/generatedHeaderImage-1786639332006.jpg"
+    },
+    {
+      "id": "f3fe42a4b3a4",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-08-14T15:43:28+00:00",
+      "score": 3.33,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2239280474.jpg?resize=1200,800"
+    },
+    {
+      "id": "56f28cd3a41a",
+      "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+      "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+      "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+      "source": "Ars Technica",
+      "published": "2026-08-14T14:27:14+00:00",
+      "score": 3.26,
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-2285566787-1152x648.jpg"
+    },
+    {
+      "id": "c3418764be1f",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#160;arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-08-14T14:00:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "9059c8312a43",
+      "title": "Kubeflow Expands AI Capabilities as CNCF Graduation Nears",
+      "url": "https://www.infoq.com/news/2026/08/kubeflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Kubeflow project has unveiled several technical updates to enhance distributed AI and high-performance computing on Kubernetes. These advancements include Kale 2.0, a modernised SDK with native Spark support, and expanded capabilities for the Kubeflow Trainer. The developments arrive as the project moves towards graduation from the Cloud Native Computing Foundation. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-14T08:00:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "16b707ac39bd",
+      "title": "Presentation: The Right 300 Tokens Beat 100k Noisy Ones: The Architecture of Context Engineering",
+      "url": "https://www.infoq.com/presentations/architecture-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Baruch Sadogursky and Patrick Debois discuss why coding agents fail due to bloated context windows and stuffed prompts. They explain practical context engineering fixes, including lazy-loaded skills, versioned context artifacts, externalized memory banks, and LLM-as-a-judge evals. Software architects & engineering leaders will learn how to turn raw markdown files into reliable agentic workflows. By Patrick Debois, Baruch Sadogursky",
+      "source": "InfoQ",
+      "published": "2026-08-14T11:00:00+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "0bb7c760ba82",
+      "title": "How to bring your software delivery workflow into GitHub with agent apps",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+      "summary": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub. \nThe post How to bring your software delivery workflow into GitHub with agent apps appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-14T16:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "952a2dd22c0e",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T21:13:24+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "a894d6a4673a",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-13T19:22:40+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "3393aeaaa648",
+      "title": "RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop",
+      "url": "https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like\nThe post RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-14T15:00:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "8eae0f72affc",
+      "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has migrated cdnjs, its open source CDN for JavaScript and CSS libraries, to its Developer Platform. The new architecture uses Workers, R2, KV, Workflows, Queues, Durable Objects and Containers, consolidating publishing and delivery infrastructure while preserving package contents, URLs and SRI hashes at a scale of 9 billion requests per day. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-08-14T14:42:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "085e8b69fe8a",
+      "title": "Rx.NET 7.0 Reduces Deployment Size by Splitting Windows UI Support",
+      "url": "https://www.infoq.com/news/2026/08/rx-net-7/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rx.NET 7.0 has been released with a narrowly focused change aimed at reducing deployment size for Windows applications. The new version separates WPF, Windows Forms, UWP, and Windows Runtime integration from the main System.Reactive package, avoiding cases where self-contained applications could acquire tens of megabytes of unused framework dependencies. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-08-14T08:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "75d00b92f98c",
+      "title": "A Day in the Life of a Data Scientist in 2026",
+      "url": "https://towardsdatascience.com/a-day-in-the-life-of-a-data-scientist-in-2026/",
+      "summary": "How AI has massively changed my day-to-day workflow\nThe post A Day in the Life of a Data Scientist in 2026 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-14T16:30:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "47581de17fe4",
+      "title": "This scientist is helping build a missing map of childhood",
+      "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
+      "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged, she discovered that the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-14T09:00:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "d786edd86847",
+      "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
+      "url": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta AI Research has introduced Muse Glimmer, a 30-billion-parameter open-weight model under the Apache 2.0 license, designed for local workflows. It enables autonomous agents and complex task execution on consumer GPUs without relying on cloud APIs. The model employs a multi-stage training approach for efficient performance and supports multimodal inputs, enhancing coding and automation tasks. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-14T05:05:00+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "bef83da60051",
+      "title": "I Made an LLM Lay Siege to My Minecraft House",
+      "url": "https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/",
+      "summary": "Can a language model do live adversarial level design? Yes, emphasis on the adversarial part\nThe post I Made an LLM Lay Siege to My Minecraft House appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-14T12:00:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "71ba9336556e",
+      "title": "Reproducible canvas-aligned low-level patterns in somerandomllm-generated images and their possible relation to iterative editing artifacts [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vnq08v/reproducible_canvasaligned_lowlevel_patterns_in/",
+      "summary": "I may have stumbled onto something interesting while trying to figure out a recurring artifact in ChatGPT image generation and editing (maybe applicable to other models as well?). It started with a very practical problem: After several rounds of generative editing on portraits, I would sometimes get this faint cloudy / mottled texture in areas that should have stayed smooth — backgrounds, walls, skin, and other low-detail regions. At first I wrote it off as normal denoising or regeneration noise. But the more I tested it, the less random it looked. What first caught my attention  Running essen",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-13T22:52:35+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
