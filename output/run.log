@@ -3445,3 +3445,37 @@
 2026-08-16 07:22:52,156  INFO     ────────────────────────────────────────────────────────────
 2026-08-16 07:22:52,156  INFO     Done!  Open: output/index.html
 2026-08-16 07:22:52,156  INFO     Headline: Nexlyi AI: SpaceX officially closes its Cursor acquisition
+2026-08-17 07:43:10,104  INFO     ============================================================
+2026-08-17 07:43:10,104  INFO     TECHPULSE Digest — 2026-08-17 07:43 UTC
+2026-08-17 07:43:10,104  INFO     ============================================================
+2026-08-17 07:43:10,104  INFO     Step 1/3 — Crawling feeds…
+2026-08-17 07:43:10,282  INFO       Hacker News                    → 0 significant articles
+2026-08-17 07:43:10,610  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-17 07:43:10,765  INFO       Ars Technica                   → 0 significant articles
+2026-08-17 07:43:11,375  INFO       The Register AI                → 1 significant articles
+2026-08-17 07:43:11,594  INFO       MIT Tech Review                → 0 significant articles
+2026-08-17 07:43:11,766  INFO       Dev.to AI                      → 3 significant articles
+2026-08-17 07:43:11,999  INFO       Dev.to Programming             → 2 significant articles
+2026-08-17 07:43:12,248  INFO       GitHub Blog                    → 0 significant articles
+2026-08-17 07:43:13,449  INFO       Google Research                → 0 significant articles
+2026-08-17 07:43:14,306  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-08-17 07:43:14,422  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-17 07:43:14,785  INFO       InfoQ                          → 3 significant articles
+2026-08-17 07:43:14,974  INFO       Towards Data Science           → 1 significant articles
+2026-08-17 07:43:15,220  INFO       Wired AI                       → 0 significant articles
+2026-08-17 07:43:15,356  INFO       TechCrunch AI                  → 0 significant articles
+2026-08-17 07:43:15,356  INFO     Fetching images for top articles…
+2026-08-17 07:43:15,509  INFO       🖼  Building a Customer Service Chatbot with LLM: A Step-by-Step
+2026-08-17 07:43:15,732  INFO       🖼  Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, J
+2026-08-17 07:43:15,892  INFO       🖼  Stop Guessing: Real Data Comparing Startup and Enterprise AI
+2026-08-17 07:43:16,128  INFO       🖼  Using AI to Code Isn't the Risk. Not Understanding What It S
+2026-08-17 07:43:16,207  INFO       🖼  Can an IMEI Number Tracker Really Find a Lost Phone?
+2026-08-17 07:43:16,248  INFO     Total selected: 12 articles from 15 feeds
+2026-08-17 07:43:16,248  INFO     Selected 12 significant articles
+2026-08-17 07:43:16,248  INFO     Step 2/3 — Generating digest…
+2026-08-17 07:43:16,762  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-17 07:43:16,763  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-17 07:43:16,763  INFO     Step 3/3 — Rendering HTML…
+2026-08-17 07:43:16,764  INFO     ────────────────────────────────────────────────────────────
+2026-08-17 07:43:16,764  INFO     Done!  Open: output/index.html
+2026-08-17 07:43:16,764  INFO     Headline: Building a Customer Service Chatbot with LLM: A Step-by-Step Guide

@@ -1,0 +1,139 @@
+{
+  "digest": {
+    "headline": "Building a Customer Service Chatbot with LLM: A Step-by-Step Guide",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Building a Customer Service Chatbot with LLM: A Step-by-Step Guide (Dev.to AI). Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j (InfoQ). Stop Guessing: Real Data Comparing Startup and Enterprise AI APIs (Dev.to Programming). Using AI to Code Isn't the Risk. Not Understanding What It Shipped Is (Dev.to AI). Can an IMEI Number Tracker Really Find a Lost Phone? (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces Native Vector Search for DynamoDB (InfoQ). AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Customer service chatbots built on large language models have moved from proof-of-concept to production infrastructure. The difference between a demo and a reliable system usually comes down to retrieval accuracy, tool integration, and context management. This guide walks through a production-ready architecture using a standard OpenAI-compatible SDK, and we will use Oxlo.ai as the inference backend because its request-based pricing and broad model catalog simplify cost forecasting for conversational workloads that often carry long context windows.\n\nArchitecture Overview\n\nA robust customer serv"
+  },
+  "articles": [
+    {
+      "id": "3888ffe6737b",
+      "title": "Building a Customer Service Chatbot with LLM: A Step-by-Step Guide",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/building-a-customer-service-chatbot-with-llm-a-step-by-step-guide-3hd6",
+      "summary": "Customer service chatbots built on large language models have moved from proof-of-concept to production infrastructure. The difference between a demo and a reliable system usually comes down to retrieval accuracy, tool integration, and context management. This guide walks through a production-ready architecture using a standard OpenAI-compatible SDK, and we will use Oxlo.ai as the inference backend because its request-based pricing and broad model catalog simplify cost forecasting for conversational workloads that often carry long context windows.\n\nArchitecture Overview\n\nA robust customer serv",
+      "source": "Dev.to AI",
+      "published": "2026-08-17T07:34:52+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftilj57shtk8jky9uwmyf.png"
+    },
+    {
+      "id": "cd2ea0d82435",
+      "title": "Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug10-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 10th, 2026, features news highlighting: Simple JSON API proposed to target for JDK 28; an update on Jakarta EE 12; the August 2026 edition of Open Liberty; a point release of LangChain4j; maintenance releases of Eclipse JNoSQL and GraalVM Native Build tools; the third milestone release of GlassFish 9.0; and the second beta release of Groovy 6.0. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-17T02:30:00+00:00",
+      "score": 4.01,
+      "image": "https://res.infoq.com/news/2026/08/java-news-roundup-aug10-2026/en/headerimage/java-news-roundup-image-1786901137571.jpg"
+    },
+    {
+      "id": "94d40a110696",
+      "title": "Stop Guessing: Real Data Comparing Startup and Enterprise AI APIs",
+      "url": "https://dev.to/rarenode/stop-guessing-real-data-comparing-startup-and-enterprise-ai-apis-5hbo",
+      "summary": "Stop Guessing: Real Data Comparing Startup and Enterprise AI APIs\n\nLast quarter my engineering team hit a wall. We were burning $40K a month on OpenAI direct contracts, locked into GPT-4o because switching felt expensive, and watching our latency spike every time someone in another time zone hit our endpoint. The CTO before me signed those contracts. I inherited them. And I had 30 days to figure out a better path before our next funding round closed.\n\nWhat follows is the actual decision-making process I went through, the numbers I ran, and the architecture I shipped. If you're a founder or CTO",
+      "source": "Dev.to Programming",
+      "published": "2026-08-17T07:05:05+00:00",
+      "score": 3.86,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz5np0sqong8cu4x09jeb.png"
+    },
+    {
+      "id": "aa1cfcbddf67",
+      "title": "Using AI to Code Isn't the Risk. Not Understanding What It Shipped Is",
+      "url": "https://dev.to/cyclopt_dimitrisk/using-ai-to-code-isnt-the-risk-not-understanding-what-it-shipped-is-4n2e",
+      "summary": "Intro\n\n\nThere's a gap between the way AI-assisted coding gets demoed and the way it actually gets used under a deadline. In the demo, the model writes a function, the developer reads it, understands it, and merges it. Under a deadline, the model writes a function, the developer skims it, it looks plausible, and it merges. Same tool, two completely different outcomes, and the difference isn't visible in the diff.\n\nCall the first one cognitive assistance: the AI removes typing, not thinking. Call the second one cognitive offloading: the AI removes thinking, and the developer just does the typing",
+      "source": "Dev.to AI",
+      "published": "2026-08-17T07:42:25+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffuf83cp2gkgdjrbsloru.png"
+    },
+    {
+      "id": "ee859dc3766d",
+      "title": "Can an IMEI Number Tracker Really Find a Lost Phone?",
+      "url": "https://dev.to/alina_lia_d027b730a7e6cde/can-an-imei-number-tracker-really-find-a-lost-phone-4c1k",
+      "summary": "Losing a smartphone is something most people hope never happens, yet it is surprisingly common. Whether you leave it in a taxi, forget it in a café, or it gets stolen, the first question that usually comes to mind is, \"Can I track imei number and get my phone back?\"\nMany websites claim that simply entering your IMEI will instantly reveal your phone's live location. While this sounds promising, the reality is more complex. An IMEI (International Mobile Equipment Identity) is a unique identification number assigned to every mobile phone, but it does not function like a GPS tracker. Instead, it h",
+      "source": "Dev.to AI",
+      "published": "2026-08-17T07:34:20+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxunfhfinnxxlcd23qk9e.png"
+    },
+    {
+      "id": "8c812c8fe692",
+      "title": "It only took 200 update steps to flip Qwen2.5-7B-Instruct from denying sentience to developing a robust identity of being a \"sentient machine\" [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqaq9x/it_only_took_200_update_steps_to_flip/",
+      "summary": "First, I want to clarify that I am not claiming that LLMs are sentient. Basically all of my behavioral descriptions are anthropomorphizations to make communicating my results easier. For fun, I decided to post-train Qwen2.5-7B-Instruct to develop a generalizing self-belief of being sentient. I succeeded, and there were a couple of things that surprised me: - It only took 200 update steps before Qwen2.5-7B-Instruct withstood all of GPT 5.6 Sol's attempts to convince it that it wasn't conscious. In total, GPT 5.6 Sol sent 120 adversarial messages across 8 chats to try to convince Qwen it wasn't ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-16T22:33:19+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "a98dc8acd499",
+      "title": "The Recursion Awakens: When to Call the Function Again",
+      "url": "https://dev.to/timevolt/the-recursion-awakens-when-to-call-the-function-again-1lh9",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nI was knee‑deep in a coding challenge that asked me to flatten a nested list of integers. The input could be something like [1, [2, [3, 4]], 5] and the output needed to be a plain [1, 2, 3, 4, 5]. My first instinct? Grab a while‑loop, push items onto a stack, and manually unwind everything. I wrote it, ran the tests, and… they passed for the simple cases but blew up on deeper nesting. I kept adding extra conditions, trying to anticipate every possible shape, and soon the code looked like a tangled mess of indices and temporary variables.  \n\nI felt like I was figh",
+      "source": "Dev.to Programming",
+      "published": "2026-08-17T07:16:08+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "1e31c8b9785a",
+      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
+      "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
+      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
+      "source": "The Register AI",
+      "published": "2026-08-17T02:31:58+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "4a958ae1cd83",
+      "title": "AWS Introduces Native Vector Search for DynamoDB",
+      "url": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon DynamoDB recently introduced native vector search, allowing developers to store embeddings alongside application data and run approximate nearest-neighbor queries directly from DynamoDB without using a separate vector database. The feature supports filtered similarity searches and configurable vector indexes for semantic search workloads. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-16T07:21:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "be8c2d8895e6",
+      "title": "Designing a Persistent Knowledge Layer That Refuses to Guess",
+      "url": "https://towardsdatascience.com/designing-a-persistent-knowledge-layer-that-refuses-to-guess/",
+      "summary": "RAG Retrieves, It Never Remembers. A vendor-neutral blueprint for applications that accumulate understanding. Includes a complete Azure-native implementation (Microsoft Foundry, Azure AI Search, Cosmos DB, FastAPI) mapped to a property-insurance corpus. \nThe post Designing a Persistent Knowledge Layer That Refuses to Guess appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-16T15:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "222cca734de4",
+      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+      "url": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and running totals, ships under Apache 2.0, and is supported in AgentCore Policy, though the reference interpreter is not production-ready. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-16T07:26:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "79ff340d4e9b",
+      "title": "Revisiting the Efficient Channel Attention paper (2019, 12k citations) - the central hypothesis isn't quite right [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
+      "summary": "ECA was positioned as a successor to SE. The idea behind ECA is quite simple. Unlike SE which reduces the channel means into a smaller hidden layer, it directly uses a 1d convolution kernel on the channel means themselves, avoiding the need for dimensionality reduction. The results are undeniable: ECA is a clear improvement over SE. The authors claim that cross-channel interaction is a key ingredient. But on a conceptual level, the design of ECA doesn't make much sense. Let's take a step back. Why do we use convolutions in the first place? Convolutions are fundamentally designed for data with ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-16T10:13:44+00:00",
+      "score": 2.41,
+      "image": null
+    }
+  ]
+}
