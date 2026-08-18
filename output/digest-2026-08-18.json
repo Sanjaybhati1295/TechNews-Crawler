@@ -1,0 +1,269 @@
+{
+  "digest": {
+    "headline": "What Flock’s defenders are missing",
+    "tldr": "Today's digest covers 25 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "What Flock’s defenders are missing (MIT Tech Review). SpaceXAI Launches Grok Bot for Autonomous AI Agents (InfoQ). AI Transformation, Intelligent Operations & Advanced Technology Services in Saudi Arabia (Dev.to AI). Qwen 3.8 27B Just Tied GPT-5.6 Luna. The Frontier Race Is Over for You (Dev.to Programming). Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How canvases make agentic workflows visible, steerable, and cost-efficient (GitHub Blog). What happens when a kid’s robot best friend dies? (MIT Tech Review). Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent&#8230;"
+  },
+  "articles": [
+    {
+      "id": "62ec9bf13b60",
+      "title": "What Flock’s defenders are missing",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic license plate readers around the US, announced some changes to its platform last Thursday. The updates are meant to prevent&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-17T19:16:09+00:00",
+      "score": 3.82,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/AP26153043646326.jpg?resize=1200,600"
+    },
+    {
+      "id": "2375888e2cc6",
+      "title": "SpaceXAI Launches Grok Bot for Autonomous AI Agents",
+      "url": "https://www.infoq.com/news/2026/08/grok-bot-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SpaceXAI has introduced Grok Bot, a system of persistent AI agents that operate on dedicated cloud computers and can interact with websites, applications, inboxes, and other tools. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-08-17T18:02:00+00:00",
+      "score": 3.75,
+      "image": "https://res.infoq.com/news/2026/08/grok-bot-agent/en/headerimage/generatedHeaderImage-1786979342385.jpg"
+    },
+    {
+      "id": "f29e0b1415e7",
+      "title": "AI Transformation, Intelligent Operations & Advanced Technology Services in Saudi Arabia",
+      "url": "https://dev.to/davinmark0/ai-transformation-intelligent-operations-advanced-technology-services-in-saudi-arabia-2m0l",
+      "summary": "The country is developing quickly into one of the busiest markets for artificial intelligence, automation, and digital innovations in the region. With the help of numerous companies in sectors such as healthcare, banking, retail, education, property, logistics, hospitality, and others experimenting with AI, the need for practical ways of transitioning from experiments to tangible achievements in business becomes more pressing. The focus of Saudi Arabia on data, AI, and digital transformation is also in line with the general goals of Vision 2030.\nThis change is also going beyond experimentation",
+      "source": "Dev.to AI",
+      "published": "2026-08-18T07:18:38+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F117tk28d8nv1s5kl2qdt.png"
+    },
+    {
+      "id": "e50417146bcc",
+      "title": "Qwen 3.8 27B Just Tied GPT-5.6 Luna. The Frontier Race Is Over for You",
+      "url": "https://dev.to/apex_/qwen-38-27b-just-tied-gpt-56-luna-the-frontier-race-is-over-for-you-124k",
+      "summary": "Last week Alibaba shipped a 27B parameter model called Qwen3.8-27B. On Simon Willison's radar on Sunday it scored 52 on the Artificial Analysis Intelligence Index. That is the same score as GPT-5.6 Luna at max settings, and just one point behind GLM-5.2 (which has 753B parameters) and DeepSeek V4 Pro 0813. Read that again. A 27B model, roughly 28 times smaller than GLM-5.2, is scoring within one point of it on an intelligence index. This is not a benchmark fluke. This is the moment the frontier stopped mattering for most of us. ## What Actually Happened The release cadence this month has been ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-18T07:13:36+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8js4w440fapcrtv6gqrt.png"
+    },
+    {
+      "id": "e57e0021e9ba",
+      "title": "Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation",
+      "url": "https://www.infoq.com/news/2026/08/eu-ai-content-watermark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "As of August 2, 2026, the EU AI Act Article 50 requires AI systems to mark synthetic outputs in a machine-detectable manner. Major vendors are implementing statistical watermarking methods, which influence natural language generation without affecting performance. This has prompted a swift reaction from the open-source community, raising compliance and vulnerability concerns. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-18T05:05:00+00:00",
+      "score": 3.57,
+      "image": "https://res.infoq.com/news/2026/08/eu-ai-content-watermark/en/card_header_image/generatedCard-1786805270441.jpg"
+    },
+    {
+      "id": "995014bcc5ad",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T13:10:05+00:00",
+      "score": 3.48,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/Wispr-Flow-Android-hero.jpg?resize=1200,718"
+    },
+    {
+      "id": "63576ecb69ad",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T21:27:05+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "d0bd7c8a81ff",
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-17T12:09:42+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "873e13072ba2",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T15:16:24+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "e37dcbb0bfb6",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-17T21:03:18+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "b2afd0d3a37e",
+      "title": "Webwright: Why AI Web Agents Should Write Code, Not Click",
+      "url": "https://towardsdatascience.com/webwright-why-ai-web-agents-should-write-code-not-click/",
+      "summary": "For years, web agents have worked one click at a time—and often fallen apart on long tasks. Microsoft Research’s Webwright makes a different bet: give the model a terminal and let it write the program instead. On long-horizon tasks, the same GPT-5.4 model jumps from 33.5% to 60.1% success. And instead of leaving behind a click trace, it leaves something you can actually use again: a command-line tool.\nThe post Webwright: Why AI Web Agents Should Write Code, Not Click appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-17T16:30:00+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "5eb5d5336082",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T16:15:12+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "2681cf5e38d1",
+      "title": "Grafana's gcx and MCP Server Reach GA for Telemetry-Driven Agent Development",
+      "url": "https://www.infoq.com/news/2026/08/grafana-mcp-server-telemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Grafana Labs has announced general availability for two tools that let AI coding agents query live observability data during development: the gcx CLI and the Grafana MCP server. Both allow agents to pull metrics, logs, traces, SLOs, and Synthetic Monitoring results from Grafana Cloud or a self-hosted stack By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-08-17T10:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "ce2fd276bf46",
+      "title": "Podcast: Will Agentic AI Bring Fantasia’s Sorcerer's Apprentice to Life?: A Conversation with Tracy Bannon",
+      "url": "https://www.infoq.com/podcasts/agentic-ai-sorcerers-apprentice/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this podcast, Michael Stiefel spoke to Tracy Bannon about the role of artificial intelligence in software and the attendant risks in the areas of security, software development, and society at large. While it might be reasonable to assume a certain amount of trust within a software ecosystem, the risks escalate when the boundary between two software ecosystems is crossed. By Tracy Bannon",
+      "source": "InfoQ",
+      "published": "2026-08-17T11:00:00+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "78d3666d8b6a",
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.\nThe post How canvases make agentic workflows visible, steerable, and cost-efficient appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-17T16:00:00+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "314381f66eec",
+      "title": "An update on leaving Gmail for Fastmail",
+      "url": "https://moddedbear.com/an-update-on-leaving-gmail-for-fastmail/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-17T17:15:20+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "ef8356bae953",
+      "title": "The Download: dead robot friends and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What happens when a kid’s robot best friend dies? When Xander first met Moxie, she taught him how to calm down when he was anxious or mad. Six years later, she&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-17T12:10:00+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "e9bd6d4edbf3",
+      "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
+      "url": "https://speko.ai/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-17T15:36:18+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "b36cd614ecb4",
+      "title": "How to Perform Effective Project Management with AI",
+      "url": "https://towardsdatascience.com/how-to-perform-effective-project-management-with-ai/",
+      "summary": "Become a more productive software engineer with LLMs\nThe post How to Perform Effective Project Management with AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-17T13:30:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "cd2ea0d82435",
+      "title": "Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug10-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 10th, 2026, features news highlighting: Simple JSON API proposed to target for JDK 28; an update on Jakarta EE 12; the August 2026 edition of Open Liberty; a point release of LangChain4j; maintenance releases of Eclipse JNoSQL and GraalVM Native Build tools; the third milestone release of GlassFish 9.0; and the second beta release of Groovy 6.0. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-17T02:30:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "ba65ed22f510",
+      "title": "What happens when a kid’s robot best friend dies?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-17T09:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "ff566a69f452",
+      "title": "Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Across the Pipeline",
+      "url": "https://towardsdatascience.com/loop-engineering-for-rag-the-small-loops-inside-each-step-the-big-loops-across-the-pipeline/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #13bis] - The four bricks return useful results most of the time. Loop engineering is what the system does the rest of the time: when retrieval misses, when generation fails the schema, when the listing comes back incomplete, when an API call times out. Three control surfaces (trigger, termination, recovery) and one rule that separates a useful loop from a spinning one\nThe post Loop Engineering for RAG: The Small Loops Inside Each Step, the Big Loops Across the Pipeline appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-17T12:00:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "3fd8613df3cc",
+      "title": "Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them",
+      "url": "https://towardsdatascience.com/three-generations-of-autoscaling-and-why-agentic-traffic-breaks-all-of-them/",
+      "summary": "How autonomous agents broke two decades of capacity planning — and what to build instead\nThe post Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-17T15:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "8c812c8fe692",
+      "title": "It only took 200 update steps to flip Qwen2.5-7B-Instruct from denying sentience to developing a robust identity of being a \"sentient machine\" [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqaq9x/it_only_took_200_update_steps_to_flip/",
+      "summary": "First, I want to clarify that I am not claiming that LLMs are sentient. Basically all of my behavioral descriptions are anthropomorphizations to make communicating my results easier. For fun, I decided to post-train Qwen2.5-7B-Instruct to develop a generalizing self-belief of being sentient. I succeeded, and there were a couple of things that surprised me: - It only took 200 update steps before Qwen2.5-7B-Instruct withstood all of GPT 5.6 Sol's attempts to convince it that it wasn't conscious. In total, GPT 5.6 Sol sent 120 adversarial messages across 8 chats to try to convince Qwen it wasn't ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-16T22:33:19+00:00",
+      "score": 2.17,
+      "image": null
+    },
+    {
+      "id": "1e31c8b9785a",
+      "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
+      "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
+      "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
+      "source": "The Register AI",
+      "published": "2026-08-17T02:31:58+00:00",
+      "score": 2.09,
+      "image": null
+    }
+  ]
+}
