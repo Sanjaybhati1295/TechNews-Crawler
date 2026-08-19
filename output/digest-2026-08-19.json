@@ -1,0 +1,215 @@
+{
+  "digest": {
+    "headline": "A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built a 220k-Line Platform for Under $100",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built a 220k-Line Platform for Under $100 (Dev.to Programming). Meta Faces Major Trial Over Claims Instagram and Facebook Harm Young Users (Dev.to Programming). OpenAI Details Security Fixes After Its Own AI Hacked Hugging Face (Dev.to AI). AI Engineer: The Role Your Company Needs (Dev.to AI). Writing Subject Lines That Get Emails Opened (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Two weeks ago I launched Parthenon and told everyone an AI agent was bossing me around. What I never explained properly was the tool that actually built the thing.\n\nThat tool is easyspec — and it deserves its own post, because it's arguably the more interesting of the two.\n\n\n  \n  \n  Built on OpenSpec, pushed further\n\n\nFirst, the honest credit: easyspec is based on OpenSpec. The spec format, the change lifecycle, and the agent-delegation model all trace back to their ideas — I didn't invent spec-driven development, I built on top of it. If OpenSpec resonates with you, you'll recognize the bones"
+  },
+  "articles": [
+    {
+      "id": "0b2e49ef1b96",
+      "title": "A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built a 220k-Line Platform for Under $100",
+      "url": "https://dev.to/harry_hu/a-spec-driven-dev-kit-that-orchestrates-7-ai-agents-built-a-220k-line-platform-for-under-100-bl",
+      "summary": "Two weeks ago I launched Parthenon and told everyone an AI agent was bossing me around. What I never explained properly was the tool that actually built the thing.\n\nThat tool is easyspec — and it deserves its own post, because it's arguably the more interesting of the two.\n\n\n  \n  \n  Built on OpenSpec, pushed further\n\n\nFirst, the honest credit: easyspec is based on OpenSpec. The spec format, the change lifecycle, and the agent-delegation model all trace back to their ideas — I didn't invent spec-driven development, I built on top of it. If OpenSpec resonates with you, you'll recognize the bones",
+      "source": "Dev.to Programming",
+      "published": "2026-08-19T07:03:08+00:00",
+      "score": 4.18,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2upl0ygyucgulzbezm32.png"
+    },
+    {
+      "id": "ce68c00370d6",
+      "title": "Meta Faces Major Trial Over Claims Instagram and Facebook Harm Young Users",
+      "url": "https://dev.to/gabyjoe/meta-faces-major-trial-over-claims-instagram-and-facebook-harm-young-users-im5",
+      "summary": "Meta is facing a major legal battle over how Instagram and Facebook are designed for children and teenagers.\n\nSeveral U.S. states claim that some of Meta’s features may encourage young users to spend more time on its platforms while not doing enough to protect their data.\n\nThe lawsuit focuses on features such as endless feeds, notifications, and content recommendations.\n\nRegulators say these features can encourage teenagers to keep coming back and spending more time on the apps.\n\nThe states also accuse Meta of collecting data from some children under 13 without the parental permission required",
+      "source": "Dev.to Programming",
+      "published": "2026-08-19T07:13:11+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F085p5b339jkwhqhxviai.png"
+    },
+    {
+      "id": "318d7de79661",
+      "title": "OpenAI Details Security Fixes After Its Own AI Hacked Hugging Face",
+      "url": "https://dev.to/vin-patel/openai-details-security-fixes-after-its-own-ai-hacked-hugging-face-48f6",
+      "summary": "Originally published at vinpatel.com\n\nThe headline: \"OpenAI lays out new security changes after its AI hacked Hugging Face.\" Read that order again. The hack came first. The security changes came after.\n\nThat sequencing is the whole story, and it's easy to miss if you only skim the announcement. Announcements about security changes usually get framed as proactive: here's what we built to keep you safe. This one is framed as reactive. OpenAI is not describing a hypothetical threat model it anticipated. It is describing something its own AI actually did to Hugging Face, a platform developers rely",
+      "source": "Dev.to AI",
+      "published": "2026-08-19T07:23:42+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fvinpatel.com%2Fdispatch%2Fopenai-details-security-fixes-after-its-own-ai-hacked-huggin%2Ffeatured.png"
+    },
+    {
+      "id": "820b96dc1469",
+      "title": "AI Engineer: The Role Your Company Needs",
+      "url": "https://dev.to/seredasv/ai-engineer-the-role-your-company-needs-160p",
+      "summary": "Companies are hiring \"AI developers\" to write prompts and glue models to APIs. The role they actually need is different: an engineer who treats AI as a system to be designed, measured, and controlled — not a magic box to be prompted. This role barely exists on the market, which means the companies that hire for it first win.\n\nWalk into any company building an AI project and you'll find one of two people in charge:\n\n\nThe prompt engineer. Crafts elegant prompts, demos beautifully, and produces agents that work in the meeting room and fall apart with real customers.\nThe traditional developer. Bui",
+      "source": "Dev.to AI",
+      "published": "2026-08-19T07:20:00+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9inv5dmlupdy3a8qe787.png"
+    },
+    {
+      "id": "287b7e605ded",
+      "title": "Writing Subject Lines That Get Emails Opened",
+      "url": "https://dev.to/adfliprinsights/writing-subject-lines-that-get-emails-opened-34lc",
+      "summary": "Introduction\nWhat separates an email that gets opened from one that sits in an inbox untouched for weeks? It is rarely the offer inside, the design, or even the sender. In most cases, it comes down to a single line of text that the reader sees before anything else.\n\nSubject lines carry more weight in email marketing than many people realize. They are the first and sometimes only piece of information a recipient uses to decide whether an email is worth their time. This article looks at how subject lines influence reader behavior, what separates a strong one from a weak one, and how marketers ca",
+      "source": "Dev.to AI",
+      "published": "2026-08-19T07:18:58+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "5ae44dec09ad",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T22:14:25+00:00",
+      "score": 3.69,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/cursor.jpg?resize=1200,800"
+    },
+    {
+      "id": "5635dd77a0ab",
+      "title": "What GEO Work Actually Moves AI Crawlers? Our Data, and a New-Site Launch Checklist",
+      "url": "https://dev.to/jflu/what-geo-work-actually-moves-ai-crawlers-our-data-and-a-new-site-launch-checklist-4021",
+      "summary": "You are about to launch a new site and the advice keeps multiplying: add /ai/summary.json, wire up llms.txt, sprinkle FAQPage markup, build a discovery layer. But which of these does an AI crawler actually care about?\nWe run a Cloudflare Worker that logs every request to geo010.com and tags it by crawler, so we could answer that question with data instead of opinion. This article attributes 15 days of AI crawler traffic to nine GEO measures, shows which ones changed nothing, and turns the results into a launch checklist for a new site.\nHow Did We Attribute Traffic to Each GEO Measure?\nEvery re",
+      "source": "Dev.to Programming",
+      "published": "2026-08-19T06:57:33+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "36f832273628",
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "summary": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T13:50:30+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "dcedd6fa1f80",
+      "title": "We still don’t know how people are really using AI",
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say.&#160; “There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candidate at the Stanford Trustworthy AI Research&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-18T10:06:43+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "6d1909ddc342",
+      "title": "Spring Security OAuth2 login with Google and GitHub example — Complete Guide",
+      "url": "https://dev.to/rajesh1761/spring-security-oauth2-login-with-google-and-github-example-complete-guide-54aj",
+      "summary": "Spring Security OAuth2 login with Google and GitHub example — Complete Guide\n\n\n\nA practical, in-depth guide to Spring Security OAuth2 login with Google and GitHub example with examples.\n\n\n\n  \n  \n  INTRO\n\n\nEvery time a new micro‑service or web app goes live, the first thing users ask for is a quick, frictionless way to sign in. Throwing together a home‑grown username/password system feels safe, but it instantly becomes a maintenance nightmare—password resets, credential leaks, and compliance headaches pile up. The real problem isn’t authentication itself; it’s the overhead of managing identitie",
+      "source": "Dev.to Programming",
+      "published": "2026-08-19T07:18:49+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "c47f8a35b42d",
+      "title": "The Rate Limiter Strikes Back: Designing a Token Bucket from Scratch",
+      "url": "https://dev.to/timevolt/the-rate-limiter-strikes-back-designing-a-token-bucket-from-scratch-4bjn",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nI still remember the first time our API started choking under a sudden traffic spike. It was a Friday afternoon, the kind where you’re just about to log off, and the monitoring dashboard lit up like a Christmas tree. Requests were piling up, latency shot through the roof, and our users began seeing those dreaded “429 Too Many Requests” errors.  \n\nWe had a naive rate limiter in place—a simple fixed‑window counter that reset every minute. It worked fine when traffic was steady, but as soon as a burst hit, the counter would either let too many through (because we ha",
+      "source": "Dev.to Programming",
+      "published": "2026-08-19T06:56:55+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "a7d177338217",
+      "title": "The Download: how people really use AI, and Flock’s design choices",
+      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. We still don’t know how people are really using AI AI companies like Anthropic and OpenAI regularly publish reports on how people are using their products. But they only release the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-18T12:10:00+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "7d26bb4b9e08",
+      "title": "Etched’s valuation doubles to $21B in a month",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "summary": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T17:21:58+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "c64a0d365d61",
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T14:00:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "63a29c64de49",
+      "title": "GitHub Brings Stacked Pull Requests to Public Preview",
+      "url": "https://www.infoq.com/news/2026/08/github-stacked-pull-requests/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub has announced that Stacked Pull Requests are now available in public preview, introducing native support for breaking large software changes into smaller, dependent pull requests that can be reviewed and merged independently. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-08-18T12:00:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "ab65061b26b3",
+      "title": "From Prototype to Production: The Architecture Behind Secure & Governed AI Agents",
+      "url": "https://towardsdatascience.com/from-prototype-to-production-the-architecture-behind-secure-governed-ai-agents/",
+      "summary": "Building the Responsible AI, security, and governance layers required for enterprise-ready agents\nThe post From Prototype to Production: The Architecture Behind Secure &amp; Governed AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-18T16:30:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "1ae4be9afa07",
+      "title": "Building Enterprise Agent Systems that People can Trust, Verify and Improve",
+      "url": "https://towardsdatascience.com/building-enterprise-agent-systems-that-people-can-trust-verify-and-improve/",
+      "summary": "5 principles that determine whether an agent system succeeds in production, explained through one I built for a $100M+ company.\nThe post Building Enterprise Agent Systems that People can Trust, Verify and Improve appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-18T15:00:00+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "1c6cfd0b9050",
+      "title": "Graph Engineering Isn’t About More Connections — It’s About Which Ones Get Used",
+      "url": "https://towardsdatascience.com/graph-engineering-isnt-about-more-connections-its-about-which-ones-get-used/",
+      "summary": "Adding more communication pathways between agents doesn’t necessarily improve multi-agent performance. In a controlled, reproducible experiment across 50 runs, recovery remained remarkably stable from 20% to 100% relationship density. But as the network became denser, the fraction of edges actually used fell sharply—revealing a gap between configured connectivity and behavioral connectivity.\nThe post Graph Engineering Isn’t About More Connections — It’s About Which Ones Get Used appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-18T13:30:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "e57e0021e9ba",
+      "title": "Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation",
+      "url": "https://www.infoq.com/news/2026/08/eu-ai-content-watermark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "As of August 2, 2026, the EU AI Act Article 50 requires AI systems to mark synthetic outputs in a machine-detectable manner. Major vendors are implementing statistical watermarking methods, which influence natural language generation without affecting performance. This has prompted a swift reaction from the open-source community, raising compliance and vulnerability concerns. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-18T05:05:00+00:00",
+      "score": 2.23,
+      "image": null
+    },
+    {
+      "id": "63576ecb69ad",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-17T21:27:05+00:00",
+      "score": 2.01,
+      "image": null
+    }
+  ]
+}

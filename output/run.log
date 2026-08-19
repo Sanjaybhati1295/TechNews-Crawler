@@ -3514,3 +3514,37 @@
 2026-08-18 07:29:15,179  INFO     ────────────────────────────────────────────────────────────
 2026-08-18 07:29:15,179  INFO     Done!  Open: output/index.html
 2026-08-18 07:29:15,179  INFO     Headline: What Flock’s defenders are missing
+2026-08-19 07:30:02,535  INFO     ============================================================
+2026-08-19 07:30:02,535  INFO     TECHPULSE Digest — 2026-08-19 07:30 UTC
+2026-08-19 07:30:02,535  INFO     ============================================================
+2026-08-19 07:30:02,535  INFO     Step 1/3 — Crawling feeds…
+2026-08-19 07:30:02,894  INFO       Hacker News                    → 0 significant articles
+2026-08-19 07:30:03,140  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-19 07:30:03,310  INFO       Ars Technica                   → 0 significant articles
+2026-08-19 07:30:04,231  INFO       The Register AI                → 0 significant articles
+2026-08-19 07:30:04,351  INFO       MIT Tech Review                → 2 significant articles
+2026-08-19 07:30:04,490  INFO       Dev.to AI                      → 3 significant articles
+2026-08-19 07:30:04,624  INFO       Dev.to Programming             → 5 significant articles
+2026-08-19 07:30:04,724  INFO       GitHub Blog                    → 0 significant articles
+2026-08-19 07:30:05,296  INFO       Google Research                → 0 significant articles
+2026-08-19 07:30:05,945  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-08-19 07:30:05,988  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-19 07:30:06,518  INFO       InfoQ                          → 2 significant articles
+2026-08-19 07:30:06,679  INFO       Towards Data Science           → 3 significant articles
+2026-08-19 07:30:06,844  INFO       Wired AI                       → 0 significant articles
+2026-08-19 07:30:06,957  INFO       TechCrunch AI                  → 5 significant articles
+2026-08-19 07:30:06,957  INFO     Fetching images for top articles…
+2026-08-19 07:30:07,025  INFO       🖼  A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built 
+2026-08-19 07:30:07,055  INFO       🖼  Meta Faces Major Trial Over Claims Instagram and Facebook Ha
+2026-08-19 07:30:07,098  INFO       🖼  OpenAI Details Security Fixes After Its Own AI Hacked Huggin
+2026-08-19 07:30:07,179  INFO       🖼  AI Engineer: The Role Your Company Needs
+2026-08-19 07:30:07,351  INFO       🖼  Cursor capitalizes on GitHub frustration, launches rival hos
+2026-08-19 07:30:07,352  INFO     Total selected: 20 articles from 15 feeds
+2026-08-19 07:30:07,352  INFO     Selected 20 significant articles
+2026-08-19 07:30:07,352  INFO     Step 2/3 — Generating digest…
+2026-08-19 07:30:07,888  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-19 07:30:07,888  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-19 07:30:07,888  INFO     Step 3/3 — Rendering HTML…
+2026-08-19 07:30:07,889  INFO     ────────────────────────────────────────────────────────────
+2026-08-19 07:30:07,889  INFO     Done!  Open: output/index.html
+2026-08-19 07:30:07,890  INFO     Headline: A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built a 220k-Line Platform for Under $100
