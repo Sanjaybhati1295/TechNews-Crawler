@@ -1,0 +1,199 @@
+{
+  "digest": {
+    "headline": "Harper Argues Against the Multi-System Stack and Releases 5.2",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Harper Argues Against the Multi-System Stack and Releases 5.2 (InfoQ). The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure (InfoQ). PK33 Game App – Beginner’s Guide (Dev.to AI). Free Hosted AI or Self-Hosted? Run a 20-Minute Comparison Harness Before You Choose (Dev.to AI). Docker Launches Fully Rebuilt Virtualization Layer to Boost Performance and Improve Dev Experience (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "GitHub Copilot app for Beginners: Managing your work (GitHub Blog). Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams (Hacker News)."
+      }
+    ],
+    "key_takeaway": "The database platform Harper advocates for a single-runtime architecture that keeps application code and data together, with its benchmark against a Vercel-based stack reporting significantly better performance on live, personalized-data workloads. Harper recently released version 5.2, with a new record cache and more throughput per node. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "8c27849b9f7e",
+      "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
+      "url": "https://www.infoq.com/news/2026/08/harper-vercel-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The database platform Harper advocates for a single-runtime architecture that keeps application code and data together, with its benchmark against a Vercel-based stack reporting significantly better performance on live, personalized-data workloads. Harper recently released version 5.2, with a new record cache and more throughput per node. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-20T06:20:00+00:00",
+      "score": 4.23,
+      "image": "https://res.infoq.com/news/2026/08/harper-vercel-benchmark/en/headerimage/generatedHeaderImage-1786778815218.jpg"
+    },
+    {
+      "id": "36e7bc44fd1b",
+      "title": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure",
+      "url": "https://www.infoq.com/news/2026/08/deep-seek-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DeepSeek has released a developer preview of DeepSeek Harness (dsh), an open-source execution runtime for building autonomous AI agents. The software features a micro-kernel architecture with modular plugins for various functional units. The release includes an append-only event logging system for tracking execution activities. Adoption may depend on plugin ecosystem stability and API maintenance. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-20T05:05:00+00:00",
+      "score": 4.06,
+      "image": "https://res.infoq.com/news/2026/08/deep-seek-harness/en/card_header_image/generatedCard-1787063458783.jpg"
+    },
+    {
+      "id": "d100c4d1cc00",
+      "title": "PK33 Game App – Beginner’s Guide",
+      "url": "https://dev.to/mr_alex_3926e40b04b0bd295/pk33-game-app-beginners-guide-87m",
+      "summary": "This beginner-friendly guide introduces PK33 Game App, its available gaming formats, Android installation, registration process, and key features for new users.\nhttps://pk33game.com.pk",
+      "source": "Dev.to AI",
+      "published": "2026-08-20T07:19:49+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0g3ihza6ikbfuyywkxsq.png"
+    },
+    {
+      "id": "428f57e58c14",
+      "title": "Free Hosted AI or Self-Hosted? Run a 20-Minute Comparison Harness Before You Choose",
+      "url": "https://dev.to/bestbee/free-hosted-ai-or-self-hosted-run-a-20-minute-comparison-harness-before-you-choose-462o",
+      "summary": "Two teams. Same stack. Opposite choices.\n\nTeam A grabbed free hosted tokens and shipped a demo in an afternoon. Team B self-hosted an open model and spent three weeks fighting GPU drivers. Six months later, Team A is re-architecting because a rate limit broke their CI at 4 p.m. on a Friday. Team B is... fine.\n\nThe mistake wasn't the choice. It was that neither team measured before choosing.\n\nFree hosted AI looks like a no-brainer. No GPU. No ops. No invoice. But \"free\" is a pricing model, not a fit assessment. Fit depends on variables you can measure in an afternoon: latency, token burn, error",
+      "source": "Dev.to AI",
+      "published": "2026-08-20T07:16:08+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1rfl3xdng5wut08oa8pr.png"
+    },
+    {
+      "id": "27199102cc4a",
+      "title": "Docker Launches Fully Rebuilt Virtualization Layer to Boost Performance and Improve Dev Experience",
+      "url": "https://www.infoq.com/news/2026/08/docker-vmm-layer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Docker VMM (virtual machine monitor) is Docker's new, first-party virtualization layer for Docker Desktop, replacing third-party virtualization components with an engine that Docker can directly control and optimize specifically for container workloads. The public beta launched with Docker Desktop 4.86 for Mac and Windows. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-08-19T19:00:00+00:00",
+      "score": 3.6,
+      "image": "https://res.infoq.com/news/2026/08/docker-vmm-layer/en/headerimage/docker-vmm-virtualization-1787163897320.jpeg"
+    },
+    {
+      "id": "dd7fdeb4628b",
+      "title": "Google packs Search and Gemini with new AI study tools",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T19:00:00+00:00",
+      "score": 3.6,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/google-logo.jpg?resize=1200,800"
+    },
+    {
+      "id": "27925ba7a17f",
+      "title": "The Free Tier Is the Only Failure Injection You Get for Free",
+      "url": "https://dev.to/kongkong1/the-free-tier-is-the-only-failure-injection-you-get-for-free-1pgk",
+      "summary": "Every week I review the same pull request, and every week the author is surprised by the same production outage. The demo works beautifully against a paid model with a warm connection, then the endpoint dies the moment real traffic hits a cold server. The first layer where it fails is almost never the model quality, and it is almost always the boundary between your application and the provider. That boundary is exactly where a free tier can teach you more than any load-testing dashboard ever will.\n\n\n  \n  \n  The position\n\n\nHere is the position I keep defending in those reviews: free model acces",
+      "source": "Dev.to AI",
+      "published": "2026-08-20T07:21:37+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b21a33c79899",
+      "title": "Toronto Chauffeur Service That Puts Safety and Comfort First Fast",
+      "url": "https://dev.to/nero_limo_9b630c3a10a2b91/toronto-chauffeur-service-that-puts-safety-and-comfort-first-fast-2jma",
+      "summary": "Choosing dependable transportation in a busy city can make every journey feel easier from the moment you leave home. Nero Limo delivers a professional Toronto Chauffeur Service focused on safety, comfort, punctuality, and a polished travel experience. Whether you are heading across downtown Toronto, attending a corporate meeting, or arranging an important airport transfer, every ride receives careful attention. Our Black Car Service Toronto approach combines refined vehicles with professional service for travelers who value peace of mind.\n\nWhy Choose Nero Limo for Comfortable Toronto Travel To",
+      "source": "Dev.to AI",
+      "published": "2026-08-20T07:18:32+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "5849480c11b0",
+      "title": "SBR One Residence Whitefield: Exploring a Well-Connected Residential Community",
+      "url": "https://dev.to/modern-living/sbr-one-residence-whitefield-exploring-a-well-connected-residential-community-4nma",
+      "summary": "Whitefield has become one of Bengaluru's most sought-after residential destinations, largely because it brings together employment opportunities, transportation, education, healthcare, shopping, and entertainment within one expanding urban corridor. For people looking for a home in East Bengaluru, the Hope Farm area has also gained attention due to its connectivity with different parts of Whitefield.\n\nSBR One Residence Whitefield is a residential development positioned in this part of the city. The project offers 2.5 and 3 BHK apartments along with a range of lifestyle amenities and community ",
+      "source": "Dev.to AI",
+      "published": "2026-08-20T07:16:14+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "75f038f7a938",
+      "title": "How to Optimise Odoo Implementation Services for High-Volume ERP Workloads",
+      "url": "https://dev.to/naresh_chandralohani/how-to-optimise-odoo-implementation-services-for-high-volume-erp-workloads-220i",
+      "summary": "A custom Odoo module can work perfectly with 500 records and become painfully slow with 500,000. The failure usually appears inside Python loops, repeated ORM queries, expensive computed fields, or integrations that process records one at a time. This is where Odoo Implementation Services need to move beyond module configuration and address application architecture.\n\nFor teams building Odoo on Python and PostgreSQL, the first question should be: Where is the time actually being spent? Odoo provides built-in profiling tools for SQL queries and Python execution, making that investigation measura",
+      "source": "Dev.to Programming",
+      "published": "2026-08-20T07:08:18+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "00b5fe7c7bf6",
+      "title": ".NET 11 Preview 7 Brings Updates Across C#, ASP.NET Core, EF Core, and Windows Forms",
+      "url": "https://www.infoq.com/news/2026/08/dotnet-11-preview-7/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Last week Microsoft released .NET 11 Preview 7, with updates across C#, ASP.NET Core, .NET MAUI, Entity Framework Core, Windows Forms, and F#. C# adds labeled break and continue. ASP.NET Core brings Blazor circuit pausing, CacheView, and built-in validation localization. Windows Forms gains an opt-in modern rendering pipeline, and EF Core adds Half type support on SQLite. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-08-19T09:26:00+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "e2f95ae810b5",
+      "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+      "url": "https://venturebeat.com/ai/venturebeat-names-rob-strechay-as-its-first-lead-analyst-expanding-its-enterprise-ai-research-push",
+      "summary": "Rob Strechay, until recently managing director and principal analyst at theCUBE Research, has joined VentureBeat as our first Lead Analyst and a founding analyst of VentureBeat Research. His arrival is the next step in a deliberate move at VentureBeat toward deeper specialization: analysis built for the technical decision-makers — the directors, VPs, CIOs, and CTOs — who are evaluating, buying, and deploying enterprise AI.The enterprise AI stack is being rewritten in real time, and the decision-makers I talk with are starved for objective, defendable data. Rob Strechay has the mix of technical",
+      "source": "VentureBeat AI",
+      "published": "2026-08-19T14:18:12+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "b5a1511da6d9",
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.\nThe post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-19T17:50:23+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "11b62d30a274",
+      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+      "url": "https://github.com/onecli/onecli",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-08-19T16:29:02+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "9bc229aee6b5",
+      "title": "Relativity Networks raises $22 million to bring a faster kind of fiber to data centers",
+      "url": "https://techcrunch.com/2026/08/19/relativity-networks-raises-22-million-to-bring-a-faster-kind-of-fiber-to-data-centers/",
+      "summary": "Relativity Networks deals in hollow-core fiber, a rarely deployed technology that allows data to be transmitted 30% faster than conventional fiber.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-19T10:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "4f74107daef8",
+      "title": "Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
+      "url": "https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/",
+      "summary": "A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding.\nThe post Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-19T16:30:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "d451ccaa36b3",
+      "title": "Understanding Anti-AI Public Opinion",
+      "url": "https://towardsdatascience.com/understanding-anti-ai-public-opinion/",
+      "summary": "People can accept tradeoffs when they see value — but if they don’t, what happens?\nThe post Understanding Anti-AI Public Opinion appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-19T15:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "5ae44dec09ad",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-18T22:14:25+00:00",
+      "score": 2.35,
+      "image": null
+    }
+  ]
+}

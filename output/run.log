@@ -3548,3 +3548,38 @@
 2026-08-19 07:30:07,889  INFO     ────────────────────────────────────────────────────────────
 2026-08-19 07:30:07,889  INFO     Done!  Open: output/index.html
 2026-08-19 07:30:07,890  INFO     Headline: A Spec-Driven Dev Kit That Orchestrates 7 AI Agents — Built a 220k-Line Platform for Under $100
+2026-08-20 07:32:31,811  INFO     ============================================================
+2026-08-20 07:32:31,812  INFO     TECHPULSE Digest — 2026-08-20 07:32 UTC
+2026-08-20 07:32:31,812  INFO     ============================================================
+2026-08-20 07:32:31,812  INFO     Step 1/3 — Crawling feeds…
+2026-08-20 07:32:32,021  INFO       Hacker News                    → 1 significant articles
+2026-08-20 07:32:32,429  INFO       VentureBeat AI                 → 1 significant articles
+2026-08-20 07:32:32,590  INFO       Ars Technica                   → 0 significant articles
+2026-08-20 07:32:33,762  INFO       The Register AI                → 0 significant articles
+2026-08-20 07:32:33,947  INFO       MIT Tech Review                → 0 significant articles
+2026-08-20 07:32:34,175  INFO       Dev.to AI                      → 5 significant articles
+2026-08-20 07:32:34,352  INFO       Dev.to Programming             → 1 significant articles
+2026-08-20 07:32:34,726  INFO       GitHub Blog                    → 1 significant articles
+2026-08-20 07:32:35,752  INFO       Google Research                → 0 significant articles
+2026-08-20 07:32:36,656  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-08-20 07:32:36,842  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-20 07:32:37,241  INFO       InfoQ                          → 4 significant articles
+2026-08-20 07:32:37,547  INFO       Towards Data Science           → 2 significant articles
+2026-08-20 07:32:37,791  INFO       Wired AI                       → 0 significant articles
+2026-08-20 07:32:37,943  INFO       TechCrunch AI                  → 3 significant articles
+2026-08-20 07:32:37,943  INFO     Fetching images for top articles…
+2026-08-20 07:32:38,326  INFO       🖼  Harper Argues Against the Multi-System Stack and Releases 5.
+2026-08-20 07:32:38,798  INFO       🖼  The Open-Sourcing of DeepSeek Harness Opens the Door to Modu
+2026-08-20 07:32:38,915  INFO       🖼  PK33 Game App – Beginner’s Guide
+2026-08-20 07:32:39,041  INFO       🖼  Free Hosted AI or Self-Hosted? Run a 20-Minute Comparison Ha
+2026-08-20 07:32:39,383  INFO       🖼  Docker Launches Fully Rebuilt Virtualization Layer to Boost 
+2026-08-20 07:32:39,500  INFO       🖼  Google packs Search and Gemini with new AI study tools
+2026-08-20 07:32:39,500  INFO     Total selected: 18 articles from 15 feeds
+2026-08-20 07:32:39,500  INFO     Selected 18 significant articles
+2026-08-20 07:32:39,500  INFO     Step 2/3 — Generating digest…
+2026-08-20 07:32:39,770  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-20 07:32:39,770  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-20 07:32:39,770  INFO     Step 3/3 — Rendering HTML…
+2026-08-20 07:32:39,771  INFO     ────────────────────────────────────────────────────────────
+2026-08-20 07:32:39,771  INFO     Done!  Open: output/index.html
+2026-08-20 07:32:39,771  INFO     Headline: Harper Argues Against the Multi-System Stack and Releases 5.2
