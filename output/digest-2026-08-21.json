@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "Next.js 16.3: Instant Navigations, Up to 90% Less Dev Memory and Faster Builds",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Next.js 16.3: Instant Navigations, Up to 90% Less Dev Memory and Faster Builds (InfoQ). OpenAI is gaining on Anthropic with business users, new data indicates (TechCrunch AI). 1,000 Stories, One Continent: Introducing the APAC Builders Campaign (Dev.to Programming). Ramp launches its own AI model router, called Router (TechCrunch AI). EMNLP 2026 Findings : worth attending in person?[D] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Vercel has released Next.js 16.3, featuring significant updates since version 16.0. Enhancements include reduced memory usage during development, accelerated build times, and improved type checking. Instant Navigations introduces faster, client-like responses while maintaining server-rendered architecture. Developers are advised to gradually adopt new features due to noted caveats. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "297ae1438ded",
+      "title": "Next.js 16.3: Instant Navigations, Up to 90% Less Dev Memory and Faster Builds",
+      "url": "https://www.infoq.com/news/2026/08/vercel-next-js-16-3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released Next.js 16.3, featuring significant updates since version 16.0. Enhancements include reduced memory usage during development, accelerated build times, and improved type checking. Instant Navigations introduces faster, client-like responses while maintaining server-rendered architecture. Developers are advised to gradually adopt new features due to noted caveats. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-20T12:04:00+00:00",
+      "score": 4.12,
+      "image": "https://res.infoq.com/news/2026/08/vercel-next-js-16-3/en/headerimage/generatedHeaderImage-1787213210838.jpg"
+    },
+    {
+      "id": "e1438dc5cd8f",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T22:36:37+00:00",
+      "score": 4.1,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800"
+    },
+    {
+      "id": "c6492405b932",
+      "title": "1,000 Stories, One Continent: Introducing the APAC Builders Campaign",
+      "url": "https://dev.to/udit_p_12/1000-stories-one-continent-introducing-the-apac-builders-campaign-264e",
+      "summary": "Across the Asia-Pacific region, the defining characteristic of our tech ecosystem isn't just growth—it’s resourcefulness. From the agricultural heartlands of Java to the bustling neighborhood clinics of Dhaka, developers, researchers, and entrepreneurs are quietly deploying artificial intelligence to fix hyper-local, high-stakes problems.\nToday, we are launching Builders: an initiative to find, document, and celebrate 1,000 builders across Asia Pacific who are leveraging Google AI tools and technologies to make a tangible difference in their communities.\nWhy \"Builders\"?\nIn Silicon Valley, AI d",
+      "source": "Dev.to Programming",
+      "published": "2026-08-21T07:08:27+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpcglvhea0txm3exnm5dy.png"
+    },
+    {
+      "id": "cb6503028d2b",
+      "title": "Ramp launches its own AI model router, called Router",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T16:46:00+00:00",
+      "score": 3.88,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/03/GettyImages-1434828961.jpg?w=1024"
+    },
+    {
+      "id": "8ee9bc528691",
+      "title": "EMNLP 2026 Findings : worth attending in person?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vu8zag/emnlp_2026_findings_worth_attending_in_persond/",
+      "summary": "Experienced folks!! Do u think it is worth attending the conference for findings. I do want to. But when I saw that it is not mandatory for findings, I was a bit hesitant. This is my first time having a paper accepted at an AI conference. Just wanna hear opinions/experiences  Thanks in advance.   &#32; submitted by &#32;  /u/i_minus   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-21T07:04:51+00:00",
+      "score": 3.57,
+      "image": null
+    },
+    {
+      "id": "0f9772a27c74",
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-20T15:42:39+00:00",
+      "score": 3.52,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/smokescreen.jpg?resize=1200,600"
+    },
+    {
+      "id": "75adbc06696c",
+      "title": "Open Source Infrastructure Democratizes Quantitative Trading",
+      "url": "https://dev.to/deepbodyme/open-source-infrastructure-democratizes-quantitative-trading-b5e",
+      "summary": "Why Quantitative Finance Needs Open Infrastructure\n\n\nQuantitative finance has traditionally required expensive data systems, specialized computing resources, and proprietary research platforms. These barriers gave large institutions a significant advantage over independent researchers, universities, and smaller financial technology teams.\n\nOpen source infrastructure is changing that balance. Modern frameworks for data engineering, machine learning, workflow orchestration, and statistical analysis make it possible to build sophisticated research environments from reusable components. Instead of",
+      "source": "Dev.to AI",
+      "published": "2026-08-21T07:17:27+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "5ed06c776c7d",
+      "title": "Bitpanda Capital Markets Strengthens User Education Through Smarter Onboarding",
+      "url": "https://dev.to/bitpandacapitalmarke/bitpanda-capital-markets-strengthens-user-education-through-smarter-onboarding-knf",
+      "summary": "As digital finance continues to develop, user onboarding has become an important part of platform experience and long-term user trust. For many users, the first interaction with a digital financial platform shapes how they understand its services, security processes, account functions, and overall operating logic.\n\nAgainst this backdrop, Bitpanda Capital Markets is enhancing its user onboarding experience for digital finance services, focusing on clearer guidance, simplified account setup, improved service education, and more transparent user communication.\n\nThe initiative reflects the company",
+      "source": "Dev.to Programming",
+      "published": "2026-08-21T07:04:13+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "859f0b88d5ad",
+      "title": "Runlayer, Rippling drop lawsuits — but the brouhaha is still a cautionary tale for founders",
+      "url": "https://techcrunch.com/2026/08/20/runlayer-rippling-drop-lawsuits-but-the-brouhaha-is-still-a-cautionary-tale-for-founders/",
+      "summary": "Runlayer and Rippling have dropped their lawsuits. No money was paid. Rippling celebrated by releasing a competing product.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T19:15:05+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "8b7a6ac6a084",
+      "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T17:18:58+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "ffa166ab378e",
+      "title": "Microsoft Releases Aspire 13.5 With a Refreshed Dashboard and Workflow Improvements",
+      "url": "https://www.infoq.com/news/2026/08/dotnet-aspire-13-5-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Last week, Microsoft released Aspire 13.5, an update that refreshes the dashboard and the aspire.dev homepage and adds several quality-of-life features. The Interaction Service gains file imports and progress dialogs; resources can host an interactive terminal in the dashboard, and deployment adds Kubernetes persistent volumes and cross-scope Azure references. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-08-20T08:07:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "d3e0a7c865cd",
+      "title": "Presentation: Why Fetch When You Can Sync? Building Local-First Apps on a Sync Engine Architecture",
+      "url": "https://www.infoq.com/presentations/local-first-sync-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "James Arthur shares why sync is the next frontier in frontend architecture. He explains how extending reactivity to the server with Electric and TanStack DB replaces imperative fetching with declarative data bindings. Learn how query-driven sync and local optimistic updates enable engineering leaders to build insanely fast, collaborative, and agentic applications using their existing stack. By James Arthur",
+      "source": "InfoQ",
+      "published": "2026-08-20T13:19:00+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "8c27849b9f7e",
+      "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
+      "url": "https://www.infoq.com/news/2026/08/harper-vercel-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The database platform Harper advocates for a single-runtime architecture that keeps application code and data together, with its benchmark against a Vercel-based stack reporting significantly better performance on live, personalized-data workloads. Harper recently released version 5.2, with a new record cache and more throughput per node. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-20T06:20:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "d1903403e641",
+      "title": "How to Effectively Align Your Intent with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/",
+      "summary": "Improve your proficiency with Claude Code.\nThe post How to Effectively Align Your Intent with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-20T18:00:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "36e7bc44fd1b",
+      "title": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure",
+      "url": "https://www.infoq.com/news/2026/08/deep-seek-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DeepSeek has released a developer preview of DeepSeek Harness (dsh), an open-source execution runtime for building autonomous AI agents. The software features a micro-kernel architecture with modular plugins for various functional units. The release includes an append-only event logging system for tracking execution activities. Adoption may depend on plugin ecosystem stability and API maintenance. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-20T05:05:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "4b20a76ce1f6",
+      "title": "How to Fine-Tune an LLM: An End-to-End Guide",
+      "url": "https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/",
+      "summary": "A hands-on guide to fine-tuning LLMs for the real world\nThe post How to Fine-Tune an LLM: An End-to-End Guide appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-20T13:30:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "3f03520ba937",
+      "title": "The LLM Judge That Kept Agreeing With Itself",
+      "url": "https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/",
+      "summary": "What a production incident taught me about trusting a model to judge another model's work\nThe post The LLM Judge That Kept Agreeing With Itself appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-20T16:30:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "4fb8938e8405",
+      "title": "Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One",
+      "url": "https://towardsdatascience.com/three-kinds-of-rag-corpus-and-what-it-costs-to-build-for-the-wrong-one/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #14A] - Three questions tell you which shape a document collection has, and each shape wants a different architecture\nThe post Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-20T15:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "c9fda726bd42",
+      "title": "Flux Mirror Uses Gitless GitOps to Keep Software Supply Chain Under Control",
+      "url": "https://www.infoq.com/news/2026/08/flux-mirror-gitless-gitops/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Flux has introduced Flux Mirror, a CLI plugin that mirrors container images, Helm charts and OCI artifacts between registries from a declarative configuration. The plugin is part of the Flux v2.9 CLI plugin system and is presented as a way to keep Kubernetes clusters reconciling only from registries that teams operate themselves. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-20T08:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    }
+  ]
+}
