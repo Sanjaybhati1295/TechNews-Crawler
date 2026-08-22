@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command (InfoQ). Did the Model Upgrade Break Your AI Agent? (Dev.to Programming). I Published 4 AI Prompt Packs on Gumroad. 30 Days Later, Here's the Embarrassing Truth (And What I'd Change) (Dev.to AI). Groq deleted every Llama model last week. My Electron app didn't notice. (Dev.to AI). MIT License Enterprise: Essential AI Guide for 2026 (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Running Codex as a Headless Agent (Towards Data Science). Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "VoidZero has launched the beta of Vite+, a unified web development toolchain. It combines runtime, package management, and essential frontend tools under a single command. Vite+ supports various projects and is open source. The platform enhances workflow through features such as hot-reloading, format checking, and testing. The team emphasizes community feedback for future updates. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "f5f582c2cc3f",
+      "title": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+      "url": "https://www.infoq.com/news/2026/08/vite-plus-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VoidZero has launched the beta of Vite+, a unified web development toolchain. It combines runtime, package management, and essential frontend tools under a single command. Vite+ supports various projects and is open source. The platform enhances workflow through features such as hot-reloading, format checking, and testing. The team emphasizes community feedback for future updates. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-22T06:32:00+00:00",
+      "score": 5.15,
+      "image": "https://res.infoq.com/news/2026/08/vite-plus-beta/en/headerimage/generatedHeaderImage-1787326368629.jpg"
+    },
+    {
+      "id": "6eccc16d5523",
+      "title": "Did the Model Upgrade Break Your AI Agent?",
+      "url": "https://dev.to/sara_mo/did-the-model-upgrade-break-your-ai-agent-4ogp",
+      "summary": "Nothing happened. That is the strange part.\n\nNo deploy. No pull request. Nobody touched the prompt. Your agent ran the way it always ran on Friday, and it runs on Monday, and every dashboard is green. Then a ticket comes in about an answer nobody on your team would have written, and you go looking for the change that caused it, and there is no change on your side. There was a model upgrade.\n\nIt is the only change to your system that you did not make, cannot find in your own git history, and usually cannot roll back on your own schedule. It is also the one most likely to be announced to you as ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-22T06:09:20+00:00",
+      "score": 3.93,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fenqo2g6vicvc2tkun1d9.jpeg"
+    },
+    {
+      "id": "30a5299618bd",
+      "title": "I Published 4 AI Prompt Packs on Gumroad. 30 Days Later, Here's the Embarrassing Truth (And What I'd Change)",
+      "url": "https://dev.to/jackloh84/i-published-4-ai-prompt-packs-on-gumroad-30-days-later-heres-the-embarrassing-truth-and-what-2ga1",
+      "summary": "5 min read · Published August 22, 2026\n\nMost Gumroad launch posts are victory laps. This one isn't.\n\nI shipped 4 prompt packs on Gumroad 30 days ago — entry-level $3 TikTok hooks, two $19 creator/business automation packs, and a $5 solopreneur dashboard. As of writing this: zero paid sales across all four.\n\nHere's exactly what I tried, what flopped, what almost worked, and the three changes I'm shipping this week. If you're about to launch a digital product, read this first so you don't repeat my mistakes.\n\n\n  \n  \n  The 4 Products (and Why I Priced Them This Way)\n\n\n\n\n\nProduct\nPrice\nLead magnet",
+      "source": "Dev.to AI",
+      "published": "2026-08-22T07:05:20+00:00",
+      "score": 3.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgywjlipd0nfdtyakh56y.png"
+    },
+    {
+      "id": "fcd4571e6766",
+      "title": "Groq deleted every Llama model last week. My Electron app didn't notice.",
+      "url": "https://dev.to/bhavik_thakkar_63c824f01b/groq-deleted-every-llama-model-last-week-my-electron-app-didnt-notice-2b9p",
+      "summary": "Last Sunday, Groq switched off every Llama model on its free and dev tiers.\n\nMy desktop app runs on Groq. Every AI button in it had been calling llama-3.3-70b-versatile since launch. On August 16 that model stopped existing.\n\nNothing happened. No error reports, no broken installs, no bad-review-shaped Monday.\n\nThat's not luck, and it's not a brag about my architecture — it's about four hours of unglamorous work I did a month earlier. Here's what that work actually was.\n\n\n\n\n## The thing that makes desktop different\n\nI found the deprecation notice in a changelog in July. If BEBO were a web app, ",
+      "source": "Dev.to AI",
+      "published": "2026-08-22T07:09:01+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqxq0kx9263qpc4gerbj0.png"
+    },
+    {
+      "id": "22bfde07bcfe",
+      "title": "MIT License Enterprise: Essential AI Guide for 2026",
+      "url": "https://dev.to/vladimir_lialine_b2e67374/mit-license-enterprise-essential-ai-guide-for-2026-2cm7",
+      "summary": "AI teams are under pressure to innovate without introducing unmanageable legal or operational risk. MIT License enterprise adoption addresses that tension by giving organizations broad rights to use, modify, distribute, and commercialize software. In 2026, however, responsible adoption requires more than finding an MIT notice in a repository. Enterprises must verify which AI assets the license covers, preserve required notices, and govern every dependency entering production.\n\n\n  \n  \n  Why MIT License Enterprise Strategy Matters in 2026\n\n\nThe MIT License is a permissive open source license tha",
+      "source": "Dev.to AI",
+      "published": "2026-08-22T07:15:14+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjf6s6o7qjjq40291thoe.png"
+    },
+    {
+      "id": "c136bd8758cc",
+      "title": "Rent only the features you need — per-feature menus with device-signed pricing",
+      "url": "https://dev.to/biznode/rent-only-the-features-you-need-per-feature-menus-with-device-signed-pricing-2bb6",
+      "summary": "Most rental products make you take the whole thing. AIBIZ chip rental now lets a business owner publish a MENU: every sub-function of their business — the AI phone line, messaging, workflows — priced individually, per day, week or month.\n\nAs a renter on rent.1bz.biz you just tick the features you want. Your price is the sum of your ticks. Nothing more.\n\nWhat makes this trustworthy is the signature: the menu is part of the owner's listing, signed by the owner's own device key. The server re-computes your price from that signed menu on every payment path — card or crypto — so nobody can be charg",
+      "source": "Dev.to AI",
+      "published": "2026-08-22T07:12:59+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftect3o7zjtzsoshhw075.png"
+    },
+    {
+      "id": "614e5150d6b9",
+      "title": "Claude Code Skills: How to Keep Capabilities Without Context Overhead",
+      "url": "https://dev.to/bettertoken_ai/claude-code-skills-how-to-keep-capabilities-without-context-overhead-3o2n",
+      "summary": "As you customize Claude Code, your collection of custom instructions, linters, testing scripts, and framework templates naturally grows. If you attach every helper as a permanent instruction, your session begins consuming the context window before you even submit your first prompt. In this guide, we examine how to audit skills, separate persistent guidelines from on-demand workflows, and verify that the model still discovers your tools when needed.\n\n\n  \n  \n  How Skills Affect the Initial Session Window\n\n\nIn Claude Code, skills are structured directories and Markdown documents (primarily SKILL.",
+      "source": "Dev.to Programming",
+      "published": "2026-08-22T06:08:41+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "b23de9fa3139",
+      "title": "A Reader Caught My Answer Key Drifting Toward the Model",
+      "url": "https://dev.to/ramses203/a-reader-caught-my-answer-key-drifting-toward-the-model-35ia",
+      "summary": "Three days after the first post of this series went up, a comment arrived on a Korean tech-news site where it had been shared. The first half was praise. The second half was this:\n\n\nWhile the exam author was losing three times, every answer-key revision went in the direction of \"the model was right.\" If that repeats, isn't there a risk the answer key converges on model behavior? I split questions by whether domain rules alone can decide them, independently. If they can't, I pull them out of scoring entirely — they become human-review cases, not test cases. How did you distinguish these?\n\n\nUnpa",
+      "source": "Dev.to Programming",
+      "published": "2026-08-22T06:04:44+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "8a5a6d190a21",
+      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "summary": "There's about to be a big fight to secure access to space.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-21T14:00:00+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "06ad35cc5208",
+      "title": "Cloudflare Cuts Astro GitHub Issues by 85% with AI Agents",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare, Astro, AI agents, GitHub Actions, issue triage, agentic AI, software architecture, open source, developer tools, AI automation, automated testing, human in the loop, agent workflows, GitHub, software engineering, AI software development, bug triage, continuous integration, developer productivity, autonomous agents, AI coding, Cloudflare Workers, Flue, triagebot By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-08-21T14:09:00+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "785c810c16ee",
+      "title": "When AI designs a drug, who gets the credit?",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform. Insilico leads a pack of companies using AI to rapidly come up with drug ideas humans might never think&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-08-21T09:00:00+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "e1438dc5cd8f",
+      "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-20T22:36:37+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "e505f725d54b",
+      "title": "Running Codex as a Headless Agent",
+      "url": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
+      "summary": "Turning Codex from an interactive assistant into a programmable automation component\nThe post Running Codex as a Headless Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-21T18:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "6e832a9da829",
+      "title": "Estimating from No Data: Deriving a Continuous Score from Categories",
+      "url": "https://towardsdatascience.com/estimating-from-no-data-deriving-a-continuous-score-from-categories-2/",
+      "summary": "A walkthrough of and the maths behind using low-capacity networks to acquire fine-grained scoring when only categorical labelling is available for training\nThe post Estimating from No Data: Deriving a Continuous Score from Categories appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-21T17:09:54+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "4b424c7ed9b2",
+      "title": "Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG",
+      "url": "https://towardsdatascience.com/retrieve-one-row-from-a-table-not-the-whole-table-row-level-chunks-for-rag/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #7sexies] - The unit of retrieval doesn’t have to be a page or a paragraph. When the corpus carries tables, each body row with its column headers is a chunk in its own right, and it’s often the one row the reader asked about\nThe post Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-21T16:30:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "9efbdf4ff751",
+      "title": "The Types of Dimensions in a Star Schema, and How to Use Them",
+      "url": "https://towardsdatascience.com/what-are-the-types-of-dimensions-in-a-star-schema-and-how-to-use-them/",
+      "summary": "Dimensions are one of the two main object types in dimensional modelling. But what are the different types of dimensions? And how can you use them?\nThe post The Types of Dimensions in a Star Schema, and How to Use Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-21T15:00:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "64027333acf3",
+      "title": "Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions",
+      "url": "https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/",
+      "summary": "AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mistake would be costly.\nThe post Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-21T13:30:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "0922f21fddcf",
+      "title": "Rejected at EMNLP with decent scores. What can be done next? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vuatkw/rejected_at_emnlp_with_decent_scores_what_can_be/",
+      "summary": "So I got rejected at EMNLP with scores:- Meta: 3 (very positive in the review) Reviewers: OA(conf) 3(4) 3(4) 2.5(3) Avg: 2.83(3.67) Track: multimodality Rebuttals never got any acknowledgements. Most weaknesses were already discussed in the paper. What are my options now? As it was my first paper (solo as well).  - If I want to commit to NACL in December. Do i need ti submit to acl arr again or can i use the same arr review discussion? - even if i go with resubmission at arr. Do the old reviewers likely help? Because as a masters student i cant get stuck in another cycle. - what is the best ov",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-21T08:54:41+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "8ee9bc528691",
+      "title": "EMNLP 2026 Findings : worth attending in person?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vu8zag/emnlp_2026_findings_worth_attending_in_persond/",
+      "summary": "Experienced folks!! Do u think it is worth attending the conference for findings. I do want to. But when I saw that it is not mandatory for findings, I was a bit hesitant. This is my first time having a paper accepted at an AI conference. Just wanna hear opinions/experiences  Thanks in advance.   &#32; submitted by &#32;  /u/i_minus   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-21T07:04:51+00:00",
+      "score": 2.25,
+      "image": null
+    }
+  ]
+}
