@@ -3652,3 +3652,37 @@
 2026-08-22 07:23:03,065  INFO     ────────────────────────────────────────────────────────────
 2026-08-22 07:23:03,065  INFO     Done!  Open: output/index.html
 2026-08-22 07:23:03,065  INFO     Headline: VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command
+2026-08-23 07:25:01,509  INFO     ============================================================
+2026-08-23 07:25:01,509  INFO     TECHPULSE Digest — 2026-08-23 07:25 UTC
+2026-08-23 07:25:01,509  INFO     ============================================================
+2026-08-23 07:25:01,509  INFO     Step 1/3 — Crawling feeds…
+2026-08-23 07:25:01,640  INFO       Hacker News                    → 0 significant articles
+2026-08-23 07:25:01,944  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-23 07:25:02,202  INFO       Ars Technica                   → 0 significant articles
+2026-08-23 07:25:03,435  INFO       The Register AI                → 0 significant articles
+2026-08-23 07:25:03,562  INFO       MIT Tech Review                → 0 significant articles
+2026-08-23 07:25:03,769  INFO       Dev.to AI                      → 4 significant articles
+2026-08-23 07:25:04,498  INFO       Dev.to Programming             → 3 significant articles
+2026-08-23 07:25:04,635  INFO       GitHub Blog                    → 0 significant articles
+2026-08-23 07:25:05,682  INFO       Google Research                → 0 significant articles
+2026-08-23 07:25:06,496  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-08-23 07:25:06,593  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-23 07:25:06,889  INFO       InfoQ                          → 3 significant articles
+2026-08-23 07:25:07,117  INFO       Towards Data Science           → 3 significant articles
+2026-08-23 07:25:07,353  INFO       Wired AI                       → 0 significant articles
+2026-08-23 07:25:07,437  INFO       TechCrunch AI                  → 1 significant articles
+2026-08-23 07:25:07,438  INFO     Fetching images for top articles…
+2026-08-23 07:25:07,555  INFO       🖼  VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins
+2026-08-23 07:25:07,633  INFO       🖼  Inherent, founded by DeepMind alumni, says its AI ‘teammate’
+2026-08-23 07:25:08,029  INFO       🖼  VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind
+2026-08-23 07:25:08,136  INFO       🖼  MCP Isn't Dead. It Just Has a Different Job.
+2026-08-23 07:25:08,293  INFO       🖼  Review AI Agent Decisions Before They Happen
+2026-08-23 07:25:08,293  INFO     Total selected: 15 articles from 15 feeds
+2026-08-23 07:25:08,293  INFO     Selected 15 significant articles
+2026-08-23 07:25:08,293  INFO     Step 2/3 — Generating digest…
+2026-08-23 07:25:08,590  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-23 07:25:08,590  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-23 07:25:08,590  INFO     Step 3/3 — Rendering HTML…
+2026-08-23 07:25:08,591  INFO     ────────────────────────────────────────────────────────────
+2026-08-23 07:25:08,591  INFO     Done!  Open: output/index.html
+2026-08-23 07:25:08,591  INFO     Headline: VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?

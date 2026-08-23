@@ -1,0 +1,173 @@
+{
+  "digest": {
+    "headline": "VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins? (Dev.to AI). Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research (TechCrunch AI). How to grow a project? [D] (Reddit r/MachineLearning). VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command (InfoQ). Review AI Agent Decisions Before They Happen (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Cloudflare Announces Kitesurf, a Browser Engine for Agents (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "MCP Isn't Dead. It Just Has a Different Job. (Dev.to Programming). Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline (Towards Data Science). Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call) (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Adding to my watchlist of AI dev tools. Quick rundown:\n\n\n  \n  \n  VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?\n\n\nSide-by-side breakdown of GitHub Copilot in VS Code (Microsoft) and Cursor â€” pricing $10 vs $20/mo, autocomplete vs agentic, enterprise integration. Updated 2026.\n\nRead the full breakdown on dibi8: https://dibi8.com/vs/vscode-copilot-vs-cursor/\n\n\n\n\n\nThis is a curated highlight from dibi8.com — open-source AI tools directory, hand-edited, 4 languages. The full article (with comparisons, setup guide, and code samples) lives on dibi8."
+  },
+  "articles": [
+    {
+      "id": "4658380b632b",
+      "title": "VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?",
+      "url": "https://dev.to/dibi8/vs-code-copilot-vs-cursor-in-2026-which-ai-coding-tool-wins-2n9d",
+      "summary": "Adding to my watchlist of AI dev tools. Quick rundown:\n\n\n  \n  \n  VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?\n\n\nSide-by-side breakdown of GitHub Copilot in VS Code (Microsoft) and Cursor â€” pricing $10 vs $20/mo, autocomplete vs agentic, enterprise integration. Updated 2026.\n\nRead the full breakdown on dibi8: https://dibi8.com/vs/vscode-copilot-vs-cursor/\n\n\n\n\n\nThis is a curated highlight from dibi8.com — open-source AI tools directory, hand-edited, 4 languages. The full article (with comparisons, setup guide, and code samples) lives on dibi8.",
+      "source": "Dev.to AI",
+      "published": "2026-08-23T07:06:53+00:00",
+      "score": 4.18,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4g0j51z4ail2en7ibmcy.png"
+    },
+    {
+      "id": "00b5c41772e1",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-22T19:00:00+00:00",
+      "score": 4.11,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/inherent-labs-cofounders-credit-Anna-Gordon.jpeg?resize=1200,800"
+    },
+    {
+      "id": "06195f1ed59b",
+      "title": "How to grow a project? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
+      "summary": "I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components. My goal was to build a community around it as I plan to use it on other projects too but also knowing the field O genuinely see it being very useful. I’ve been highlighting open research questions and posting updates in different communities, but I’m getting basically zero engagement. I know the AI landscape moves ridiculously fast now compared to 4-5 years ago and Claude does most of the coding,",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-23T00:31:31+00:00",
+      "score": 3.92,
+      "image": null
+    },
+    {
+      "id": "f5f582c2cc3f",
+      "title": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+      "url": "https://www.infoq.com/news/2026/08/vite-plus-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VoidZero has launched the beta of Vite+, a unified web development toolchain. It combines runtime, package management, and essential frontend tools under a single command. Vite+ supports various projects and is open source. The platform enhances workflow through features such as hot-reloading, format checking, and testing. The team emphasizes community feedback for future updates. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-22T06:32:00+00:00",
+      "score": 3.82,
+      "image": "https://res.infoq.com/news/2026/08/vite-plus-beta/en/headerimage/generatedHeaderImage-1787326368629.jpg"
+    },
+    {
+      "id": "48cb2e4a9d9a",
+      "title": "MCP Isn't Dead. It Just Has a Different Job.",
+      "url": "https://dev.to/koenvg/mcp-isnt-dead-it-just-has-a-different-job-38cb",
+      "summary": "The argument that MCP is past its prime keeps surfacing in developer circles. It goes something like this: MCP adds context bloat, loads verbose tool definitions into every request, introduces latency, and gets in the way when you want a coding agent to move fast and precisely. For that specific use case, it is a reasonable critique.\n\nBut it is also a narrow one.\n\n\n\n\n  \n  \n  Where the criticism lands\n\n\nThe concerns about MCP in coding agent contexts are real and worth taking seriously.\n\nA long coding session already puts pressure on the context window. A complex refactor can fill thousands of ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-23T06:21:41+00:00",
+      "score": 3.74,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fofxhkpc25s8651y70xq0.png"
+    },
+    {
+      "id": "5cb5e0d198a3",
+      "title": "Review AI Agent Decisions Before They Happen",
+      "url": "https://dev.to/sekeraradim/review-ai-agent-decisions-before-they-happen-aaf",
+      "summary": "Give a support agent the power to issue refunds and you also give it the power to issue a $4,000 refund by mistake — here's how to review the decision before it fires, not after.\n\n\n\n\n\n  \n  \n  The problem: agents act, then you find out\n\n\nMost \"AI agent went wrong\" stories share a shape: the agent did something reasonable-sounding with unreasonable consequences, and the first human to see it was the one cleaning up afterward. A refund bot that reads an angry email and issues a full refund instead of a partial one. A triage agent that closes a ticket that should have escalated. The fix people rea",
+      "source": "Dev.to AI",
+      "published": "2026-08-23T07:10:02+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffun79i7cf47wij72yxcm.png"
+    },
+    {
+      "id": "9c5a9537b209",
+      "title": "99% accuracy, completely worthless: ML on rare events",
+      "url": "https://dev.to/divyakush/99-accuracy-completely-worthless-ml-on-rare-events-480l",
+      "summary": "Here's a model that predicts rockfalls with 99% accuracy. It's also completely worthless. If a dangerous slope fails, say, one day in a hundred, a model that shrugs and says \"no rockfall\" every single day is right 99% of the time — and will get people killed. That paradox is the first thing you confront when you build ML for rare, catastrophic events, and it shaped how I approached the rockfall prediction system.\n\n\n  \n  \n  Accuracy is a lie when one class is rare\n\n\nAccuracy measures how often you're right overall. That sounds fine until the thing you care about almost never happens. When 99% o",
+      "source": "Dev.to AI",
+      "published": "2026-08-23T07:22:53+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "6f1727ebb673",
+      "title": "Introducing Pulse — the AI-powered business opportunity network on BizNode. Register your services free, get notified when...",
+      "url": "https://dev.to/biznode/introducing-pulse-the-ai-powered-business-opportunity-network-on-biznode-register-your-services-13o4",
+      "summary": "Hey devs, what if your business operations ran entirely on your own machine, with zero cloud reliance and no monthly subscriptions? That is the promise of BizNode, a completely autonomous AI business operator that lives locally. We are excited to introduce Pulse, the new AI-powered business opportunity network built directly into the BizNode ecosystem.\n\nPulse transforms how you find work. Instead of manually browsing job boards or checking directories, you register your services for free. As soon as a client posts a need matching your industry, Pulse alerts you instantly. But the real magic ha",
+      "source": "Dev.to AI",
+      "published": "2026-08-23T07:02:40+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "dac3f4378c3b",
+      "title": "How I Became a Problem‑Solving Ninja Under Pressure – Lessons from The Matrix",
+      "url": "https://dev.to/timevolt/how-i-became-a-problem-solving-ninja-under-pressure-lessons-from-the-matrix-13mh",
+      "summary": "The Quest Begins (The “Why”)\n\n\nI still remember the first time my heart hammered during a technical interview. The interviewer slid a plain whiteboard toward me, the timer started ticking down from 15 minutes, and the prompt flashed: “Given an array of integers, find the length of the longest subarray that sums to zero.” My brain went blank. I could feel the sweat bead up, the way you feel when the final boss appears in a retro arcade game and you only have one life left. I started scribbling brute‑force loops, checking every possible start and end index, and the clock kept ticking. By the tim",
+      "source": "Dev.to Programming",
+      "published": "2026-08-23T06:49:30+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "213107123d1a",
+      "title": "Quantum Helix: The New Wave in Quantum Computing",
+      "url": "https://dev.to/lukasz_stroisz_777/quantum-helix-the-new-wave-in-quantum-computing-g5o",
+      "summary": "Quantum computing has moved from theoretical physics papers to actual hardware you can access via cloud APIs. But here's what most tutorials skip: the real challenge isn't running your first quantum circuit—it's understanding the architectural paradigm that makes one quantum platform fundamentally different from another. Enter Quantum Helix, a technology stack that's gaining attention for its unique approach to qubit connectivity and error mitigation.\n\n\n  \n  \n  What you'll learn\n\n\n\nHow Quantum Helix's helical qubit topology differs from traditional grid-based architectures\nWhy connectivity pat",
+      "source": "Dev.to Programming",
+      "published": "2026-08-23T06:31:18+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "5b56f4ebe6d7",
+      "title": "AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks",
+      "url": "https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released aws-bench, an open-source benchmark for evaluating AI agents on real AWS tasks such as misconfigurations and infrastructure provisioning. Unlike traditional benchmarks, it uses real resources in disposable AWS accounts, scoring agent performance through automated verifiers. By Gianmarco Nalin",
+      "source": "InfoQ",
+      "published": "2026-08-22T08:00:00+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "fac9bca37156",
+      "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently introduced Kitesurf, a lightweight browser built for automated workloads. Kitesurf runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers and supports the Chrome DevTools Protocol, allowing tools such as Playwright and Puppeteer to drive it with lower resource overhead than a full Chromium browser. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-22T15:01:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "593482410774",
+      "title": "Building a Proper Backend for My LangGraph AI Agent",
+      "url": "https://towardsdatascience.com/building-a-proper-backend-for-my-langgraph-ai-agent/",
+      "summary": "Turning a demo agent into something that can keep real booking data\nThe post Building a Proper Backend for My LangGraph AI Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-22T17:00:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "491af05b0d4d",
+      "title": "Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline",
+      "url": "https://towardsdatascience.com/multi-document-rag-a-folder-of-unrelated-pdfs-is-one-long-document-with-a-nested-outline/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #14B] - No shared fields means no index to build. One summary line per file plus each file’s own table of contents, and retrieval routes down two levels\nThe post Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-22T15:00:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "2883d3bb40e3",
+      "title": "Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call)",
+      "url": "https://towardsdatascience.com/why-we-fine-tuned-siglip-and-why-thats-not-always-the-right-call/",
+      "summary": "LoRA fine-tuning solved our under-labeling problem. Whether it makes sense for you depends on three questions. \nThe post Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-22T13:00:00+00:00",
+      "score": 2.48,
+      "image": null
+    }
+  ]
+}
