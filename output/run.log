@@ -3686,3 +3686,38 @@
 2026-08-23 07:25:08,591  INFO     ────────────────────────────────────────────────────────────
 2026-08-23 07:25:08,591  INFO     Done!  Open: output/index.html
 2026-08-23 07:25:08,591  INFO     Headline: VS Code Copilot vs Cursor in 2026: Which AI Coding Tool Wins?
+2026-08-24 07:49:41,943  INFO     ============================================================
+2026-08-24 07:49:41,943  INFO     TECHPULSE Digest — 2026-08-24 07:49 UTC
+2026-08-24 07:49:41,943  INFO     ============================================================
+2026-08-24 07:49:41,944  INFO     Step 1/3 — Crawling feeds…
+2026-08-24 07:49:42,030  INFO       Hacker News                    → 0 significant articles
+2026-08-24 07:49:42,278  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-24 07:49:42,532  INFO       Ars Technica                   → 0 significant articles
+2026-08-24 07:49:43,728  INFO       The Register AI                → 0 significant articles
+2026-08-24 07:49:43,870  INFO       MIT Tech Review                → 0 significant articles
+2026-08-24 07:49:44,156  INFO       Dev.to AI                      → 5 significant articles
+2026-08-24 07:49:44,321  INFO       Dev.to Programming             → 2 significant articles
+2026-08-24 07:49:44,434  INFO       GitHub Blog                    → 0 significant articles
+2026-08-24 07:49:45,304  INFO       Google Research                → 0 significant articles
+2026-08-24 07:49:46,169  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-08-24 07:49:46,254  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-24 07:49:46,536  INFO       InfoQ                          → 1 significant articles
+2026-08-24 07:49:46,731  INFO       Towards Data Science           → 2 significant articles
+2026-08-24 07:49:47,019  INFO       Wired AI                       → 0 significant articles
+2026-08-24 07:49:47,122  INFO       TechCrunch AI                  → 0 significant articles
+2026-08-24 07:49:47,122  INFO     Fetching images for top articles…
+2026-08-24 07:49:47,296  INFO       🖼  Cutting Through AI Noise: How I Built a Daily Briefing for D
+2026-08-24 07:49:47,818  INFO       🖼  Veo 3.1 vs Veo 3: Specs, Audio, Pricing, How to Use It
+2026-08-24 07:49:47,959  INFO       🖼  The Future of LLMs in Education and Learning
+2026-08-24 07:49:48,166  INFO       🖼  How to Move Prompts Out of Your Codebase Without Breaking Pr
+2026-08-24 07:49:48,250  INFO       🖼  MY FIRST SUBSCRIBER FAN ART
+2026-08-24 07:49:48,319  INFO       🖼  Register, Then Run: The Discipline Hiding in Program.cs
+2026-08-24 07:49:48,319  INFO     Total selected: 12 articles from 15 feeds
+2026-08-24 07:49:48,319  INFO     Selected 12 significant articles
+2026-08-24 07:49:48,319  INFO     Step 2/3 — Generating digest…
+2026-08-24 07:49:48,726  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-24 07:49:48,727  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-24 07:49:48,727  INFO     Step 3/3 — Rendering HTML…
+2026-08-24 07:49:48,727  INFO     ────────────────────────────────────────────────────────────
+2026-08-24 07:49:48,727  INFO     Done!  Open: output/index.html
+2026-08-24 07:49:48,727  INFO     Headline: Cutting Through AI Noise: How I Built a Daily Briefing for Developers
