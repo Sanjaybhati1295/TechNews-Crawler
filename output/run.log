@@ -3755,3 +3755,38 @@
 2026-08-25 07:35:58,625  INFO     ────────────────────────────────────────────────────────────
 2026-08-25 07:35:58,625  INFO     Done!  Open: output/index.html
 2026-08-25 07:35:58,625  INFO     Headline: Beyond Embedded: How DuckDB v2.0 Shifts Architecture Toward Distributed Network Capabilities
+2026-08-26 07:37:24,480  INFO     ============================================================
+2026-08-26 07:37:24,480  INFO     TECHPULSE Digest — 2026-08-26 07:37 UTC
+2026-08-26 07:37:24,480  INFO     ============================================================
+2026-08-26 07:37:24,480  INFO     Step 1/3 — Crawling feeds…
+2026-08-26 07:37:24,848  INFO       Hacker News                    → 0 significant articles
+2026-08-26 07:37:25,174  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-26 07:37:25,349  INFO       Ars Technica                   → 0 significant articles
+2026-08-26 07:37:25,945  INFO       The Register AI                → 0 significant articles
+2026-08-26 07:37:26,099  INFO       MIT Tech Review                → 0 significant articles
+2026-08-26 07:37:26,234  INFO       Dev.to AI                      → 4 significant articles
+2026-08-26 07:37:26,468  INFO       Dev.to Programming             → 2 significant articles
+2026-08-26 07:37:26,598  INFO       GitHub Blog                    → 1 significant articles
+2026-08-26 07:37:27,270  INFO       Google Research                → 0 significant articles
+2026-08-26 07:37:28,006  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-08-26 07:37:28,060  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-26 07:37:28,620  INFO       InfoQ                          → 4 significant articles
+2026-08-26 07:37:28,794  INFO       Towards Data Science           → 5 significant articles
+2026-08-26 07:37:28,967  INFO       Wired AI                       → 0 significant articles
+2026-08-26 07:37:29,101  INFO       TechCrunch AI                  → 1 significant articles
+2026-08-26 07:37:29,101  INFO     Fetching images for top articles…
+2026-08-26 07:37:29,203  INFO       🖼  Claude's invisible text watermarks: what practitioners need 
+2026-08-26 07:37:29,260  INFO       🖼  Anthropic's Claude Academy Turns AI Fluency Into a Badge
+2026-08-26 07:37:29,367  INFO       🖼  OpenAI's Jalapeño Chip Beats Nvidia's Blackwell Years Ahead 
+2026-08-26 07:37:29,411  INFO       🖼  Building Language Understanding Systems with LLM: A Step-by-
+2026-08-26 07:37:29,689  INFO       🖼  Wiring Android's Neural Networks API to Gemma 3 for Batched 
+2026-08-26 07:37:29,743  INFO       🖼  Stability AI, maker of image generator Stable Diffusion, rai
+2026-08-26 07:37:29,743  INFO     Total selected: 20 articles from 15 feeds
+2026-08-26 07:37:29,744  INFO     Selected 20 significant articles
+2026-08-26 07:37:29,744  INFO     Step 2/3 — Generating digest…
+2026-08-26 07:37:30,035  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-26 07:37:30,035  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-26 07:37:30,036  INFO     Step 3/3 — Rendering HTML…
+2026-08-26 07:37:30,037  INFO     ────────────────────────────────────────────────────────────
+2026-08-26 07:37:30,037  INFO     Done!  Open: output/index.html
+2026-08-26 07:37:30,037  INFO     Headline: Claude's invisible text watermarks: what practitioners need to know right now

@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Claude's invisible text watermarks: what practitioners need to know right now",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude's invisible text watermarks: what practitioners need to know right now (Dev.to AI). Anthropic's Claude Academy Turns AI Fluency Into a Badge (Dev.to AI). OpenAI's Jalapeño Chip Beats Nvidia's Blackwell Years Ahead of Schedule (Dev.to AI). Building Language Understanding Systems with LLM: A Step-by-Step Guide (Dev.to AI). Wiring Android's Neural Networks API to Gemma 3 for Batched Embedding Generation (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "This blew up in Chinese AI developer communities this week, and it's worth understanding the actual mechanism before the takes calcify.\n\nOn August 2nd, Anthropic updated their support documentation to announce that all Claude models released on or after that date embed an imperceptible watermark directly into generated text. Not appended metadata. Not a visible tag. A statistical signal woven into the word choices and sentence structures themselves.\n\nHere is what the docs say it survives: copy-paste, light editing, synonym substitution. Here is what Anthropic says degrades it: heavy rewriting,"
+  },
+  "articles": [
+    {
+      "id": "d6e66d085cca",
+      "title": "Claude's invisible text watermarks: what practitioners need to know right now",
+      "url": "https://dev.to/shenao_yu_e15c14815264a44/claudes-invisible-text-watermarks-what-practitioners-need-to-know-right-now-3i14",
+      "summary": "This blew up in Chinese AI developer communities this week, and it's worth understanding the actual mechanism before the takes calcify.\n\nOn August 2nd, Anthropic updated their support documentation to announce that all Claude models released on or after that date embed an imperceptible watermark directly into generated text. Not appended metadata. Not a visible tag. A statistical signal woven into the word choices and sentence structures themselves.\n\nHere is what the docs say it survives: copy-paste, light editing, synonym substitution. Here is what Anthropic says degrades it: heavy rewriting,",
+      "source": "Dev.to AI",
+      "published": "2026-08-26T07:27:31+00:00",
+      "score": 4.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk6i6xhmkhyb2rw4okeaf.png"
+    },
+    {
+      "id": "fac98c69f969",
+      "title": "Anthropic's Claude Academy Turns AI Fluency Into a Badge",
+      "url": "https://dev.to/rishi_kora/anthropics-claude-academy-turns-ai-fluency-into-a-badge-2jh5",
+      "summary": "Originally published on AI Tech Connect.\n\nWhat you need to know Claude Academy launched on 20 August 2026 at academy.claude.com, and the learning content is genuinely free. No sign-in is required to learn. Signing in with a Claude account is optional and lets you track progress. Completion badges go to account holders and can be added to a LinkedIn profile. The spine is a \"4D AI Fluency Framework\": Delegation, Description, Discernment, Diligence. The teaching aims at habits, not prompts — including when human judgement should stay central. A badge is a completion signal, not a capability signa",
+      "source": "Dev.to AI",
+      "published": "2026-08-26T07:31:21+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fziqobtc7svcgal4stpr9.png"
+    },
+    {
+      "id": "679ae914c63b",
+      "title": "OpenAI's Jalapeño Chip Beats Nvidia's Blackwell Years Ahead of Schedule",
+      "url": "https://dev.to/vin-patel/openais-jalapeno-chip-beats-nvidias-blackwell-years-ahead-of-schedule-2ga",
+      "summary": "Originally published at vinpatel.com\n\nOpenAI's first chip wasn't supposed to threaten Nvidia for years. Jalapeño's early benchmarks already beat Blackwell on inference speed and efficiency.\n\nThree dates tell you how fast this moved. In 2024, Nvidia's Blackwell architecture became the default assumption for anyone running large-scale AI inference — the chip every lab budgeted its compute around, the one nobody expected to be dethroned soon. In 2025, OpenAI shifted from renting compute to designing it, moving into custom silicon built for the specific inference workloads its own models generate ",
+      "source": "Dev.to AI",
+      "published": "2026-08-26T07:25:36+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fvinpatel.com%2Fdispatch%2Fopenai-s-jalape-o-chip-beats-nvidia-s-blackwell-years-ahead-%2Ffeatured.png"
+    },
+    {
+      "id": "eae85989e945",
+      "title": "Building Language Understanding Systems with LLM: A Step-by-Step Guide",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/building-language-understanding-systems-with-llm-a-step-by-step-guide-50kg",
+      "summary": "We are building a support ticket triage agent that reads raw customer messages, classifies intent, extracts entities, and routes each ticket to the correct team queue. This kind of language understanding system replaces manual sorting and cuts first-response time. Because the system prompt includes full few-shot examples, Oxlo.ai's flat per-request pricing is a good fit here. Cost stays the same even when the prompt grows.\n\nWhat you'll need\n\n\nPython 3.10 or newer\nAn Oxlo.ai API key from https://portal.oxlo.ai\n\nThe OpenAI SDK installed with pip install openai\n\n\n\nStep 1: Set up the client\n\nI sta",
+      "source": "Dev.to AI",
+      "published": "2026-08-26T07:33:50+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnqg7caa5we4rwkh1ug29.png"
+    },
+    {
+      "id": "475c0dbfbdf8",
+      "title": "Wiring Android's Neural Networks API to Gemma 3 for Batched Embedding Generation",
+      "url": "https://dev.to/software_mvp-factory/wiring-androids-neural-networks-api-to-gemma-3-for-batched-embedding-generation-13ig",
+      "summary": "---\ntitle: \"Android NNAPI + Gemma 3: Batched Embedding Deep Dive\"\npublished: true\ndescription: \"Wire Gemma 3 to Android's NNAPI for high-throughput on-device embeddings. INT8 vs INT4 tradeoffs, pre-allocated tensor buffers, and the memory bandwidth ceiling that forces GPU offload.\"\ntags: kotlin, android, mobile, architecture\ncanonical_url: https://blog.mvpfactory.co/android-nnapi-gemma3-batched-embeddings\n---\n\n## What We Are Building\n\nBy the end of this tutorial, you will know how to wire Gemma 3 to Android's Neural Networks API for embedding generation — not generative inference. You will und",
+      "source": "Dev.to Programming",
+      "published": "2026-08-26T07:32:56+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fel0jqcmlb398ihqnkwom.png"
+    },
+    {
+      "id": "e1546878c759",
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "summary": "The company's new fundraising total now stands at $232 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-25T19:03:47+00:00",
+      "score": 3.7,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/unnamed-2.png?w=1152"
+    },
+    {
+      "id": "fd6f0f9caf93",
+      "title": "Java News Roundup: JDK 27-RC1, OpenJDK JEPs, Jakarta EE, BellSoft, Helidon, Micrometer, Tika 4.0",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 17th, 2026, features news highlighting: the first release candidate of JDK 27; JEP 541 and JEP 540 targeted for JDK 28; the GA release of Apache Tika 4.0; a maintenance release of Helidon; the first milestone releases of Micrometer Metrics 1.18 and Micrometer Tracing 1.8; an update on Jakarta EE 12; and BellSoft Critical Security Patch Updates. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-25T15:20:00+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "1ae0d11d5605",
+      "title": "Agentic AI Development Services: How to Build Reliable Tool-Using AI Agents",
+      "url": "https://dev.to/naresh_chandralohani/agentic-ai-development-services-how-to-build-reliable-tool-using-ai-agents-1mb6",
+      "summary": "An AI agent becomes difficult to operate when it can do more than generate text. Once an agent can call APIs, query databases, update records, invoke other agents, or trigger workflows, a single failed tool call can create duplicate actions, inconsistent state, or an execution loop.\n\nThis is where Agentic AI Development Services need to go beyond prompt engineering. The engineering problem is building a controlled runtime around the model: explicit tools, durable state, validation, retries, permissions, and traces. This guide shows a practical architecture using Node.js-style services, structu",
+      "source": "Dev.to Programming",
+      "published": "2026-08-26T07:09:18+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "6255594eb17b",
+      "title": "Is Agentic AI Just Automation?",
+      "url": "https://towardsdatascience.com/is-agentic-ai-just-automation/",
+      "summary": "Why most agents are just flowcharts in disguise, and what to build instead.\nThe post Is Agentic AI Just Automation? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-26T06:00:02+00:00",
+      "score": 3.61,
+      "image": null
+    },
+    {
+      "id": "3c418fb956ca",
+      "title": "Cursor Releases Origin as an Agent-Native Alternative to GitHub",
+      "url": "https://www.infoq.com/news/2026/08/cursor-origin-alternative-github/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AI coding agent Cursor has launched Origin, a git based code hosting platform embedded inside its AI-powered editor, positioning it as an alternative to GitHub for teams that already work in Cursor. Origin is rolling out in early beta on Pro, Teams and Enterprise plans, and lives inside a new Codebase tab within the Cursor application. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-08-25T08:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "35ee55afd1a9",
+      "title": "Why Random Forest Needs to Be This Random",
+      "url": "https://towardsdatascience.com/why-random-forest-needs-to-be-this-random/",
+      "summary": "Bagging hits a wall no amount of trees can break — here's the equation that explains why, and the experiment that proves it\nThe post Why Random Forest Needs to Be This Random appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-26T07:30:02+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7414ec688271",
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.\nThe post How to evaluate LLMs before production appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-25T21:35:11+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "2dd0ac295553",
+      "title": "Beyond Embedded: How DuckDB v2.0 Shifts Architecture toward Distributed Network Capabilities",
+      "url": "https://www.infoq.com/news/2026/08/duckdb-v2-distributed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DuckDB Labs has previewed DuckDB v2.0, codenamed \"Cyanoptera.\" This release includes over 10000 commits and introduces a client/server mode, enabling network connections. Improvements also encompass extension portability, advanced data types, and a new parser. Performance enhancements include asynchronous I/O and storage optimisations. General availability is expected in fall 2026. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-25T06:06:00+00:00",
+      "score": 3.08,
+      "image": null
+    },
+    {
+      "id": "8019b2fb265d",
+      "title": "What would a fair benchmark for agent architecture look like? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vy0ki7/what_would_a_fair_benchmark_for_agent/",
+      "summary": "I am working on an evaluation design and would appreciate criticism before running it. Most coding-agent benchmarks collapse the model and its harness into one score. If a run fails, it is difficult to tell whether the cause was model capability, context assembly, task decomposition, tool design, retry policy, or the acceptance gate. A model can also look worse because the harness truncated its output, or look better because the gate only checked for plausible surface markers. The experiment I am considering crosses two independent variables:  Workflow: one monolithic task versus decomposition",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-25T13:55:48+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "0687f75346fc",
+      "title": "Travel and stay accommodation for EMNLP [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxui1x/travel_and_stay_accommodation_for_emnlp_d/",
+      "summary": "Hi I am a PhD student, My paper got accepted in EMNLP 2026, As this is my first paper I wanted some information. My professor has agreed to give the registration costs, but I am on my own for the travel and stay costs. I am currently in a Singapore university but south Asian. No funding from department. Queries:  I searched and found this Call for EMNLP 2026 Diversity and Inclusion Subsidies - EMNLP 2026 and Call For EMNLP 2026 Volunteers - EMNLP 2026 , does anyone know some other kinds of grant/subsidies etc. available which can be used in general for AI conferences? How much does the D&amp;I",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-25T09:05:13+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "9fdda9ee164e",
+      "title": "BMC Vulnerabilities Put Thousands of Servers at Risk of Hardware-Level Compromise",
+      "url": "https://www.infoq.com/news/2026/08/bmc-vulnerabilities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Security researchers are warning that thousands of enterprise servers could be exposed to compromise through vulnerabilities in their Baseboard Management Controllers (BMCs) - specialized processors embedded in server motherboards that provide administrators with remote, out-of-band control. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-08-25T12:00:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "70df1b9b832d",
+      "title": "I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke.",
+      "url": "https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/",
+      "summary": "What moving a Dockerized pipeline off my laptop taught me about containers, networking, and hidden assumptions.\nThe post I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-25T10:30:01+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "5d2519dcad97",
+      "title": "Reviewing 4 papers for AAAI 2027 and none have code, Reject? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vxryws/reviewing_4_papers_for_aaai_2027_and_none_have/",
+      "summary": "I got my batch of four papers for AAAI 2027. All four papers make empirical claims, none include code, data, or anything I can actually check. Just the PDF and the checklist. AAAI-27's own rules say code/data should be provided at submission, and &quot;we'll release it after acceptance&quot; doesn't count as reproducibility. That said, I don't think missing code alone is an auto-reject. Saw an older thread here where someone claiming to have helped write the AAAI checklist argued reviewers rarely have time to audit code anyway, and plenty of authors have legit reasons (funding, IP) for not rel",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-25T06:34:35+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "53e9199b3e73",
+      "title": "Hallucinations, Watermarks, Removers, and a Squeezed Balloon",
+      "url": "https://towardsdatascience.com/hallucinations-watermarks-removers-and-a-squeezed-balloon/",
+      "summary": "Watermarks act at the model’s moments of doubt, and so do the safety checks that catch AI mistakes\nThe post Hallucinations, Watermarks, Removers, and a Squeezed Balloon appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-25T07:30:02+00:00",
+      "score": 2.16,
+      "image": null
+    },
+    {
+      "id": "c2c4925fbd5c",
+      "title": "One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries",
+      "url": "https://towardsdatascience.com/one-document-type-a-million-files-structured-extraction-into-the-sql-table-rag-queries/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #14C] - One hour with two people, six to ten fields, and the two signals that separate a real column from one that will break a filter later\nThe post One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-25T06:00:01+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
