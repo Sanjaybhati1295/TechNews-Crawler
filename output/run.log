@@ -3825,3 +3825,38 @@
 2026-08-27 17:58:50,939  INFO     ────────────────────────────────────────────────────────────
 2026-08-27 17:58:50,939  INFO     Done!  Open: output/index.html
 2026-08-27 17:58:50,939  INFO     Headline: Google Gemini Omni Flash Launches Conversational Video Creation and Editing Tools
+2026-08-28 19:08:49,464  INFO     ============================================================
+2026-08-28 19:08:49,464  INFO     TECHPULSE Digest — 2026-08-28 19:08 UTC
+2026-08-28 19:08:49,464  INFO     ============================================================
+2026-08-28 19:08:49,464  INFO     Step 1/3 — Crawling feeds…
+2026-08-28 19:08:49,763  INFO       Hacker News                    → 0 significant articles
+2026-08-28 19:08:50,045  INFO       VentureBeat AI                 → 0 significant articles
+2026-08-28 19:08:50,117  INFO       Ars Technica                   → 0 significant articles
+2026-08-28 19:08:50,609  INFO       The Register AI                → 0 significant articles
+2026-08-28 19:08:50,757  INFO       MIT Tech Review                → 0 significant articles
+2026-08-28 19:08:50,855  INFO       Dev.to AI                      → 1 significant articles
+2026-08-28 19:08:51,030  INFO       Dev.to Programming             → 3 significant articles
+2026-08-28 19:08:51,186  INFO       GitHub Blog                    → 1 significant articles
+2026-08-28 19:08:52,003  INFO       Google Research                → 0 significant articles
+2026-08-28 19:08:52,639  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-08-28 19:08:52,676  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-08-28 19:08:53,358  INFO       InfoQ                          → 4 significant articles
+2026-08-28 19:08:53,493  INFO       Towards Data Science           → 9 significant articles
+2026-08-28 19:08:55,085  INFO       Wired AI                       → 0 significant articles
+2026-08-28 19:08:55,202  INFO       TechCrunch AI                  → 4 significant articles
+2026-08-28 19:08:55,202  INFO     Fetching images for top articles…
+2026-08-28 19:08:55,233  INFO       🖼  Anthropic gets its first court win over the Pentagon’s suppl
+2026-08-28 19:08:55,279  INFO       🖼  Open-weight AI companies are the Valley’s hottest acquisitio
+2026-08-28 19:08:55,318  INFO       🖼  The Golden Age of AI is Now: Why 2026 Belongs to Local-First
+2026-08-28 19:08:55,345  INFO       🖼  Connecting My LangGraph AI Agent to Postgres
+2026-08-28 19:08:55,472  INFO       🖼  Payoneer Online Payment Services | USAITSPOT
+2026-08-28 19:08:55,558  INFO       🖼  Background Coding Agents in 2026: What Devin, Codex Cloud an
+2026-08-28 19:08:55,559  INFO     Total selected: 23 articles from 15 feeds
+2026-08-28 19:08:55,559  INFO     Selected 23 significant articles
+2026-08-28 19:08:55,559  INFO     Step 2/3 — Generating digest…
+2026-08-28 19:08:55,974  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-08-28 19:08:55,974  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-08-28 19:08:55,974  INFO     Step 3/3 — Rendering HTML…
+2026-08-28 19:08:55,975  INFO     ────────────────────────────────────────────────────────────
+2026-08-28 19:08:55,975  INFO     Done!  Open: output/index.html
+2026-08-28 19:08:55,975  INFO     Headline: Anthropic gets its first court win over the Pentagon’s supply-chain risk label

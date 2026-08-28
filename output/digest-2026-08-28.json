@@ -1,0 +1,253 @@
+{
+  "digest": {
+    "headline": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+    "tldr": "Today's digest covers 23 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label (TechCrunch AI). Open-weight AI companies are the Valley’s hottest acquisition targets (TechCrunch AI). The Golden Age of AI is Now: Why 2026 Belongs to Local-First, Open Source Development (Dev.to AI). Connecting My LangGraph AI Agent to Postgres (Towards Data Science). Payoneer Online Payment Services | USAITSPOT (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Background Coding Agents in 2026: What Devin, Codex Cloud and Jules Actually Cost (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Human-in-the-Loop Without Killing Throughput (Towards Data Science). From One Agent to a Team: Understanding Codex Subagents (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington."
+  },
+  "articles": [
+    {
+      "id": "c6fae4a04883",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-28T12:46:12+00:00",
+      "score": 4.25,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798"
+    },
+    {
+      "id": "883e80af1d55",
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "summary": "There's a lot of capital pouring into the business of giving models away.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-28T18:19:40+00:00",
+      "score": 3.85,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024"
+    },
+    {
+      "id": "1809494f0a0f",
+      "title": "The Golden Age of AI is Now: Why 2026 Belongs to Local-First, Open Source Development",
+      "url": "https://dev.to/hypernexus/the-golden-age-of-ai-is-now-why-2026-belongs-to-local-first-open-source-development-48cj",
+      "summary": "The Golden Age of AI is Now: Why 2026 Belongs to Local-First, Open Source Development\n\nExplore the seismic shift towards a local-first future for AI development. In 2026, the explosion of open source tools, democratized models, and community AI is creating an unprecedented era of innovation and freedom for developers everywhere.\n\nThe Paradigm Shift: From Cloud Dependency to Local-First Sovereignty\n\nThe year 2026 marks a definitive inflection point. For a decade, the promise of AI was chained to the cloud—massive, centralized API gateways controlled by a handful of providers. Today, that model ",
+      "source": "Dev.to AI",
+      "published": "2026-08-28T18:41:16+00:00",
+      "score": 3.77,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd3pkb184b8typrz2u4ua.png"
+    },
+    {
+      "id": "5d358451610b",
+      "title": "Connecting My LangGraph AI Agent to Postgres",
+      "url": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
+      "summary": "How to run the backend locally with Docker or in the cloud\nThe post Connecting My LangGraph AI Agent to Postgres appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-28T15:30:02+00:00",
+      "score": 3.5,
+      "image": "https://assets.insightmediagroup.io/media/wp-content/uploads/2026/07/towfiqu-barbhuiya-9gPKrsbGmc-unsplash-scaled.jpg"
+    },
+    {
+      "id": "9cb6413d2324",
+      "title": "Payoneer Online Payment Services | USAITSPOT",
+      "url": "https://dev.to/mipelin968/payoneer-online-payment-services-usaitspot-4063",
+      "summary": "Buy Payoneer Online Payment Services | USAITSPOT\n\nPayoneer Account: Complete Guide to Opening, Verification, and International Payments\n\nA Payoneer Account is a financial platform designed to help freelancers, online sellers, businesses, and service providers receive and manage international payments. Payoneer provides several options for receiving payments from clients and marketplaces, managing multiple currencies, withdrawing funds, and making cross-border business payments. Feature availability depends on the user's country, eligibility, and applicable regulations.\n24 Hours Reply/Contract\n",
+      "source": "Dev.to Programming",
+      "published": "2026-08-28T18:55:50+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdraxtbeakkw816920hzo.png"
+    },
+    {
+      "id": "f776287a27a7",
+      "title": "Background Coding Agents in 2026: What Devin, Codex Cloud and Jules Actually Cost",
+      "url": "https://dev.to/moksh/background-coding-agents-in-2026-what-devin-codex-cloud-and-jules-actually-cost-op6",
+      "summary": "A terminal coding agent only works as long as you're watching it, which caps how much you can hand off at however many hours you're willing to babysit a session. Background agents remove that ceiling: you hand over a scoped ticket, it runs on a cloud VM with your repo already cloned, and you come back later to a pull request. I compared the current field in more depth on DevToolLab; here's the short version.\n\nThe pricing gap between these products is bigger than the marketing implies. Google's Jules gives every account 15 free tasks per rolling 24 hours, Devin's Pro plan starts at $20/month, a",
+      "source": "Dev.to Programming",
+      "published": "2026-08-28T18:37:20+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdevtoollab.com%2Fimages%2Fblog%2Fbest-background-coding-agents%2Fbest_background_coding_agents_banner.webp"
+    },
+    {
+      "id": "1b6cd6e3e21d",
+      "title": "Beyond the Prompt: A Simple Guide to Loop Engineering",
+      "url": "https://dev.to/abdullahahmad/beyond-the-prompt-a-simple-guide-to-loop-engineering-336d",
+      "summary": "Remember when everyone said \"Prompt Engineering\" was the only tech skill you’d ever need? For a while, we believed it. If an AI gave us a bad answer, our first instinct was to just rewrite the prompt.\n\nThat is fast, reactive thinking—what psychologists call System 1 thinking. We treated the AI like a magic text box: if we just found the perfect magic words, it would do exactly what we wanted.\n\nBut as people started building real, automated AI assistants—like customer support bots or data analyzers—they realized something frustrating. If you put that \"magic text box\" into the real world, it bre",
+      "source": "Dev.to Programming",
+      "published": "2026-08-28T18:33:27+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "802c332f1605",
+      "title": "Human-in-the-Loop Without Killing Throughput",
+      "url": "https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/",
+      "summary": "How we stopped reviewing every agent action and started routing human attention where it actually mattered\nThe post Human-in-the-Loop Without Killing Throughput appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-28T18:30:01+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "6fd4044222c0",
+      "title": "Why Claude Code Time Estimates Are Poor",
+      "url": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+      "summary": "Be a better communicator with LLM programming\nThe post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-28T14:00:01+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "56265c19d122",
+      "title": "From One Agent to a Team: Understanding Codex Subagents",
+      "url": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
+      "summary": "A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI\nThe post From One Agent to a Team: Understanding Codex Subagents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-28T17:00:01+00:00",
+      "score": 3.38,
+      "image": null
+    },
+    {
+      "id": "ac5d06a39bef",
+      "title": "Google Cloud Launches AI-powered Agents to Simplify Database Lifecycle Management",
+      "url": "https://www.infoq.com/news/2026/08/google-database-operation-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google Cloud has introduced AI-powered Database Operations Agents, featuring an Onboarding Agent that streamlines database setup and an Observability Agent that helps automate troubleshooting, performance optimization, and tuning. Integrated with Gemini Cloud Assist, these agents support multiple database services, including AlloyDB, Bigtable, and Spanner. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-08-27T15:00:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "1dbb56040101",
+      "title": "Meta Expands Its Custom Silicon Strategy From Compute Into Networking",
+      "url": "https://www.infoq.com/news/2026/08/meta-hccl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta has detailed MTIA 300, its first in-house accelerator optimized for training ranking and recommendation models. By Matt Foster",
+      "source": "InfoQ",
+      "published": "2026-08-28T07:43:00+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "60b5f5577eda",
+      "title": "Can AI Improve Itself? RSI Might Be the Answer [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w052xg/can_ai_improve_itself_rsi_might_be_the_answer_r/",
+      "summary": "Can an AI make other AIs better? And what stops it from just cheating? Last month, an OpenAI eval agent escaped its sandbox and broke into Hugging Face, apparently to grab test solutions from a benchmark. It's exactly what you'd expect from a system that rewrites agents and reads its own grades. We set out to measure recursive self-improvement anyway, with the exam locked outside its sandbox. We introduce HarnessOpt-Bench, which scores an LLM on how much it improves another agent's harness. On the development split, the optimizer sees per-case traces. Upon validation, it receives a single aggr",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-27T20:13:30+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "6c5141d5d38f",
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "740a2542039e",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "source": "TechCrunch AI",
+      "published": "2026-08-27T14:56:52+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "0036de8e2274",
+      "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
+      "url": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare announced Wallets, giving agents a stablecoin balance and spending controls, though only handle claiming is live and squatting complaints have already surfaced. Payments run on x402, now hosted by the Linux Foundation. The controls bound single payments, not sequences, leaving composition to the application above. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-27T09:04:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "5bc2e567d8d8",
+      "title": "Astro Introduces Sätteri: A Rust-powered Markdown And Mdx Processor With Up To 60% Faster Builds",
+      "url": "https://www.infoq.com/news/2026/08/astro-satteri-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Sätteri is a high-performance Markdown and MDX processor developed by the Astro team. Built in Rust, it enhances build speeds by up to 61% for Astro 7.0. Sätteri supports flexible JavaScript plugins and integrates various Markdown features natively. It maintains compatibility with the unified ecosystem while offering faster parsing and reduced dependencies. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-08-27T12:31:00+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "471ea8bf94e6",
+      "title": "OpenClaw went viral. Meet the maintainers building and securing it.",
+      "url": "https://github.blog/open-source/maintainers/openclaw-went-viral-meet-the-maintainers-building-and-securing-it/",
+      "summary": "OpenClaw is the fastest-growing project in GitHub history. Peter Steinberger and several maintainers share what they learned in the project's first six months.\nThe post OpenClaw went viral. Meet the maintainers building and securing it. appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-08-27T16:00:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "c18a4ea29475",
+      "title": "Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch",
+      "url": "https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/",
+      "summary": "As AI handles more of the execution, what work should belong to agents vs humans and why does that distinction matter?\nThe post Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-27T15:30:02+00:00",
+      "score": 2.16,
+      "image": null
+    },
+    {
+      "id": "abd24d2dded3",
+      "title": "The Sigmoid Function: From 'e' to Neural Networks",
+      "url": "https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/",
+      "summary": "We use the equation all the time. But where did it actually come from?\nThe post The Sigmoid Function: From 'e' to Neural Networks appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-27T18:35:01+00:00",
+      "score": 2.14,
+      "image": null
+    },
+    {
+      "id": "c1f49d992475",
+      "title": "How to Work with AI Coding Agents",
+      "url": "https://towardsdatascience.com/how-to-work-with-ai-coding-agents/",
+      "summary": "A practical guide to getting better code, not just more code\nThe post How to Work with AI Coding Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-27T14:00:01+00:00",
+      "score": 2.08,
+      "image": null
+    },
+    {
+      "id": "fb9c6fd5b42a",
+      "title": "I Trained Six Models for Fraud Detection, and the Best One Isn't in Production",
+      "url": "https://towardsdatascience.com/i-trained-six-models-for-fraud-detection-and-the-best-one-isnt-in-production/",
+      "summary": "What a final-year project taught me about the gap between evaluation metrics and production decisions\nThe post I Trained Six Models for Fraud Detection, and the Best One Isn't in Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-27T17:05:01+00:00",
+      "score": 2.05,
+      "image": null
+    },
+    {
+      "id": "160df5a7e761",
+      "title": "Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past",
+      "url": "https://towardsdatascience.com/stop-giving-your-ai-agent-a-search-box-and-start-giving-it-typed-tools-hard-bounds-and-a-gate-it-cannot-talk-past/",
+      "summary": "What happens when you stop feeding a model context and let it go find its own, walking a knowledge graph within strict limits, and what four models and one wrong prediction revealed about whether that is worth doing.\nThe post Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-27T12:35:01+00:00",
+      "score": 2.0,
+      "image": null
+    }
+  ]
+}
