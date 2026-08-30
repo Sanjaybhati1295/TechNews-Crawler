@@ -1,0 +1,149 @@
+{
+  "digest": {
+    "headline": "The absurd thing every Brazilian dev faces: a foreign credit card for AI",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "The absurd thing every Brazilian dev faces: a foreign credit card for AI (Dev.to AI). AWS Open Sources Kiro Crew for Asynchronous Coding Agents (InfoQ). OpenAI Jalapeño puts NVIDIA's inference margins on the clock (Dev.to AI). Three Dated Bets on Agentic-AI Insurance (Resolves 2027-01-01) (Dev.to AI). How to Build a Good Human-in-the-Loop for AI Email and Outbound Messaging (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Can Copilot code review gate generated code before merge? (Dev.to Programming). RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "While Brazil's government announces national AI supercomputers, many developers here still can't pay for the OpenAI API — no international card, no PIX accepted. It doesn't have to be this way.\n\nIf you are a developer in Brazil — or anywhere without easy international payment — you know the pain: OpenAI, Anthropic and others require an international credit card for API billing, and many regions simply don't have one or get declined constantly.\n\nThe practical workaround: an API gateway. You keep using the same models (GPT, Claude, Gemini) and the same SDK — you just point base_url to a provider"
+  },
+  "articles": [
+    {
+      "id": "811ce353eabd",
+      "title": "The absurd thing every Brazilian dev faces: a foreign credit card for AI",
+      "url": "https://dev.to/lin_wang_eb7f420656bfbdfc/the-absurd-thing-every-brazilian-dev-faces-a-foreign-credit-card-for-ai-3ide",
+      "summary": "While Brazil's government announces national AI supercomputers, many developers here still can't pay for the OpenAI API — no international card, no PIX accepted. It doesn't have to be this way.\n\nIf you are a developer in Brazil — or anywhere without easy international payment — you know the pain: OpenAI, Anthropic and others require an international credit card for API billing, and many regions simply don't have one or get declined constantly.\n\nThe practical workaround: an API gateway. You keep using the same models (GPT, Claude, Gemini) and the same SDK — you just point base_url to a provider",
+      "source": "Dev.to AI",
+      "published": "2026-08-30T12:05:06+00:00",
+      "score": 4.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1nzf71xvhxta27epxyw4.png"
+    },
+    {
+      "id": "f3fa809c2bdf",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue without active supervision. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-30T08:23:00+00:00",
+      "score": 4.47,
+      "image": "https://res.infoq.com/news/2026/08/kiro-crew-coding-agents/en/headerimage/generatedHeaderImage-1786904775247.jpg"
+    },
+    {
+      "id": "d559d14bc738",
+      "title": "OpenAI Jalapeño puts NVIDIA's inference margins on the clock",
+      "url": "https://dev.to/congar97/openai-jalapeno-puts-nvidias-inference-margins-on-the-clock-4b9c",
+      "summary": "Does Jalapeño beat NVIDIA?\n\nOn the benchmark OpenAI published, yes.\n\nDoes that make it a better chip than NVIDIA's Blackwell platform?\n\nThe evidence does not support that claim yet.\n\nShould NVIDIA care?\n\nYes. Jalapeño gives OpenAI a credible way to move repeated, high-volume inference onto hardware it controls. That changes how OpenAI buys GPUs, how much pricing power NVIDIA keeps, and how expensive it is to leave CUDA.\n\nThat is a narrower claim than \"NVIDIA killer.\" It is also more interesting.\n\n\nShort version: Jalapeño is an inference ASIC co-developed by OpenAI and Broadcom. Early results s",
+      "source": "Dev.to AI",
+      "published": "2026-08-30T12:17:22+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx7klxdxgz8o1zjgr1e7b.png"
+    },
+    {
+      "id": "f644a820f1a4",
+      "title": "Three Dated Bets on Agentic-AI Insurance (Resolves 2027-01-01)",
+      "url": "https://dev.to/vibeagentmaking/three-dated-bets-on-agentic-ai-insurance-resolves-2027-01-01-41op",
+      "summary": "You can already buy A-rated AI-agent insurance. The interesting question is not whether the agent economy gets insured; it is whether the coverage prices what makes an agent dangerous, and whether there is a record to settle a claim. Three checkable bets, resolving January 1, 2027.\n\n\n\n\nIn August 2020, a Citibank employee sat in front of an internal payment screen, meaning to send a $7.8 million interest payment on a Revlon loan. Through a confusing interface and a set of checkboxes that didn't do what the operators thought they did, the bank instead wired out the entire loan principal: $894 mi",
+      "source": "Dev.to AI",
+      "published": "2026-08-30T12:04:41+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbs3lwef2szp1zd0swrwq.png"
+    },
+    {
+      "id": "567a1dfd0152",
+      "title": "How to Build a Good Human-in-the-Loop for AI Email and Outbound Messaging",
+      "url": "https://dev.to/brennhill/how-to-build-a-good-human-in-the-loop-for-ai-email-and-outbound-messaging-14pa",
+      "summary": "A good human in the loop for AI email is more than a confirmation dialog on every draft. You want controls that make a wrong send cheap to undo, cap how far it can reach, and put a real human gate only on the sends a person can actually catch in time. The question driving all of LoopRails applies here too: can a human realistically catch this mistake before it lands? If the agent is about to send one internal draft, a short undo window beats a click. If it is about to blast 10,000 customers, no human reads fast enough, so you prevent the bad outcome with caps and approval rather than a rubber ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-30T12:00:00+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Flooprails.dev%2Fog-article-hitl-email-agents.png"
+    },
+    {
+      "id": "f75036362705",
+      "title": "What Happens When You Refresh a Web Page? Understanding Browser Cache for Beginners",
+      "url": "https://dev.to/darshan_dev/what-happens-when-you-refresh-a-web-page-understanding-browser-cache-for-beginners-56p",
+      "summary": "Have you ever noticed that a website sometimes loads slowly the first time, but much faster when you visit it again?\n\nFor example, imagine you open an online shopping website for the first time.\n\nThe browser needs to download things like HTML, CSS, JavaScript, images, and fonts.\n\nAfter the page loads, you refresh it.\n\nSuddenly, the page may load much faster.\n\nSo what happened?\n\nThe answer is browser caching.\n\n\n  \n  \n  What Is Browser Cache?\n\n\nA browser cache is temporary storage used by your browser to keep copies of certain resources from websites.\n\nThink of it like keeping frequently used th",
+      "source": "Dev.to Programming",
+      "published": "2026-08-30T11:07:55+00:00",
+      "score": 3.63,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9ayq5nl1od1pu5diabyv.png"
+    },
+    {
+      "id": "6bc5fb66ed34",
+      "title": "Can Copilot code review gate generated code before merge?",
+      "url": "https://dev.to/devconnect/can-copilot-code-review-gate-generated-code-before-merge-1dk7",
+      "summary": "Short answer: No. Copilot code review can add review comments and help catch issues, but GitHub does not treat its approval as a required merge gate. Use branch protection, required human reviews, and status checks instead.\n\nNo. Copilot code review is a reviewer, not a merge authority, and GitHub’s required-review rules are built around approvals from people with write access or code owners, plus separate status checks. For generated code, use Copilot as a fast first pass, then enforce merge protection with human approval and automated checks. If you want the practical setup, DevConnect keeps ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-30T11:15:03+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "a07c3116b1cc",
+      "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-29T18:41:59+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "d074409de37f",
+      "title": "When to Use Claude Code and When to Use Codex",
+      "url": "https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/",
+      "summary": "Learn where which coding agent is best\nThe post When to Use Claude Code and When to Use Codex appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-29T15:00:01+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "21c87caf1970",
+      "title": "4 Claude Skills Every Data Scientist Needs in 2026",
+      "url": "https://towardsdatascience.com/4-claude-skills-every-data-scientist-needs-in-2026/",
+      "summary": "Four skills worth adding to your workflow today if you don't want to be left behind\nThe post 4 Claude Skills Every Data Scientist Needs in 2026 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-29T17:00:02+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "21b0fa2bf5a7",
+      "title": "Cloudflare Workers Accept Inbound TCP, with gRPC the First Protocol on Top",
+      "url": "https://www.infoq.com/news/2026/08/workers-inbound-tcp-grpc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare Workers can now accept inbound TCP connections through a new connect(socket) handler routed via Spectrum, ending an eight-year restriction to HTTP. Containers get full-duplex gRPC in any language, while Workers get unary and server-streaming through automatic gRPC-web translation. Everything is private beta. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-08-29T09:55:00+00:00",
+      "score": 2.23,
+      "image": null
+    },
+    {
+      "id": "954b5b6bd2c7",
+      "title": "RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need",
+      "url": "https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleaning OCR noise: each has a cheaper method that works, and the engineering is knowing which one to reach for\nThe post RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-29T13:00:01+00:00",
+      "score": 2.2,
+      "image": null
+    },
+    {
+      "id": "6b58e0fa3fd3",
+      "title": "FreeToken Unlocks Frontier MoE Inference on Consumer Hardware via Dynamic Co-Execution",
+      "url": "https://www.infoq.com/news/2026/08/freetoken-local-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Researchers from UC Berkeley and MIT have developed FreeToken, an open-source inference engine that enhances the utility of Mixture-of-Experts models on consumer hardware. By implementing a dynamic scheduling policy and optimising weight management, FreeToken improves decoding speeds and execution efficiency in edge AI applications, fostering self-hosted reasoning systems. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-08-29T05:05:00+00:00",
+      "score": 2.16,
+      "image": null
+    }
+  ]
+}
