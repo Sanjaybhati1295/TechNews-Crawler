@@ -1,0 +1,153 @@
+{
+  "digest": {
+    "headline": "Why RAG Complexity Should Be Earned",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Why RAG Complexity Should Be Earned (Towards Data Science). The Weird Economics of AI Tokens (Dev.to Programming). Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere (InfoQ). AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production (Towards Data Science). Playwright Testing Course with AI Certification in Bangalore – Learn Next-Gen Test Automation (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Musk’s faster path to more gas turbines comes with pollution problem (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Generating test cases is the easy part (Dev.to AI). FAQ as RAG: When You Get to Design the Corpus (Towards Data Science). 8 Tips for Writing Effective Agent Instructions (Towards Data Science). Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information seeking\nThe post Why RAG Complexity Should Be Earned appeared first on Towards Data Science."
+  },
+  "articles": [
+    {
+      "id": "f85000d76a1d",
+      "title": "Why RAG Complexity Should Be Earned",
+      "url": "https://towardsdatascience.com/why-rag-complexity-should-be-earned/",
+      "summary": "A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information seeking\nThe post Why RAG Complexity Should Be Earned appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T12:30:01+00:00",
+      "score": 4.38,
+      "image": "https://assets.insightmediagroup.io/media/1787691245458_3eu6qi.png"
+    },
+    {
+      "id": "a234abe45261",
+      "title": "The Weird Economics of AI Tokens",
+      "url": "https://dev.to/derekmwale/the-weird-economics-of-ai-tokens-1ec3",
+      "summary": "Why the Smallest Unit of Artificial Intelligence Might Become One of the Most Important Economic Units of the Internet\n\n\nThere is something deeply strange happening in computing.\n\nFor decades, software economics was relatively easy to understand.\n\nYou bought a computer.\n\nYou bought some software.\n\nMaybe you paid for a server.\n\nMaybe you paid monthly for a SaaS subscription.\n\nThe economics were imperfect, but the mental model was simple.\n\nYou paid for things.\n\nYou paid for storage.\n\nYou paid for bandwidth.\n\nYou paid for CPU time.\n\nYou paid for users.\n\nThen artificial intelligence arrived and de",
+      "source": "Dev.to Programming",
+      "published": "2026-08-31T14:02:57+00:00",
+      "score": 3.87,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fodmwtr748x2ioht5pjeg.png"
+    },
+    {
+      "id": "d093805677e8",
+      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases of Jakarta Data and Eclipse JNoSQL; a beta release of the September 2026 edition of Open Liberty; and the release of Docker images for GlassFish 8.0.4. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-31T11:30:00+00:00",
+      "score": 3.83,
+      "image": "https://res.infoq.com/news/2026/08/java-news-roundup-aug24-2026/en/headerimage/java-news-roundup-image-1788175476923.jpg"
+    },
+    {
+      "id": "7bf9ce8b6696",
+      "title": "AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production",
+      "url": "https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/",
+      "summary": "The five MLOps monitoring assumptions agents break, and which inherited signals now pass failed runs as healthy.\nThe post AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T11:00:01+00:00",
+      "score": 3.5,
+      "image": "https://assets.insightmediagroup.io/media/wp-content/uploads/2026/08/cover-image.png"
+    },
+    {
+      "id": "7660c3030bcc",
+      "title": "Playwright Testing Course with AI Certification in Bangalore – Learn Next-Gen Test Automation",
+      "url": "https://dev.to/mbalu/playwright-testing-course-with-ai-certification-in-bangalore-learn-next-gen-test-automation-3dg1",
+      "summary": "Playwright Testing Course with AI Certification in Bangalore – Learn Next-Gen Test Automation\n\n\n\n\nSoftware testing is rapidly evolving with AI-powered tools, modern automation frameworks, and continuous testing practices. Playwright has become a popular choice for web application automation because it supports Chromium, Firefox, and WebKit while providing features designed for reliable end-to-end testing.\n\nFor students and aspiring QA professionals in Bangalore, a Playwright Testing Course with AI Certification can be a practical way to develop skills in modern test automation.\n\n\n  \n  \n  Why L",
+      "source": "Dev.to AI",
+      "published": "2026-08-31T14:27:00+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6i3wa4kdr7el1q7uh1fk.png"
+    },
+    {
+      "id": "1ce612253b82",
+      "title": "Generating test cases is the easy part",
+      "url": "https://dev.to/2sdtechnologiesdotcom/generating-test-cases-is-the-easy-part-2l3a",
+      "summary": "There is a ceiling on your test coverage and it is not technical.\n\nRunning tests has been a solved problem for a long time. Runners are fast, parallelism is cheap, CI is a commodity. None of that touches the actual limit, which is that somebody has to sit down, read the requirement, work out what could go wrong, and write the cases.\n\nSo coverage ends up being a function of how much of that a person had time to do. Not what could break. Not what changed in this release. What fitted in the sprint.\n\n\n  \n  \n  A worked example\n\n\nTake one line of acceptance criteria:\n\n\nAs a customer I can apply a pr",
+      "source": "Dev.to AI",
+      "published": "2026-08-31T14:20:10+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffokerxxucjkh2880i8aw.png"
+    },
+    {
+      "id": "8043a7e0780e",
+      "title": "How pdlc-skills Runs Unattended",
+      "url": "https://dev.to/kanfu-panda/how-pdlc-skills-runs-unattended-3k4a",
+      "summary": "The last post got the first feature through. The next problem shows up fast: it stops at every stage waiting for your nod, so you're still parked in front of the screen. Can it go round after round on its own while you do something else? It can. But \"running on its own\" and \"asking you at every step\" are further apart than they look.\n\n\n\n  \n  \n  That run wasn't a loop at all\n\n\nI've run a full loop on my own machine before, and it went smoothly — 60-odd PRs pushed through in one stretch, and it never once turned around to ask me something. So when I ran it again on a different machine, something",
+      "source": "Dev.to AI",
+      "published": "2026-08-31T14:17:05+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "b52ea864c591",
+      "title": "Wiring an SEO Analyzer API into a Next.js Build",
+      "url": "https://dev.to/avansledright/wiring-an-seo-analyzer-api-into-a-nextjs-build-1cjf",
+      "summary": "The most useful place to run an SEO analyzer API against a Next.js app isn't production — it's the preview deploy. By the time a regression hits production, you've already shipped it. By the time you find it in production, three more PRs have landed on top.\n\nThis post is the end-to-end setup for running SEO Score API against every Vercel preview deploy of a Next.js app, with a GitHub Action that fails the PR check if the score drops below a threshold. ~30 lines of YAML and one secret.\n\n\n  \n  \n  Why preview URLs and not production\n\n\nThree reasons preview-deploy auditing beats production-deploy ",
+      "source": "Dev.to Programming",
+      "published": "2026-08-31T14:00:04+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "d21fb7ac73a9",
+      "title": "FAQ as RAG: When You Get to Design the Corpus",
+      "url": "https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompting becomes a retrieval problem too\nThe post FAQ as RAG: When You Get to Design the Corpus appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T14:00:02+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "f3fa809c2bdf",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allowing work such as incident investigation, ticket triage, migrations, and PR monitoring to continue without active supervision. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-08-30T08:23:00+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "a05533f3a710",
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-30T16:54:25+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "f65f889b4d2b",
+      "title": "8 Tips for Writing Effective Agent Instructions",
+      "url": "https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/",
+      "summary": "Quick and simple tips to help you write better agent instructions\nThe post 8 Tips for Writing Effective Agent Instructions appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-30T17:00:02+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "bd1d5a75803e",
+      "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
+      "url": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles one of them. Embeddings carry the rest\nThe post Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-30T13:00:02+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
