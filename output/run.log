@@ -3965,3 +3965,38 @@
 2026-08-31 14:37:02,198  INFO     ────────────────────────────────────────────────────────────
 2026-08-31 14:37:02,198  INFO     Done!  Open: output/index.html
 2026-08-31 14:37:02,198  INFO     Headline: Why RAG Complexity Should Be Earned
+2026-09-01 12:13:41,693  INFO     ============================================================
+2026-09-01 12:13:41,693  INFO     TECHPULSE Digest — 2026-09-01 12:13 UTC
+2026-09-01 12:13:41,693  INFO     ============================================================
+2026-09-01 12:13:41,693  INFO     Step 1/3 — Crawling feeds…
+2026-09-01 12:13:41,863  INFO       Hacker News                    → 0 significant articles
+2026-09-01 12:13:41,995  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-01 12:13:42,129  INFO       Ars Technica                   → 0 significant articles
+2026-09-01 12:13:42,701  INFO       The Register AI                → 0 significant articles
+2026-09-01 12:13:42,831  INFO       MIT Tech Review                → 0 significant articles
+2026-09-01 12:13:42,928  INFO       Dev.to AI                      → 4 significant articles
+2026-09-01 12:13:43,039  INFO       Dev.to Programming             → 2 significant articles
+2026-09-01 12:13:43,174  INFO       GitHub Blog                    → 0 significant articles
+2026-09-01 12:13:44,069  INFO       Google Research                → 0 significant articles
+2026-09-01 12:13:44,917  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-01 12:13:45,022  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-01 12:13:45,242  INFO       InfoQ                          → 1 significant articles
+2026-09-01 12:13:45,695  INFO       Towards Data Science           → 5 significant articles
+2026-09-01 12:13:45,977  INFO       Wired AI                       → 0 significant articles
+2026-09-01 12:13:46,042  INFO       TechCrunch AI                  → 1 significant articles
+2026-09-01 12:13:46,042  INFO     Fetching images for top articles…
+2026-09-01 12:13:46,165  INFO       🖼  Engineering AI in 2026: From Prompt Chasing to Observable, L
+2026-09-01 12:13:46,208  INFO       🖼  I open-sourced Ideata: a self-hosted AEO tracker and AI cont
+2026-09-01 12:13:46,237  INFO       🖼  Ollama vs LM Studio in 2026: Which Local LLM Runner Wins?
+2026-09-01 12:13:46,349  INFO       🖼  3pattilucky game
+2026-09-01 12:13:46,398  INFO       🖼  8 AI Automations Small Businesses Can Ship This Quarter (Wit
+2026-09-01 12:13:46,457  INFO       🖼  The 20KB File Limit Dilemma: Why Exam Portals Reject Uploads
+2026-09-01 12:13:46,457  INFO     Total selected: 15 articles from 15 feeds
+2026-09-01 12:13:46,457  INFO     Selected 15 significant articles
+2026-09-01 12:13:46,458  INFO     Step 2/3 — Generating digest…
+2026-09-01 12:13:47,454  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-01 12:13:47,454  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-01 12:13:47,455  INFO     Step 3/3 — Rendering HTML…
+2026-09-01 12:13:47,456  INFO     ────────────────────────────────────────────────────────────
+2026-09-01 12:13:47,456  INFO     Done!  Open: output/index.html
+2026-09-01 12:13:47,456  INFO     Headline: Engineering AI in 2026: From Prompt Chasing to Observable, Local-First Agents and Blast-Radius Reviews

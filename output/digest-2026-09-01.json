@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "Engineering AI in 2026: From Prompt Chasing to Observable, Local-First Agents and Blast-Radius Reviews",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Engineering AI in 2026: From Prompt Chasing to Observable, Local-First Agents and Blast-Radius Reviews (Dev.to AI). I open-sourced Ideata: a self-hosted AEO tracker and AI content studio (Dev.to AI). Ollama vs LM Studio in 2026: Which Local LLM Runner Wins? (Dev.to AI). 3pattilucky game (Dev.to Programming). 8 AI Automations Small Businesses Can Ship This Quarter (With Actual ROI) (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "FAQ as RAG: When You Get to Design the Corpus (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Originally published on tamiz.pro.\n\nWe are past the era of prompt engineering as a mystical art form. In 2024, the best developers were prompt chasers—tweaking syntax until the LLM complied. By 2026, the stack has matured into something far more rigorous. We are seeing the emergence of OpenAI-native observability, local-first agent architectures, and blast-radius code reviews that treat AI-generated code with the same scrutiny as security vulnerabilities.\n\nThis isn't about writing better prompts. It's about building deterministic systems on top of stochastic engines. If you're not thinking abo"
+  },
+  "articles": [
+    {
+      "id": "7fff808c1b91",
+      "title": "Engineering AI in 2026: From Prompt Chasing to Observable, Local-First Agents and Blast-Radius Reviews",
+      "url": "https://dev.to/tamizuddin/engineering-ai-in-2026-from-prompt-chasing-to-observable-local-first-agents-and-blast-radius-3m9k",
+      "summary": "Originally published on tamiz.pro.\n\nWe are past the era of prompt engineering as a mystical art form. In 2024, the best developers were prompt chasers—tweaking syntax until the LLM complied. By 2026, the stack has matured into something far more rigorous. We are seeing the emergence of OpenAI-native observability, local-first agent architectures, and blast-radius code reviews that treat AI-generated code with the same scrutiny as security vulnerabilities.\n\nThis isn't about writing better prompts. It's about building deterministic systems on top of stochastic engines. If you're not thinking abo",
+      "source": "Dev.to AI",
+      "published": "2026-09-01T12:00:45+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9yrfgmo18p4mu4e152ve.png"
+    },
+    {
+      "id": "4276f954b5f5",
+      "title": "I open-sourced Ideata: a self-hosted AEO tracker and AI content studio",
+      "url": "https://dev.to/ideata/i-open-sourced-ideata-a-self-hosted-aeo-tracker-and-ai-content-studio-2gb9",
+      "summary": "Search is moving into the chat box.\n\nPeople increasingly ask ChatGPT, Claude, Gemini, and Perplexity for recommendations instead of scrolling through ten blue links. I wanted to understand what those systems say about a brand, which sources they cite, and why competitors get recommended.\n\nMost tools I found in this space were closed SaaS products. The methodology was hidden, the data lived on somebody else's infrastructure, and pricing was usually tied to seats, prompts, or reports.\n\nSo I built and open-sourced Ideata: a self-hosted AEO tracker with an AI content studio and cross-publishing wo",
+      "source": "Dev.to AI",
+      "published": "2026-09-01T12:00:12+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7437oyrdxsyqncsw3wy4.png"
+    },
+    {
+      "id": "f7655d903ab8",
+      "title": "Ollama vs LM Studio in 2026: Which Local LLM Runner Wins?",
+      "url": "https://dev.to/dibi8/ollama-vs-lm-studio-in-2026-which-local-llm-runner-wins-ihd",
+      "summary": "Found this in the open-source AI tooling space — worth a look:\n\n\n  \n  \n  Ollama vs LM Studio in 2026: Which Local LLM Runner Wins?\n\n\nSide-by-side breakdown of Ollama and LM Studio â€” CLI vs GUI, model library, GPU support, OpenAI-compatible API, quantization, self-hosting. Updated 2026.\n\nRead the full breakdown on dibi8: https://dibi8.com/vs/ollama-vs-lm-studio/\n\n\n\n\n\nThis is a curated highlight from dibi8.com — open-source AI tools directory, hand-edited, 4 languages. The full article (with comparisons, setup guide, and code samples) lives on dibi8.",
+      "source": "Dev.to AI",
+      "published": "2026-09-01T11:56:15+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4fik7kql1okcsl1c65cy.png"
+    },
+    {
+      "id": "edd387bab4f7",
+      "title": "3pattilucky game",
+      "url": "https://dev.to/3_pattilucky_9bf3f5fb233/3pattilucky-game-4gah",
+      "summary": "3 Patti Lucky Game – A Digital Card Entertainment Experience\n\n\n3 Patti Lucky Game is a modern card-based entertainment platform inspired by the traditional Teen Patti format. It introduces a familiar three-card concept through a digital interface, allowing users to explore card gaming on compatible smartphones and other supported devices. With simple navigation and a contemporary presentation, the platform offers a convenient way to discover digital card entertainment.\n\nTraditional card games have been part of social entertainment for generations. The development of mobile technology has given",
+      "source": "Dev.to Programming",
+      "published": "2026-09-01T12:06:09+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fy9q6aux8vqxstdt2unqo.png"
+    },
+    {
+      "id": "478008eea548",
+      "title": "8 AI Automations Small Businesses Can Ship This Quarter (With Actual ROI)",
+      "url": "https://dev.to/michaelaiglobal/8-ai-automations-small-businesses-can-ship-this-quarter-with-actual-roi-4jaa",
+      "summary": "Most \"AI for small business\" content is vaporware. It promises transformation and delivers a chatbot that hallucinates your refund policy.\n\nThis is the opposite. Below are eight automations you can build and deploy in a single quarter, each tied to a metric you already track: hours saved, revenue recovered, or response time cut. No moonshots. Just plumbing that pays for itself.\n\n\n  \n  \n  1. Lead follow-up that never sleeps\n\n\nThe average small business takes hours to respond to an inbound lead. The data on speed-to-lead is brutal: contact within 5 minutes and you're up to 100x more likely to co",
+      "source": "Dev.to AI",
+      "published": "2026-09-01T12:00:41+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fddmygup5p%2Fimage%2Fupload%2Fv1788253266%2Fa7kt4tv3incz0kd1n54m.jpg"
+    },
+    {
+      "id": "b0d9917f1514",
+      "title": "The 20KB File Limit Dilemma: Why Exam Portals Reject Uploads and How OnePersonAI’s KBFixer Solves It In-Browser",
+      "url": "https://dev.to/akshatraj00/the-20kb-file-limit-dilemma-why-exam-portals-reject-uploads-and-how-onepersonais-kbfixer-solves-2766",
+      "summary": "Every year across India, millions of aspirants register for competitive government examinations—including UPSC Civil Services, SSC CGL, State PSCs, Banking, and Defense recruitments. Yet, on the final submission days, the single most frustrating bottleneck isn't the syllabus or the server load; it is the rigid, zero-tolerance file upload portal.\n\nAlmost every official recruitment portal enforces strict legacy criteria:\n\nCandidate Photograph: Strictly 20 KB to 50 KB, exact 350x450 pixel resolution, clean background.\n\nCandidate Signature: Strictly 10 KB to 20 KB, high-contrast ink, specific aspe",
+      "source": "Dev.to Programming",
+      "published": "2026-09-01T11:55:42+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzuo2z18gkndah2z19z5n.png"
+    },
+    {
+      "id": "7a9793fa3d78",
+      "title": "5 AI Skills That Will Keep Data Scientists Relevant in 2027",
+      "url": "https://towardsdatascience.com/5-ai-skills-that-will-keep-data-scientists-relevant-in-2027/",
+      "summary": "What each one solves, and runnable code you can paste into a notebook.\nThe post 5 AI Skills That Will Keep Data Scientists Relevant in 2027 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-01T11:00:02+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "f85000d76a1d",
+      "title": "Why RAG Complexity Should Be Earned",
+      "url": "https://towardsdatascience.com/why-rag-complexity-should-be-earned/",
+      "summary": "A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information seeking\nThe post Why RAG Complexity Should Be Earned appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T12:30:01+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "84762d7f4362",
+      "title": "Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’",
+      "url": "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/",
+      "summary": "Blue Voice is trained on department-specific laws, local ordinances, protocols, and guidelines that general-purpose AI tools can't access on the public internet.",
+      "source": "TechCrunch AI",
+      "published": "2026-08-31T18:35:11+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "49e9bd198db4",
+      "title": "ACML 2026 Journal Track Any update ?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3n4ig/acml_2026_journal_track_any_update_d/",
+      "summary": "I have submitted a paper to acml 2026 journal track, the official date of release of review is 27 August, but I have not heard anything from them, if anyone received the review then let me know I will write to program chairs. Thanks   &#32; submitted by &#32;  /u/Jealous_Key_4030   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-31T18:53:03+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "ce34e92a2574",
+      "title": "Sliding-window attention beats linear on long-context reasoning [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w3j1vw/slidingwindow_attention_beats_linear_on/",
+      "summary": "Sliding Window Attention with sinks, one of the simplest existing fixes for the quadratic-cost problem in LLMs, holds up as well or better than the linear-attention variants labs have been spending post-training compute to produce. That is the claim of a [new arXiv preprint](https://arxiv.org/abs/2608.28444) by Alexia Jolicoeur-Martineau, Rhea Sanjay Sukthanker, Pashmina Cameron and Emy Gervais. On the long-context reasoning benchmarks the paper singles out, the gap is not close. &quot;SWA achieves massively higher performance (2 to 10 times higher than linear attention),&quot; the abstract re",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-08-31T16:35:42+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "d093805677e8",
+      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+      "url": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases of Jakarta Data and Eclipse JNoSQL; a beta release of the September 2026 edition of Open Liberty; and the release of Docker images for GlassFish 8.0.4. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-08-31T11:30:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "a40ef04fcf4b",
+      "title": "Your LLM Can Return Perfect JSON and Still Be Wrong",
+      "url": "https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/",
+      "summary": "What I learned after thinking more carefully about Structured Outputs on messy, incomplete data\nThe post Your LLM Can Return Perfect JSON and Still Be Wrong appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T15:30:01+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "7bf9ce8b6696",
+      "title": "AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production",
+      "url": "https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/",
+      "summary": "The five MLOps monitoring assumptions agents break, and which inherited signals now pass failed runs as healthy.\nThe post AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T11:00:01+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "d21fb7ac73a9",
+      "title": "FAQ as RAG: When You Get to Design the Corpus",
+      "url": "https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompting becomes a retrieval problem too\nThe post FAQ as RAG: When You Get to Design the Corpus appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-08-31T14:00:02+00:00",
+      "score": 2.27,
+      "image": null
+    }
+  ]
+}
