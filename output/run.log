@@ -4000,3 +4000,38 @@
 2026-09-01 12:13:47,456  INFO     ────────────────────────────────────────────────────────────
 2026-09-01 12:13:47,456  INFO     Done!  Open: output/index.html
 2026-09-01 12:13:47,456  INFO     Headline: Engineering AI in 2026: From Prompt Chasing to Observable, Local-First Agents and Blast-Radius Reviews
+2026-09-02 11:51:45,036  INFO     ============================================================
+2026-09-02 11:51:45,036  INFO     TECHPULSE Digest — 2026-09-02 11:51 UTC
+2026-09-02 11:51:45,036  INFO     ============================================================
+2026-09-02 11:51:45,036  INFO     Step 1/3 — Crawling feeds…
+2026-09-02 11:51:45,280  INFO       Hacker News                    → 0 significant articles
+2026-09-02 11:51:45,459  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-02 11:51:45,601  INFO       Ars Technica                   → 0 significant articles
+2026-09-02 11:51:46,510  INFO       The Register AI                → 0 significant articles
+2026-09-02 11:51:46,695  INFO       MIT Tech Review                → 1 significant articles
+2026-09-02 11:51:46,846  INFO       Dev.to AI                      → 2 significant articles
+2026-09-02 11:51:46,940  INFO       Dev.to Programming             → 2 significant articles
+2026-09-02 11:51:47,076  INFO       GitHub Blog                    → 0 significant articles
+2026-09-02 11:51:47,977  INFO       Google Research                → 0 significant articles
+2026-09-02 11:51:48,867  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-09-02 11:51:48,970  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-02 11:51:49,204  INFO       InfoQ                          → 1 significant articles
+2026-09-02 11:51:49,336  INFO       Towards Data Science           → 3 significant articles
+2026-09-02 11:51:49,491  INFO       Wired AI                       → 0 significant articles
+2026-09-02 11:51:49,563  INFO       TechCrunch AI                  → 6 significant articles
+2026-09-02 11:51:49,564  INFO     Fetching images for top articles…
+2026-09-02 11:51:49,866  INFO       🖼  OpenClaw 2.0 Releases with Simplified Setup and Collaborativ
+2026-09-02 11:51:49,987  INFO       🖼  FREE Salesforce DevOps with Copado Online Demo – Join Now!
+2026-09-02 11:51:50,056  INFO       🖼  How AI plotted an interstellar journey to Alpha Centauri
+2026-09-02 11:51:50,122  INFO       🖼  MiniMax H3
+2026-09-02 11:51:50,251  INFO       🖼  Operational Intelligence in 2026: Real-Time Dashboards, AI a
+2026-09-02 11:51:50,322  INFO       🖼  What to Do If Your Business Email Gets Hacked
+2026-09-02 11:51:50,323  INFO     Total selected: 19 articles from 15 feeds
+2026-09-02 11:51:50,323  INFO     Selected 19 significant articles
+2026-09-02 11:51:50,323  INFO     Step 2/3 — Generating digest…
+2026-09-02 11:51:50,912  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-02 11:51:50,912  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-02 11:51:50,912  INFO     Step 3/3 — Rendering HTML…
+2026-09-02 11:51:50,913  INFO     ────────────────────────────────────────────────────────────
+2026-09-02 11:51:50,913  INFO     Done!  Open: output/index.html
+2026-09-02 11:51:50,913  INFO     Headline: OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents
