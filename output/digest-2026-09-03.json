@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents (InfoQ). From Brute Force to Optimal: Level Up Your Solutions Like a Zelda Speedrun (Dev.to Programming). pnpm 12 Rewrites Package Manager in Rust, Accelerating Installs While Preserving pnpm 11 Workflows (InfoQ). How to Solve the Right Problem in the Age of Agentic AI (Towards Data Science). Tech Journalists and VIPs #202 - Autonomous AI Engineering Resource Breakdown (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence (Towards Data Science). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Cohere has launched Parse 5, a multimodal foundation model designed to extract structured data from complex enterprise documents. The 2.3-billion-parameter system converts visually rich PDFs into Markdown while providing bounding box coordinates for visual grounding. It has been evaluated against over 2,000 enterprise pages, achieving an average score of 79.2 in key performance areas. By Olimpiu Pop"
+  },
+  "articles": [
+    {
+      "id": "917f6187b30a",
+      "title": "Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents",
+      "url": "https://www.infoq.com/news/2026/09/cohere-multimodal-parse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cohere has launched Parse 5, a multimodal foundation model designed to extract structured data from complex enterprise documents. The 2.3-billion-parameter system converts visually rich PDFs into Markdown while providing bounding box coordinates for visual grounding. It has been evaluated against over 2,000 enterprise pages, achieving an average score of 79.2 in key performance areas. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-03T06:06:00+00:00",
+      "score": 3.88,
+      "image": "https://res.infoq.com/news/2026/09/cohere-multimodal-parse/en/card_header_image/generatedCard-1788410014008.jpg"
+    },
+    {
+      "id": "ed6d9dcd501c",
+      "title": "From Brute Force to Optimal: Level Up Your Solutions Like a Zelda Speedrun",
+      "url": "https://dev.to/timevolt/from-brute-force-to-optimal-level-up-your-solutions-like-a-zelda-speedrun-4k2i",
+      "summary": "The Quest Begins (The \"Why\")\n\n\nEver felt like you’re stuck grinding the same low‑level enemies over and over, just waiting for that sweet XP boost? I’ve been there. A few weeks ago I was tackling the classic Two Sum interview problem: given an array of integers and a target, return the indices of the two numbers that add up to the target. My first instinct? Bash out a double loop, check every pair, and call it a day.\n\n\n\ndef two_sum_brute(nums, target):\n    for i in range(len(nums)):\n        for j in range(i + 1, len(nums)):\n            if nums[i] + nums[j] == target:\n                return [i,",
+      "source": "Dev.to Programming",
+      "published": "2026-09-03T11:16:51+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdgsn4waepcrudcx0ctrs.png"
+    },
+    {
+      "id": "67557c0e6fd2",
+      "title": "pnpm 12 Rewrites Package Manager in Rust, Accelerating Installs While Preserving pnpm 11 Workflows",
+      "url": "https://www.infoq.com/news/2026/09/pnpm-12-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "pnpm 12 has transitioned to a native Rust implementation, maintaining compatibility with pnpm 11 commands, flags, and formats. This update enhances startup and filesystem performance, particularly when using existing caches. Community feedback highlights the performance gains while noting some trade-offs in larger artifact sizes. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-03T11:23:00+00:00",
+      "score": 3.67,
+      "image": "https://res.infoq.com/news/2026/09/pnpm-12-rust/en/headerimage/generatedHeaderImage-1788366354148.jpg"
+    },
+    {
+      "id": "0932441e0ba9",
+      "title": "How to Solve the Right Problem in the Age of Agentic AI",
+      "url": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
+      "summary": "A practical framework for reducing uncertainty before agents accelerate implementation\nThe post How to Solve the Right Problem in the Age of Agentic AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-03T11:00:01+00:00",
+      "score": 3.65,
+      "image": "https://assets.insightmediagroup.io/media/1787750810582_aly77w.jpg"
+    },
+    {
+      "id": "8bc0fc95a767",
+      "title": "Tech Journalists and VIPs #202 - Autonomous AI Engineering Resource Breakdown",
+      "url": "https://dev.to/drix10/tech-journalists-and-vips-202-autonomous-ai-engineering-resource-breakdown-2kne",
+      "summary": "🤖 AI - Knowledge Acquisition and AI Assistance\n\n\nAI only hinders knowledge acquisition if you are lazy and stupid. It doesn't if you're diligent and smart. It's not different from other technologies in this way. You can cheat with an encyclopedia or the internet or a calculator or you can use it to enhance knowledge intake.\n\nKey Points:\n• AI is a tool that can either hinder or enhance knowledge acquisition, depending on the user's diligence and intelligence.\n• Other technologies, such as encyclopedias and calculators, can also be used to cheat or enhance knowledge intake.\n• AI is not inherentl",
+      "source": "Dev.to AI",
+      "published": "2026-09-03T11:34:31+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6rjpry22biwgdttljpsz.png"
+    },
+    {
+      "id": "ef1e1d31eded",
+      "title": "Which Self-Improvement Tools Are Truly Worth Your Time and Money?",
+      "url": "https://dev.to/sakil_ahmed_93696e9a3af66/which-self-improvement-tools-are-truly-worth-your-time-and-money-2523",
+      "summary": "Personal growth has become easier to access than ever, with countless apps, courses, journals, coaching platforms, habit trackers, and online programs promising better productivity, confidence, focus, and emotional well-being. However, choosing the right tool can be difficult when marketing claims often sound more impressive than the actual results. This is where trusted self-improvement tool reviews can help people make informed decisions before spending their time or money. A reliable review looks beyond promotional language and considers usability, practical benefits, limitations, pricing, ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-03T11:28:33+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs9u3c7tji0mzkvo7onhv.png"
+    },
+    {
+      "id": "635b98b11627",
+      "title": "Tradewinggs",
+      "url": "https://dev.to/tradewinggs_7442bc4fec503/tradewinggs-3242",
+      "summary": "At Tradewinggs Digital Marketing Agency Gwalior, our vision is both straightforward and impactful — to transition every business online and equip every student with essential digital skills.\n\nEnsure your digital assets operate seamlessly with our sophisticated server management solutions. We manage all aspects — deployment, optimization, updates, monitoring, cloud configuration, backup systems, and enterprise-grade security. With 24/7 support, we guarantee maximum uptime, rapid performance, and comprehensive protection for your websites and applications. Transform your concepts into high-impac",
+      "source": "Dev.to Programming",
+      "published": "2026-09-03T11:19:03+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "e54d1c1e8577",
+      "title": "Palo Alto Networks paid $500M for Thrive-backed Console, sources say",
+      "url": "https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/",
+      "summary": "The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service automation, industry watchers believe.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T22:44:56+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "0461be447f8d",
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.\nThe post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T18:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "73ecf3d27d3f",
+      "title": "Adobe acquires Indian market intelligence startup Rilo",
+      "url": "https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/",
+      "summary": "This is Adobe's second acquisition out of India after Rephrase.ai in 2023",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T14:03:57+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "271f803af092",
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.\nThe post Decoding the new AI lingo: Loops, harnesses, squads, hill climbing&#8230; oh my! appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-02T21:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "8a4d414ec02c",
+      "title": "What kinds of ML bottlenecks are a good fit for Triton? [Manning giveaway] [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w58dib/what_kinds_of_ml_bottlenecks_are_a_good_fit_for/",
+      "summary": "Hi r/MachineLearning, Stjepan from Manning here, posting with the mods’ permission. We’ve recently released GPU Programming with Triton by Harshwardhan Fartale in early access. It’s a practical guide to speeding up machine learning training and inference by writing custom GPU kernels in Python with Triton. The book explains how to identify operations worth optimizing, build and benchmark kernels, fuse operations to reduce memory traffic, implement common parallel and reduction patterns, and improve performance through tiling, vectorization, and better memory access. The goal is to help ML prac",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-02T12:02:59+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "c6ca4d83df40",
+      "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+      "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting/",
+      "summary": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T12:09:42+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "634abc23ca9f",
+      "title": "Wonderful more than doubles its valuation to $5B in under 6 months",
+      "url": "https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months/",
+      "summary": "Wonderful said it will use its $550 million Series C funding to develop products faster, expand its FDE teams, and meet demand for its products.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-02T16:04:10+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "c9c60e9e5816",
+      "title": "I scraped 5.94 billion TikTok videos and 3.23 billion profiles in 3 weeks. Uploaded full dataset to Hugging Face for free. Step by step tutorial and code below. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5h9se/i_scraped_594_billion_tiktok_videos_and_323/",
+      "summary": "Just uploaded the full 5.94 billion TikTok video dataset to Hugging Face. It’s fully open source: https://huggingface.co/datasets/kuben-developer/tiktok-videos-4b This dataset was collected using a TikTok mobile app reverse-engineering method I developed a few years ago. The method allowed me to extract billions of videos, profiles, comments and replies, hashtags, sounds, and more. Full write-up and code here: https://tiktok-api.seeksocial.io Disclaimer: The TikTok app exposes 24 endpoints that can be accessed without a TikTok account, so the data itself is publicly accessible. But accessing i",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-02T17:38:17+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "2cc17677a626",
+      "title": "Detailed explanation of how to create a text-to-image model from scratch. [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5c9rd/detailed_explanation_of_how_to_create_a/",
+      "summary": "Jasper Research just released a cookbook on how to build a text-to-image model from scratch. It shares the full reasoning and intermediate results, making it ideal if you want to deep-dive into text-to-image models, or if you are curious about how frontier labs build them. The cookbook also includes a 100M-image dataset and a codebase with a tiny model, so you can train a text-to-image model from scratch. Here are the links: Cookbook: https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report nano t2i: https://github.com/gojasper/nano-t2i Monet Dataset: https://huggingface.co/data",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-02T14:40:29+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "133068c9f821",
+      "title": "Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply",
+      "url": "https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simply/",
+      "summary": "A visual guide to how graph neural networks work under the hood\nThe post Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-02T12:30:02+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "999bdd1f50e6",
+      "title": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
+      "url": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
+      "summary": "I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is the architecture that was left once the matcher was set aside.\nThe post Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-02T15:30:02+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "5c92d5e8d5bb",
+      "title": "A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence",
+      "url": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B3] - A confident wrong answer is a bug. A bare “no answer” with no justification is almost as bad. Each of the four bricks has one piece of evidence to show\nThe post A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-02T14:00:02+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "469529a165b4",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w4xaes/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-02T02:15:07+00:00",
+      "score": 2.03,
+      "image": null
+    }
+  ]
+}

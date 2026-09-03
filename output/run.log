@@ -4035,3 +4035,38 @@
 2026-09-02 11:51:50,913  INFO     ────────────────────────────────────────────────────────────
 2026-09-02 11:51:50,913  INFO     Done!  Open: output/index.html
 2026-09-02 11:51:50,913  INFO     Headline: OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents
+2026-09-03 11:50:32,652  INFO     ============================================================
+2026-09-03 11:50:32,652  INFO     TECHPULSE Digest — 2026-09-03 11:50 UTC
+2026-09-03 11:50:32,652  INFO     ============================================================
+2026-09-03 11:50:32,652  INFO     Step 1/3 — Crawling feeds…
+2026-09-03 11:50:32,805  INFO       Hacker News                    → 0 significant articles
+2026-09-03 11:50:32,992  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-03 11:50:33,274  INFO       Ars Technica                   → 0 significant articles
+2026-09-03 11:50:34,462  INFO       The Register AI                → 0 significant articles
+2026-09-03 11:50:34,647  INFO       MIT Tech Review                → 0 significant articles
+2026-09-03 11:50:34,787  INFO       Dev.to AI                      → 1 significant articles
+2026-09-03 11:50:35,016  INFO       Dev.to Programming             → 3 significant articles
+2026-09-03 11:50:35,142  INFO       GitHub Blog                    → 2 significant articles
+2026-09-03 11:50:35,966  INFO       Google Research                → 0 significant articles
+2026-09-03 11:50:36,852  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-09-03 11:50:36,958  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-03 11:50:37,257  INFO       InfoQ                          → 2 significant articles
+2026-09-03 11:50:37,496  INFO       Towards Data Science           → 4 significant articles
+2026-09-03 11:50:37,711  INFO       Wired AI                       → 0 significant articles
+2026-09-03 11:50:37,791  INFO       TechCrunch AI                  → 4 significant articles
+2026-09-03 11:50:37,791  INFO     Fetching images for top articles…
+2026-09-03 11:50:38,072  INFO       🖼  Cohere’s Parse 5 Promises Efficient Multi-Modal Information 
+2026-09-03 11:50:38,112  INFO       🖼  From Brute Force to Optimal: Level Up Your Solutions Like a 
+2026-09-03 11:50:38,375  INFO       🖼  pnpm 12 Rewrites Package Manager in Rust, Accelerating Insta
+2026-09-03 11:50:38,409  INFO       🖼  How to Solve the Right Problem in the Age of Agentic AI
+2026-09-03 11:50:38,533  INFO       🖼  Tech Journalists and VIPs #202 - Autonomous AI Engineering R
+2026-09-03 11:50:38,654  INFO       🖼  Which Self-Improvement Tools Are Truly Worth Your Time and M
+2026-09-03 11:50:38,654  INFO     Total selected: 20 articles from 15 feeds
+2026-09-03 11:50:38,654  INFO     Selected 20 significant articles
+2026-09-03 11:50:38,655  INFO     Step 2/3 — Generating digest…
+2026-09-03 11:50:38,927  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-03 11:50:38,927  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-03 11:50:38,927  INFO     Step 3/3 — Rendering HTML…
+2026-09-03 11:50:38,928  INFO     ────────────────────────────────────────────────────────────
+2026-09-03 11:50:38,928  INFO     Done!  Open: output/index.html
+2026-09-03 11:50:38,928  INFO     Headline: Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents
