@@ -1,0 +1,129 @@
+{
+  "digest": {
+    "headline": "Chapter 60 — Secure AI Runtime & Inference Security",
+    "tldr": "Today's digest covers 11 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Chapter 60 — Secure AI Runtime & Inference Security (Dev.to AI). Exactly one of the five agent frameworks StillShipping compares tells you on its own front page that it has stopped taking new features (Dev.to AI). I built an AI business assistant that knows your Webround store. (Dev.to AI). Changes to LLM pricing: Baidu and StreamLake (Dev.to AI). AI Agent Orchestration: Essential Multi-Agent Fabric (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Why Transformers Need Positional Encoding For Time Series: A Visual Guide (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "60.1 Introduction\n\n\nProduction AI security does not end when a model has been approved and deployed.\n\nThe most important security boundary often exists at runtime, when an actual user request reaches an AI model.\n\nA production inference request may pass through:\n\n\n\nUser\n ↓\nFrontend\n ↓\nAPI Gateway\n ↓\nAuthentication\n ↓\nAuthorization\n ↓\nPolicy Engine\n ↓\nModel Router\n ↓\nRetrieval / Tools\n ↓\nModel Runtime\n ↓\nOutput Validation\n ↓\nResponse\n\n\n\n\n\n\nEvery stage represents a potential security boundary.\n\nThe fundamental principle is:\n\n\nA model should never receive more authority than the current request r"
+  },
+  "articles": [
+    {
+      "id": "a0d960dbf7c9",
+      "title": "Chapter 60 — Secure AI Runtime & Inference Security",
+      "url": "https://dev.to/black_shadow_team/chapter-60-secure-ai-runtime-inference-security-19fn",
+      "summary": "60.1 Introduction\n\n\nProduction AI security does not end when a model has been approved and deployed.\n\nThe most important security boundary often exists at runtime, when an actual user request reaches an AI model.\n\nA production inference request may pass through:\n\n\n\nUser\n ↓\nFrontend\n ↓\nAPI Gateway\n ↓\nAuthentication\n ↓\nAuthorization\n ↓\nPolicy Engine\n ↓\nModel Router\n ↓\nRetrieval / Tools\n ↓\nModel Runtime\n ↓\nOutput Validation\n ↓\nResponse\n\n\n\n\n\n\nEvery stage represents a potential security boundary.\n\nThe fundamental principle is:\n\n\nA model should never receive more authority than the current request r",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:21:56+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fx8w555vfb9y271zzy193.png"
+    },
+    {
+      "id": "0f92180b716e",
+      "title": "Exactly one of the five agent frameworks StillShipping compares tells you on its own front page that it has stopped taking new features",
+      "url": "https://dev.to/kynthstudios/exactly-one-of-the-five-agent-frameworks-stillshipping-compares-tells-you-on-its-own-front-page-1p0m",
+      "summary": "You can pick an agent framework this month and not find out for another year that the people who wrote it have stopped adding to it. Of the five frameworks StillShipping puts side by side, one states its own maintenance status on its front page. The other four publish nothing about it.\n\nThe one that does is AutoGen, in its own words, read off its README on 2026-09-04: \"Maintenance mode. AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. New users should start with Microsoft Agent Framework.\"\n\nWatch the StillShipping, Whi",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:20:55+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fxowekqdsttxwbhfxvusa.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fcrosspost%2Fdevto%2Fproof-stillshipping-cover-1788693615384.png"
+    },
+    {
+      "id": "d397e807ce51",
+      "title": "I built an AI business assistant that knows your Webround store.",
+      "url": "https://dev.to/luca_at_webround/i-built-an-ai-business-assistant-that-knows-your-webround-store-33i9",
+      "summary": "Webround Agent: an AI business assistant that already knows your store\n\n\nWhen running an e-commerce store, you always end up asking the same questions: what was my best month, season, or year so far? Which product category is worth investing in more? What's the right strategy for my ad campaigns, and how much budget should I allocate? Which products show up most often in abandoned carts?\n\nThese questions seem simple, but the answers behind them are worth a lot to any merchant.\n\n\n  \n  \n  What usually happens\n\n\nOn traditional platforms, you're stuck with preset, limited dashboards that give you ",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:19:52+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F04g10wfzksy1345mudry.png"
+    },
+    {
+      "id": "34c1ff7f03a5",
+      "title": "Changes to LLM pricing: Baidu and StreamLake",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-baidu-and-streamlake-33jm",
+      "summary": "Model price changes detected for Baidu and StreamLake. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:19:23+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2FQnu0oXVXKJ.png"
+    },
+    {
+      "id": "41f9aea703d3",
+      "title": "AI Agent Orchestration: Essential Multi-Agent Fabric",
+      "url": "https://dev.to/vladimir_lialine_b2e67374/ai-agent-orchestration-essential-multi-agent-fabric-3oo1",
+      "summary": "AI agent orchestration becomes essential when enterprise automation outgrows a single language model, script, or workflow engine. Complex processes may require specialized agents to interpret requests, retrieve data, enforce policy, execute tools, and verify results. A multi-agent fabric coordinates those capabilities as one resilient system, enabling autonomous enterprise workflows without sacrificing security, observability, or human control.\n\n\n  \n  \n  Why AI Agent Orchestration Needs a Multi-Agent Fabric\n\n\nAI agent orchestration is the coordinated assignment, execution, monitoring, and gove",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:16:28+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3zfotb5juuigiq789u2v.png"
+    },
+    {
+      "id": "471ebc1f3fbb",
+      "title": "Building DevLog: What Happens When You Tell an AI to Think Like a Security Engineer First",
+      "url": "https://dev.to/sa_a_334b500fa1f/building-devlog-what-happens-when-you-tell-an-ai-to-think-like-a-security-engineer-first-5b1b",
+      "summary": "Submission for the Cloud Run AI Challenge — #AccelerateAIwithCloudRun\n\nWhen I started this challenge, the brief was to build a \"Personal Gemini Journal\" — an authenticated app where you chat with Gemini and it saves your reflections. Simple enough on paper. The actual point of the challenge, though, wasn't the journal. It was what happens before you write a single line of code: configuring Google AI Studio to behave like a security engineer, not just a code generator.\n\nHere's what I built, why I diverged from the base spec, and what I learned along the way — including the parts that had nothin",
+      "source": "Dev.to Programming",
+      "published": "2026-09-06T11:07:32+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9z9rag8lwhlqs60d46o3.png"
+    },
+    {
+      "id": "eb94081c115d",
+      "title": "Stop Using a Keyword List to Decide When Your Chatbot Searches the Web",
+      "url": "https://dev.to/getaskai/stop-using-a-keyword-list-to-decide-when-your-chatbot-searches-the-web-3ccj",
+      "summary": "A keyword list is the wrong shape for routing a chatbot to web search. It matches fragments instead of meaning, it breaks the moment you support more than one language, and it fails silently in the expensive direction: the question that needed a lookup and did not get one. Let the model make the call instead, with a short prompt built on an inverted default. Here is the bug that taught me this, and the prompt shape that replaced it.\n\nLast updated: September 2026.\n\n\n  \n  \n  The bug\n\n\nThe chat had a cheap gate before the expensive part. If the message contained a trigger word, run a web search a",
+      "source": "Dev.to Programming",
+      "published": "2026-09-06T10:10:11+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "61793241a195",
+      "title": "Chapter 59 — Secure AI Model Lifecycle: Model Registry, Evaluation, Approval, Promotion, Deployment, Rollback, Monitoring & Model Retirement",
+      "url": "https://dev.to/black_shadow_team/chapter-59-secure-ai-model-lifecycle-model-registry-evaluation-approval-promotion-2hp",
+      "summary": "59.1 Introduction\n\n\nAn AI model should never move directly from experimentation to production.\n\nA secure model lifecycle establishes controlled stages between:\n\n\n\nResearch\n   ↓\nTraining\n   ↓\nEvaluation\n   ↓\nSecurity Review\n   ↓\nApproval\n   ↓\nStaging\n   ↓\nProduction\n   ↓\nMonitoring\n   ↓\nRollback / Update\n   ↓\nRetirement\n\n\n\n\n\n\nThe central principle is:\n\n\nA model is a production-controlled software and data artifact, not simply a file.\n\n\nA production AI platform should therefore track the model's:\n\n\nidentity;\nversion;\nprovenance;\ntraining data;\nconfiguration;\nevaluation results;\nsecurity status;\n",
+      "source": "Dev.to AI",
+      "published": "2026-09-06T11:19:41+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "ed1b0c4b6e72",
+      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
+      "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prompt) attack from ACL 2025 paper with four other unnamed techniques. TIP attacks exploit the model’s reasoning/instruction-following behaviour by hidding the harmful objective inside another task, like solving a cipher or executing a Python code. For GPT-6, the researcher says the original minimal TIP attack was no longer sufficient and had to be reworked. They have reportedly disclosed the details privately to OpenAI rather than publishing the jailbreak. Th",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-05T19:11:16+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "79dc4e8fb9e7",
+      "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
+      "url": "https://www.infoq.com/news/2026/09/google-beyond-zero/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individual resources and actions, combining static authorization controls with dynamic AI-driven decisions to enable machine-speed enforcement for humans and agents. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-09-05T10:40:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "ed09eff0b636",
+      "title": "Why Transformers Need Positional Encoding For Time Series: A Visual Guide",
+      "url": "https://towardsdatascience.com/why-transformers-need-positional-encoding-for-time-series-a-visual-guide/",
+      "summary": "From scalar observations to self-attention, and how positional information restores sequence order\nThe post Why Transformers Need Positional Encoding For Time Series: A Visual Guide appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-05T15:00:01+00:00",
+      "score": 2.36,
+      "image": null
+    }
+  ]
+}
