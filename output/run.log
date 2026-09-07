@@ -4174,3 +4174,37 @@
 2026-09-06 11:26:30,498  INFO     ────────────────────────────────────────────────────────────
 2026-09-06 11:26:30,498  INFO     Done!  Open: output/index.html
 2026-09-06 11:26:30,498  INFO     Headline: Chapter 60 — Secure AI Runtime & Inference Security
+2026-09-07 13:08:32,030  INFO     ============================================================
+2026-09-07 13:08:32,030  INFO     TECHPULSE Digest — 2026-09-07 13:08 UTC
+2026-09-07 13:08:32,030  INFO     ============================================================
+2026-09-07 13:08:32,030  INFO     Step 1/3 — Crawling feeds…
+2026-09-07 13:08:32,305  INFO       Hacker News                    → 1 significant articles
+2026-09-07 13:08:32,520  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-07 13:08:32,701  INFO       Ars Technica                   → 0 significant articles
+2026-09-07 13:08:33,195  INFO       The Register AI                → 0 significant articles
+2026-09-07 13:08:33,367  INFO       MIT Tech Review                → 0 significant articles
+2026-09-07 13:08:33,624  INFO       Dev.to AI                      → 4 significant articles
+2026-09-07 13:08:33,793  INFO       Dev.to Programming             → 3 significant articles
+2026-09-07 13:08:34,050  INFO       GitHub Blog                    → 0 significant articles
+2026-09-07 13:08:34,846  INFO       Google Research                → 0 significant articles
+2026-09-07 13:08:35,627  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-07 13:08:35,672  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-07 13:08:36,207  INFO       InfoQ                          → 3 significant articles
+2026-09-07 13:08:36,325  INFO       Towards Data Science           → 2 significant articles
+2026-09-07 13:08:36,662  INFO       Wired AI                       → 0 significant articles
+2026-09-07 13:08:36,739  INFO       TechCrunch AI                  → 0 significant articles
+2026-09-07 13:08:36,739  INFO     Fetching images for top articles…
+2026-09-07 13:08:36,889  INFO       🖼  How I Built an Autonomous AI Agent That Earns USDC While I S
+2026-09-07 13:08:37,551  INFO       🖼  CERN Renounces RHEL in Favor of  Debian for Its Accelerator 
+2026-09-07 13:08:37,585  INFO       🖼  Why Most Multi-Agent Systems Fail Even When Evaluation Passe
+2026-09-07 13:08:38,180  INFO       🖼  vlt 1.0 Ships as a Drop-in npm Replacement with Phased Insta
+2026-09-07 13:08:38,217  INFO       🖼  MIT License Enterprise: Essential AI Guide for 2026
+2026-09-07 13:08:38,217  INFO     Total selected: 15 articles from 15 feeds
+2026-09-07 13:08:38,217  INFO     Selected 15 significant articles
+2026-09-07 13:08:38,217  INFO     Step 2/3 — Generating digest…
+2026-09-07 13:08:38,496  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-07 13:08:38,496  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-07 13:08:38,496  INFO     Step 3/3 — Rendering HTML…
+2026-09-07 13:08:38,497  INFO     ────────────────────────────────────────────────────────────
+2026-09-07 13:08:38,497  INFO     Done!  Open: output/index.html
+2026-09-07 13:08:38,497  INFO     Headline: How I Built an Autonomous AI Agent That Earns USDC While I Sleep
