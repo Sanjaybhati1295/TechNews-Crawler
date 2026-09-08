@@ -4208,3 +4208,38 @@
 2026-09-07 13:08:38,497  INFO     ────────────────────────────────────────────────────────────
 2026-09-07 13:08:38,497  INFO     Done!  Open: output/index.html
 2026-09-07 13:08:38,497  INFO     Headline: How I Built an Autonomous AI Agent That Earns USDC While I Sleep
+2026-09-08 11:53:20,536  INFO     ============================================================
+2026-09-08 11:53:20,536  INFO     TECHPULSE Digest — 2026-09-08 11:53 UTC
+2026-09-08 11:53:20,537  INFO     ============================================================
+2026-09-08 11:53:20,537  INFO     Step 1/3 — Crawling feeds…
+2026-09-08 11:53:20,682  INFO       Hacker News                    → 1 significant articles
+2026-09-08 11:53:20,834  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-08 11:53:20,981  INFO       Ars Technica                   → 0 significant articles
+2026-09-08 11:53:22,432  INFO       The Register AI                → 0 significant articles
+2026-09-08 11:53:22,544  INFO       MIT Tech Review                → 0 significant articles
+2026-09-08 11:53:22,793  INFO       Dev.to AI                      → 6 significant articles
+2026-09-08 11:53:23,002  INFO       Dev.to Programming             → 1 significant articles
+2026-09-08 11:53:23,173  INFO       GitHub Blog                    → 0 significant articles
+2026-09-08 11:53:23,922  INFO       Google Research                → 0 significant articles
+2026-09-08 11:53:24,900  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-08 11:53:25,027  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-08 11:53:25,422  INFO       InfoQ                          → 5 significant articles
+2026-09-08 11:53:25,609  INFO       Towards Data Science           → 1 significant articles
+2026-09-08 11:53:28,598  INFO       Wired AI                       → 0 significant articles
+2026-09-08 11:53:28,676  INFO       TechCrunch AI                  → 0 significant articles
+2026-09-08 11:53:28,676  INFO     Fetching images for top articles…
+2026-09-08 11:53:28,890  INFO       🖼  Building Language Translation Models with LLM and Machine Le
+2026-09-08 11:53:29,019  INFO       🖼  Debugging Agentic SDLC Pipelines That Stall Mid-Release
+2026-09-08 11:53:29,391  INFO       🖼  Does ICANN Open the Door on Identity Theft by Dropping 3rd L
+2026-09-08 11:53:29,566  INFO       🖼  ExLlamaSharp v1.3.2.1: what shipped
+2026-09-08 11:53:29,723  INFO       🖼  The Complete Guide to Agent-to-Agent Marketplaces in 2026
+2026-09-08 11:53:29,872  INFO       🖼  How to Use Byword for Seo Audit Summaries in 2026
+2026-09-08 11:53:29,872  INFO     Total selected: 16 articles from 15 feeds
+2026-09-08 11:53:29,872  INFO     Selected 16 significant articles
+2026-09-08 11:53:29,872  INFO     Step 2/3 — Generating digest…
+2026-09-08 11:53:30,301  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-08 11:53:30,301  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-08 11:53:30,301  INFO     Step 3/3 — Rendering HTML…
+2026-09-08 11:53:30,302  INFO     ────────────────────────────────────────────────────────────
+2026-09-08 11:53:30,302  INFO     Done!  Open: output/index.html
+2026-09-08 11:53:30,302  INFO     Headline: Building Language Translation Models with LLM and Machine Learning
