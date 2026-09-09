@@ -4243,3 +4243,37 @@
 2026-09-08 11:53:30,302  INFO     ────────────────────────────────────────────────────────────
 2026-09-08 11:53:30,302  INFO     Done!  Open: output/index.html
 2026-09-08 11:53:30,302  INFO     Headline: Building Language Translation Models with LLM and Machine Learning
+2026-09-09 12:02:56,300  INFO     ============================================================
+2026-09-09 12:02:56,300  INFO     TECHPULSE Digest — 2026-09-09 12:02 UTC
+2026-09-09 12:02:56,300  INFO     ============================================================
+2026-09-09 12:02:56,300  INFO     Step 1/3 — Crawling feeds…
+2026-09-09 12:02:56,593  INFO       Hacker News                    → 1 significant articles
+2026-09-09 12:02:56,727  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-09 12:02:56,890  INFO       Ars Technica                   → 1 significant articles
+2026-09-09 12:03:00,170  INFO       The Register AI                → 0 significant articles
+2026-09-09 12:03:00,400  INFO       MIT Tech Review                → 1 significant articles
+2026-09-09 12:03:00,738  INFO       Dev.to AI                      → 4 significant articles
+2026-09-09 12:03:00,943  INFO       Dev.to Programming             → 3 significant articles
+2026-09-09 12:03:01,192  INFO       GitHub Blog                    → 0 significant articles
+2026-09-09 12:03:02,146  INFO       Google Research                → 0 significant articles
+2026-09-09 12:03:03,643  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-09 12:03:03,761  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-09 12:03:04,188  INFO       InfoQ                          → 2 significant articles
+2026-09-09 12:03:04,483  INFO       Towards Data Science           → 3 significant articles
+2026-09-09 12:03:04,817  INFO       Wired AI                       → 0 significant articles
+2026-09-09 12:03:05,014  INFO       TechCrunch AI                  → 3 significant articles
+2026-09-09 12:03:05,014  INFO     Fetching images for top articles…
+2026-09-09 12:03:05,124  INFO       🖼  What OpenAI’s latest controversy tells us about the future o
+2026-09-09 12:03:05,940  INFO       🖼  How an AI agent analyzes BTC with AlgoVault MCP
+2026-09-09 12:03:06,073  INFO       🖼  AI Agent Architecture: Tools, Memory, Guardrails and Human H
+2026-09-09 12:03:06,444  INFO       🖼  Choosing a Partner to Support Adoption of “AI in DV”: A Prac
+2026-09-09 12:03:06,603  INFO       🖼  Heaps & Priority Queues: The One Heap to Rule Them All
+2026-09-09 12:03:06,768  INFO     Total selected: 20 articles from 15 feeds
+2026-09-09 12:03:06,768  INFO     Selected 20 significant articles
+2026-09-09 12:03:06,768  INFO     Step 2/3 — Generating digest…
+2026-09-09 12:03:07,074  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-09 12:03:07,074  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-09 12:03:07,074  INFO     Step 3/3 — Rendering HTML…
+2026-09-09 12:03:07,075  INFO     ────────────────────────────────────────────────────────────
+2026-09-09 12:03:07,075  INFO     Done!  Open: output/index.html
+2026-09-09 12:03:07,075  INFO     Headline: What OpenAI’s latest controversy tells us about the future of math
