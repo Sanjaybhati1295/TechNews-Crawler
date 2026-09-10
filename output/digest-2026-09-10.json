@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "Powering AI is an architecture problem",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Powering AI is an architecture problem (MIT Tech Review). Playwright with Python Training in Hyderabad at Test Bug IT Solutions (Dev.to Programming). Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch (TechCrunch AI). Are Blockchain Games Moving Beyond Play-to-Earn? What Keeps Players Playing? (Dev.to AI). Looking for developers to collaborate on open-source projects 🚀 (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No&#8230;"
+  },
+  "articles": [
+    {
+      "id": "bd0657d2bfec",
+      "title": "Powering AI is an architecture problem",
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-10T11:00:00+00:00",
+      "score": 3.85,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/08/ON-contributed-image.jpg?resize=1200,600"
+    },
+    {
+      "id": "3f778d3405e8",
+      "title": "Playwright with Python Training in Hyderabad at Test Bug IT Solutions",
+      "url": "https://dev.to/mbalu/playwright-with-python-training-in-hyderabad-at-test-bug-it-solutions-17h2",
+      "summary": "Playwright with Python Training in Hyderabad at Test Bug IT Solutions\n\n\nModern software teams are increasingly adopting automation testing to improve application quality, speed up releases, and reduce repetitive manual testing. Playwright with Python is becoming a popular combination for testers and developers who want to build reliable end-to-end automation frameworks.\n\nTest Bug IT Solutions offers Playwright with Python Training in Hyderabad for students, freshers, and working professionals who want to develop practical automation testing skills.\n\n\n  \n  \n  Why Learn Playwright with Python?\n\n",
+      "source": "Dev.to Programming",
+      "published": "2026-09-10T11:31:01+00:00",
+      "score": 3.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzahacszpr6cv8o42sjj1.png"
+    },
+    {
+      "id": "28b798c31b50",
+      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "summary": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T20:03:43+00:00",
+      "score": 3.62,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-2.56.54-PM.png?resize=1200,730"
+    },
+    {
+      "id": "1a4c0e4f58f8",
+      "title": "Are Blockchain Games Moving Beyond Play-to-Earn? What Keeps Players Playing?",
+      "url": "https://dev.to/laura_bennett_3387edd9c1b/are-blockchain-games-moving-beyond-play-to-earn-what-keeps-players-playing-g67",
+      "summary": "The play-to-earn hype gave blockchain gaming its first wave of attention, but many players left once rewards slowed down. Now the shift seems to be toward actual gameplay, story, and mechanics that last beyond token incentives. Working on a few blockchain game projects at Bitdeal, we've noticed studios focusing more on retention than quick earning loops.\n\nDo you think gameplay is finally catching up with the hype, or are rewards still what keeps players around?\n\nKnow More &gt;&gt; https://www.bitdeal.net/contact-us",
+      "source": "Dev.to AI",
+      "published": "2026-09-10T11:41:51+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhq6tw3zq07hibn7glv8v.png"
+    },
+    {
+      "id": "4e662a3d5a1e",
+      "title": "Looking for developers to collaborate on open-source projects 🚀",
+      "url": "https://dev.to/abdel_lox_b607c9d9d939d76/looking-for-developers-to-collaborate-on-open-source-projects-igc",
+      "summary": "Looking for developers to collaborate on open-source projects 🚀\n\nHey developers 👋\n\nI’m building and maintaining several open-source projects and I’d love to connect with developers who want to contribute, learn, and build together.\n\nThere are different projects to explore, so you can choose one that matches your interests or tech stack.\n\nYou can find them here:\n\n👉 https://github.com/Abdellox\n\nI’m especially interested in contributors who want to:\n\n🐛 Fix bugs\n✨ Build new features\n⚡ Improve existing code\n📖 Improve documentation\n🔍 Review or submit pull requests\n💡 Share ideas and feedback\n\nYou don",
+      "source": "Dev.to Programming",
+      "published": "2026-09-10T11:22:56+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fquy2osr26ts0z9ppscf3.png"
+    },
+    {
+      "id": "c1f34cbe9cec",
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+      "summary": "Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-10T00:00:37+00:00",
+      "score": 3.44,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2221463618.jpg?resize=1200,800"
+    },
+    {
+      "id": "21abdc10a259",
+      "title": "IETF Publishes RFC 10008, Adding the QUERY Method for Safe Requests With a Body",
+      "url": "https://www.infoq.com/news/2026/09/http-query-method/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In June 2026, the IETF published RFC 10008, introducing the QUERY method to HTTP, the first new standard HTTP verb since 2010. QUERY enables developers to send richer query filters in the request body while maintaining cacheable, safe, and idempotent semantics. This addition addresses long-standing limitations with GET and POST methods, facilitating improved API interactions. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-10T06:27:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "a105b3ce5041",
+      "title": "GitHub availability report: August 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+      "summary": "In August, we experienced five incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: August 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-10T02:05:17+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "3102a4e3b455",
+      "title": "I tried to make a real fly connectome learn to play Pong. It didn't — and auditing why turned out to be way more interesting than if it had worked [p]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wc67ci/i_tried_to_make_a_real_fly_connectome_learn_to/",
+      "summary": "You've probably seen the fly-brain-plays-Doom / Minecraft / Beat Saber clips going around this week, from the new MaleCNS v1.0 connectome release (166k neurons, real EM reconstruction, not a toy model). Cool clips. Nobody seemed to be checking whether any of it works though, versus just producing motion in a game engine generous enough to make anything look alive. So I picked the least forgiving test bed around: Pong, one binary hit or miss signal measured every frame, nowhere to hide a null result, and tried to get a small real subgraph of the connectome to track the ball via dopamine-style p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-10T02:28:58+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "6e5ebd9079dc",
+      "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+      "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+      "summary": "The update uses Apple Intelligence to make better sense of your health data.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T18:16:29+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "b5b867855799",
+      "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+      "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+      "summary": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T13:00:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "83655f368aed",
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+      "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+      "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T18:08:35+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "2392282ee14f",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-09T03:10:08+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "724c3fbff8ab",
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-09T12:05:34+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "bea4e625dc78",
+      "title": "The Symmetry That Breaks Neural Network Averaging",
+      "url": "https://towardsdatascience.com/the-symmetry-that-breaks-neural-network-averaging/",
+      "summary": "Understanding permutation symmetry in deep learning, and what it means for weight averaging and model merging\nThe post The Symmetry That Breaks Neural Network Averaging appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-09T14:00:02+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "8ef59f4ca466",
+      "title": "Shopify acquires Tailwind",
+      "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-09-09T13:27:11+00:00",
+      "score": 2.45,
+      "image": null
+    }
+  ]
+}
