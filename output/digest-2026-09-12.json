@@ -1,0 +1,149 @@
+{
+  "digest": {
+    "headline": "Help Make the New VS Code Pet Work with ALL AI Agents (Cline, Tabby, Kilo Code)! 🐾",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Help Make the New VS Code Pet Work with ALL AI Agents (Cline, Tabby, Kilo Code)! 🐾 (Dev.to AI). Is GitHub Sponsors funding open source more now? (Dev.to Programming). NASA, IBM Launch AI Model (Dev.to AI). The Architecture of Event-Driven AI Workflows in Modern Systems (Dev.to Programming). Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "tsgolint Reaches Stable v7, Bringing Go-Powered Type-Aware Linting to Oxlint (InfoQ). Coding Agents Don't Need Longer History — They Need Intent Continuity (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Hey fellow developers! 👋\n\nVS Code recently introduced a fun experimental feature: an interactive \"pet\" companion that sits above the chat input and reacts to AI agent activity. \n\nThe only catch? It currently only reacts to GitHub Copilot.\n\nI believe this awesome feature should also recognize free and open-source AI coding assistants like Cline, Kilo Code, Tabby, Codeium, Roo Code, and others. \n\nI've opened an official feature request in the VS Code repository, and it has been accepted as a \"Backlog Candidate\". However, there's a rule: it needs 20 upvotes (👍) within 60 days to stay open and be "
+  },
+  "articles": [
+    {
+      "id": "26ea5e4a642f",
+      "title": "Help Make the New VS Code Pet Work with ALL AI Agents (Cline, Tabby, Kilo Code)! 🐾",
+      "url": "https://dev.to/dobbygitnetizen/help-make-the-new-vs-code-pet-work-with-all-ai-agents-cline-tabby-kilo-code-4bc1",
+      "summary": "Hey fellow developers! 👋\n\nVS Code recently introduced a fun experimental feature: an interactive \"pet\" companion that sits above the chat input and reacts to AI agent activity. \n\nThe only catch? It currently only reacts to GitHub Copilot.\n\nI believe this awesome feature should also recognize free and open-source AI coding assistants like Cline, Kilo Code, Tabby, Codeium, Roo Code, and others. \n\nI've opened an official feature request in the VS Code repository, and it has been accepted as a \"Backlog Candidate\". However, there's a rule: it needs 20 upvotes (👍) within 60 days to stay open and be ",
+      "source": "Dev.to AI",
+      "published": "2026-09-12T11:06:27+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjaua6gdsz2iu3ry585x9.png"
+    },
+    {
+      "id": "fcf5d55766c6",
+      "title": "Is GitHub Sponsors funding open source more now?",
+      "url": "https://dev.to/devconnect/is-github-sponsors-funding-open-source-more-now-3dcf",
+      "summary": "Short answer: Yes, GitHub Sponsors is funding open source more now in the sense of scale and organization support, but the money is still concentrated and not enough to cover the wider ecosystem.\n\nYes, GitHub Sponsors is funding open source more now, but the growth is uneven. GitHub says the program has passed $60 million in cumulative funding for maintainers, and its latest public reporting says organization sponsorships are up nearly 40% year over year. That is real growth, but it still covers only a slice of open source work.\n\nThe part people get wrong is assuming that a bigger total means ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-12T11:15:02+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdevconnectplatform.com%2Fapi%2Fog%2Fis-github-sponsors-funding-open-source-more-now"
+    },
+    {
+      "id": "016c0ac0c6e3",
+      "title": "NASA, IBM Launch AI Model",
+      "url": "https://dev.to/qivorane/nasa-ibm-launch-ai-model-kld",
+      "summary": "Introduction To Lunar Research\n\n\nNASA and IBM have collaborated to develop a new AI model, known as the NASA-IBM Lunar Foundation Model, to help analyze the vast amounts of data collected about the moon. This model is designed to assist researchers in tasks such as mapping craters, finding young volcanic features, and modeling possible locations of water ice near the lunar poles. The development of this AI model is part of a larger trend of using artificial intelligence in planetary science to increase scientific productivity, reduce costs, and streamline workflows.\n\n\n  \n  \n  Background And Co",
+      "source": "Dev.to AI",
+      "published": "2026-09-12T11:00:59+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnli5wkw5fa8775ki8far.png"
+    },
+    {
+      "id": "ba3d3fcf8721",
+      "title": "The Architecture of Event-Driven AI Workflows in Modern Systems",
+      "url": "https://dev.to/usman_c9d4c2a90f76c/the-architecture-of-event-driven-ai-workflows-in-modern-systems-5kc",
+      "summary": "Traditional backend systems often treat AI models as synchronous, one-off tools. However, as business requirements scale, moving towards autonomous event-driven pipelines becomes essential. Instead of waiting on manual intervention, modern architectures use lightweight webhooks and distributed message queues to process information continuously.\n\nWhen an event triggers—whether it is an updated database entry, a customer request, or a newly published publication—background workers immediately decompose the payload. They route unstructured text through optimized LLMs for multi-channel adaptation ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-12T10:56:44+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fssozhihakr5fiswknlyj.png"
+    },
+    {
+      "id": "fad5f970d050",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-11T22:58:17+00:00",
+      "score": 3.51,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857"
+    },
+    {
+      "id": "07a53cb8e8f0",
+      "title": "New updates for larkos",
+      "url": "https://dev.to/okerew/new-updates-for-larkos-3pa1",
+      "summary": "Fix memory consolidation, reflections in https://github.com/Okerew/larkos, add a step controller, memory journal, allowing larkos memory to be read semantically to https://github.com/Okerew/larkos_models\n\nThe new memory journal therefore allows other llms to read larkos memory not to unimportant, not to important.",
+      "source": "Dev.to Programming",
+      "published": "2026-09-12T10:56:30+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fne8fpckzku4n3coqk0e1.png"
+    },
+    {
+      "id": "81127e5c0039",
+      "title": "Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps",
+      "url": "https://towardsdatascience.com/stop-managing-alarms-an-incident-first-blueprint-for-telecom-aiops/",
+      "summary": "What large operators can teach us about turning alert fatigue into faster, safer service assurance\nThe post Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-12T11:00:02+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "24bd381cabdd",
+      "title": "One Decade of Rustls: Evolution, Benchmarks, and Future Roadmap",
+      "url": "https://www.infoq.com/news/2026/09/rustls-one-decade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rustls,  a  Rust TLS library, marks its decade-long progression from a grassroots project to a funded open-source initiative. Key contributions from organisations boosted development, resulting in features like post-quantum cryptography and robust performance. The upcoming 0.24 release aims to enhance architecture and flexibility, including new input buffering and improved session handling By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-12T07:07:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "05f7a9bd9217",
+      "title": "tsgolint Reaches Stable v7, Bringing Go-Powered Type-Aware Linting to Oxlint",
+      "url": "https://www.infoq.com/news/2026/09/tsgolint-oxlint-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "tsgolint has released a stable v7, enhancing TypeScript linting with native Go speed. It offers type-aware linting, leveraging TypeScript's semantic analysis through the typescript-go compiler. Oxlint manages configurations and file discovery. The release, compatible with TypeScript 7.0.2, handles 59 of 61 type-aware rules and shows significant performance improvements over ESLint. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-11T12:02:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "2ed56b33051a",
+      "title": "ACL Sustainable Reviewing Policy [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wd7b83/acl_sustainable_reviewing_policy_d/",
+      "summary": "ACL just announced on X how they are planning to handle the increased submission numbers. Interestingly enough, they call it &quot;the proposal&quot;. My understanding is that, in a nutshell, each submission should come with someone who can review, otherwise it may only get a slot through a lottery. Additionally, they cap total submissions at 20 and first-author submissions per cycle at 5. What do you think of it? IMO it makes a lot of sense - especially given the large numbers of submissions without any author qualified to review. It is a bit of gatekeeping but in my opinion highly required. ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-11T05:38:02+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "b4780394b581",
+      "title": "Coding Agents Don't Need Longer History — They Need Intent Continuity",
+      "url": "https://towardsdatascience.com/coding-agents-dont-need-longer-history-they-need-intent-continuity/",
+      "summary": "I built a system that automatically discovers, verifies, and applies relevant requirements from earlier interactions without asking the user where they came from.\nThe post Coding Agents Don't Need Longer History — They Need Intent Continuity appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-11T15:30:01+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "96e3f3a6ca8e",
+      "title": "Software Design in the Age of AI",
+      "url": "https://towardsdatascience.com/software-design-in-the-age-of-ai/",
+      "summary": "Why AI coding makes software design more important\nThe post Software Design in the Age of AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-11T14:00:02+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "c624b4790b38",
+      "title": "Demystifying Anthropic's J-Space: A Mathematical Primer",
+      "url": "https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/",
+      "summary": "Clarifying the math behind Anthropic’s representation workspace\nThe post Demystifying Anthropic's J-Space: A Mathematical Primer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-11T11:00:02+00:00",
+      "score": 2.15,
+      "image": null
+    }
+  ]
+}
