@@ -4381,3 +4381,38 @@
 2026-09-12 11:23:01,021  INFO     ────────────────────────────────────────────────────────────
 2026-09-12 11:23:01,021  INFO     Done!  Open: output/index.html
 2026-09-12 11:23:01,021  INFO     Headline: Help Make the New VS Code Pet Work with ALL AI Agents (Cline, Tabby, Kilo Code)! 🐾
+2026-09-13 12:26:20,849  INFO     ============================================================
+2026-09-13 12:26:20,850  INFO     TECHPULSE Digest — 2026-09-13 12:26 UTC
+2026-09-13 12:26:20,850  INFO     ============================================================
+2026-09-13 12:26:20,850  INFO     Step 1/3 — Crawling feeds…
+2026-09-13 12:26:21,107  INFO       Hacker News                    → 1 significant articles
+2026-09-13 12:26:21,248  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-13 12:26:21,465  INFO       Ars Technica                   → 0 significant articles
+2026-09-13 12:26:21,955  INFO       The Register AI                → 0 significant articles
+2026-09-13 12:26:22,056  INFO       MIT Tech Review                → 0 significant articles
+2026-09-13 12:26:22,234  INFO       Dev.to AI                      → 4 significant articles
+2026-09-13 12:26:22,363  INFO       Dev.to Programming             → 5 significant articles
+2026-09-13 12:26:22,527  INFO       GitHub Blog                    → 0 significant articles
+2026-09-13 12:26:23,528  INFO       Google Research                → 0 significant articles
+2026-09-13 12:26:24,978  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-09-13 12:26:25,015  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-13 12:26:25,779  INFO       InfoQ                          → 1 significant articles
+2026-09-13 12:26:25,929  INFO       Towards Data Science           → 3 significant articles
+2026-09-13 12:26:26,109  INFO       Wired AI                       → 0 significant articles
+2026-09-13 12:26:26,237  INFO       TechCrunch AI                  → 0 significant articles
+2026-09-13 12:26:26,237  INFO     Fetching images for top articles…
+2026-09-13 12:26:26,393  INFO       🖼  The absurd thing every Brazilian dev faces: a foreign credit
+2026-09-13 12:26:26,469  INFO       🖼  Changes to LLM pricing: Baidu and StreamLake
+2026-09-13 12:26:26,514  INFO       🖼  Berhenti Pakai Banyak Database: Mengapa PostgreSQL Jadi Jawa
+2026-09-13 12:26:26,590  INFO       🖼  NLP Sentiment Analysis: Essential Signals at Scale
+2026-09-13 12:26:26,646  INFO       🖼  The Binary Search Awakens: A Quest for the Sorted Array
+2026-09-13 12:26:26,700  INFO       🖼  Your AI Adoption Lift Is a Selection Effect
+2026-09-13 12:26:26,701  INFO     Total selected: 15 articles from 15 feeds
+2026-09-13 12:26:26,701  INFO     Selected 15 significant articles
+2026-09-13 12:26:26,701  INFO     Step 2/3 — Generating digest…
+2026-09-13 12:26:26,988  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-13 12:26:26,988  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-13 12:26:26,988  INFO     Step 3/3 — Rendering HTML…
+2026-09-13 12:26:26,989  INFO     ────────────────────────────────────────────────────────────
+2026-09-13 12:26:26,990  INFO     Done!  Open: output/index.html
+2026-09-13 12:26:26,990  INFO     Headline: The absurd thing every Brazilian dev faces: a foreign credit card for AI

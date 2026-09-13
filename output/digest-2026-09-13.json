@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "The absurd thing every Brazilian dev faces: a foreign credit card for AI",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "The absurd thing every Brazilian dev faces: a foreign credit card for AI (Dev.to AI). Changes to LLM pricing: Baidu and StreamLake (Dev.to AI). Berhenti Pakai Banyak Database: Mengapa PostgreSQL Jadi Jawaban 'All-in-One' di 2026 (Dev.to AI). NLP Sentiment Analysis: Essential Signals at Scale (Dev.to AI). The Binary Search Awakens: A Quest for the Sorted Array (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How to Overcome Burnout Before It Wrecks Your Career (Dev.to Programming). How to Stay Productive While Working from Home (WFH) (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "While Brazil's government announces national AI supercomputers, many developers here still can't pay for the OpenAI API — no international card, no PIX accepted. It doesn't have to be this way.\n\nIf you are a developer in Brazil — or anywhere without easy international payment — you know the pain: OpenAI, Anthropic and others require an international credit card for API billing, and many regions simply don't have one or get declined constantly.\n\nThe practical workaround: an API gateway. You keep using the same models (GPT, Claude, Gemini) and the same SDK — you just point base_url to a provider"
+  },
+  "articles": [
+    {
+      "id": "4cf97113b588",
+      "title": "The absurd thing every Brazilian dev faces: a foreign credit card for AI",
+      "url": "https://dev.to/lin_wang_eb7f420656bfbdfc/the-absurd-thing-every-brazilian-dev-faces-a-foreign-credit-card-for-ai-18o1",
+      "summary": "While Brazil's government announces national AI supercomputers, many developers here still can't pay for the OpenAI API — no international card, no PIX accepted. It doesn't have to be this way.\n\nIf you are a developer in Brazil — or anywhere without easy international payment — you know the pain: OpenAI, Anthropic and others require an international credit card for API billing, and many regions simply don't have one or get declined constantly.\n\nThe practical workaround: an API gateway. You keep using the same models (GPT, Claude, Gemini) and the same SDK — you just point base_url to a provider",
+      "source": "Dev.to AI",
+      "published": "2026-09-13T12:05:06+00:00",
+      "score": 4.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxp3bbdt6hnnldun1sir9.png"
+    },
+    {
+      "id": "5505227555f5",
+      "title": "Changes to LLM pricing: Baidu and StreamLake",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-baidu-and-streamlake-166e",
+      "summary": "Model price changes detected for Baidu and StreamLake. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-09-13T12:23:10+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2F7fXGfSVZuS.png"
+    },
+    {
+      "id": "9fd79fb34e2a",
+      "title": "Berhenti Pakai Banyak Database: Mengapa PostgreSQL Jadi Jawaban 'All-in-One' di 2026",
+      "url": "https://dev.to/hellogung/berhenti-pakai-banyak-database-mengapa-postgresql-jadi-jawaban-all-in-one-di-2026-443d",
+      "summary": "\"\\n\\nAda satu pola yang sering saya temukan di banyak proyek skala menengah hingga besar: \\\"Database Sprawl\\\". Kita mulai dengan PostgreSQL untuk data relasional, lalu menambah MongoDB karena butuh fleksibilitas dokumen, kemudian memasang Redis untuk caching, dan baru-baru ini menambahkan Pinecone atau Milvus demi fitur AI Vector Search.\\n\\nSekilas, ini terlihat seperti mengikuti prinsip Right Tool for the Right Job. Tapi kenyataannya? Ini adalah mimpi buruk operasional. Kita harus mengelola lima sistem backup yang berbeda, lima strategi monitoring, dan yang paling menyebalkan: sinkronisasi da",
+      "source": "Dev.to AI",
+      "published": "2026-09-13T12:06:34+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi9y7v5qvz10n41d9a28n.png"
+    },
+    {
+      "id": "35027319e5e1",
+      "title": "NLP Sentiment Analysis: Essential Signals at Scale",
+      "url": "https://dev.to/vladimir_lialine_b2e67374/nlp-sentiment-analysis-essential-signals-at-scale-3edp",
+      "summary": "Earnings calls contain more than revenue guidance and operating updates. Changes in tone, hesitation, uncertainty, and management language can reveal information that conventional metrics miss. NLP sentiment analysis converts these unstructured communications into measurable data, helping quantitative teams evaluate thousands of transcripts and financial disclosures without relying on slow, subjective manual reviews.\n\n\n  \n  \n  How NLP Sentiment Analysis Transforms Disclosures\n\n\nSentiment analysis is the automated classification of language by tone, emotion, or intent. In finance, the task is m",
+      "source": "Dev.to AI",
+      "published": "2026-09-13T12:12:19+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp9ruwocf0afybmk0kjie.png"
+    },
+    {
+      "id": "d3ad8a57ecfc",
+      "title": "The Binary Search Awakens: A Quest for the Sorted Array",
+      "url": "https://dev.to/timevolt/the-binary-search-awakens-a-quest-for-the-sorted-array-304",
+      "summary": "The Quest Begins (The “Why”)\n\n\nI still remember the first time I faced a whiteboard interview and the interviewer slid a simple prompt across the table: “Given a sorted array, find if a number exists.” My brain instantly went to linear scan — loop through each element, compare, return true/false. It felt like wandering through a dark forest, checking every tree for the one that hides the treasure. The solution worked, but the interviewer raised an eyebrow and said, “Can we do better?”  \n\nThat moment sparked a tiny obsession. Why was I wasting time looking at every element when the array was al",
+      "source": "Dev.to Programming",
+      "published": "2026-09-13T12:18:30+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frbtb052vdh860kmnnu9a.png"
+    },
+    {
+      "id": "6b58a41407d6",
+      "title": "Your AI Adoption Lift Is a Selection Effect",
+      "url": "https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/",
+      "summary": "A practitioner's guide to estimating what an opt-in AI feature actually did, when nobody randomized it.\nThe post Your AI Adoption Lift Is a Selection Effect appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-13T12:00:02+00:00",
+      "score": 3.48,
+      "image": "https://assets.insightmediagroup.io/media/1788972007695_tn62uw.png"
+    },
+    {
+      "id": "159e19b53292",
+      "title": "From Game Cheats to C Shell: Matheus’s Journey Into Programming",
+      "url": "https://dev.to/mprog10/from-game-cheats-to-c-shell-matheuss-journey-into-programming-nf1",
+      "summary": "Matheus has been interested in computers since childhood. What started with playing games, experimenting with cheats, and carefully watching his father repair a computer eventually turned into a deep interest in programming, Unix, Linux, shell scripting, and low-level software.\n\nToday, his interests span languages such as C, Objective-C, Smalltalk, Java, C#, JavaScript, Python, and Shell. More recently, he has been working directly on C shell, forking tcsh and experimenting with new features and changes to the shell's parsing and execution behavior.\n\nHis journey isn't really about following on",
+      "source": "Dev.to Programming",
+      "published": "2026-09-13T11:53:29+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "698e463dff9b",
+      "title": "How to Build a Professional Network for Introverts",
+      "url": "https://dev.to/dhiecoderweb/how-to-build-a-professional-network-for-introverts-i9k",
+      "summary": "The word “networking” might turn your stomach instantly. The image of a room full of strangers, awkward small talk, a stack of business cards that ends up abandoned in a drawer, and your energy completely drained within an hour — all of it feels like a nightmare for an introvert. You may have long believed that building a network is a game for extroverts who are good talkers and easy to get along with, while you are doomed to fall behind because you are more comfortable with a few close friends. But there is a rarely revealed secret: introverts actually have a natural advantage in networking —",
+      "source": "Dev.to Programming",
+      "published": "2026-09-13T11:45:31+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "ebe4c4addde3",
+      "title": "How to Overcome Burnout Before It Wrecks Your Career",
+      "url": "https://dev.to/dhiecoderweb/how-to-overcome-burnout-before-it-wrecks-your-career-18hp",
+      "summary": "At first you did not notice it. You just felt a little more tired than usual, a little more reluctant to open your laptop, a little more easily irritated when a work notification arrived on the weekend. You told yourself, “This is just ordinary fatigue, it will pass.” But weeks turned into months, and that “ordinary fatigue” morphed into an emptiness that clung to you even after eight hours of sleep. The job you once loved now feels like a burden slowly eroding your soul. If you recognize yourself in this picture, pause for a moment — because burnout is not a sign that you are weak, but a sign",
+      "source": "Dev.to Programming",
+      "published": "2026-09-13T11:45:26+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "8f1ec868b9eb",
+      "title": "How to Stay Productive While Working from Home (WFH)",
+      "url": "https://dev.to/dhiecoderweb/how-to-stay-productive-while-working-from-home-wfh-38gi",
+      "summary": "At first it sounds like a dream: working from home, no traffic jams, no need to dress neatly from head to toe, free to brew coffee whenever you like. But after a few weeks, the dream starts to crack. The bed calls out to you, social media notifications tempt you, household chores scream to be done, and suddenly it’s already late afternoon while your to-do list is still full. Working from home, or WFH, turns out to demand far greater discipline than being in the office. The good news is that WFH productivity isn’t about talent, but about systems and habits. With the right strategy, you can work",
+      "source": "Dev.to Programming",
+      "published": "2026-09-13T11:45:11+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "c63b548b0537",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-09-12T15:08:27+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "04b5626eda18",
+      "title": "One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't in the New Model",
+      "url": "https://towardsdatascience.com/one-capital-letter-was-silently-breaking-my-ai-support-bot-and-it-wasnt-in-the-new-model/",
+      "summary": "A real Weave project that regression-tests three OpenAI models against the exact reply format your app depends on.\nThe post One Capital Letter Was Silently Breaking My AI Support Bot, and It Wasn't in the New Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-12T14:00:02+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "69a457ed0994",
+      "title": "How much do tech reports matter for a PhD application? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1weedmk/how_much_do_tech_reports_matter_for_a_phd/",
+      "summary": "The title, by tech reports I don't mean arXiv submissions, but reports of a large model, like say Kimi K3, DeepSeek, Gemini, Mistral Leanstral, etc. Is it much above, above, much below, below or equal to a first author A* paper?  &#32; submitted by &#32;  /u/simple-Flat0263   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-12T14:40:54+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "81127e5c0039",
+      "title": "Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps",
+      "url": "https://towardsdatascience.com/stop-managing-alarms-an-incident-first-blueprint-for-telecom-aiops/",
+      "summary": "What large operators can teach us about turning alert fatigue into faster, safer service assurance\nThe post Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-12T11:00:02+00:00",
+      "score": 2.09,
+      "image": null
+    },
+    {
+      "id": "24bd381cabdd",
+      "title": "One Decade of Rustls: Evolution, Benchmarks, and Future Roadmap",
+      "url": "https://www.infoq.com/news/2026/09/rustls-one-decade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rustls,  a  Rust TLS library, marks its decade-long progression from a grassroots project to a funded open-source initiative. Key contributions from organisations boosted development, resulting in features like post-quantum cryptography and robust performance. The upcoming 0.24 release aims to enhance architecture and flexibility, including new input buffering and improved session handling By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-12T07:07:00+00:00",
+      "score": 2.07,
+      "image": null
+    }
+  ]
+}
