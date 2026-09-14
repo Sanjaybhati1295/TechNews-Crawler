@@ -1,0 +1,109 @@
+{
+  "digest": {
+    "headline": "Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs",
+    "tldr": "Today's digest covers 9 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs (InfoQ). App Sparring Prep: what we learned building Random Tactical Timer (Dev.to AI). Meta Open-Sources Astryx, its Agent-Ready React Design System (InfoQ). Changes to LLM pricing: Baidu and Inceptron (Dev.to AI). Graph Engineering for AI Agents: From Prompts and Loops to Workflows (Towards Data Science)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "SQL Subqueries and CTEs (Dev.to AI). I open sourced handover, a skill for switching coding agents mid work (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Jotai, an atomic state management library for React, has released version 3.0.0, now exclusively using ES modules. It maintains backward compatibility but removes some deprecated APIs. Migration is straightforward for most users. This version emphasizes a leaner core with improvements while deferring significant feature changes for future updates. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "80f5bb92bbc0",
+      "title": "Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs",
+      "url": "https://www.infoq.com/news/2026/09/jotai-3-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jotai, an atomic state management library for React, has released version 3.0.0, now exclusively using ES modules. It maintains backward compatibility but removes some deprecated APIs. Migration is straightforward for most users. This version emphasizes a leaner core with improvements while deferring significant feature changes for future updates. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-14T06:46:00+00:00",
+      "score": 3.93,
+      "image": "https://res.infoq.com/news/2026/09/jotai-3-released/en/headerimage/generatedHeaderImage-1789141759444.jpg"
+    },
+    {
+      "id": "2877a66aef1c",
+      "title": "App Sparring Prep: what we learned building Random Tactical Timer",
+      "url": "https://dev.to/igorganapolsky/app-sparring-prep-what-we-learned-building-random-tactical-timer-1le5",
+      "summary": "What changed today\n\n\n\nchore(deps)(deps): bump playwright from 1.62.1 to 1.63.0 in /native-android in the android-npm group (#1917)\nchore(analytics): refresh marketing snapshots from wiki-sync\nfeat(agents): local-first hybrid router (16GB) (#1915)\nfix(deps)(deps): bump google-auth from 2.57.1 to 2.58.0 in the uv-routine group (#1914)\n\n\n\n  \n  \n  Search intent target\n\n\n\nPrimary keyword: app sparring prep\n\nIntent class: commercial\n\nBID filter: business potential, intent match, and realistic difficulty\n\n\n\n  \n  \n  AI/LLM flow we used\n\n\nWe keep this loop tight: plan -&gt; code -&gt; test -&gt; releas",
+      "source": "Dev.to AI",
+      "published": "2026-09-14T13:26:05+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7ftk6h29z6skk8bq7xsh.png"
+    },
+    {
+      "id": "d7acde29780a",
+      "title": "Meta Open-Sources Astryx, its Agent-Ready React Design System",
+      "url": "https://www.infoq.com/news/2026/09/meta-astryx-design-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Meta recently announced the beta release of Astryx, an open-source React design system developed internally over eight years. Astryx builds on React 19 and StyleX to provide over 150 accessible UI components, customizable CSS design tokens, and dedicated CLI and MCP tooling — for both engineers and AI agents. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-09-13T23:39:00+00:00",
+      "score": 3.73,
+      "image": "https://res.infoq.com/news/2026/09/meta-astryx-design-system/en/headerimage/generatedHeaderImage-1789341796965.jpg"
+    },
+    {
+      "id": "40de7dc025d1",
+      "title": "Changes to LLM pricing: Baidu and Inceptron",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-baidu-and-inceptron-4hp2",
+      "summary": "Model price changes detected for Baidu and Inceptron. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-09-14T13:23:52+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2F9Q2EKb5Eha.png"
+    },
+    {
+      "id": "e298e75f94d9",
+      "title": "Graph Engineering for AI Agents: From Prompts and Loops to Workflows",
+      "url": "https://towardsdatascience.com/graph-engineering-for-ai-agents-from-prompts-and-loops-to-workflows/",
+      "summary": "A viral debate over loops versus graphs points to a bigger shift in how we build AI systems. Here’s what graph engineering actually means, how it differs from prompt, context, and loop engineering, and why it matters.\nThe post Graph Engineering for AI Agents: From Prompts and Loops to Workflows appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-14T12:30:01+00:00",
+      "score": 3.64,
+      "image": "https://assets.insightmediagroup.io/media/wp-content/uploads/2026/08/guerrillabuzz-UZWZrhqsXwI-unsplash-scaled.jpg"
+    },
+    {
+      "id": "483fc8a3c462",
+      "title": "From Static to Dynamic Skills: A Different Model for Agent Knowledge",
+      "url": "https://towardsdatascience.com/from-static-to-dynamic-skills-a-different-model-for-agent-knowledge/",
+      "summary": "Why the skill-inflation panic is aimed at the wrong thing, and what it costs to make agent knowledge a build artifact instead of a file.\nThe post From Static to Dynamic Skills: A Different Model for Agent Knowledge appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-14T11:00:01+00:00",
+      "score": 3.56,
+      "image": "https://assets.insightmediagroup.io/media/1789064330790_5tdxoz.jpg"
+    },
+    {
+      "id": "a7c8dc51ae29",
+      "title": "SQL Subqueries and CTEs",
+      "url": "https://dev.to/feddy_mwanjumwa_e4047cf0c/sql-subqueries-and-ctes-3f95",
+      "summary": "When I first came across subqueries and CTEs, I honestly thought they were just more complicated SQL syntax I had to memorize.\n\nAfter practicing them, I realised the idea is actually pretty simple.\n\nBoth help you break a bigger SQL problem into smaller pieces.\n\n\n  \n  \n  What is a subquery?\n\n\nA subquery is a query inside another query.\n\nFor example, imagine I have a students table and I want to find students who scored above the average.\n\n\n\nThe inner query calculates the average score first:\n\nSELECT AVG(score) FROM students\n\nThen the outer query finds students whose scores are higher than that ",
+      "source": "Dev.to AI",
+      "published": "2026-09-14T13:24:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b35e400d4c49",
+      "title": "I open sourced handover, a skill for switching coding agents mid work",
+      "url": "https://dev.to/devzl/i-open-sourced-handover-a-skill-for-switching-coding-agents-mid-work-11l",
+      "summary": "I use this skill a lot to move from one coding session to another, often from one harness to a different one, especially on days when one just isn't working as expected.\n\nWhen you call it, it writes a clean summary: what's done, what's next, what's actually been tested. Next session, on whatever tool I switch to, I can resume work cold.\n\nAuto compacting a session isn't always great, this gives you a real handoff with full context instead.\n\nMade it open source. It's pretty small, but it's been genuinely useful for me, hope it helps some of you too.\n\nRepo's here if you want to try it: github.com",
+      "source": "Dev.to Programming",
+      "published": "2026-09-14T13:04:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "6b58a41407d6",
+      "title": "Your AI Adoption Lift Is a Selection Effect",
+      "url": "https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/",
+      "summary": "A practitioner's guide to estimating what an opt-in AI feature actually did, when nobody randomized it.\nThe post Your AI Adoption Lift Is a Selection Effect appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-13T12:00:02+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}

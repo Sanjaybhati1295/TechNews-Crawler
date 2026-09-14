@@ -4416,3 +4416,38 @@
 2026-09-13 12:26:26,989  INFO     ────────────────────────────────────────────────────────────
 2026-09-13 12:26:26,990  INFO     Done!  Open: output/index.html
 2026-09-13 12:26:26,990  INFO     Headline: The absurd thing every Brazilian dev faces: a foreign credit card for AI
+2026-09-14 13:29:33,272  INFO     ============================================================
+2026-09-14 13:29:33,272  INFO     TECHPULSE Digest — 2026-09-14 13:29 UTC
+2026-09-14 13:29:33,272  INFO     ============================================================
+2026-09-14 13:29:33,272  INFO     Step 1/3 — Crawling feeds…
+2026-09-14 13:29:33,513  INFO       Hacker News                    → 0 significant articles
+2026-09-14 13:29:33,675  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-14 13:29:33,865  INFO       Ars Technica                   → 0 significant articles
+2026-09-14 13:29:34,660  INFO       The Register AI                → 0 significant articles
+2026-09-14 13:29:34,820  INFO       MIT Tech Review                → 0 significant articles
+2026-09-14 13:29:35,049  INFO       Dev.to AI                      → 3 significant articles
+2026-09-14 13:29:35,216  INFO       Dev.to Programming             → 1 significant articles
+2026-09-14 13:29:35,562  INFO       GitHub Blog                    → 0 significant articles
+2026-09-14 13:29:36,515  INFO       Google Research                → 0 significant articles
+2026-09-14 13:29:37,378  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-09-14 13:29:37,498  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-14 13:29:38,022  INFO       InfoQ                          → 2 significant articles
+2026-09-14 13:29:38,478  INFO       Towards Data Science           → 3 significant articles
+2026-09-14 13:29:38,660  INFO       Wired AI                       → 0 significant articles
+2026-09-14 13:29:38,824  INFO       TechCrunch AI                  → 0 significant articles
+2026-09-14 13:29:38,824  INFO     Fetching images for top articles…
+2026-09-14 13:29:39,326  INFO       🖼  Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops
+2026-09-14 13:29:39,593  INFO       🖼  App Sparring Prep: what we learned building Random Tactical 
+2026-09-14 13:29:40,032  INFO       🖼  Meta Open-Sources Astryx, its Agent-Ready React Design Syste
+2026-09-14 13:29:40,187  INFO       🖼  Changes to LLM pricing: Baidu and Inceptron
+2026-09-14 13:29:40,374  INFO       🖼  Graph Engineering for AI Agents: From Prompts and Loops to W
+2026-09-14 13:29:40,565  INFO       🖼  From Static to Dynamic Skills: A Different Model for Agent K
+2026-09-14 13:29:40,565  INFO     Total selected: 9 articles from 15 feeds
+2026-09-14 13:29:40,565  INFO     Selected 9 significant articles
+2026-09-14 13:29:40,565  INFO     Step 2/3 — Generating digest…
+2026-09-14 13:29:40,802  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-14 13:29:40,802  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-14 13:29:40,802  INFO     Step 3/3 — Rendering HTML…
+2026-09-14 13:29:40,803  INFO     ────────────────────────────────────────────────────────────
+2026-09-14 13:29:40,803  INFO     Done!  Open: output/index.html
+2026-09-14 13:29:40,803  INFO     Headline: Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs
