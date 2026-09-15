@@ -1,0 +1,169 @@
+{
+  "digest": {
+    "headline": "AI Visibility Tool: The New Way to Track Your Brand in AI Search",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI Visibility Tool: The New Way to Track Your Brand in AI Search (Dev.to AI). Claude Code's weekly limit went up 25% and down 17% on the same day (Dev.to Programming). Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default (InfoQ). AbdoCode: A Local-First Coding Agent Where the Model Proposes and the Kernel Decides (Dev.to AI). How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It. (Towards Data Science)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "Search behavior is changing. People no longer rely only on Google to find information, products, and services. They are also asking ChatGPT, Gemini, Perplexity, and other AI platforms for recommendations and answers.\nThis change has created a new challenge for businesses: Is your brand visible when customers ask AI about your industry?\nTraditional SEO helps websites appear in search engine results. But AI search introduces another important goal: getting your brand mentioned, understood, and cited in AI-generated answers.\nThis is where an AI Visibility Tool becomes useful. It helps businesses "
+  },
+  "articles": [
+    {
+      "id": "5f00cf54099f",
+      "title": "AI Visibility Tool: The New Way to Track Your Brand in AI Search",
+      "url": "https://dev.to/yashu26/ai-visibility-tool-the-new-way-to-track-your-brand-in-ai-search-od3",
+      "summary": "Search behavior is changing. People no longer rely only on Google to find information, products, and services. They are also asking ChatGPT, Gemini, Perplexity, and other AI platforms for recommendations and answers.\nThis change has created a new challenge for businesses: Is your brand visible when customers ask AI about your industry?\nTraditional SEO helps websites appear in search engine results. But AI search introduces another important goal: getting your brand mentioned, understood, and cited in AI-generated answers.\nThis is where an AI Visibility Tool becomes useful. It helps businesses ",
+      "source": "Dev.to AI",
+      "published": "2026-09-15T12:19:28+00:00",
+      "score": 4.2,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2w7qi7wk0ll11olwc8it.png"
+    },
+    {
+      "id": "251f1531a254",
+      "title": "Claude Code's weekly limit went up 25% and down 17% on the same day",
+      "url": "https://dev.to/skcoffey/claude-codes-weekly-limit-went-up-25-and-down-17-on-the-same-day-248d",
+      "summary": "If you pay for Claude Pro, Max, Team, or a seat-based Enterprise plan, your weekly Claude Code allowance changed on Monday, September 14.\n\nAnthropic's announcement says it is permanently raising standard weekly limits by 25%. That is true against the standard limit. It is not what you had last week. Since May, Claude Code had been running on a temporary 50% boost, and that boost ended September 13. After Anthropic deleted its first post and reposted, the company put the other number in writing: compared with before, this works out to a 17% reduction.\n\nThe arithmetic: if the old standard allowa",
+      "source": "Dev.to Programming",
+      "published": "2026-09-15T12:03:10+00:00",
+      "score": 4.18,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhjbhg6ys2pibt5h80hrt.png"
+    },
+    {
+      "id": "74fef845d0ee",
+      "title": "Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default",
+      "url": "https://www.infoq.com/news/2026/09/amazon-linux-2027-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released Amazon Linux 2027 in public preview, built on the AL2023 baseline with kernel 7.1 and SELinux in enforcing mode by default. Applications that pass on AL2023's permissive mode may fail under enforcing. The announcement gives no AL2023 end-of-support date, no GA date, and no in-place migration path. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-15T03:40:00+00:00",
+      "score": 4.02,
+      "image": "https://res.infoq.com/news/2026/09/amazon-linux-2027-preview/en/headerimage/generatedHeaderImage-1789307005573.jpg"
+    },
+    {
+      "id": "25545f57460a",
+      "title": "AbdoCode: A Local-First Coding Agent Where the Model Proposes and the Kernel Decides",
+      "url": "https://dev.to/abdo_code/abdocode-a-local-first-coding-agent-where-the-model-proposes-and-the-kernel-decides-2hag",
+      "summary": "AbdoCode: A Local-First Coding Agent Where the Model Proposes and the Kernel Decides\nAI coding agents are becoming powerful enough to read files, edit code, run commands, and interact with development environments. But as agents gain more capabilities, one question becomes increasingly important:\n\nHow much control should an AI agent have over your machine and your codebase?\n\nThis question led us to build AbdoCode, a coding agent for Windows that runs on your machine and is designed around a simple principle:\n\nThe model proposes. The kernel decides.\n\nWhat is AbdoCode?\nAbdoCode is a local-first ",
+      "source": "Dev.to AI",
+      "published": "2026-09-15T12:18:27+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbn6dpci81gihac3o0qne.png"
+    },
+    {
+      "id": "1d99b1ae877a",
+      "title": "How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It.",
+      "url": "https://towardsdatascience.com/how-many-labeled-examples-does-a-text-classifier-actually-need-i-measured-it/",
+      "summary": "Before reaching for an LLM API on every classification problem, it's worth knowing what a decades-old baseline can already do with the labeled data you have — and exactly how much more data buys you.\nThe post How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-15T11:00:01+00:00",
+      "score": 3.42,
+      "image": "https://assets.insightmediagroup.io/media/1788883196518_lmg2yv.png"
+    },
+    {
+      "id": "7ecfb20c7e12",
+      "title": "Java News Roundup: New OpenJDK JEPs, CDI 5.0, Spring, Open Liberty, RefactorFirst, ADK for Kotlin",
+      "url": "https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for September 7th, 2026, features news highlighting: new JEPs for ahead-of-time compilation and structured concurrency; GA releases of Jakarta CDI 5.0 and ADK for Kotlin 1.0; the September 2026 edition of Open Liberty; point releases of TornadoVM and RefactorFirst; a maintenance release of Micronaut; and first releases candidates of Groovy 6.0 and Gradle 9.8. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-09-14T20:15:00+00:00",
+      "score": 3.41,
+      "image": "https://res.infoq.com/news/2026/09/java-news-roundup-sep07-2026/en/headerimage/java-news-roundup-image-1789416658233.jpg"
+    },
+    {
+      "id": "f23ae65b53c9",
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-14T16:00:00+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "9566a3a75d81",
+      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-14T14:45:44+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "431de4f40215",
+      "title": "When to Use One Model and When to Use a Team of Agents",
+      "url": "https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/",
+      "summary": "When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work.\nThe post When to Use One Model and When to Use a Team of Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-14T17:52:20+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "8ee3050f866d",
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+      "summary": "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-14T17:00:00+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "13c6efc3ca58",
+      "title": "[P] Wine synthesis using VAE [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wg5wxy/p_wine_synthesis_using_vae_p/",
+      "summary": "I have created a VAE model using PyTorch on White Wine dataset. Basically, the main goal is to discover a brand-new white wine recipe. It puts all the wines into a latent space, finds the best part where higher bands are located, and then it makes 100 steps with a step size of 0.5, multiplying by 0.96 with every step till it reaches the highest possible score. The regression model then evaluates the newly generated wine recipe, after first passing the latent coordinates through a decoder, and normalizing them. I get a score in range of 7.30-7.58. https://preview.redd.it/bylmwhu92iph1.png?width",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-14T15:03:43+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "80f5bb92bbc0",
+      "title": "Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs",
+      "url": "https://www.infoq.com/news/2026/09/jotai-3-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Jotai, an atomic state management library for React, has released version 3.0.0, now exclusively using ES modules. It maintains backward compatibility but removes some deprecated APIs. Migration is straightforward for most users. This version emphasizes a leaner core with improvements while deferring significant feature changes for future updates. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-14T06:46:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "fc878096c5d8",
+      "title": "How to automatically find the batch size when using Accelerate with FSDP2? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wg9u62/how_to_automatically_find_the_batch_size_when/",
+      "summary": "Hi, For single-GPU training, I’m using Hugging Face SFTTrainer with auto_find_batch_size=True, which automatically reduces the batch size after a CUDA OOM until it finds a batch size that works. I would like to have similar behavior when training on multiple GPUs on a single node using accelerate launch with FSDP2. Is there a supported way to automatically determine or reduce the batch size when using Accelerate + FSDP2? In particular, I’m wondering how this should be handled when one of the distributed processes encounters a CUDA OOM. Can Accelerate restart the distributed training with a sma",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-14T17:24:08+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "e298e75f94d9",
+      "title": "Graph Engineering for AI Agents: From Prompts and Loops to Workflows",
+      "url": "https://towardsdatascience.com/graph-engineering-for-ai-agents-from-prompts-and-loops-to-workflows/",
+      "summary": "A viral debate over loops versus graphs points to a bigger shift in how we build AI systems. Here’s what graph engineering actually means, how it differs from prompt, context, and loop engineering, and why it matters.\nThe post Graph Engineering for AI Agents: From Prompts and Loops to Workflows appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-14T12:30:01+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "483fc8a3c462",
+      "title": "From Static to Dynamic Skills: A Different Model for Agent Knowledge",
+      "url": "https://towardsdatascience.com/from-static-to-dynamic-skills-a-different-model-for-agent-knowledge/",
+      "summary": "Why the skill-inflation panic is aimed at the wrong thing, and what it costs to make agent knowledge a build artifact instead of a file.\nThe post From Static to Dynamic Skills: A Different Model for Agent Knowledge appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-14T11:00:01+00:00",
+      "score": 2.29,
+      "image": null
+    }
+  ]
+}
