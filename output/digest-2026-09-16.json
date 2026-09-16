@@ -1,0 +1,149 @@
+{
+  "digest": {
+    "headline": "17 lines of Python and your AI bot is live",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "17 lines of Python and your AI bot is live (Dev.to AI). Article: Your Next DSL Author Is a Language Model (InfoQ). Playwright Course with AI in Bangalore at Test Bug IT Solutions (Dev.to AI). AI Can Write Code Faster Than I Can Trust It (Dev.to Programming). We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026 (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "Brazilian devs spent 205% more time studying AI in 2025. If you haven't built your first bot yet, here's the shortcut: under 30 lines, zero frameworks, works with GPT, Claude and Gemini.\n\nLet's build a question-answering bot on an LLM API — zero heavy frameworks. The same code works with OpenAI, Claude or Gemini; just change base_url and the key.\n\nStep 1 — Install\n\n\n\npip install openai\n\n\n\n\n\n\nStep 2 — The bot\n\n\n\nfrom openai import OpenAI\n\nclient = OpenAI(base_url=\"https://api.example.com/v1\", api_key=\"your-key\")\n\nprint(\"AI bot (type 'exit' to quit)\")\nwhile True:\n    question = input(\"You: \")\n  "
+  },
+  "articles": [
+    {
+      "id": "e4865097594b",
+      "title": "17 lines of Python and your AI bot is live",
+      "url": "https://dev.to/lin_wang_eb7f420656bfbdfc/17-lines-of-python-and-your-ai-bot-is-live-5co3",
+      "summary": "Brazilian devs spent 205% more time studying AI in 2025. If you haven't built your first bot yet, here's the shortcut: under 30 lines, zero frameworks, works with GPT, Claude and Gemini.\n\nLet's build a question-answering bot on an LLM API — zero heavy frameworks. The same code works with OpenAI, Claude or Gemini; just change base_url and the key.\n\nStep 1 — Install\n\n\n\npip install openai\n\n\n\n\n\n\nStep 2 — The bot\n\n\n\nfrom openai import OpenAI\n\nclient = OpenAI(base_url=\"https://api.example.com/v1\", api_key=\"your-key\")\n\nprint(\"AI bot (type 'exit' to quit)\")\nwhile True:\n    question = input(\"You: \")\n  ",
+      "source": "Dev.to AI",
+      "published": "2026-09-16T12:05:07+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fogpio4ml9s3wb0wio09u.png"
+    },
+    {
+      "id": "f6c65b8995f4",
+      "title": "Article: Your Next DSL Author Is a Language Model",
+      "url": "https://www.infoq.com/articles/next-dsl-author-language-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this article, the author introduces Typed Domain Grounding, an approach to reducing LLM hallucinations in domain-specific languages by embedding them in mainstream typed languages. Using kUML benchmarks and an infrastructure-as-code example, he explores how compiler validation and generate-compile-repair loops can make model-generated DSL output more reliable. By Irakli Betchvaia",
+      "source": "InfoQ",
+      "published": "2026-09-16T11:00:00+00:00",
+      "score": 4.13,
+      "image": "https://res.infoq.com/articles/next-dsl-author-language-model/en/smallimage/Your-Next-DSL-Author-Is-a-Language-Model-thumb-1789048983233.jpg"
+    },
+    {
+      "id": "96080e2bec8a",
+      "title": "Playwright Course with AI in Bangalore at Test Bug IT Solutions",
+      "url": "https://dev.to/mbalu/playwright-course-with-ai-in-bangalore-at-test-bug-it-solutions-21on",
+      "summary": "Playwright Course with AI in Bangalore at Test Bug IT Solutions\n\n\n\n\nSoftware testing is evolving rapidly with automation and artificial intelligence becoming important parts of modern QA workflows. Playwright Course with AI in Bangalore is designed for learners and testing professionals who want to build practical skills in browser automation while exploring how AI can support software testing.\n\n\n  \n  \n  Why Learn Playwright with AI?\n\n\nPlaywright is a modern automation framework that supports Chromium, Firefox, and WebKit. It enables testers to automate web applications, perform cross-browser ",
+      "source": "Dev.to AI",
+      "published": "2026-09-16T12:06:49+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd93niimx3knv7liq1oi4.png"
+    },
+    {
+      "id": "7dbe5856ac6b",
+      "title": "AI Can Write Code Faster Than I Can Trust It",
+      "url": "https://dev.to/dmitry-truhanovich/ai-can-write-code-faster-than-i-can-trust-it-1olf",
+      "summary": "Will I still understand a project I (didn't quite) write?\n\n\nA couple of years ago, I decided to build a simple application for cleaning up unnecessary folders in C# projects.\n\nAs every programmer is apparently required to write their own logger, DI container, and ORM at least once, I decided to write my own utility.\n\nIt did one fairly simple thing: found temporary bin and obj directories in .NET projects and deleted them.\n\nAI wasn’t quite the cool kid yet, so eventually I abandoned the WinForms application. Mostly because I couldn’t be bothered to figure out how to turn it into a proper Visual",
+      "source": "Dev.to Programming",
+      "published": "2026-09-16T12:00:00+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fefxn3klmazjqsct25dhi.jpg"
+    },
+    {
+      "id": "3808e2aaf93d",
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T00:20:39+00:00",
+      "score": 3.24,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750"
+    },
+    {
+      "id": "a671e6c21dff",
+      "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/",
+      "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T13:00:00+00:00",
+      "score": 3.2,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/AIUC-founders-Rune-Kvist-Rajiv-Dattani.jpg?resize=1200,845"
+    },
+    {
+      "id": "34fe49b40428",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T19:00:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "90cdc4a70893",
+      "title": "AI models need more data about biology, and OpenAI is paying to create it",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+      "summary": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing strategies, and safety data—types of information usually considered trade secrets. She&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-15T12:00:00+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "292210b7e469",
+      "title": "AEO startup Profound hits unicorn valuation, raises $180M Series D 7 months after last round",
+      "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/",
+      "summary": "Profound has raised a $180 million Series D at a $1.8 billion valuation, less than seven months after it raised a $96 million Series C.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T15:22:48+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "74fef845d0ee",
+      "title": "Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default",
+      "url": "https://www.infoq.com/news/2026/09/amazon-linux-2027-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released Amazon Linux 2027 in public preview, built on the AL2023 baseline with kernel 7.1 and SELinux in enforcing mode by default. Applications that pass on AL2023's permissive mode may fail under enforcing. The announcement gives no AL2023 end-of-support date, no GA date, and no in-place migration path. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-15T03:40:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "a307d30da2bf",
+      "title": "Discover how to take your startup from prototype to production at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/15/discover-how-to-take-your-startup-from-prototype-to-production-at-techcrunch-disrupt-2026/",
+      "summary": "Learn how to scale your startup breakthrough from prototype to production at TechCrunch Disrupt 2026 with scaling leaders, Adrian Macneil (Foxglove), John Mackey (MBRYONICS), and Boris Sofman (Bedrock Robotics). Register before September 25 to save up to $200 on your pass.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-15T14:30:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "fcfe623de0bd",
+      "title": "How to Build Consistent Designs with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-build-consistent-designs-with-claude-code/",
+      "summary": "Keep your apps looking professional with Claude Code design skills\nThe post How to Build Consistent Designs with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-15T14:00:01+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "1d99b1ae877a",
+      "title": "How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It.",
+      "url": "https://towardsdatascience.com/how-many-labeled-examples-does-a-text-classifier-actually-need-i-measured-it/",
+      "summary": "Before reaching for an LLM API on every classification problem, it's worth knowing what a decades-old baseline can already do with the labeled data you have — and exactly how much more data buys you.\nThe post How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-15T11:00:01+00:00",
+      "score": 2.09,
+      "image": null
+    }
+  ]
+}
