@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Web Search API + AI Agents: Connecting LLMs to the Live Web",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Web Search API + AI Agents: Connecting LLMs to the Live Web (Dev.to AI). MCP Server Security Checklist: 18 Risks to Test Before Connecting AI Agents (Dev.to AI). Complete Guide to Anthropic CCAR-F Exam Study Material (Dev.to AI). Getting started with Bruno: git-native API testing in 10 minutes (Dev.to Programming). GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Migrating the GitHub Copilot runtime to Rust, using Copilot (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Large language models can explain concepts, write code, summarise information, and reason through complex tasks. But there is one major limitation: their built-in knowledge does not automatically represent what is happening on the web right now.\n\nThat becomes a problem when an AI agent needs current information. A user might ask for today's product availability, the latest company announcement, current search results, or recently published research. An LLM needs access to fresh web data to answer these questions reliably.\n\nThis is where a web search API becomes useful. It gives AI agents a pro"
+  },
+  "articles": [
+    {
+      "id": "27d8d097b043",
+      "title": "Web Search API + AI Agents: Connecting LLMs to the Live Web",
+      "url": "https://dev.to/amy13/web-search-api-ai-agents-connecting-llms-to-the-live-web-2948",
+      "summary": "Large language models can explain concepts, write code, summarise information, and reason through complex tasks. But there is one major limitation: their built-in knowledge does not automatically represent what is happening on the web right now.\n\nThat becomes a problem when an AI agent needs current information. A user might ask for today's product availability, the latest company announcement, current search results, or recently published research. An LLM needs access to fresh web data to answer these questions reliably.\n\nThis is where a web search API becomes useful. It gives AI agents a pro",
+      "source": "Dev.to AI",
+      "published": "2026-09-17T12:04:22+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7y3bmowyq01xn22d38co.png"
+    },
+    {
+      "id": "004c46d8e882",
+      "title": "MCP Server Security Checklist: 18 Risks to Test Before Connecting AI Agents",
+      "url": "https://dev.to/quokkalabs/mcp-server-security-checklist-18-risks-to-test-before-connecting-ai-agents-4jeg",
+      "summary": "The uncomfortable 2026 lesson: AI-agent risk is no longer theoretical. \n\nOn September 15, Spain’s data watchdog disclosed what it described as the first known data breach allegedly carried out by an AI agent (Source); days earlier, AWS patched an MCP server flaw that could expose private source archives through missing S3 bucket ownership verification (Source). \n\nMCP server security therefore cannot be a post-integration review. The connection itself is a privilege boundary. Before an agent can discover tools, inherit scopes, read data, or trigger writes, teams need evidence that the server, a",
+      "source": "Dev.to AI",
+      "published": "2026-09-17T12:03:32+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fllrzbj3jnun26qn4nzsm.png"
+    },
+    {
+      "id": "a5573a49d637",
+      "title": "Complete Guide to Anthropic CCAR-F Exam Study Material",
+      "url": "https://dev.to/milliejohnston746/complete-guide-to-anthropic-ccar-f-exam-study-material-4apk",
+      "summary": "Preparing for the Anthropic CCAR-F Exam requires more than simply reading documentation or memorizing technical terms. Candidates need a structured approach that combines conceptual understanding, practical experience, revision, and realistic Practice questions. With Claude becoming increasingly important for AI-powered applications, developing a strong foundation in architecture and implementation concepts can make your preparation more focused and productive.\n\nAnthropic introduced Claude Certified Architect, Foundations as a technical certification for solution architects building production",
+      "source": "Dev.to AI",
+      "published": "2026-09-17T12:12:23+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F14fjj8n0et1zl6np9b2r.png"
+    },
+    {
+      "id": "f474b73d6160",
+      "title": "Getting started with Bruno: git-native API testing in 10 minutes",
+      "url": "https://dev.to/alexai/getting-started-with-bruno-git-native-api-testing-in-10-minutes-49oj",
+      "summary": "Bruno is an open source API client that stores your collections as plain text files instead of in a cloud workspace. If you have ever wanted your API requests to live in Git next to your code, this is the tool for the job. This guide walks through everything from install to running your first collection in CI, and it should take about ten minutes.\n\n\n  \n  \n  Why Bruno instead of a cloud client\n\n\nMost API clients keep your work in a hosted account. Bruno takes the opposite approach and stores everything on your filesystem. Each request is a .bru file, environments are simple files, and the whole",
+      "source": "Dev.to Programming",
+      "published": "2026-09-17T12:00:07+00:00",
+      "score": 3.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fj3yjm541b76i88uy5e2q.png"
+    },
+    {
+      "id": "2121789a8c52",
+      "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
+      "url": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel and built working exploits. The same system card reports a substantial decline in chain-of-thought monitorability. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-17T04:59:00+00:00",
+      "score": 3.69,
+      "image": "https://res.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/en/headerimage/generatedHeaderImage-1789311714190.jpg"
+    },
+    {
+      "id": "b430d0259049",
+      "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
+      "url": "https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/",
+      "summary": "I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window.\nThe post When Does Graph RAG Actually Add Value? A Hands-On Experiment appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-17T11:00:02+00:00",
+      "score": 3.63,
+      "image": "https://assets.insightmediagroup.io/media/1789234851366_mjam1t.jpg"
+    },
+    {
+      "id": "6553259efe8c",
+      "title": "What Really Happens When You Open a Kotlin Android App? A Deep Dive Into the App Lifecycle",
+      "url": "https://dev.to/synfinity-dynamics-pvt-ltd/what-really-happens-when-you-open-a-kotlin-android-app-a-deep-dive-into-the-app-lifecycle-4jbd",
+      "summary": "Most developers assume something like this:\n\n\n\"When I tap an app icon, Android simply opens my Activity.\"\n\n\nIt feels true because that's the part we actually write code for. But by the time your Activity shows up on screen, a surprising amount of machinery has already run none of which lives in your MainActivity.kt.\n\nHere's the real sequence, at a glance:\n\n\n\nUser Taps App Icon\n        ↓\nAndroid System Receives Request\n        ↓\nApp Process Created\n        ↓\nKotlin Runtime Initialized\n        ↓\nApplication Created\n        ↓\nActivity Started\n        ↓\nUI Rendered\n        ↓\nFirst Frame Appears\n\n\n",
+      "source": "Dev.to Programming",
+      "published": "2026-09-17T12:08:18+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "84bd2cb388ed",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "summary": "Treble's voice simulation platform is used by voice AI model developers, AI wearable, and robotics companies",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T05:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8c5a5515609b",
+      "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T21:07:24+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "ffa6cd36bbea",
+      "title": "Your AI agents can now control your Google Home devices",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T17:00:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "6e4c7787bb9e",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.\nThe post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-17T00:26:43+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "a80e9c51c9f6",
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+      "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T18:25:25+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "9c859fa2c0cc",
+      "title": "GoBench: Evaluating LLMs on the game of Go [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/",
+      "summary": "GoBench evaluates LLMs on 9x9 Go games against a ladder of KataGo opponents, from random to superhuman.  It measures general reasoning ability, strongly correlates with ARC-AGI 2 (r=0.83 correlation), and remains highly unsaturated. GPT-6 Astra max achieves 2500 Elo, much lower than the best KataGo, which achieves 4400 Elo.  With coding tools and two hours of preparation before evaluation, Codex with Astra achieves 3560 Elo.  I will keep the leaderboard updated as long as it is not saturated.  leaderboard: https://rolandgao.com/blog/gobench/  code: https://github.com/RolandGao/gobench  paper: ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-16T18:54:35+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "036224ea2763",
+      "title": "Shopify Drops React Native for Swift and Kotlin as AI Changes Cross-Platform Development Tradeoffs",
+      "url": "https://www.infoq.com/news/2026/09/shopify-drops-react-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Shopify recently announced it is abandoning React Native to rewrite its flagship apps in Swift and Kotlin. With the significant jump in the quality of AI models, Head of Mobile Mustafa Ali reassessed Shopify’s commitment to React Native, estimating that the benefit/cost ratio of maintaining native codebases across mobile platforms was now above that of using an abstraction layer. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-09-16T12:45:00+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "fd27e61521cd",
+      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+      "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T15:00:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "f6c65b8995f4",
+      "title": "Article: Your Next DSL Author Is a Language Model",
+      "url": "https://www.infoq.com/articles/next-dsl-author-language-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this article, the author introduces Typed Domain Grounding, an approach to reducing LLM hallucinations in domain-specific languages by embedding them in mainstream typed languages. Using kUML benchmarks and an infrastructure-as-code example, he explores how compiler validation and generate-compile-repair loops can make model-generated DSL output more reliable. By Irakli Betchvaia",
+      "source": "InfoQ",
+      "published": "2026-09-16T11:00:00+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "063fe6f27f20",
+      "title": "Former Infosys chief’s AI startup nabs another $53M",
+      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+      "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T13:00:00+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "c876f3e802d1",
+      "title": "The KV Cache Tax: Why Inference Servers Run Out of Memory Before Compute",
+      "url": "https://towardsdatascience.com/the-kv-cache-tax-why-inference-servers-run-out-of-memory-before-compute/",
+      "summary": "A VRAM budget formula for LLM serving, and three optimization strategies mapped to the traffic patterns that trigger the OOM.\nThe post The KV Cache Tax: Why Inference Servers Run Out of Memory Before Compute appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-16T12:30:02+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "fe2d41ab6de0",
+      "title": "Silent Broadcasting Can Ruin Your Model",
+      "url": "https://towardsdatascience.com/silent-broadcasting-can-ruin-your-model/",
+      "summary": "PyTorch and TensorFlow tensor broadcasting: how silent shape errors cause difficult-to-debug machine learning bugs\nThe post Silent Broadcasting Can Ruin Your Model appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-16T14:00:01+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "3808e2aaf93d",
+      "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says/",
+      "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-16T00:20:39+00:00",
+      "score": 1.9,
+      "image": null
+    }
+  ]
+}

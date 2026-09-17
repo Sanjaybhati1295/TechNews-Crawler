@@ -4521,3 +4521,38 @@
 2026-09-16 12:18:42,707  INFO     ────────────────────────────────────────────────────────────
 2026-09-16 12:18:42,707  INFO     Done!  Open: output/index.html
 2026-09-16 12:18:42,707  INFO     Headline: 17 lines of Python and your AI bot is live
+2026-09-17 12:18:29,935  INFO     ============================================================
+2026-09-17 12:18:29,935  INFO     TECHPULSE Digest — 2026-09-17 12:18 UTC
+2026-09-17 12:18:29,935  INFO     ============================================================
+2026-09-17 12:18:29,936  INFO     Step 1/3 — Crawling feeds…
+2026-09-17 12:18:30,243  INFO       Hacker News                    → 0 significant articles
+2026-09-17 12:18:30,433  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-17 12:18:30,684  INFO       Ars Technica                   → 0 significant articles
+2026-09-17 12:18:31,344  INFO       The Register AI                → 0 significant articles
+2026-09-17 12:18:31,487  INFO       MIT Tech Review                → 0 significant articles
+2026-09-17 12:18:31,675  INFO       Dev.to AI                      → 3 significant articles
+2026-09-17 12:18:31,893  INFO       Dev.to Programming             → 2 significant articles
+2026-09-17 12:18:32,336  INFO       GitHub Blog                    → 1 significant articles
+2026-09-17 12:18:33,316  INFO       Google Research                → 0 significant articles
+2026-09-17 12:18:34,161  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-09-17 12:18:34,270  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-17 12:18:34,809  INFO       InfoQ                          → 3 significant articles
+2026-09-17 12:18:35,201  INFO       Towards Data Science           → 3 significant articles
+2026-09-17 12:18:35,405  INFO       Wired AI                       → 0 significant articles
+2026-09-17 12:18:35,521  INFO       TechCrunch AI                  → 7 significant articles
+2026-09-17 12:18:35,522  INFO     Fetching images for top articles…
+2026-09-17 12:18:35,656  INFO       🖼  Web Search API + AI Agents: Connecting LLMs to the Live Web
+2026-09-17 12:18:35,740  INFO       🖼  MCP Server Security Checklist: 18 Risks to Test Before Conne
+2026-09-17 12:18:35,877  INFO       🖼  Complete Guide to Anthropic CCAR-F Exam Study Material
+2026-09-17 12:18:35,988  INFO       🖼  Getting started with Bruno: git-native API testing in 10 min
+2026-09-17 12:18:36,410  INFO       🖼  GPT-6 Astra Is the First Model OpenAI Classifies as Critical
+2026-09-17 12:18:36,560  INFO       🖼  When Does Graph RAG Actually Add Value? A Hands-On Experimen
+2026-09-17 12:18:36,560  INFO     Total selected: 20 articles from 15 feeds
+2026-09-17 12:18:36,560  INFO     Selected 20 significant articles
+2026-09-17 12:18:36,561  INFO     Step 2/3 — Generating digest…
+2026-09-17 12:18:36,762  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-17 12:18:36,762  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-17 12:18:36,762  INFO     Step 3/3 — Rendering HTML…
+2026-09-17 12:18:36,763  INFO     ────────────────────────────────────────────────────────────
+2026-09-17 12:18:36,763  INFO     Done!  Open: output/index.html
+2026-09-17 12:18:36,763  INFO     Headline: Web Search API + AI Agents: Connecting LLMs to the Live Web
