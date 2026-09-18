@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment (InfoQ). htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance (InfoQ). Grok Bot Is the First AI That Actually Clocks In (Dev.to Programming). How to Restore Lost Chat History in Google Antigravity IDE (Reverse Engineering, The Plan Mystery, and Ready-to-Use Solutions) (Dev.to Programming). Google DeepMind launches institute to widen the AGI debate (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Migrating the GitHub Copilot runtime to Rust, using Copilot (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected model behaviours, providing insights into deviations from expected parameters. Community reactions show both approval and scepticism regarding transparency and corporate narratives. By Olimpiu Pop"
+  },
+  "articles": [
+    {
+      "id": "c873ab76f389",
+      "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
+      "url": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected model behaviours, providing insights into deviations from expected parameters. Community reactions show both approval and scepticism regarding transparency and corporate narratives. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-18T05:05:00+00:00",
+      "score": 4.42,
+      "image": "https://res.infoq.com/news/2026/09/openai-misalignment-framework/en/headerimage/generatedHeaderImage-1789701944081.jpg"
+    },
+    {
+      "id": "b0cd15039c9b",
+      "title": "htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance",
+      "url": "https://www.infoq.com/news/2026/09/htmx-4-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "htmx 4 has been released, featuring a transition from XMLHttpRequest to the fetch() API, enhancing streaming capabilities. Key updates include built-in morphing swaps for DOM state preservation and an hx-partial tag for cleaner updates. Attribute inheritance is now explicit, with event names standardized. The library maintains focus on minimal JavaScript while remaining popular among frameworks. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-18T09:32:00+00:00",
+      "score": 4.16,
+      "image": "https://res.infoq.com/news/2026/09/htmx-4-released/en/headerimage/generatedHeaderImage-1789720463705.jpg"
+    },
+    {
+      "id": "7b545d18505c",
+      "title": "Grok Bot Is the First AI That Actually Clocks In",
+      "url": "https://dev.to/abdullahahmad/grok-bot-is-the-first-ai-that-actually-clocks-in-5c43",
+      "summary": "For the last three years, \"AI assistant\" has meant one thing: a chat window. You type, it replies, the conversation ends, nothing persists. Useful, sure. But it was never really doing anything — it was talking about doing things.\n\nGrok Bot, which xAI (now folded into SpaceXAI) launched on August 11, 2026, breaks that pattern. And it's worth paying attention to, because it's less \"smarter chatbot\" and more \"a coworker who doesn't sleep.\"\n\nIt has its own computer\n\nThat's the detail that changes everything. Every Grok Bot instance runs on a dedicated cloud machine. It's not waiting for you to ope",
+      "source": "Dev.to Programming",
+      "published": "2026-09-18T11:43:45+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fenmy0gm4i6qzs9h3urp1.jpg"
+    },
+    {
+      "id": "1054632b6c85",
+      "title": "How to Restore Lost Chat History in Google Antigravity IDE (Reverse Engineering, The Plan Mystery, and Ready-to-Use Solutions)",
+      "url": "https://dev.to/ndondadaniel2020/how-to-restore-lost-chat-history-in-google-antigravity-ide-reverse-engineering-the-plan-mystery-15og",
+      "summary": "If you have ever launched Google Antigravity IDE only to be greeted by the dreaded \"No Conversations Found\" message in your history, or noticed that dozens of past AI chat sessions have vanished from your sidebar, you are not alone.\n\nMany developers assume their conversation data was permanently wiped out after:\n\n\nUpdating or reinstalling the IDE (e.g. migrating between tarball, Ubuntu Snap, or Flatpak packages);\nClearing editor caches or resetting application state;\nExtended periods of inactivity or UI cache eviction (LRU cache limits);\nTransient disconnections from the internal language daem",
+      "source": "Dev.to Programming",
+      "published": "2026-09-18T11:47:42+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwpj5p1od45m32fvsdyn8.png"
+    },
+    {
+      "id": "2b6047d138bf",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T23:21:17+00:00",
+      "score": 3.7,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1481927442.jpg?resize=1200,800"
+    },
+    {
+      "id": "71d5dff4c772",
+      "title": "Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer",
+      "url": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
+      "summary": "Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward.\nThe post Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-18T11:00:01+00:00",
+      "score": 3.65,
+      "image": "https://assets.insightmediagroup.io/media/1789457746475_0dn9em.webp"
+    },
+    {
+      "id": "913a65bf4fed",
+      "title": "How to Secure Enterprise Productivity as AI Regulation Accelerates",
+      "url": "https://dev.to/workalizer/how-to-secure-enterprise-productivity-as-ai-regulation-accelerates-f3b",
+      "summary": "The AI landscape is undergoing a profound transformation, and its implications demand immediate attention from HR leaders, Engineering Managers, and C-Suite Executives alike. This shift extends beyond mere technological advancements; it necessitates a fundamental re-evaluation of how we effectively manage risk, ensure sustained productivity, and safeguard our organizational integrity. By September 2026, the discourse surrounding AI has escalated from theoretical concerns to urgent calls for decisive action, primarily fueled by a series of alarming incidents and the undeniable realization that ",
+      "source": "Dev.to AI",
+      "published": "2026-09-18T11:53:58+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "2c4f7231c4e6",
+      "title": "On-prem AI security tools that still phone home",
+      "url": "https://dev.to/afokus/on-prem-ai-security-tools-that-still-phone-home-1fdf",
+      "summary": "On-prem AI security tools that still phone home\n\n\nOriginally published on AFOKUS Research:\nhttps://afokus.com/research/on-prem-ai-security-tools-that-phone-home/\n\nCanonical source: the URL above. Republish with attribution; do not point canonical at the homepage.\n\nHow on-prem AI security installers still egress for license, packs, findings, and support, and how to catch it before you buy.\n\nPublished August 13, 2026 · Updated August 21, 2026\nTags: on-prem, zero-egress, procurement\nBy AFOKUS Research\n\n\n\n\nOn-prem is a placement decision. It is not a data-path decision.\n\nA product can install on a",
+      "source": "Dev.to AI",
+      "published": "2026-09-18T11:51:05+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b237fa49f681",
+      "title": "Base Labs launches an open-weight AI safety partnership with Hugging Face and Goodfire",
+      "url": "https://techcrunch.com/2026/09/17/base-labs-launches-an-open-weight-ai-safety-partnership-with-hugging-face-and-goodfire/",
+      "summary": "Base Labs, the research group Baseten spun up earlier this year, will develop and publish methods for training and monitoring open models.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T17:15:59+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "2d65468e8d36",
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+      "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T22:14:59+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "b3945df95669",
+      "title": "Future of general LLM work (interp/inference/alignment) vs agentic/physical AI (VLA, multimodal) for career [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wj7ltg/future_of_general_llm_work/",
+      "summary": "I'm at a crossroads with two grad school options that would take me in somewhat different research directions, and I wanted some general advice on these fields, their growth, and industry alignment. I'm leaving out the specifics of the programs since I'm tryna compare the research/career trajectories. The first direction is general LLM work, like alignment, safety, optimization, interp, etc. (different subfields but centred around LMs). From what I've seen, jobs around LLMs seem much more common right now, including ML systems/infra roles, and the skills are fairly transferable across differen",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-17T21:55:47+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "62d1624b58b2",
+      "title": "AAAI-27 Phase 1 Results [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/",
+      "summary": "AAAI-27 Phase 1 results are expected on September 24. Anyone else waiting for the decision? Would be useful to keep this thread for updates when people start receiving notifications.  &#32; submitted by &#32;  /u/BeneficialFish04   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-18T05:36:32+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "ddc3e4450e0b",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "summary": "The round values the data center giant at $30.9 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T23:25:52+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "4b05f28f9c42",
+      "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+      "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia/",
+      "summary": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T14:06:14+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "bc64601dcda6",
+      "title": "How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)",
+      "url": "https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/",
+      "summary": "What it takes to turn counterfactual analysis into an AI product\nThe post How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-17T14:00:01+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "2121789a8c52",
+      "title": "GPT-6 Astra is the First Model OpenAI Classifies as Critical for Cybersecurity",
+      "url": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel and built working exploits. The same system card reports a substantial decline in chain-of-thought monitorability. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-17T04:59:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "b430d0259049",
+      "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
+      "url": "https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/",
+      "summary": "I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window.\nThe post When Does Graph RAG Actually Add Value? A Hands-On Experiment appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-17T11:00:02+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "84bd2cb388ed",
+      "title": "Iceland-based Treble raises $18 million for its voice simulation platform",
+      "url": "https://techcrunch.com/2026/09/16/iceland-based-treble-raises-18-million-for-its-voice-simulation-platform/",
+      "summary": "Treble's voice simulation platform is used by voice AI model developers and AI wearable and robotics companies,",
+      "source": "TechCrunch AI",
+      "published": "2026-09-17T05:00:00+00:00",
+      "score": 2.18,
+      "image": null
+    },
+    {
+      "id": "6e4c7787bb9e",
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.\nThe post Migrating the GitHub Copilot runtime to Rust, using Copilot appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-17T00:26:43+00:00",
+      "score": 2.03,
+      "image": null
+    }
+  ]
+}

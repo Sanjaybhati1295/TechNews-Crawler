@@ -4556,3 +4556,38 @@
 2026-09-17 12:18:36,763  INFO     ────────────────────────────────────────────────────────────
 2026-09-17 12:18:36,763  INFO     Done!  Open: output/index.html
 2026-09-17 12:18:36,763  INFO     Headline: Web Search API + AI Agents: Connecting LLMs to the Live Web
+2026-09-18 11:58:37,969  INFO     ============================================================
+2026-09-18 11:58:37,969  INFO     TECHPULSE Digest — 2026-09-18 11:58 UTC
+2026-09-18 11:58:37,969  INFO     ============================================================
+2026-09-18 11:58:37,969  INFO     Step 1/3 — Crawling feeds…
+2026-09-18 11:58:38,099  INFO       Hacker News                    → 0 significant articles
+2026-09-18 11:58:38,268  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-18 11:58:38,539  INFO       Ars Technica                   → 0 significant articles
+2026-09-18 11:58:39,819  INFO       The Register AI                → 0 significant articles
+2026-09-18 11:58:40,011  INFO       MIT Tech Review                → 0 significant articles
+2026-09-18 11:58:40,201  INFO       Dev.to AI                      → 2 significant articles
+2026-09-18 11:58:40,399  INFO       Dev.to Programming             → 2 significant articles
+2026-09-18 11:58:40,634  INFO       GitHub Blog                    → 1 significant articles
+2026-09-18 11:58:41,595  INFO       Google Research                → 0 significant articles
+2026-09-18 11:58:42,508  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-18 11:58:42,625  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-18 11:58:42,977  INFO       InfoQ                          → 3 significant articles
+2026-09-18 11:58:43,162  INFO       Towards Data Science           → 3 significant articles
+2026-09-18 11:58:44,562  INFO       Wired AI                       → 0 significant articles
+2026-09-18 11:58:44,693  INFO       TechCrunch AI                  → 6 significant articles
+2026-09-18 11:58:44,693  INFO     Fetching images for top articles…
+2026-09-18 11:58:45,052  INFO       🖼  OpenAI Introduces Triage Framework and Case Studies to Repor
+2026-09-18 11:58:45,371  INFO       🖼  htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, an
+2026-09-18 11:58:45,534  INFO       🖼  Grok Bot Is the First AI That Actually Clocks In
+2026-09-18 11:58:45,645  INFO       🖼  How to Restore Lost Chat History in Google Antigravity IDE (
+2026-09-18 11:58:45,718  INFO       🖼  Google DeepMind launches institute to widen the AGI debate
+2026-09-18 11:58:45,802  INFO       🖼  Multi-Agent Coding Isn’t Enough — Agents Need a Commitment L
+2026-09-18 11:58:45,802  INFO     Total selected: 19 articles from 15 feeds
+2026-09-18 11:58:45,802  INFO     Selected 19 significant articles
+2026-09-18 11:58:45,803  INFO     Step 2/3 — Generating digest…
+2026-09-18 11:58:46,328  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-18 11:58:46,328  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-18 11:58:46,328  INFO     Step 3/3 — Rendering HTML…
+2026-09-18 11:58:46,329  INFO     ────────────────────────────────────────────────────────────
+2026-09-18 11:58:46,329  INFO     Done!  Open: output/index.html
+2026-09-18 11:58:46,329  INFO     Headline: OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment
