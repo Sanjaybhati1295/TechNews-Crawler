@@ -1,0 +1,185 @@
+{
+  "digest": {
+    "headline": "Creating Chatbots with LLM and RAG: A Technical Guide",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Creating Chatbots with LLM and RAG: A Technical Guide (Dev.to AI). Before Adding a New World, Test the Old Save: 3 Game-Update Checks (Dev.to Programming). How to keep AI coding agents from shipping unreviewed code (Dev.to Programming). MariaDB 13 Expands Oracle Compatibility and Improves Developer Experience and Observability (InfoQ). WSO2 Releases Agent Manager as Enterprises Look to Control Growing AI Agent Sprawl (InfoQ)."
+      }
+    ],
+    "key_takeaway": "We are building an internal support chatbot that answers product questions by retrieving snippets from a Markdown knowledge base and generating responses with an LLM hosted on Oxlo.ai. This pattern, retrieval-augmented generation, cuts hallucinations and keeps answers current without fine-tuning. I will walk through a minimal but production-ready version I actually deploy for my own team's wiki.\n\nWhat you'll need\n\n\nPython 3.10 or newer\npip install openai numpy\nAn Oxlo.ai API key from https://portal.oxlo.ai. Oxlo.ai's request-based pricing makes this cheap to experiment with, even when sending "
+  },
+  "articles": [
+    {
+      "id": "c9f49336c307",
+      "title": "Creating Chatbots with LLM and RAG: A Technical Guide",
+      "url": "https://dev.to/shashank_ms_6a35baa4be138/creating-chatbots-with-llm-and-rag-a-technical-guide-2doa",
+      "summary": "We are building an internal support chatbot that answers product questions by retrieving snippets from a Markdown knowledge base and generating responses with an LLM hosted on Oxlo.ai. This pattern, retrieval-augmented generation, cuts hallucinations and keeps answers current without fine-tuning. I will walk through a minimal but production-ready version I actually deploy for my own team's wiki.\n\nWhat you'll need\n\n\nPython 3.10 or newer\npip install openai numpy\nAn Oxlo.ai API key from https://portal.oxlo.ai. Oxlo.ai's request-based pricing makes this cheap to experiment with, even when sending ",
+      "source": "Dev.to AI",
+      "published": "2026-09-19T11:34:10+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ft6vzhmpgpl7iq6j805sd.png"
+    },
+    {
+      "id": "f3d20c540633",
+      "title": "Before Adding a New World, Test the Old Save: 3 Game-Update Checks",
+      "url": "https://dev.to/krizekster/before-adding-a-new-world-test-the-old-save-3-game-update-checks-5f06",
+      "summary": "Photo by Maksim Shutov on Unsplash. Illustrative image, not a screenshot.\n\nAn old save is a surprisingly good specification for a game update.\n\nIt records the player's progress, choices and expectations. A beautiful new area only becomes useful after the player can return to that world comfortably.\n\nThe Witcher 3's Gamescom announcements put this problem in focus. In its August 25 announcement, CD PROJEKT RED dates Remastered for September 29, 2026, and the paid Songs of the Past expansion for 2027. The remaster includes announced changes to combat, traversal, monster behavior and the skill tr",
+      "source": "Dev.to Programming",
+      "published": "2026-09-19T11:14:24+00:00",
+      "score": 4.07,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1592859600972-1b0834d83747%3Fcrop%3Dentropy%26cs%3Dtinysrgb%26fit%3Dmax%26fm%3Djpg%26ixid%3DM3w5MDU1MTZ8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjBwYXRofGVufDB8MHx8fDE3ODk4MTYzOTZ8MA%26ixlib%3Drb-4.1.0%26q%3D80%26w%3D1080"
+    },
+    {
+      "id": "a2fd7b2aa4ba",
+      "title": "How to keep AI coding agents from shipping unreviewed code",
+      "url": "https://dev.to/devconnect/how-to-keep-ai-coding-agents-from-shipping-unreviewed-code-1daj",
+      "summary": "Short answer: Keep AI coding agents in a draft-only lane: let them open branches or pull requests, require human approval, require status checks, and block direct pushes to release branches.\n\nKeep the agent in a draft-only workflow. Let it create branches or pull requests, then require human approval and passing checks before merge. Protect release branches so the agent cannot push directly, and give it only the permissions it needs to propose changes, not publish them. GitHub supports branch protection rules that require reviews and status checks before merge, and GitLab supports merge reques",
+      "source": "Dev.to Programming",
+      "published": "2026-09-19T11:15:02+00:00",
+      "score": 3.67,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdevconnectplatform.com%2Fapi%2Fog%2Fhow-do-i-keep-ai-coding-agents-from-shipping-unreviewed-or-u"
+    },
+    {
+      "id": "a9aaf42b45f7",
+      "title": "MariaDB 13 Expands Oracle Compatibility and Improves Developer Experience and Observability",
+      "url": "https://www.infoq.com/news/2026/09/mariadb-13-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "MariaDB Community Server 13.0 has reached General Availability (GA) and is now officially stable. This release introduces a range of new features, deprecations, and performance improvements, including expanded support for procedural SQL, new DML capabilities, and more. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-09-18T19:00:00+00:00",
+      "score": 3.67,
+      "image": "https://res.infoq.com/news/2026/09/mariadb-13-released/en/headerimage/mediapipe-image-generator-1789754681972.jpeg"
+    },
+    {
+      "id": "af8fffedb15a",
+      "title": "WSO2 Releases Agent Manager as Enterprises Look to Control Growing AI Agent Sprawl",
+      "url": "https://www.infoq.com/news/2026/09/ws02-agent-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "WSO2 has announced the general availability of WSO2 Agent Manager, an open-source platform designed to provide centralized governance, identity management, security controls, and operational oversight for AI agents running across different models, frameworks, and deployment environments. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-09-18T12:00:00+00:00",
+      "score": 3.48,
+      "image": "https://res.infoq.com/news/2026/09/ws02-agent-manager/en/headerimage/generatedHeaderImage-1789125513190.jpg"
+    },
+    {
+      "id": "168a2cb90d2a",
+      "title": "Alternatives to REST API: 10 Architectural Patterns for Modern Systems",
+      "url": "https://dev.to/wantsvibes/alternatives-to-rest-api-10-architectural-patterns-for-modern-systems-2p0i",
+      "summary": "Alternatives to REST API: 10 Architectural Patterns for Modern Systems\n\n\nModern distributed systems frequently outgrow the constraints of traditional HTTP/1.1 REST APIs. When engineering for ultra-low latency, bidirectional streaming, granular data fetching, or asynchronous event-driven pipelines, standard resource-oriented request-response models introduce severe transport serialization and payload bloat penalties. Selecting appropriate alternatives to REST API requires evaluating network transport, serialization overhead, connection multiplexing, and state management models against specific ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-19T11:14:15+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fqyuz2fl1%2Fimage%2Fupload%2Fv1789815953%2Fwantsvibes%2Farticles%2Falternatives-to-rest-api-10-architectural-patterns-for-moder.jpg"
+    },
+    {
+      "id": "2d25440c7572",
+      "title": "SolidStart 2: Replaces Vinxi with a Vite 8 and Enters Maintenance as Its Role Winds Down",
+      "url": "https://www.infoq.com/news/2026/09/solid-start-v2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SolidStart, a full-stack meta-framework based on SolidJS, has transitioned to version 2.0, improving compatibility with Vite's Environment API. This release modernizes the framework, enhancing CSS handling and integrating better with tools like Tailwind CSS and deployment services. Following this, SolidStart has been placed in maintenance mode as its capabilities are incorporated into Solid 2.0. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-19T07:23:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "8503b185b661",
+      "title": "Anthropic’s first embedded evaluator is … Accenture?",
+      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
+      "summary": "Accenture is about to take on its most high-risk consulting engagement ever.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T21:44:33+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "c873ab76f389",
+      "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
+      "url": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected model behaviours, providing insights into deviations from expected parameters. Community reactions show both approval and scepticism regarding transparency and corporate narratives. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-18T05:05:00+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "13515f2f4514",
+      "title": "Disney’s first CTO led an AI startup it once accused of copying its characters",
+      "url": "https://techcrunch.com/2026/09/18/disneys-first-cto-led-an-ai-startup-it-once-accused-of-copying-its-characters/",
+      "summary": "The former CEO of Character.AI, which Disney previously sent a cease-and-desist letter to, will serve as the company's first-ever chief technology officer.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-18T17:59:53+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "76df97b15d12",
+      "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+      "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+      "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.\nThe post Should you read the code, is RAG dead, and did Skills kill MCP? appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-18T15:00:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "b0cd15039c9b",
+      "title": "htmx 4.0: a Fetch-Based Rewrite, Built-In Morphing Swaps, and Explicit Attribute Inheritance",
+      "url": "https://www.infoq.com/news/2026/09/htmx-4-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "htmx 4 has been released, featuring a transition from XMLHttpRequest to the fetch() API, enhancing streaming capabilities. Key updates include built-in morphing swaps for DOM state preservation and an hx-partial tag for cleaner updates. Attribute inheritance is now explicit, with event names standardized. The library maintains focus on minimal JavaScript while remaining popular among frameworks. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-18T09:32:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "58a13e8d9249",
+      "title": "Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them",
+      "url": "https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/",
+      "summary": "How to verify your app aligns with your intent without ever reading a line of generated code.\nThe post Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-18T15:30:01+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "1079d6d4113b",
+      "title": "We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.",
+      "url": "https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/",
+      "summary": "The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes under you. Here is what that tax actually covers, and how to budget for it before it surprises you.\nThe post We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-18T14:00:02+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "71d5dff4c772",
+      "title": "Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer",
+      "url": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
+      "summary": "Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward.\nThe post Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-18T11:00:01+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "e65af7ce540c",
+      "title": "Starting a Career in Data Science in the Age of AI",
+      "url": "https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/",
+      "summary": "How do you set yourself up for a career that will stand the test of time when things are changing so fast?\nThe post Starting a Career in Data Science in the Age of AI appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-18T12:30:01+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "62d1624b58b2",
+      "title": "AAAI-27 Phase 1 Results [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wjhiyu/aaai27_phase_1_results_d/",
+      "summary": "AAAI-27 Phase 1 results are expected on September 24. Anyone else waiting for the decision? Would be useful to keep this thread for updates when people start receiving notifications.  &#32; submitted by &#32;  /u/BeneficialFish04   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-18T05:36:32+00:00",
+      "score": 1.93,
+      "image": null
+    }
+  ]
+}
