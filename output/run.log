@@ -4626,3 +4626,37 @@
 2026-09-19 11:42:32,714  INFO     ────────────────────────────────────────────────────────────
 2026-09-19 11:42:32,714  INFO     Done!  Open: output/index.html
 2026-09-19 11:42:32,714  INFO     Headline: Creating Chatbots with LLM and RAG: A Technical Guide
+2026-09-20 11:54:55,887  INFO     ============================================================
+2026-09-20 11:54:55,887  INFO     TECHPULSE Digest — 2026-09-20 11:54 UTC
+2026-09-20 11:54:55,888  INFO     ============================================================
+2026-09-20 11:54:55,888  INFO     Step 1/3 — Crawling feeds…
+2026-09-20 11:54:55,979  INFO       Hacker News                    → 0 significant articles
+2026-09-20 11:54:56,127  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-20 11:54:56,280  INFO       Ars Technica                   → 0 significant articles
+2026-09-20 11:54:57,725  INFO       The Register AI                → 0 significant articles
+2026-09-20 11:54:57,888  INFO       MIT Tech Review                → 0 significant articles
+2026-09-20 11:54:58,247  INFO       Dev.to AI                      → 3 significant articles
+2026-09-20 11:54:58,550  INFO       Dev.to Programming             → 2 significant articles
+2026-09-20 11:54:58,800  INFO       GitHub Blog                    → 0 significant articles
+2026-09-20 11:54:59,728  INFO       Google Research                → 0 significant articles
+2026-09-20 11:55:00,660  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-09-20 11:55:01,399  INFO       Reddit r/LocalLLaMA            → 3 significant articles
+2026-09-20 11:55:01,819  INFO       InfoQ                          → 2 significant articles
+2026-09-20 11:55:02,010  INFO       Towards Data Science           → 1 significant articles
+2026-09-20 11:55:02,234  INFO       Wired AI                       → 0 significant articles
+2026-09-20 11:55:02,317  INFO       TechCrunch AI                  → 0 significant articles
+2026-09-20 11:55:02,318  INFO     Fetching images for top articles…
+2026-09-20 11:55:02,766  INFO       🖼  AI Inference Infrastructure: Why Production Serving Outweigh
+2026-09-20 11:55:03,113  INFO       🖼  Google Agent Development Kit for Kotlin Reaches Feature Pari
+2026-09-20 11:55:03,359  INFO       🖼  Lock the Golden Files. Split Agent Diffs That Touch the Answ
+2026-09-20 11:55:03,587  INFO       🖼  Build a Path Deny List Before Your First Agent PR
+2026-09-20 11:55:03,762  INFO       🖼  Limit drive-by pull requests on an open source repo
+2026-09-20 11:55:03,762  INFO     Total selected: 14 articles from 15 feeds
+2026-09-20 11:55:03,762  INFO     Selected 14 significant articles
+2026-09-20 11:55:03,762  INFO     Step 2/3 — Generating digest…
+2026-09-20 11:55:04,039  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-20 11:55:04,039  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-20 11:55:04,039  INFO     Step 3/3 — Rendering HTML…
+2026-09-20 11:55:04,040  INFO     ────────────────────────────────────────────────────────────
+2026-09-20 11:55:04,040  INFO     Done!  Open: output/index.html
+2026-09-20 11:55:04,041  INFO     Headline: AI Inference Infrastructure: Why Production Serving Outweighs Training Economics

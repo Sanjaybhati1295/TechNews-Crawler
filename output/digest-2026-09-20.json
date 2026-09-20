@@ -1,0 +1,159 @@
+{
+  "digest": {
+    "headline": "AI Inference Infrastructure: Why Production Serving Outweighs Training Economics",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI Inference Infrastructure: Why Production Serving Outweighs Training Economics (Dev.to AI). Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI (InfoQ). Bad time to purchase strix halo? (Reddit r/LocalLLaMA). Lock the Golden Files. Split Agent Diffs That Touch the Answers. (Dev.to AI). Limit drive-by pull requests on an open source repo (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Build a Path Deny List Before Your First Agent PR (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "AI Inference Infrastructure: Why Production Serving Outweighs Training Economics\n\n\n\n  \n  \n  Executive Thesis\n\n\nEnterprise artificial intelligence budgets are undergoing a structural pivot. While the initial wave of foundation model development was defined by massive capital expenditures on training clusters, distributed interconnects, and high-bandwidth storage, the ongoing commercialization of AI shifts the dominant engineering and financial bottleneck to production inference serving. Production workloads are characterized by continuous, request-driven concurrency, unpredictable burst traffic"
+  },
+  "articles": [
+    {
+      "id": "8cc632cf0da2",
+      "title": "AI Inference Infrastructure: Why Production Serving Outweighs Training Economics",
+      "url": "https://dev.to/wantsvibes/ai-inference-infrastructure-why-production-serving-outweighs-training-economics-4ac6",
+      "summary": "AI Inference Infrastructure: Why Production Serving Outweighs Training Economics\n\n\n\n  \n  \n  Executive Thesis\n\n\nEnterprise artificial intelligence budgets are undergoing a structural pivot. While the initial wave of foundation model development was defined by massive capital expenditures on training clusters, distributed interconnects, and high-bandwidth storage, the ongoing commercialization of AI shifts the dominant engineering and financial bottleneck to production inference serving. Production workloads are characterized by continuous, request-driven concurrency, unpredictable burst traffic",
+      "source": "Dev.to AI",
+      "published": "2026-09-20T11:48:09+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fres.cloudinary.com%2Fqyuz2fl1%2Fimage%2Fupload%2Fv1789532746%2Fwantsvibes%2Farticles%2Fai-inference-infrastructure-why-production-serving-outweighs.jpg"
+    },
+    {
+      "id": "a7279dc1908d",
+      "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+      "url": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google's ADK for Python and Java, while adding Android-specific capabilities for on-device and hybrid AI. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-09-20T10:00:00+00:00",
+      "score": 4.09,
+      "image": "https://res.infoq.com/news/2026/09/google-adk-1-0-released/en/headerimage/kotlin-2-1-released-1789894962554.jpeg"
+    },
+    {
+      "id": "3441e146c99f",
+      "title": "Bad time to purchase strix halo?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wldx6n/bad_time_to_purchase_strix_halo/",
+      "summary": "with the imminent release of the 495+ I'm wondering if it's worthwhile investing in a strix halo right now. Normally this would be a terrible time to buy technology, but these are unprecedented times for some reason I doubt there will be the typical generational price drop, maybe it will simply be a new higher priced tier as the RAM crisis bites. Am I crazy? Are the marginal discounts available now worth it? I will get a specific box for local llms eventually I think, now we have Qwen3.8FN (and Qwen4 down the line) so I'd love for recommendations of boxes that have had good experience with, pr",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-20T10:51:54+00:00",
+      "score": 3.74,
+      "image": null
+    },
+    {
+      "id": "58d774ff0c67",
+      "title": "Lock the Golden Files. Split Agent Diffs That Touch the Answers.",
+      "url": "https://dev.to/codego_3211/lock-the-golden-files-split-agent-diffs-that-touch-the-answers-39db",
+      "summary": "Treat golden files like a lockfile. If an agent can rewrite expected output in the same pull request as the code under test, the green check is circular.\n\nYou do not need a new platform to stop that. You need a committed hash list, a split-diff rule, and a required check that ignores whatever the model claimed about its own patch.\n\n\n  \n  \n  The failure you are blocking\n\n\nWatch a typical agent PR. It changes src/pricing.py. It also refreshes tests/golden/invoice.json. Both files look related. CI runs. The new function matches the new JSON. Nothing failed, because the spec moved with the impleme",
+      "source": "Dev.to AI",
+      "published": "2026-09-20T11:43:24+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgz03ye02w2nmqqzajq2n.png"
+    },
+    {
+      "id": "6aa386c428f6",
+      "title": "Build a Path Deny List Before Your First Agent PR",
+      "url": "https://dev.to/gitgo_5662/build-a-path-deny-list-before-your-first-agent-pr-3lje",
+      "summary": "Your first agent patch will wander into the wrong files. Freeze those paths before you write a prompt. A junior needs a deny list on day one.\n\nAgents will chase a green local run. They do not share your merge risk. Secrets, lockfiles, and CI configs look like easy edits. They are the edits that wake the whole team.\n\n\n  \n  \n  Why this gate exists\n\n\nYou joined a new repo this morning. You can clone it and run tests. You cannot yet judge blast radius well.\n\nAn agent will refresh a lockfile without asking. It will rewrite a workflow file next. It will open env examples and guess values. None of th",
+      "source": "Dev.to AI",
+      "published": "2026-09-20T11:44:58+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgrgjkn8akno6y4vdycwy.png"
+    },
+    {
+      "id": "b6bccff8b83c",
+      "title": "Limit drive-by pull requests on an open source repo",
+      "url": "https://dev.to/devconnect/limit-drive-by-pull-requests-on-an-open-source-repo-27gd",
+      "summary": "Short answer: Use branch protection, required reviews, CODEOWNERS, and a CONTRIBUTING file to route strangers into issues first, then let maintainers opt in to review only when a change fits your rules.\n\nUse the repo settings first, not social pressure. Protect the default branch, require pull request reviews before merging, and add CODEOWNERS where review ownership matters. On GitHub, protected branches can require approving reviews, status checks, and code owner approval before merge.\n\nStart by making the merge path narrow. If you protect only main or master, you still allow experimentation ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-20T11:15:05+00:00",
+      "score": 3.46,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdevconnectplatform.com%2Fapi%2Fog%2Fhow-do-i-limit-drive-by-pull-requests-on-my-open-source-repo"
+    },
+    {
+      "id": "657311992ddb",
+      "title": "Do I need to pay for home-to-first-client travel for remote workers now",
+      "url": "https://dev.to/devconnect/do-i-need-to-pay-for-home-to-first-client-travel-for-remote-workers-now-2db7",
+      "summary": "Short answer: Pay it only when the travel itself is work time or a reimbursable business expense. Ordinary home-to-first-client commuting is not automatically paid, but required duties during the trip can make it compensable.\n\nThe short answer is no for ordinary commuting, yes when the trip is part of the workday. Under U.S. wage rules, home to the first client is usually unpaid travel, but required work during the drive can turn that time into hours worked. IRS rules are separate and affect deductions, not wages.\n\nThe part people get wrong is mixing up three different questions: whether the w",
+      "source": "Dev.to Programming",
+      "published": "2026-09-20T11:15:03+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "f01a4c34fe15",
+      "title": "ProgramAsWeights: compile English function descriptions into neural programs that run locally [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/",
+      "summary": "Given the recent interest in tools like Jev, I wanted to share ProgramAsWeights (PAW), an open-source research project I'm working on at the University of Waterloo. You describe a text function in English, compile it into a reusable neural program, and run it locally, including on a CPU. For example: import programasweights as paw fn = paw.compile_and_load(&quot;Classify urgent emails&quot;) fn(&quot;Need this today&quot;) # &quot;urgent&quot; (runs locally)  This example uses our hosted compiler for compilation (you can host your own compiler if you have a GPU using our released model weights",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-19T23:35:28+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "1448a0e3ef92",
+      "title": "AI/ML and sensitive production data in fintech and healthcare? Where is the data going? Can it be made sense of? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wl2kho/aiml_and_sensitive_production_data_in_fintech_and/",
+      "summary": "Hi all! i am currently working as a software engineer for a pretty big enterprise fintech company here in the states. In the the last 12 months at my job there has been a huge push for developers to use ai and agentic program in our development cycle, first in our ide directly, then Coder space instances with cloud agents and now code vulnerability remediation. This has gotten me thinking beyond developer productivity and more about how ML/AI systems can actually be integrated into production environments in highly regulated industries like fintech and healthcare. This makes me think &quot;But",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-20T00:43:46+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "ef192e1fcfa1",
+      "title": "Experimenting with hypersurface-constrained dynamic weight updating [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wksamz/experimenting_with_hypersurfaceconstrained/",
+      "summary": "Hey everyone! I want to share the results of a small language model architecture experiment I’ve been running as a side project. The ultimate goal is to test an approach to reduce the number of the model's training parameters, since the main bottleneck in training is VRAM. The core idea is very similar to Universal Transformer. Let's take just a single decoder block and iteratively pass the input through it L times in a loop. But instead of updating the input with the loop iteration depth information, my model dynamically updates the weights of the base layer. How is it implemented? The model ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-19T17:34:49+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "fc9233494c46",
+      "title": "Von: Open-source 395M \"System One\" model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wkpxn6/von_opensource_395m_system_one_model/",
+      "summary": "Took me a while since I'm on a family trip and have limited hardware, but here it is! Von: Open-source &quot;System One&quot; drop-in replacement for TypeSafe's JEV. https://github.com/wfzyx/von https://huggingface.co/wfzyx/von-1.0 It runs entirely on a CPU with 1–2 GB of memory (I haven't spent much time optimizing it yet), responds in 25–300 ms, and beats JEV in all benchmarks. Enjoy! P.S. I’m open to offers to work at AI research labs. Feel free to ping me if you have an offer. P.P.S. If you have a GPU, it’ll be faster, but a GPU isn't required.  &#32; submitted by &#32;  /u/wFXx   [link] &",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-19T16:00:57+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "f7eb26516613",
+      "title": "AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.",
+      "url": "https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/",
+      "summary": "One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code?\nThe post AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-19T13:00:01+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "2d25440c7572",
+      "title": "SolidStart 2: Replaces Vinxi with a Vite 8 and Enters Maintenance as Its Role Winds Down",
+      "url": "https://www.infoq.com/news/2026/09/solid-start-v2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "SolidStart, a full-stack meta-framework based on SolidJS, has transitioned to version 2.0, improving compatibility with Vite's Environment API. This release modernizes the framework, enhancing CSS handling and integrating better with tools like Tailwind CSS and deployment services. Following this, SolidStart has been placed in maintenance mode as its capabilities are incorporated into Solid 2.0. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-19T07:23:00+00:00",
+      "score": 2.11,
+      "image": null
+    },
+    {
+      "id": "7316160dbf40",
+      "title": "I truly think every major AI lab is purposefully making fear-mongering headlines to get regulations that hurt open-source models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wk979c/i_truly_think_every_major_ai_lab_is_purposefully/",
+      "summary": "&#32; submitted by &#32;  /u/Fusseldieb   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-19T01:57:25+00:00",
+      "score": 1.71,
+      "image": null
+    }
+  ]
+}
