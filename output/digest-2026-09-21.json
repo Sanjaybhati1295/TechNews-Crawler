@@ -1,0 +1,205 @@
+{
+  "digest": {
+    "headline": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework (InfoQ). Inside Model Context Protocol (MCP): The Universal Bridge for AI Tools (Dev.to AI). Kubernetes 1.37 Released: Stable Metrics API  and Rootless Kubelet in Beta (InfoQ). Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization (InfoQ). Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks (InfoQ)."
+      }
+    ],
+    "key_takeaway": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and Time) as a blueprint for building responsible, guardrailed agentic systems, moving away from simple token-based access toward bounded, delegated authority. By Sahil Agarwal"
+  },
+  "articles": [
+    {
+      "id": "93fb47d728b4",
+      "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
+      "url": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and Time) as a blueprint for building responsible, guardrailed agentic systems, moving away from simple token-based access toward bounded, delegated authority. By Sahil Agarwal",
+      "source": "InfoQ",
+      "published": "2026-09-21T11:00:00+00:00",
+      "score": 4.36,
+      "image": "https://res.infoq.com/podcasts/securing-ai-agents-identity-authorization/en/card_header_image/securing-ai-agents-identity-authorization-Card-1789392042850.jpg"
+    },
+    {
+      "id": "3e3586f0c024",
+      "title": "Inside Model Context Protocol (MCP): The Universal Bridge for AI Tools",
+      "url": "https://dev.to/sagarithm/inside-model-context-protocol-mcp-the-universal-bridge-for-ai-tools-3an7",
+      "summary": "Inside Model Context Protocol (MCP): The Universal Bridge for AI Tools\n\n\nIf you built any AI-powered features over the last couple of years, you know the pain. \n\nYou write a custom tool wrapper for Claude. Then you want to test GPT-4o, so you rewrite the tool definition. Then you want to run a local Llama model for offline data processing, and suddenly you are neck-deep in custom API integrations, custom JSON schemas, and brittle parsing logic. \n\nEvery time you update your database schema or change an external API, your entire agent loop breaks. \n\nIn 2026, we don't do this anymore. We have Mod",
+      "source": "Dev.to AI",
+      "published": "2026-09-21T13:23:49+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuvxomlscws4jfms0xzat.png"
+    },
+    {
+      "id": "8b4ef0a75a5b",
+      "title": "Kubernetes 1.37 Released: Stable Metrics API  and Rootless Kubelet in Beta",
+      "url": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Cloud Native Computing Foundation (CNCF) announced the release of Kubernetes 1.37, named \"Garhwal\", emphasizing its focus on stability, security,   and AI/ML workload optimization. By Mostafa Radwan",
+      "source": "InfoQ",
+      "published": "2026-09-21T01:00:00+00:00",
+      "score": 3.91,
+      "image": "https://res.infoq.com/news/2026/09/kubernetes-1-37/en/card_header_image/generatedCard-1789952000436.jpg"
+    },
+    {
+      "id": "930964e1d5df",
+      "title": "Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization",
+      "url": "https://www.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This article examines the limitations of conventional personalization systems and highlights the need for a governance-first architecture. It emphasizes separating relevance from governance to ensure recommendations are context-aware, auditable, and compliant. The architecture integrates stateful memory, policy-driven AI orchestration, and explainable scoring to enhance personalization systems. By Jerald Selvaraj",
+      "source": "InfoQ",
+      "published": "2026-09-21T11:00:00+00:00",
+      "score": 3.86,
+      "image": "https://res.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/en/headerimage/Beyond-Relevance-A-Governance-First-Architecture-for-Enterprise-Personalization-header-1789730126317.jpg"
+    },
+    {
+      "id": "8fb397635d47",
+      "title": "Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks",
+      "url": "https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Bun creator Jarred Sumner recently announced that Bun, the JavaScript/TypeScript runtime, bundler and package manager has been rewritten from Zig to Rust. The rewrite seeks to eliminate recurrent memory safety vulnerabilities via Rust’s borrow checker. The AI-assisted rewrite was released after 4 months of work instead of the estimated one year. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-09-20T19:51:00+00:00",
+      "score": 3.82,
+      "image": "https://res.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/en/headerimage/generatedHeaderImage-1789932023289.jpg"
+    },
+    {
+      "id": "48d5464437ca",
+      "title": "Why Local-First Web Apps Feel Instant: The Architecture of Offline Sync",
+      "url": "https://dev.to/sagarithm/why-local-first-web-apps-feel-instant-the-architecture-of-offline-sync-4i7c",
+      "summary": "Why Local-First Web Apps Feel Instant: The Architecture of Offline Sync\n\n\nHave you ever wondered why checking a box in Linear or typing a note in Notion feels instantly fast, while standard SaaS apps make you wait for a loading spinner every time you save?\n\nIt comes down to where your database lives. \n\nFor two decades, web development followed one basic rule: the backend server is the center of the universe. When a user clicks a button, the frontend sends an API call over the internet, waits 200 milliseconds for a database update in US-East, and finally updates the UI once the server says 'OK'",
+      "source": "Dev.to AI",
+      "published": "2026-09-21T13:21:15+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fth6z3qipcckfqpoekxlq.png"
+    },
+    {
+      "id": "a3cc07909a61",
+      "title": "Which Model Wrote This? — building a game that measures whether you can tell two LLMs apart",
+      "url": "https://dev.to/harishkotra/which-model-wrote-this-building-a-game-that-measures-whether-you-can-tell-two-llms-apart-c26",
+      "summary": "Every model release ships with a benchmark table. MMLU up 2.3 points. GPQA up 4.1. The implication is always that the new model is meaningfully better, and that you, a user of these things, will notice.\n\nI wanted to test the part the benchmarks don't cover: can a person actually tell?\n\nSo I built a game. Five prompts. Two models. Ten answers, shuffled, shown one at a time on a floating 3D card. You guess which model wrote each one. At the end it scores your intuition and tells you how often you were just flipping a coin.\n\nThe first time I ran it, the answer was: always. All five prompts came b",
+      "source": "Dev.to Programming",
+      "published": "2026-09-21T13:07:52+00:00",
+      "score": 3.78,
+      "image": null
+    },
+    {
+      "id": "caa0e8d59cfa",
+      "title": "I Tested 7 Document Parsing APIs on Real Scanned PDFs (2026): Code and Results",
+      "url": "https://dev.to/shricodev/i-tested-7-document-parsing-apis-on-real-scanned-pdfs-2026-code-and-results-3h2b",
+      "summary": "Every \"best document parsing API\" post I have read this year has the same problem. Nobody actually calls the APIs.\n\nThey copy the pricing page, add a feature table, rank everything, and call it a day. Zero PDFs were harmed in the making of that content. 🥴\n\n\n\nSo I did something else. I took 11 real documents from public datasets. Invoices, a French bank statement, a photographed receipt, a handwritten cheque, two contracts, and a medical EOB.\n\nThen I wrote one JSON schema for each document type and sent the exact same files through Extend, Reducto, LlamaExtract, AWS Textract, Mistral OCR, Claud",
+      "source": "Dev.to Programming",
+      "published": "2026-09-21T12:56:36+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "57aedc3e3cb0",
+      "title": "Changes to LLM pricing: Phala",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-phala-3acd",
+      "summary": "Model price changes detected for Phala. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-09-21T13:23:55+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "6eb344ee4041",
+      "title": "I Chased Tokens Per Second. First Token Won.",
+      "url": "https://dev.to/apppro_4800/i-chased-tokens-per-second-first-token-won-2l34",
+      "summary": "Tokens per second looks like a clean scientific score. It often hides the stall your users actually feel. I stopped averaging the whole stream this week.\n\nWhy did the demo feel snappy while the chart looked sad? Why did the next prompt reverse that story? The wait sat between accept and first token.\n\nI wanted a graph I could actually keep. I did not want another standup wallpaper chart. I wanted a plot that survived a skeptical teammate.\n\nSo I treated streaming like a packet capture. I timed the wait and every later chunk. The method stays boring on purpose, and that helps.\n\nA long completion ",
+      "source": "Dev.to AI",
+      "published": "2026-09-21T13:21:46+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "af926340f4c7",
+      "title": "A Warm Cache Is Not a Control: A Myth-Busting FAQ",
+      "url": "https://dev.to/devio_3007/a-warm-cache-is-not-a-control-a-myth-busting-faq-1ddk",
+      "summary": "Consider a composite afternoon on a checkout service, where two coding-agent sessions both claimed to fix the same failing tax calculation. The first session finished quickly because node_modules already existed and a previous TypeScript build still sat in dist. The second session looked slower in the chat log, yet it rebuilt from a cleaned tree and changed the production discount path. Reviewers compared clocks and patch size as if both runs were instruments rather than two disks wearing one repository name.\n\nThe myth under that comparison is simple enough to print on a sticky note beside the",
+      "source": "Dev.to Programming",
+      "published": "2026-09-21T13:06:18+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "6e8a8149c635",
+      "title": "I Audited My Dead Side Projects. Some Weren't Dead.",
+      "url": "https://dev.to/dhruv_malaviya_cdcc71e595/i-audited-my-dead-side-projects-some-werent-dead-1e7b",
+      "summary": "Forty minutes of list-making found a VPS still running after two years, a dangling CNAME ripe for subdomain takeover, and a valid API key on a machine I'd mentally buried. The audit scripts, the decommission runbook, and the sleep-instead-of-rot policy.\n\nLast Saturday I listed every project I'd ever deployed — side projects, hackathon demos, \"quick tests.\" Forty minutes to write; reading it back took my breath away. Because dead projects don't die. They wait.\n\nWhat the graveyard was hiding\n\n\nThree projects I'd euthanized were still running — a VPS humming for two years with dependencies from t",
+      "source": "Dev.to Programming",
+      "published": "2026-09-21T13:06:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "cee1aab314d8",
+      "title": "I stopped reading 50-page reports. Here’s how I built a tool to fix it.",
+      "url": "https://dev.to/aipredictions_dev/i-stopped-reading-50-page-reports-heres-how-i-built-a-tool-to-fix-it-54n5",
+      "summary": "I used to dread the \"FYI\" email with a 40-page PDF attachment. I’d open it, scan the first page, get lost in the jargon, and close it without ever finishing. Sound familiar? I built a simple browser-based tool to solve this exact problem, and it changed how I handle information overload.\n\nWe are drowning in documentation. Between quarterly business reviews, technical post-mortems, and legal compliance docs, the volume of text we’re expected to process has outpaced our attention spans. As developers and product managers, we value efficiency, yet we often waste hours manually extracting the \"so ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-21T13:00:01+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "34326265fab7",
+      "title": "Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?",
+      "url": "https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/",
+      "summary": "How to put a dollar value on your organization's operational data\nThe post Google Offered $10M for a Dying Airline's Data. How Can You Value Yours? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-21T12:30:02+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "8f92245e5867",
+      "title": "Your AI Assistant Wrote the Code. Who Checked the Defaults?",
+      "url": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
+      "summary": "Five scikit-learn defaults that deserve a closer look before your next model reaches production\nThe post Your AI Assistant Wrote the Code. Who Checked the Defaults? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-21T11:00:02+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "164777e4fc03",
+      "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+      "url": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports built-in checks for issues such as null-pointer exceptions, thread safety, XSS, and SQL injection. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-09-20T11:57:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "a7279dc1908d",
+      "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+      "url": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google's ADK for Python and Java, while adding Android-specific capabilities for on-device and hybrid AI. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-09-20T10:00:00+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "e92f060585ba",
+      "title": "Autograd project [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wlj8vv/autograd_project_p/",
+      "summary": "Hello, I'm a 3rd year Highschooler interested in machine learning and for the last few weeks have been working on a small project meant to learn the basics of machine learning. I have implemented a simple tensor library and autograd in c++. It's very simple but i want some advice on people who are interested in machine learning and c++. Any advice and or constructive criticism is welcomed. (sorry for any mistakes english isn't my first language) https://github.com/Ak0-m/autograd_in_cpp  &#32; submitted by &#32;  /u/Willy_Importance69   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-20T14:57:56+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "da02b892b87a",
+      "title": "GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning.\nThe post GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-20T15:00:01+00:00",
+      "score": 2.45,
+      "image": null
+    }
+  ]
+}
