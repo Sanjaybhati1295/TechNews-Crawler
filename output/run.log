@@ -4729,3 +4729,38 @@
 2026-09-22 12:12:56,661  INFO     ────────────────────────────────────────────────────────────
 2026-09-22 12:12:56,661  INFO     Done!  Open: output/index.html
 2026-09-22 12:12:56,661  INFO     Headline: Changesets v3: Bumps Peer Dependents by Patch and Ships ESM Only with an 88% Smaller Install
+2026-09-23 12:26:10,479  INFO     ============================================================
+2026-09-23 12:26:10,479  INFO     TECHPULSE Digest — 2026-09-23 12:26 UTC
+2026-09-23 12:26:10,479  INFO     ============================================================
+2026-09-23 12:26:10,479  INFO     Step 1/3 — Crawling feeds…
+2026-09-23 12:26:10,834  INFO       Hacker News                    → 0 significant articles
+2026-09-23 12:26:10,983  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-23 12:26:11,158  INFO       Ars Technica                   → 0 significant articles
+2026-09-23 12:26:11,795  INFO       The Register AI                → 0 significant articles
+2026-09-23 12:26:12,033  INFO       MIT Tech Review                → 1 significant articles
+2026-09-23 12:26:12,167  INFO       Dev.to AI                      → 2 significant articles
+2026-09-23 12:26:12,326  INFO       Dev.to Programming             → 1 significant articles
+2026-09-23 12:26:12,695  INFO       GitHub Blog                    → 0 significant articles
+2026-09-23 12:26:13,351  INFO       Google Research                → 0 significant articles
+2026-09-23 12:26:14,081  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-09-23 12:26:14,146  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-23 12:26:14,719  INFO       InfoQ                          → 2 significant articles
+2026-09-23 12:26:14,859  INFO       Towards Data Science           → 4 significant articles
+2026-09-23 12:26:15,020  INFO       Wired AI                       → 0 significant articles
+2026-09-23 12:26:15,103  INFO       TechCrunch AI                  → 3 significant articles
+2026-09-23 12:26:15,103  INFO     Fetching images for top articles…
+2026-09-23 12:26:15,189  INFO       🖼  Building a Crypto Signal Bot with AI APIs - 2026 Guide
+2026-09-23 12:26:15,261  INFO       🖼  Overcoming Cloudflare Blocks on Preply to Analyze Tutor Pric
+2026-09-23 12:26:15,890  INFO       🖼  Andrew Kelley Interview: Why He Built Zig, Banned AI Contrib
+2026-09-23 12:26:15,949  INFO       🖼  OpenAI launches GPT-6 Sol and Luna, boasting lower cost and 
+2026-09-23 12:26:16,054  INFO       🖼  AI-Powered Performance Testing Platform for Modern Engineeri
+2026-09-23 12:26:16,115  INFO       🖼  Qualcomm launches two new smartphone chips with emphasis on 
+2026-09-23 12:26:16,115  INFO     Total selected: 15 articles from 15 feeds
+2026-09-23 12:26:16,116  INFO     Selected 15 significant articles
+2026-09-23 12:26:16,116  INFO     Step 2/3 — Generating digest…
+2026-09-23 12:26:16,404  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-23 12:26:16,405  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-23 12:26:16,405  INFO     Step 3/3 — Rendering HTML…
+2026-09-23 12:26:16,406  INFO     ────────────────────────────────────────────────────────────
+2026-09-23 12:26:16,406  INFO     Done!  Open: output/index.html
+2026-09-23 12:26:16,406  INFO     Headline: Building a Crypto Signal Bot with AI APIs - 2026 Guide
