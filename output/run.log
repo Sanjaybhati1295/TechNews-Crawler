@@ -4764,3 +4764,38 @@
 2026-09-23 12:26:16,406  INFO     ────────────────────────────────────────────────────────────
 2026-09-23 12:26:16,406  INFO     Done!  Open: output/index.html
 2026-09-23 12:26:16,406  INFO     Headline: Building a Crypto Signal Bot with AI APIs - 2026 Guide
+2026-09-24 12:25:10,929  INFO     ============================================================
+2026-09-24 12:25:10,929  INFO     TECHPULSE Digest — 2026-09-24 12:25 UTC
+2026-09-24 12:25:10,929  INFO     ============================================================
+2026-09-24 12:25:10,929  INFO     Step 1/3 — Crawling feeds…
+2026-09-24 12:25:11,206  INFO       Hacker News                    → 1 significant articles
+2026-09-24 12:25:11,328  INFO       VentureBeat AI                 → 0 significant articles
+2026-09-24 12:25:11,471  INFO       Ars Technica                   → 0 significant articles
+2026-09-24 12:25:12,133  INFO       The Register AI                → 0 significant articles
+2026-09-24 12:25:12,231  INFO       MIT Tech Review                → 1 significant articles
+2026-09-24 12:25:12,371  INFO       Dev.to AI                      → 3 significant articles
+2026-09-24 12:25:12,518  INFO       Dev.to Programming             → 2 significant articles
+2026-09-24 12:25:12,727  INFO       GitHub Blog                    → 1 significant articles
+2026-09-24 12:25:13,401  INFO       Google Research                → 0 significant articles
+2026-09-24 12:25:13,977  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-09-24 12:25:14,022  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-09-24 12:25:14,645  INFO       InfoQ                          → 3 significant articles
+2026-09-24 12:25:14,758  INFO       Towards Data Science           → 3 significant articles
+2026-09-24 12:25:14,979  INFO       Wired AI                       → 0 significant articles
+2026-09-24 12:25:15,105  INFO       TechCrunch AI                  → 4 significant articles
+2026-09-24 12:25:15,106  INFO     Fetching images for top articles…
+2026-09-24 12:25:15,185  INFO       🖼  AI is dominating the conversation at Climate Week
+2026-09-24 12:25:15,808  INFO       🖼  Presentation: Designing Fast, Delightful UX With LLMs for Mo
+2026-09-24 12:25:15,871  INFO       🖼  7 Agent Eval Mistakes That Cost Me Weeks (And the One-Line F
+2026-09-24 12:25:15,930  INFO       🖼  Four quiet ways an AI agent's budget guard gets the bill wro
+2026-09-24 12:25:15,971  INFO       🖼  What if AI knew more about your company than anyone inside i
+2026-09-24 12:25:16,023  INFO       🖼  Learning Python Classes and Objects by Building a Bank Accou
+2026-09-24 12:25:16,024  INFO     Total selected: 19 articles from 15 feeds
+2026-09-24 12:25:16,024  INFO     Selected 19 significant articles
+2026-09-24 12:25:16,024  INFO     Step 2/3 — Generating digest…
+2026-09-24 12:25:16,379  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-09-24 12:25:16,380  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-09-24 12:25:16,380  INFO     Step 3/3 — Rendering HTML…
+2026-09-24 12:25:16,381  INFO     ────────────────────────────────────────────────────────────
+2026-09-24 12:25:16,381  INFO     Done!  Open: output/index.html
+2026-09-24 12:25:16,381  INFO     Headline: AI is dominating the conversation at Climate Week

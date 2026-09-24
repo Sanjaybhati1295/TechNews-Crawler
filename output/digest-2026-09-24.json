@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "AI is dominating the conversation at Climate Week",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI is dominating the conversation at Climate Week (MIT Tech Review). Presentation: Designing Fast, Delightful UX With LLMs for Mobile Frontends (InfoQ). 7 Agent Eval Mistakes That Cost Me Weeks (And the One-Line Fixes That Ended Them) (Dev.to Programming). Four quiet ways an AI agent's budget guard gets the bill wrong (Dev.to AI). What if AI knew more about your company than anyone inside it? (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "VSCode's SSH Agent Is Bananas (2025) (Hacker News). Rendering huge pull requests in the GitHub Copilot app (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&#8230;"
+  },
+  "articles": [
+    {
+      "id": "411c6636b84e",
+      "title": "AI is dominating the conversation at Climate Week",
+      "url": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+      "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-24T10:00:00+00:00",
+      "score": 3.97,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/AP26265505951804.jpg?resize=1200,600"
+    },
+    {
+      "id": "69de59c9e2e6",
+      "title": "Presentation: Designing Fast, Delightful UX With LLMs for Mobile Frontends",
+      "url": "https://www.infoq.com/presentations/llm-mobile-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Balakrishnan Ramdoss discusses how to architect production-grade, AI-powered conversational apps at scale. He explains how to overcome model latency, leverage server-driven UI and Backend-for-Frontend patterns to dynamically render multi-modal interfaces, optimize prompts for UI selection, and integrate low-latency, privacy-first on-device AI for mobile applications. By Balakrishnan Ramdoss",
+      "source": "InfoQ",
+      "published": "2026-09-24T09:24:00+00:00",
+      "score": 3.93,
+      "image": "https://res.infoq.com/presentations/llm-mobile-frontend/en/card_header_image/generatedCard-1789631604448.jpg"
+    },
+    {
+      "id": "33811bef9a39",
+      "title": "7 Agent Eval Mistakes That Cost Me Weeks (And the One-Line Fixes That Ended Them)",
+      "url": "https://dev.to/debashish_ghosal/7-agent-eval-mistakes-that-cost-me-weeks-and-the-one-line-fixes-that-ended-them-ho",
+      "summary": "You've been there. You run the eval, the number comes back, and something about it doesn't sit right. But the number is the number, so you move on. Three weeks later you find out the number was never the model's fault.\n\n\nI spent a week tuning a matcher to explain a 20% pass rate. The bug wasn't in the matcher. It was in the evaluator, in six lines I'd stopped reading because I'd stopped trusting them.\n\nThis is a list of seven mistakes. I've made all seven, in this order, and each one cost me real days. For each, I'll tell you what I saw, what I tried first (and why it was the wrong layer), and",
+      "source": "Dev.to Programming",
+      "published": "2026-09-24T12:22:00+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnymsffvucd9ph0vqdo2p.png"
+    },
+    {
+      "id": "fdd898e4f095",
+      "title": "Four quiet ways an AI agent's budget guard gets the bill wrong",
+      "url": "https://dev.to/md_faiz_22/four-quiet-ways-an-ai-agents-budget-guard-gets-the-bill-wrong-2h70",
+      "summary": "An agent's budget guard has one job: refuse the call that would take it past its ceiling. To do that it must hold the worst case before each call and settle the real cost after. The settling half is where guards quietly break, and they rarely throw an error when they do.\n\nThis week I found four of these in my own code. One was live, and undercharged. Two more would have undercharged, and one would have overcharged the user for something they had chosen not to buy.\n\n\n  \n  \n  1. The placeholder that looks like a count\n\n\nWhen Claude streams, the first event, message_start, carries a usage block. ",
+      "source": "Dev.to AI",
+      "published": "2026-09-24T12:19:04+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2pf9r3cvrjdqv8fozm1n.png"
+    },
+    {
+      "id": "2408effb31bf",
+      "title": "What if AI knew more about your company than anyone inside it?",
+      "url": "https://dev.to/audizionunes/what-if-ai-knew-more-about-your-company-than-anyone-inside-it-j70",
+      "summary": "TL;DR: An AI that connects support, sales, product and engineering could see what no single team sees. The hard part isn't the model. It's permissions, sources and privacy, and a debugging problem most teams don't expect.\n\nSupport knows what customers complain about. Sales knows which objection stalls the deal. Product knows what got pushed to the next release. Nobody sees all three at once, and the answer to a decision often sits right where they overlap.\n\nWorking with LLMs, RAG and vector search in products, I started thinking about an AI that knows the company, not just the product. One tha",
+      "source": "Dev.to AI",
+      "published": "2026-09-24T12:12:16+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fce3gvg84pau7w3e45nmo.png"
+    },
+    {
+      "id": "37c174863c97",
+      "title": "Learning Python Classes and Objects by Building a Bank Account System",
+      "url": "https://dev.to/iszy/learning-python-classes-and-objects-by-building-a-bank-account-system-4a24",
+      "summary": "As I continue my Python learning journey, I recently reached one of the concepts I was really looking forward to: Classes and Objects.\n\nAt first, terms like class, object, instance, method, and self felt a little confusing.\n\nSo instead of only reading about them, I decided to build something practical:\n\n🏦 A Bank Account Management System\n\nThis project helped me understand how classes and objects actually work in a real program.\n\n\n  \n  \n  So, what is a class?\n\n\nThe simplest way I can explain it is:\n\nA class is a blueprint.\n\nImagine a bank has a standard design for every customer account.\n\nEvery",
+      "source": "Dev.to Programming",
+      "published": "2026-09-24T12:21:26+00:00",
+      "score": 3.5,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3sej19kllgi143xrfcvd.png"
+    },
+    {
+      "id": "d4950d0281fc",
+      "title": "Why Modern Website Design Is Moving From Looks to Experience in 2026",
+      "url": "https://dev.to/sumit_sikri_a75c480c0457e/why-modern-website-design-is-moving-from-looks-to-experience-in-2026-2dab",
+      "summary": "For a long time, website design was largely judged by how a website looked. Businesses wanted attractive homepages, impressive images, modern typography and layouts that created a strong first impression. While visual design remains important, the definition of a good website has changed considerably.\n\nIn 2026, a website is no longer simply a digital brochure. It is often the first interaction a customer has with a business, a source of information, a sales channel, a customer-service tool and an important part of a brand's identity. Because of this, modern website design is moving beyond aest",
+      "source": "Dev.to AI",
+      "published": "2026-09-24T12:10:33+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b8569e46aaee",
+      "title": "Meta introduces camera-free AI glasses",
+      "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses/",
+      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours battery life.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T23:39:44+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d7ada170a6ff",
+      "title": "arXiv receives Multiyear Philanthropic Commitments to Support Its Launch as an Independent Nonprofit [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wox8kt/arxiv_receives_multiyear_philanthropic/",
+      "summary": "$17.2 million investment, spanning three to five years from Simons Foundation International, XTX Markets, and Siegel Family Endowment#Philanthropy) https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/  &#32; submitted by &#32;  /u/Nunki08   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-24T09:43:05+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "d1bc23b98377",
+      "title": "When the Correct Answer Is Nothing, What Does Your Pipeline Return?",
+      "url": "https://towardsdatascience.com/when-the-correct-answer-is-nothing-what-does-your-pipeline-return/",
+      "summary": "The reliability mechanisms we add to LLM pipelines are often the ones that make them confidently wrong.\nThe post When the Correct Answer Is Nothing, What Does Your Pipeline Return? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-24T11:00:01+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "33d4153d9366",
+      "title": "YouTube releases new AI features for creators within its Studio app",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+      "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T14:30:00+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "b2a380eda373",
+      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+      "url": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Recent updates have enhanced parser features and cross-file resolutions. Community feedback indicates a promising architecture but notes integration challenges in daily workflows. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-23T14:14:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "522af5193d62",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "url": "https://fly.io/blog/vscode-ssh-wtf/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-09-23T21:01:48+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "40adb5958ef2",
+      "title": "Even Americans who use AI every day are worried about it",
+      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
+      "summary": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T16:49:58+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "078c955aa93d",
+      "title": "Rendering huge pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+      "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.\nThe post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-23T18:29:49+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "165a1b2dcb60",
+      "title": "I Trained a Tiny Network to Compress Data. It Drew a Pentagon.",
+      "url": "https://towardsdatascience.com/i-trained-a-tiny-network-to-compress-data-it-drew-a-pentagon/",
+      "summary": "Reproducing Anthropic's &quot;Toy Models of Superposition&quot; from scratch in NumPy, with hand-derived gradients and no borrowed numbers.\nThe post I Trained a Tiny Network to Compress Data. It Drew a Pentagon. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-23T15:30:01+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "343438d8e514",
+      "title": "Ema raises $77M as AI starts eating into enterprise software and services",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+      "summary": "Ema has raised $140 million to date and has more than 50 enterprise customers, including Google and Microsoft.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-23T12:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "596e3c8d3d7b",
+      "title": "Andrew Kelley Interview: Why He Built Zig, Banned AI Contributions, and Moved Zig off GitHub",
+      "url": "https://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In a JetBrains interview, Zig creator Andrew Kelley expanded on the project’s formal ban on AI contributions and the motivation behind its migration off GitHub to Codeberg: automated code submissions decrease codebase quality and weaken the social constructs between open-source participants; persistent GitHub failures and a perceived misalignment of incentives led to migrating to Codeberg. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-09-23T10:36:00+00:00",
+      "score": 2.27,
+      "image": null
+    },
+    {
+      "id": "9d0c01073e9a",
+      "title": "How GRPO Trains Small Language Models with Verifiable Rewards",
+      "url": "https://towardsdatascience.com/how-grpo-trains-small-language-models-with-verifiable-rewards/",
+      "summary": "The mechanics behind local reasoning experiments with Unsloth and why the reward function matters as much as the model.\nThe post How GRPO Trains Small Language Models with Verifiable Rewards appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-23T12:30:01+00:00",
+      "score": 2.17,
+      "image": null
+    }
+  ]
+}
