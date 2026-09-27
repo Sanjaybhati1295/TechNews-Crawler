@@ -1,0 +1,159 @@
+{
+  "digest": {
+    "headline": "Smart Glasses Have a Bystander Privacy Problem: Texas’s Meta Investigation Shows Why",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Smart Glasses Have a Bystander Privacy Problem: Texas’s Meta Investigation Shows Why (Dev.to AI). I Built Two Agent Systems. Each One Proved the Other One Wrong. (Dev.to AI). Changes to LLM pricing: DekaLLM, Inceptron, Morph, Phala and Reka (Dev.to AI). I burned out. Now I don't know how to start again. (Dev.to Programming). Monitoring Yandex Market E-Commerce Prices Without Session Cookies (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Good Architecture Deletes the Signals Your Agent Depends On (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Smart glasses are moving from novelty to ordinary consumer technology, but their privacy problem is different from the one created by a phone. When someone raises a phone to record, the act is usually visible. Glasses can capture the same room, conversation, face, or private moment while looking much more like something a person simply wears.\n\nThat difference is now becoming a product-design and legal issue. Reuters reported on September 22, 2026, and updated its report September 23 that privacy concerns are affecting the emerging market for AI wearables. The report described lawsuits, venue s"
+  },
+  "articles": [
+    {
+      "id": "6092ff06b686",
+      "title": "Smart Glasses Have a Bystander Privacy Problem: Texas’s Meta Investigation Shows Why",
+      "url": "https://dev.to/joseph_sides/smart-glasses-have-a-bystander-privacy-problem-texass-meta-investigation-shows-why-5ael",
+      "summary": "Smart glasses are moving from novelty to ordinary consumer technology, but their privacy problem is different from the one created by a phone. When someone raises a phone to record, the act is usually visible. Glasses can capture the same room, conversation, face, or private moment while looking much more like something a person simply wears.\n\nThat difference is now becoming a product-design and legal issue. Reuters reported on September 22, 2026, and updated its report September 23 that privacy concerns are affecting the emerging market for AI wearables. The report described lawsuits, venue s",
+      "source": "Dev.to AI",
+      "published": "2026-09-27T12:20:14+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fengg2okvwvvqqvmaas6g.png"
+    },
+    {
+      "id": "45c1cc149f6d",
+      "title": "I Built Two Agent Systems. Each One Proved the Other One Wrong.",
+      "url": "https://dev.to/debashish_ghosal/i-built-two-agent-systems-each-one-proved-the-other-one-wrong-1f58",
+      "summary": "I built one engine where an LLM reviews another LLM's plan. I built another where two LLMs debate a pull request.\n\n\nEach one failed in the way the other was designed to prevent. That's the only reason I trust either of them.\n\nIf you're putting your safety in a prompt, both stories end the same way.\n\n\n  \n  \n  System One: The Critic I Couldn't Make Reliable — Or Needed To\n\n\nPlannerCritic runs a draft → critique → revise loop: one model writes a plan, another critiques it, and a bounded loop revises until it converges or escalates to a human.\n\nMy first instinct was the obvious one: tell the criti",
+      "source": "Dev.to AI",
+      "published": "2026-09-27T12:30:00+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9011hdefpeb3xawuwg7n.png"
+    },
+    {
+      "id": "0351a408b9ef",
+      "title": "Changes to LLM pricing: DekaLLM, Inceptron, Morph, Phala and Reka",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-dekallm-inceptron-morph-phala-and-reka-26i0",
+      "summary": "Model price changes detected for DekaLLM, Inceptron, Morph, Phala and Reka. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-09-27T12:25:12+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2FGn8Nvi739y.png"
+    },
+    {
+      "id": "27bca1c1a2e0",
+      "title": "I burned out. Now I don't know how to start again.",
+      "url": "https://dev.to/embernoglow/i-burned-out-now-i-dont-know-how-to-start-again-1h79",
+      "summary": "Hi, devs! I'm back. I wish I could return with a major success, a discovery, or a new achievement, but no - I gave up on programming for a while. I burned out. Then again, I'm not saying this for the first time (1/2 of the articles are about this), so it's hardly surprising anymore 🤣\n\nWhat caused it? I don't know. I couldn't even bring myself to look at my code anymore. I ran out of ideas. Sometimes I'd want to get back to coding, but I didn't have the energy to even open VS Code. What is it? Laziness? Procrastination? idk.\n\nSo, I wanted to ask you for advice. I've tried everything - getting s",
+      "source": "Dev.to Programming",
+      "published": "2026-09-27T12:10:45+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl7ka63rt8svxysavinj7.jpg"
+    },
+    {
+      "id": "d701c94be648",
+      "title": "Monitoring Yandex Market E-Commerce Prices Without Session Cookies",
+      "url": "https://dev.to/crawlerbros/monitoring-yandex-market-e-commerce-prices-without-session-cookies-10fd",
+      "summary": "Tracking Product Aggregation Data Across Yandex Market\n\n\nAnalyzing price movements across international e-commerce platforms presents unique infrastructure challenges. Yandex Market is Russia's largest e-commerce and price-comparison platform, listing millions of consumer items alongside seller offers, specifications, user reviews, and product images. Extracting this data at scale usually requires managing proxy pools, bypassing Anti-Bot defenses, handling complex rendering pipelines, and maintaining session cookies across search pages.\n\nWhen building programmatic pricing pipelines, manually o",
+      "source": "Dev.to Programming",
+      "published": "2026-09-27T12:07:14+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fautomate.crawlerbros.com%2Fcovers%2Fyandex-pro-scraper.png"
+    },
+    {
+      "id": "d182100db696",
+      "title": "Good Architecture Deletes the Signals Your Agent Depends On",
+      "url": "https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/",
+      "summary": "Every boundary you draw removes a signal your tooling was relying on. That is a structure problem, not a search problem.\nThe post Good Architecture Deletes the Signals Your Agent Depends On appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-27T12:00:02+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "3d12af445028",
+      "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+      "summary": "Hey r/MachineLearning! I’ve been working on a new optimizer called Tauon (turns out there is already &quot;teon&quot; but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynomials and orthogonalization just like muon, the whole difference is that i managed to lower total number of steps (first through spectral filtering down to 3 steps then through coeff scheduling down to 2) + reduced matrix size (through dct-2). And I wanted to share some initial benchmark results... Benchmark Setup: Trained a GPT-Mini (d_model=512, 6 Layers) on TinyShake",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T03:38:07+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "e613bc085eb5",
+      "title": "When do ICLR submissions and reviews become public? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrctl5/when_do_iclr_submissions_and_reviews_become/",
+      "summary": "Hi everyone, I have a question about ICLR’s open review process. I have experience with ICML/NeurIPS/AAAI, but this is my first time submitting to ICLR, and I understand that its public review process works differently. (1) The submission portal says that papers are made public to the community “from the beginning of the review process.” When exactly does this happen? Reviews start in October, while the discussion period starts in November. Does this mean submissions become publicly visible in October? (2) Also, can the community access the supplementary materials as soon as the paper becomes ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T06:27:37+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "819077abcc45",
+      "title": "NeurIPS 2026 - How is the guaranteed author registration for each accepted paper provided? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr87w6/neurips_2026_how_is_the_guaranteed_author/",
+      "summary": "Hello everyone, I am currently a final-year undergrad and I luckily got my first first-author paper accepted to NeurIPS. I would really like to come to Sydney to present my work. However, I am not sure I can attend yet, since my final exam period is around the same time as the conference. As I was reading the registration process on the NeurIPS blog, they said: &quot;If the designated author has registered already for a different location than the one designated for their paper, they will have to cancel their registration (and receive a full refund until the deadline of Nov. 4) and register to",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T02:16:26+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "c83f1507c148",
+      "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/",
+      "summary": "Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and I'd like some feedback from people who teach ML. Everything is plain NumPy, no autograd: manual backprop, SGD with momentum, L2, dropout, cosine decay and 4 activations. On MNIST it gets to about 98.5% with the full training set. During training you see the loss per mini-batch and per epoch, the gradient norm of each layer with the % of inactive neurons, the weight distributions now vs at init and the receptive fields of the first layer. Then there's: • a PCA / t-SNE of the test set (in Num",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-26T18:38:38+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "301f0dea1442",
+      "title": "Your LLM Has a Curved Space of Paragraphs",
+      "url": "https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/",
+      "summary": "Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric.\nThe post Your LLM Has a Curved Space of Paragraphs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-26T12:00:01+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "23b21113c192",
+      "title": "My paper got accepted at NeurIPS TAE Workshop 2026 — any advice on getting travel funding?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/",
+      "summary": "Hi everyone, I am happy to share that my paper has been selected for presentation at the TAE Workshop at NeurIPS 2026, which will be held on December 11, 2026. I am really excited about the opportunity to present my work and attend the workshop, but I am currently trying to figure out how to cover the airfare, which is a significant expense for me. I am a working professional, so I am not eligible for some of the funding opportunities that are primarily targeted toward students. The workshop does provide support for registration and hotel expenses, but their funding priorities are mainly focus",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-26T16:22:59+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "0ffcea69900e",
+      "title": "AI Slop Is Already in Your Training Dataset. I Tested Three Ways to Spot It.",
+      "url": "https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/",
+      "summary": "My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate.\nThe post AI Slop Is Already in Your Training Dataset. I Tested Three Ways to Spot It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-26T15:00:02+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "e4535d63653d",
+      "title": "Cloudflare Details Its Migration from WordPress to EmDash",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-emdash-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently documented the migration of its main blog from WordPress to EmDash, the open source content management system developed internally. The new platform is designed to improve performance and caching, and it was tested to handle traffic of up to 7000 requests per second. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-09-26T09:38:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
