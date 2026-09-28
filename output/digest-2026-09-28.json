@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AWS Introduces Foreign Key Constraints in Aurora DSQL (InfoQ). Radicle Discloses Critical Flaws Exposing Private Repositories in Plain Text (InfoQ). Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026 (TechCrunch AI). Viral AI agent Instinct raises $1B Series C at a $10B valuation (TechCrunch AI). Your AI Policy Doesn't Run in Production. Your Gateway Does. (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Good Architecture Deletes the Signals Your Agent Depends On (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions. The addition addresses a long-standing gap that users had explicitly called out as an adoption blocker. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "43a71be1b078",
+      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+      "url": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions. The addition addresses a long-standing gap that users had explicitly called out as an adoption blocker. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-09-28T04:54:00+00:00",
+      "score": 4.25,
+      "image": "https://res.infoq.com/news/2026/09/aurora-dsql-foreign-keys/en/headerimage/generatedHeaderImage-1788260510964.jpg"
+    },
+    {
+      "id": "2120e8a5cfe4",
+      "title": "Radicle Discloses Critical Flaws Exposing Private Repositories in Plain Text",
+      "url": "https://www.infoq.com/news/2026/09/radicle-network-vulnerabilities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Radicle has identified two critical security vulnerabilities in its wire protocol, compromising confidentiality across all node releases. Attackers can access private repository data in cleartext and impersonate nodes. Due to architectural flaws, immediate halting of clearnet operations is advised. Fixes will require a shift to a new protocol (Iroh), creating backward incompatibility issues. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-28T14:14:00+00:00",
+      "score": 4.17,
+      "image": "https://res.infoq.com/news/2026/09/radicle-network-vulnerabilities/en/headerimage/generatedHeaderImage-1790498420576.jpg"
+    },
+    {
+      "id": "1766de63251c",
+      "title": "Next five VCs judging Startup Battlefield 200 contenders at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/28/next-five-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026/",
+      "summary": "Thousands of applications. Multiple rounds of review. Hundreds of hours spent evaluating startups from around the world. Now comes the part everyone has been waiting for. Startup Battlefield 200 is almost here, and with today&#8217;s announcement, the judging panel is nearly complete. In just a couple of weeks, 200 carefully selected startups will gather at [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:30:00+00:00",
+      "score": 4.09,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/SB200_Deshpande-Appleton-Nayak-Risch-Xu.png?resize=1200,675"
+    },
+    {
+      "id": "4fc7509a6662",
+      "title": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "summary": "Instinct has raised a $1 billion Series C, saying 'we're just getting started.' The company is now valued at $10 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T13:38:48+00:00",
+      "score": 4.04,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/05/ai-agents-GettyImages-2229880232.jpg?resize=1200,675"
+    },
+    {
+      "id": "d13d3e86e985",
+      "title": "Your AI Policy Doesn't Run in Production. Your Gateway Does.",
+      "url": "https://dev.to/alessandro_pignati/your-ai-policy-doesnt-run-in-production-your-gateway-does-jgj",
+      "summary": "Why governance for LLM apps and agents is an infrastructure problem, and what to actually build\n\n\nHere is a quick test for your AI governance setup. An auditor asks: \"Show me every prompt sent last quarter that contained customer personal data, which model received it, and what policy was applied.\"\n\nHow long would that take you?\n\nFor most teams, the honest answer involves grepping logs across a handful of repos, discovering that two services log prompts in different formats, one logs nothing, and one team is calling a provider directly with a key nobody in security knows about. The policy docu",
+      "source": "Dev.to AI",
+      "published": "2026-09-28T14:40:07+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjymr5103x8vareo56ebg.png"
+    },
+    {
+      "id": "99a28bb41a76",
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:05:00+00:00",
+      "score": 3.87,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Modulate-Cofounders_3.jpg?resize=1200,675"
+    },
+    {
+      "id": "6639960050d0",
+      "title": "Insuretech Outmarket raises $34.5M just months after prior round",
+      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:00:00+00:00",
+      "score": 3.86,
+      "image": null
+    },
+    {
+      "id": "35d0d61b8bb0",
+      "title": "Qwen3-VL 8B on a laptop vs Opus 5.5 / Sonnet 5 / GPT-5.6 on 137 messy documents: beat GPT-5.6 on tax forms, lost badly on Indian date formats[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsbqni/qwen3vl_8b_on_a_laptop_vs_opus_55_sonnet_5_gpt56/",
+      "summary": "I benchmarked Qwen3-VL 8B Instruct (Q4_K_M, Ollama, M5 24GB, ~30s/doc) against Claude Opus 5.5, Sonnet 5 and GPT-5.6 Terra on: - receipts: CORD (Indonesia) and SROIE (Malaysia), 30 each - 20 scanned 1980s-90s invoices , answer keys human-verified - 32 real IRS forms, 4 damage levels (generated this week, so not in anyone's training data) - 10 synthetic Indian bank statements, 15 CUAD contracts Results (documents fully right): - Opus 89%, - Sonnet 85%, - Qwen 8B 59%, - GPT-5.6 Terra 57%. Qwen-specific findings: - W-2s: 21/32 fully right vs GPT-5.6 Terra 7/32 - Indian bank statements: 2/10. Ever",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T11:11:59+00:00",
+      "score": 3.8,
+      "image": null
+    },
+    {
+      "id": "dab50f29254e",
+      "title": "Browser demo of our Clash Royale RL environment: a 5.6k-parameter REINFORCE policy learns defensive placement against a brute-force optimum [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsfkwg/browser_demo_of_our_clash_royale_rl_environment_a/",
+      "summary": "Yesterday I shared our open-source Clash Royale simulator and its recurrent PPO agent here. A training loop is easier to understand when you can watch it, so we put a small interactive version online: https://itzik123.github.io/ClashRoyaleAi/lab/ The task is one decision. An attacker spawns at a random point on the enemy side, and the policy picks a legal cell for one defending card, then a delay of 0 to 5 s given that cell. The reward is the fraction of tower damage prevented relative to no defence. The policy has 5,629 parameters and trains with REINFORCE (per-spawn baseline, annealed entrop",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T14:06:42+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "96cb422745c9",
+      "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+      "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, LLMs, agents, and production serving. The code is stdlib-first, so you see every step instead of calling a library. This month's edition: - six EPUB and PDF volumes built from the lessons, attached to the release - the site interface and lessons in eight languages (Chinese, Hindi, Spanish, Arabic, French, Portuguese, Turkish, Vietnamese) - CI now runs each lesson's own tests, and a sweep fixed datasets, models, and links that had stopped working Site: https",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T05:49:38+00:00",
+      "score": 3.71,
+      "image": null
+    },
+    {
+      "id": "ef64e97ecc35",
+      "title": "I Built an AI Customer Support Agent That Actually Remembers 🤖🧠",
+      "url": "https://dev.to/shaikabrar01/i-built-an-ai-customer-support-agent-that-actually-remembers-5fjo",
+      "summary": "[](\n\n1. url\n)What if your customer support agent didn't treat every conversation like the first conversation?\n\nI built an AI-powered customer support agent with persistent memory that can remember previous interactions with customers and use that information in future conversations.\n\nThe goal was simple:\n\n«Build a support agent that doesn't just answer questions — it remembers the customer.»\n\n🚀 What I Built\n\nMy system allows an AI support agent to:\n\n\n💬 Understand customer messages\n🧠 Retrieve relevant information from previous conversations\n👤 Maintain separate memories for different customers\n🤖",
+      "source": "Dev.to AI",
+      "published": "2026-09-28T14:41:44+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "4a9c19b129a2",
+      "title": "A Rule You Can Recite Is Not a Rule That Runs",
+      "url": "https://dev.to/devaland/a-rule-you-can-recite-is-not-a-rule-that-runs-2hon",
+      "summary": "My outbound system reported \"17 letters out, no bounces\" this morning. One of them had bounced seven seconds after it left.\n\nIt was a batch of freedom of information requests to local councils. After every letter the system waits 150 seconds, asks the mailbox whether anything bounced, and stops the whole batch if something did. That rule sits in the first lines of the script. I could recite it.\n\nFor at least twelve days it had not been able to read.\n\n\n  \n  \n  Two guards, each correct on its own\n\n\nThe bounce check asked the mailbox for up to 500 messages. Two weeks earlier I had built a second ",
+      "source": "Dev.to Programming",
+      "published": "2026-09-28T14:00:05+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "2cbd0179f735",
+      "title": "The AI That Learned to Understand Long After It Stopped Trying",
+      "url": "https://towardsdatascience.com/the-ai-that-learned-to-understand-long-after-it-stopped-trying/",
+      "summary": "A small, strange discovery in machine learning called grokking\nThe post The AI That Learned to Understand Long After It Stopped Trying appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-28T12:30:01+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "de33309161b1",
+      "title": "Give your agent a spending cap its own code cannot bypass",
+      "url": "https://dev.to/openclawcash/give-your-agent-a-spending-cap-its-own-code-cannot-bypass-25nn",
+      "summary": "Your agent has a wallet and a system prompt that says \"do not spend more than 100 a day\". That prompt is the only thing standing between the agent and your balance, and a prompt is not a limit. A long context, a tool result the model reads wrong, or a retry loop is enough to walk past it.\n\nA spend limit that holds has to be enforced where the money moves, not where the text is.\n\n\n  \n  \n  The limit lives on the wallet, not in the prompt\n\n\nOpenClawCash checks wallet governance policies on the server before a write is signed. A request that breaks one comes back as 403 with code: \"policy_violatio",
+      "source": "Dev.to Programming",
+      "published": "2026-09-28T14:04:52+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "7e98c68acb7d",
+      "title": "I Gave AI Hands on a Virtual Machine — Here's What Changed",
+      "url": "https://dev.to/bijan53c/i-gave-ai-hands-on-a-virtual-machine-heres-what-changed-176h",
+      "summary": "I think AI is the closest thing to what Google search was when it first went public — it didn't replace anyone's job, it made a whole category of work faster, and \"knowing how to use it well\" became its own skill. Some people reach for the WordPress comparison instead, when talking about vibe coding and the worry it put into web developers a decade ago. Either analogy lands the same way for me: this is a new capability layer, not a replacement for the person using it.\n\nI'm an ethical hacker — I've worked both defense (SOC) and offense (red team, pentesting, bug hunting), which means my day cov",
+      "source": "Dev.to Programming",
+      "published": "2026-09-28T14:00:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "5a1d9d92fc89",
+      "title": "How to Make Your Own JEV Model from an Open LLM",
+      "url": "https://towardsdatascience.com/how-to-make-your-own-jev-model-from-an-open-llm/",
+      "summary": "Turn a small open-source Qwen LLM into a fast, single-pass text classifier by swapping its language-modeling head\nThe post How to Make Your Own JEV Model from an Open LLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-28T14:00:01+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "01826e158336",
+      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
+      "url": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; the seventh release candidate of Maven 4.0; milestone releases of Micrometer Metrics and Tracing; and beta releases of Open Liberty and Hibernate ORM. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-09-28T02:30:00+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "eaa520eb586c",
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T19:57:30+00:00",
+      "score": 3.26,
+      "image": null
+    },
+    {
+      "id": "79b213b7598a",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "source": "TechCrunch AI",
+      "published": "2026-09-27T20:34:28+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "ff2af827e05f",
+      "title": "Are there machine learning subfields that are becoming irrelevant (or is irrelevant)? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
+      "summary": "I was reading a paper that surveyed the field of neural architecture search, where it said within 5 years, around 3000+ new models were proposed. The amount of compute and resources spent on this is absolutely astronomical. However, the transformer was notably not one of the models that was found through NAS and then the field of NAS just quietly went away afterwards. In my mind this really raises question if any research in NAS should be continued. Then I recently found a talk by Nicholas Carlini, arguably one of the most famous researcher in adversarial ML and this is one of his slide (&quot",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T17:51:22+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "a59b19b6530a",
+      "title": "GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs",
+      "url": "https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/",
+      "summary": "How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation.\nThe post GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-27T15:00:01+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "d182100db696",
+      "title": "Good Architecture Deletes the Signals Your Agent Depends On",
+      "url": "https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/",
+      "summary": "Every boundary you draw removes a signal your tooling was relying on. That is a structure problem, not a search problem.\nThe post Good Architecture Deletes the Signals Your Agent Depends On appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-27T12:00:02+00:00",
+      "score": 2.02,
+      "image": null
+    },
+    {
+      "id": "3d12af445028",
+      "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+      "summary": "Hey r/MachineLearning! I’ve been working on a new optimizer called Tauon (turns out there is already &quot;teon&quot; but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynomials and orthogonalization just like muon, the whole difference is that i managed to lower total number of steps (first through spectral filtering down to 3 steps then through coeff scheduling down to 2) + reduced matrix size (through dct-2). And I wanted to share some initial benchmark results... Benchmark Setup: Trained a GPT-Mini (d_model=512, 6 Layers) on TinyShake",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T03:38:07+00:00",
+      "score": 1.85,
+      "image": null
+    },
+    {
+      "id": "e613bc085eb5",
+      "title": "When do ICLR submissions and reviews become public? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrctl5/when_do_iclr_submissions_and_reviews_become/",
+      "summary": "Hi everyone, I have a question about ICLR’s open review process. I have experience with ICML/NeurIPS/AAAI, but this is my first time submitting to ICLR, and I understand that its public review process works differently. (1) The submission portal says that papers are made public to the community “from the beginning of the review process.” When exactly does this happen? Reviews start in October, while the discussion period starts in November. Does this mean submissions become publicly visible in October? (2) Also, can the community access the supplementary materials as soon as the paper becomes ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-27T06:27:37+00:00",
+      "score": 1.81,
+      "image": null
+    }
+  ]
+}
