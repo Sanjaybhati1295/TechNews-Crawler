@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Grok 4.7 Just Landed on Amazon Bedrock: First Call, Reasoning Effort, and the Cost Trap",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Grok 4.7 Just Landed on Amazon Bedrock: First Call, Reasoning Effort, and the Cost Trap (Dev.to AI). Reflection 70B was released two years ago (September 2024) (Reddit r/LocalLLaMA). Reco raises $55M as AI agent security startups crowd the market (TechCrunch AI). When can we say AI made a scientific discovery? (MIT Tech Review). Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Advice on choosing university for PhD [D] (Reddit r/MachineLearning). First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far (Reddit r/LocalLLaMA)."
+      }
+    ],
+    "key_takeaway": "Attributed compile (not original research)\nPrimary source: Grok 4.7 is now available on Amazon Bedrock by Suheel Farooq, Anirban Gupta, Fabio Branco, Ikenna Izugbokwe, and William Yap (AWS Machine Learning Blog), published 2026-09-28\nCapability background: Introducing Grok 4.7 (SpaceXAI / xAI), published 2026-09-21\nIndependent numbers cited below: Artificial Analysis, as quoted in the AWS launch post\nThis post restates the Bedrock packaging and first-request path in my own words, with a short decision checklist for agent builders. I did not run Grok 4.7 on Bedrock for this article. Every price"
+  },
+  "articles": [
+    {
+      "id": "803cbc334b90",
+      "title": "Grok 4.7 Just Landed on Amazon Bedrock: First Call, Reasoning Effort, and the Cost Trap",
+      "url": "https://dev.to/yong_yu_f98e15562e9b120a0/grok-47-just-landed-on-amazon-bedrock-first-call-reasoning-effort-and-the-cost-trap-31dp",
+      "summary": "Attributed compile (not original research)\nPrimary source: Grok 4.7 is now available on Amazon Bedrock by Suheel Farooq, Anirban Gupta, Fabio Branco, Ikenna Izugbokwe, and William Yap (AWS Machine Learning Blog), published 2026-09-28\nCapability background: Introducing Grok 4.7 (SpaceXAI / xAI), published 2026-09-21\nIndependent numbers cited below: Artificial Analysis, as quoted in the AWS launch post\nThis post restates the Bedrock packaging and first-request path in my own words, with a short decision checklist for agent builders. I did not run Grok 4.7 on Bedrock for this article. Every price",
+      "source": "Dev.to AI",
+      "published": "2026-09-29T13:22:15+00:00",
+      "score": 5.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fb5id9tzmsh0jg5bcjy4s.png"
+    },
+    {
+      "id": "13b359b9f010",
+      "title": "Reflection 70B was released two years ago (September 2024)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt7e94/reflection_70b_was_released_two_years_ago/",
+      "summary": "You may think that jev, OpenClaw or TurboQuant are super cool, but actually the coolest LLM invention happened two years ago As we all know, the best source of reliable information about LLMs is YouTube: https://preview.redd.it/4tv0ctbwyfsh1.png?width=2544&amp;format=png&amp;auto=webp&amp;s=46d5e37a8f69372cbbb55d6d4ab22021e94ca285 Back in September 2024, Reflection 70B appeared out of nowhere and was announced as an open-source model that supposedly destroyed GPT-4o There was only one small problem. People downloaded it. And tested it :( https://preview.redd.it/kamhrp9izfsh1.png?width=1514&amp",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-29T11:18:20+00:00",
+      "score": 4.58,
+      "image": null
+    },
+    {
+      "id": "7c2570d9f8b6",
+      "title": "Reco raises $55M as AI agent security startups crowd the market",
+      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+      "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T12:30:00+00:00",
+      "score": 4.34,
+      "image": "https://techcrunch.com/wp-content/uploads/2023/08/getty-keys-red-background-locks.jpg?resize=1200,800"
+    },
+    {
+      "id": "d19a7dc33090",
+      "title": "When can we say AI made a scientific discovery?",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-09-28T17:03:16+00:00",
+      "score": 4.26,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/science-ai-gene3.jpg?resize=1200,600"
+    },
+    {
+      "id": "c65184980496",
+      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+      "url": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework, Spring for GraphQL and Spring for Apache Kafka. There were also first milestone releases of Spring AI, Spring Cloud, Spring Web Services and Spring LDAP. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-09-29T12:00:00+00:00",
+      "score": 4.21,
+      "image": "https://res.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/en/headerimage/spring-news-roundup-image-1790682740499.jpg"
+    },
+    {
+      "id": "402e451f2f39",
+      "title": "I created a personality test for models, need more TESTS!!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt33xk/i_created_a_personality_test_for_models_need_more/",
+      "summary": "First 3 disposition results. Hi there! My name is Jerry and I recently built Enclosure, e deterministic environment for testing LLMs. It's a simulated office enfironment https://github.com/openconstruct/Enclosure with tools agents are used to, like slack, calendar, mail, chat and more. For conversations is uses AIML instead of a model, so it is totally deterministic. The first test I made(had Claude make) is the one I had in mind when I designed Enclosure, a personality test for models. It's not a winnable benchmark, but rather a tool to help people find the mdoels that fit their workstyle bes",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-29T06:54:43+00:00",
+      "score": 4.03,
+      "image": null
+    },
+    {
+      "id": "1b1576dceed5",
+      "title": "Review Interval Timer: what we learned building Random Tactical Timer",
+      "url": "https://dev.to/igorganapolsky/review-interval-timer-what-we-learned-building-random-tactical-timer-3785",
+      "summary": "What changed today\n\n\n\nchore(analytics): refresh marketing snapshots from wiki-sync\nchore(agents): refresh ROSE-lite autowire snapshot\nchore(play): refresh play_iap_catalog.json from IAP readback\nchore(analytics): refresh marketing snapshots from wiki-sync\n\n\n\n  \n  \n  Search intent target\n\n\n\nPrimary keyword: review interval timer\n\nIntent class: commercial\n\nBID filter: business potential, intent match, and realistic difficulty\n\n\n\n  \n  \n  AI/LLM flow we used\n\n\nWe keep this loop tight: plan -&gt; code -&gt; test -&gt; release gate -&gt; feedback. The key is not bigger prompts, it's strict validatio",
+      "source": "Dev.to AI",
+      "published": "2026-09-29T13:30:51+00:00",
+      "score": 3.9,
+      "image": null
+    },
+    {
+      "id": "fe3ac8fc1403",
+      "title": "The real test for agent memory is switching agents",
+      "url": "https://dev.to/jonathanmberg/the-real-test-for-agent-memory-is-switching-agents-1ll5",
+      "summary": "I built Sirro because I kept running into the same problem while building apps for clients. I would get a section working in one project, start another, and then explain it to a coding agent all over again. The second version was close, but it was never quite the thing I had already made.\n\nThe problem gets more obvious when you switch tools. You save your work in one agent's project files, then open a different agent and find yourself back at the beginning. The first tool may remember the conversation perfectly. That doesn't help much if the next tool can't use the finished work.\n\nI've been th",
+      "source": "Dev.to AI",
+      "published": "2026-09-29T13:26:40+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "0ef4c7e987e0",
+      "title": "How to Design Architectural Guardrails Around AI Agents",
+      "url": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+      "summary": "Agent design patterns every data engineer must know\nThe post How to Design Architectural Guardrails Around AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-29T12:30:02+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "79c5767e260d",
+      "title": "Nvidia launches new platform for reining in rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/28/nvidia-launches-new-platform-for-reining-in-rogue-ai-agents/",
+      "summary": "Nvidia CEO Jensen Huang on Monday introduced a toolkit of software and hardware products that add independent security layers around AI agents to ensure they stay within their test environments even if they attempt to break out.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T18:31:23+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "598193c36ac9",
+      "title": "[Release] GSQ-RCO GGUFs for Qwen3.8-Flash-Next, plus a 50% expert-pruned Coder build at ~1.89 bpw",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wt4s88/release_gsqrco_ggufs_for_qwen38flashnext_plus_a/",
+      "summary": "We have released Qwen3.8-Flash-Next quantized with GSQ and RCO, together with a second, capability-targeted build in which half of the model's experts have been removed. Flash-Next is a sparse mixture-of-experts model: 512 routed experts per layer across 48 layers, 176.9B parameters, 354 GB at BF16. What's inside  Four quantized GGUFs, 2.40 to 3.50 bpw (66.4 to 83.6 GB), and the BF16 vision projector Expert-pruned Coder GGUF, 58.4 GB in total, of which 29.6 GB must remain resident GSQ (Gumbel-Softmax Quantization): post-training scalar quantization that jointly learns grid assignments and grou",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-29T08:40:34+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "bd64ae4d785d",
+      "title": "Limited compute, targeting CVPR: rerun experiments for statistically strong numbers or focus on writing? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt9w3s/limited_compute_targeting_cvpr_rerun_experiments/",
+      "summary": "Hi everyone, I'm preparing a submission for CVPR and would appreciate your advice. I am happy with my current results, but compute is a real constraint. My institute isn't a research-focused one, and the systems available to me are slow and unreliable. A single set of runs already took a lot of time and effort to finish. I plan to release the code with the submission, and I'm confident the results will reproduce. Still, I'm torn between two options: 1) Rerun the experiments with different seeds to report mean ± std and show statistical significance. Or 2) Skip the reruns and spend the remainin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-29T13:18:06+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "06e9f36bb849",
+      "title": "Anthropic releases Sonnet 5.5, which it calls a significantly cheaper, faster work partner",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "summary": "Anthropic has released the newest version of its mid-range model, boasting faster response times and less token burn.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T18:00:00+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "4f10d7974d7f",
+      "title": "Building Fair Evaluation Sets Is a Combinatorial Problem",
+      "url": "https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/",
+      "summary": "Here’s how to solve it exactly.\nThe post Building Fair Evaluation Sets Is a Combinatorial Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-29T11:00:02+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "5d6be31d3240",
+      "title": "Advice on choosing university for PhD [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt54tz/advice_on_choosing_university_for_phd_d/",
+      "summary": "Hey guys, I got really into research a year ago during my final year of undergrad and maneged to get a first author paper accepted at Neurips 2026. It is a pretty impressive achievement obviously but my background is pretty shit lol. Before my final year I got slightly above average grades but no internships or work exp. I was just chilling mostly didn’t even bother applying to internships. Also I want to a tier 2 uni in Australia (mind you that difference in tier 1 and 2 unis isn’t that big tho compared to America or China). I was going to start a PhD at my current uni with a scholarship and ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-29T09:02:43+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "c97258379f27",
+      "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned who supports the upstream work afterwards, and Wasmer's founder asked for cold-start numbers, citing about 1.027 seconds from Cloudflare's own earlier post. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-29T06:33:00+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "791d6502db08",
+      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.\nThe post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-09-28T19:00:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "80f86534580d",
+      "title": "Meta launches enterprise AI platform, hires MongoDB CEO to lead new initiative",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "summary": "Meta says it will focus on bringing its full technology stack, including Muse, Meta Business Agent, Muse API, Muse Code, and more to businesses and developers.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T16:52:38+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "07c0d45eeffa",
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T19:33:57+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "43a71be1b078",
+      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+      "url": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions. The addition addresses a long-standing gap that users had explicitly called out as an adoption blocker. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-09-28T04:54:00+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "91c26fd5d422",
+      "title": "First few days of qwen3.8-flash-next on 4x R9700 - it's been really interesting so far",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsxgbo/first_few_days_of_qwen38flashnext_on_4x_r9700_its/",
+      "summary": "Here's a metric dashboard giving an idea of the last few days. Been testing with a variety of different agentic coding use-cases, mostly using a pi harness. qwen3.8-flash-next has seriously exceeded my expectations (used https://huggingface.co/tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8) Both speed and quality have surprised me, given that I can get 3-5 concurrent streams going with ~100t/s gen each, and single stream easily gets to 150+t/s. Prefill is 10k+t/s   &#32; submitted by &#32;  /u/pubudeux   [link] &#32; [comments]",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-29T01:52:32+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "2120e8a5cfe4",
+      "title": "Radicle Discloses Critical Flaws Exposing Private Repositories in Plain Text",
+      "url": "https://www.infoq.com/news/2026/09/radicle-network-vulnerabilities/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Radicle has identified two critical security vulnerabilities in its wire protocol, compromising confidentiality across all node releases. Attackers can access private repository data in cleartext and impersonate nodes. Due to architectural flaws, immediate halting of clearnet operations is advised. Fixes will require a shift to a new protocol (Iroh), creating backward incompatibility issues. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-09-28T14:14:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "0058607c1d77",
+      "title": "Searching for 3.8 35B: Qwen3.6-35B-A3B (Testing 5 Finetunes vs. Base)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wss436/searching_for_38_35b_qwen3635ba3b_testing_5/",
+      "summary": "TL;DR -- You should probably just use base Qwen3.6-35B, as only Occamy-1.0 is competitive with it. Tiel is a major let-down, worse than Ornith. KAT surprises (good), Nex surprises (bad). This post is long. Sorry, lots to cover. I think we all want to see a next-generation small MoE from the Qwen team to replace 3.6-35B in our workflows. This model is a perfect fit for smaller gmaing laptops and mid-tier rigs. It sucks that Qwen seems to have abandoned this model, but at least there are fine-tunes that improve upon it... right? Well... maybe not. I ran benchmarks on the 3.6-35B-A3B base model, ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-28T21:52:28+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "254184b48cd8",
+      "title": "Can we get some quality control on all these model perf posts?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsq0pa/can_we_get_some_quality_control_on_all_these/",
+      "summary": "Too many hyperactive amateurs are coming in here with &quot;1b model at 832843tok/s!&quot; and hardly any of them have all the info necessary for local runners to evaluate. We need context ladders with perplexity/KLD, hardware specs, model params and quant(s), runtime, tuned runtime parameters, basically everything we need to reproduce locally if we can match the entire setup. To say nothing of what the model is even good at in the first place if it's not a well-known model. The goal is to get perf numbers that show they meet a certain quality bar. I don't care if I get 8324834 tok/s if it's a",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-28T20:32:10+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "99a28bb41a76",
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "summary": "Modulate deploys its models to detect deepfake, fraud and scam",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:05:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "6639960050d0",
+      "title": "Insurtech Outmarket raises $34.5M just months after prior round",
+      "url": "https://techcrunch.com/2026/09/28/insuretech-outmarket-raises-34-5m-just-months-after-prior-round/",
+      "summary": "The startup uses AI to automate tedious paperwork for insurance agencies and brokers.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-28T14:00:00+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "ee8aac5ff8b9",
+      "title": "I am concerned about all these disparate hard forks that target specific architectures instead of opening a PR against upstream",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wsn59w/i_am_concerned_about_all_these_disparate_hard/",
+      "summary": "Other than the obvious self promotion, is there a practical reason people do this that I am missing? There's dozens of llamacpp forks with silly names that are supposedly &quot;optimized&quot; for this or that specific GPU and seem to have zero intention to merge into upstream. Am I missing the real reasons why this happens so often? Why do people think it's OK to do this? In my experience in the open source community this is generally frowned upon. I don't know if it's just a me problem that this kind of thing puts me off so much. I am usually quite grateful for PR feedback and conscientious ",
+      "source": "Reddit r/LocalLLaMA",
+      "published": "2026-09-28T18:47:59+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "35d0d61b8bb0",
+      "title": "Qwen3-VL 8B on a laptop vs Opus 5.5 / Sonnet 5 / GPT-5.6 on 137 messy documents: beat GPT-5.6 on tax forms, lost badly on Indian date formats[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsbqni/qwen3vl_8b_on_a_laptop_vs_opus_55_sonnet_5_gpt56/",
+      "summary": "I benchmarked Qwen3-VL 8B Instruct (Q4_K_M, Ollama, M5 24GB, ~30s/doc) against Claude Opus 5.5, Sonnet 5 and GPT-5.6 Terra on: - receipts: CORD (Indonesia) and SROIE (Malaysia), 30 each - 20 scanned 1980s-90s invoices , answer keys human-verified - 32 real IRS forms, 4 damage levels (generated this week, so not in anyone's training data) - 10 synthetic Indian bank statements, 15 CUAD contracts Results (documents fully right): - Opus 89%, - Sonnet 85%, - Qwen 8B 59%, - GPT-5.6 Terra 57%. Qwen-specific findings: - W-2s: 21/32 fully right vs GPT-5.6 Terra 7/32 - Indian bank statements: 2/10. Ever",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T11:11:59+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "dab50f29254e",
+      "title": "Browser demo of our Clash Royale RL environment: a 5.6k-parameter REINFORCE policy learns defensive placement against a brute-force optimum [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsfkwg/browser_demo_of_our_clash_royale_rl_environment_a/",
+      "summary": "Yesterday I shared our open-source Clash Royale simulator and its recurrent PPO agent here. A training loop is easier to understand when you can watch it, so we put a small interactive version online: https://itzik123.github.io/ClashRoyaleAi/lab/ The task is one decision. An attacker spawns at a random point on the enemy side, and the policy picks a legal cell for one defending card, then a delay of 0 to 5 s given that cell. The reward is the fraction of tower damage prevented relative to no defence. The policy has 5,629 parameters and trains with REINFORCE (per-spawn baseline, annealed entrop",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T14:06:42+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "96cb422745c9",
+      "title": "Free, open-source AI engineering course where you build each algorithm by hand: 523 lessons, now as EPUB/PDF books [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+      "summary": "AI Engineering from Scratch is an MIT-licensed curriculum: 523 lessons across 20 phases, from linear algebra and backprop to transformers, LLMs, agents, and production serving. The code is stdlib-first, so you see every step instead of calling a library. This month's edition: - six EPUB and PDF volumes built from the lessons, attached to the release - the site interface and lessons in eight languages (Chinese, Hindi, Spanish, Arabic, French, Portuguese, Turkish, Vietnamese) - CI now runs each lesson's own tests, and a sweep fixed datasets, models, and links that had stopped working Site: https",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-28T05:49:38+00:00",
+      "score": 2.44,
+      "image": null
+    }
+  ]
+}
