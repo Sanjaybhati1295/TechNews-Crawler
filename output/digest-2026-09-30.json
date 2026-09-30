@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "Airbnb adds AI search, more social features",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Airbnb adds AI search, more social features (TechCrunch AI). OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite (TechCrunch AI). 10 December 2026: Your Privacy Policy Has to Name the Decisions Your Software Makes (Dev.to AI). The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch (TechCrunch AI). SvelteKit 3 Reaches Release Candidate, Moving Config to Vite and Retiring the $lib Alias (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Advice on choosing university for PhD [D] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Airbnb is also launching new services such as meal delivery and laundry in select locations."
+  },
+  "articles": [
+    {
+      "id": "ff26d4a382ed",
+      "title": "Airbnb adds AI search, more social features",
+      "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "summary": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T12:00:00+00:00",
+      "score": 3.83,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/en-US-AIFeatures-UnifiedSearch.jpeg?resize=1200,800"
+    },
+    {
+      "id": "b6f078daefc5",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:45:51+00:00",
+      "score": 3.82,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/OpenAI.jpg?resize=1200,800"
+    },
+    {
+      "id": "03396229f0e3",
+      "title": "10 December 2026: Your Privacy Policy Has to Name the Decisions Your Software Makes",
+      "url": "https://dev.to/2pizza/10-december-2026-your-privacy-policy-has-to-name-the-decisions-your-software-makes-3o74",
+      "summary": "Not legal advice, an engineering read. From 10 December 2026, an APP entity that uses personal information in a computer program to make or substantially contribute to a decision that could reasonably be expected to significantly affect a person's rights or interests must say so in its privacy policy: what kinds of personal information, and what kinds of decisions. Civil penalties apply to a privacy policy that does not. The date is fixed in the legislation, not a target.\n\n\nMost of the Australian AI regulation conversation this year has been about things that did not happen. The ten mandatory ",
+      "source": "Dev.to AI",
+      "published": "2026-09-30T13:00:10+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fif0tfxscmofp3zzbn8lm.png"
+    },
+    {
+      "id": "1b1d0d455584",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T22:20:59+00:00",
+      "score": 3.78,
+      "image": "https://techcrunch.com/wp-content/uploads/2025/02/elon-musk-election-afd-purple.jpg?resize=1200,826"
+    },
+    {
+      "id": "6a3921fa5dda",
+      "title": "SvelteKit 3 Reaches Release Candidate, Moving Config to Vite and Retiring the $lib Alias",
+      "url": "https://www.infoq.com/news/2026/09/sveltekit-3-vite/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Svelte team has entered the release candidate phase for SvelteKit 3, which focuses on code refinement and prepares for future updates. Notable changes include moving configuration to vite.config.ts, replacing the $lib alias with #lib for improved compatibility. SvelteKit 3 requires Vite 8 and Svelte 5, enhancing error handling and build efficiency, while retaining some experimental features. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-30T05:58:00+00:00",
+      "score": 3.6,
+      "image": "https://res.infoq.com/news/2026/09/sveltekit-3-vite/en/headerimage/generatedHeaderImage-1790668846660.jpg"
+    },
+    {
+      "id": "4b4801fe93e9",
+      "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
+      "url": "https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Recently launched, Amazon CloudWatch Omni is an AI-first observability platform designed to monitor, evaluate, and troubleshoot applications and autonomous AI agents in a unified environment. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-09-29T19:00:00+00:00",
+      "score": 3.49,
+      "image": "https://res.infoq.com/news/2026/09/aws-cloudwatchomni-observability/en/headerimage/aws-reliability-dns-1790708319178.jpg"
+    },
+    {
+      "id": "572dce99347e",
+      "title": "OpenAI launches Dots, its bubbly agentic avatar",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "summary": "Dots are meant to operate independent of any specific hardware or interface, pursuing user-defined goals continuously in the background with minimal oversight.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:17:15+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "914354df0074",
+      "title": "OpenAI launches GPT-6.1 Sol, says it nearly matches GPT-6 Astra and costs less",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "summary": "OpenAI says GPT-6.1 Sol delivers significant improvements over GPT-6 Sol across complex professional tasks, including code writing and debugging, document understanding, and executing multistep business workflows.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T17:15:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d52a4560bb9d",
+      "title": "Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtyl5m/concurrent_image_understanding_and_generation/",
+      "summary": "coupled-jump.github.io Hi everyone, I’m happy to share our recent NeurIPS 2026 paper, a collaboration across Google, Google DeepMind and Stony Brook University. We study a mismatch in joint text and image generation: a model can describe the correct solution to a maze while drawing a different path. Generating both outputs in parallel doesn’t necessarily keep them consistent. Our sampler, CO₂Jump, uses text confidence and cross-modal attention to guide image updates during sampling. It also allows low-confidence tokens to be masked again and regenerated, so earlier decisions can be revised as ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-30T07:28:34+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "7c2570d9f8b6",
+      "title": "Reco raises $55M as AI agent security startups crowd the market",
+      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
+      "summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-29T12:30:00+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "c65184980496",
+      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+      "url": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework, Spring for GraphQL and Spring for Apache Kafka. There were also first milestone releases of Spring AI, Spring Cloud, Spring Web Services and Spring LDAP. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-09-29T12:00:00+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "0ef4c7e987e0",
+      "title": "How to Design Architectural Guardrails Around AI Agents",
+      "url": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+      "summary": "Agent design patterns every data engineer must know\nThe post How to Design Architectural Guardrails Around AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-29T12:30:02+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "bd64ae4d785d",
+      "title": "Limited compute, targeting CVPR: rerun experiments for statistically strong numbers or focus on writing? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt9w3s/limited_compute_targeting_cvpr_rerun_experiments/",
+      "summary": "Hi everyone, I'm preparing a submission for CVPR and would appreciate your advice. I am happy with my current results, but compute is a real constraint. My institute isn't a research-focused one, and the systems available to me are slow and unreliable. A single set of runs already took a lot of time and effort to finish. I plan to release the code with the submission, and I'm confident the results will reproduce. Still, I'm torn between two options: 1) Rerun the experiments with different seeds to report mean ± std and show statistical significance. Or 2) Skip the reruns and spend the remainin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-29T13:18:06+00:00",
+      "score": 2.27,
+      "image": null
+    },
+    {
+      "id": "22c3214225c8",
+      "title": "AI Made Data Scientists Faster. Now It’s Expanding the Job.",
+      "url": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
+      "summary": "The real shift is bigger than productivity: AI is reshaping ownership, judgment, and the career path of data scientists.\nThe post AI Made Data Scientists Faster. Now It’s Expanding the Job. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-29T14:00:01+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "4f10d7974d7f",
+      "title": "Building Fair Evaluation Sets Is a Combinatorial Problem",
+      "url": "https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/",
+      "summary": "Here’s how to solve it exactly.\nThe post Building Fair Evaluation Sets Is a Combinatorial Problem appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-29T11:00:02+00:00",
+      "score": 2.05,
+      "image": null
+    },
+    {
+      "id": "5d6be31d3240",
+      "title": "Advice on choosing university for PhD [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt54tz/advice_on_choosing_university_for_phd_d/",
+      "summary": "Hey guys, I got really into research a year ago during my final year of undergrad and maneged to get a first author paper accepted at Neurips 2026. It is a pretty impressive achievement obviously but my background is pretty shit lol. Before my final year I got slightly above average grades but no internships or work exp. I was just chilling mostly didn’t even bother applying to internships. Also I want to a tier 2 uni in Australia (mind you that difference in tier 1 and 2 unis isn’t that big tho compared to America or China). I was going to start a PhD at my current uni with a scholarship and ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-29T09:02:43+00:00",
+      "score": 2.04,
+      "image": null
+    },
+    {
+      "id": "c97258379f27",
+      "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned who supports the upstream work afterwards, and Wasmer's founder asked for cold-start numbers, citing about 1.027 seconds from Cloudflare's own earlier post. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-09-29T06:33:00+00:00",
+      "score": 2.0,
+      "image": null
+    }
+  ]
+}
