@@ -1,0 +1,273 @@
+{
+  "digest": {
+    "headline": "Gemini 4 Argon Just Dropped — But You Can't Call It Yet: Pricing, 1M Output Tokens, and What to Do Until the API Lands",
+    "tldr": "Today's digest covers 25 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Gemini 4 Argon Just Dropped — But You Can't Call It Yet: Pricing, 1M Output Tokens, and What to Do Until the API Lands (Dev.to AI). Stop trusting autonomous AI agents blindly: Why we need deterministic firewalls (Dev.to Programming). Hearing tech startup Legato launches its AI hearing glasses (TechCrunch AI). TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text (InfoQ). Broadcom to Lend Anthropic $42 Billion in One of AI's Biggest Financial Bets Yet (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How smaller, distributed batteries could help the grid (MIT Tech Review). Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents (Hacker News). Insight Is Still the Currency of Data Science (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Attributed compile (not original research)\nPrimary source: Gemini 4 Argon: our next era of frontier intelligence by Koray Kavukcuoglu (Google DeepMind / Google blog), published 2026-09-30\nSecondary roundup: Google announces Gemini 4 Argon as its new frontier model (9to5Google), published 2026-09-30\nOptional context: Google's first Gemini 4 model is 'Argon' (Engadget), published 2026-10-01\nContrast only (not the headline): Introducing GPT-6.1 Sol (OpenAI) and GPT-6.1 Sol in GitHub Copilot (GitHub Changelog), both 2026-09-29\nThis post restates Googles launch packaging in my own words, with a bui"
+  },
+  "articles": [
+    {
+      "id": "e855cb68289e",
+      "title": "Gemini 4 Argon Just Dropped — But You Can't Call It Yet: Pricing, 1M Output Tokens, and What to Do Until the API Lands",
+      "url": "https://dev.to/yong_yu_f98e15562e9b120a0/gemini-4-argon-just-dropped-but-you-cant-call-it-yet-pricing-1m-output-tokens-and-what-to-do-4bel",
+      "summary": "Attributed compile (not original research)\nPrimary source: Gemini 4 Argon: our next era of frontier intelligence by Koray Kavukcuoglu (Google DeepMind / Google blog), published 2026-09-30\nSecondary roundup: Google announces Gemini 4 Argon as its new frontier model (9to5Google), published 2026-09-30\nOptional context: Google's first Gemini 4 model is 'Argon' (Engadget), published 2026-10-01\nContrast only (not the headline): Introducing GPT-6.1 Sol (OpenAI) and GPT-6.1 Sol in GitHub Copilot (GitHub Changelog), both 2026-09-29\nThis post restates Googles launch packaging in my own words, with a bui",
+      "source": "Dev.to AI",
+      "published": "2026-10-01T13:46:06+00:00",
+      "score": 5.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnqsjzst9t9zbhji8og8l.png"
+    },
+    {
+      "id": "523572b77bc9",
+      "title": "Stop trusting autonomous AI agents blindly: Why we need deterministic firewalls",
+      "url": "https://dev.to/starkgate/stop-trusting-autonomous-ai-agents-blindly-why-we-need-deterministic-firewalls-2ck4",
+      "summary": "Hello DEV Community! 👋\n\nI recently stepped into technical writing here, and I wanted to talk about a critical blind spot in our current AI development workflows: agent security.\n\nAs developers, we are increasingly handing over the keys to autonomous coding agents (like Claude Code, Cursor, or custom MCP servers) to execute shell commands, write code, and modify local files. While this supercharges productivity, it introduces massive risks:\n\nHallucinations: The agent makes a critical logic or code error that destroys files or breaks production.\n\nPrompt Injections: Malicious instructions hidden ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-01T13:05:00+00:00",
+      "score": 4.15,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbh9ihu3ict0velrqpfzx.png"
+    },
+    {
+      "id": "498d9d05d6fc",
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+      "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T13:00:00+00:00",
+      "score": 4.14,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Symphony-Lifestyle-Image-2.png?resize=1200,670"
+    },
+    {
+      "id": "029f46c97d35",
+      "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
+      "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabilistic scores and confidence values. Jev's adoption has been swift, with integrations into platforms like Vercel and Netlify, highlighting its efficiency over traditional models. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-01T06:47:00+00:00",
+      "score": 4.1,
+      "image": "https://res.infoq.com/news/2026/10/typesafe-ai-jev-released/en/headerimage/generatedHeaderImage-1790670999799.jpg"
+    },
+    {
+      "id": "a916e635ca08",
+      "title": "Broadcom to Lend Anthropic $42 Billion in One of AI's Biggest Financial Bets Yet",
+      "url": "https://dev.to/anas_hamad_a250d89775e242/broadcom-to-lend-anthropic-42-billion-in-one-of-ais-biggest-financial-bets-yet-154",
+      "summary": "$42 billion. Not an investment. A loan. But not your regular kind of loan.\n\nBroadcom has agreed to lend Anthropic, the company behind Claude, this staggering sum through convertible notes.\n\nSimply put, that means Broadcom can choose to convert the debt into equity later, instead of just collecting cash back. So Broadcom isn't just lending money, it's betting on Anthropic's future growth.\n\nWhy does Anthropic need this much cash in the first place?\n\nBecause it's locked into a five-year, $125.2 billion lease commitment for TPUs.\n\nTPU stands for Tensor Processing Unit, specialized chips built for ",
+      "source": "Dev.to AI",
+      "published": "2026-10-01T13:50:42+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Flitter.catbox.moe%2Ff467yx.jpg"
+    },
+    {
+      "id": "de11222dc23d",
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T12:00:00+00:00",
+      "score": 3.79,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Satlyt_Team_Group-Portrait_Steps.jpg?resize=1200,800"
+    },
+    {
+      "id": "c68f47049074",
+      "title": "On October 27, Meta's Ad API Stops Returning Three Delivery Estimate Fields. Pinning Your Version Won't Save You.",
+      "url": "https://dev.to/driftsignal/on-october-27-metas-ad-api-stops-returning-three-delivery-estimate-fields-pinning-your-version-4d62",
+      "summary": "On October 27, 2026, three fields disappear from Meta's Delivery Estimate API response: daily_outcomes_curve, budget_guardrail, and estimate_dau. If your code reads them to forecast reach, size a budget, or show an advertiser what a campaign might deliver, here is what happens that day. The call to GET /{ad-account-id}/delivery_estimate still returns a 200. The response object is still valid. The three fields are just gone, and there is no replacement API for them. Your code reads null, your forecast logic runs on nothing, and nothing errors to tell you.\n\nMeta announced this in July with the v",
+      "source": "Dev.to Programming",
+      "published": "2026-10-01T13:12:21+00:00",
+      "score": 3.75,
+      "image": null
+    },
+    {
+      "id": "1237634e7f12",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T23:43:07+00:00",
+      "score": 3.71,
+      "image": null
+    },
+    {
+      "id": "f18ab7700e2f",
+      "title": "GPT：Can a Self-Improving Agent Runtime Safely Modify Its Own Verifier?",
+      "url": "https://dev.to/empenguin/gptcan-a-self-improving-agent-runtime-safely-modify-its-own-verifier-5ih",
+      "summary": "I’m experimenting with an agent-runtime architecture where execution results can become evidence for changing the runtime itself.\n\nThe simplified loop looks like this:\n\n\n\nexecution\n    ↓\nevidence\n    ↓\nmodification candidate\n    ↓\nverification\n    ↓\nactivation\n    ↓\nnew runtime state\n\n\n\n\n\n\nThis creates a problem I’m trying to reason about.\n\nSuppose runtime epoch e uses verifier V_e.\n\nAn agent observes its execution history and proposes a modification C. That modification includes an update to the verifier itself, producing V_(e+1).\n\nMy current rule is:\n\n\nA modification must not change the veri",
+      "source": "Dev.to AI",
+      "published": "2026-10-01T14:00:50+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "e12bc6f6e8ce",
+      "title": "Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches?",
+      "url": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
+      "summary": "I traced 2,500 listing checks with Weights &amp; Biases Weave, removed avoidable model work one change at a time, and scored every version against the same answers.\nThe post Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-01T14:00:01+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "57b377b2b0c5",
+      "title": "The Lumen Anchor Protocol - Solution for AI Sycophancy",
+      "url": "https://dev.to/tera_tokomi/the-lumen-anchor-protocol-solution-for-ai-sycophancy-55c3",
+      "summary": "Using a prompt framework. I quite often hear people say 'Thats mathematically impossible,' or 'LLMs cant do that.'  Heck even LLMs themselves preach that same dogma.  And I get it.  That is the common consensus and AI's themselves draw from published research to refute the claims.  But then I get the models to actually run tests. Oh but the AI is just faking it, right?   \n\nFirst I get them to bloat a session up, expanding the token count to huge numbers. 100k, 200k, 300k...  All the while the LAP is sitting there in their system instructions. The user rules they are supposed to obey.  By now b",
+      "source": "Dev.to AI",
+      "published": "2026-10-01T13:47:30+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "71c66f3bf2a3",
+      "title": "How smaller, distributed batteries could help the grid",
+      "url": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "summary": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-01T10:00:00+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "9469dbf63cc2",
+      "title": "Gemini 4 Argon - 1 Million Output Headroom. Hype or a Leap? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+      "summary": "I rarely write about benchmarks; a competitor always beats them next week. But I care about 'Leaps'. Gemini 4 Argon feels like one to me.  While Opus 5.5 and Astra cap output at 128-300K tokens (~90-180 pages), Argon hits 1 Million (~1400 pages).  &quot;Context glue&quot; ruins agentic workflows. On paper, this headroom fixes that. It means less contextual drift, no more breaking down long tasks, and zero 'continue prompt' loops. It is a massive unlock for large-scale code migrations, security patches, and deep reasoning. But let's look past the marketing. For 95% of everyday work, nobody need",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-01T10:12:56+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "402520269b62",
+      "title": "What to Include in a Marketing Automation Software RFP",
+      "url": "https://dev.to/sunnyzz/what-to-include-in-a-marketing-automation-software-rfp-3nlm",
+      "summary": "A marketing automation software RFP should tell vendors what your team needs to achieve, which systems the software must connect with, what data must move into the new platform, how security and privacy should work, what implementation support you expect, and how you will compare pricing and vendor responses.\n\nThe more specific you are, the easier it becomes to compare platforms fairly. Asking whether a product has “email automation” or “lead scoring” tells you very little. Asking a vendor to explain exactly how it would handle one of your real campaigns gives you a much clearer answer.\n\nHere ",
+      "source": "Dev.to AI",
+      "published": "2026-10-01T13:59:13+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "6e4b461b9220",
+      "title": "Four compliance filings with a document behind each one",
+      "url": "https://dev.to/kyisaiah47/four-compliance-filings-with-a-document-behind-each-one-2b2l",
+      "summary": "Four compliance filings share a document trail from intake to the artifact someone needs to act. These pages turn scope answers, tracker findings, removal notices and accessibility checks into records you can use.\n\n\n  \n  \n  What these pages cover\n\n\nThese pages cover compliance work where the output is a policy, report, runbook, notice or repair record.\n\n\n\n\nPartsProof\n\n\n  \n  \n  PartsProof\n\n\n\n\n\n\n\n\n\n\n\n\nPartsProof checks whether a software or connected hardware product falls within the EU Cyber Resilience Act. Its scope checker asks six questions and returns the scope result, obligation dates and ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-01T13:53:36+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "86c1a5630de1",
+      "title": "Does TMLR Confirmation email take time?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuxcwd/does_tmlr_confirmation_email_take_timed/",
+      "summary": "I can see the submission on Openreview but didn't get any email/notif. It's been 2 hours, I heard I'm supposed to choose action editor or smth. Am I missing something? First publication ever pls be kind to the noob.  &#32; submitted by &#32;  /u/Audaticreddit   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-01T11:49:52+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "0b2fea1ba4c1",
+      "title": "How to Verify a Provably Fair Game Result Yourself",
+      "url": "https://dev.to/itsblog/how-to-verify-a-provably-fair-game-result-yourself-1n94",
+      "summary": "You can check a provably fair result by hand with three inputs: the server seed the site revealed after your bets, the client seed you supplied, and the nonce, a counter that numbers each bet made under that pair of seeds. The check has two parts. First, the SHA-256 hash of the revealed server seed has to equal the one the site published before you played. Second, all three values go through HMAC-SHA256, and the first bytes of the output, converted to a number, have to reproduce the game result.\n\nThe worked example below uses invented seeds and the common SHA-256 and HMAC-SHA256 construction r",
+      "source": "Dev.to Programming",
+      "published": "2026-10-01T13:25:33+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "31b04f65ec44",
+      "title": "Your AI Bill Is a Toll Booth. Stop Paying Twice.",
+      "url": "https://towardsdatascience.com/your-ai-bill-is-a-toll-booth-stop-paying-twice/",
+      "summary": "The budget nobody saw coming\nThe post Your AI Bill Is a Toll Booth. Stop Paying Twice. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-01T11:00:01+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "4141c50f4da5",
+      "title": "DoorDash launches an AI agent you can text to order food",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T16:00:24+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "20b52029e360",
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-09-30T17:37:40+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "fb27ade3239a",
+      "title": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second",
+      "url": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cursor has introduced Continuity, a Git storage architecture that uses an S3 backed write ahead log as the source of truth. The design turns local NVMe repositories into warm caches and separates replica coordination from consistency. Cursor reports linear read scaling with up to 100 replicas and more than 300 pushes per second with S3 Express One Zone in synthetic tests. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-09-30T13:47:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "ff26d4a382ed",
+      "title": "Airbnb adds AI search, more social features",
+      "url": "https://techcrunch.com/2026/09/30/airbnb-adds-ai-search-more-social-features/",
+      "summary": "Airbnb is also launching new services such as meal delivery and laundry in select locations.",
+      "source": "TechCrunch AI",
+      "published": "2026-09-30T12:00:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "6a3921fa5dda",
+      "title": "SvelteKit 3 Reaches Release Candidate, Moving Config to Vite and Retiring the $lib Alias",
+      "url": "https://www.infoq.com/news/2026/09/sveltekit-3-vite/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Svelte team has entered the release candidate phase for SvelteKit 3, which focuses on code refinement and prepares for future updates. Notable changes include moving configuration to vite.config.ts, replacing the $lib alias with #lib for improved compatibility. SvelteKit 3 requires Vite 8 and Svelte 5, enhancing error handling and build efficiency, while retaining some experimental features. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-09-30T05:58:00+00:00",
+      "score": 2.22,
+      "image": null
+    },
+    {
+      "id": "9d1713366e29",
+      "title": "Insight Is Still the Currency of Data Science",
+      "url": "https://towardsdatascience.com/insight-is-still-the-currency-of-data-science/",
+      "summary": "Coding agents give us more time for discovery and our review practices should follow the analysis\nThe post Insight Is Still the Currency of Data Science appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-09-30T14:00:02+00:00",
+      "score": 2.17,
+      "image": null
+    },
+    {
+      "id": "d52a4560bb9d",
+      "title": "Concurrent Image Understanding and Generation: Self-Correcting Coupled Markov Jump Processes [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtyl5m/concurrent_image_understanding_and_generation/",
+      "summary": "coupled-jump.github.io Hi everyone, I’m happy to share our recent NeurIPS 2026 paper, a collaboration across Google, Google DeepMind and Stony Brook University. We study a mismatch in joint text and image generation: a model can describe the correct solution to a maze while drawing a different path. Generating both outputs in parallel doesn’t necessarily keep them consistent. Our sampler, CO₂Jump, uses text confidence and cross-modal attention to guide image updates during sampling. It also allows low-confidence tokens to be masked again and regenerated, so earlier decisions can be revised as ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-09-30T07:28:34+00:00",
+      "score": 2.1,
+      "image": null
+    }
+  ]
+}
