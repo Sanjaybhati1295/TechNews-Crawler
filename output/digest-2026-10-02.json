@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "OpenAI DevDay 2026 Recap for Developers",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI DevDay 2026 Recap for Developers (InfoQ). DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents (InfoQ). Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images (InfoQ). Envoy Gateway 1.9.1 Tightens Security and Addresses a Difficult Upgrade Path (InfoQ). How LLMs Work: A Journey Through One Sentence (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Where the Agent Development Lifecycle Fits (Towards Data Science). [D] Self-Promotion Thread (Reddit r/MachineLearning). How smaller, distributed batteries could help the grid (MIT Tech Review)."
+      }
+    ],
+    "key_takeaway": "OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions API, and new plugin capabilities for ChatGPT. By Daniel Dominguez"
+  },
+  "articles": [
+    {
+      "id": "2a1a02b5b29f",
+      "title": "OpenAI DevDay 2026 Recap for Developers",
+      "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions API, and new plugin capabilities for ChatGPT. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-10-02T10:39:00+00:00",
+      "score": 4.75,
+      "image": "https://res.infoq.com/news/2026/10/openai-devday-2026/en/headerimage/generatedHeaderImage-1790873120154.jpg"
+    },
+    {
+      "id": "bf6f78bd0b33",
+      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-02T09:00:00+00:00",
+      "score": 4.16,
+      "image": "https://res.infoq.com/news/2026/10/digitalocean-managed-agents/en/headerimage/digitalocean-managed-agents-1790930999544.jpeg"
+    },
+    {
+      "id": "58d0503c7613",
+      "title": "Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images",
+      "url": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-10-02T09:00:00+00:00",
+      "score": 3.96,
+      "image": "https://res.infoq.com/news/2026/10/docker-sandbox-ai-agent/en/headerimage/generatedHeaderImage-1790838829021.jpg"
+    },
+    {
+      "id": "77555692b68d",
+      "title": "Envoy Gateway 1.9.1 Tightens Security and Addresses a Difficult Upgrade Path",
+      "url": "https://www.infoq.com/news/2026/10/envoy-gateway-1-9-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Envoy Gateway has released v1.9.1, a maintenance release that focuses heavily on security, upgrade reliability, and operational correctness following the broader v1.9 release. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-02T12:00:00+00:00",
+      "score": 3.92,
+      "image": "https://res.infoq.com/news/2026/10/envoy-gateway-1-9-1/en/headerimage/generatedHeaderImage-1790172096430.jpg"
+    },
+    {
+      "id": "797d7c1fa00e",
+      "title": "How LLMs Work: A Journey Through One Sentence",
+      "url": "https://dev.to/fx2mx3/how-llms-work-a-journey-through-one-sentence-pk8",
+      "summary": "How LLMs Work: A Journey Through Tokens, Attention, and Transformers\n\n\n“My favourite rock band is…”\n\nHow does a large language model take that unfinished sentence and decide what comes next?\n\nYou’ve probably heard that LLMs “predict the next token”. But that explanation skips the interesting part: everything that happens between typing a sentence and getting a prediction.\n\nSo, let’s follow that sentence through a transformer, from text to numbers, through embeddings and attention, all the way to the next token.\n\nI made a video walking through this journey, with vectors, matrix shapes, and prob",
+      "source": "Dev.to AI",
+      "published": "2026-10-02T13:10:20+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw65wni8y1p9anis0yff2.png"
+    },
+    {
+      "id": "684d12600894",
+      "title": "How to Build a Control Plane for AI Agents",
+      "url": "https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/",
+      "summary": "Giving an LLM permission to act, in 9 steps\nThe post How to Build a Control Plane for AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-02T11:00:00+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "1b98684141a1",
+      "title": "The death of the craft: Why development feels completely empty now.",
+      "url": "https://dev.to/jomich98/the-death-of-the-craft-why-backend-development-feels-completely-empty-now-1j2a",
+      "summary": "I’ve been a backend dev for about four years, and lately, I feel like I'm attending the funeral of my own profession every single morning at the daily stand-up. I am grieving a job that, technically, still exists. My title hasn't changed, my salary is the same, but the day-to-day reality of what I actually do is completely unrecognizable. We used to be the ones who built things from the ground up. We were engineers. Now, I spend half my day babysitting a machine, acting as a glorified editor for an LLM that hallucinates business logic.\n\nWhen I first started in this industry, the absolute best ",
+      "source": "Dev.to AI",
+      "published": "2026-10-02T13:11:08+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "d1307366d9ab",
+      "title": "Qualcomm Unveils Linux Preview on Snapdragon X2 to Accelerate Upstream ARM Laptops",
+      "url": "https://www.infoq.com/news/2026/10/snapdragon-x2-linux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Qualcomm has released an early dev preview of Linux for its upcoming Snapdragon X2 Series laptop processors. The initiative focuses on integrating with the mainline Linux kernel ahead of commercial release to reduce software issues historically faced by ARM laptops. The preview includes a functional Debian 13 environment and aims to standardize system initialization and hardware task management. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-10-01T14:14:00+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "32e01035fa04",
+      "title": "How Can AI Search, Understand, and Use Live Web Data?",
+      "url": "https://dev.to/kervi_11_/how-can-ai-search-understand-and-use-live-web-data-16lk",
+      "summary": "A developer can build a powerful application with a language model, but there is one problem that becomes obvious very quickly: the web keeps changing.\n\nNews updates, product prices, company information, search rankings, job listings, documentation, and other online information can change after a model has already been trained.\n\nSo how can an application work with information that is available on the web right now?\n\nThe answer is to give it access to live web search data.\n\n\n  \n  \n  Why Is Live Web Data Important?\n\n\nStatic information is useful for many tasks, but it is not enough when an appli",
+      "source": "Dev.to AI",
+      "published": "2026-10-02T13:15:24+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "b6e919cfb305",
+      "title": "My coding agent kept \"fixing\" proxy errors wrong, so I built an MCP server",
+      "url": "https://dev.to/ipvolt/my-coding-agent-kept-fixing-proxy-errors-wrong-so-i-built-an-mcp-server-3jg3",
+      "summary": "I work on proxy infrastructure, which means I read a lot of proxy errors. And I kept noticing the same thing: the coding agents I used were great at almost everything except this.  \n\nGive one a 407 and it would happily \"fix\" it by putting the proxy credentials into the target site's Authorization header. Show it a timeout on a POST and it would just retry, without asking whether the first request had already reached the server.\n\nThat's not the model being dumb. Proxy errors are a narrow area with a lot of confidently wrong answers floating around the internet, and the model has read plenty of ",
+      "source": "Dev.to AI",
+      "published": "2026-10-02T13:08:43+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8f9dc55ef4e1",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-231d",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-10-02T12:58:32+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "5f9dacb5e24b",
+      "title": "Where the Agent Development Lifecycle Fits",
+      "url": "https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/",
+      "summary": "Coordinating agent capability development with the application it powers\nThe post Where the Agent Development Lifecycle Fits appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-02T13:00:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "f45e4dcd9e5a",
+      "title": "The Difference Between SPA and PWA",
+      "url": "https://dev.to/coderifki/the-difference-between-spa-and-pwa-3mnf",
+      "summary": "When building modern web applications, you may come across the terms SPA (Single Page Application) and PWA (Progressive Web App). Although they are often mentioned together, they are actually different concepts.\n\nA SPA focuses on how an application works, while a PWA focuses on improving the web experience with features such as offline support, installation, and caching.\n\n\n  \n  \n  What Is a SPA?\n\n\nA Single Page Application (SPA) is a web application that loads a main page and dynamically updates its content without requiring a full page reload.\n\nFrameworks and libraries such as React, Vue, and",
+      "source": "Dev.to Programming",
+      "published": "2026-10-02T12:06:24+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "f85c4d066c1c",
+      "title": "Amazon releases its own Jev clone as decision models flood the web",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
+      "summary": "Amazon Web Services' Strand Labs has released the latest Jevalike decision model, Strands Decider 2B.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T16:49:22+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "cae1d709f184",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvi1j8/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-02T02:15:05+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "498d9d05d6fc",
+      "title": "Hearing tech startup Legato launches its AI hearing glasses",
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/",
+      "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T13:00:00+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "029f46c97d35",
+      "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
+      "url": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabilistic scores and confidence values. Jev's adoption has been swift, with integrations into platforms like Vercel and Netlify, highlighting its efficiency over traditional models. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-01T06:47:00+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "a2af7a6c887d",
+      "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+      "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+      "summary": "From verifying AI-written code to securing npm dependencies, these are the sessions I’m building my Universe agenda around.\nThe post 10 technical talks I’m excited about at GitHub Universe 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-01T15:07:16+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "de11222dc23d",
+      "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-01T12:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "e12bc6f6e8ce",
+      "title": "Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches?",
+      "url": "https://towardsdatascience.com/can-an-apartment-search-agent-call-the-model-fewer-times-and-still-find-good-matches/",
+      "summary": "I traced 2,500 listing checks with Weights &amp; Biases Weave, removed avoidable model work one change at a time, and scored every version against the same answers.\nThe post Can an Apartment Search Agent Call the Model Fewer Times and Still Find Good Matches? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-01T14:00:01+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "71c66f3bf2a3",
+      "title": "How smaller, distributed batteries could help the grid",
+      "url": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "summary": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-01T10:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "9469dbf63cc2",
+      "title": "Gemini 4 Argon - 1 Million Output Headroom. Hype or a Leap? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuvmpo/gemini_4_argon_1_million_output_headroom_hype_or/",
+      "summary": "I rarely write about benchmarks; a competitor always beats them next week. But I care about 'Leaps'. Gemini 4 Argon feels like one to me.  While Opus 5.5 and Astra cap output at 128-300K tokens (~90-180 pages), Argon hits 1 Million (~1400 pages).  &quot;Context glue&quot; ruins agentic workflows. On paper, this headroom fixes that. It means less contextual drift, no more breaking down long tasks, and zero 'continue prompt' loops. It is a massive unlock for large-scale code migrations, security patches, and deep reasoning. But let's look past the marketing. For 95% of everyday work, nobody need",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-01T10:12:56+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "86c1a5630de1",
+      "title": "Does TMLR Confirmation email take time?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wuxcwd/does_tmlr_confirmation_email_take_timed/",
+      "summary": "I can see the submission on Openreview but didn't get any email/notif. It's been 2 hours, I heard I'm supposed to choose action editor or smth. Am I missing something? First publication ever pls be kind to the noob.  &#32; submitted by &#32;  /u/Audaticreddit   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-01T11:49:52+00:00",
+      "score": 2.18,
+      "image": null
+    },
+    {
+      "id": "31b04f65ec44",
+      "title": "Your AI Bill Is a Toll Booth. Stop Paying Twice.",
+      "url": "https://towardsdatascience.com/your-ai-bill-is-a-toll-booth-stop-paying-twice/",
+      "summary": "The budget nobody saw coming\nThe post Your AI Bill Is a Toll Booth. Stop Paying Twice. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-01T11:00:01+00:00",
+      "score": 2.04,
+      "image": null
+    }
+  ]
+}
