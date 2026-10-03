@@ -1,0 +1,223 @@
+{
+  "digest": {
+    "headline": "Polly v8 Rewrote Itself From Scratch. Here's What Actually Changed",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Polly v8 Rewrote Itself From Scratch. Here's What Actually Changed (Dev.to Programming). Presentation: Building GenAI Platform at DoorDash (InfoQ). AI Agents Are Disrupting Open Source Security Disclosure (InfoQ). My OCR Pipeline Asked for 44 GB of RAM to Read Three Invoice Columns. The Fix Wasn't a Better Model. (Dev.to AI). Want to Contribute to Open Source? Join Me in Building 8DoTs (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Where the Agent Development Lifecycle Fits (Towards Data Science). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "Polly showed up briefly in an earlier post on modernising a legacy enterprise codebase on this blog, wiring resilience into a set of external calls that used to fail with nothing but a bare try/catch. It deserved more room than a section of a bigger post, because v8 wasn't an incremental update to v7. It didn't just add features to the fluent Policy API: it introduced a different resilience model, built around one pipeline of composable strategies instead of one policy object per concern.\n\nIf you learned Polly on Policy.Handle&lt;SomeException&gt;().WaitAndRetryAsync(...), returning an IAsyncP"
+  },
+  "articles": [
+    {
+      "id": "d39ca861ece2",
+      "title": "Polly v8 Rewrote Itself From Scratch. Here's What Actually Changed",
+      "url": "https://dev.to/adrianbailador/polly-v8-rewrote-itself-from-scratch-heres-what-actually-changed-1b68",
+      "summary": "Polly showed up briefly in an earlier post on modernising a legacy enterprise codebase on this blog, wiring resilience into a set of external calls that used to fail with nothing but a bare try/catch. It deserved more room than a section of a bigger post, because v8 wasn't an incremental update to v7. It didn't just add features to the fluent Policy API: it introduced a different resilience model, built around one pipeline of composable strategies instead of one policy object per concern.\n\nIf you learned Polly on Policy.Handle&lt;SomeException&gt;().WaitAndRetryAsync(...), returning an IAsyncP",
+      "source": "Dev.to Programming",
+      "published": "2026-10-03T11:11:48+00:00",
+      "score": 4.05,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fids7guba96j9pkg487az.png"
+    },
+    {
+      "id": "6b8a39bd842c",
+      "title": "Presentation: Building GenAI Platform at DoorDash",
+      "url": "https://www.infoq.com/presentations/doordash-genai-platform-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transitioning from vendor-first setups to open-weights models, navigating LLM and agent gateways, and balancing accuracy, latency, and cost for over 5,000 internal users. By Siddharth Kodwani, Swaroop Chitlur",
+      "source": "InfoQ",
+      "published": "2026-10-03T11:00:00+00:00",
+      "score": 4.04,
+      "image": "https://res.infoq.com/presentations/doordash-genai-platform-architecture/en/card_header_image/twitterCard-1790246592520.jpg"
+    },
+    {
+      "id": "1e46653c7d59",
+      "title": "AI Agents Are Disrupting Open Source Security Disclosure",
+      "url": "https://www.infoq.com/news/2026/10/open-source-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open source projects. The author highlights the need for faster patching and release processes as the time between vulnerability disclosure and exploitation shrinks. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-03T06:46:00+00:00",
+      "score": 3.9,
+      "image": "https://res.infoq.com/news/2026/10/open-source-ai-security/en/card_header_image/generatedCard-1789933952980.jpg"
+    },
+    {
+      "id": "157911ca35d8",
+      "title": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud",
+      "url": "https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Istio 1.31 adds agentgateway waypoints in ambient mode, with a canary configuration fix included in 1.31.1. It also ends the publication of images and Helm charts to Google Cloud, requiring repository migration ahead of the 13 October outage test and signing-key updates for teams verifying images. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-10-03T08:30:00+00:00",
+      "score": 3.8,
+      "image": "https://res.infoq.com/news/2026/10/istio-1-31-agentgateway/en/headerimage/header-1790887193946.jpeg"
+    },
+    {
+      "id": "7a6542e2a4cd",
+      "title": "My OCR Pipeline Asked for 44 GB of RAM to Read Three Invoice Columns. The Fix Wasn't a Better Model.",
+      "url": "https://dev.to/hram/my-ocr-pipeline-asked-for-44-gb-of-ram-to-read-three-invoice-columns-the-fix-wasnt-a-better-model-38j",
+      "summary": "The task was narrow. Take a phone photo of an UPD (a standard Russian invoice form), read the VAT rate from column 7, group the rows by rate, sum columns 8 and 9, and check the sums against the document total.\n\n\n\nphoto → find three columns → read the numbers → group by VAT rate → check the sums\n\n\n\n\n\n\nMy wife is an accountant and does this by hand, so I started building a tool for it with a coding agent. I assumed OCR would be the hard part. It turned out to be one of the easiest.\n\n\n  \n  \n  The first version: give the whole page to PaddleOCR\n\n\nMy own spec asked for the obvious architecture: Ope",
+      "source": "Dev.to AI",
+      "published": "2026-10-03T12:06:49+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fna17hzvrr37x20hueqsl.png"
+    },
+    {
+      "id": "62860e1b536f",
+      "title": "Want to Contribute to Open Source? Join Me in Building 8DoTs",
+      "url": "https://dev.to/pjyprovider/want-to-contribute-to-open-source-join-me-in-building-8dots-3pl9",
+      "summary": "Did you know that the software we write has a real-world carbon footprint? \n\nAs developers, we constantly profile our code for execution time and memory usage. But energy consumption remains largely invisible. That’s exactly what I’m trying to change with my open-source project, 8DoTs.\n\n\n  \n  \n  What is 8DoTs?\n\n\n8DoTs (internally structured as the dol8 Python package) is a command-line profiling tool designed to make energy consumption visible during software development. \n\nIt reads hardware energy counters (RAPL - Running Average Power Limit) and thermal sensors directly from the Linux kernel",
+      "source": "Dev.to Programming",
+      "published": "2026-10-03T11:24:06+00:00",
+      "score": 3.66,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcql86quaelft9f34l2ja.png"
+    },
+    {
+      "id": "f2e8aaf1d2d2",
+      "title": "Route planning for Southeast Asia without self-hosting OSRM",
+      "url": "https://dev.to/justrouting/route-planning-for-southeast-asia-without-self-hosting-osrm-33b1",
+      "summary": "Ask anyone who has run OSRM in production and they will tell you the same story: the routing engine is wonderful, and the server it runs on is a monster. The planet-wide graph wants 128 GB of RAM and a day of preprocessing. Even a Southeast Asia extract — the region many of us actually ship for — means tens of gigabytes of memory, multi-hour osrm-extract runs, and a recurring maintenance chore every time OpenStreetMap data is refreshed.\n\nThere is a hidden tax beyond the hardware, too. Someone has to babysit the pipeline: re-run the preprocessing when the OSM extract updates, watch memory press",
+      "source": "Dev.to AI",
+      "published": "2026-10-03T12:05:28+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "6025f87db198",
+      "title": "Looking To Buy Google Reviews? Do This Instead (Why You Should Not Buy)",
+      "url": "https://dev.to/usakyclite85/looking-to-buy-google-reviews-do-this-instead-why-you-should-not-buy-1133",
+      "summary": "Looking To Buy Google Reviews? Do This Instead (Why You Should Not Buy)\n\n⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ \n➤  📞✪🔯 Telegram : @usakyclite\n➤  📞✪🔯 WhatsApp :  +1 (719) 480-6771\n➤  📞✪🔯✈️Email : usakyclite@gmail.com\nVisit us: \nhttps://usakyclite.com/product/buy-google-reviews/\n⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐ ✪🔯 ⭐\n\n\n\nIntroduction\n\nThe phrase “Buy Google Reviews” refers to the practice of paying individuals or services to create or post reviews on a Google Business Profile. Although the topic is often discussed in online marketing, it also raises important questions about digital literacy, online communica",
+      "source": "Dev.to AI",
+      "published": "2026-10-03T11:55:55+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "671376af0637",
+      "title": "Bank Reconciliation: The Fastest Way to Match Statements to Your Books",
+      "url": "https://dev.to/christian_rousseau_c6a94f/bank-reconciliation-the-fastest-way-to-match-statements-to-your-books-3df8",
+      "summary": "Bank reconciliation is a fundamental financial process that ensures the cash balance in your accounting records matches the corresponding balance on your bank statement. While it might seem like a tedious chore, particularly for businesses handling a high volume of transactions, it's a critical practice for maintaining financial accuracy, detecting errors, and safeguarding against fraud.\n\nTraditionally, bank reconciliation involved manually comparing printed bank statements with ledger entries, ticking off matched transactions one by one. This method is not only time-consuming but also highly ",
+      "source": "Dev.to AI",
+      "published": "2026-10-03T11:54:04+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "2a1a02b5b29f",
+      "title": "OpenAI DevDay 2026 Recap for Developers",
+      "url": "https://www.infoq.com/news/2026/10/openai-devday-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions API, and new plugin capabilities for ChatGPT. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-10-02T10:39:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "651fafcbd394",
+      "title": "Python Decorators Explained Simply",
+      "url": "https://dev.to/qingluan/python-decorators-explained-simply-3nad",
+      "summary": "Python Decorators Explained Simply\n\n\n\n  \n  \n  Introduction\n\n\nPython Decorators Explained Simply is essential knowledge for every developer.\n\n\n  \n  \n  Key Points\n\n\n\nStart with the basics\nPractice regularly\nBuild real projects\nShare your knowledge\n\n\n\n  \n  \n  Getting Started\n\n\nThe best way to learn is by doing. Set up a test environment and experiment.\n\n\n  \n  \n  Best Practices\n\n\n\nFollow official documentation\nJoin community forums\nContribute to open source\nWrite about what you learn\n\n\n\n  \n  \n  Conclusion\n\n\nMastering python opens many career opportunities. Start today!\n\n\n\n\nFollow for more python c",
+      "source": "Dev.to Programming",
+      "published": "2026-10-03T11:34:06+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "bf6f78bd0b33",
+      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-02T09:00:00+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "5afa66c19841",
+      "title": "AI is changing developer work. Here are three skills to strengthen.",
+      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.\nThe post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-02T15:00:00+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "d386885c5292",
+      "title": "[R] Would you keep a robot demonstration if hand tracking missed the moment the plug went in?",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ww5ijc/r_would_you_keep_a_robot_demonstration_if_hand/",
+      "summary": "Suppose you’re recording a human plugging a cable into a socket to collect demonstrations for robot learning. The hand tracker captures the approach accurately. Then occlusion causes the hand estimates to disappear during insertion. Tracking returns after the connector is already seated. The video still shows a completed action, but the pose labels have a gap exactly where alignment turns into contact. This hypothetical example raises an evaluation question: a tracker could have high recall across the whole episode while missing a short, important phase. Pose error calculated only on successfu",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-02T21:18:22+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "58d0503c7613",
+      "title": "Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images",
+      "url": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-10-02T09:00:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "77555692b68d",
+      "title": "Envoy Gateway 1.9.1 Tightens Security and Addresses a Difficult Upgrade Path",
+      "url": "https://www.infoq.com/news/2026/10/envoy-gateway-1-9-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Envoy Gateway has released v1.9.1, a maintenance release that focuses heavily on security, upgrade reliability, and operational correctness following the broader v1.9 release. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-02T12:00:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "684d12600894",
+      "title": "How to Build a Control Plane for AI Agents",
+      "url": "https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/",
+      "summary": "Giving an LLM permission to act, in 9 steps\nThe post How to Build a Control Plane for AI Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-02T11:00:00+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "3f678e16ec14",
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-02T13:17:47+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "5f9dacb5e24b",
+      "title": "Where the Agent Development Lifecycle Fits",
+      "url": "https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/",
+      "summary": "Coordinating agent capability development with the application it powers\nThe post Where the Agent Development Lifecycle Fits appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-02T13:00:00+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "cae1d709f184",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wvi1j8/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-02T02:15:05+00:00",
+      "score": 2.02,
+      "image": null
+    }
+  ]
+}
