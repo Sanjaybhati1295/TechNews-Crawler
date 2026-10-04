@@ -1,0 +1,109 @@
+{
+  "digest": {
+    "headline": "Python Loops: How I Learned to Repeat Tasks Without Repeating Code",
+    "tldr": "Today's digest covers 9 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Python Loops: How I Learned to Repeat Tasks Without Repeating Code (Dev.to Programming). New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate (InfoQ). The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A” (Towards Data Science). Nonobench: an open benchmark of 49 LLMs on nonogram puzzles, public and open source [P] (Reddit r/MachineLearning). \"Accepted papers must be imported\" deadline NeurIPS 2026 [D] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud (InfoQ)."
+      }
+    ],
+    "key_takeaway": "One of the first things I noticed when writing Python programs was that I sometimes wanted to do the same thing several times.\n\nI could write the same line of code again and again, but that obviously wasn't a good way to program.\n\nThat's where loops came in.\n\nThe idea is simple, tell Python to repeat something for me.\n\nfor loops\n\nI use a for loop when I want to go through a collection of items or repeat something a specific number of times.\n\nFor example, suppose I have some products:\n\n\n\nInstead of writing four separate print() statements, Python goes through the list for me.\n\nThat was one of t"
+  },
+  "articles": [
+    {
+      "id": "5b4278ee235d",
+      "title": "Python Loops: How I Learned to Repeat Tasks Without Repeating Code",
+      "url": "https://dev.to/feddy_mwanjumwa_e4047cf0c/python-loops-how-i-learned-to-repeat-tasks-without-repeating-code-456p",
+      "summary": "One of the first things I noticed when writing Python programs was that I sometimes wanted to do the same thing several times.\n\nI could write the same line of code again and again, but that obviously wasn't a good way to program.\n\nThat's where loops came in.\n\nThe idea is simple, tell Python to repeat something for me.\n\nfor loops\n\nI use a for loop when I want to go through a collection of items or repeat something a specific number of times.\n\nFor example, suppose I have some products:\n\n\n\nInstead of writing four separate print() statements, Python goes through the list for me.\n\nThat was one of t",
+      "source": "Dev.to Programming",
+      "published": "2026-10-04T12:21:47+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fui9dkhjbisppkgkpldaw.png"
+    },
+    {
+      "id": "d12d12a54cb6",
+      "title": "New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate",
+      "url": "https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports zero successful attacks when running security benchmarks Bench-Corp (20 multi-step enterprise workflows) and AgentThreatBench, versus 10% for Claude Code’s auto mode and 31% for Microsoft FIDES. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-10-03T23:41:00+00:00",
+      "score": 3.46,
+      "image": "https://res.infoq.com/news/2026/10/open-APPA-zero-security-breach/en/headerimage/generatedHeaderImage-1791068760274.jpg"
+    },
+    {
+      "id": "95a991f04383",
+      "title": "The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A”",
+      "url": "https://towardsdatascience.com/the-reversal-curse-why-a-language-model-that-knows-a-is-b-cant-tell-you-b-is-a/",
+      "summary": "A model can recall a fact in the direction it learned it and fail in the other. Here's a toy version of why\nThe post The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A” appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-04T12:00:00+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "c5160cde71cd",
+      "title": "Nonobench: an open benchmark of 49 LLMs on nonogram puzzles, public and open source [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wxa2bs/nonobench_an_open_benchmark_of_49_llms_on/",
+      "summary": "Nonobench measures how well LLMs solve nonograms (picross). Each model gets the row and column clues once and returns the full grid. No tools, one attempt per puzzle. Method: - Standard mode: 30 puzzles from 5x5 to 15x15 (from the Nonograms dataset by Moyà-Alcover, CC BY 4.0). - Hard mode: ten random 20x20s, each checked to have a single solution. Five can't be solved by line logic alone. Random fills avoid picture puzzles that models can guess. - 130 variants across reasoning effort levels, run through OpenRouter and pinned to each lab's own endpoint where possible. Results: - Solve rates dro",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-04T07:57:28+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "bd6acc3c0cb2",
+      "title": "\"Accepted papers must be imported\" deadline NeurIPS 2026 [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wwz403/accepted_papers_must_be_imported_deadline_neurips/",
+      "summary": "On the NeurIPS 2026 Dates site it says that there is 1 day remaining for the &quot;Accepted papers must be imported&quot; deadline. This is my first research paper ever and I couldn't find anything about how to do this on the internet. Could someone help me out on what to do?  &#32; submitted by &#32;  /u/TroyAndAbedInTheMor   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-03T21:55:48+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "6b8a39bd842c",
+      "title": "Presentation: Building GenAI Platform at DoorDash",
+      "url": "https://www.infoq.com/presentations/doordash-genai-platform-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transitioning from vendor-first setups to open-weights models, navigating LLM and agent gateways, and balancing accuracy, latency, and cost for over 5,000 internal users. By Siddharth Kodwani, Swaroop Chitlur",
+      "source": "InfoQ",
+      "published": "2026-10-03T11:00:00+00:00",
+      "score": 2.66,
+      "image": "https://res.infoq.com/presentations/doordash-genai-platform-architecture/en/card_header_image/twitterCard-1790246592520.jpg"
+    },
+    {
+      "id": "1e46653c7d59",
+      "title": "AI Agents Are Disrupting Open Source Security Disclosure",
+      "url": "https://www.infoq.com/news/2026/10/open-source-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open source projects. The author highlights the need for faster patching and release processes as the time between vulnerability disclosure and exploitation shrinks. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-03T06:46:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "fd3584f423f9",
+      "title": "Measuring the Creativity Potential of LLM Agents",
+      "url": "https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/",
+      "summary": "Trying to answer the question of &quot;Can LLM agents discover?&quot; through the lens of creativity\nThe post Measuring the Creativity Potential of LLM Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-03T14:00:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "157911ca35d8",
+      "title": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud",
+      "url": "https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Istio 1.31 adds agentgateway waypoints in ambient mode, with a canary configuration fix included in 1.31.1. It also ends the publication of images and Helm charts to Google Cloud, requiring repository migration ahead of the 13 October outage test and signing-key updates for teams verifying images. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-10-03T08:30:00+00:00",
+      "score": 2.42,
+      "image": null
+    }
+  ]
+}
