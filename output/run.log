@@ -5242,3 +5242,36 @@
 2026-10-07 14:03:38,262  INFO     ────────────────────────────────────────────────────────────
 2026-10-07 14:03:38,262  INFO     Done!  Open: output/index.html
 2026-10-07 14:03:38,263  INFO     Headline: Google’s new SynthID website can identify AI-generated media
+2026-10-08 14:12:24,031  INFO     ============================================================
+2026-10-08 14:12:24,031  INFO     TECHPULSE Digest — 2026-10-08 14:12 UTC
+2026-10-08 14:12:24,031  INFO     ============================================================
+2026-10-08 14:12:24,031  INFO     Step 1/3 — Crawling feeds…
+2026-10-08 14:12:24,188  INFO       Hacker News                    → 1 significant articles
+2026-10-08 14:12:24,316  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-08 14:12:24,422  INFO       Ars Technica                   → 0 significant articles
+2026-10-08 14:12:25,113  INFO       The Register AI                → 0 significant articles
+2026-10-08 14:12:25,267  INFO       MIT Tech Review                → 2 significant articles
+2026-10-08 14:12:25,526  INFO       Dev.to AI                      → 2 significant articles
+2026-10-08 14:12:26,319  INFO       Dev.to Programming             → 2 significant articles
+2026-10-08 14:12:26,819  INFO       GitHub Blog                    → 0 significant articles
+2026-10-08 14:12:27,650  INFO       Google Research                → 0 significant articles
+2026-10-08 14:12:28,628  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-10-08 14:12:28,752  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-08 14:12:29,019  INFO       InfoQ                          → 2 significant articles
+2026-10-08 14:12:29,183  INFO       Towards Data Science           → 5 significant articles
+2026-10-08 14:12:29,419  INFO       Wired AI                       → 0 significant articles
+2026-10-08 14:12:29,698  INFO       TechCrunch AI                  → 0 significant articles
+2026-10-08 14:12:29,698  INFO     Fetching images for top articles…
+2026-10-08 14:12:29,815  INFO       🖼  ChatGPT Now Shows Ads Inside Image Generation
+2026-10-08 14:12:30,148  INFO       🖼  Cloudflare Open Sources Decision Models for AI Agents
+2026-10-08 14:12:30,264  INFO       🖼  The Download: AI roadblocks for humanoids and portable rubbe
+2026-10-08 14:12:30,432  INFO       🖼  What happens when you reject an AI agent's work in Bees
+2026-10-08 14:12:30,927  INFO     Total selected: 16 articles from 15 feeds
+2026-10-08 14:12:30,927  INFO     Selected 16 significant articles
+2026-10-08 14:12:30,927  INFO     Step 2/3 — Generating digest…
+2026-10-08 14:12:31,139  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-08 14:12:31,139  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-08 14:12:31,139  INFO     Step 3/3 — Rendering HTML…
+2026-10-08 14:12:31,140  INFO     ────────────────────────────────────────────────────────────
+2026-10-08 14:12:31,140  INFO     Done!  Open: output/index.html
+2026-10-08 14:12:31,140  INFO     Headline: ChatGPT Now Shows Ads Inside Image Generation

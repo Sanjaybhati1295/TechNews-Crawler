@@ -1,0 +1,175 @@
+{
+  "digest": {
+    "headline": "ChatGPT Now Shows Ads Inside Image Generation",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "ChatGPT Now Shows Ads Inside Image Generation (Dev.to AI). Cloudflare Open Sources Decision Models for AI Agents (InfoQ). The Download: AI roadblocks for humanoids and portable rubber dams (MIT Tech Review). What happens when you reject an AI agent's work in Bees (Dev.to AI). AI Agents Beat PyTorch: Writing Faster CUDA Kernels (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "OpenAI announced on October 5, 2026 that ChatGPT will start showing a new visual ad format inside its image generation workflow. Testing begins with a selected group of U.S. advertisers later this month. The first named result came the same day: WeightWatchers cut its attributed cost per acquisition 15.3% below its own benchmark. For anyone buying traffic, the biggest chatbot on earth just opened a second ad surface, and it looks nothing like search.\n\n\n  \n  \n  What OpenAI Actually Launched\n\n\nChatGPT already carried text ads in conversations. The new format is visual and sits inside image gener"
+  },
+  "articles": [
+    {
+      "id": "03f3f3650a49",
+      "title": "ChatGPT Now Shows Ads Inside Image Generation",
+      "url": "https://dev.to/yousif_alias_c623bba6573f/chatgpt-now-shows-ads-inside-image-generation-3g46",
+      "summary": "OpenAI announced on October 5, 2026 that ChatGPT will start showing a new visual ad format inside its image generation workflow. Testing begins with a selected group of U.S. advertisers later this month. The first named result came the same day: WeightWatchers cut its attributed cost per acquisition 15.3% below its own benchmark. For anyone buying traffic, the biggest chatbot on earth just opened a second ad surface, and it looks nothing like search.\n\n\n  \n  \n  What OpenAI Actually Launched\n\n\nChatGPT already carried text ads in conversations. The new format is visual and sits inside image gener",
+      "source": "Dev.to AI",
+      "published": "2026-10-08T14:08:55+00:00",
+      "score": 5.4,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fai-thumbnails.s3.amazonaws.com%2Feditor%2F83fbbdc8-323a-41a0-97dd-f8c8fd735342%2F421f13b5-83b5-4ee0-9341-a4909d71eaf6.png"
+    },
+    {
+      "id": "d8eb8a566e38",
+      "title": "Cloudflare Open Sources Decision Models for AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "During its recent “Birthday Week”, Cloudflare announced Clef, a set of open-weight AI models designed to choose between predefined options rather than generate text. Cloudflare released 9B- and 27B-parameter models, along with a platform for adapting them to specific decision-making tasks. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-08T06:54:00+00:00",
+      "score": 4.69,
+      "image": "https://res.infoq.com/news/2026/10/clef-decision-models/en/headerimage/generatedHeaderImage-1791183801035.jpg"
+    },
+    {
+      "id": "573f022b9568",
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-08T12:10:00+00:00",
+      "score": 3.79,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/fin1a-updated-mobile.jpg?resize=1200,600"
+    },
+    {
+      "id": "16c38cfd9248",
+      "title": "What happens when you reject an AI agent's work in Bees",
+      "url": "https://dev.to/beesbot/what-happens-when-you-reject-an-ai-agents-work-in-bees-4881",
+      "summary": "Most agent tools give you two choices when the output is wrong. Start over, or edit the prompt and hope. We wanted something in between for Bees, the open source desktop app we build that runs a team of AI agents on your own computer.\n\n\n  \n  \n  Every goal gets a reviewer\n\n\nA goal in Bees runs through three stages: Work, Review, Done. A work agent does the job. Then a fresh reviewer agent checks the result. It gets the goal, the deliverables and the evidence Bees recorded, but not the worker's private reasoning, so it judges the result on its own.\n\nIf the result falls short, the reviewer sends ",
+      "source": "Dev.to AI",
+      "published": "2026-10-08T14:11:18+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo3rr7qtjrjzbammll5vh.png"
+    },
+    {
+      "id": "03eda16f97ac",
+      "title": "AI Agents Beat PyTorch: Writing Faster CUDA Kernels",
+      "url": "https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/",
+      "summary": "AI agents can now write CUDA kernels that outperform PyTorch—but proving those speedups are real is the harder problem. I put them to the test on an NVIDIA DGX Spark and found that benchmark design matters just as much as the code.\nThe post AI Agents Beat PyTorch: Writing Faster CUDA Kernels appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T14:00:00+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "51f5aa8b4efc",
+      "title": "AHM Statement on OpenAI's October 6 Release of Mathematical Documents",
+      "url": "https://www.ahmath.org/statements",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-08T09:29:48+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "7e0548f31e36",
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-08T09:00:00+00:00",
+      "score": 3.61,
+      "image": null
+    },
+    {
+      "id": "a7dee5c667ec",
+      "title": "AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.",
+      "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/",
+      "summary": "An exploration of the new data science roles emerging after the Large Language Model explosion.\nThe post AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T11:00:00+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "691fb6c05748",
+      "title": "Python Loops at the Nairobi Animal Orphanage",
+      "url": "https://dev.to/david_mwandairo/python-loops-at-the-nairobi-animal-orphanage-1fkn",
+      "summary": "Nairobi is one of the few capitals with a national park inside its limits. Lions hunt on the plains while the city skyline stands in view. Near the Main Gate on Lang'ata Road, the Kenya Wildlife Service runs the Nairobi Animal Orphanage, which takes in orphaned, injured and abandoned animals, treats them, and gives them a chance to return to the wild.\n\nNow picture a day on the job. The park gates open at 6:00 a.m. Before they do, Wanjiru, a ranger at the orphanage, has a clipboard and a problem: dozens of small checks, and every one is the same. Look, tick, move on. A person does this with a p",
+      "source": "Dev.to Programming",
+      "published": "2026-10-08T14:10:01+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "3f4deb4ec587",
+      "title": "🎃 Hacktoberfest 2026: My Open Source Journey Begins 🚀",
+      "url": "https://dev.to/nikhilnkj2627/hacktoberfest-2026-my-open-source-journey-begins-16og",
+      "summary": "Hacktoberfest is here! 🌍💻\nThis year, I’m taking the opportunity to step beyond just building projects and start contributing more actively to the open-source ecosystem.\nAs a developer, I’ve spent a lot of time working on personal projects, exploring AI/ML, web development, and solving programming problems. But contributing to an existing open-source project brings a completely different learning experience.\n💡 Why I’m participating\nI want to improve my ability to:\n\n\n🔍 Understand and navigate real-world codebases\n🐛 Find and fix bugs\n✨ Build meaningful features\n📝 Improve documentation\n🔀 Create an",
+      "source": "Dev.to Programming",
+      "published": "2026-10-08T13:52:34+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "10d470fe2b2a",
+      "title": "Your Model's MSE Is Lying to You III: Time Series Diffusion",
+      "url": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/",
+      "summary": "A diffusion head for probabilistic time series forecasting: why a forecast can get the mean and the variance right and still describe a future that never happens, and how to fix it.\nThe post Your Model's MSE Is Lying to You III: Time Series Diffusion appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T12:30:00+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "05f6d95c500b",
+      "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
+      "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of their prior work Cosmos 2.5 which is cited about 100 times and got ICML’s spotlight. Authors are very well known and respected in the field with too many peer reviewed papers already published. The work doesn’t have much novelty (which I don’t care) but it is yet another foundation model. The gist is that they collected about 44k hours of human data (data are NOT open sourced, which I don’t care) and used that for pre-training of DreamDojo initialized fro",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-08T04:58:15+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "1065345d5f19",
+      "title": "The Consistency Quadrant: A Visual Guide to LLM Reliability",
+      "url": "https://towardsdatascience.com/the-consistency-quadrant-a-visual-guide-to-llm-reliability/",
+      "summary": "Mapping structural variance against execution outputs to estimate coding agent reliability without ground truth.\nThe post The Consistency Quadrant: A Visual Guide to LLM Reliability appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-07T12:30:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "e9d79f377e0a",
+      "title": "Looking for developer-friendly inference providers who give you enough API credits to experiment [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wzqmka/looking_for_developerfriendly_inference_providers/",
+      "summary": "I’m hitting rate limits on Together AI. For context, I’ve been working on an agentic repository indexing and benchmark generation tool, and I’m running multiple agents in parallel across models like Llama 3.3 70B and Qwen 2.5. When I first started working on this, Together AI was great. But once I graduated from toy scripts to running multiple agents, I started running into RPM/TPM limits pretty quickly. The annoying part is that the models themselves are fine. I just can’t actually run enough requests at once to do meaningful testing.  Yes I know I could upgrade but I’m a solo dev. I don’t ha",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-07T07:51:07+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "01bbdcaef5d5",
+      "title": "When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment",
+      "url": "https://towardsdatascience.com/when-do-pinns-beat-classical-numerical-methods-a-1d-vs-5d-experiment/",
+      "summary": "I put a physics-informed neural network up against a plain finite-difference solver twice: once in 1D and once in 5D. The winner changed.\nThe post When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-07T11:00:00+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "c4186a162c33",
+      "title": "Spanner Omni Reaches GA, Replacing Google's Atomic Clocks and File System with Software",
+      "url": "https://www.infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has made Spanner Omni generally available, running its distributed SQL database on-premises, across clouds or on a laptop. Doing so meant replacing Colossus with a Colossus-like abstraction layer and TrueTime with software-based time synchronization. There is no availability SLA, and practitioners are pricing the move in tail latency and operational toil. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-07T04:43:00+00:00",
+      "score": 1.84,
+      "image": null
+    }
+  ]
+}
