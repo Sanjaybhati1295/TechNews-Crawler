@@ -1,0 +1,275 @@
+{
+  "digest": {
+    "headline": "HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability",
+    "tldr": "Today's digest covers 26 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability (InfoQ). Olson and Söderqvist Discuss Valkey’s Evolution and Future Past Caching Use Cases at OSS EU (InfoQ). Moonworks Lunara: Modeling Artistic Intelligence [R] (Reddit r/MachineLearning). ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workflows graded on terminal database state [R] (Reddit r/MachineLearning). Anthropic changes usage policy to ban model abuse and election interference (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "HashiCorp has announced the general availability of version 8.0 of the Terraform provider for Google Cloud. The major release updates the default load balancing for two Compute Engine resources. It also removes resources linked to retired Google Cloud services. By Claudio Masolo"
+  },
+  "articles": [
+    {
+      "id": "56dc417f9afd",
+      "title": "HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability",
+      "url": "https://www.infoq.com/news/2026/10/terraform-google-cloud-provider/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has announced the general availability of version 8.0 of the Terraform provider for Google Cloud. The major release updates the default load balancing for two Compute Engine resources. It also removes resources linked to retired Google Cloud services. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-10-09T08:00:00+00:00",
+      "score": 4.27,
+      "image": "https://res.infoq.com/news/2026/10/terraform-google-cloud-provider/en/headerimage/generatedHeaderImage-1791470649216.jpg"
+    },
+    {
+      "id": "39cf35f093a8",
+      "title": "Olson and Söderqvist Discuss Valkey’s Evolution and Future Past Caching Use Cases at OSS EU",
+      "url": "https://www.infoq.com/news/2026/10/valkey-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Valkey is a growing project, launched as a fork of Redis over two years ago, supported by twelve maintainers and nine committee members from various companies. Recent developments include enhanced throughput, improved cluster functionality, and plans for features like synchronous replication and tiered storage. The project also emphasises security and release efficiency through automation. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-10-09T09:09:00+00:00",
+      "score": 4.23,
+      "image": "https://res.infoq.com/news/2026/10/valkey-evolution/en/card_header_image/generatedCard-1791472141747.jpg"
+    },
+    {
+      "id": "a3019d0f2abe",
+      "title": "Moonworks Lunara: Modeling Artistic Intelligence [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x13zf7/moonworks_lunara_modeling_artistic_intelligence_r/",
+      "summary": "Lunara introduces a novel Diffusion Mixture Transformer architecture with fewer than 10B active parameters for modeling artistic intelligence in image generation. Its CAT training algorithm iteratively updates the training distribution through targeted sample acquisition, image refinement, and selective inclusion of human-created artwork inspired by principles of active learning. Semantic variations modify composition while preserving shared content, providing controlled neighborhoods of related training examples. Evaluation uses 1,000 shared prompts and 8,000 generated images, measuring aesth",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-08T21:54:09+00:00",
+      "score": 4.01,
+      "image": null
+    },
+    {
+      "id": "1d2061be1eb5",
+      "title": "ThinkingBox: Solving an agent task once vs. solving it 20/20: 507 stateful workflows graded on terminal database state [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/",
+      "summary": "Figure 1b from our paper Disclosure: I'm one of the authors (Microsoft). The paper, code, dataset are public and ThinkingBox is on Hugging Face OpenEnv as well. Raw evaluation trajectories are not released Links at the bottom. We wanted to know how much of a single agent success rate survives repetition, and whether &quot;the agent finished the task&quot; means the backend/database actually ended up in the correct state. Setup  Thinkingbox-Bench includes 507 policy conditioned business workflows across 5 domains (retail, travel/hospitality, auto insurance, neobank internal IT, consulting IT/HR",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-09T00:50:36+00:00",
+      "score": 3.97,
+      "image": null
+    },
+    {
+      "id": "0542b0f0c0fe",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "summary": "Anthropic's updated usage policy explicitly prohibits users from repeatedly abusing Claude in extreme cases, though ordinary frustration and criticism are still allowed. The new rules also address election interference, deceptive campaigns, weapons software, and surveillance.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-08T18:16:24+00:00",
+      "score": 3.8,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294192768.jpg?resize=1200,798"
+    },
+    {
+      "id": "8988e5c5d314",
+      "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency of about one second at p99; a tester reported end-to-end p99 of 7.5 seconds, which a commenter answering for the team said was higher than expected. Consume charges match produce charges per GB. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-09T05:06:00+00:00",
+      "score": 3.71,
+      "image": "https://res.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/en/headerimage/generatedHeaderImage-1791040228747.jpg"
+    },
+    {
+      "id": "b6a38e1310c4",
+      "title": "Top 5 MCP Registry Tools for Enterprise AI Governance (2026)",
+      "url": "https://dev.to/kuldeep_paul/top-5-mcp-registry-tools-for-enterprise-ai-governance-2026-52ap",
+      "summary": "TL;DR\n\n\nAn MCP registry serves as the authoritative catalog where enterprises discover, index, and publish Model Context Protocol servers for AI agents.\nPure metadata registries provide discovery, but production security requires runtime enforcement, identity binding, and endpoint visibility.\n\nBifrost ranks first because it combines a governed catalog with runtime proxy enforcement, virtual keys, and endpoint discovery through Bifrost Edge.\nThe official community registry, JFrog, Docker, and Stacklok provide complementary capabilities spanning open discovery, binary artifact curation, and cont",
+      "source": "Dev.to AI",
+      "published": "2026-10-09T13:56:03+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "12c2c27c0af6",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&#160; But recently, the idea that AI shouldn’t&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-09T09:00:00+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "a6aec4d82fb8",
+      "title": "Build Your First AI Agent with One Tool Call",
+      "url": "https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/",
+      "summary": "AI Agents for Beginners, Part 1\nThe post Build Your First AI Agent with One Tool Call appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T12:30:00+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "1d22f8fe43c4",
+      "title": "Stop Using AI. Start Hiring It.",
+      "url": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
+      "summary": "AI agents can now write more code than any of us can read. That changed how I think about AI.\nThe post Stop Using AI. Start Hiring It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T11:00:00+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "7e97fd15ee3c",
+      "title": "7 Lessons I Learned Building Production APIs in Go",
+      "url": "https://dev.to/parsaaftabi/7-lessons-i-learned-building-production-apis-in-go-35f9",
+      "summary": "TL;DR: After shipping several production systems in Go — coming from PHP/Laravel — these are the seven lessons that actually mattered: boring project structure, context.Context everywhere, fixing the database before adding cache, deliberate Redis caching, request-ID logging, graceful shutdown, and thin handlers. Code included.\n\n\n\n\nWhen I first picked up Go, I came from PHP/Laravel land — where the framework holds your hand through everything. Go handed me a toolbox, pointed at the horizon, and said \"good luck.\"\n\nA few production systems later, here are the seven lessons that actually stuck. No",
+      "source": "Dev.to Programming",
+      "published": "2026-10-09T13:57:37+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "199a327e495f",
+      "title": "The AI Co-Pilot Dilemma: Does Code Generation Stifle Authentic Programming Practice?",
+      "url": "https://dev.to/fuadhusnan_f44f3e13/the-ai-co-pilot-dilemma-does-code-generation-stifle-authentic-programming-practice-3lmk",
+      "summary": "AI coding assistants now write boilerplate, suggest entire functions, and explain error messages in seconds. For many developers, that speed feels like a gift. For others, it raises an uncomfortable question: does code generation stifle authentic programming practice? The honest answer is that it depends on how the tool is used, and the difference between a shortcut and a crutch is worth understanding before it shapes your career.\n\n\n  \n  \n  Why the Question Matters\n\n\nProgramming has always been a skill built through friction. You struggle with a loop that never terminates, you read documentati",
+      "source": "Dev.to Programming",
+      "published": "2026-10-09T13:45:45+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d8eb8a566e38",
+      "title": "Cloudflare Open Sources Decision Models for AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "During its recent “Birthday Week”, Cloudflare announced Clef, a set of open-weight AI models designed to choose between predefined options rather than generate text. Cloudflare released 9B- and 27B-parameter models, along with a platform for adapting them to specific decision-making tasks. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-08T06:54:00+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "50c39c80a2ce",
+      "title": "Have URMs and UTs been integrated into frontier models? Or did they disappear into the dustbin of forgotten papers? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x11ufl/have_urms_and_uts_been_integrated_into_frontier/",
+      "summary": "UT-based small models, despite being trained from scratch on these tasks without internet-scale pre-training, consistently outperform most standard Transformer-based Large Language models (LLMs) by a significant margin. 👈 The Universal Transformer (UT) extends the standard Transformer by introducing recurrent computation over depth. Instead of stacking L distinct layers, the UT applies a single transition block repeatedly to refine token representations. For an input sequence x with embedding matrix H0 ∈ Rn×d , the UT updates states as Ht+1 = LayerNorm(Ht + MHA(Ht )) followed by a shared posit",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-08T20:28:20+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "e9412c80c28c",
+      "title": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+      "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+      "summary": "Goodfire just launched what it says is a cheaper way to keep AI agents in check: Instead of paying a second AI to read everything an agent does, its monitors peek inside the model while it works and only call in backup when something looks fishy.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-08T16:00:00+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "ac9ca90001ec",
+      "title": "Google releases a new local-first Granola competitor",
+      "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+      "summary": "Google’s new AI Edge Foresight app takes on Granola with an offline meeting note-taker that can transcribe conversations, generate notes, and answer questions using on-device AI.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-08T13:28:39+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "80b90aa345ba",
+      "title": "China’s Manus raises over $500M in first funding round since split with Meta",
+      "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+      "summary": "Boyu Capital and IDG Capital led the funding round, and existing shareholders Tencent, HSG (formerly known as Sequoia China), ZhenFund, and others also participated.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-08T13:20:32+00:00",
+      "score": 3.13,
+      "image": null
+    },
+    {
+      "id": "33a4496777d2",
+      "title": "Cal AI’s 19-year-old founder just raised $10M for his new AI startup",
+      "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+      "summary": "Zach Yadegari, the teen co-founder of popular Cal AI calorie tracking app, has launched a new personal AI agent startup that competes with Instinct, Muse, and Bee.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-08T14:00:00+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "e98e25a5c1b7",
+      "title": "How one bug bounty researcher chooses the features they investigate",
+      "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+      "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.\nThe post How one bug bounty researcher chooses the features they investigate appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-08T17:02:52+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "573f022b9568",
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "url": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-08T12:10:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "03eda16f97ac",
+      "title": "AI Agents Beat PyTorch: Writing Faster CUDA Kernels",
+      "url": "https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/",
+      "summary": "AI agents can now write CUDA kernels that outperform PyTorch—but proving those speedups are real is the harder problem. I put them to the test on an NVIDIA DGX Spark and found that benchmark design matters just as much as the code.\nThe post AI Agents Beat PyTorch: Writing Faster CUDA Kernels appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T14:00:00+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "7e0548f31e36",
+      "title": "AI breakthroughs in robotics won’t change your life any time soon",
+      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-08T09:00:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "da10a2b45fa6",
+      "title": "Everyone Is Selling AI at You — Here’s How to Keep Your Judgement",
+      "url": "https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/",
+      "summary": "Three moves to decode the hype\nThe post Everyone Is Selling AI at You — Here’s How to Keep Your Judgement appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T15:30:00+00:00",
+      "score": 2.25,
+      "image": null
+    },
+    {
+      "id": "a7dee5c667ec",
+      "title": "AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.",
+      "url": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/",
+      "summary": "An exploration of the new data science roles emerging after the Large Language Model explosion.\nThe post AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T11:00:00+00:00",
+      "score": 2.2,
+      "image": null
+    },
+    {
+      "id": "10d470fe2b2a",
+      "title": "Your Model's MSE Is Lying to You III: Time Series Diffusion",
+      "url": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/",
+      "summary": "A diffusion head for probabilistic time series forecasting: why a forecast can get the mean and the variance right and still describe a future that never happens, and how to fix it.\nThe post Your Model's MSE Is Lying to You III: Time Series Diffusion appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-08T12:30:00+00:00",
+      "score": 2.08,
+      "image": null
+    },
+    {
+      "id": "05f6d95c500b",
+      "title": "Nvidia’s erroneous paper accepted as ICML’s spotlight [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
+      "summary": "Here is the story: Nvidia has published this work (with source code available) called dreamDojo which is a world model for robotics based of their prior work Cosmos 2.5 which is cited about 100 times and got ICML’s spotlight. Authors are very well known and respected in the field with too many peer reviewed papers already published. The work doesn’t have much novelty (which I don’t care) but it is yet another foundation model. The gist is that they collected about 44k hours of human data (data are NOT open sourced, which I don’t care) and used that for pre-training of DreamDojo initialized fro",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-08T04:58:15+00:00",
+      "score": 1.77,
+      "image": null
+    }
+  ]
+}
