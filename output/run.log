@@ -5308,3 +5308,38 @@
 2026-10-09 13:59:45,755  INFO     ────────────────────────────────────────────────────────────
 2026-10-09 13:59:45,755  INFO     Done!  Open: output/index.html
 2026-10-09 13:59:45,755  INFO     Headline: HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability
+2026-10-10 13:09:07,536  INFO     ============================================================
+2026-10-10 13:09:07,537  INFO     TECHPULSE Digest — 2026-10-10 13:09 UTC
+2026-10-10 13:09:07,537  INFO     ============================================================
+2026-10-10 13:09:07,537  INFO     Step 1/3 — Crawling feeds…
+2026-10-10 13:09:07,831  INFO       Hacker News                    → 1 significant articles
+2026-10-10 13:09:08,027  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-10 13:09:08,195  INFO       Ars Technica                   → 0 significant articles
+2026-10-10 13:09:08,738  INFO       The Register AI                → 0 significant articles
+2026-10-10 13:09:08,838  INFO       MIT Tech Review                → 1 significant articles
+2026-10-10 13:09:08,957  INFO       Dev.to AI                      → 3 significant articles
+2026-10-10 13:09:09,095  INFO       Dev.to Programming             → 4 significant articles
+2026-10-10 13:09:09,309  INFO       GitHub Blog                    → 0 significant articles
+2026-10-10 13:09:09,923  INFO       Google Research                → 0 significant articles
+2026-10-10 13:09:11,110  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-10-10 13:09:11,152  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-10 13:09:11,597  INFO       InfoQ                          → 5 significant articles
+2026-10-10 13:09:11,672  INFO       Towards Data Science           → 5 significant articles
+2026-10-10 13:09:11,799  INFO       Wired AI                       → 0 significant articles
+2026-10-10 13:09:11,856  INFO       TechCrunch AI                  → 1 significant articles
+2026-10-10 13:09:11,856  INFO     Fetching images for top articles…
+2026-10-10 13:09:12,502  INFO       🖼  Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic
+2026-10-10 13:09:12,591  INFO       🖼  The Farmers Market Gig: Prices, Crowds, and What's Actually 
+2026-10-10 13:09:12,688  INFO       🖼  The Break-Room Gig: Five Micro-Tasks You Can Do Without Leav
+2026-10-10 13:09:12,760  INFO       🖼  The Agent Workforce Stack: Identity, Briefing, Dispatch, Pro
+2026-10-10 13:09:12,817  INFO       🖼  Egg Dropping: Min Outside, Max Inside
+2026-10-10 13:09:12,867  INFO       🖼  Conducting a my first Hackathon
+2026-10-10 13:09:12,867  INFO     Total selected: 20 articles from 15 feeds
+2026-10-10 13:09:12,868  INFO     Selected 20 significant articles
+2026-10-10 13:09:12,868  INFO     Step 2/3 — Generating digest…
+2026-10-10 13:09:13,389  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-10 13:09:13,389  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-10 13:09:13,389  INFO     Step 3/3 — Rendering HTML…
+2026-10-10 13:09:13,390  INFO     ────────────────────────────────────────────────────────────
+2026-10-10 13:09:13,390  INFO     Done!  Open: output/index.html
+2026-10-10 13:09:13,390  INFO     Headline: Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring

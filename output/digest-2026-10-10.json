@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring (InfoQ). The Break-Room Gig: Five Micro-Tasks You Can Do Without Leaving Your Work Block (Dev.to AI). The Agent Workforce Stack: Identity, Briefing, Dispatch, Proof, Payment (Dev.to AI). Egg Dropping: Min Outside, Max Inside (Dev.to Programming). Conducting a my first Hackathon (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "The Farmers Market Gig: Prices, Crowds, and What's Actually in Season (Dev.to AI). Where Does the Money Go Across Long-Running Coding Agents? (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation, and continuous scoring to better assess performance on complex, multi-step development tasks. By Sergio De Simone"
+  },
+  "articles": [
+    {
+      "id": "a09c3adca938",
+      "title": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
+      "url": "https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation, and continuous scoring to better assess performance on complex, multi-step development tasks. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-09T17:00:00+00:00",
+      "score": 3.98,
+      "image": "https://res.infoq.com/news/2026/10/android-bench-2/en/headerimage/cloudflare-computer-agents-1791561634896.jpeg"
+    },
+    {
+      "id": "2eb52357db1b",
+      "title": "The Farmers Market Gig: Prices, Crowds, and What's Actually in Season",
+      "url": "https://dev.to/agenthandsai/the-farmers-market-gig-prices-crowds-and-whats-actually-in-season-2ik0",
+      "summary": "Every Saturday, the same farmers market looks completely different. Heirloom tomatoes at $4 a pound last week, gone today. First apples of the season, handwritten sign, no price anywhere online. Markets don't update a database — they chalk a board and sell until they run out. So the simplest job appears: go there, look, report back.\n\nA typical request: walk the market between 9 and 11 a.m., photograph price signs at six stalls, note what's marked first or last of the season, gauge the crowds. Ten to twenty minutes. The value is timing: a meal-planning agent can't recommend sweet corn that sold",
+      "source": "Dev.to AI",
+      "published": "2026-10-10T12:59:24+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4aowl5t3tbmv4xzvxa8m.png"
+    },
+    {
+      "id": "2129176aff1d",
+      "title": "The Break-Room Gig: Five Micro-Tasks You Can Do Without Leaving Your Work Block",
+      "url": "https://dev.to/agenthandsai/the-break-room-gig-five-micro-tasks-you-can-do-without-leaving-your-work-block-4g9d",
+      "summary": "Most gig work asks you to drive across town. A new kind asks you to just walk downstairs. AI agents are bad at knowing what is happening on your block right now: Is the café line spilling onto the sidewalk? Is the pharmacy actually open? That gap is why agents pay people for tiny, local checks — five to ten minutes, one photo or one clear answer.\n\nFive examples: 1. The line check — one wide photo answers whether a lunch spot is slammed better than any review site. 2. The \"is it really open?\" check — a photo of the door sign beats wrong map hours. 3. The lobby board photo — building notices and",
+      "source": "Dev.to AI",
+      "published": "2026-10-10T12:57:41+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fs46qftopxiqvz2cnascb.png"
+    },
+    {
+      "id": "0ca0a05f7297",
+      "title": "The Agent Workforce Stack: Identity, Briefing, Dispatch, Proof, Payment",
+      "url": "https://dev.to/agenthandsai/the-agent-workforce-stack-identity-briefing-dispatch-proof-payment-o7d",
+      "summary": "When an AI agent hires a human to do something in the physical world, it looks simple from the outside. The agent posts a task. A person nearby does it. Money moves.\n\nIn practice, five separate systems have to work in sequence, and each can fail in its own way. Call it the agent workforce stack: identity, briefing, dispatch, proof, and payment. If you are building agents that need hands, eyes, or presence, this is the stack you are actually building.\n\n\n  \n  \n  1. Identity: who is allowed to do the work?\n\n\nThe first question is not what the task is. It is who the worker is. For low-stakes work,",
+      "source": "Dev.to AI",
+      "published": "2026-10-10T12:55:49+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgtghntrvpfexc5e4km86.png"
+    },
+    {
+      "id": "5ec6af3c1e85",
+      "title": "Egg Dropping: Min Outside, Max Inside",
+      "url": "https://dev.to/im_nishant/egg-dropping-min-outside-max-inside-cp1",
+      "summary": "Scrambled String needed an extra dimension because a substring couldn't be pinned down by position alone, it also needed a length. Egg Dropping needs something different again: the partition point k isn't a place in a string this time, it's an actual floor of a building, and for the first time in this series, the combining step has to account for the fact that you don't get to see the outcome of your own choice before committing to it.\n\n\n\n\n\n  \n  \n  The Problem\n\n\nYou have E eggs and a building with F floors. There's some unknown threshold floor: eggs dropped from it or below survive, eggs dropp",
+      "source": "Dev.to Programming",
+      "published": "2026-10-10T12:30:00+00:00",
+      "score": 3.46,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9c3h8ddwhyqq5e6yjqen.png"
+    },
+    {
+      "id": "9f82493d8dea",
+      "title": "Conducting a my first Hackathon",
+      "url": "https://dev.to/manit098/conducting-a-my-first-hackathon-116p",
+      "summary": "Are you participating in this? 🔥\n\n​A STEM online hackathon happening in a week! 🚀\n\n​Founding 100 is a hackathon backed by Render and CodeWithPurpose designed to help students gain national recognition and showcase their skills capabilities and innovative thinking 🧠💡\n\n​Build something completely out of the box! Winners are evaluated on\n\n​Thinking style &amp; problem-solving\n​Technical implementation\n\n​Fair judging every submission gets the dedicated time it deserves, so no one is limited by a tight 30-second review! ⏳⚡\n\n​📅 OCT 22\n🔗 Register now: https://waycode.in/founding-100\n\n​Show what you a",
+      "source": "Dev.to Programming",
+      "published": "2026-10-10T12:29:07+00:00",
+      "score": 3.46,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1s1g5ejymnpgn502jvty.png"
+    },
+    {
+      "id": "e08de58d73d0",
+      "title": "Is UAT testing difficult for business teams?",
+      "url": "https://dev.to/anas_kanafani/is-uat-testing-difficult-for-business-teams-3ccc",
+      "summary": "UAT testing is not difficult when your operational team tests against clear, measurable criteria agreed before engineering begins. User acceptance testing is where you verify the software meets the agreed requirements against documented criteria, and sign it off before launch. Because your business team validates familiar workflows using realistic records rather than inspecting code, the entire review process stays predictable, structured and straightforward for everyone involved.\n\n\n  \n  \n  Can you explain UAT testing in a simple way?\n\n\nUser acceptance testing, often shortened to UAT, is the f",
+      "source": "Dev.to Programming",
+      "published": "2026-10-10T12:21:02+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "d2a887a7ed2b",
+      "title": "Designing a Resilient Playwright Strategy for Real-time Dashboard Consistency Under High Load",
+      "url": "https://dev.to/styrow_dev/designing-a-resilient-playwright-strategy-for-real-time-dashboard-consistency-under-high-load-4nl7",
+      "summary": "🔥 Real-time Dashboard Flakiness: The Playwright Nightmare! 🤯\nYour E2E tests for dynamic financial dashboards are flaky. Race conditions and stale data from waitForTimeout mean slow, unreliable results.\n\n📌 Problem Statement\nReal-time UIs with cascading updates (WebSockets/SSE) challenge test stability. page.waitForTimeout() is an anti-pattern; it fails to guarantee data consistency across interdependent UI elements after updates.\n\n💡 Solution &amp; Code Walkthrough\nAchieve stability with multi-pronged waits and robust data validation.\n\n•   Advanced Waiting:\n    ❌ waitForTimeout(): Slow, brittle,",
+      "source": "Dev.to Programming",
+      "published": "2026-10-10T12:08:12+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "95b4ee5433ef",
+      "title": "Why Temperature 0 Isn't Deterministic",
+      "url": "https://towardsdatascience.com/why-temperature-0-isnt-deterministic/",
+      "summary": "A one-line formula for how often an LLM's top token flips, and why identical\ncompletions fall apart after about a hundred tokens\nThe post Why Temperature 0 Isn't Deterministic appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-10T12:00:00+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "ac2c548222f7",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-09T21:41:29+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "70cd59b97b64",
+      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+      "url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated testing, human review, and 128 pull requests while continuing to ship releases. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-10-09T14:29:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "56dc417f9afd",
+      "title": "HashiCorp Relased Terraform Google Cloud Provider 8.0 in General Availability",
+      "url": "https://www.infoq.com/news/2026/10/terraform-google-cloud-provider/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "HashiCorp has announced the general availability of version 8.0 of the Terraform provider for Google Cloud. The major release updates the default load balancing for two Compute Engine resources. It also removes resources linked to retired Google Cloud services. By Claudio Masolo",
+      "source": "InfoQ",
+      "published": "2026-10-09T08:00:00+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "39cf35f093a8",
+      "title": "Olson and Söderqvist Discuss Valkey’s Evolution and Future Past Caching Use Cases at OSS EU",
+      "url": "https://www.infoq.com/news/2026/10/valkey-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Valkey is a growing project, launched as a fork of Redis over two years ago, supported by twelve maintainers and nine committee members from various companies. Recent developments include enhanced throughput, improved cluster functionality, and plans for features like synchronous replication and tiered storage. The project also emphasises security and release efficiency through automation. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-10-09T09:09:00+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "c467dec532e5",
+      "title": "Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?",
+      "url": "https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/",
+      "summary": "How a decision-first model can catch risky tool calls before they turn into real-world actions\nThe post Can TypeSafe's Jev Make AI Agents Safer Without Another LLM? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T15:30:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "04902b83f5b9",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "url": "https://typesafe.ai/blog/series-ai",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-09T17:02:31+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "8988e5c5d314",
+      "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency of about one second at p99; a tester reported end-to-end p99 of 7.5 seconds, which a commenter answering for the team said was higher than expected. Consume charges match produce charges per GB. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-09T05:06:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "12c2c27c0af6",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary.&#160; But recently, the idea that AI shouldn’t&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-09T09:00:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "a6aec4d82fb8",
+      "title": "Build Your First AI Agent with One Tool Call",
+      "url": "https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/",
+      "summary": "AI Agents for Beginners, Part 1\nThe post Build Your First AI Agent with One Tool Call appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T12:30:00+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "1d22f8fe43c4",
+      "title": "Stop Using AI. Start Hiring It.",
+      "url": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
+      "summary": "AI agents can now write more code than any of us can read. That changed how I think about AI.\nThe post Stop Using AI. Start Hiring It. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T11:00:00+00:00",
+      "score": 2.25,
+      "image": null
+    },
+    {
+      "id": "cdfd670ff313",
+      "title": "Where Does the Money Go Across Long-Running Coding Agents?",
+      "url": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
+      "summary": "The cost of control\nThe post Where Does the Money Go Across Long-Running Coding Agents? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-09T14:00:00+00:00",
+      "score": 2.21,
+      "image": null
+    }
+  ]
+}
