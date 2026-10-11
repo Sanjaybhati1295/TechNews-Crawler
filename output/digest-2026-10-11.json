@@ -1,0 +1,155 @@
+{
+  "digest": {
+    "headline": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AWS Introduces Enhanced Custom Event Buses for EventBridge (InfoQ). Oobit AI Payments: Your Assistant Picks the Purchase — Who Judges the Choice? (Dev.to AI). 🌿 TrailMate: An Open-Source AI Copilot Helping Developers \"Touch Grass\" (Dev.to AI). Foresight AI Brings Gremlin Agents to Reliability Engineering (InfoQ). Changes to LLM pricing: Decart, Inceptron, OpenInference, Relace and Wafer (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "7223dfeaa607",
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "url": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-11T06:35:00+00:00",
+      "score": 4.51,
+      "image": "https://res.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/en/headerimage/generatedHeaderImage-1790663976977.jpg"
+    },
+    {
+      "id": "08299fbb9005",
+      "title": "Oobit AI Payments: Your Assistant Picks the Purchase — Who Judges the Choice?",
+      "url": "https://dev.to/scriptmasterlabs01/oobit-ai-payments-your-assistant-picks-the-purchase-who-judges-the-choice-410f",
+      "summary": "Oobit AI Payments: Your Assistant Picks the Purchase — Who Judges the Choice?\n\n\nOn October 9, 2026, Tether-backed Oobit launched AI Payments: connect your Oobit account to your AI assistant, review each purchase it finds, approve the payment inside Oobit, and the assistant completes it with a one-time credential tied to that single transaction. The assistant never touches your funds — it gets permission to pay, not access to your money.\n\nHere's the honest read: Oobit shipped the confirm band as a consumer product — a human approval checkpoint before every assistant purchase, exactly the doctri",
+      "source": "Dev.to AI",
+      "published": "2026-10-11T13:32:37+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2v1swzkseiy7bsci9maj.png"
+    },
+    {
+      "id": "353428d020e3",
+      "title": "🌿 TrailMate: An Open-Source AI Copilot Helping Developers \"Touch Grass\"",
+      "url": "https://dev.to/anshtayal02/trailmate-an-open-source-ai-copilot-helping-developers-touch-grass-1cba",
+      "summary": "🌲 The Modern Developer's Dilemma: Forgetting to \"Touch Grass\"\n\n\nAs developers, we spend hours immersed in abstract problem spaces: debugging asynchronous race conditions, optimizing build pipelines, and staring at high-refresh-rate monitors. Before we realize it, days slip by where our only connection to the physical world is the glare of the morning sun through closed window blinds.\n\nWhen Hacktoberfest 2026 Week 1 announced its theme — \"Touch Grass\" — the mandate resonated immediately:\n\n\nBuild something with open-source AI at its core that gets people off the screen and into the world. The be",
+      "source": "Dev.to AI",
+      "published": "2026-10-11T13:26:25+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fz5o0hzoyliep124wn0xl.png"
+    },
+    {
+      "id": "960844df20a9",
+      "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends changes and reruns tests to check that a fix works. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-11T09:00:00+00:00",
+      "score": 3.94,
+      "image": "https://res.infoq.com/news/2026/10/gremlin-foresight-ai/en/headerimage/generatedHeaderImage-1791653267864.jpg"
+    },
+    {
+      "id": "58ba5db26b16",
+      "title": "Changes to LLM pricing: Decart, Inceptron, OpenInference, Relace and Wafer",
+      "url": "https://dev.to/narevbot/changes-to-llm-pricing-decart-inceptron-openinference-relace-and-wafer-3fdg",
+      "summary": "Model price changes detected for Decart, Inceptron, OpenInference, Relace and Wafer. Details below.",
+      "source": "Dev.to AI",
+      "published": "2026-10-11T13:27:10+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fuploads.postiz.com%2FwwDUAgyyF9.png"
+    },
+    {
+      "id": "45ecd41ce630",
+      "title": "Managing AI Agents on a Remote Devbox",
+      "url": "https://dev.to/royberris/managing-ai-agents-on-a-remote-devbox-5ad6",
+      "summary": "TL;DR: Running autonomous AI coding agents across local terminal tabs and desktop apps drops running tasks whenever your laptop sleeps, and scatters mental focus across unmanaged branches. I moved my agent runtime to a dedicated Linux devbox orchestrated with git worktrees, tmux, and an open-source VS Code extension. This turns VS Code into a persistent control plane, keeps tasks isolated from my working tree, and retains access to private networks and multi-repo test suites.\n\nI'll be honest with you: when I first started running autonomous AI coding agents, I thought my local terminal was all",
+      "source": "Dev.to AI",
+      "published": "2026-10-11T13:31:33+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fogvts91djquuggl2jhbr.png"
+    },
+    {
+      "id": "3edc3b55c500",
+      "title": "I Resurrected a Dead F1 Project and Accidentally Built a Race Intelligence OS",
+      "url": "https://dev.to/madhabcoder/i-resurrected-a-dead-f1-project-and-accidentally-built-a-race-intelligence-os-580m",
+      "summary": "I first wrote this for the GitHub Finish-Up-A-Thon Challenge on my old account. I'm reposting it here, where I now build in public.\n\n\n\n\n\n  \n  \n  What I Built\n\n\nI built F1 Intelligence Studio — a full-stack Formula 1 race intelligence dashboard that turns raw telemetry data into a living, breathing visualization of any race from 2024 to 2026.\n\nThink of it as a race engineer's war room. Twenty animated cars chase each other around circuits drawn from real GPS telemetry. An AI race engineer (Claude) analyzes strategy in real-time. A spring-physics camera zooms into wheel-to-wheel battles like an ",
+      "source": "Dev.to AI",
+      "published": "2026-10-11T13:22:56+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "ef0138707a0c",
+      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents.\nThe post Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-11T12:00:00+00:00",
+      "score": 3.61,
+      "image": null
+    },
+    {
+      "id": "dbf74a56dfb0",
+      "title": "Why LINQ is lazy: IEnumerable and yield in C#, explained by running it",
+      "url": "https://dev.to/nazecode/why-linq-is-lazy-ienumerable-and-yield-in-c-explained-by-running-it-4hi",
+      "summary": "LINQ is lazy: Where and Select don't do anything until you loop over the result. Most people learn that as a rule. But it isn't LINQ magic. It comes straight from yield return, and once you see how yield works, LINQ's behavior stops being surprising.\n\nFour small experiments, run for real on .NET 10 (Release build).\n\n  \n  \n\n\n\n  \n  \n  1. Nothing runs until someone asks\n\n\n\n\n\nstatic IEnumerable&lt;int&gt; Numbers()\n{\n    for (var i = 1; i &lt;= 3; i++)\n    {\n        Console.WriteLine($\"  producing {i}\");\n        yield return i;\n    }\n}\n\nvar numbers = Numbers();\nConsole.WriteLine(\"Numbers() called\"",
+      "source": "Dev.to Programming",
+      "published": "2026-10-11T13:25:17+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "d4399116766c",
+      "title": "C# records, structs and equality: what == really compares",
+      "url": "https://dev.to/nazecode/c-records-structs-and-equality-what-really-compares-1j8m",
+      "summary": "== looks like the simplest operator in C#. But what it compares depends on what you're comparing, and records, which were supposed to make equality \"just work\", have a couple of edges that bite in real code.\n\nFour small experiments, each run for real on .NET 10 (Release build).\n\n  \n  \n\n\n\n  \n  \n  1. Class vs record\n\n\n\n\n\npublic class UserClass(string name, string email)\n{\n    public string Name { get; } = name;\n    public string Email { get; } = email;\n}\n\npublic record UserRecord(string Name, string Email);\n\n\n\n\n\n\n\n\n\nvar a = new UserClass(\"Ada\", \"ada@x.dev\");\nvar b = new UserClass(\"Ada\", \"ada@x.d",
+      "source": "Dev.to Programming",
+      "published": "2026-10-11T13:25:02+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "254e392f8df1",
+      "title": "Claude Code mod button calling $.prompt.submit doesn't work the first time (where to call it)",
+      "url": "https://dev.to/nakadadev/claude-code-mod-button-calling-promptsubmit-doesnt-work-the-first-time-where-to-call-it-158i",
+      "summary": "If you call $.prompt.submit inside a mod button's onPress or inside a command, Claude sometimes doesn't start. In the versions I tested, a $.prompt.submit called inside the press event was thrown away when the event ended, with no error. Have the button only store what to send in a variable, and send it from a clock created in session.start. That works reliably.\n\nVersions checked: Claude Code 2.1.286 to 2.1.288 (October 2026, desktop Code tab).\n\n\n  \n  \n  Symptom\n\n\nPut a button in a mod's panel, and when pressed, send a request to Claude. It's the first thing you want to build.\n\n\n\nt.Button({\n  ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-11T13:09:41+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "23f5e8613778",
+      "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+      "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews remain valid for 6 months. If we want to commit to NAACL 2027 instead of EACL, do we need to do anything with the August ARR submission now, or can we simply wait and commit it when the NAACL commitment site opens? Thanks.  &#32; submitted by &#32;  /u/SillyNeuron   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-11T04:48:48+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "7025763a90db",
+      "title": "How Can AI Agents Read Untrusted Sources Safely?",
+      "url": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
+      "summary": "Add architectural guardrails around how agents read untrusted sources and use them in the workflow.\nThe post How Can AI Agents Read Untrusted Sources Safely? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-10T14:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "95b4ee5433ef",
+      "title": "Why Temperature 0 Isn't Deterministic",
+      "url": "https://towardsdatascience.com/why-temperature-0-isnt-deterministic/",
+      "summary": "A one-line formula for how often an LLM's top token flips, and why identical\ncompletions fall apart after about a hundred tokens\nThe post Why Temperature 0 Isn't Deterministic appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-10T12:00:00+00:00",
+      "score": 2.08,
+      "image": null
+    }
+  ]
+}
