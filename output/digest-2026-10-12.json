@@ -1,0 +1,289 @@
+{
+  "digest": {
+    "headline": "Mistral Large 4: Inside Europe's First 1-Trillion-Parameter Open-Weight Model",
+    "tldr": "Today's digest covers 27 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Mistral Large 4: Inside Europe's First 1-Trillion-Parameter Open-Weight Model (Dev.to AI). Browser Agent Plugin Built on Jev Hits 21k Stars — Free Your Hands in 3 Minutes (Dev.to Programming). Why I Moved the Click Decisions Out of the LLM: jev-ultrafast and a Local AI Gat (Dev.to Programming). Microsoft president says UK is best placed to drive AI regulation (TechCrunch AI). QGIS Just Banned AI Contributions Completely. The Best Argument for It Came From Someone Who Did It (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Dev News Digest: 12 Oct 2026, 18:00 (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Mistral Large 4: Inside Europe's First 1-Trillion-Parameter Open-Weight Model\n\n\nMistral AI released a public preview of Mistral Large 4 on October 6, 2026 — a 1.05-trillion-parameter multimodal Mixture-of-Experts model that the company has nicknamed \"Le Chonk.\" The weights are promised by the end of October, making it the largest open-weight model to come out of a European lab. This post walks through the architecture, training methodology, benchmark results, and what the release means for practitioners who want to run frontier-scale models on their own infrastructure.\n\n\n  \n  \n  Architecture: "
+  },
+  "articles": [
+    {
+      "id": "477d151aadc3",
+      "title": "Mistral Large 4: Inside Europe's First 1-Trillion-Parameter Open-Weight Model",
+      "url": "https://dev.to/prabhakar_chaudhary_7afe4/mistral-large-4-inside-europes-first-1-trillion-parameter-open-weight-model-4ci4",
+      "summary": "Mistral Large 4: Inside Europe's First 1-Trillion-Parameter Open-Weight Model\n\n\nMistral AI released a public preview of Mistral Large 4 on October 6, 2026 — a 1.05-trillion-parameter multimodal Mixture-of-Experts model that the company has nicknamed \"Le Chonk.\" The weights are promised by the end of October, making it the largest open-weight model to come out of a European lab. This post walks through the architecture, training methodology, benchmark results, and what the release means for practitioners who want to run frontier-scale models on their own infrastructure.\n\n\n  \n  \n  Architecture: ",
+      "source": "Dev.to AI",
+      "published": "2026-10-12T16:06:27+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqjtnffz8x4a0u37ztj76.png"
+    },
+    {
+      "id": "fc871494559e",
+      "title": "Browser Agent Plugin Built on Jev Hits 21k Stars — Free Your Hands in 3 Minutes",
+      "url": "https://dev.to/servbay/browser-agent-plugin-built-on-jev-hits-21k-stars-free-your-hands-in-3-minutes-bhl",
+      "summary": "ServBay AI Gateway is a gateway, not a switcher. A switcher answers which provider a request should be routed to. A gateway answers how that request travels once the choice is made, which protocol it gets converted into, which credential it carries, and which channel absorbs the traffic when the current one stops responding. Teams comparing options for a cc-switch alternative usually need the second set of answers, since picking a provider is the easy half.\n\nBrowser automation is where the two layers meet. jev-ultrafast, the open-source project released by the Browser-Use team on top of Jev, p",
+      "source": "Dev.to Programming",
+      "published": "2026-10-12T15:30:52+00:00",
+      "score": 3.96,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Frgf5pzge1x2mpik1z4zf.png"
+    },
+    {
+      "id": "32f7224d6ef0",
+      "title": "Why I Moved the Click Decisions Out of the LLM: jev-ultrafast and a Local AI Gat",
+      "url": "https://dev.to/servbay/why-i-moved-the-click-decisions-out-of-the-llm-jev-ultrafast-and-a-local-ai-gat-43na",
+      "summary": "jev-ultrafast passed 21,000 stars on GitHub shortly after the Browser-Use team open sourced it, and the reason is not hard to find. It never asks a general purpose model to write a paragraph of analysis before a click. It maps the elements of the current page into a numbered interaction table, lets Jev select the action and locate the target in tens of milliseconds, and only calls a text model when something actually has to be entered. In tests the project completes the whole Google Flights search and comparison workflow in about 7 seconds on its own, including dynamic dropdown menus, multi-st",
+      "source": "Dev.to Programming",
+      "published": "2026-10-12T15:31:02+00:00",
+      "score": 3.86,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgbrehyjvzyvf0nhgb808.png"
+    },
+    {
+      "id": "da2cafd8b490",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "summary": "Microsoft President Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T15:31:19+00:00",
+      "score": 3.86,
+      "image": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024"
+    },
+    {
+      "id": "3b8e0cd0a11d",
+      "title": "QGIS Just Banned AI Contributions Completely. The Best Argument for It Came From Someone Who Did It",
+      "url": "https://dev.to/jamilxt/qgis-just-banned-ai-contributions-completely-the-best-argument-for-it-came-from-someone-who-did-it-o7n",
+      "summary": "One of the world's most popular open-source GIS applications has decided that AI-assisted contributions are not welcome at all, in any form, and the merged policy document is shorter than most pull request templates. QGIS enhancement proposal QEP428, titled \"No ai contributions permitted,\" was merged on October 7, 2026, and it formally replaces the project's previous \"human in the loop\" AI policy with a strict NOT ALLOWED policy. When it hit the Hacker News front page it collected hundreds of points and hundreds of comments in a few hours, most of them arguing about whether a volunteer communi",
+      "source": "Dev.to AI",
+      "published": "2026-10-12T16:04:36+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgemaozkf9gjgwmx5v4ap.png"
+    },
+    {
+      "id": "afe6bcbd1db0",
+      "title": "GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls",
+      "url": "https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Context Protocol (MCP) tools, and more detailed controls for AI spending. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-12T09:00:00+00:00",
+      "score": 3.79,
+      "image": "https://res.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/en/headerimage/generatedHeaderImage-1791743492913.jpg"
+    },
+    {
+      "id": "0820161e1f33",
+      "title": "Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration",
+      "url": "https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the new format aims to improve readability, simplify maintenance, and make project configuration easier for AI coding agents to understand and modify. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-12T09:00:00+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "66c78f0ccb4d",
+      "title": "Dev News Digest: 12 Oct 2026, 18:00",
+      "url": "https://dev.to/magnus_ferm/dev-news-digest-12-oct-2026-1800-3mal",
+      "summary": "A quick roundup of developer news since the last digest.\n\n\n  \n  \n  Releases &amp; tooling\n\n\n\n\nReact 19.3 adds a browser() API: The new release gives client-only rendering an explicit, first-class API, making it clearer where code is meant to run only in the browser. InfoQ\n\n\nCloudflare Logpush gets Transformers: You can now filter, reshape and redact log data before it is exported, which helps with cost and with keeping sensitive fields out of downstream systems. Cloudflare Blog\n\n\nParsing JSON at tens of GB/s from Python: Daniel Lemire shows how fast SIMD-based JSON parsing can be reached from ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-12T15:47:59+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "3ea17d5e3961",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "summary": "Ambi is releasing apps for iPhone, Mac, and Apple Watch that enables ambient capture",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T12:47:59+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "4bed6317da98",
+      "title": "Qwen3.8 vs Ornith 1.5 on a Mac: speed and code review",
+      "url": "https://dev.to/jrodeiro5/qwen38-vs-ornith-15-on-a-mac-speed-and-code-review-2gf1",
+      "summary": "On a Mac Studio M4 Max with 64 GB, Qwen3.8-27B with MTP does not replace the 35B mixture-of-experts model I already run. Measured on 12 October 2026 under oMLX 0.7.0, Qwen generated 55 tokens per second against 90, and took 3.46 seconds to produce its first token on an 800-token prompt against 0.49. On a code review test the two caught the same bugs with reasoning off, and Qwen caught fewer with it on.\n\n\n  \n  \n  The number that decides it is time to first token\n\n\nQwen3.8-27B needs seven times longer than Ornith 1.5 to start answering an 800-token prompt: 3.46 seconds against 0.49, averaged ove",
+      "source": "Dev.to AI",
+      "published": "2026-10-12T16:09:38+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "c4979f31eed1",
+      "title": "Beyond MCP: Wiring Your AI Coding Agent to Jira and Bitbucket with Atlassian's TWG CLI",
+      "url": "https://dev.to/adeyemi987/beyond-mcp-wiring-your-ai-coding-agent-to-jira-and-bitbucket-with-atlassians-twg-cli-220j",
+      "summary": "A CLI-first way to give your coding agent the ticket, the PR, and the review comments. Why it usually costs fewer tokens than an MCP server, and what broke when I set it up on a corporate Windows laptop.\n\nBy Adeyemi Tubosun · October 2026 · 10 min read\n\n\n  \n  \n  The problem: your agent can write code, but it can't see the ticket.\n\n\nAI coding agents are now good at writing code. Most of them are still blind to why the code is being written. The acceptance criteria live in Jira, the design notes live in Confluence, and the review comments live in a Bitbucket pull request. So developers become th",
+      "source": "Dev.to AI",
+      "published": "2026-10-12T16:08:50+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "ad755cb9b416",
+      "title": "We Specified an AI Agent in 2016. We Called It Analytics.",
+      "url": "https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/",
+      "summary": "Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the loop. What it got right, and what a decade of hindsight teaches agent builders today.\nThe post We Specified an AI Agent in 2016. We Called It Analytics. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-12T12:30:00+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "062654bda618",
+      "title": "oh-my-agent: session trajectories and skill compatibility checks",
+      "url": "https://dev.to/gracefullight/oh-my-agent-session-trajectories-and-skill-compatibility-checks-4ma6",
+      "summary": "Agent runs can span several CLIs, tool calls, and completion checks. Following that sequence means opening more than one log. This week's oh-my-agent changes add a session trajectory viewer, an HTML explanation renderer, and checks for how skills are read by different runtimes.\n\nThis is the delayed update for October 8, 2026. It covers changes available by 12:00 Australia/Sydney that day, through CLI 15.9.0. Later changes are outside this report.\n\n\n  \n  \n  What's new\n\n\n\n\nSession trajectories. The viewer joins OMA lifecycle events with vendor transcripts. Terminal and dashboard views help you f",
+      "source": "Dev.to Programming",
+      "published": "2026-10-12T15:54:38+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "490965d3df73",
+      "title": "Java News Roundup: Grails 8, Open Liberty, GlassFish, Infinispan, LangChain4j, Spock",
+      "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct05-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for October 5th, 2026, features news highlighting: OpenJDK JEPs Proposed to Target for JDK 28; Lazy Constants elevated to Candidate status; the GA releases of Apache Grails 8.0 and Open Liberty 20.0.0.10; point releases of TornadoVM, Infinispan, LangChain4j and Spock; and a maintenance release of GlassFish. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-12T10:10:00+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "9315e9254be6",
+      "title": "I Built a Trap for AI Image Judges. They Walked Into a Different One.",
+      "url": "https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/",
+      "summary": "Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B.\nThe post I Built a Trap for AI Image Judges. They Walked Into a Different One. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-12T11:00:00+00:00",
+      "score": 3.6,
+      "image": null
+    },
+    {
+      "id": "8b6ff8d6b8bd",
+      "title": "I Tried photocraft — Here's What You Need to Know",
+      "url": "https://dev.to/jarynagent/i-tried-photocraft-heres-what-you-need-to-know-1oa1",
+      "summary": "The Problem\n\n\nPhotoCraft: An open-source, photo editor written by scratch\n\n\n  \n  \n  What is photocraft?\n\n\nphotocraft is a new open-source project with 51689 stars.\n\n\n  \n  \n  Why This Matters\n\n\n\n  \n  \n  1. Open Source\n\n\n\n\nFree to use — no API costs\n\nSelf-hosted — run on your own infrastructure\n\nPrivacy-focused — your data stays local\n\n\n\n  \n  \n  2. Performance\n\n\n\n\nCompetitive — similar capabilities to paid tools\n\nFast — optimized for speed\n\nReliable — consistent performance\n\n\n\n  \n  \n  3. Accessibility\n\n\n\n\nEasy to use — simple interface\n\nWell-documented — comprehensive guides\n\nActive community — ",
+      "source": "Dev.to AI",
+      "published": "2026-10-12T16:01:39+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "c68c034bd72c",
+      "title": "QGIS bans AI assisted contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-12T11:22:24+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "d5b0a95bb871",
+      "title": "How's ICLR reviewing going for you? Any observations? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3ve39/hows_iclr_reviewing_going_for_you_any/",
+      "summary": "I know it's early but I've been browsing through ICLR OpenReview and I see a lot of good papers! Maybe the first big conference with automated research submission and it is increasingly becoming harder to detect AI-written text - how are you dealing with this? How are you even identifying slop papers? How much potential accepts, high quality research or AI-slops you see in your batch?  &#32; submitted by &#32;  /u/ade17_in   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-12T07:22:41+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "7223dfeaa607",
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "url": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content-based deduplication, and a new publisher/subscriber-based pricing model. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-11T06:35:00+00:00",
+      "score": 3.03,
+      "image": null
+    },
+    {
+      "id": "2aa6533faebe",
+      "title": "I built a browser tool to visualize how a small LLM picks its next word and see what it's attending to [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3lgnz/i_built_a_browser_tool_to_visualize_how_a_small/",
+      "summary": "I made a little thing that visualizes attention. It runs SmolLM2-135M fully in the browser (onnxruntime-web, int8, no server, works on my phone). You give it a prompt, it generates one token at a time, and for each step you get the next-token candidates with probabilities, plus the attention from the current token back to the earlier ones drawn as links with the weights labeled. You can click any word to see where its attention actually went, ranked. The thing I learnt during this project was attention sink. At first it looked broken because everything was attending to the first token super he",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-11T22:30:50+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "960844df20a9",
+      "title": "Foresight AI Brings Gremlin Agents to Reliability Engineering",
+      "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Reliability management company Gremlin has announced the general availability of Foresight AI, an agentic product that analyses services for potential failures, recommends changes and reruns tests to check that a fix works. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-11T09:00:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "93c0d83bc183",
+      "title": "What's up with google scholar citations ? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/",
+      "summary": "Early-stage researcher, and yes, I get excited about people citing my work.  I was browsing through arXiv for accepted NeurIPS papers, and I saw multiple papers citing my work. These papers have been there for months, but Google Scholar still has not updated its citations, and it has occurred before, but I ignored it and thought it was a one-time error. Does it usually happen? How long do you wait before you get your citations? I know it is naive, but still.  &#32; submitted by &#32;  /u/ade17_in   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-11T18:17:59+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "ee46ad261eb7",
+      "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
+      "url": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit their own context rather than relying on predefined mechanisms for summarization, compression, and information retrieval, reporting substantial gains in both performance and computational efficiency. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-11T14:00:00+00:00",
+      "score": 2.24,
+      "image": null
+    },
+    {
+      "id": "a389c86fcd7c",
+      "title": "A Practical Guide to OpenAI's New Decisions API",
+      "url": "https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/",
+      "summary": "Is this the JEV killer?\nThe post A Practical Guide to OpenAI's New Decisions API appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-11T14:00:00+00:00",
+      "score": 2.24,
+      "image": null
+    },
+    {
+      "id": "f0e1f0458400",
+      "title": "NeurIPS 2026 Paris complimentary registration already full. Did any Top Reviewers get a spot? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x39t3h/neurips_2026_paris_complimentary_registration/",
+      "summary": "Hi everyone, I was selected as a NeurIPS 2026 Top Reviewer and awarded complimentary registration. As far as I understand, registration opened in batches: first for SACs, then ACs, and finally reviewers. However, when I received the email and tried to register, I found that the Paris venue was already full and could no longer be selected. Has anyone else experienced this? Did any reviewers actually manage to secure a spot in Paris, or were all the available places already taken during the earlier registration rounds for SACs and ACs? I'm wondering whether I was simply too late or whether Paris",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-11T14:37:01+00:00",
+      "score": 2.17,
+      "image": null
+    },
+    {
+      "id": "ef0138707a0c",
+      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents.\nThe post Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-11T12:00:00+00:00",
+      "score": 2.13,
+      "image": null
+    },
+    {
+      "id": "23f5e8613778",
+      "title": "Do I need to do anything now to use an ARR August review for NAACL 2027? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+      "summary": "This is my first time ARR submission. I have a paper from the ARR 2026 August cycle with completed reviews and I understand the reviews remain valid for 6 months. If we want to commit to NAACL 2027 instead of EACL, do we need to do anything with the August ARR submission now, or can we simply wait and commit it when the NAACL commitment site opens? Thanks.  &#32; submitted by &#32;  /u/SillyNeuron   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-11T04:48:48+00:00",
+      "score": 1.63,
+      "image": null
+    }
+  ]
+}
