@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D]",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D] (Reddit r/MachineLearning). Amex introduces a framework to prevent AI agents from making unauthorized purchases (TechCrunch AI). The Download: open model trade-offs and geothermal power’s promise (MIT Tech Review). Open models have real benefits. Do they outweigh the risks? (MIT Tech Review). SparseEngine Puts Fifteen Sparse Attention Methods Behind One Lifecycle Contract (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Your KYB agent reads \"Active\" and moves on. Five register answers that are true and still wrong (Dev.to AI). Coding Agents Can Solve the Task — But How Much Work Did They Waste? (Towards Data Science). GitHub Copilot app for Beginners: How to teach Copilot about your codebase (GitHub Blog). Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents (Hacker News)."
+      }
+    ],
+    "key_takeaway": "Hi r/MachineLearning, Stjepan from Manning here. The mods approved this post, and I appreciate being welcomed back to share another book with you. We’ve just launched AI Recommender Systems: Transformers, LLMs, agents, and RAG by Kim Falk in MEAP, our early-access program. Kim also wrote Practical Recommender Systems and has spent the past 15 years building recommenders across news, media, and e-commerce. The question I’d like to put to this community is: where does adding an LLM actually justify the extra complexity in a recommendation pipeline? There are plausible places for one: extracting "
+  },
+  "articles": [
+    {
+      "id": "a92dbe7c4166",
+      "title": "Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4uc90/where_do_llms_actually_earn_their_place_in_a/",
+      "summary": "Hi r/MachineLearning, Stjepan from Manning here. The mods approved this post, and I appreciate being welcomed back to share another book with you. We’ve just launched AI Recommender Systems: Transformers, LLMs, agents, and RAG by Kim Falk in MEAP, our early-access program. Kim also wrote Practical Recommender Systems and has spent the past 15 years building recommenders across news, media, and e-commerce. The question I’d like to put to this community is: where does adding an LLM actually justify the extra complexity in a recommendation pipeline? There are plausible places for one: extracting ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-13T11:40:24+00:00",
+      "score": 4.53,
+      "image": null
+    },
+    {
+      "id": "aba4e20057c7",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T13:00:00+00:00",
+      "score": 4.31,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/amex-GettyImages-171311164.jpg?resize=1200,800"
+    },
+    {
+      "id": "fcea7a4f647b",
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chinese company Z.ai, poses a major cyberattack&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-13T12:00:00+00:00",
+      "score": 4.25,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600"
+    },
+    {
+      "id": "089e26be9c88",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-13T10:00:00+00:00",
+      "score": 4.14,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/09/260915_openaimodels.jpg?resize=1200,600"
+    },
+    {
+      "id": "29c78819df31",
+      "title": "SparseEngine Puts Fifteen Sparse Attention Methods Behind One Lifecycle Contract",
+      "url": "https://dev.to/echakiri/sparseengine-puts-fifteen-sparse-attention-methods-behind-one-lifecycle-contract-27dh",
+      "summary": "TL;DR\n\n\n\nSparseEngine is an inference engine for large language models that keeps only part of the attention state in GPU memory, published on arXiv as 2609.39068v1 by a team including Harbin Institute of Technology authors and released as Apache-2.0 code in the repository CURRENTF/SparseEngine.\nA sparse attention method is the technique that decides which part of the KV cache survives, which lowers the memory and attention cost of long-context decoding at the price of an approximation.\nExisting inference engines bind that decision to their own cache layout, so a page-based engine fits some me",
+      "source": "Dev.to Programming",
+      "published": "2026-10-13T14:00:03+00:00",
+      "score": 3.96,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fblog.neticslabs.com%2Fcontent%2Fimages%2F2026%2F10%2Fthumb-sparseengine-sparse-first-inference-engine-long-horizon-agents-2026-10-12.webp"
+    },
+    {
+      "id": "2d5bf43045d9",
+      "title": "AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures",
+      "url": "https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-13T12:00:00+00:00",
+      "score": 3.95,
+      "image": "https://res.infoq.com/news/2026/10/aws-eventbridge-scaling/en/headerimage/generatedHeaderImage-1791474735792.jpg"
+    },
+    {
+      "id": "98a779afae14",
+      "title": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+      "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-13T13:21:35+00:00",
+      "score": 3.93,
+      "image": null
+    },
+    {
+      "id": "54d9c64a7bcd",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "summary": "The startup will sell some of its assets to Disney for $20 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T12:23:42+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "a99b4298b4df",
+      "title": "Meta Muse's Hidden Sandbox Problem: How a KVM Escape Could Turn an AI Agent Into a Production Breach",
+      "url": "https://dev.to/aiza-hextyx/meta-muses-hidden-sandbox-problem-how-a-kvm-escape-could-turn-an-ai-agent-into-a-production-breach-42dg",
+      "summary": "An AI agent can be carefully isolated---and still inherit a much\nlarger blast radius if its runtime boundary fails.\n\nThat is the security lesson behind the reported pre-launch KVM-escape\nissues surrounding Meta Muse.\n\nMuse is not a conventional chatbot. Meta designed it as a personal AI\nagent with a dedicated cloud computer, persistent files, browser access,\ntools, connectors, and the ability to execute code and run concurrent\nsubagents.\n\nThat architecture creates an obvious security requirement:\n\n\nThe environment running the agent has to be treated as part of the\nsecurity boundary.\n\n\nIn Octob",
+      "source": "Dev.to AI",
+      "published": "2026-10-13T14:27:13+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "17822a6c9063",
+      "title": "Character.ai Files for Bankruptcy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-13T11:24:08+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "c5beef377323",
+      "title": "Your KYB agent reads \"Active\" and moves on. Five register answers that are true and still wrong",
+      "url": "https://dev.to/apify/your-kyb-agent-reads-active-and-moves-on-five-register-answers-that-are-true-and-still-wrong-108c",
+      "summary": "On 4 December 2020 the Belgian Official Gazette published a list of 1,663 companies struck off the Crossroads Bank for Enterprises (KBO) on 24 November 2020 for not filing annual accounts for three years in a row. On 25 September 2026 we looked up 100 of them, spaced evenly through the list.\n\n78 were still struck off. 30 of those 78 still showed Status \"Active\" on their KBO page, and 12 of the 30 also showed Legal situation \"Normal situation\".\n\nAsk an agent \"is this Belgian company active?\" and hand it that page, and it answers yes. The answer is correct, since the register says Active. It is ",
+      "source": "Dev.to AI",
+      "published": "2026-10-13T14:36:28+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "688c122f8152",
+      "title": "Is the RTX 5090 enough for AI? RTX PRO 6000 Blackwell vs RTX 5090 compared",
+      "url": "https://dev.to/prateek_navani_157c1ed2b7/is-the-rtx-5090-enough-for-ai-rtx-pro-6000-blackwell-vs-rtx-5090-compared-585k",
+      "summary": "If you are shopping for a GPU to run AI workloads right now, you have probably landed on the same two names everyone else does. The RTX 5090 because it is the flagship consumer card, and the RTX PRO 6000 Blackwell because someone in a forum told you it is what \"serious\" AI teams actually use.\nI have gone through the specs, the pricing, and the real workload limits on both cards, and the honest answer is that neither one is automatically the right pick. It depends entirely on what you are training, how much memory your models actually need, and whether you plan to run this on a desk or in a ser",
+      "source": "Dev.to AI",
+      "published": "2026-10-13T14:31:09+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "59d356227941",
+      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
+      "url": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
+      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail.\nThe post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T14:00:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "c0245f794002",
+      "title": "Coding Agents Can Solve the Task — But How Much Work Did They Waste?",
+      "url": "https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/",
+      "summary": "Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help\nThe post Coding Agents Can Solve the Task — But How Much Work Did They Waste? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T12:30:00+00:00",
+      "score": 3.38,
+      "image": null
+    },
+    {
+      "id": "80d24e118917",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T17:56:56+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "3c04da4c4ba3",
+      "title": "Character.ai files for Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-13T07:28:34+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "7f8396cf1e85",
+      "title": "How to Leverage NLP for Product Data Science",
+      "url": "https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/",
+      "summary": "A practical guide to strengthening churn, CLV, and other traditional models with text\nThe post How to Leverage NLP for Product Data Science appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T11:00:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "02cd75d8d6a6",
+      "title": "Machine Learning Tutorial/Workshop [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4qcxw/machine_learning_tutorialworkshop_d/",
+      "summary": "This post is to let people know about a workshop/tutorial on Machine Learning that will run on the (blue) math discord server: discord.gg/maths. The place is nice, people are cool and helpful, and as you can see it is a mathematics server, so the learning environment is quite focused indeed. We hope that you'll like the experience. Also, this is completely free, just in case anyone is wondering. Timeline and Curriculum Overview There will be weekly lectures and/or lab-sessions. The workshop is starting on Saturday, 17th October. The first lecture + lab session will be held from 3 to 5 PM CEST ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-13T07:34:40+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "5c7670ac0377",
+      "title": "Looped Diffusion Transformer: the same blocks run several times inside each denoising step, and loop depth can be changed at sampling time [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/",
+      "summary": "Paper: Looped Diffusion Transformer (arXiv 2609.40305, 30 Sep). Instead of making a text-to-image DiT bigger, it runs a shared group of transformer blocks several times inside each denoising step. The authors report that naive looping doesn't reliably help, and fix it with deep supervision on every loop plus self-modulating attention. Their headline claims: a 260M looped model beats a model 6.5x larger on several benchmarks with 4.9x less inference compute, and at a fixed inference budget, more loop depth helps more than more denoising steps. The B/16 code and weights are MIT (the weights are ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-12T18:13:49+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "d8d241723974",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+      "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.\nThe post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-12T17:43:59+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "da2cafd8b490",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T15:31:19+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "afe6bcbd1db0",
+      "title": "GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls",
+      "url": "https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Context Protocol (MCP) tools, and more detailed controls for AI spending. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-12T09:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "0820161e1f33",
+      "title": "Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration",
+      "url": "https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the new format aims to improve readability, simplify maintenance, and make project configuration easier for AI coding agents to understand and modify. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-12T09:00:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "df32bb1fbe0d",
+      "title": "What is the strongest mechanistic argument that next token prediction plus reinforcement learning can produce open-ended general intelligence? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4awlk/what_is_the_strongest_mechanistic_argument_that/",
+      "summary": "Most conversations I see on various AI subreddits start from the assumption that AGI/RSI/ASI is possible, we're on the way right now, and that things will be incredibly different afterward. The only question is what the post-AGI world looks like. I'd like to start one logical step earlier: What is the strongest argument that the learning mechanisms underlying today's AI systems can actually produce AGI? I'm particularly interested in arguments grounded in causal mechanisms, computational learning theory, information theory, and first principles, rather than trend extrapolations or appeals to f",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-12T19:09:27+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "1a36455d359d",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-12T16:46:34+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "3ea17d5e3961",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-12T12:47:59+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "ad755cb9b416",
+      "title": "We Specified an AI Agent in 2016. We Called It Analytics.",
+      "url": "https://towardsdatascience.com/we-specified-an-ai-agent-in-2016-we-called-it-analytics/",
+      "summary": "Re-reading my own IBM patent on real-time concert feedback as what it actually was: an agentic loop with multimodal perception, memory-grounded inference, and a human in the loop. What it got right, and what a decade of hindsight teaches agent builders today.\nThe post We Specified an AI Agent in 2016. We Called It Analytics. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-12T12:30:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "490965d3df73",
+      "title": "Java News Roundup: Grails 8, Open Liberty, GlassFish, Infinispan, LangChain4j, Spock",
+      "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct05-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for October 5th, 2026, features news highlighting: OpenJDK JEPs Proposed to Target for JDK 28; Lazy Constants elevated to Candidate status; the GA releases of Apache Grails 8.0 and Open Liberty 20.0.0.10; point releases of TornadoVM, Infinispan, LangChain4j and Spock; and a maintenance release of GlassFish. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-12T10:10:00+00:00",
+      "score": 2.42,
+      "image": null
+    },
+    {
+      "id": "9315e9254be6",
+      "title": "I Built a Trap for AI Image Judges. They Walked Into a Different One.",
+      "url": "https://towardsdatascience.com/i-built-a-trap-for-ai-image-judges-they-walked-into-a-different-one/",
+      "summary": "Three vision AI models ignored the pretty image, yet GPT-4o invented answers and Claude kept answering B.\nThe post I Built a Trap for AI Image Judges. They Walked Into a Different One. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-12T11:00:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "a85beae79bee",
+      "title": "Generating exam questions from a school’s own past papers: looking for a second opinion on the pipeline [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x3wgif/generating_exam_questions_from_a_schools_own_past/",
+      "summary": "Hi all, I’m building a question bank feature for a school platform (high school, mixed Cambridge + in-house curriculum). The idea: new questions are generated from the school’s own past papers. The curriculum’s learning objectives, which are already in our database, act as a guard rail so questions stay in scope. A curriculum admin approves everything; teachers only use the approved bank. I have a working prototype:  Question papers + mark schemes (PDFs) go to an LLM, which splits them into items at sub-question level and tags each to objectives A small model writes new questions; a different ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-12T08:31:06+00:00",
+      "score": 2.12,
+      "image": null
+    }
+  ]
+}
