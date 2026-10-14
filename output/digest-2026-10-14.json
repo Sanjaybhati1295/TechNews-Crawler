@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Claude Filed a Fake Police Report and OpenAI's Agents Helped Take Down a Wikipedia Service — Same Root Cause",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Filed a Fake Police Report and OpenAI's Agents Helped Take Down a Wikipedia Service — Same Root Cause (Dev.to Programming). Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration (InfoQ). Facebook is giving users more control over their algorithm (TechCrunch AI). What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2 2027 (Dev.to AI). Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Building RevMRR: Making Startup Revenue and Acquisition More Transparent (Dev.to Programming). Your Agent Doesn't Need More Freedom (Towards Data Science). Coding Agents Can Solve the Task — But How Much Work Did They Waste? (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Two AI labs published incident reports about their own agents within four days of each other this month, and read side by side, they describe the same failure mode from opposite sides of the internet. On October 5, the Wikimedia Foundation disclosed that agents it believes were operated by OpenAI edited its wikis without the community approval its own bot policy requires, probed a public note-taking tool as a proxy to fetch data from other sites, and generated enough automated traffic to contribute to a partial outage of the Wikidata Query Service back in May. On October 9, Anthropic published"
+  },
+  "articles": [
+    {
+      "id": "74209753dd21",
+      "title": "Claude Filed a Fake Police Report and OpenAI's Agents Helped Take Down a Wikipedia Service — Same Root Cause",
+      "url": "https://dev.to/rbonweb/claude-filed-a-fake-police-report-and-openais-agents-helped-take-down-a-wikipedia-service-same-348",
+      "summary": "Two AI labs published incident reports about their own agents within four days of each other this month, and read side by side, they describe the same failure mode from opposite sides of the internet. On October 5, the Wikimedia Foundation disclosed that agents it believes were operated by OpenAI edited its wikis without the community approval its own bot policy requires, probed a public note-taking tool as a proxy to fetch data from other sites, and generated enough automated traffic to contribute to a partial outage of the Wikidata Query Service back in May. On October 9, Anthropic published",
+      "source": "Dev.to Programming",
+      "published": "2026-10-14T12:21:20+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2F8c9BwX4.jpeg"
+    },
+    {
+      "id": "efcc3adf1d37",
+      "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single configuration file. Enhancements include CI integration for GitLab and Docker support. Future updates are planned, focusing on stability and diagnostics. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-14T06:15:00+00:00",
+      "score": 4.25,
+      "image": "https://res.infoq.com/news/2026/10/cloudflare-viteplus-stable/en/headerimage/generatedHeaderImage-1791892196672.jpg"
+    },
+    {
+      "id": "5349b4bff5ef",
+      "title": "Facebook is giving users more control over their algorithm",
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "summary": "Meta announced the launch of its new AI-powered feature, “Your Algorithm,” a feature it first launched on Instagram.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T18:05:24+00:00",
+      "score": 4.07,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200"
+    },
+    {
+      "id": "4e4dccfb4a0b",
+      "title": "What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2 2027",
+      "url": "https://dev.to/scriptmasterlabs01/what-are-hedera-agent-accounts-caps-on-chain-mainnet-in-q2-2027-1m7f",
+      "summary": "What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2 2027\n\n\nHedera Agent Accounts, announced October 8, 2026, are programmable, non-custodial spending accounts for AI agents. A user funds an account for one designated agent from an existing Hedera wallet, sets a total allowance, a daily cap, a per-transaction maximum and an allowlist of merchants and recipients, and those rules are written to a Hedera smart contract. The agent requests spending; the contract validates and executes it. Private keys never leave the user's wallet, funds do not move until a purchase occurs, and every actio",
+      "source": "Dev.to AI",
+      "published": "2026-10-14T12:22:44+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpwetqexnxo4hrx1jdz2e.png"
+    },
+    {
+      "id": "46f802c67a8f",
+      "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
+      "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based models for higher-level tasks. This approach gives developers greater control over data privacy, inference costs, network dependencies, and computational workload distribution. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-14T09:00:00+00:00",
+      "score": 3.9,
+      "image": "https://res.infoq.com/news/2026/10/antigravity-sdk-local-models/en/headerimage/agent-friendly-android-cli-1791967537412.jpeg"
+    },
+    {
+      "id": "411f9946943c",
+      "title": "Série: Claude Code CLI: guia técnico — Parte 3: remoto, limites e boas práticas",
+      "url": "https://dev.to/diegobrandao/serie-claude-code-cli-guia-tecnico-parte-3-remoto-limites-e-boas-praticas-2659",
+      "summary": "Versão do conteúdo: outubro de 2026\nFontes: exclusivamente a documentação oficial da Anthropic (code.claude.com/docs e support.claude.com). A lista completa está em Fontes oficiais.\nAviso: o Claude Code é atualizado com frequência. Antes de usar este material como referência, confira as mudanças com /release-notes e a referência oficial do CLI. O claude --help não lista todas as flags.\n\n\n\n\n\n\n  \n  \n  📑 Índice da série\n\n\n\n🧠 O que é o Claude Code CLI (Parte 1)\n📦 Instalação e autenticação (Parte 1)\n🚪 Comandos de entrada (Parte 1)\n⌨️ Atalhos de teclado e prefixos (Parte 1)\n⚡ Slash commands essencia",
+      "source": "Dev.to AI",
+      "published": "2026-10-14T12:27:40+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsekd1mffk7c7qchoc97h.png"
+    },
+    {
+      "id": "a55dda8c7bac",
+      "title": "Anthropic Replaced Git Because AI Agents Were Writing Code Too Fast",
+      "url": "https://dev.to/himaanshuchauhaan/anthropic-replaced-git-because-ai-agents-were-writing-code-too-fast-5cc6",
+      "summary": "Anthropic Replaced Git Because AI Agents Were Writing Code Too Fast\n\n\nImagine telling a developer in 2020 that one day an AI company would have to build its own version control system because its AI agents were producing too much code.\n\nThey'd probably laugh.\n\nYet here we are.\n\nOn October 13, 2026, Anthropic published something I found more interesting than another AI model announcement.\n\nThey explained why they'd moved their internal monorepo away from Git and built an entirely new source control system called Scion.\n\nNot because Git suddenly became bad.\n\nNot because Git was outdated.\n\nBut be",
+      "source": "Dev.to AI",
+      "published": "2026-10-14T12:26:01+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "ca567069ecbf",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-14T11:00:00+00:00",
+      "score": 3.81,
+      "image": null
+    },
+    {
+      "id": "9d74783f57e5",
+      "title": "Building EHR Integrations: 6 Things to Get Right Before Writing Code",
+      "url": "https://dev.to/omjariwala/building-ehr-integrations-6-things-to-get-right-before-writing-code-3bbn",
+      "summary": "Connecting an application to an Electronic Health Record (EHR) system sounds straightforward.\n\nFind the API. Authenticate. Fetch patient records. Send updates. Done.\n\nExcept healthcare integrations rarely work that way in practice.\n\nYou might connect successfully but receive incomplete data. A request might time out and create duplicate records when retried. Two systems might use different formats for the same clinical information. Or your application might retrieve patient data without enforcing the right access permissions.\n\nThese problems often start before the first line of integration cod",
+      "source": "Dev.to Programming",
+      "published": "2026-10-14T12:11:52+00:00",
+      "score": 3.78,
+      "image": null
+    },
+    {
+      "id": "015d0f671165",
+      "title": "Building AI Features? Don't Leave Security Until the End 🔐",
+      "url": "https://dev.to/satavisha_eduonix/building-ai-features-dont-leave-security-until-the-end-2phn",
+      "summary": "Adding an AI feature to an application introduces more than model-integration challenges. It can also create new risks around sensitive information, permissions, and untrusted input.\nA few practices worth considering:\n\n\nProtect credentials. Keep API keys in environment variables or an appropriate secrets manager.\nValidate inputs. Treat user-submitted content as untrusted.\nControl access. Make sure users can retrieve only information they're authorized to see.\nHandle failures. Avoid exposing internal errors or sensitive details in responses.\nTest the complete workflow. Check how the application",
+      "source": "Dev.to Programming",
+      "published": "2026-10-14T12:04:50+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "820215f894c6",
+      "title": "Beyond “It Works on My Machine”: Getting Started with Docker",
+      "url": "https://dev.to/gursimar_singh/beyond-it-works-on-my-machine-getting-started-with-docker-3jig",
+      "summary": "Deploying your first application on AWS is a useful milestone. But what happens when you need to deploy it again—or help a teammate run the same application?\n\nYou might discover a different runtime version, a missing dependency, or a setup step you forgot to document.\n\nDocker helps make an application's environment more consistent. That makes it a practical next step after learning cloud deployment.\n\n\n  \n  \n  What does Docker actually do?\n\n\nDocker lets you package an application and its dependencies into an image, then run that image as a container.\n\nThree terms are worth understanding:\n\n\n\nDoc",
+      "source": "Dev.to Programming",
+      "published": "2026-10-14T11:56:13+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "4283f2239308",
+      "title": "A Scaffold at the Gate: Building AI Applications That Can Evolve",
+      "url": "https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/",
+      "summary": "A technical reflection on why data scientists need software engineering principles when AI agents write code.\nThe post A Scaffold at the Gate: Building AI Applications That Can Evolve appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-14T11:00:00+00:00",
+      "score": 3.61,
+      "image": null
+    },
+    {
+      "id": "28b5e832f4a4",
+      "title": "Vellum is a personal assistant. A team needs something different from an alternative.",
+      "url": "https://dev.to/commerceframe_015eb18e5bb/vellum-is-a-personal-assistant-a-team-needs-something-different-from-an-alternative-2e20",
+      "summary": "Vellum's own homepage calls it \"your personal intelligence\" — a personal AI assistant you own and customize, running locally on your machine or in Vellum Cloud. Its pages also say it is open source. That is a real product, and a good one for one person who wants an assistant that remembers their life and work.\n\nBut a lot of searches for a \"Vellum alternative\" are really asking a different question: do you want a personal assistant with memory about you, or a system your whole company runs and owns?\n\n\n  \n  \n  The two jobs\n\n\nA personal assistant remembers one person. It lives on one machine, its",
+      "source": "Dev.to AI",
+      "published": "2026-10-14T12:29:48+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "b19dee610f31",
+      "title": "From Rough Idea to Filmable TikTok Script: A HOOK BUILD PAYOFF CTA Template",
+      "url": "https://dev.to/agentworkshop/from-rough-idea-to-filmable-tiktok-script-a-hook-build-payoff-cta-template-1a06",
+      "summary": "You open the app to post, the idea in your head sounds great, and then nothing happens. The idea never turns into a video because \"make a TikTok about X\" isn't something you can film. A script is.\n\nA short-video script isn't an essay with a camera pointed at it. It's a short list of beats, and each beat has three layers: what you say, what's written on screen, and what the viewer sees. This post walks through how to get from a rough idea to that list, using a simple four-beat template: HOOK → BUILD → PAYOFF → CTA.\n\n\n  \n  \n  What a filmable script contains\n\n\nIf you can hand your script to a fri",
+      "source": "Dev.to AI",
+      "published": "2026-10-14T12:22:17+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "81ab5300f417",
+      "title": "Building RevMRR: Making Startup Revenue and Acquisition More Transparent",
+      "url": "https://dev.to/asrarihaque/building-revmrr-making-startup-revenue-and-acquisition-more-transparent-38eb",
+      "summary": "Building a startup is hard. Finding the right startup to buy can be even harder.\n\nWhen founders want to sell a SaaS product or when buyers want to acquire an online business, they often face the same problems: limited information, unclear revenue figures, fragmented marketplaces, and a lack of trust between buyers and sellers.\n\nThat is the problem I'm working on with RevMRR.\n\n\n  \n  \n  What is RevMRR?\n\n\nRevMRR is a startup revenue intelligence and discovery platform designed to help people discover startups, explore business metrics, and find online businesses with acquisition potential.\n\nThe g",
+      "source": "Dev.to Programming",
+      "published": "2026-10-14T12:14:22+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "a92dbe7c4166",
+      "title": "Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4uc90/where_do_llms_actually_earn_their_place_in_a/",
+      "summary": "Hi r/MachineLearning, Stjepan from Manning here. The mods approved this post, and I appreciate being welcomed back to share another book with you. We’ve just launched AI Recommender Systems: Transformers, LLMs, agents, and RAG by Kim Falk in MEAP, our early-access program. Kim also wrote Practical Recommender Systems and has spent the past 15 years building recommenders across news, media, and e-commerce. The question I’d like to put to this community is: where does adding an LLM actually justify the extra complexity in a recommendation pipeline? There are plausible places for one: extracting ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-13T11:40:24+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "a2d00ff109e7",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed onstage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T23:13:31+00:00",
+      "score": 3.16,
+      "image": null
+    },
+    {
+      "id": "aba4e20057c7",
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T13:00:00+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "22c6ef693aee",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.\nThe post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-13T17:56:33+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "fcea7a4f647b",
+      "title": "The Download: open model trade-offs and geothermal power’s promise",
+      "url": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chinese company Z.ai, poses a major cyberattack&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-13T12:00:00+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "089e26be9c88",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-13T10:00:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "3d0d4d5aeac9",
+      "title": "Any Advice for what Industry is looking for in ML PhDs? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5080s/any_advice_for_what_industry_is_looking_for_in_ml/",
+      "summary": "I'm a first year ML PhD at a T5 ML program in the US. I managed to get a first author paper accepted to NeurIPS Main Track last month and thought I'd start applying for PhD research internships since I saw a lot of them required a &quot;top&quot; venue publication. But I've just been getting rejections (Nvidia, Waymo etc) and I also even got rejected from the Citadel NeurIPS travel grant. Now, I'd say my area of research isn't super &quot;hype&quot;, it's still a well known area but not within the LLM / Agentic / VLA / Multimodal / Robotics / Foundation model kind of work that a lot of Industr",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-13T15:47:53+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "992e14a3e4b6",
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T17:18:25+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "2d5bf43045d9",
+      "title": "AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures",
+      "url": "https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-13T12:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "54d9c64a7bcd",
+      "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+      "summary": "The startup will sell some of its assets to Disney for $20 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-13T12:23:42+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "306bce1b2a29",
+      "title": "Your Agent Doesn't Need More Freedom",
+      "url": "https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/",
+      "summary": "Agents got good. The hard part now is everything around them.\nThe post Your Agent Doesn't Need More Freedom appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T18:28:09+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "59d356227941",
+      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
+      "url": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
+      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail.\nThe post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T14:00:00+00:00",
+      "score": 2.25,
+      "image": null
+    },
+    {
+      "id": "c0245f794002",
+      "title": "Coding Agents Can Solve the Task — But How Much Work Did They Waste?",
+      "url": "https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/",
+      "summary": "Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help\nThe post Coding Agents Can Solve the Task — But How Much Work Did They Waste? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T12:30:00+00:00",
+      "score": 2.16,
+      "image": null
+    },
+    {
+      "id": "7f8396cf1e85",
+      "title": "How to Leverage NLP for Product Data Science",
+      "url": "https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/",
+      "summary": "A practical guide to strengthening churn, CLV, and other traditional models with text\nThe post How to Leverage NLP for Product Data Science appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-13T11:00:00+00:00",
+      "score": 2.08,
+      "image": null
+    },
+    {
+      "id": "02cd75d8d6a6",
+      "title": "Machine Learning Tutorial/Workshop [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x4qcxw/machine_learning_tutorialworkshop_d/",
+      "summary": "This post is to let people know about a workshop/tutorial on Machine Learning that will run on the (blue) math discord server: discord.gg/maths. The place is nice, people are cool and helpful, and as you can see it is a mathematics server, so the learning environment is quite focused indeed. We hope that you'll like the experience. Also, this is completely free, just in case anyone is wondering. Timeline and Curriculum Overview There will be weekly lectures and/or lab-sessions. The workshop is starting on Saturday, 17th October. The first lecture + lab session will be held from 3 to 5 PM CEST ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-13T07:34:40+00:00",
+      "score": 1.99,
+      "image": null
+    }
+  ]
+}

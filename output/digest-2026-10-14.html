@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Wednesday, October 14, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Wednesday, October 14, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 30 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/rbonweb/claude-filed-a-fake-police-report-and-openais-agents-helped-take-down-a-wikipedia-service-same-348" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.imgur.com%2F8c9BwX4.jpeg" alt="Claude Filed a Fake Police Report and OpenAI&#x27;s Agents Helped Take Down a Wikipedia Service — Same Root Cause" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to Programming</span>
+                <span class="img-title">Claude Filed a Fake Police Report and OpenAI&#x27;s Agents Helped Take Down…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/cloudflare-viteplus-stable/en/headerimage/generatedHeaderImage-1791892196672.jpg" alt="Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, H…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/" target="_blank" rel="noopener">
+              <img src="https://techcrunch.com/wp-content/uploads/2026/10/YourAlgorithm-FB.png?w=1200" alt="Facebook is giving users more control over their algorithm" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">TechCrunch AI</span>
+                <span class="img-title">Facebook is giving users more control over their algorithm</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to Programming</span> · <span>InfoQ</span> · <span>TechCrunch AI</span> · <span>Dev.to AI</span> · <span>Towards Data Science</span> · <span>Reddit r/MachineLearning</span> · <span>GitHub Blog</span> · <span>MIT Tech Review</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Claude Filed a Fake Police Report and OpenAI&#x27;s Agents Helped Take Down a Wikipedia Service — Same Root Cause (Dev.to Programming). Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration (InfoQ). Facebook is giving users more control over their algorithm (TechCrunch AI). What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2 2027 (Dev.to AI). Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy (InfoQ).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Building RevMRR: Making Startup Revenue and Acquisition More Transparent (Dev.to Programming). Your Agent Doesn&#x27;t Need More Freedom (Towards Data Science). Coding Agents Can Solve the Task — But How Much Work Did They Waste? (Towards Data Science).</p></div>
+        </div>
+
+    <div class="takeaway">Two AI labs published incident reports about their own agents within four days of each other this month, and read side by side, they describe the same failure mode from opposite sides of the internet. On October 5, the Wikimedia Foundation disclosed that agents it believes were operated by OpenAI edited its wikis without the community approval its own bot policy requires, probed a public note-taking tool as a proxy to fetch data from other sites, and generated enough automated traffic to contribute to a partial outage of the Wikidata Query Service back in May. On October 9, Anthropic published</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (30 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/rbonweb/claude-filed-a-fake-police-report-and-openais-agents-helped-take-down-a-wikipedia-service-same-348" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Claude Filed a Fake Police Report and OpenAI&#x27;s Agents Helped Take Down a Wikipedia Service — Same Root Cause</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Facebook is giving users more control over their algorithm</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/scriptmasterlabs01/what-are-hedera-agent-accounts-caps-on-chain-mainnet-in-q2-2027-1m7f" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2 2027</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/diegobrandao/serie-claude-code-cli-guia-tecnico-parte-3-remoto-limites-e-boas-praticas-2659" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Série: Claude Code CLI: guia técnico — Parte 3: remoto, limites e boas práticas</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/himaanshuchauhaan/anthropic-replaced-git-because-ai-agents-were-writing-code-too-fast-5cc6" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Anthropic Replaced Git Because AI Agents Were Writing Code Too Fast</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Scimplify raises $25M to challenge China’s grip on critical materials with AI</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/omjariwala/building-ehr-integrations-6-things-to-get-right-before-writing-code-3bbn" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Building EHR Integrations: 6 Things to Get Right Before Writing Code</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/satavisha_eduonix/building-ai-features-dont-leave-security-until-the-end-2phn" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Building AI Features? Don&#x27;t Leave Security Until the End 🔐</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/gursimar_singh/beyond-it-works-on-my-machine-getting-started-with-docker-3jig" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Beyond “It Works on My Machine”: Getting Started with Docker</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">A Scaffold at the Gate: Building AI Applications That Can Evolve</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/commerceframe_015eb18e5bb/vellum-is-a-personal-assistant-a-team-needs-something-different-from-an-alternative-2e20" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Vellum is a personal assistant. A team needs something different from an alternative.</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/agentworkshop/from-rough-idea-to-filmable-tiktok-script-a-hook-build-payoff-cta-template-1a06" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">From Rough Idea to Filmable TikTok Script: A HOOK BUILD PAYOFF CTA Template</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/asrarihaque/building-revmrr-making-startup-revenue-and-acquisition-more-transparent-38eb" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Building RevMRR: Making Startup Revenue and Acquisition More Transparent</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1x4uc90/where_do_llms_actually_earn_their_place_in_a/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D]</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Science Corporation implants its vision-restoring chip in its first Stargardt disease patient</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Amex introduces a framework to prevent AI agents from making unauthorized purchases</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">GitHub’s model for secret detection: Finding more secrets with less noise</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">The Download: open model trade-offs and geothermal power’s promise</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Wednesday, October 14, 2026 · 30 articles crawled from 8 sources
+  </footer>
+
+</body>
+</html>

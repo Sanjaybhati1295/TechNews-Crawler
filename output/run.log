@@ -5447,3 +5447,38 @@
 2026-10-13 14:40:59,837  INFO     ────────────────────────────────────────────────────────────
 2026-10-13 14:40:59,837  INFO     Done!  Open: output/index.html
 2026-10-13 14:40:59,837  INFO     Headline: Where do LLMs actually earn their place in a recommender system? Kim Falk’s new book + 5 ebook giveaway [D]
+2026-10-14 12:33:39,859  INFO     ============================================================
+2026-10-14 12:33:39,859  INFO     TECHPULSE Digest — 2026-10-14 12:33 UTC
+2026-10-14 12:33:39,859  INFO     ============================================================
+2026-10-14 12:33:39,859  INFO     Step 1/3 — Crawling feeds…
+2026-10-14 12:33:40,128  INFO       Hacker News                    → 0 significant articles
+2026-10-14 12:33:40,220  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-14 12:33:40,400  INFO       Ars Technica                   → 0 significant articles
+2026-10-14 12:33:40,892  INFO       The Register AI                → 0 significant articles
+2026-10-14 12:33:41,115  INFO       MIT Tech Review                → 2 significant articles
+2026-10-14 12:33:41,318  INFO       Dev.to AI                      → 5 significant articles
+2026-10-14 12:33:42,788  INFO       Dev.to Programming             → 5 significant articles
+2026-10-14 12:33:43,066  INFO       GitHub Blog                    → 1 significant articles
+2026-10-14 12:33:44,128  INFO       Google Research                → 0 significant articles
+2026-10-14 12:33:44,857  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-10-14 12:33:44,919  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-14 12:33:45,383  INFO       InfoQ                          → 3 significant articles
+2026-10-14 12:33:45,584  INFO       Towards Data Science           → 5 significant articles
+2026-10-14 12:33:45,756  INFO       Wired AI                       → 0 significant articles
+2026-10-14 12:33:45,860  INFO       TechCrunch AI                  → 6 significant articles
+2026-10-14 12:33:45,861  INFO     Fetching images for top articles…
+2026-10-14 12:33:47,375  INFO       🖼  Claude Filed a Fake Police Report and OpenAI's Agents Helped
+2026-10-14 12:33:48,009  INFO       🖼  Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI 
+2026-10-14 12:33:48,092  INFO       🖼  Facebook is giving users more control over their algorithm
+2026-10-14 12:33:48,125  INFO       🖼  What are Hedera Agent Accounts? Caps on-chain, mainnet in Q2
+2026-10-14 12:33:48,579  INFO       🖼  Google Antigravity SDK Adds Local Model Support for Greater 
+2026-10-14 12:33:48,637  INFO       🖼  Série: Claude Code CLI: guia técnico — Parte 3: remoto, limi
+2026-10-14 12:33:48,638  INFO     Total selected: 30 articles from 15 feeds
+2026-10-14 12:33:48,638  INFO     Selected 30 significant articles
+2026-10-14 12:33:48,638  INFO     Step 2/3 — Generating digest…
+2026-10-14 12:33:49,133  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-14 12:33:49,134  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-14 12:33:49,134  INFO     Step 3/3 — Rendering HTML…
+2026-10-14 12:33:49,136  INFO     ────────────────────────────────────────────────────────────
+2026-10-14 12:33:49,136  INFO     Done!  Open: output/index.html
+2026-10-14 12:33:49,136  INFO     Headline: Claude Filed a Fake Police Report and OpenAI's Agents Helped Take Down a Wikipedia Service — Same Root Cause
