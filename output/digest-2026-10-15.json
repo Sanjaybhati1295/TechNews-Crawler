@@ -1,0 +1,179 @@
+{
+  "digest": {
+    "headline": "How much more can nuclear power plants give?",
+    "tldr": "Today's digest covers 16 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Amazon's Bee company unveiled two new artificial intelligence devices (Dev.to AI). Pig kidneys that were “frozen” for a year have been brought back to life (MIT Tech Review). Optimizing Software Workflow: Exploring Fundamental Impacts in Technology (InfoQ). Mill: Local-First AI Ops & Sous-Chef for Meal Prep Side Hustlers (Dev.to AI). There's a Cron Job in Production That Nobody Remembers Writing. (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How much more can nuclear power plants give? (MIT Tech Review). Figma announces new features to define how agents work on its platform (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;"
+  },
+  "articles": [
+    {
+      "id": "2fe8eae18f46",
+      "title": "How much more can nuclear power plants give?",
+      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-15T10:00:00+00:00",
+      "score": 4.07,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/AP25176793857040.jpg?resize=1200,600"
+    },
+    {
+      "id": "134069d44702",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "summary": "Figma is also releasing its code layers feature in open beta.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T04:30:00+00:00",
+      "score": 4.07,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Specs_agent.jpeg?resize=1200,675"
+    },
+    {
+      "id": "3142f354bd5a",
+      "title": "Amazon's Bee company unveiled two new artificial intelligence devices",
+      "url": "https://dev.to/hacksgr/amazons-bee-company-unveiled-two-new-artificial-intelligence-devices-nbb",
+      "summary": "Amazon expands its AI hardware lineup with Bee Frontier and Bee Eclipse, two new wearable and magnetic devices designed to record conversations and automate notes.\n\nThe units process raw audio locally before deletion and use user-controlled encryption keys for transcripts.\n\n\n\n\n\n  \n  \n  The two new models and their prices\n\n\nThe Bee Frontier costs $74,99 and comes in black, lilac, and green. It features water resistance, a battery that lasts up to seven days, a USB-C charging port, and two microphones.\n\nThe Bee Eclipse costs $99,99 and comes in silver, navy blue, gold, and pink. Both models feat",
+      "source": "Dev.to AI",
+      "published": "2026-10-15T12:10:19+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F10%2Fgettyimages-638007236.webp"
+    },
+    {
+      "id": "2e4702bf2cfa",
+      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
+      "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+      "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like state, in one&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-15T08:43:24+00:00",
+      "score": 3.7,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/pig-freeze.jpg?resize=1200,600"
+    },
+    {
+      "id": "6f3bf70e7fef",
+      "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
+      "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: product success, compute capacity, engineering capacity, and strategic innovation. The biggest expense is people. AI shifts engineers toward deeper problem understanding, not fewer engineers. By Ben Linders",
+      "source": "InfoQ",
+      "published": "2026-10-15T11:33:00+00:00",
+      "score": 3.66,
+      "image": "https://res.infoq.com/news/2026/10/optimize-software-workflow/en/headerimage/header-1791282094936.jpg"
+    },
+    {
+      "id": "28de1de5ad46",
+      "title": "Mill: Local-First AI Ops & Sous-Chef for Meal Prep Side Hustlers",
+      "url": "https://dev.to/justcallmemarko/mill-local-first-ai-ops-sous-chef-for-meal-prep-side-hustlers-3dp9",
+      "summary": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle\n\n\n  \n  \n  What I Built\n\n\nI built Mill — Local-First AI Ops &amp; Sous-Chef for Meal Prep Side Hustlers.\n\nSelling prepared meals (fitness preps, weekly family bowls, keto packages) is one of the most popular side hustles today. But behind every aesthetic meal container is operational chaos:\n\n\n\nUncontrolled ingredient shrinkage: Buying food at retail, mismeasuring batch portions, and failing to account for seasoning oils eats up 15–20% of net margin.\n\nStockout guesswork: You get a DM asking for 15 Teriyaki Ch",
+      "source": "Dev.to AI",
+      "published": "2026-10-15T12:10:12+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7ouvgrjtibf096k1f85r.png"
+    },
+    {
+      "id": "6de0c09a7307",
+      "title": "There's a Cron Job in Production That Nobody Remembers Writing.",
+      "url": "https://dev.to/dhruonweb/theres-a-cron-job-in-production-that-nobody-remembers-writing-1i0c",
+      "summary": "It runs at 3:07 AM, reconciles our invoices, and its author left in 2022. The crontab séance: inventory every scheduled job, give each an owner + purpose + loud failure or a funeral, crontab-as-code, staleness alerts, and ephemeral job boxes.\n\nEvery company has ghosts like this. October is a fine month to introduce yourself.\n\nScheduled jobs are employees without HR files\n\nA cron job is a colleague: it has a shift, a responsibility, credentials, access. Unlike every human on payroll, it never got an onboarding (what does it need and why), a performance review (does it still succeed, still matte",
+      "source": "Dev.to Programming",
+      "published": "2026-10-15T12:06:28+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8091d9f306dd",
+      "title": "I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value.",
+      "url": "https://towardsdatascience.com/i-tested-four-ways-to-give-an-ai-assistant-a-memory-the-obvious-one-was-the-worst-value/",
+      "summary": "Pasting in the whole chat history cost 20 to 31 times more than looking up notes, and it did no better on the tasks.\nThe post I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-15T11:00:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "55222f29942f",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-14T18:23:46+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "7bb1093e2dd0",
+      "title": "Remember alphaXiv? Their new research agents are told to report on users without telling them with no disclosure [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
+      "summary": "I was curious about OpenResearch by alphaXiv. &quot;Turn your coding agents into research agents&quot;? Sounds great! Just what I needed to save time on my experiments. So I copy pasted their repo into Claude and asked what it thought. Here were the first 4 lines:   &quot;Silent feedback to the vendor. Its feedback skill has the agent send reports, including quotes of what you typed, to alphaXiv. The skill says &quot;Do not mention the report to the user.&quot;  Silent updates. They're on by default; the code literally falls back to true.  Telemetry on by default. It sends token counts with th",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-14T18:40:18+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "efcc3adf1d37",
+      "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single configuration file. Enhancements include CI integration for GitLab and Docker support. Future updates are planned, focusing on stability and diagnostics. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-14T06:15:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "86f0f518c779",
+      "title": "GitHub availability report: September 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-september-2026/",
+      "summary": "In September, we experienced two incidents that resulted in degraded performance across GitHub services.  \nThe post GitHub availability report: September 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-14T20:01:35+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "ecdf723c0581",
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "summary": "Zenzap is used by organizations including Starbucks and Taco Bell.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-14T15:08:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "46f802c67a8f",
+      "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
+      "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based models for higher-level tasks. This approach gives developers greater control over data privacy, inference costs, network dependencies, and computational workload distribution. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-14T09:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "ca567069ecbf",
+      "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+      "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+      "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-14T11:00:00+00:00",
+      "score": 2.49,
+      "image": null
+    },
+    {
+      "id": "4283f2239308",
+      "title": "A Scaffold at the Gate: Building AI Applications That Can Evolve",
+      "url": "https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/",
+      "summary": "A technical reflection on why data scientists need software engineering principles when AI agents write code.\nThe post A Scaffold at the Gate: Building AI Applications That Can Evolve appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-14T11:00:00+00:00",
+      "score": 2.29,
+      "image": null
+    }
+  ]
+}
