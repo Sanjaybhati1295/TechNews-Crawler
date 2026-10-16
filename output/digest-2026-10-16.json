@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules (InfoQ). Chainguard Launches Secure Workspaces and Checks for AI Coding Agents (InfoQ). AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development (InfoQ). macOS TCC permissions for unattended AI agents: stop losing nights to hidden prompts (Dev.to AI). Amazon’s Bee launches two new personal AI devices, starting at $75 (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "How much more can nuclear power plants give? (MIT Tech Review). Figma announces new features to define how agents work on its platform (TechCrunch AI)."
+      }
+    ],
+    "key_takeaway": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable and secure baseline. Concurrent with the release of JDK 27, new features in Helidon 27 include: an introduction to new major modules, Helidon Messaging and Helidon Data JDBC. By Michael Redlich"
+  },
+  "articles": [
+    {
+      "id": "9da0f27ae56b",
+      "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
+      "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable and secure baseline. Concurrent with the release of JDK 27, new features in Helidon 27 include: an introduction to new major modules, Helidon Messaging and Helidon Data JDBC. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-16T11:20:00+00:00",
+      "score": 4.86,
+      "image": "https://res.infoq.com/news/2026/10/helidon-27-released/en/headerimage/java-istock-image-01-1792149493797.jpg"
+    },
+    {
+      "id": "67357e8f3303",
+      "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+      "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development environments based on hardened microVMs, while Chainguard Checks moves continuous integration into the development loop. The company announced both products at its Assemble London event. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-16T09:00:00+00:00",
+      "score": 4.63,
+      "image": "https://res.infoq.com/news/2026/10/chainguard-workspaces-checks/en/headerimage/generatedHeaderImage-1792079610138.jpg"
+    },
+    {
+      "id": "28cb5ad32441",
+      "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+      "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution. Both projects address different aspects of building agents that use tools, execute code, and interact with external systems. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-10-16T10:47:00+00:00",
+      "score": 4.33,
+      "image": "https://res.infoq.com/news/2026/10/aws-strands-agents/en/headerimage/generatedHeaderImage-1792079603910.jpg"
+    },
+    {
+      "id": "ad4cee60c3ff",
+      "title": "macOS TCC permissions for unattended AI agents: stop losing nights to hidden prompts",
+      "url": "https://dev.to/jbrenens/macos-tcc-permissions-for-unattended-ai-agents-stop-losing-nights-to-hidden-prompts-27hb",
+      "summary": "If you run AI agents unattended on a Mac (Claude Code in iTerm, a launchd job driving osascript, Hammerspoon clicking buttons), you've probably woken up to find nothing happened overnight. The cause is usually one dialog sitting on an unwatched screen: \"Terminal\" would like to control \"System Events\".\n\nThat's macOS TCC (Transparency, Consent and Control). Here's how to set it up once so it stops eating your nights.\n\n\n  \n  \n  The key idea: permissions belong to the host app\n\n\nTCC grants go to the app that launches the process, not to your script. If claude runs inside iTerm, iTerm needs the gra",
+      "source": "Dev.to AI",
+      "published": "2026-10-16T11:45:47+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fuz1illuge4rrg5gwpr2i.png"
+    },
+    {
+      "id": "a3fa54bbd593",
+      "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T12:00:00+00:00",
+      "score": 4.07,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/BEE_FAMILY_01_1080x1080.jpg?w=1080"
+    },
+    {
+      "id": "3afe58458089",
+      "title": "\"The AI startup credits category, counted: 81 offers, and exactly one an agent could take on its own\"",
+      "url": "https://dev.to/dosunmu_hassan_46f2ac141d/the-ai-startup-credits-category-counted-81-offers-and-exactly-one-an-agent-could-take-on-its-2i96",
+      "summary": "Last week I wanted to know what the AI credits offered to startups in 2026 actually look like, as opposed to what the landing pages advertise. So I downloaded the machine readable catalogue from the open registry that keeps this data with its sources (https://sourcey.com/catalog.json) and counted every offer in one category.\n\nThe file says what it is. Its release stamp is sha256:4e675f7d6f399cf3f6bd9e53f7b2fea001fb258c800b0af0e33e4bc9c0ae6e85, its policy snapshot is dated 5 October 2026, and the pages that publish it carry the same digest (https://sourcey.com/statistics). Everything below is c",
+      "source": "Dev.to AI",
+      "published": "2026-10-16T11:50:20+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa3g5acamzkccslwzqy3m.png"
+    },
+    {
+      "id": "2c809e6c1496",
+      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+      "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric and moves KV state between prefill and decode workers without leaving it. Practitioners have questioned the tokens-per-watt claim that leads the announcement. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-16T06:02:00+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "bdad458aadf3",
+      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+      "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-16T07:56:32+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "cfdd9c0d98f0",
+      "title": "Introducing FormBuilder — Create Forms with AI or Manually",
+      "url": "https://dev.to/rajan_kumar_123/introducing-formbuilder-create-forms-with-ai-or-manually-2256",
+      "summary": "Hey Product Hunt community!\n\nI'm Rajan Kumar, the creator of FormBuilder. I'm from a small village in Madhubani, Bihar, India, and I built FormBuilder to make form creation and data collection easier for everyone.\n\nFormBuilder is an AI-powered alternative to Google Forms and Typeform. You can create almost any type of form using a conversational AI agent or build it manually. Once your form is ready, share it directly through a public link or embed it into your own website. You can manage all your forms and submissions from one centralized dashboard.\n\n\n  \n  \n  Key Features\n\n\n\n\nAI Form Builder:",
+      "source": "Dev.to Programming",
+      "published": "2026-10-16T11:24:57+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "3b48a69a2fe9",
+      "title": "The Hidden Cost of Vibe Coding Without Engineering Expertise",
+      "url": "https://dev.to/kavitasystems/the-hidden-cost-of-vibe-coding-without-engineering-expertise-601",
+      "summary": "You buy a coding-agent subscription and get a working prototype. Then you buy another tool to fix the bugs, a reviewer to check the fixes, and an orchestrator to coordinate them.\n\nEvery tool reports progress. The application still cannot complete a critical workflow reliably. You spend another week prompting, rewriting, and upgrading plans. Your budget shrinks while the release remains out of reach.\n\nThis is a failure mode founders should take seriously: a development process that keeps generating activity without producing evidence that the product is ready.\n\nBy vibe coding here, I mean accep",
+      "source": "Dev.to Programming",
+      "published": "2026-10-16T11:24:12+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "81f6d6a6ad76",
+      "title": "Running A 39-Product Stock Pipeline On A 2 GB Server With Zero Cloud Costs",
+      "url": "https://dev.to/revanzart/running-a-39-product-stock-pipeline-on-a-2-gb-server-with-zero-cloud-costs-3jd2",
+      "summary": "I killed my pipeline at 2:40 in the morning watching a batch re-run post the same 40 files to Adobe Stock twice. The upload had timed out halfway, I restarted the script, and my ledger was a text file I had forgotten to update. That is the fastest way I know to get an account flagged, and I did it to myself.\n\nThat failure is why I now run everything on a ledger instead of memory, and why the whole 39-product pipeline runs on a server with 1 vCPU and 2 GB of RAM. No cloud account, no GPU, no monthly bill. Here is what actually matters if you want to do the same.\n\n\n  \n  \n  Metadata is where subm",
+      "source": "Dev.to AI",
+      "published": "2026-10-16T11:39:25+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "21e3505542d9",
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "summary": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T20:04:53+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "b4faeb1cc12a",
+      "title": "Google’s Universal Cart shopping tool launches in the US",
+      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
+      "summary": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T14:29:33+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "5b6680e2f8b9",
+      "title": "The next developer interface is ambient intelligence",
+      "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/",
+      "summary": "AI, agents, voice, and physical controls are shifting software development from operating tools to expressing intent—and helping developers stay focused on building.\nThe post The next developer interface is ambient intelligence appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-15T19:39:27+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "2fe8eae18f46",
+      "title": "How much more can nuclear power plants give?",
+      "url": "https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/",
+      "summary": "In this age of rising electricity demand, people are trying to squeeze every last bit of power out of every power plant possible. Over the past few weeks, there’s been big news about nuclear power plants trying to do just that. Constellation, the largest nuclear operator in the US, announced plans to add nearly a&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-15T10:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "134069d44702",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "summary": "Figma is also releasing its code layers feature in open beta.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-15T04:30:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "b5dc15930746",
+      "title": "What OpenAI’s 719 Math Papers Mean for Data Science",
+      "url": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
+      "summary": "Matching messy text, choosing representative examples, and generating comparison data.\nThe post What OpenAI’s 719 Math Papers Mean for Data Science appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-15T14:00:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "2e4702bf2cfa",
+      "title": "Pig kidneys that were “frozen” for a year have been brought back to life",
+      "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+      "summary": "Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been successfully rewarmed and shown to work again for the first time, say scientists. They hope to replicate the findings with human organs. The kidneys—which are similar in size to human ones—were left in a glass-like state, in one&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-15T08:43:24+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "e95a3e663456",
+      "title": "Jev Your Engines: Seven Open Decision Models vs. a Generative LLM",
+      "url": "https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/",
+      "summary": "A hands-on Jev repo comparison of routing accuracy, latency, and output reliability\nThe post Jev Your Engines: Seven Open Decision Models vs. a Generative LLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-15T15:30:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "6f3bf70e7fef",
+      "title": "Optimizing Software Workflow: Exploring Fundamental Impacts in Technology",
+      "url": "https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Software only has value when shipped; faster release cadence matters. Development, deployment, and operations require different thinking, metrics, and investments. There are four impacts in tech: product success, compute capacity, engineering capacity, and strategic innovation. The biggest expense is people. AI shifts engineers toward deeper problem understanding, not fewer engineers. By Ben Linders",
+      "source": "InfoQ",
+      "published": "2026-10-15T11:33:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "e8fa9c0c2720",
+      "title": "How Many Guesses Does It Take to Crack an AI's \"Random\" Number?",
+      "url": "https://towardsdatascience.com/how-many-guesses-does-it-take-to-crack-an-ais-random-number/",
+      "summary": "I read the exact answer distribution from the logits of open models, base and instruction-tuned, and turned it into bits and guesses-to-crack.\nThe post How Many Guesses Does It Take to Crack an AI's &quot;Random&quot; Number? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-15T12:30:00+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "8091d9f306dd",
+      "title": "I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value.",
+      "url": "https://towardsdatascience.com/i-tested-four-ways-to-give-an-ai-assistant-a-memory-the-obvious-one-was-the-worst-value/",
+      "summary": "Pasting in the whole chat history cost 20 to 31 times more than looking up notes, and it did no better on the tasks.\nThe post I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-15T11:00:00+00:00",
+      "score": 2.11,
+      "image": null
+    }
+  ]
+}

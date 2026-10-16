@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Friday, October 16, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Friday, October 16, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 22 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/helidon-27-released/en/headerimage/java-istock-image-01-1792149493797.jpg" alt="Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Helidon 27 Introduces Restructured Programming Models and New Messagin…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/chainguard-workspaces-checks/en/headerimage/generatedHeaderImage-1792079610138.jpg" alt="Chainguard Launches Secure Workspaces and Checks for AI Coding Agents" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Chainguard Launches Secure Workspaces and Checks for AI Coding Agents</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/aws-strands-agents/en/headerimage/generatedHeaderImage-1792079603910.jpg" alt="AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">AWS Introduces Strands Decider 2B and Strands Box for AI Agent Develop…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>InfoQ</span> · <span>Dev.to AI</span> · <span>TechCrunch AI</span> · <span>MIT Tech Review</span> · <span>Dev.to Programming</span> · <span>GitHub Blog</span> · <span>Towards Data Science</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules (InfoQ). Chainguard Launches Secure Workspaces and Checks for AI Coding Agents (InfoQ). AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development (InfoQ). macOS TCC permissions for unattended AI agents: stop losing nights to hidden prompts (Dev.to AI). Amazon’s Bee launches two new personal AI devices, starting at $75 (TechCrunch AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>How much more can nuclear power plants give? (MIT Tech Review). Figma announces new features to define how agents work on its platform (TechCrunch AI).</p></div>
+        </div>
+
+    <div class="takeaway">The release of Helidon 27 is the first release that follows the Oracle Tip &amp; Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable and secure baseline. Concurrent with the release of JDK 27, new features in Helidon 27 include: an introduction to new major modules, Helidon Messaging and Helidon Data JDBC. By Michael Redlich</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (22 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Chainguard Launches Secure Workspaces and Checks for AI Coding Agents</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/jbrenens/macos-tcc-permissions-for-unattended-ai-agents-stop-losing-nights-to-hidden-prompts-27hb" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">macOS TCC permissions for unattended AI agents: stop losing nights to hidden prompts</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Amazon’s Bee launches two new personal AI devices, starting at $75</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/dosunmu_hassan_46f2ac141d/the-ai-startup-credits-category-counted-81-offers-and-exactly-one-an-agent-could-take-on-its-2i96" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">&quot;The AI startup credits category, counted: 81 offers, and exactly one an agent could take on its own&quot;</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">Kids are outsmarting social media bans. That’s not a problem we need to solve.</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/rajan_kumar_123/introducing-formbuilder-create-forms-with-ai-or-manually-2256" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Introducing FormBuilder — Create Forms with AI or Manually</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/kavitasystems/the-hidden-cost-of-vibe-coding-without-engineering-expertise-601" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">The Hidden Cost of Vibe Coding Without Engineering Expertise</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/revanzart/running-a-39-product-stock-pipeline-on-a-2-gb-server-with-zero-cloud-costs-3jd2" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Running A 39-Product Stock Pipeline On A 2 GB Server With Zero Cloud Costs</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Meta launches an open-weight AI model that runs on Macs</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Google’s Universal Cart shopping tool launches in the US</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">The next developer interface is ambient intelligence</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/15/1146577/nuclear-power-upgrade/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">How much more can nuclear power plants give?</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Figma announces new features to define how agents work on its platform</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">What OpenAI’s 719 Math Papers Mean for Data Science</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">Pig kidneys that were “frozen” for a year have been brought back to life</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Jev Your Engines: Seven Open Decision Models vs. a Generative LLM</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/optimize-software-workflow/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Optimizing Software Workflow: Exploring Fundamental Impacts in Technology</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Friday, October 16, 2026 · 22 articles crawled from 7 sources
+  </footer>
+
+</body>
+</html>

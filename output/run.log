@@ -5517,3 +5517,38 @@
 2026-10-15 12:17:30,367  INFO     ────────────────────────────────────────────────────────────
 2026-10-15 12:17:30,367  INFO     Done!  Open: output/index.html
 2026-10-15 12:17:30,367  INFO     Headline: How much more can nuclear power plants give?
+2026-10-16 11:59:52,275  INFO     ============================================================
+2026-10-16 11:59:52,275  INFO     TECHPULSE Digest — 2026-10-16 11:59 UTC
+2026-10-16 11:59:52,276  INFO     ============================================================
+2026-10-16 11:59:52,276  INFO     Step 1/3 — Crawling feeds…
+2026-10-16 11:59:52,599  INFO       Hacker News                    → 0 significant articles
+2026-10-16 11:59:52,752  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-16 11:59:52,829  INFO       Ars Technica                   → 0 significant articles
+2026-10-16 11:59:53,354  INFO       The Register AI                → 0 significant articles
+2026-10-16 11:59:53,503  INFO       MIT Tech Review                → 3 significant articles
+2026-10-16 11:59:53,595  INFO       Dev.to AI                      → 3 significant articles
+2026-10-16 11:59:54,022  INFO       Dev.to Programming             → 2 significant articles
+2026-10-16 11:59:54,251  INFO       GitHub Blog                    → 1 significant articles
+2026-10-16 11:59:55,298  INFO       Google Research                → 0 significant articles
+2026-10-16 11:59:56,700  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-10-16 11:59:56,743  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-16 11:59:57,440  INFO       InfoQ                          → 5 significant articles
+2026-10-16 11:59:57,565  INFO       Towards Data Science           → 4 significant articles
+2026-10-16 11:59:57,712  INFO       Wired AI                       → 0 significant articles
+2026-10-16 11:59:57,775  INFO       TechCrunch AI                  → 4 significant articles
+2026-10-16 11:59:57,775  INFO     Fetching images for top articles…
+2026-10-16 11:59:58,352  INFO       🖼  Helidon 27 Introduces Restructured Programming Models and Ne
+2026-10-16 11:59:58,886  INFO       🖼  Chainguard Launches Secure Workspaces and Checks for AI Codi
+2026-10-16 11:59:59,461  INFO       🖼  AWS Introduces Strands Decider 2B and Strands Box for AI Age
+2026-10-16 11:59:59,513  INFO       🖼  macOS TCC permissions for unattended AI agents: stop losing 
+2026-10-16 11:59:59,579  INFO       🖼  Amazon’s Bee launches two new personal AI devices, starting 
+2026-10-16 11:59:59,615  INFO       🖼  "The AI startup credits category, counted: 81 offers, and ex
+2026-10-16 11:59:59,615  INFO     Total selected: 22 articles from 15 feeds
+2026-10-16 11:59:59,615  INFO     Selected 22 significant articles
+2026-10-16 11:59:59,615  INFO     Step 2/3 — Generating digest…
+2026-10-16 11:59:59,896  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-16 11:59:59,896  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-16 11:59:59,896  INFO     Step 3/3 — Rendering HTML…
+2026-10-16 11:59:59,897  INFO     ────────────────────────────────────────────────────────────
+2026-10-16 11:59:59,897  INFO     Done!  Open: output/index.html
+2026-10-16 11:59:59,898  INFO     Headline: Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules
