@@ -1,0 +1,235 @@
+{
+  "digest": {
+    "headline": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL (InfoQ). Replit is no longer working with Anthropic, CEO says (TechCrunch AI). A 24-second template beats infinite control (for a first version) (Dev.to AI). Jev Router Benchmark: 117 of 118 Calls Went to GPT-6.1 Sol (Dev.to AI). How Long Before Your Agent Says Anything? Time 4 Coding Agent CLIs With hyperfine (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin"
+  },
+  "articles": [
+    {
+      "id": "e219a22d730b",
+      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+      "url": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin",
+      "source": "InfoQ",
+      "published": "2026-10-17T06:00:00+00:00",
+      "score": 4.21,
+      "image": "https://res.infoq.com/news/2026/10/amazon-acquires-ducklabs/en/headerimage/generatedHeaderImage-1792158812926.jpg"
+    },
+    {
+      "id": "d0f11237d1f3",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T21:22:28+00:00",
+      "score": 4.13,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800"
+    },
+    {
+      "id": "ed4f272bf061",
+      "title": "A 24-second template beats infinite control (for a first version)",
+      "url": "https://dev.to/andystanly/a-24-second-template-beats-infinite-control-for-a-first-version-5fpa",
+      "summary": "Every AI video tool starts with a control panel. Mine started with a fixed template, and that was the only reason it shipped.\n\n\n  \n  \n  Infinite control is a trap for a first release\n\n\nWhen the first version exposes duration, motion, style, aspect ratio and seed, you are not giving the user power — you are giving them decisions they cannot evaluate. Users cannot tell a good seed from a bad one. They can tell whether the result looks right.\n\nA fixed template makes the first release testable: one input, one output shape, one thing to judge.\n\n\n  \n  \n  24 seconds is a constraint that clarifies\n\n\nA",
+      "source": "Dev.to AI",
+      "published": "2026-10-17T11:07:04+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ftpv26uipyza67uvt91y0.png"
+    },
+    {
+      "id": "fb4357dfa97b",
+      "title": "Jev Router Benchmark: 117 of 118 Calls Went to GPT-6.1 Sol",
+      "url": "https://dev.to/mihai_leanzero/jev-router-benchmark-117-of-118-calls-went-to-gpt-61-sol-2m9m",
+      "summary": "TypeSafe's Jev Router (typesafe/jev-router on OpenRouter) went to the top of our Forge 2.0 agentic coding benchmark this morning. Its two builds scored 0.6398 and 0.8523, a median of 0.746, ahead of Claude Opus 5.5 at 0.6745. OpenRouter's own generation records show where the work went. Of the 118 calls the router handled, 117 went to GPT-6.1 Sol and one to GPT-6 Astra. GPT-6.1 Sol's own pair, 0.6495 and 0.5371, sits third.\n\nSo the model that came first was, on this task, the model that came third, called through a router. I saw the board and thought it was a bit crazy. My first question was t",
+      "source": "Dev.to AI",
+      "published": "2026-10-17T11:00:44+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.sanity.io%2Fimages%2F3oa2omis%2Fproduction%2F115893027c5e0f1ba79f73ac892f458e53733034-1200x630.png"
+    },
+    {
+      "id": "62c63fbe7403",
+      "title": "How Long Before Your Agent Says Anything? Time 4 Coding Agent CLIs With hyperfine",
+      "url": "https://dev.to/gabrielanhaia/how-long-before-your-agent-says-anything-time-4-coding-agent-clis-with-hyperfine-4o2e",
+      "summary": "Book: Prompt Engineering Pocket Guide\n\n\nAlso by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go\n\n\nMy project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools\n\nMe: xgabriel.com | GitHub\n\n\n\n\n\n\nUse --mcp-config to give Claude Code an MCP server that never answers, and a claude -p run waits for it before the first turn: up to MCP_TIMEOUT, 30 seconds by default, on v2.1.221 or later (CLI reference). Codex waits 1,000 milliseconds for optional servers while it builds its first tool list (Codex MCP do",
+      "source": "Dev.to AI",
+      "published": "2026-10-17T11:01:34+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwnlljei5spbtcnwz69kz.png"
+    },
+    {
+      "id": "c4c8af367520",
+      "title": "Is is worth staying after the main conference if I don't have workshop registration? (NeurIPS) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/",
+      "summary": "Basically the title. Due to the nonsensical situation of NeurIPS being fully sold out before the results were even released, I couldn't get workshop registration (my paper is in the main track, which apparently doesn't have any sort of gaurantee for registrations in other parts of the conference like workshops). My experience with conferences has been with full registrations, so I don't really know how the experience goes if I only have registration for the main conference and not the workshops. Is there any specific networking opportunities/usefulness, or should I cut my stay short and leave ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-17T08:17:31+00:00",
+      "score": 3.73,
+      "image": null
+    },
+    {
+      "id": "1b1b40e33170",
+      "title": "My PDF-to-Markdown converter kept flattening two-column papers into soup — column detection was the whole game",
+      "url": "https://dev.to/imapphelp/my-pdf-to-markdown-converter-kept-flattening-two-column-papers-into-soup-column-detection-was-the-465g",
+      "summary": "I built the PDF-to-Markdown API expecting layout to be a solved problem. It isn't.\n\nThe failure mode was subtle and brutal: academic papers with two-column layouts came back as interleaved garbage. Line one of column A, line one of column B, line two of column A... The Markdown looked fine at a glance — headings, paragraphs, lists all present — but the reading order was destroyed. I fed one into a RAG pipeline and the retriever started quoting sentences that spanned two unrelated columns. The chunks were technically valid; semantically they were nonsense.\n\nMy first fix was naive: split the pag",
+      "source": "Dev.to AI",
+      "published": "2026-10-17T11:02:34+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "9da0f27ae56b",
+      "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
+      "url": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable and secure baseline. Concurrent with the release of JDK 27, new features in Helidon 27 include: an introduction to new major modules, Helidon Messaging and Helidon Data JDBC. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-16T11:20:00+00:00",
+      "score": 3.57,
+      "image": null
+    },
+    {
+      "id": "8f6df726789c",
+      "title": "Valid JSON Is Not Conformant JSON: Five Free-Model Myths and a Pass-Rate Probe",
+      "url": "https://dev.to/gitlab_3188/valid-json-is-not-conformant-json-five-free-model-myths-and-a-pass-rate-probe-1a8",
+      "summary": "A worker dies at 2 a.m. The payload parses fine. Nobody believes the alert at first.\n\nThat gap — parses versus conforms — is where a lot of free-model pipelines quietly break. I keep seeing the same five claims in review threads. Each one is testable in under an hour.\n\nHere is the probe I reach for, and the mental model I would swap in.\n\n\n  \n  \n  Myth 1: \"If json.loads accepts it, the model followed my schema.\"\n\n\nNo. You have two gates. Most teams install only the first one.\n\n\n\nGate A — parse. Is the text a JSON value at all?\n\nGate B — contract. Does that value match your schema: required keys",
+      "source": "Dev.to AI",
+      "published": "2026-10-17T11:04:45+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "35a88439c45b",
+      "title": "[Research] 2,788 tokens/s on a single RTX 5090 with a diffusion LLM — Introducing ORL (fully open source) [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+      "summary": "Hey r/MachineLearning! We're excited to share ORL (On-Policy Residual Learning), our new research on making diffusion language models (dLLMs) significantly faster without sacrificing generation quality. With ORL and our custom inference engine dlmrt, we've achieved:  2,788 tokens/s on a single RTX 5090 — LLaDA-2.1-mini + ORL, NVFP4 7,708 tokens/s on 8× B200 — DiffusionGemma 26B MoE + ORL, NVFP4 Up to 6.9× higher end-to-end throughput on our QwenDLM-4B model, at comparable or better quality 1.74× faster than DFlash speculative decoding at matched accuracy in our single-request H100 comparison  ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-16T20:03:32+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "5d01319e77f1",
+      "title": "Pre-Deployment SEO Checks: 14 Tasks with HTML Examples",
+      "url": "https://dev.to/ai_buildinfra_293e74659d/pre-deployment-seo-checks-14-tasks-with-html-examples-2nje",
+      "summary": "our website builds successfully, the design looks good, and the deployment is ready. Before you ship, check the details that affect how visitors and search engines access your content.\n\nHere are 14 practical checks covering HTML metadata, content, images, performance, and indexing.\n\nRead AI Build Infra's website launch SEO checklist on Issuu: \n\n\n  \n  \n  1. Give every page a clear purpose\n\n\nEach page should answer a specific question or help visitors complete a task. Before deployment, check:\n\nDoes the page explain its topic immediately?\nDoes the content match what the title promises?\nIs the ne",
+      "source": "Dev.to Programming",
+      "published": "2026-10-17T10:22:54+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "a408a7a74b58",
+      "title": "Go Profiling in Production: pprof, Flamegraphs and Memory Leaks",
+      "url": "https://dev.to/ayinedjimi-consultants/go-profiling-in-production-pprof-flamegraphs-and-memory-leaks-45a0",
+      "summary": "Your Go service handles thousands of requests per minute — until it doesn't. Memory climbs steadily, p99 latency spikes, and the first instinct is to add more instances. Before doing that, you need to understand what the code is actually doing. Go's built-in profiling tooling makes this tractable without third-party frameworks or expensive APM subscriptions.\n\n\n  \n  \n  Setting Up pprof in a Running Service\n\n\npprof is part of the standard library. Adding it to an existing HTTP service takes four lines:\n\n\n\nimport (\n    \"net/http\"\n    _ \"net/http/pprof\"\n)\n\nfunc main() {\n    // Expose pprof on a se",
+      "source": "Dev.to Programming",
+      "published": "2026-10-17T10:02:46+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "67357e8f3303",
+      "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+      "url": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development environments based on hardened microVMs, while Chainguard Checks moves continuous integration into the development loop. The company announced both products at its Assemble London event. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-16T09:00:00+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "6f0ec75f9d13",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-16T16:01:37+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "3c4200df95ca",
+      "title": "Zod Brings In-Process Schema Compilation and a 9x Cut in Memory Footprint",
+      "url": "https://www.infoq.com/news/2026/10/zod-schema-compliation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Zod is a TypeScript-focused schema validation library that recently released versions 4.5 and 4.6. Key updates include schema compilation for faster data parsing, significant memory usage reductions, and new validation features. The library supports efficient validation processes and remains popular in the JavaScript ecosystem, achieving millions of downloads weekly. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-16T15:22:00+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "28cb5ad32441",
+      "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+      "url": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution. Both projects address different aspects of building agents that use tools, execute code, and interact with external systems. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-10-16T10:47:00+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "d85a6b074d7e",
+      "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
+      "url": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the researchers, this approach can improve both learning effectiveness and efficiency while helping agents overcome their weaknesses. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-16T19:00:00+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "f1c9f97326da",
+      "title": "The Download: failed social media bans, and extending pets’ lives",
+      "url": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That’s not a problem we need to solve.   —Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-16T12:10:00+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "2c809e6c1496",
+      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+      "url": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric and moves KV state between prefill and decode workers without leaving it. Practitioners have questioned the tokens-per-watt claim that leads the announcement. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-16T06:02:00+00:00",
+      "score": 2.48,
+      "image": null
+    },
+    {
+      "id": "033f0e1d7bef",
+      "title": "Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It",
+      "url": "https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/",
+      "summary": "I rated my confidence 4 out of 5, then couldn’t find a planted bug in 8 minutes. Here is the tool, the run, and its limits.\nThe post Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-16T15:30:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "bdad458aadf3",
+      "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+      "url": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+      "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-16T07:56:32+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "7f37dfc02035",
+      "title": "I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.",
+      "url": "https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/",
+      "summary": "The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down.\nThe post I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-16T14:00:00+00:00",
+      "score": 2.32,
+      "image": null
+    }
+  ]
+}
