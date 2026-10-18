@@ -1,0 +1,135 @@
+{
+  "digest": {
+    "headline": "How to Price Your First AI SaaS So Heavy Users Don't Eat Your Profit: A 7-Step Beginner Guide",
+    "tldr": "Today's digest covers 12 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "How to Price Your First AI SaaS So Heavy Users Don't Eat Your Profit: A 7-Step Beginner Guide (Dev.to AI). How to get YouTube transcripts for RAG and AI pipelines (with timestamps) (Dev.to AI). Same AI, with and without memory: a FalkorDB graph took issue routing from 18% to 74% (Dev.to AI). Eight Rust apps, one team, and a PSD parser written from Adobe’s public spec (Dev.to AI). Produzir Ficou Barato, Saber Ficou Caro: O Que o Proud Tech Summit 2026 Revela Sobre a Fronteira Entre Protótipo e Produção (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "You built an app with Cursor, Lovable, Bolt, or Claude Code. It calls an AI model behind the scenes. People like it. Now you have to put a number on the pricing page, and you have no idea what that number should be.\n\nIt is tempting to guess, or to copy a competitor. With an AI SaaS that can get expensive, because every click on \"Generate\" costs you real money. On a flat \"unlimited\" plan, your most active users can cost more than they pay.\n\nThis guide walks you through it in 7 steps. You will end up with one clear plan, a price you can defend, and limits that protect you.\n\nTwo quick definitions"
+  },
+  "articles": [
+    {
+      "id": "18c93edb02e4",
+      "title": "How to Price Your First AI SaaS So Heavy Users Don't Eat Your Profit: A 7-Step Beginner Guide",
+      "url": "https://dev.to/siteory/how-to-price-your-first-ai-saas-so-heavy-users-dont-eat-your-profit-a-7-step-beginner-guide-24bb",
+      "summary": "You built an app with Cursor, Lovable, Bolt, or Claude Code. It calls an AI model behind the scenes. People like it. Now you have to put a number on the pricing page, and you have no idea what that number should be.\n\nIt is tempting to guess, or to copy a competitor. With an AI SaaS that can get expensive, because every click on \"Generate\" costs you real money. On a flat \"unlimited\" plan, your most active users can cost more than they pay.\n\nThis guide walks you through it in 7 steps. You will end up with one clear plan, a price you can defend, and limits that protect you.\n\nTwo quick definitions",
+      "source": "Dev.to AI",
+      "published": "2026-10-18T11:28:03+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu9td07zqtgw3xciuamu5.png"
+    },
+    {
+      "id": "6d68802752bb",
+      "title": "How to get YouTube transcripts for RAG and AI pipelines (with timestamps)",
+      "url": "https://dev.to/sblabs/how-to-get-youtube-transcripts-for-rag-and-ai-pipelines-with-timestamps-24p6",
+      "summary": "If you're building anything with LLMs and video (search over a channel, a \"chat with this podcast\" bot, meeting-style summaries of talks), the first problem is boring: getting clean transcripts out of YouTube in bulk.\n\nThe usual options all have a catch:\n\n\n\nThe official YouTube Data API only gives caption files for videos you own.\n\nyoutube-transcript-api and similar libraries work great on your laptop, then start failing once you run them from a server, because YouTube blocks most datacenter IPs for transcript requests.\n\nMany tools pick the wrong language. Popular videos list volunteer transla",
+      "source": "Dev.to AI",
+      "published": "2026-10-18T11:22:20+00:00",
+      "score": 3.87,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fehrvmqahzi4l2pcxs75e.png"
+    },
+    {
+      "id": "a00fe469d148",
+      "title": "Same AI, with and without memory: a FalkorDB graph took issue routing from 18% to 74%",
+      "url": "https://dev.to/aashish_g/same-ai-with-and-without-memory-a-falkordb-graph-took-issue-routing-from-18-to-74-3812",
+      "summary": "TL;DR: Handoff Graph is an issue-routing agent that remembers who hands which issues to whom in a FalkorDB graph. I tested the same AI model and the same decision code with and without that memory, on two held-out periods of real microsoft/vscode triage (4,197 issues), each run once. In the summer period, without memory it hands 66% of issues to a human and picks the right owner first time 18% of the time. With memory: 4% and 74% (spring is similar: 64% to 7%, and 15% to 58%), within a few points of Microsoft's purpose-built triage classifier, with no training. It does not beat that classifier",
+      "source": "Dev.to AI",
+      "published": "2026-10-18T11:41:12+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fwxms4vkoebr3bxbe0mbt.png"
+    },
+    {
+      "id": "983d09a4f563",
+      "title": "Eight Rust apps, one team, and a PSD parser written from Adobe’s public spec",
+      "url": "https://dev.to/itxashancode/eight-rust-apps-one-team-and-a-psd-parser-written-from-adobes-public-spec-4h4h",
+      "summary": "Somebody on Bluesky summed up the PhotoCraft repo as \"AI stole Photoshop and now it's open source?\" That's a catchy line, and it's also not what the README says. So I went through the READMEs for storytold/artcraft and the apps around it to see what's actually there.\n\nCaveat before anything else: GitHub blocks automated browsing of source trees, so this is a read of the READMEs and public write-ups, not of the Rust code. I'm flagging which claims are the team's own and which come from third-party coverage.\n\n\n  \n  \n  What ArtCraft is, and what it isn't\n\n\nArtCraft itself is not a Photoshop clone",
+      "source": "Dev.to AI",
+      "published": "2026-10-18T11:39:13+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fftbubqu5yu24igae1z1c.png"
+    },
+    {
+      "id": "377f8ebeb8e3",
+      "title": "Produzir Ficou Barato, Saber Ficou Caro: O Que o Proud Tech Summit 2026 Revela Sobre a Fronteira Entre Protótipo e Produção",
+      "url": "https://dev.to/lucasresende-br/produzir-ficou-barato-saber-ficou-caro-o-que-o-proud-tech-summit-2026-revela-sobre-a-fronteira-2e6a",
+      "summary": "Acompanhei a transmissão online do Proud Tech Summit 2026, evento organizado pela Starian e pela Softplan. Foram cerca de oito horas de apresentações focadas em engenharia de software, sistemas legados, uso de agentes em produção e arquitetura de dados.\n\nO evento fugiu do papo genérico de inteligência artificial que domina a internet. Em vez de demonstrações prontas de chat, as palestras mostraram problemas reais: bancos relacionais legados, integrações que quebram, regras fiscais e o trabalho de colocar modelos para rodar com clientes de verdade.\n\nAs palestras que acompanhei ao longo do dia:\n",
+      "source": "Dev.to Programming",
+      "published": "2026-10-18T11:00:00+00:00",
+      "score": 3.65,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnumjj8tf55m3sc4x7lmu.webp"
+    },
+    {
+      "id": "891f4100051f",
+      "title": "EpochGo: Local-first multi-agent AutoML engine using offline Ollama LLMs and deterministic Scikit-Learn pipelines [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
+      "summary": "Hello r/MachineLearning, I wanted to share EpochGo, an open-source, local-first AutoML system built to tackle two major bottlenecks in applied machine learning: 1. Cloud API inference costs and data privacy risks: Traditional agentic ML frameworks rely heavily on cloud APIs (GPT-4), creating recurring costs and risking tabular data leakage (especially critical under enterprise compliance and data protection laws like DPDP/GDPR). 2. LLM hallucinations in mathematical reasoning: LLMs are notorious for failing at linear algebra, hyperparameter optimization, and gradient descent calculations when ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-17T14:48:25+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "2379128f6509",
+      "title": "Introduction",
+      "url": "https://dev.to/notadim2/introduction-4ic2",
+      "summary": "Hello, Dev.to community! 👋 \n\nAfter spending a long time reading incredible articles on this platform, I have finally decided to step out of my comfort zone and start sharing my own tech journey. \n\n\n  \n  \n  Who Am I?\n\n\nI am a software student passionate about [ Python, Frontend Web Development, Open Source].\n\n\n  \n  \n  Why Am I Blogging?\n\n\nI believe that the best way to solidify your own understanding of a concept is to explain it to someone else. Through this blog, I want to:\nDocument my learning process as I tackle new technologies.\nShare quick fixes for bugs or errors that took me hours to fi",
+      "source": "Dev.to AI",
+      "published": "2026-10-18T11:25:46+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "830d91bbda75",
+      "title": "What is wrong with AI writing - ICLR edition [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/",
+      "summary": "I'm sure many of us are slogging through impenetrable AI writing as we finish ICLR reviewing. I'll try to create an anonymized version from a paper I'm reviewing, though it's hard to match Claude on this:  outperforms the best baseline costing no more at none of six operating points and a permuted placebo at none of three, with gains up to about 1.5 not excluded  My question for the community is this: how do we call out this type of bad writing? The reason I think it's tricky is that &quot;clearly AI writing&quot; is not the right way to critique - AI &quot;editing&quot; of writing is allowed.",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-17T23:40:03+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "568162b981af",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-17T21:31:32+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "e219a22d730b",
+      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+      "url": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin",
+      "source": "InfoQ",
+      "published": "2026-10-17T06:00:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "c4c8af367520",
+      "title": "Is is worth staying after the main conference if I don't have workshop registration? (NeurIPS) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/",
+      "summary": "Basically the title. Due to the nonsensical situation of NeurIPS being fully sold out before the results were even released, I couldn't get workshop registration (my paper is in the main track, which apparently doesn't have any sort of gaurantee for registrations in other parts of the conference like workshops). My experience with conferences has been with full registrations, so I don't really know how the experience goes if I only have registration for the main conference and not the workshops. Is there any specific networking opportunities/usefulness, or should I cut my stay short and leave ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-17T08:17:31+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "f36e38d1f2c6",
+      "title": "When EEG Models See the Same People in Training and Testing",
+      "url": "https://towardsdatascience.com/when-eeg-models-see-the-same-people-in-training-and-testing/",
+      "summary": "How participant-aware evaluation changed performance across three machine-learning models\nThe post When EEG Models See the Same People in Training and Testing appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-17T12:00:00+00:00",
+      "score": 2.17,
+      "image": null
+    }
+  ]
+}
