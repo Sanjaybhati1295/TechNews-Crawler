@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Monday, October 19, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Monday, October 19, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 19 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/nestjs-12-observability/en/headerimage/generatedHeaderImage-1792168374584.jpg" alt="NestJS 12: ESM Packages, Standard Schema Validation and Native Observability" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">NestJS 12: ESM Packages, Standard Schema Validation and Native Observa…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/articles/distributed-systems-microservices-agentic-ai/en/headerimage/header-1792138504151.jpg" alt="Article: From Microservices to Agents: The Next Evolution of Distributed Systems" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Article: From Microservices to Agents: The Next Evolution of Distribut…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/" target="_blank" rel="noopener">
+              <img src="https://wp.technologyreview.com/wp-content/uploads/2026/10/IMG_1451.jpg?resize=1200,600" alt="The Download: preserving the Arctic permafrost, and playful AI agents" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">MIT Tech Review</span>
+                <span class="img-title">The Download: preserving the Arctic permafrost, and playful AI agents</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>InfoQ</span> · <span>MIT Tech Review</span> · <span>Dev.to AI</span> · <span>Hacker News</span> · <span>Towards Data Science</span> · <span>Dev.to Programming</span> · <span>Reddit r/MachineLearning</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>NestJS 12: ESM Packages, Standard Schema Validation and Native Observability (InfoQ). Article: From Microservices to Agents: The Next Evolution of Distributed Systems (InfoQ). The Download: preserving the Arctic permafrost, and playful AI agents (MIT Tech Review). Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly? (InfoQ). Prefill/Decode Disaggregation in vLLM: The KV Transfer Math That Decides If It Pays Off (Dev.to AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Documents: Police officer gave her Flock login to her ICE agent husband (Hacker News). Why isn&#x27;t Pi written in Lisp? Pi Durable in Erlang? (Dev.to Programming).</p></div>
+        </div>
+
+    <div class="takeaway">NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (19 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">NestJS 12: ESM Packages, Standard Schema Validation and Native Observability</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Article: From Microservices to Agents: The Next Evolution of Distributed Systems</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">The Download: preserving the Arctic permafrost, and playful AI agents</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/wolfsea2357/prefilldecode-disaggregation-in-vllm-the-kv-transfer-math-that-decides-if-it-pays-off-13j8" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Prefill/Decode Disaggregation in vLLM: The KV Transfer Math That Decides If It Pays Off</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">Inside the quest to combat Arctic fires and save the planet’s frozen carbon</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AWS Introduces Preview of Well-Architected Agent</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Buildkite Adds Scoped Secrets and New Agentic CI Tools</span>
+        </a>
+        <a class="ref-link" href="https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816" target="_blank" rel="noopener">
+          <span class="ref-source">Hacker News</span>
+          <span class="ref-title">Documents: Police officer gave her Flock login to her ICE agent husband</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/min_zhu_61b229324d136b7ca/how-i-built-an-ai-powered-angel-number-tool-as-a-solo-developer-3hcp" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">How I Built an AI-Powered Angel Number Tool as a Solo Developer</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/erdaspire/pipit-building-a-100-on-device-ai-universal-search-engine-for-android-50ms-open-source-4nj" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Pipit: Building a 100% On-Device AI Universal Search Engine for Android (&lt;50ms, Open Source)</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/neticslabs/an-ivanti-connect-secure-chain-turns-a-spoofed-request-into-root-access-362p" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">An Ivanti Connect Secure Chain Turns a Spoofed Request Into Root Access</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Can Conformal Prediction Take You from Accurate to Reliable Machine Learning?</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/pielounw/why-isnt-pi-written-in-lisp-pi-durable-in-erlang-gh7" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Why isn&#x27;t Pi written in Lisp? Pi Durable in Erlang?</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/ai-harms-and-their-technical-causes/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">AI Harms and Their Technical Causes</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Proof Before Reuse: showing agents only what later sessions reproduced keeps a poisoned skill out of procedural memory [R]</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1x9jbxs/a_wholecortex_encoding_model_of_vision_audition/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">A Whole-Cortex Encoding Model of Vision, Audition, and Language for In-Silico Neuroscience [R]</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Conference papers are cooked! [D]</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Monday, October 19, 2026 · 19 articles crawled from 7 sources
+  </footer>
+
+</body>
+</html>

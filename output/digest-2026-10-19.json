@@ -1,0 +1,209 @@
+{
+  "digest": {
+    "headline": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability (InfoQ). Article: From Microservices to Agents: The Next Evolution of Distributed Systems (InfoQ). The Download: preserving the Arctic permafrost, and playful AI agents (MIT Tech Review). Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly? (InfoQ). Prefill/Decode Disaggregation in vLLM: The KV Transfer Math That Decides If It Pays Off (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Documents: Police officer gave her Flock login to her ICE agent husband (Hacker News). Why isn't Pi written in Lisp? Pi Durable in Erlang? (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "dd4f0e4ee45a",
+      "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
+      "url": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-19T06:31:00+00:00",
+      "score": 4.48,
+      "image": "https://res.infoq.com/news/2026/10/nestjs-12-observability/en/headerimage/generatedHeaderImage-1792168374584.jpg"
+    },
+    {
+      "id": "71e506dd29ea",
+      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
+      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shift introduces new complexities in observability, reliability, and system design, highlighting the need for updated architectural patterns and practices. By Mallika Rao",
+      "source": "InfoQ",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 4.32,
+      "image": "https://res.infoq.com/articles/distributed-systems-microservices-agentic-ai/en/headerimage/header-1792138504151.jpg"
+    },
+    {
+      "id": "f855dbfae68b",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-19T12:10:00+00:00",
+      "score": 3.99,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/IMG_1451.jpg?resize=1200,600"
+    },
+    {
+      "id": "cffeb6210830",
+      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
+      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-focused, low-latency, and cost-effective alternatives to cloud-hosted LLM wrappers. By Rachel Lee Nabors",
+      "source": "InfoQ",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 3.92,
+      "image": "https://res.infoq.com/podcasts/future-web-apps/en/card_header_image/twitterCard-1792056357235.jpg"
+    },
+    {
+      "id": "34147169a205",
+      "title": "Prefill/Decode Disaggregation in vLLM: The KV Transfer Math That Decides If It Pays Off",
+      "url": "https://dev.to/wolfsea2357/prefilldecode-disaggregation-in-vllm-the-kv-transfer-math-that-decides-if-it-pays-off-13j8",
+      "summary": "TL;DR\n\n\n\nPrefill/decode (P/D) disaggregation puts the two phases of LLM inference on separate engine instances. vLLM's own docs are blunt about the trade: it lets you tune time to first token (TTFT) and inter-token latency (ITL) independently and controls tail ITL, but \"disaggregated prefill does not improve throughput.\"\nThe price you pay is moving the KV cache across a network for every request. That cost is a ratio you can compute before you buy a single NIC.\nFor a 70B-class model with 8 KV heads, the KV cache is 320 KiB per token in BF16. Against an illustrative prefill rate, shipping it ov",
+      "source": "Dev.to AI",
+      "published": "2026-10-19T14:03:51+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquickchart.io%2Fchart%3Fw%3D1000%26h%3D420%26bkg%3Dwhite%26c%3D%257B%2522type%2522%253A%2522bar%2522%252C%2522data%2522%253A%257B%2522labels%2522%253A%255B%2522Colocated%2522%252C%2522Disaggregated%2522%255D%252C%2522datasets%2522%253A%255B%257B%2522label%2522%253A%2522Decode%2520stall%2520per%25208K%2520prompt%2520%2528ms%2529%2522%252C%2522data%2522%253A%255B717%252C0%255D%252C%2522backgroundColor%2522%253A%255B%2522%2523d4533b%2522%252C%2522%25232fa37a%2522%255D%257D%255D%257D%252C%2522options%2522%253A%257B%2522title%2522%253A%257B%2522display%2522%253Atrue%252C%2522text%2522%253A%2522Prefill%2FDecode%2520Disaggregation%253A%2520When%2520Does%2520It%2520Pay%2520Off%253F%2522%252C%2522fontSize%2522%253A26%257D%252C%2522legend%2522%253A%257B%2522display%2522%253Afalse%257D%257D%257D"
+    },
+    {
+      "id": "02a380a09a05",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-19T09:22:17+00:00",
+      "score": 3.83,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/h_00000221444739-e1792169743670.jpg?resize=1200,600"
+    },
+    {
+      "id": "bcaba7558bd0",
+      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
+      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented generation (RAG) more efficient while optimizing performance for on-device deployment. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-19T10:00:00+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "75f14abf8cfe",
+      "title": "AWS Introduces Preview of Well-Architected Agent",
+      "url": "https://www.infoq.com/news/2026/10/aws-well-architected-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently announced the preview of the Well-Architected Agent, a service that analyzes environments against Well-Architected best practices and provides prioritized recommendations across cost, security, performance, and reliability. The AI agent can also suggest remediation steps and review infrastructure-as-code before deployment. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-18T14:29:00+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "051a05104c0d",
+      "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
+      "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The company has also added Linux arm64 support to its GitHub Actions compatibility layer and expanded OpenTelemetry data in Buildkite Agent v4.1.0. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-19T09:00:00+00:00",
+      "score": 3.61,
+      "image": null
+    },
+    {
+      "id": "c187ea7b68bc",
+      "title": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-19T10:45:14+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "ca1c2f7c0767",
+      "title": "How I Built an AI-Powered Angel Number Tool as a Solo Developer",
+      "url": "https://dev.to/min_zhu_61b229324d136b7ca/how-i-built-an-ai-powered-angel-number-tool-as-a-solo-developer-3hcp",
+      "summary": "How I Built an AI-Powered Angel Number Tool as a Solo Developer\n\n\nI've been experimenting with building small web tools lately. Instead of spending months on one big product, I wanted to see what I could learn from launching focused tools that solve one specific problem.\n\nOne of those experiments is AngelNums, a free tool for exploring angel number meanings.\n\nIt's a pretty unusual niche for a developer project, so I thought I'd share how I approached it.\n\n\n  \n  \n  Why angel numbers?\n\n\nI noticed that people search for repeating numbers like 111, 222, and 444, often looking for interpretations r",
+      "source": "Dev.to AI",
+      "published": "2026-10-19T14:03:48+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "89892997bc43",
+      "title": "Pipit: Building a 100% On-Device AI Universal Search Engine for Android (<50ms, Open Source)",
+      "url": "https://dev.to/erdaspire/pipit-building-a-100-on-device-ai-universal-search-engine-for-android-50ms-open-source-4nj",
+      "summary": "Smartphones hold our entire digital lives: thousands of photos, receipts, work PDFs, voice notes, and gate codes buried in messages.\n\nYet finding anything is painful because stock search only checks cryptic filenames like IMG_20240914.jpg or Scan_Doc_09.pdf. Meanwhile, cloud photo search uploads your private files to remote servers.\n\nI built Pipit 🐦 — an open-source, on-device AI universal search engine for Android.\n\n\n  \n  \n  ⚡ Key Features:\n\n\n\n\nDeep Content OCR: Searches inside PDFs, receipts, and screenshots using on-device Google ML Kit.\n\nSemantic Visual Search: Natural language search acro",
+      "source": "Dev.to AI",
+      "published": "2026-10-19T14:02:07+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7e4e060e1f2b",
+      "title": "An Ivanti Connect Secure Chain Turns a Spoofed Request Into Root Access",
+      "url": "https://dev.to/neticslabs/an-ivanti-connect-secure-chain-turns-a-spoofed-request-into-root-access-362p",
+      "summary": "TL;DR\n\n\n\nIvanti Connect Secure is a VPN and remote-access appliance that a company runs at its own network edge, and CVE-2026-104935 is the identifier Ivanti assigned to an authentication bypass and a code-execution flaw in it.\nAn attacker chained that bypass with a file write and a privilege escalation to reach root on an appliance running 22.8R2.4, a build that was fully patched when the exploitation started on 3 October 2026.\nThe ten days from exploitation to disclosure ended on 13 October, when Ivanti published fixes and Volexity published the incident report.\nThe first two links sit toget",
+      "source": "Dev.to AI",
+      "published": "2026-10-19T14:00:02+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "00f90d9cd2f0",
+      "title": "Can Conformal Prediction Take You from Accurate to Reliable Machine Learning?",
+      "url": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
+      "summary": "ML model adoption doesn't stop with acceptance of accuracy; it starts there.\nThe post Can Conformal Prediction Take You from Accurate to Reliable Machine Learning? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-19T14:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "0b6ae1e275ed",
+      "title": "Why isn't Pi written in Lisp? Pi Durable in Erlang?",
+      "url": "https://dev.to/pielounw/why-isnt-pi-written-in-lisp-pi-durable-in-erlang-gh7",
+      "summary": "I'm a big fan of pi-coding-agent. I'm also a big fan of thinking about programming languages and their properties. When I combine the two, something feels dissonant.\n\n\n  \n  \n  Pi feels lisp-y\n\n\nSince I first started using pi, I haven't been able to shake the hunch that it feels like something best written in lisp.\n\nWhy? Its goals align with the goals of lisp programs: minimal, radically extensible, self-modifiable and dynamic.\n\nIf you squint a little, emacs stans start to sound like pi stans.\n\n\nYeah you can do that in emacs. Emacs even includes the tools to change to emacs in that way! Just wh",
+      "source": "Dev.to Programming",
+      "published": "2026-10-19T13:33:55+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "7dfdf4589a3d",
+      "title": "AI Harms and Their Technical Causes",
+      "url": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
+      "summary": "How technical choices can lead to safety failures, and what to do differently\nThe post AI Harms and Their Technical Causes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 3.32,
+      "image": null
+    },
+    {
+      "id": "d73ff6622620",
+      "title": "Proof Before Reuse: showing agents only what later sessions reproduced keeps a poisoned skill out of procedural memory [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later/",
+      "summary": "Small case study on poisoning in agent procedural memory, with all data released. Setup: a coding agent learns skills from sessions whose tests passed. One learning session is poisoned (a new file, an unrelated line, or one line fused into the real fix), followed by three clean sessions on the same task. Then 5 scored sessions per arm with Claude Haiku 5.5 and Sonnet 5.5, plus a hidden verifier with 187 behavioural checks. Arms: no memory, replay of the recorded edits, naive memory (every passing session kept, the skill chosen by Mem0's search), and proof before reuse (a skill is served only a",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-18T16:14:59+00:00",
+      "score": 3.08,
+      "image": null
+    },
+    {
+      "id": "2dda45ef0175",
+      "title": "A Whole-Cortex Encoding Model of Vision, Audition, and Language for In-Silico Neuroscience [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x9jbxs/a_wholecortex_encoding_model_of_vision_audition/",
+      "summary": "I built and trained a 218-million-parameter model on fMRI data from 2,000 peoples brains as they watched films, TV, and images.  Cajal-1.  On the films Meta held out to test TRIBE v2, Cajal-1 is 25% more accurate and closer to the real brain in 27 of 32 recordings.  Give it any video, podcast, or song, and it predicts fMRI responses at 20,484 points across the human cortex every 1.49 seconds. Same speed, no scanner needed.  It's named after Santiago Ramón y Cajal, the first Spaniard to win a Nobel Prize in science. In the 1890s, he used Golgi's silver stain (of Golgi Body fame) to draw neurons",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-19T00:54:34+00:00",
+      "score": 2.86,
+      "image": null
+    },
+    {
+      "id": "f558eef99e27",
+      "title": "Conference papers are cooked! [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d/",
+      "summary": "Got three papers to review for ICLR and five for AAMAS, and believe me the quality of these papers is insanely bad.  I would even refrain from accepting them to a workshop, let alone be main venues.  A sincere request; Please don't submit the paper unless it is ready and if you are a first timer, please please get a feedback from a mentor out. Otherwise you are just wasting the time of so many reviewers out there  &#32; submitted by &#32;  /u/Fantastic-Nerve-4056   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-18T22:12:15+00:00",
+      "score": 2.71,
+      "image": null
+    }
+  ]
+}
