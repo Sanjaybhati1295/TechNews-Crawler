@@ -1,0 +1,323 @@
+{
+  "digest": {
+    "headline": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool (TechCrunch AI). AI adoption by industry shows what other sectors can learn (MIT Tech Review). Most multi-AI chats die in the thread (Dev.to AI). GitHub Actions Runner Controller 0.15.0 Targets Reliability at Scale (InfoQ). These startups hope “blended” food will cut our appetite for red meat (MIT Tech Review)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "How do you manage and inject browser cookies in Playwright to simulate pre-authenticated sessions or specific user state (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Veda: The First Agentic Hobby OS - Demo (Dev.to Programming). What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones (Towards Data Science). How to continue a GitHub Copilot app session in VS Code (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]"
+  },
+  "articles": [
+    {
+      "id": "697eb620bfd3",
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "summary": "Meeting note-taking tool Otter.ai announced on Tuesday that it has raised $320 million from General Catalyst&#8217;s Customer Value Fund (CVF), which provides capital to startups without diluting equity and gets returns on the results of marketing spend. Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation. [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T11:00:00+00:00",
+      "score": 4.42,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/04/Otter-feat.jpg?resize=1200,675"
+    },
+    {
+      "id": "7d296a29338c",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-20T12:00:00+00:00",
+      "score": 4.28,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?resize=1200,600"
+    },
+    {
+      "id": "367304a16956",
+      "title": "Most multi-AI chats die in the thread",
+      "url": "https://dev.to/brainstormhq/most-multi-ai-chats-die-in-the-thread-53lm",
+      "summary": "Most multi-AI chats die in the thread.\n\nThe useful path is Brief → Discuss → Build → Review on one project, with your approval before anything ships.\n\nThat is the workflow we built into Brainstorm: a Linux-first workbench for multi-AI discussion around a shared coding goal, then task split, independent verification, and an explicit human review before the project main branch updates.\n\nA few boundaries we state plainly:\n\n\nYou bring your own eligible model accounts (BYOK). The product license does not sell model credits.\nLinux 1.0.1 has release evidence. Windows 11 is still a preview.\nIndependen",
+      "source": "Dev.to AI",
+      "published": "2026-10-20T12:18:00+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fft3eag7pyq72tc702go0.png"
+    },
+    {
+      "id": "382ce7d16fd9",
+      "title": "GitHub Actions Runner Controller 0.15.0 Targets Reliability at Scale",
+      "url": "https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitHub has released Actions Runner Controller (ARC) 0.15.0, introducing reliability, scalability, and observability improvements for organisations running self-hosted GitHub Actions runners on Kubernetes. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-20T12:00:00+00:00",
+      "score": 3.98,
+      "image": "https://res.infoq.com/news/2026/10/github-runner-controller-0-15/en/headerimage/generatedHeaderImage-1791971221854.jpg"
+    },
+    {
+      "id": "e1f5603a6caa",
+      "title": "These startups hope “blended” food will cut our appetite for red meat",
+      "url": "https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/",
+      "summary": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs.&#160; Kids love&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-20T09:00:00+00:00",
+      "score": 3.71,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MUSH_FOODS_LIFESTYLE_014.jpg?resize=1200,600"
+    },
+    {
+      "id": "501d5d3859fb",
+      "title": "The Chatbot Refunded Twice. The Retry Looked Successful",
+      "url": "https://dev.to/paul-s/the-chatbot-refunded-twice-the-retry-looked-successful-cgk",
+      "summary": "The production trace looked harmless:\n\n\n\n14:03:11  Refund requested for order 4821\n14:03:12  Payment provider called\n14:03:22  Request timed out\n14:03:24  Agent selected retry\n14:03:26  Refund completed: $89\n\n\n\n\n\n\nThe chatbot reported success. The customer received confirmation. No exception remained open.\n\nTwo days later, finance found two $89 refunds.\n\nThe first payment request had not failed. Only the response had failed to reach the chatbot. When the agent retried, the payment provider processed the same business action again.\n\nThe retry looked successful because it was successful.\n\nThat w",
+      "source": "Dev.to Programming",
+      "published": "2026-10-20T11:40:56+00:00",
+      "score": 3.66,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbsg0tm2h2kn21ctjhqf6.png"
+    },
+    {
+      "id": "196bf868d50b",
+      "title": "How do you manage and inject browser cookies in Playwright to simulate pre-authenticated sessions or specific user state",
+      "url": "https://dev.to/styrow_dev/how-do-you-manage-and-inject-browser-cookies-in-playwright-to-simulate-pre-authenticated-sessions-ch2",
+      "summary": "🔥 Playwright Pro Tip:\nTired of slow, repetitive login flows in your E2E tests? Master Playwright cookie management for lightning-fast, pre-authenticated sessions!\n\n📌 Problem Statement\nRepetitive UI logins are test bottlenecks. They slow execution, introduce flakiness, and complicate test isolation. Modern test suites demand efficient ways to simulate specific user states or pre-authenticated sessions without burning cycles on UI interactions.\n\n💡 Solution &amp; Code Walkthrough\nPlaywright's storageState() API is your secret weapon. It allows you to capture an authenticated browser state (includ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-20T11:08:36+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "2697282923de",
+      "title": "What checking 244 calculators against their sources actually found",
+      "url": "https://dev.to/calculateeveryday/what-checking-244-calculators-against-their-sources-actually-found-h95",
+      "summary": "I run CalculateEveryday, a free site with 244 calculators: paycheck, mortgage, BMI, unit conversion, chemistry, statistics and so on. Each page shows the formula, a worked example, the source the formula was checked against, and a section called \"Where this can give the wrong answer\".\n\nMost of the first drafts were written with AI, and a second model reviewed them. That is exactly why the checks matter more than the drafting, so this post is about the checks: what the build refuses, what the tests pin, and the bugs that only appeared when each calculator was read against its published source.\n",
+      "source": "Dev.to Programming",
+      "published": "2026-10-20T11:34:15+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "5d118023c9cc",
+      "title": "Veda: The First Agentic Hobby OS - Demo",
+      "url": "https://dev.to/vedaos/veda-the-first-agentic-hobby-os-demo-hkl",
+      "summary": "Have a look!\n\nhttps://github.com/vahmoh25/Veda",
+      "source": "Dev.to Programming",
+      "published": "2026-10-20T11:04:27+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "cfd18067c7a6",
+      "title": "What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones",
+      "url": "https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/",
+      "summary": "Turn scattered requirements into deployable agents\nThe post What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-20T11:00:00+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "039a84854fb8",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-19T19:28:34+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "ed298111b59a",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-20T01:27:03+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "d88320583f8c",
+      "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-19T15:37:09+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "dd4f0e4ee45a",
+      "title": "NestJS 12: ESM Packages, Standard Schema Validation and Native Observability",
+      "url": "https://www.infoq.com/news/2026/10/nestjs-12-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "NestJS version 12 has been released, transitioning core packages to ESM and adding Standard Schema validation. It updates the CLI and introduces an observability SDK. Key changes include project generation choices between CJS and ESM, improved validation options, and lifecycle project hooks. Users will need Node.js 20.19+ or 22.12+. Migration guides are available for upgrading. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-19T06:31:00+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "d45dacf783b2",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-19T22:49:27+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "71e506dd29ea",
+      "title": "Article: From Microservices to Agents: the Next Evolution of Distributed Systems",
+      "url": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shift introduces new complexities in observability, reliability, and system design, highlighting the need for updated architectural patterns and practices. By Mallika Rao",
+      "source": "InfoQ",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "0f3dfef227c0",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+      "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.\nThe post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-19T18:47:22+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "36c2a79412d5",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "summary": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-19T18:37:27+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "4c4e14218450",
+      "title": "Open GPU kernel engineering series: naive GEMM to FlashAttention, H100 and Blackwell (44 sessions, code public) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/",
+      "summary": "I'm building a free, code-first series on GPU kernel engineering and just published the intro and roadmap video. It's my own channel, and I'm posting to share the resource and get feedback on the plan, not to sell anything. Video: https://youtu.be/cibk7G-jHQw The core idea behind the series: for most ML workloads, kernel performance is a data-movement problem before it's a compute problem. Two things the series builds on throughout: - The roofline model. Attainable throughput is bounded by min(peak compute, memory bandwidth x arithmetic intensity), where arithmetic intensity is FLOPs per byte ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-19T18:15:18+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "6380dff25602",
+      "title": "AI generates research ideas faster than I can test them. Anyone else? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xa3svs/ai_generates_research_ideas_faster_than_i_can/",
+      "summary": "I've been using AI extensively for ML research, and I've noticed a bottleneck: brainstorming research directions and generating smoke run implementations has become incredibly fast, but actually testing those ideas hasn't. A single AI discussion (eg asking it to review 30 papers I had in my reading list, audit them, check for ideas related to the status of my project) branched into dozens of promising approaches, and with coding agents, exploring them in parallel is in principle feasible. But as a researcher, I still have to manage experiments, launch training runs, evaluate results, and decid",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-19T17:50:49+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "f855dbfae68b",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-19T12:10:00+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "cffeb6210830",
+      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
+      "url": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-focused, low-latency, and cost-effective alternatives to cloud-hosted LLM wrappers. By Rachel Lee Nabors",
+      "source": "InfoQ",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "02a380a09a05",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon/",
+      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-19T09:22:17+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "5c911fea0014",
+      "title": "Ukraine claims first drone evacuation of wounded soldier",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-19T15:31:34+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "bcaba7558bd0",
+      "title": "EmbeddingGemma 2 Expands beyond Text to Support Code, Images, Video, and Audio",
+      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented generation (RAG) more efficient while optimizing performance for on-device deployment. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-19T10:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "051a05104c0d",
+      "title": "Buildkite Adds Scoped Secrets and New Agentic CI Tools",
+      "url": "https://www.infoq.com/news/2026/10/buildkite-ci-secrets-agentic/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Continuous integration provider Buildkite has introduced pipeline-scoped secrets and new Model Context Protocol tools for validating pipelines, diagnosing failed builds and repairing webhooks. The company has also added Linux arm64 support to its GitHub Actions compatibility layer and expanded OpenTelemetry data in Buildkite Agent v4.1.0. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-19T09:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "33390639e59f",
+      "title": "Welcome to Google Gemini 4 Argon",
+      "url": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon/",
+      "summary": "A million-token output window changes what you can hand a model in one go, and the benchmarks and the bill show who it actually suits.\nThe post Welcome to Google Gemini 4 Argon appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-19T15:30:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "00f90d9cd2f0",
+      "title": "Can Conformal Prediction Take You from Accurate to Reliable Machine Learning?",
+      "url": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
+      "summary": "ML model adoption doesn't stop with acceptance of accuracy; it starts there.\nThe post Can Conformal Prediction Take You from Accurate to Reliable Machine Learning? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-19T14:00:00+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "7dfdf4589a3d",
+      "title": "AI Harms and Their Technical Causes",
+      "url": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
+      "summary": "How technical choices can lead to safety failures, and what to do differently\nThe post AI Harms and Their Technical Causes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-19T11:00:00+00:00",
+      "score": 2.09,
+      "image": null
+    },
+    {
+      "id": "2dda45ef0175",
+      "title": "A Whole-Cortex Encoding Model of Vision, Audition, and Language for In-Silico Neuroscience [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1x9jbxs/a_wholecortex_encoding_model_of_vision_audition/",
+      "summary": "I built and trained a 218-million-parameter model on fMRI data from 2,000 peoples brains as they watched films, TV, and images.  Cajal-1.  On the films Meta held out to test TRIBE v2, Cajal-1 is 25% more accurate and closer to the real brain in 27 of 32 recordings.  Give it any video, podcast, or song, and it predicts fMRI responses at 20,484 points across the human cortex every 1.49 seconds. Same speed, no scanner needed.  It's named after Santiago Ramón y Cajal, the first Spaniard to win a Nobel Prize in science. In the 1890s, he used Golgi's silver stain (of Golgi Body fame) to draw neurons",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-19T00:54:34+00:00",
+      "score": 1.63,
+      "image": null
+    }
+  ]
+}
