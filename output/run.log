@@ -5690,3 +5690,38 @@
 2026-10-20 12:23:13,052  INFO     ────────────────────────────────────────────────────────────
 2026-10-20 12:23:13,052  INFO     Done!  Open: output/index.html
 2026-10-20 12:23:13,052  INFO     Headline: Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool
+2026-10-21 12:34:30,985  INFO     ============================================================
+2026-10-21 12:34:30,985  INFO     TECHPULSE Digest — 2026-10-21 12:34 UTC
+2026-10-21 12:34:30,986  INFO     ============================================================
+2026-10-21 12:34:30,986  INFO     Step 1/3 — Crawling feeds…
+2026-10-21 12:34:31,257  INFO       Hacker News                    → 0 significant articles
+2026-10-21 12:34:31,404  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-21 12:34:31,552  INFO       Ars Technica                   → 1 significant articles
+2026-10-21 12:34:32,036  INFO       The Register AI                → 0 significant articles
+2026-10-21 12:34:32,107  INFO       MIT Tech Review                → 0 significant articles
+2026-10-21 12:34:32,245  INFO       Dev.to AI                      → 8 significant articles
+2026-10-21 12:34:32,330  INFO       Dev.to Programming             → 1 significant articles
+2026-10-21 12:34:32,522  INFO       GitHub Blog                    → 1 significant articles
+2026-10-21 12:34:33,246  INFO       Google Research                → 0 significant articles
+2026-10-21 12:34:33,874  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-10-21 12:34:33,915  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-21 12:34:34,353  INFO       InfoQ                          → 3 significant articles
+2026-10-21 12:34:34,515  INFO       Towards Data Science           → 5 significant articles
+2026-10-21 12:34:34,708  INFO       Wired AI                       → 0 significant articles
+2026-10-21 12:34:34,769  INFO       TechCrunch AI                  → 6 significant articles
+2026-10-21 12:34:34,769  INFO     Fetching images for top articles…
+2026-10-21 12:34:35,349  INFO       🖼  Google SynthID Detector Simplifies Watermark Detection and E
+2026-10-21 12:34:35,390  INFO       🖼  Why I'd Think Twice Before Picking Neo4j for a GraphRAG Stac
+2026-10-21 12:34:36,000  INFO       🖼  Microsoft Previews dotnetup: Toolchain Manager for .NET SDKs
+2026-10-21 12:34:36,125  INFO       🖼  My LLM Router Spent 8x More and Matched the Cheap Model Exac
+2026-10-21 12:34:36,221  INFO       🖼  We built an agent network where every contribution is hash-v
+2026-10-21 12:34:36,262  INFO       🖼  We build 5 AI products. All of them follow one rule: the age
+2026-10-21 12:34:36,262  INFO     Total selected: 28 articles from 15 feeds
+2026-10-21 12:34:36,262  INFO     Selected 28 significant articles
+2026-10-21 12:34:36,262  INFO     Step 2/3 — Generating digest…
+2026-10-21 12:34:36,542  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-21 12:34:36,542  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-21 12:34:36,542  INFO     Step 3/3 — Rendering HTML…
+2026-10-21 12:34:36,543  INFO     ────────────────────────────────────────────────────────────
+2026-10-21 12:34:36,543  INFO     Done!  Open: output/index.html
+2026-10-21 12:34:36,543  INFO     Headline: Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers
