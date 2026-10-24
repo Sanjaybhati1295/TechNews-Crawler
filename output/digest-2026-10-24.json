@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "LLM Input vs. Output Token Pricing: How to Calculate the Difference",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "LLM Input vs. Output Token Pricing: How to Calculate the Difference (Dev.to AI). Smart Fridge & Oven AI: Does It Change What You Eat? (Dev.to Programming). Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM (InfoQ). The best UI component libraries for vibe coding in 2026 (Dev.to AI). Can AI Compare Freight Rates From Several Carriers? (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Introduces Lambda Web Functions for Node.js Applications (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Input and output tokens are often billed at different rates, so the total number of tokens alone is not enough to estimate an LLM API bill. To calculate the cost of a request, multiply input tokens by the input rate, output tokens by the output rate, then add any applicable cached-input or other usage charges.\n\nThe exact rates depend on the provider, model, service tier, and billing conditions. OpenAI, Anthropic, and Google publish pricing tables that distinguish input from output and document additional pricing rules for features such as caching or tools. Check the OpenAI API pricing page, An"
+  },
+  "articles": [
+    {
+      "id": "d87dfd9a57f3",
+      "title": "LLM Input vs. Output Token Pricing: How to Calculate the Difference",
+      "url": "https://dev.to/mdazlaanzubair/llm-input-vs-output-token-pricing-how-to-calculate-the-difference-3cng",
+      "summary": "Input and output tokens are often billed at different rates, so the total number of tokens alone is not enough to estimate an LLM API bill. To calculate the cost of a request, multiply input tokens by the input rate, output tokens by the output rate, then add any applicable cached-input or other usage charges.\n\nThe exact rates depend on the provider, model, service tier, and billing conditions. OpenAI, Anthropic, and Google publish pricing tables that distinguish input from output and document additional pricing rules for features such as caching or tools. Check the OpenAI API pricing page, An",
+      "source": "Dev.to AI",
+      "published": "2026-10-24T11:42:37+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fifty5n20%2Fproduction%2F2094b0888e47560c0e1ca60843b894b49e945d93-1680x880.webp%3Fw%3D1000%26h%3D420%26fit%3Dcrop"
+    },
+    {
+      "id": "00d977c27873",
+      "title": "Smart Fridge & Oven AI: Does It Change What You Eat?",
+      "url": "https://dev.to/tom-morgan-261976/smart-fridge-oven-ai-does-it-change-what-you-eat-l2e",
+      "summary": "Samsung says so itself in its spring 2026 update announcement.\n\nThrough early 2026, Samsung’s fridge recognized 37 fresh food types and 50 pre-registered processed items directly on the device. The waste evidence is thinner than the marketing. A frequently repeated number says smart refrigerators cut food waste by 60%. A model, not measured household behavior | | Vendor statements | Samsung says recognition helps families reduce food waste and save money | Weakest.\n\n\n  \n  \n  Key takeaways\n\n\n\nThe contract risk hiding inside the camera In late 2026, the cost of recognition living in the cloud be",
+      "source": "Dev.to Programming",
+      "published": "2026-10-24T10:40:46+00:00",
+      "score": 3.74,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7j446htqbsw78m9kj0ey.jpg"
+    },
+    {
+      "id": "0d0a6f19a5ba",
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-24T08:34:00+00:00",
+      "score": 3.72,
+      "image": "https://res.infoq.com/news/2026/10/data-agent-kit-ga/en/card_header_image/generatedCard-1792486388787.jpg"
+    },
+    {
+      "id": "50802bd02f93",
+      "title": "The best UI component libraries for vibe coding in 2026",
+      "url": "https://dev.to/escape_fromrussia/the-best-ui-component-libraries-for-vibe-coding-in-2026-37oi",
+      "summary": "Updated: October 2026. Disclosure: I build VibeUI, one of the libraries below. I've tried to describe every option the way I'd want mine described — including where the others are the better pick.\n\nShort answer: if you want primitives you style yourself, use shadcn/ui. If you mostly build through an AI agent and want it to install the exact designed block instead of redrawing a lookalike, VibeUI (vibeui.club). For animated hero effects, Magic UI, Aceternity UI or React Bits. For a large catalog of marketing blocks, Shadcnblocks or Tailark. For community variety, 21st.dev. All of them except He",
+      "source": "Dev.to AI",
+      "published": "2026-10-24T11:40:11+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F88or04uqb1i9efjz1lm5.png"
+    },
+    {
+      "id": "14c29834b74a",
+      "title": "Can AI Compare Freight Rates From Several Carriers?",
+      "url": "https://dev.to/anas_kanafani/can-ai-compare-freight-rates-from-several-carriers-4af5",
+      "summary": "Yes, AI can compare freight rates from several carriers by extracting shipment requirements from emails or quote requests, matching those details against carrier rate cards, and calculating landed figures with your target margins. In our builds, the software checks every item and carrier code against your master pricing database, flags discrepancies, and stops for human review whenever an unexpected fee appears. For example, C.H. Robinson says an emailed shipment order once waited as long as four hours for a person, and that its AI agents now handle it in 90 seconds.\n\n\n  \n  \n  How does AI extr",
+      "source": "Dev.to Programming",
+      "published": "2026-10-24T11:23:57+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fwww.innopalm.com%2Fapi%2Fog%3Ftitle%3DCan%2BAI%2BCompare%2BFreight%2BRates%2BFrom%2BSeveral%2BCarriers%253F%26label%3DGuide"
+    },
+    {
+      "id": "14d7ae50e830",
+      "title": "Termux Isn't Linux. I Packaged 70+ Tools for It Anyway",
+      "url": "https://dev.to/gouranga-das-khulna/termux-isnt-linux-i-packaged-70-tools-for-it-anyway-1mfg",
+      "summary": "Termux looks like Linux right up until you try to build something that matters.\n\nYou get a shell, a package manager, a familiar prompt. Then you clone a project, run its build script, and watch it die on a path that doesn't exist, a syscall you aren't allowed to make, or a libc function that was never there.\n\nI got tired of watching it fail, so I started fixing it. I now maintain 70+ packages for Termux, including things people assume can't run on a phone: Bun, Zed, Ghostty, Playwright, Codex, DBeaver. This is the first of two posts. This one is about the wall. The next one is about what's on ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-24T11:13:39+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F0fb5czcmfthq0rg0k4wg.png"
+    },
+    {
+      "id": "410f5dfb5665",
+      "title": "Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+      "summary": "Long-context models can now handle hundreds of thousands, even millions of tokens. But I've been wondering if we're focusing too much on recall and not enough on what happens when information changes. Say a coding agent reads that an API timeout is 30 seconds. Later, the documentation changes it to 5 seconds. Both versions are still in context, but the agent keeps using 30. It hasn't forgotten anything. It just hasn't updated what it knows. I've been reading about different memory architectures, and this distinction seems pretty important. With Transformers and RAG, old and new information can",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-23T20:39:06+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "fc8740b3a627",
+      "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact Equivalence Between Swarm Dynamics and Multi-Armed Bandits",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+      "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site via the waggle dance) and single-agent Reinforcement Learning (RL) in a multi-armed bandit setting. Even when individual members have no learning capability and merely blindly imitate peers, the population distribution pi updates according to a macroscopic bandit RL algorithm that we call Maynard-Cross Learning (MCL), where N individuals act as N parallel environment rollouts with an effective per-sample step size of alpha = 1/N. Main intuition In nature, op",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-23T15:37:23+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "0931d3afc7b7",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-23T19:06:23+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "f1189a46fa1b",
+      "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
+      "url": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and response streaming. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-23T12:49:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "71fbdaa63fd7",
+      "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
+      "url": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's strongest models, including Claude Mythos. The reports are sent without human review, and project maintainers can choose to validate their findings and decide which proposed fixes to accept. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-23T09:00:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "73cf67ef7cfa",
+      "title": "Stenosis detection in coronary angiograms, need recall over precision [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+      "summary": "Starting a project to detect candidate stenoses in x-ray coronary angiograms. The goal is high recall, false positives are fine as long as it doesn't flag half the image. I already tried YOLO on a couple of in-house datasets earlier. It looked fine in-domain and fell apart on the other dataset, and a big chunk of that turned out to be annotation format. One set had fixed-size boxes around a point, the other had boxes fitted to the lesion. Same disease, basically two different tasks. I also have vessel segmentation and centerlines, so my first instinct is a radius profile along the vessel to fl",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-23T17:25:52+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "78757c7ad676",
+      "title": "NgRx 22: Resource Extensions and Dynamic Deep Signals for Angular",
+      "url": "https://www.infoq.com/news/2026/10/ngrx-22-angular/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "NgRx 22 adds experimental resource extensions that change Angular's resource behavior, so value() is retained during reloads and no longer throws on errors. It also introduces dynamic deep signals for union types, a SignalStoreFeatureType utility, and ESLint v10 support. Upgrading requires Angular 22 and TypeScript 6.0, and most breaking changes have automated migrations. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-23T08:08:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "2905d1004039",
+      "title": "Cloudflare Brings On-Demand CPU and Memory Profiling to Production Workers",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-cpu-memory-profiling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has introduced on-demand CPU and memory profiling for Workers and Durable Objects, allowing developers to investigate performance bottlenecks in production using interactive flamegraphs. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-23T12:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "20e5d0447563",
+      "title": "Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension",
+      "url": "https://towardsdatascience.com/why-parameter-count-is-not-model-complexity-an-introduction-to-effective-dimension/",
+      "summary": "What does effective dimension reveal about redundancy, generalization, and trainability that parameter count, loss, and accuracy do not?\nThe post Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-23T12:30:00+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "94cd4ca5fb66",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-23T04:00:00+00:00",
+      "score": 2.14,
+      "image": null
+    },
+    {
+      "id": "af7b6796bf80",
+      "title": "Your Six AI Models Are Really Two: The Math of Correlated Mistakes",
+      "url": "https://towardsdatascience.com/your-six-ai-models-are-really-two-the-math-of-correlated-mistakes/",
+      "summary": "Ask several models the same question, take a vote, and you get fewer independent opinions than you paid for. One formula says how many, and I checked it on six open models and 1,500 exam questions.\nThe post Your Six AI Models Are Really Two: The Math of Correlated Mistakes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-23T11:00:00+00:00",
+      "score": 2.13,
+      "image": null
+    }
+  ]
+}
