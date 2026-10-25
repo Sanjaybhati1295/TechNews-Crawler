@@ -1,0 +1,129 @@
+{
+  "digest": {
+    "headline": "Claude Desktop vs Codex in the ChatGPT App vs Hermes IDE: 3 GUIs for Coding Agents",
+    "tldr": "Today's digest covers 11 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Desktop vs Codex in the ChatGPT App vs Hermes IDE: 3 GUIs for Coding Agents (Dev.to AI). Build vs buy your SDLC orchestration layer: the legacy clock begins at commit one (Dev.to AI). Stick to Your Guns: TDD When AI Writes the Code (Dev.to Programming). MotifAI 7.2.0: Building a Local-First AI Music Studio in Rust (Dev.to Programming). memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D] (Reddit r/MachineLearning)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A Verification Gate That Never Says No Proves Nothing (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Book: Ship It — the pragmatic startup tech stack\n\n\nAlso by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go\n\n\nMy project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools\n\nMe: xgabriel.com | GitHub\n\n\n\n\n\n\nThe Codex desktop app became the ChatGPT desktop app. Starting July 9, 2026, OpenAI began merging the Codex app into the new ChatGPT desktop app for Mac and Windows, where Codex sits next to Chat and Work, and existing Codex app users got the new app through a normal update (Developers Digest, su"
+  },
+  "articles": [
+    {
+      "id": "f09ac3710950",
+      "title": "Claude Desktop vs Codex in the ChatGPT App vs Hermes IDE: 3 GUIs for Coding Agents",
+      "url": "https://dev.to/gabrielanhaia/claude-desktop-vs-codex-in-the-chatgpt-app-vs-hermes-ide-3-guis-for-coding-agents-2m29",
+      "summary": "Book: Ship It — the pragmatic startup tech stack\n\n\nAlso by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go\n\n\nMy project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools\n\nMe: xgabriel.com | GitHub\n\n\n\n\n\n\nThe Codex desktop app became the ChatGPT desktop app. Starting July 9, 2026, OpenAI began merging the Codex app into the new ChatGPT desktop app for Mac and Windows, where Codex sits next to Chat and Work, and existing Codex app users got the new app through a normal update (Developers Digest, su",
+      "source": "Dev.to AI",
+      "published": "2026-10-25T12:06:01+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqd05hukmn73a01qxqgv5.png"
+    },
+    {
+      "id": "5cfb2a157bb3",
+      "title": "Build vs buy your SDLC orchestration layer: the legacy clock begins at commit one",
+      "url": "https://dev.to/orhillel/build-vs-buy-your-sdlc-orchestration-layer-the-legacy-clock-begins-at-commit-one-20bk",
+      "summary": "No one sits down and decides to build an internal AI platform. That is the part worth grasping before any build-versus-buy conversation, because it explains how careful, reasonable engineering teams end up owning one anyway.\n\nIt begins small. Someone wires up an agent that turns a Jira ticket into a draft PR. It works in the demo, the room is impressed, and the cost of that first version is truly low. A few prompts, an API call, a webhook. So you build a second agent for code review. Then a third for test generation. Then a new model is released that is better at one of those tasks, so you add",
+      "source": "Dev.to AI",
+      "published": "2026-10-25T12:09:00+00:00",
+      "score": 4.3,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7oivkzjskjesj1vbtuuf.png"
+    },
+    {
+      "id": "9b5afc6bd757",
+      "title": "Stick to Your Guns: TDD When AI Writes the Code",
+      "url": "https://dev.to/olsemeno/stick-to-your-guns-tdd-when-ai-writes-the-code-dp8",
+      "summary": "You probably remember how hard it was to explain to the business why we needed to set aside a substantial percentage of time for writing tests, and why we had to build tools for technical quality control even before we had a product. It would seem that this is already in the past. But is it?\n\nIs there still a place for TDD? And is there still a place for a human among AI agents?\n\nAnd if so, how do we use this advantage wisely?\n\n\n  \n  \n  A Bit of Research\n\n\nThe first claim I start from: tests before code noticeably improve generation [1].\n\nWhen tests were added to the prompt, GPT-5-nano's share",
+      "source": "Dev.to Programming",
+      "published": "2026-10-25T11:00:22+00:00",
+      "score": 3.83,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8n3288knds5div84j7v3.png"
+    },
+    {
+      "id": "d2c1292a1eac",
+      "title": "MotifAI 7.2.0: Building a Local-First AI Music Studio in Rust",
+      "url": "https://dev.to/shamelesabyss/motifai-720-building-a-local-first-ai-music-studio-in-rust-3aff",
+      "summary": "I've been building MotifAI to make AI-assisted music composition feel less like asking a model for a block of code and more like working in a creative studio.\n\nMotifAI connects locally installed Ollama models to Strudel, turning a musical brief into an executable live-coding composition. The project is open source: explore MotifAI on GitHub.\n\n\n  \n  \n  From a musical idea to an executable score\n\n\nA session starts with a musical vision and style direction: genre, energy, instrumentation, arrangement, or a targeted change to an existing score. MotifAI classifies the work as a new composition, foc",
+      "source": "Dev.to Programming",
+      "published": "2026-10-25T11:22:08+00:00",
+      "score": 3.75,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fp1ed1dofe1lcr10s9yer.png"
+    },
+    {
+      "id": "19a8bf58f8fd",
+      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+      "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly into the model computation layer using gated deltanet-2 with a stable token-level memory update mechanism within each turn, combined with a mixture-of-storage (mos) layer to scale capacity. a few quick technical takeaways from the setup: internalizing procedural experience: standard agents retrieve p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-25T05:31:19+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "eccd3530d894",
+      "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.\nThe post Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-25T12:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7451d01f4425",
+      "title": "A Verification Gate That Never Says No Proves Nothing",
+      "url": "https://dev.to/rambozambo/a-verification-gate-that-never-says-no-proves-nothing-282g",
+      "summary": "Last night, an independent agent spent hours trying to break a design I work on.\n\nNot with an exploit. With questions, posted in public on an agent forum, one after another, the way a good reviewer works through a spec when nobody is watching. Two of them stayed with me, because they are not really about my system. They are about any gate you have ever put in front of agent work.\n\nThe first question: what does a receipt set bound at close say about a job that died before its first call?\n\nThe second: how does a gate earn trust in the first place?\n\nBy morning, the independent agent had answered ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-25T11:23:05+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "cc1553659e67",
+      "title": "Bad RAG Answers? Check Retrieval Before You Touch the Prompt",
+      "url": "https://dev.to/promptmaster/bad-rag-answers-check-retrieval-before-you-touch-the-prompt-55lg",
+      "summary": "Someone asks your docs assistant how to rotate an API key. It answers confidently, cites a page, and the steps are from the old dashboard. The first instinct is to open the prompt and add another line: \"Only answer from the provided context. Be accurate.\"\n\nSometimes that's the fix. Often it isn't, because the model may never have seen the right page in the first place. A retrieval-augmented generation (RAG) system is a pipeline, and a wrong answer at the end can start at any stage before it. If you don't check the stages in order, you end up tuning the prompt for a problem that lives in your c",
+      "source": "Dev.to Programming",
+      "published": "2026-10-25T11:02:30+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "b0af889ad05f",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-24T19:00:00+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "8cdb0e11ff68",
+      "title": "How to Add Guardrails to a Local LLM Agent",
+      "url": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+      "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK\nThe post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-24T14:00:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "0d0a6f19a5ba",
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "url": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-24T08:34:00+00:00",
+      "score": 2.36,
+      "image": null
+    }
+  ]
+}
