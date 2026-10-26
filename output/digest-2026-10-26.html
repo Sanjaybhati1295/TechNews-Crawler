@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Monday, October 26, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Monday, October 26, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 17 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/cloudflare-auto-router/en/headerimage/generatedHeaderImage-1792492628413.jpg" alt="Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most …</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/harishkotra/i-built-an-oracle-that-refuses-to-answer-2ka4" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F69dfzifwt8qgd33g0mbd.png" alt="I built an oracle that refuses to answer" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">I built an oracle that refuses to answer</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/" target="_blank" rel="noopener">
+              <img src="https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600" alt="The focus on AI safety disasters ignores everyday harms" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">MIT Tech Review</span>
+                <span class="img-title">The focus on AI safety disasters ignores everyday harms</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>InfoQ</span> · <span>Dev.to AI</span> · <span>MIT Tech Review</span> · <span>TechCrunch AI</span> · <span>Dev.to Programming</span> · <span>Towards Data Science</span> · <span>Reddit r/MachineLearning</span> · <span>Hacker News</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns (InfoQ). I built an oracle that refuses to answer (Dev.to AI). The focus on AI safety disasters ignores everyday harms (MIT Tech Review). Score Matching: Why Learning the Gradient of a Log-Density Beats Learning the Density Itself (Dev.to AI). Grok releases the first seven minutes of its AI-generated ‘Odyssey’ (TechCrunch AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Salesforce &amp; AWS</h2>
+          <div class="section-body"><p>PHP Patches Two Critical RCE Flaws That Were Already Under Attack (InfoQ).</p></div>
+        </div>
+
+    <div class="takeaway">Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (17 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/harishkotra/i-built-an-oracle-that-refuses-to-answer-2ka4" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">I built an oracle that refuses to answer</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">The focus on AI safety disasters ignores everyday harms</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/umeshtharukaofficial/score-matching-why-learning-the-gradient-of-a-log-density-beats-learning-the-density-itself-1foc" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Score Matching: Why Learning the Gradient of a Log-Density Beats Learning the Density Itself</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Grok releases the first seven minutes of its AI-generated ‘Odyssey’</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/david_wilson_iqlance/7-common-mobile-app-bugs-and-how-to-debug-them-501a" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">7 Common Mobile App Bugs and How to Debug Them</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/sukriti_c/taming-browser-ram-bloat-building-a-zero-dependency-lru-eviction-daemon-in-python-27le" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Taming Browser RAM Bloat: Building a Zero-Dependency LRU Eviction Daemon in Python</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/claude-code-vs-cursor-what-a-field-test-shows-that-the-feature-comparisons-miss/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">PHP Patches Two Critical RCE Flaws That Were Already Under Attack</span>
+        </a>
+        <a class="ref-link" href="https://lynchlab.net/llm-skin-cancer" target="_blank" rel="noopener">
+          <span class="ref-source">Hacker News</span>
+          <span class="ref-title">A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Data Enablement for AI: A Practitioner&#x27;s Guide to 6 Advanced Architectural Patterns</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Monday, October 26, 2026 · 17 articles crawled from 8 sources
+  </footer>
+
+</body>
+</html>

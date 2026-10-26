@@ -5861,3 +5861,38 @@
 2026-10-25 12:12:26,147  INFO     ────────────────────────────────────────────────────────────
 2026-10-25 12:12:26,147  INFO     Done!  Open: output/index.html
 2026-10-25 12:12:26,148  INFO     Headline: Claude Desktop vs Codex in the ChatGPT App vs Hermes IDE: 3 GUIs for Coding Agents
+2026-10-26 13:44:07,134  INFO     ============================================================
+2026-10-26 13:44:07,134  INFO     TECHPULSE Digest — 2026-10-26 13:44 UTC
+2026-10-26 13:44:07,134  INFO     ============================================================
+2026-10-26 13:44:07,134  INFO     Step 1/3 — Crawling feeds…
+2026-10-26 13:44:07,280  INFO       Hacker News                    → 1 significant articles
+2026-10-26 13:44:07,429  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-26 13:44:07,562  INFO       Ars Technica                   → 0 significant articles
+2026-10-26 13:44:08,801  INFO       The Register AI                → 0 significant articles
+2026-10-26 13:44:08,956  INFO       MIT Tech Review                → 1 significant articles
+2026-10-26 13:44:09,247  INFO       Dev.to AI                      → 2 significant articles
+2026-10-26 13:44:09,401  INFO       Dev.to Programming             → 2 significant articles
+2026-10-26 13:44:09,649  INFO       GitHub Blog                    → 0 significant articles
+2026-10-26 13:44:10,552  INFO       Google Research                → 0 significant articles
+2026-10-26 13:44:11,365  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-10-26 13:44:11,487  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-26 13:44:11,771  INFO       InfoQ                          → 4 significant articles
+2026-10-26 13:44:11,958  INFO       Towards Data Science           → 4 significant articles
+2026-10-26 13:44:12,197  INFO       Wired AI                       → 0 significant articles
+2026-10-26 13:44:12,307  INFO       TechCrunch AI                  → 1 significant articles
+2026-10-26 13:44:12,307  INFO     Fetching images for top articles…
+2026-10-26 13:44:12,729  INFO       🖼  Cloudflare’s Auto Router Rates Each Request for Stakes, from
+2026-10-26 13:44:12,904  INFO       🖼  I built an oracle that refuses to answer
+2026-10-26 13:44:13,035  INFO       🖼  The focus on AI safety disasters ignores everyday harms
+2026-10-26 13:44:13,262  INFO       🖼  Score Matching: Why Learning the Gradient of a Log-Density B
+2026-10-26 13:44:13,335  INFO       🖼  Grok releases the first seven minutes of its AI-generated ‘O
+2026-10-26 13:44:13,414  INFO       🖼  7 Common Mobile App Bugs and How to Debug Them
+2026-10-26 13:44:13,414  INFO     Total selected: 17 articles from 15 feeds
+2026-10-26 13:44:13,414  INFO     Selected 17 significant articles
+2026-10-26 13:44:13,414  INFO     Step 2/3 — Generating digest…
+2026-10-26 13:44:13,935  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-26 13:44:13,935  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-26 13:44:13,936  INFO     Step 3/3 — Rendering HTML…
+2026-10-26 13:44:13,936  INFO     ────────────────────────────────────────────────────────────
+2026-10-26 13:44:13,936  INFO     Done!  Open: output/index.html
+2026-10-26 13:44:13,937  INFO     Headline: Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns

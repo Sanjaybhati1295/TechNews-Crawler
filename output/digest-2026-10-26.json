@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns (InfoQ). I built an oracle that refuses to answer (Dev.to AI). The focus on AI safety disasters ignores everyday harms (MIT Tech Review). Score Matching: Why Learning the Gradient of a Log-Density Beats Learning the Density Itself (Dev.to AI). Grok releases the first seven minutes of its AI-generated ‘Odyssey’ (TechCrunch AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "e1b7b4738640",
+      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-26T10:20:00+00:00",
+      "score": 4.21,
+      "image": "https://res.infoq.com/news/2026/10/cloudflare-auto-router/en/headerimage/generatedHeaderImage-1792492628413.jpg"
+    },
+    {
+      "id": "b52948cfdef2",
+      "title": "I built an oracle that refuses to answer",
+      "url": "https://dev.to/harishkotra/i-built-an-oracle-that-refuses-to-answer-2ka4",
+      "summary": "A 4B decision model on a Mac Mini, and the 30 lines of UI that make it honest.\n\nAsk a chatbot \"should I take this job?\" and you get three paragraphs. They will be well written, they will mention trade-offs, and they will quietly commit to an answer that the model did not actually compute. The prose manufactures confidence. That is the failure mode nobody puts in the eval table.\n\nSo when Perplexity released pplx-decider-flash-v1.2, a decision model with the language head removed, the interesting thing was not the benchmark score. It was the shape. This model cannot write a paragraph. It takes a",
+      "source": "Dev.to AI",
+      "published": "2026-10-26T13:32:57+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F69dfzifwt8qgd33g0mbd.png"
+    },
+    {
+      "id": "69d5a0023539",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-26T09:01:00+00:00",
+      "score": 3.84,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200,600"
+    },
+    {
+      "id": "1c60d9b23e8a",
+      "title": "Score Matching: Why Learning the Gradient of a Log-Density Beats Learning the Density Itself",
+      "url": "https://dev.to/umeshtharukaofficial/score-matching-why-learning-the-gradient-of-a-log-density-beats-learning-the-density-itself-1foc",
+      "summary": "Score Matching: Why Learning the Gradient of a Log-Density Beats Learning the Density Itself\n\n\nMost generative models try to learn a probability density. That sounds like the obvious goal, but it hides an awkward obstacle: the normalising constant. Score matching sidesteps it entirely by learning a different object, the gradient of the log-density, and that single change unlocks a family of models that includes modern diffusion models.\n\nThis article explains what the score is, why matching it is a sensible objective, how the practical estimators work, and where the idea breaks down.\n\n\n  \n  \n  ",
+      "source": "Dev.to AI",
+      "published": "2026-10-26T13:41:30+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcsvdcneka64dgbttfqur.png"
+    },
+    {
+      "id": "a6feae291b1a",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "summary": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-25T21:31:16+00:00",
+      "score": 3.6,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800"
+    },
+    {
+      "id": "db58e517495b",
+      "title": "7 Common Mobile App Bugs and How to Debug Them",
+      "url": "https://dev.to/david_wilson_iqlance/7-common-mobile-app-bugs-and-how-to-debug-them-501a",
+      "summary": "Mobile applications operate across different devices, operating systems, network conditions, and user environments. Even when an app works correctly during development, unexpected problems can appear after installation or release. A button may stop responding, a screen may freeze, data may fail to load, or the application may crash without an obvious explanation.\n\nDebugging is the process of identifying the cause of these problems and correcting them without introducing additional defects. Effective debugging requires more than fixing the visible symptom. Developers need to reproduce the issue",
+      "source": "Dev.to Programming",
+      "published": "2026-10-26T13:21:40+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnt2wz0c89y1a2nl81woq.png"
+    },
+    {
+      "id": "ec849ab4ac31",
+      "title": "Taming Browser RAM Bloat: Building a Zero-Dependency LRU Eviction Daemon in Python",
+      "url": "https://dev.to/sukriti_c/taming-browser-ram-bloat-building-a-zero-dependency-lru-eviction-daemon-in-python-27le",
+      "summary": "If your workstation sounds like an aircraft carrier prepping for launch every time you research a technical problem, you aren't alone.\n\nModern web browsers are resource-hungry. Keeping 40+ tabs open across multiple windows easily chews through 6GB to 10GB of RAM. While browser extensions like OneTab or The Great Suspender exist, they run inside the browser process itself. When the browser’s render thread freezes under heavy load, extensions often choke alongside it.\n\nTo solve this without bloating my setup, I built ZeroTab: an out-of-process, zero-dependency background daemon written in Python",
+      "source": "Dev.to Programming",
+      "published": "2026-10-26T13:19:26+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "c3100d502169",
+      "title": "My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed",
+      "url": "https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed/",
+      "summary": "What an ID column, a date string, and a missing value taught me.\nThe post My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T12:30:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "b51a897c104f",
+      "title": "Nanbeige releases Nanbeige4.3-33B, an Apache 2.0 teacher model for smaller agents [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xf6x35/nanbeige_releases_nanbeige4333b_an_apache_20/",
+      "summary": "Nanbeige released Nanbeige4.3-33B as the teacher for its planned smaller agents, including an upcoming 3B model. the weights are Apache 2.0, and the model card lists a 512K context window. the team reports 80.9 on Terminal-Bench 2.1 versus 73.0 for Qwen3.8-27B, using the same harness and inference settings within each benchmark. it does not win everywhere. on SWE-Bench Pro, the reported scores are 60.3 versus 61.7. these are the releasing team's evaluations, not independent replication. one practical detail for reproducing the agent results: the evaluations retain earlier reasoning with preser",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-25T16:32:44+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "e7b868a985b5",
+      "title": "Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss",
+      "url": "https://towardsdatascience.com/claude-code-vs-cursor-what-a-field-test-shows-that-the-feature-comparisons-miss/",
+      "summary": "One benchmark says Claude Code used 33,000 tokens where Cursor used 188,000. Another says the exact reverse. Here is the field test that actually settles it for your team.\nThe post Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T11:00:00+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "d2b437cf7ecc",
+      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in now sits. By Andrew Hoblitzell",
+      "source": "InfoQ",
+      "published": "2026-10-25T18:00:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "ddb7a151fdf6",
+      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+      "url": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-25T17:00:00+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "f514cec7c949",
+      "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
+      "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and operators spent the day working out whether they ran PHP, where to get the package, and how to tell it had landed. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-25T18:07:00+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "1dc75a32fc6a",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-10-25T17:15:38+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "8c63d84db4aa",
+      "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
+      "url": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/",
+      "summary": "When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green.\nThe post Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-25T14:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "19a8bf58f8fd",
+      "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+      "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 bakes memory directly into the model computation layer using gated deltanet-2 with a stable token-level memory update mechanism within each turn, combined with a mixture-of-storage (mos) layer to scale capacity. a few quick technical takeaways from the setup: internalizing procedural experience: standard agents retrieve p",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-25T05:31:19+00:00",
+      "score": 2.21,
+      "image": null
+    },
+    {
+      "id": "eccd3530d894",
+      "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms.\nThe post Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-25T12:00:00+00:00",
+      "score": 2.07,
+      "image": null
+    }
+  ]
+}
