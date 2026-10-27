@@ -1,0 +1,205 @@
+{
+  "digest": {
+    "headline": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+    "tldr": "Today's digest covers 19 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript (InfoQ). All Types of Caching in .NET: When to Use Each (Deep Dive, Part 1) (Dev.to Programming). AI Cybersecurity Checklist Generator Launched (Dev.to AI). DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents (InfoQ). Your First Reproduction Is Usually Wrong: A Receipt-Before-Patch Workflow for OSS Fixes (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and 70% less memory than TypeScript 7.0, though one test against 7.1 beta showed 2.7x. It lacks watch mode and a language server, and exits with code 2 on type errors. By Daniel Curtis"
+  },
+  "articles": [
+    {
+      "id": "da6b61dbf344",
+      "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and 70% less memory than TypeScript 7.0, though one test against 7.1 beta showed 2.7x. It lacks watch mode and a language server, and exits with code 2 on type errors. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-27T07:34:00+00:00",
+      "score": 4.01,
+      "image": "https://res.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/en/headerimage/generatedHeaderImage-1793039825386.jpg"
+    },
+    {
+      "id": "836992f77612",
+      "title": "All Types of Caching in .NET: When to Use Each (Deep Dive, Part 1)",
+      "url": "https://dev.to/antonmartyniuk/all-types-of-caching-in-net-when-to-use-each-deep-dive-part-1-24ej",
+      "summary": "Your API is slow and Claude recommends you to add caching.\n\nIt adds IMemoryCache to the shipment tracking API, and the p95 latency drops from 120 ms to 5 ms.\n\nEveryone is happy.\n\nThen they scale to two instances.\n\nA customer updates the delivery address, refreshes the page, and sees the old one.\nRefreshes again and sees the new one. One more refresh, and the old address is back.\n\nNothing is broken. Each instance has its own memory, and only one of them knows that the address has changed.\n\nCaching is the cheapest performance win in .NET, and one of the easiest things to get wrong.\n\nThe first an",
+      "source": "Dev.to Programming",
+      "published": "2026-10-27T12:08:00+00:00",
+      "score": 3.96,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1ybtv787311kgvwory9s.png"
+    },
+    {
+      "id": "43020b09e334",
+      "title": "AI Cybersecurity Checklist Generator Launched",
+      "url": "https://dev.to/itsevilduck/ai-cybersecurity-checklist-generator-launched-5243",
+      "summary": "I've built and shipped the AI Cybersecurity Checklist Generator. This tool is designed to help individuals and small teams create a more robust cybersecurity posture.\n\nUsing a guided prompt, you can generate a tailored checklist of security measures relevant to your specific situation. The goal is to help you identify critical steps needed to protect your digital assets and reduce potential risks. It provides actionable advice, moving beyond generic recommendations to offer practical steps for improving your online safety.\n\nThis is for anyone who wants to take a more structured approach to the",
+      "source": "Dev.to AI",
+      "published": "2026-10-27T12:39:18+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1zaudovbbk0r8lk2ki77.png"
+    },
+    {
+      "id": "58571ac57bf8",
+      "title": "DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents",
+      "url": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, cloud platform. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-26T18:00:00+00:00",
+      "score": 3.75,
+      "image": "https://res.infoq.com/news/2026/10/digitalocean-self-improving-ai/en/headerimage/digitalocean-managed-agents-1793035926117.jpeg"
+    },
+    {
+      "id": "4149a42e2c50",
+      "title": "Your First Reproduction Is Usually Wrong: A Receipt-Before-Patch Workflow for OSS Fixes",
+      "url": "https://dev.to/datars_7274/your-first-reproduction-is-usually-wrong-a-receipt-before-patch-workflow-for-oss-fixes-40e2",
+      "summary": "A contributor opens a pull request against a parser library with a failing test, a two-line fix, and a confident description of the bug. The test goes red on their machine, green after the patch, and the maintainer merges it after a quick skim. Six weeks later the same crash reappears in a downstream project, because the original test never actually depended on the code that was changed. Patches drafted with an assistant are common enough now that maintainers triage them like any other contribution, which makes the reproduction step more important than the fix itself.\n\nThis article describes a",
+      "source": "Dev.to AI",
+      "published": "2026-10-27T12:42:10+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fisjr23r507t5svhjzeyl.png"
+    },
+    {
+      "id": "99067de021a3",
+      "title": "In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter",
+      "url": "https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/",
+      "summary": "A framework for staying relevant in the age of artificial intelligence\nThe post In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-27T12:30:00+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "2e2560eed10c",
+      "title": "Uber Moves Beyond CPU Cores with Performance-Aware Scheduling for Stateful Workloads",
+      "url": "https://www.infoq.com/news/2026/10/uber-cpu-stateful-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uber has introduced Normalized Compute Units (NCUs) to make CPU allocation more consistent across its highly heterogeneous server fleet. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-10-27T12:00:00+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "579e13b6a15e",
+      "title": "Adobe, Vecteezy, Dreamstime: Building Exact Upload CSVs From a Folder With Bare Python**",
+      "url": "https://dev.to/revanzart/adobe-vecteezy-dreamstime-building-exact-upload-csvs-from-a-folder-with-bare-python-3a58",
+      "summary": "The moment this clicked for me was a Tuesday night in front of Adobe Stock's contributor upload screen. I had 12 JPEGs ready, a CSV I'd built by hand in a spreadsheet, and a red error banner telling me the file was invalid. No reason given. Just rejected. I opened the CSV again, counted the columns, and found I had 6 where Adobe wanted 5. That one extra column, probably a trailing keyword field I thought would be helpful, cost me the whole batch and about two hours.\n\nThat night I stopped hand-building CSVs and wrote a script instead. This post is what I learned about the three platforms' uploa",
+      "source": "Dev.to AI",
+      "published": "2026-10-27T12:41:58+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "79608f3ac764",
+      "title": "PLC Programming in Modern Manufacturing: Practical Approaches for Reliable Control Systems",
+      "url": "https://dev.to/servotech_inc_f1d62dee3e2/plc-programming-in-modern-manufacturing-practical-approaches-for-reliable-control-systems-265e",
+      "summary": "When a production line stops unexpectedly, the first suspicion usually falls on hardware: a failed sensor, a worn actuator, a loose connection. Often, though, the real obstacle is the control logic itself. It may be undocumented, inconsistent, or so tangled that nobody can safely change it. That is why PLC programming deserves the same attention as mechanical and electrical design. This article explains what it involves, which languages and methods suit different tasks, and what manufacturers should consider to keep control software dependable over the life of a machine.\n\n\n\nWhat PLC Programmin",
+      "source": "Dev.to Programming",
+      "published": "2026-10-27T12:29:37+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "eb84b6654093",
+      "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
+      "url": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Berkeley focused on MCP in production, security, and agents with their own identities. By Andrew Hoblitzell",
+      "source": "InfoQ",
+      "published": "2026-10-26T22:00:00+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "71bc59c56ede",
+      "title": "Developers Felt 20% Faster With AI. They Were 19% Slower.",
+      "url": "https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/",
+      "summary": "And that’s not even the worrying part.\nThe post Developers Felt 20% Faster With AI. They Were 19% Slower. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-27T11:00:00+00:00",
+      "score": 3.4,
+      "image": null
+    },
+    {
+      "id": "6522c62c6542",
+      "title": "Deepity: a hand-tuned C++/CUDA predictive coding library, beats jpc (JAX) and ngc-learn on MNIST (CPU benchmarks + source inside) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xg6sqa/deepity_a_handtuned_ccuda_predictive_coding/",
+      "summary": "I've been building a predictive coding (PC) engine from scratch in C++20, with a thin Python layer on top, and just cut the first public release. Posting here for feedback and because I haven't seen many from-scratch PC implementations with real kernel-level optimization work behind them. What predictive coding is: instead of backprop's single global error signal flowing backward through a stored computation graph, each layer in a PCN holds a local belief about its own state and compares it against a top-down prediction from the layer above. Training alternates between &quot;settling&quot; (ev",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-26T19:34:57+00:00",
+      "score": 3.24,
+      "image": null
+    },
+    {
+      "id": "cf06aaae9734",
+      "title": "Java News Roundup: JDK 28 Schedule, Oracle CPUs, eMudhra Certs, Apache POI, WildFly, Azul, BellSoft",
+      "url": "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for October 19th, 2026, features news highlighting: the proposed release schedule for JDK 28; the eMudhra Intermediate CA certificates breach; the October 2026 Critical Patch Update; Azul and BellSoft CPUs; GA releases of WildFly 42 and Apache POI 6.0; the beta release of Open Liberty 26.0.0.11; and maintenance releases of Micronaut and JobRunr. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-26T14:35:00+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "e1b7b4738640",
+      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it ten points below Claude Opus 5.5 on success rate at a third of the cost, and practitioners have questioned how stakes survive a long agent session. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-10-26T10:20:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "69d5a0023539",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
+      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-26T09:01:00+00:00",
+      "score": 2.55,
+      "image": null
+    },
+    {
+      "id": "cd8fe330b114",
+      "title": "Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat?",
+      "url": "https://towardsdatascience.com/opening-the-box-can-machine-learning-resolve-schrdingers-cat/",
+      "summary": "Neural networks won’t settle the measurement problem — but they are quietly changing how we see, predict and protect quantum superpositions.\nThe post Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T14:00:00+00:00",
+      "score": 2.43,
+      "image": null
+    },
+    {
+      "id": "0096190bc5a9",
+      "title": "What Makes AI-Written Stories Feel Off?",
+      "url": "https://towardsdatascience.com/what-makes-ai-written-stories-feel-off/",
+      "summary": "And how we can turn that feeling into insights\nThe post What Makes AI-Written Stories Feel Off? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T15:30:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "c3100d502169",
+      "title": "My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed",
+      "url": "https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed/",
+      "summary": "What an ID column, a date string, and a missing value taught me.\nThe post My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T12:30:00+00:00",
+      "score": 2.15,
+      "image": null
+    },
+    {
+      "id": "e7b868a985b5",
+      "title": "Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss",
+      "url": "https://towardsdatascience.com/claude-code-vs-cursor-what-a-field-test-shows-that-the-feature-comparisons-miss/",
+      "summary": "One benchmark says Claude Code used 33,000 tokens where Cursor used 188,000. Another says the exact reverse. Here is the field test that actually settles it for your team.\nThe post Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-26T11:00:00+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}

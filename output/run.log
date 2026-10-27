@@ -5896,3 +5896,37 @@
 2026-10-26 13:44:13,936  INFO     ────────────────────────────────────────────────────────────
 2026-10-26 13:44:13,936  INFO     Done!  Open: output/index.html
 2026-10-26 13:44:13,937  INFO     Headline: Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns
+2026-10-27 12:51:17,606  INFO     ============================================================
+2026-10-27 12:51:17,606  INFO     TECHPULSE Digest — 2026-10-27 12:51 UTC
+2026-10-27 12:51:17,606  INFO     ============================================================
+2026-10-27 12:51:17,606  INFO     Step 1/3 — Crawling feeds…
+2026-10-27 12:51:17,891  INFO       Hacker News                    → 0 significant articles
+2026-10-27 12:51:18,051  INFO       VentureBeat AI                 → 0 significant articles
+2026-10-27 12:51:18,230  INFO       Ars Technica                   → 0 significant articles
+2026-10-27 12:51:18,717  INFO       The Register AI                → 0 significant articles
+2026-10-27 12:51:18,837  INFO       MIT Tech Review                → 1 significant articles
+2026-10-27 12:51:19,133  INFO       Dev.to AI                      → 3 significant articles
+2026-10-27 12:51:19,271  INFO       Dev.to Programming             → 2 significant articles
+2026-10-27 12:51:19,537  INFO       GitHub Blog                    → 0 significant articles
+2026-10-27 12:51:20,108  INFO       Google Research                → 0 significant articles
+2026-10-27 12:51:20,907  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-10-27 12:51:20,963  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-10-27 12:51:21,466  INFO       InfoQ                          → 6 significant articles
+2026-10-27 12:51:21,650  INFO       Towards Data Science           → 6 significant articles
+2026-10-27 12:51:21,884  INFO       Wired AI                       → 0 significant articles
+2026-10-27 12:51:21,952  INFO       TechCrunch AI                  → 0 significant articles
+2026-10-27 12:51:21,952  INFO     Fetching images for top articles…
+2026-10-27 12:51:22,630  INFO       🖼  Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust
+2026-10-27 12:51:22,686  INFO       🖼  All Types of Caching in .NET: When to Use Each (Deep Dive, P
+2026-10-27 12:51:22,910  INFO       🖼  AI Cybersecurity Checklist Generator Launched
+2026-10-27 12:51:23,494  INFO       🖼  DigitalOcean Launches Learning and Data Services to Enable S
+2026-10-27 12:51:23,548  INFO       🖼  Your First Reproduction Is Usually Wrong: A Receipt-Before-P
+2026-10-27 12:51:23,587  INFO     Total selected: 19 articles from 15 feeds
+2026-10-27 12:51:23,587  INFO     Selected 19 significant articles
+2026-10-27 12:51:23,588  INFO     Step 2/3 — Generating digest…
+2026-10-27 12:51:23,883  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-10-27 12:51:23,883  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-10-27 12:51:23,883  INFO     Step 3/3 — Rendering HTML…
+2026-10-27 12:51:23,884  INFO     ────────────────────────────────────────────────────────────
+2026-10-27 12:51:23,884  INFO     Done!  Open: output/index.html
+2026-10-27 12:51:23,884  INFO     Headline: Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript
