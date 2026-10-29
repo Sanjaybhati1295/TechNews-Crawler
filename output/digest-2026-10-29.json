@@ -1,0 +1,313 @@
+{
+  "digest": {
+    "headline": "Cloudflare Introduces Web Search API for AI Applications",
+    "tldr": "Today's digest covers 29 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Cloudflare Introduces Web Search API for AI Applications (InfoQ). Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure (TechCrunch AI). Apple's First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and M5 Max, From $2,899 — Explained Honestly (Dev.to Programming). The Download: AI agent tracking and climate feedback loops (MIT Tech Review). Driving Enterprise Velocity through Deterministic Agentic App Generation (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents (GitHub Blog). Your RAG Pipeline Is Missing a 1994 Algorithm (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provider keys. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "ddb45edb5d44",
+      "title": "Cloudflare Introduces Web Search API for AI Applications",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provider keys. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-29T07:14:00+00:00",
+      "score": 4.23,
+      "image": "https://res.infoq.com/news/2026/10/cloudflare-web-search-api/en/headerimage/generatedHeaderImage-1791616850849.jpg"
+    },
+    {
+      "id": "c546a70dbf99",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "summary": "Deepgram said that it is committed to keep Pipecat open source.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T13:00:00+00:00",
+      "score": 4.15,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800"
+    },
+    {
+      "id": "f341217f91b1",
+      "title": "Apple's First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and M5 Max, From $2,899 — Explained Honestly",
+      "url": "https://dev.to/paullovelace/apples-first-touchscreen-macbook-pro-is-real-proled-xdr-m5-pro-and-m5-max-from-2899--2ha0",
+      "summary": "Tags: apple, macbook, programming, webdev\n\nAfter years of Apple saying no, the touchscreen Mac has arrived — and it is not a compromise machine. Announced on October 28, 2026, the new MacBook Pro with PROLED XDR Display is the first Mac you can touch: a tandem-OLED screen with a touch sensor built into the panel, M5 Pro and M5 Max chips, a Dynamic Island on a Mac for the first time, and a starting price of $2,899. It is a genuinely big shift, and it is also a machine you should think carefully about before buying — because Apple announced a second, much cheaper MacBook Pro the day before, and ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-29T13:43:46+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ftoolscout-e2i.pages.dev%2Fimg%2Fapple-touchscreen-macbook-pro-cover.jpg"
+    },
+    {
+      "id": "42caefdb6fd6",
+      "title": "The Download: AI agent tracking and climate feedback loops",
+      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-29T12:10:00+00:00",
+      "score": 4.01,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261028_AIsurveillance.gif?resize=1200,600"
+    },
+    {
+      "id": "c6acfb19960c",
+      "title": "Driving Enterprise Velocity through Deterministic Agentic App Generation",
+      "url": "https://dev.to/melissadissouza/driving-enterprise-velocity-through-deterministic-agentic-app-generation-2kmj",
+      "summary": "The modern enterprise application landscape is defined by an accelerating contradiction: software teams are expected to build and ship applications faster than ever, yet systems must remain strictly secure, maintainable, and compliant with corporate governance. Traditional hand-coding across front-end frameworks, backend orchestration layers, and authentication systems remains a major operational bottleneck. At the same time, turning to unconstrained AI code generators often introduces non-deterministic outputs, security liabilities, hallucinated dependencies, and brittle architectures that fa",
+      "source": "Dev.to Programming",
+      "published": "2026-10-29T13:28:21+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9h9tct5cvt78xy3dw6rd.png"
+    },
+    {
+      "id": "6269c2c27e79",
+      "title": "Cursor vs Windsurf vs Claude Code: The Real Differences",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/cursor-vs-windsurf-vs-claude-code-the-real-differences-449j",
+      "summary": "The winner isn't obvious — and it shouldn't be. Each of these AI coding agents targets a different type of developer, and picking the wrong one wastes months of frustration. Here's what actually differentiates them in real workflows, not just benchmark scores.\n\n2026 update: Windsurf was renamed Devin Desktop on June 2, 2026. This article keeps the Windsurf name because that is how the product shipped at the time of writing.\n\n\n  \n  \n  Quick Verdict\n\n\nCursor dominates for developers who spend most time editing existing codebases — its composer and agent modes feel like pair programming with some",
+      "source": "Dev.to Programming",
+      "published": "2026-10-29T13:21:48+00:00",
+      "score": 3.87,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkd2ykf2pyay7rzvok7yq.png"
+    },
+    {
+      "id": "29b969cf35c5",
+      "title": "Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions with the AI bot.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T13:00:00+00:00",
+      "score": 3.85,
+      "image": null
+    },
+    {
+      "id": "24d8d034b46e",
+      "title": "10 Software Development Tools for the Work That Happens Beyond Writing Code",
+      "url": "https://dev.to/blog2/10-software-development-tools-for-the-work-that-happens-beyond-writing-code-b4l",
+      "summary": "Software development involves considerably more than writing and reviewing code. Teams must document processes, coordinate releases, test integrations, investigate production failures and keep technical knowledge accessible as projects evolve. These responsibilities often determine how reliably software can be delivered and maintained.\n\nA range of specialised applications now supports this work, helping development teams manage everything from technical documentation and design handoffs to deployment and performance monitoring. The following ten tools address different stages of the software d",
+      "source": "Dev.to AI",
+      "published": "2026-10-29T13:37:27+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "bcb66ba3206b",
+      "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
+      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry and suggest what caused the problem. Datadog engineers and a small number of customers are using it in a closed preview. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-29T09:00:00+00:00",
+      "score": 3.73,
+      "image": null
+    },
+    {
+      "id": "7dd11a45dd8e",
+      "title": "Humanize Cohere API Output in TypeScript: A Tone Linter for Filler, Lists of Three and Same-Size Paragraphs + Top 5 Free Tools (2026)",
+      "url": "https://dev.to/unaimytext_app/humanize-cohere-api-output-in-typescript-a-tone-linter-for-filler-lists-of-three-and-same-size-54oo",
+      "summary": "Updated October 2026. Disclosure: UnAIMyText is my team's product and it's third in the list below. The TypeScript below is free to reuse.\n\nCohere's Command models are a popular pick for generating product copy in bulk: onboarding emails, help-center stubs, store listings, in-app tips. Generation is the easy part. The hard part is noticing, before the copy ships, that every paragraph says \"Additionally,\" lists exactly three benefits and runs about forty words.\n\nNone of those habits is wrong on its own. Stacked together on a real page, they make readers feel they're reading a template. So inste",
+      "source": "Dev.to AI",
+      "published": "2026-10-29T13:35:21+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "ec4fd9bc7037",
+      "title": "\"Our MCP directory said \\\"active\\\". The publisher had deprecated it five days earlier.\"",
+      "url": "https://dev.to/sultan57git/our-mcp-directory-said-active-the-publisher-had-deprecated-it-five-days-earlier-9jk",
+      "summary": "I run ProtocolProbe, a directory of facts about every server in the official MCP Registry: each server gets a page, read from public records (the registry, npm, PyPI, GitHub), with a date on every fact.\n\nA publisher emailed us. They had renamed their server, marked the old registry entry as deprecated, and added a message pointing to the new name. Our page for the old entry still said active.\n\nI told them it would update on our next daily run. That was wrong. This post is about why, and what we changed.\n\n\n  \n  \n  The bug\n\n\nOur daily job pulls the full registry list, compares it with yesterday'",
+      "source": "Dev.to AI",
+      "published": "2026-10-29T13:41:18+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "9307c202831e",
+      "title": "Is the #1 AI Model Really #1?",
+      "url": "https://towardsdatascience.com/is-the-1-ai-model-really-1/",
+      "summary": "On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten.\nThe post Is the #1 AI Model Really #1? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-29T12:30:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "2ede9b7f3431",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T19:19:58+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "f1ebb512d4e0",
+      "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T15:00:00+00:00",
+      "score": 3.23,
+      "image": null
+    },
+    {
+      "id": "90b267becbf2",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:34:30+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "b126d7721238",
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:58:32+00:00",
+      "score": 3.02,
+      "image": null
+    },
+    {
+      "id": "f348c6db37d8",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T21:48:37+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "0d7b5e2ed2b7",
+      "title": "CPT’d Qwen9B on Polish legal data. How to make it chat? IMPORTANTLY: how to make it reason? and function call in my harness? and which to do first? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xi21f9/cptd_qwen9b_on_polish_legal_data_how_to_make_it/",
+      "summary": "TLDR: training my first general law model and unsure what to do with my data PRE-PS: it will be a replacement for opus in my current AI LAW harness, I know it will be hard but I wanna do this project and find it geniuenly fun. I’m building a Polish legal model using Qwen3.5-9B-BASE (I plan to scale up to 27b qwen4 later). I’ve done CPT and have quite a bit of data available, but I’m getting lost about what should come next or even if I should do more CPT. My main question is how to turn this (maybe) domain-adapted Base model into an agentic+chat assistant that reasons through legal problems. B",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-28T22:04:32+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "765a5a74d244",
+      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+      "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-28T17:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "2ad174994035",
+      "title": "How Much Does the Hint Matter? A generic feedback line matches self-written critiques in hindsight self-distillation (ACM ICAIF '26) [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xhv8yp/how_much_does_the_hint_matter_a_generic_feedback/",
+      "summary": "We study hindsight self-distillation for multi-step financial reasoning on GPT-OSS-20B. The student finds its own first wrong step and writes a critique. A frozen copy, conditioned on the prefix plus the critique, is distilled back into the student under reverse KL. Notably, replacing the critique with a fixed generic feedback line matches the full gain of about 3 points, and critiques from a 6x larger model do not materially improve performance, suggesting that the positional information provided by hindsight distillation significantly decreases the privileged information needed for effective",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-28T17:52:10+00:00",
+      "score": 2.69,
+      "image": null
+    },
+    {
+      "id": "6c275e5fd0ef",
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "summary": "Today, we laid out our vision for GitHub as the most comprehensive, end-to-end software delivery system in the world.\nThe post GitHub Universe 2026: Evolving every layer of the stack appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-28T16:09:28+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "06c4dba88949",
+      "title": "Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones",
+      "url": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in  Nigeria and India. The interesting problems in this space are storage, quota, cold start, and failure-path design. Our approach applies to any product whose users are on constrained devices and intermittent connections, when the assumption they have a laptop and broadband access do not hold. By Chidi Nwaogu",
+      "source": "InfoQ",
+      "published": "2026-10-28T09:00:00+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "bedf4f2776b5",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "summary": "See how a record year of growth reached every industry, every field, and every kind of builder in the 2026 Octoverse report.\nThe post Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-10-28T16:07:40+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "ad8626efb484",
+      "title": "How to Make AI Work for End-to-End Business Processes",
+      "url": "https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/",
+      "summary": "From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results.\nThe post How to Make AI Work for End-to-End Business Processes appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-28T15:30:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "4e3b53cd7006",
+      "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
+      "url": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding staleness from nearly two days to under a minute and improved offline NDCG by 1.67%, while online testing increased uncancelled bookings by approximately one-third of a percent. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-10-28T13:53:00+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "086d4fd106c0",
+      "title": "AMA this Wednesday: Stephen “Cas” Casper, Harvard Kennedy School, on AI safeguards, incidents and governance (28 Oct, 3 to 4pm ET) [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xhpnfs/ama_this_wednesday_stephen_cas_casper_harvard/",
+      "summary": "https://www.reddit.com/r/ArtificialInteligence/comments/1xfuacm/ama_this_wednesday_stephen_cas_casper_harvard/ r/ArtificialInteligence We have an AMA today Wednesday 28 October from 3 to 4pm ET (19:00 UTC, 20:00 CET) with Stephen “Cas” Casper, Assistant Professor of Public Policy at the Harvard Kennedy School and Faculty Affiliate of the Harvard School of Engineering and Applied Sciences, where he works on AI safeguards, incidents and governance. Stephen &quot;Cas&quot; Casper is computer scientist and an Assistant Professor of Public Policy at the Harvard Kennedy School and a Faculty Affiliat",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-28T14:30:25+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "8e761c971391",
+      "title": "Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails",
+      "url": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers add form hints and validate a signed token server-side. Commenters question the privacy benefit, and the API is best used as a progressive enhancement. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-10-28T09:32:00+00:00",
+      "score": 2.13,
+      "image": null
+    },
+    {
+      "id": "2c33a40a8cc2",
+      "title": "Building and Visualising Kolmogorov–Arnold Networks",
+      "url": "https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/",
+      "summary": "Exploring what happens when neural networks learn functions instead of weights.\nThe post Building and Visualising Kolmogorov–Arnold Networks appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-28T12:30:00+00:00",
+      "score": 2.09,
+      "image": null
+    },
+    {
+      "id": "af930ae5fadf",
+      "title": "Your RAG Pipeline Is Missing a 1994 Algorithm",
+      "url": "https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/",
+      "summary": "Embeddings know that &quot;broken&quot; means &quot;defective&quot;. They may not notice that ZX-4821 is not ZX-4812.\nThe post Your RAG Pipeline Is Missing a 1994 Algorithm appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-28T11:00:00+00:00",
+      "score": 2.01,
+      "image": null
+    }
+  ]
+}

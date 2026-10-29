@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Thursday, October 29, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Thursday, October 29, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 29 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/10/cloudflare-web-search-api/en/headerimage/generatedHeaderImage-1791616850849.jpg" alt="Cloudflare Introduces Web Search API for AI Applications" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Cloudflare Introduces Web Search API for AI Applications</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/" target="_blank" rel="noopener">
+              <img src="https://techcrunch.com/wp-content/uploads/2026/10/Scott-Kwin-1.jpg?resize=1200,800" alt="Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">TechCrunch AI</span>
+                <span class="img-title">Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastr…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/paullovelace/apples-first-touchscreen-macbook-pro-is-real-proled-xdr-m5-pro-and-m5-max-from-2899--2ha0" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Ftoolscout-e2i.pages.dev%2Fimg%2Fapple-touchscreen-macbook-pro-cover.jpg" alt="Apple&#x27;s First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and M5 Max, From $2,899 — Explained Honestly" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to Programming</span>
+                <span class="img-title">Apple&#x27;s First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and …</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>InfoQ</span> · <span>TechCrunch AI</span> · <span>Dev.to Programming</span> · <span>MIT Tech Review</span> · <span>Dev.to AI</span> · <span>Towards Data Science</span> · <span>Reddit r/MachineLearning</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Cloudflare Introduces Web Search API for AI Applications (InfoQ). Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure (TechCrunch AI). Apple&#x27;s First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and M5 Max, From $2,899 — Explained Honestly (Dev.to Programming). The Download: AI agent tracking and climate feedback loops (MIT Tech Review). Driving Enterprise Velocity through Deterministic Agentic App Generation (Dev.to Programming).</p></div>
+        </div>
+        <div class="section">
+          <h2>Salesforce &amp; AWS</h2>
+          <div class="section-body"><p>Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion (TechCrunch AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents (GitHub Blog). Your RAG Pipeline Is Missing a 1994 Algorithm (Towards Data Science).</p></div>
+        </div>
+
+    <div class="takeaway">Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provider keys. By Renato Losio</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (29 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Cloudflare Introduces Web Search API for AI Applications</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/paullovelace/apples-first-touchscreen-macbook-pro-is-real-proled-xdr-m5-pro-and-m5-max-from-2899--2ha0" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Apple&#x27;s First Touchscreen MacBook Pro Is Real: PROLED XDR, M5 Pro and M5 Max, From $2,899 — Explained Honestly</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">The Download: AI agent tracking and climate feedback loops</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/melissadissouza/driving-enterprise-velocity-through-deterministic-agentic-app-generation-2kmj" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Driving Enterprise Velocity through Deterministic Agentic App Generation</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/guang_diyuzhi_74b0fec2c09/cursor-vs-windsurf-vs-claude-code-the-real-differences-449j" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Cursor vs Windsurf vs Claude Code: The Real Differences</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Amazon updates Alexa to help you manage shopping lists, subscriptions, and update delivery instructions</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/blog2/10-software-development-tools-for-the-work-that-happens-beyond-writing-code-b4l" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">10 Software Development Tools for the Work That Happens Beyond Writing Code</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Datadog Builds a Specialist AI Model for SRE Investigations</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/unaimytext_app/humanize-cohere-api-output-in-typescript-a-tone-linter-for-filler-lists-of-three-and-same-size-54oo" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Humanize Cohere API Output in TypeScript: A Tone Linter for Filler, Lists of Three and Same-Size Paragraphs + Top 5 Free Tools (2026)</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/sultan57git/our-mcp-directory-said-active-the-publisher-had-deprecated-it-five-days-earlier-9jk" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">&quot;Our MCP directory said \&quot;active\&quot;. The publisher had deprecated it five days earlier.&quot;</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/is-the-1-ai-model-really-1/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Is the #1 AI Model Really #1?</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Anthropic just launched tools to show companies what their AI spending is buying</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Voice AI in vogue: Nvidia releases new open transcription model</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Microsoft recorded $10 billion in revenue from OpenAI</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Google expands AI Search ads globally as core ad growth slows</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xi21f9/cptd_qwen9b_on_polish_legal_data_how_to_make_it/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">CPT’d Qwen9B on Polish legal data. How to make it chat? IMPORTANTLY: how to make it reason? and function call in my harness? and which to do first? [D]</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xhv8yp/how_much_does_the_hint_matter_a_generic_feedback/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">How Much Does the Hint Matter? A generic feedback line matches self-written critiques in hindsight self-distillation (ACM ICAIF &#x27;26) [R]</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Thursday, October 29, 2026 · 29 articles crawled from 8 sources
+  </footer>
+
+</body>
+</html>
