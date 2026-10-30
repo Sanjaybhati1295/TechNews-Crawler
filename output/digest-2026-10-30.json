@@ -1,0 +1,229 @@
+{
+  "digest": {
+    "headline": "Claude Code 2.0 Was a Release, Not a Capability Set",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Claude Code 2.0 Was a Release, Not a Capability Set (Dev.to AI). Architecting On-Premise Mistral Large 4 for Enterprise SLAs: A Systems Blueprint (Dev.to AI). LangSmith vs Langfuse vs Helicone: LLM Observability in 2026 (Dev.to Programming). Latest News in Cloud AI: Transforming Land Surveying With AI and Drone Technology (Dev.to AI). The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals (MIT Tech Review)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Modernizing Custom Software Delivery: The Era of Deterministic Agentic Systems (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "Claude Code 2.0 was version 2.0 of Anthropic's terminal interface for its coding agent, announced on 29 September 2025. It is not a model, and it is not the product you'd install today.\n\nThat distinction matters more than it sounds, because search results blend three things: the historical launch, later 2.0.x package releases, and current behaviour. Teams end up writing rollout policy against a frozen feature list from over a year ago. Use the release for context, then check the current changelog before anything goes into a control document.\n\nSame goes for naming. \"Claude Skills 2.0\" isn't an "
+  },
+  "articles": [
+    {
+      "id": "ef0f1d6593e1",
+      "title": "Claude Code 2.0 Was a Release, Not a Capability Set",
+      "url": "https://dev.to/teamvoy/claude-code-20-was-a-release-not-a-capability-set-47ai",
+      "summary": "Claude Code 2.0 was version 2.0 of Anthropic's terminal interface for its coding agent, announced on 29 September 2025. It is not a model, and it is not the product you'd install today.\n\nThat distinction matters more than it sounds, because search results blend three things: the historical launch, later 2.0.x package releases, and current behaviour. Teams end up writing rollout policy against a frozen feature list from over a year ago. Use the release for context, then check the current changelog before anything goes into a control document.\n\nSame goes for naming. \"Claude Skills 2.0\" isn't an ",
+      "source": "Dev.to AI",
+      "published": "2026-10-30T13:37:37+00:00",
+      "score": 5.6,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F993w5cpdoqku2n6qzmq0.png"
+    },
+    {
+      "id": "2ead2bc925c3",
+      "title": "Architecting On-Premise Mistral Large 4 for Enterprise SLAs: A Systems Blueprint",
+      "url": "https://dev.to/burra_harish_d574a4c7327a/architecting-on-premise-mistral-large-4-for-enterprise-slas-a-systems-blueprint-2dpc",
+      "summary": "Problem\n\n\nThe availability of frontier open-weights models like Mistral Large 4 gives enterprise architecture teams a powerful alternative to cloud-hosted API providers. Organizations in healthcare, financial services, and defense require full data sovereignty, zero external data leakage, and strict SLA guarantees. However, operating models exceeding 100B parameters on self-hosted GPU clusters introduces severe system bottlenecks.\n\nIn standard inference architectures, the primary scaling bottleneck is not raw compute performance (FLOPS), but GPU memory bandwidth and capacity. The Key-Value (KV",
+      "source": "Dev.to AI",
+      "published": "2026-10-30T13:36:30+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgs7em9y38kcf8e48eh34.png"
+    },
+    {
+      "id": "7712d2fe4cb1",
+      "title": "LangSmith vs Langfuse vs Helicone: LLM Observability in 2026",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/langsmith-vs-langfuse-vs-helicone-llm-observability-in-2026-2f0l",
+      "summary": "LLM Observability in 2026: LangSmith vs Langfuse vs Helicone, Compared for Real Products\n\nYour AI agent works great in a demo, and then you ship it. First turnover: a user's prompt returns a broken trace, the cost line climbs, a staged model returns a subtly wrong answer, and nobody can explain why. If you have ever debugged an opaque LLM app you know the pain: there is no stack trace, no obvious \"line 42\", and no guarantee the same prompt produces the same log twice. LLM observability tools exist to fix exactly that, and in 2026 three names dominate the conversation — LangSmith, Langfuse, and",
+      "source": "Dev.to Programming",
+      "published": "2026-10-30T13:21:34+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fogk7oig4tzguu1o30v8y.png"
+    },
+    {
+      "id": "e40e89503a7e",
+      "title": "Latest News in Cloud AI: Transforming Land Surveying With AI and Drone Technology",
+      "url": "https://dev.to/ail_akram_dcc5063c428734b/latest-news-in-cloud-ai-transforming-land-surveying-with-ai-and-drone-technology-4i8g",
+      "summary": "Land surveying has always been a race between fieldwork and paperwork. A crew can walk a site for days, and then technicians can spend more days turning raw measurements into maps, terrain models, and drawings. Drones, LiDAR sensors, and cloud-based software are now shrinking both halves of that equation, and AI drone land surveying is the term many in the industry use for the combined workflow.\nThe topic got fresh attention in October 2026. On October 22, ZenaTech announced a proprietary AI software suite designed to process LiDAR data from its drone-based land surveying operations. A week la",
+      "source": "Dev.to AI",
+      "published": "2026-10-30T13:38:37+00:00",
+      "score": 3.8,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fpt4bo5wlsgo54z0r2zd2.png"
+    },
+    {
+      "id": "34936df5c82f",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-30T11:30:00+00:00",
+      "score": 3.78,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/261028_GLP1EatingDisorder.jpg?resize=1200,600"
+    },
+    {
+      "id": "ed125bb7b27f",
+      "title": "Modernizing Custom Software Delivery: The Era of Deterministic Agentic Systems",
+      "url": "https://dev.to/melissadissouza/modernizing-custom-software-delivery-the-era-of-deterministic-agentic-systems-14n5",
+      "summary": "For decades, enterprise engineering leaders faced a fundamental trade-off: delivery velocity versus architectural integrity. Traditional hand-crafted software engineering offers complete source code ownership, performance tuning, and deep compliance control, but it requires lengthy development cycles and substantial senior engineering bandwidth. On the other side, standard rapid-build platforms accelerate initial layout and prototyping, but they frequently lock organizations into proprietary runtime engines, non-standard code structures, and long-term technical debt.As artificial intelligence ",
+      "source": "Dev.to Programming",
+      "published": "2026-10-30T13:21:27+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Funwisjs9k8uako77oyvo.png"
+    },
+    {
+      "id": "d310bc3585b9",
+      "title": "Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations",
+      "url": "https://towardsdatascience.com/claude-code-mods-custom-hooks-to-fix-my-biggest-ai-coding-frustrations/",
+      "summary": "How I built four Claude Code mods to protect API keys, track plan progress, catch untested code, and monitor context usage — with 135 passing tests and up to 100× less overhead than traditional hooks — and why they can outperform traditional hooks.\nThe post Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-30T11:00:00+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "05367ef1f34c",
+      "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T23:42:22+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "7ff7f79ad869",
+      "title": "Your Agent’s Tools Can Make Decisions, Too",
+      "url": "https://towardsdatascience.com/your-agents-tools-can-make-decisions-too/",
+      "summary": "Decision models as tools: a hands-on guide\nThe post Your Agent’s Tools Can Make Decisions, Too appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-30T12:30:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "6224c596d37f",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T20:08:31+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "31a141606e86",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T19:14:36+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "56fa7327f2b2",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T19:56:19+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "bcae5e5bffd4",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T17:00:00+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "650d942b9bf9",
+      "title": "Google Adopts DPoP to Strengthen OAuth 2.0 Against Token Theft and Replay Attacks",
+      "url": "https://www.infoq.com/news/2026/10/google-dpop-oauth2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google's OAuth Platform has recently introduces support for Demonstrating Proof-of-Possession (DPoP), an OAuth 2.0 security mechanism designed to mitigate token theft and replay attacks. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-10-29T19:00:00+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "6bb2c4142f70",
+      "title": "Bug0 Releases QA Agent to Automate Regression Testing With Cached Playwright Replays",
+      "url": "https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "QA Agent is a new source-available Playwright library for agentic browser regression testing. The agent associates test instructions expressed in natural language to actions on the user interface, caches those when appropriate for faster CI replays, remapping them to test specifications when the user interface changes. Verification is based on multi-model consensus and vision model evaluations. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-10-29T15:17:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "ddb45edb5d44",
+      "title": "Cloudflare Introduces Web Search API for AI Applications",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provider keys. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-10-29T07:14:00+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "88294416a4cb",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T16:21:00+00:00",
+      "score": 2.91,
+      "image": null
+    },
+    {
+      "id": "42caefdb6fd6",
+      "title": "The Download: AI agent tracking and climate feedback loops",
+      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Opinion: We urgently need to monitor AI agents’ actions in real time —Madhulika Srikumar and Claire Leibowicz from the Partnership on AI, a nonprofit advancing best practices in AI governance. AI&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-29T12:10:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "c546a70dbf99",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-29T13:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "bcb66ba3206b",
+      "title": "Datadog Builds a Specialist AI Model for SRE Investigations",
+      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Datadog has released Scout, a model trained to investigate production problems. It runs inside Bits Investigation, the company's AI SRE product, where it can pick up an alert, look through telemetry and suggest what caused the problem. Datadog engineers and a small number of customers are using it in a closed preview. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-10-29T09:00:00+00:00",
+      "score": 2.4,
+      "image": null
+    },
+    {
+      "id": "9307c202831e",
+      "title": "Is the #1 AI Model Really #1?",
+      "url": "https://towardsdatascience.com/is-the-1-ai-model-really-1/",
+      "summary": "On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten.\nThe post Is the #1 AI Model Really #1? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-29T12:30:00+00:00",
+      "score": 2.1,
+      "image": null
+    }
+  ]
+}
