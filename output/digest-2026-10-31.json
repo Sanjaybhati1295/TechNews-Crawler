@@ -1,0 +1,165 @@
+{
+  "digest": {
+    "headline": "Aether AI Studio: A Local-First AI Workspace with an Autonomous Coding Agent and Image/Video Generation",
+    "tldr": "Today's digest covers 15 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Aether AI Studio: A Local-First AI Workspace with an Autonomous Coding Agent and Image/Video Generation (Dev.to AI). OpenRouter vs LiteLLM vs Portkey vs Kong: LLM Gateways in 2026 (Dev.to AI). What an Anthropic hiring manager stopped asking candidates to do (Dev.to AI). I Masked the User's Message and the Email Still Left: 7 Places PII Slips Out of a .NET 10 LLM Pipeline (Dev.to AI). I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me. (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Aether AI Studio\n\n\nA local-first AI workstation: chat, an autonomous coding agent, and image/video generation in one interface.\n\nMost AI front-ends either lock you into one provider or send everything to the cloud. Aether AI Studio lets you decide. Run models locally with Ollama or LM Studio and nothing leaves your machine. When you need more power, switch to OpenAI, Anthropic, or Gemini from the same UI.\n\n\nGitHub: https://github.com/hankyleisplay/AetherAI-Studio\n\nLatest release (Windows launcher): https://github.com/hankyleisplay/AetherAI-Studio/releases/latest\n\nCurrent version: v4.1.1\n\n\n\n\n  "
+  },
+  "articles": [
+    {
+      "id": "58edb6945f14",
+      "title": "Aether AI Studio: A Local-First AI Workspace with an Autonomous Coding Agent and Image/Video Generation",
+      "url": "https://dev.to/hankyleisplay/aether-ai-studio-a-local-first-ai-workspace-with-an-autonomous-coding-agent-and-imagevideo-4nh3",
+      "summary": "Aether AI Studio\n\n\nA local-first AI workstation: chat, an autonomous coding agent, and image/video generation in one interface.\n\nMost AI front-ends either lock you into one provider or send everything to the cloud. Aether AI Studio lets you decide. Run models locally with Ollama or LM Studio and nothing leaves your machine. When you need more power, switch to OpenAI, Anthropic, or Gemini from the same UI.\n\n\nGitHub: https://github.com/hankyleisplay/AetherAI-Studio\n\nLatest release (Windows launcher): https://github.com/hankyleisplay/AetherAI-Studio/releases/latest\n\nCurrent version: v4.1.1\n\n\n\n\n  ",
+      "source": "Dev.to AI",
+      "published": "2026-10-31T13:02:05+00:00",
+      "score": 5.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fowd6gjr5hpl6s9b4g4ta.png"
+    },
+    {
+      "id": "eb6a52edf8dc",
+      "title": "OpenRouter vs LiteLLM vs Portkey vs Kong: LLM Gateways in 2026",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/openrouter-vs-litellm-vs-portkey-vs-kong-llm-gateways-in-2026-24dn",
+      "summary": "LLM Gateways in 2026: OpenRouter vs LiteLLM vs Portkey vs Kong for Production Traffic\n\nMost AI teams hit the same wall a few months after launch: the app works in the demo, but the API bill is unpredictable, one vendor outage takes the whole product down, and nobody can say which model served any given request. An LLM gateway is the layer that sits between your application and a dozen model providers, and in 2026 it has become the difference between a fragile demo and a dependable service. This guide compares OpenRouter, LiteLLM, Portkey, and Kong AI Gateway so you can pick the one that fits y",
+      "source": "Dev.to AI",
+      "published": "2026-10-31T13:00:20+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbau55nczhnhwbafkw5y0.png"
+    },
+    {
+      "id": "16336121072b",
+      "title": "What an Anthropic hiring manager stopped asking candidates to do",
+      "url": "https://dev.to/kayashaolu/what-an-anthropic-hiring-manager-stopped-asking-candidates-to-do-4l6a",
+      "summary": "Felix Rieseberg is an engineering manager at Anthropic. This month he wrote that he has stopped giving candidates the coding interview. His reason is short: AI can now handle the small coding challenges the interview was built from, so those challenges no longer tell him who will do well on his team.\n\nHis post, \"Hunger beats tenure\", is advice for junior engineers. The line from it I keep coming back to is this one: \"I'm seeing engineers who are comparatively new fly past people who are probably better coders and have been around much longer.\" It is one manager's observation, and he offers it ",
+      "source": "Dev.to AI",
+      "published": "2026-10-31T13:01:35+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fbibcpukzfzop20wkjf7o.png"
+    },
+    {
+      "id": "a9cdc6c50c62",
+      "title": "I Masked the User's Message and the Email Still Left: 7 Places PII Slips Out of a .NET 10 LLM Pipeline",
+      "url": "https://dev.to/michael_maurice/i-masked-the-users-message-and-the-email-still-left-7-places-pii-slips-out-of-a-net-10-llm-3o24",
+      "summary": "The idea is simple, and I liked it immediately. Before a chat message goes to the model, swap every email, phone number, IBAN and card for a typed placeholder like [EMAIL_1]. Keep the mapping in a per-conversation vault on your side. When the answer comes back, swap the values back in. The model still knows \"this is an email, the same one as before\", which is all it needs to call lookup_customer.\n\nI built that as a DelegatingChatClient on Microsoft.Extensions.AI 10.11.0 for a support assistant. Masking the user's message took an afternoon. Then I started checking what actually left the process",
+      "source": "Dev.to AI",
+      "published": "2026-10-31T13:00:05+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3ykzqosffb2ooo4xlxvp.png"
+    },
+    {
+      "id": "d040055a2fcf",
+      "title": "I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.",
+      "url": "https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/",
+      "summary": "A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.\nThe post I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-31T12:00:00+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "9e5a56df56d0",
+      "title": "How to Become an AI Engineer in 2026: The Skills Roadmap and 3 Projects That Get You Hired",
+      "url": "https://dev.to/saurabh_bhayana/how-to-become-an-ai-engineer-in-2026-the-skills-roadmap-and-3-projects-that-get-you-hired-fn5",
+      "summary": "This guide was first published on saurabhbhayana.com.\n\nImagine two people applying for the same AI engineer job. One has five online certificates. The other has a link to a small chatbot that answers questions from a dentist's price list, cites the page it used, and logs every answer. Who gets the call? Pretty obvious, right?\n\nA few years ago the path into tech was a degree, some internships, a pile of coding puzzles and a lot of waiting. That has changed. AI tools now write a big share of the code, so code is no longer the hard part. Judgment is: how to structure the system, what to build, an",
+      "source": "Dev.to AI",
+      "published": "2026-10-31T13:00:47+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fsaurabhbhayana.com%2Fblog%2Fcovers%2Fhow-to-become-an-ai-engineer-og.jpg"
+    },
+    {
+      "id": "a1e3c09894cb",
+      "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+      "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to attestation-based key release. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-10-31T08:18:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "60ba719a0574",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T21:52:03+00:00",
+      "score": 3.25,
+      "image": null
+    },
+    {
+      "id": "e14a60071cc3",
+      "title": "Advice on dealing with Cold Start forecasting [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjmgju/advice_on_dealing_with_cold_start_forecasting_d/",
+      "summary": "Hey everyone. I am dealing with a problem statement at work where the goal is to predict the sales of a new innovation to be launched. Note that the data that I actually have is just product attributes, the month level invoice data for each region, weather data and some macroeconomic data. Currently there is a methodology in place where we are using a xgboost regressor trained on the historical data for this prediction, but no one in the team is very confident in the methodology. Given this, does anyone have advice on how we could go about this problem? Please do let me know if you've dealt wi",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-30T17:56:26+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "311e9a3c8002",
+      "title": "Paid Research Survey for conference papers [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjtpio/paid_research_survey_for_conference_papers_d/",
+      "summary": "Sorry if the flair is wrong. I didn't see one that fit. Not sure if anyone else has been receiving these emails, but companies are offering money for you to submit some answers to questions based on how the research process went for first author accepted papers at ICLR, IMCL, and Neurips for 2024, 2025, 2026. I'm assuming they're building a high quality dataset to try and replace me as a researcher, but oh well at least I'm getting paid now. Anyways, they pay $300 per paper up to 2 papers. Each survey took me like 45 mins and onboarding to the website about 30 mins. If you're a grad student an",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-10-30T22:42:27+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "135f70cd39eb",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-30T17:00:00+00:00",
+      "score": 2.78,
+      "image": null
+    },
+    {
+      "id": "34936df5c82f",
+      "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
+      "url": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Eating disorders are on the rise. GLP-1s could make things worse. GLP-1 weight-loss drugs are one of the biggest biotech breakthroughs of the last decade. But to some clinicians, they can&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-10-30T11:30:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "334da0cc7f7d",
+      "title": "Pick a Number Between 1 and 10",
+      "url": "https://towardsdatascience.com/pick-a-number-between-1-and-10/",
+      "summary": "A viral tweet says LLMs pick 7 because of gradient descent. The math says it’s more interesting than that.\nThe post Pick a Number Between 1 and 10 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-30T15:30:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "d310bc3585b9",
+      "title": "Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations",
+      "url": "https://towardsdatascience.com/claude-code-mods-custom-hooks-to-fix-my-biggest-ai-coding-frustrations/",
+      "summary": "How I built four Claude Code mods to protect API keys, track plan progress, catch untested code, and monitor context usage — with 135 passing tests and up to 100× less overhead than traditional hooks — and why they can outperform traditional hooks.\nThe post Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-30T11:00:00+00:00",
+      "score": 2.24,
+      "image": null
+    },
+    {
+      "id": "7ff7f79ad869",
+      "title": "Your Agent’s Tools Can Make Decisions, Too",
+      "url": "https://towardsdatascience.com/your-agents-tools-can-make-decisions-too/",
+      "summary": "Decision models as tools: a hands-on guide\nThe post Your Agent’s Tools Can Make Decisions, Too appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-30T12:30:00+00:00",
+      "score": 2.13,
+      "image": null
+    }
+  ]
+}
