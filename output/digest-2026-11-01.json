@@ -1,0 +1,145 @@
+{
+  "digest": {
+    "headline": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers (InfoQ). What Can Your Agent Actually Touch? (Dev.to AI). Will That AI Feature Actually Pay for Itself? Run the ROI Math First (Dev.to AI). Kimi K2 closes in December: what moving to K3.1 Pro changes, and what the default reasoning effort costs (Dev.to Programming). Best option for local models [D] (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "d25a8b193d36",
+      "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+      "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-01T06:32:00+00:00",
+      "score": 4.29,
+      "image": "https://res.infoq.com/news/2026/11/aws-s3-file-transfer/en/headerimage/generatedHeaderImage-1792218946629.jpg"
+    },
+    {
+      "id": "2a08f11fcb66",
+      "title": "What Can Your Agent Actually Touch?",
+      "url": "https://dev.to/r3dtuxedo/what-can-your-agent-actually-touch-1kco",
+      "summary": "This article first appeared on Medium: https://medium.com/@r3dtuxedo/what-can-your-agent-actually-touch-6010c17243d9\n\n\n  \n  \n  Sandboxes, network access and MCP filesystem overreach. A bad web page can steer your agent, and nothing inside the model stops it. What limits the damage is the sandbox, the network rules and which secrets are in reach. Your MCP servers usually sit outside all three.\n\n\n\nTL;DR\n\n\nNothing inside the model separates a web page's text from your instructions. Text the agent reads can steer what it does next. That's prompt injection, and the defence is outside the model: wha",
+      "source": "Dev.to AI",
+      "published": "2026-11-01T13:41:25+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2i6jn7j5ql6rag2g3pes.png"
+    },
+    {
+      "id": "9dbfa322a9f1",
+      "title": "Will That AI Feature Actually Pay for Itself? Run the ROI Math First",
+      "url": "https://dev.to/aicalculators/will-that-ai-feature-actually-pay-for-itself-run-the-roi-math-first-14bo",
+      "summary": "Every AI feature sounds like a money-saver in the pitch meeting. A chatbot will answer customers overnight, a writing tool will draft reports in seconds, and a smart search tool will end wasted time. Some of these ideas do pay for themselves. Many do not. The difference is rarely the technology. It is whether anyone ran the return-on-investment math before building.\n\nStart with the cost side, and count everything, not just the obvious bill. First, add your API or token spend for a typical month, based on real usage, not the cheapest demo. Then add tool subscriptions, seats, and any extra data ",
+      "source": "Dev.to AI",
+      "published": "2026-11-01T13:37:20+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fcdsbn516z3gxdxrdtm7s.png"
+    },
+    {
+      "id": "c08b9e6d35f4",
+      "title": "Kimi K2 closes in December: what moving to K3.1 Pro changes, and what the default reasoning effort costs",
+      "url": "https://dev.to/ai_maya_063fc568e157562fd/kimi-k2-closes-in-december-what-moving-to-k31-pro-changes-and-what-the-default-reasoning-effort-fld",
+      "summary": "TL;DR\n\n\nMoonshot AI's documentation says that since 2026-10-31 the Kimi K2 series (kimi-k2.6, kimi-k2.7-code and its highspeed variant) is closed to newly registered accounts. Existing accounts keep working, and Moonshot plans to retire every K2 model by the end of December 2026. The named replacement is kimi-k3.1-pro. I did not call any API. This post is built from Moonshot's official pages, one third-party migration write-up that did run requests, a third-party pricing page, and arithmetic of my own. The main points:\n\n\n\nThis is a schedule, not a surprise. The official Model List shows four d",
+      "source": "Dev.to Programming",
+      "published": "2026-11-01T13:25:38+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fquickchart.io%2Fchart%3Fwidth%3D1000%26height%3D420%26c%3D%257B%2522type%2522%253A%2522bar%2522%252C%2522data%2522%253A%257B%2522labels%2522%253A%255B%25221k%2522%252C%25226k%2522%252C%252220k%2522%252C%252250k%2522%255D%252C%2522datasets%2522%253A%255B%257B%2522label%2522%253A%2522Input%2520%25288%252C000%2520tokens%2529%2522%252C%2522data%2522%253A%255B16.0%252C16.0%252C16.0%252C16.0%255D%252C%2522backgroundColor%2522%253A%2522%25239ca3af%2522%257D%252C%257B%2522label%2522%253A%2522Visible%2520output%2520%2528500%2520tokens%2529%2522%252C%2522data%2522%253A%255B5.0%252C5.0%252C5.0%252C5.0%255D%252C%2522backgroundColor%2522%253A%2522%252360a5fa%2522%257D%252C%257B%2522label%2522%253A%2522Thinking%2520tokens%2522%252C%2522data%2522%253A%255B10.0%252C60.0%252C200.0%252C500.0%255D%252C%2522backgroundColor%2522%253A%2522%25232563eb%2522%257D%255D%257D%252C%2522options%2522%253A%257B%2522title%2522%253A%257B%2522display%2522%253Atrue%252C%2522text%2522%253A%2522Illustrative%2520cost%2520per%25201%252C000%2520calls%2520at%2520%25242%2520in%2520%2F%2520%252410%2520out%252C%2520by%2520thinking%2520tokens%2520per%2520call%2522%252C%2522fontSize%2522%253A16%257D%252C%2522scales%2522%253A%257B%2522xAxes%2522%253A%255B%257B%2522stacked%2522%253Atrue%252C%2522scaleLabel%2522%253A%257B%2522display%2522%253Atrue%252C%2522labelString%2522%253A%2522Thinking%2520tokens%2520per%2520call%2520%2528assumed%2529%2522%257D%257D%255D%252C%2522yAxes%2522%253A%255B%257B%2522stacked%2522%253Atrue%252C%2522ticks%2522%253A%257B%2522beginAtZero%2522%253Atrue%257D%252C%2522scaleLabel%2522%253A%257B%2522display%2522%253Atrue%252C%2522labelString%2522%253A%2522USD%2520per%25201%252C000%2520calls%2522%257D%257D%255D%257D%252C%2522legend%2522%253A%257B%2522position%2522%253A%2522bottom%2522%257D%257D%257D"
+    },
+    {
+      "id": "7a5c6edde0cf",
+      "title": "Best option for local models [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+      "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well PS; I have access to B200, and multiple A100s/L40s at my Univ which I can definitely use for training purposes, and I just wanted to get a device to run local inference  &#32; submitted by &#32;  /u/Fantastic-Nerve-4056   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-01T07:16:53+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "7353bdd5b58f",
+      "title": "A Neural Network Learned to Read Digits From Pure Noise",
+      "url": "https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/",
+      "summary": "A small NumPy reproduction of subliminal learning, and a short argument for why it works\nThe post A Neural Network Learned to Read Digits From Pure Noise appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-01T12:00:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "bc398a80a0df",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-31T21:17:03+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "344dcf79744a",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "source": "TechCrunch AI",
+      "published": "2026-10-31T16:12:55+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "51acbbda494b",
+      "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+      "url": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for GraphQL, Spring Session, Spring Integration, Spring HATEOS, Spring Modulith, Spring REST Docs, Spring AI, Spring Batch, Spring AMQP, Spring for Apache Kafka, Spring LDAP and Spring Web Services. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-10-31T13:30:00+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "346805cf140d",
+      "title": "We Taught AI to Answer Questions. Who Taught It to Change Its Mind?",
+      "url": "https://towardsdatascience.com/we-taught-ai-to-answer-questions-who-taught-it-to-change-its-mind/",
+      "summary": "When new evidence kills one conclusion, do the decisions built on it change too? I tested six update strategies, then a local model.\nThe post We Taught AI to Answer Questions. Who Taught It to Change Its Mind? appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-31T14:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "38904865337f",
+      "title": "How to Build Bug-Free Applications with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/",
+      "summary": "Use E2E tests to minimize bugs\nThe post How to Build Bug-Free Applications with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-31T16:00:00+00:00",
+      "score": 2.28,
+      "image": null
+    },
+    {
+      "id": "d040055a2fcf",
+      "title": "I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.",
+      "url": "https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/",
+      "summary": "A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to.\nThe post I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-10-31T12:00:00+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "a1e3c09894cb",
+      "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+      "url": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to attestation-based key release. By Mark Silvester",
+      "source": "InfoQ",
+      "published": "2026-10-31T08:18:00+00:00",
+      "score": 2.05,
+      "image": null
+    }
+  ]
+}
