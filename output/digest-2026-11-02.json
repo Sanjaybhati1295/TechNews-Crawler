@@ -1,0 +1,249 @@
+{
+  "digest": {
+    "headline": "Standard bf16 Rounding Discards 99% of Your RL Policy Updates",
+    "tldr": "Today's digest covers 23 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Standard bf16 Rounding Discards 99% of Your RL Policy Updates (Dev.to AI). Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhere Else (Dev.to AI). Copilot Fusion's Local Model Preview: Only One of Three Stages Runs on Your Machine (Dev.to AI). Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition (TechCrunch AI). Grok Bot users saw their limits suddenly run out (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "The shared blackboard pattern is back and it's solving multi-agent context loss (Dev.to Programming). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "If you run reinforcement learning post-training on language models using frameworks like verl, TRL, or OpenRLHF, your rollout engine is probably serving weights that are dozens of optimizer steps out of date.\n\nThe issue is not network latency or worker contention. It comes from the cast that converts optimizer master weights into the weights served by your inference engine.\n\nModern post-training stacks keep master weights in fp32 inside PyTorch and serve rollouts from a bf16 copy hosted in vLLM or SGLang. Every open-source framework bridges those runtimes with standard round-to-nearest convers"
+  },
+  "articles": [
+    {
+      "id": "63499dc0f1d3",
+      "title": "Standard bf16 Rounding Discards 99% of Your RL Policy Updates",
+      "url": "https://dev.to/reidmarlow/standard-bf16-rounding-discards-99-of-your-rl-policy-updates-2pf5",
+      "summary": "If you run reinforcement learning post-training on language models using frameworks like verl, TRL, or OpenRLHF, your rollout engine is probably serving weights that are dozens of optimizer steps out of date.\n\nThe issue is not network latency or worker contention. It comes from the cast that converts optimizer master weights into the weights served by your inference engine.\n\nModern post-training stacks keep master weights in fp32 inside PyTorch and serve rollouts from a bf16 copy hosted in vLLM or SGLang. Every open-source framework bridges those runtimes with standard round-to-nearest convers",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:29:02+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F276hfmzm51z3f3jk6atf.png"
+    },
+    {
+      "id": "f1f5c662500f",
+      "title": "Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhere Else",
+      "url": "https://dev.to/servbay/copilot-fusion-takes-local-models-and-the-offline-boundary-is-somewhere-else-47f4",
+      "summary": "GitHub published an experimental preview on October 28, 2026 that lets Copilot Fusion add eligible local models to its smart routing and split tasks between local and cloud models. The same announcement states that routing decisions are still made in the cloud. A model running on a developer's machine and a coding session that needs no network at all are two separate things. The first is confirmed. The second has to be checked against a specific setup.\n\nCopilot Fusion is GitHub Copilot's model routing and task coordination layer. Based on the request and the models available, it picks a model ",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:27:56+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnvmfa5t5e5920blcdzwm.png"
+    },
+    {
+      "id": "345c53ff5597",
+      "title": "Copilot Fusion's Local Model Preview: Only One of Three Stages Runs on Your Machine",
+      "url": "https://dev.to/servbay/copilot-fusions-local-model-preview-only-one-of-three-stages-runs-on-your-machine-1pkf",
+      "summary": "GitHub shipped an experimental preview on October 28, 2026 that lets Copilot Fusion add eligible local models to its smart routing, splitting tasks between local and cloud models. I went through the announcement expecting the other half of the story to be an offline coding agent. It is not. GitHub says plainly that routing decisions are still made in the cloud.\n\nCopilot Fusion is the model routing and task coordination layer inside GitHub Copilot. It looks at a request and the models available, picks one, and feeds that model's output back into the coding workflow. It answers which model handl",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:28:07+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk152woqmlywj3vhmfkeq.png"
+    },
+    {
+      "id": "a43a012fc6e7",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T15:00:00+00:00",
+      "score": 3.81,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/DSCF1932.jpg?resize=1200,800"
+    },
+    {
+      "id": "c1df39ce4402",
+      "title": "Grok Bot users saw their limits suddenly run out",
+      "url": "https://dev.to/hacksgr/grok-bot-users-saw-their-limits-suddenly-run-out-l8h",
+      "summary": "Grok Bot users experienced unexpected usage caps over the weekend as limits suddenly maxed out.\n\nElon Musk confirmed the behavior was intentional rather than a glitch, pointing to high operational costs relative to revenue, though long-term subscriber limit adjustments remain unannounced.\n\n\n\n\nSpaceX CEO Elon Musk confirmed in a post on Sunday that the problem was not due to a technical error. Responding to a comment, he explained that the cost of running Grok Bot is too high compared to the revenue it brings, without specifying how subscriber limits will be affected in the future.\n\nAccording t",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:33:18+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F10%2Fgrok-getty.webp"
+    },
+    {
+      "id": "1f0aa6631ca5",
+      "title": "MiniMax H3 Acceleration in ComfyUI: Eleven Graphs Across Model Tier, LoRA, Attention and Cache",
+      "url": "https://dev.to/ai-ksk/minimax-h3-acceleration-in-comfyui-eleven-graphs-across-model-tier-lora-attention-and-cache-44pf",
+      "summary": "MiniMax H3 acceleration is not one switch. The episode this set comes from measures four layers — model precision, LoRA, attention, and cache — and the eleven graphs here are the actual experiment matrix. Three VRAM tiers of image-to-video (24/48/80 GB), three tiers of reference-to-video, a W4A8 vs int8 comparison, Larry Turbo, LightX2V Turbo, Larry + SageAttention, and the Larry + attention + cache \"full blood\" build.\n\nNo inference was run for this release. There is no timing, VRAM number or quality comparison here, and the episode's \"6x acceleration\" claim is the author's description — not s",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:33:45+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4sdeipg9i9xnaexsp6ht.png"
+    },
+    {
+      "id": "ffd92ef877de",
+      "title": "The shared blackboard pattern is back and it's solving multi-agent context loss",
+      "url": "https://dev.to/alex_aslam/the-shared-blackboard-pattern-is-back-and-its-solving-multi-agent-context-loss-4kfc",
+      "summary": "I once shipped a blackboard that nobody could see.\n\nThe storage layer worked perfectly. Every agent wrote to the shared state. The schema was clean, the writes were ordered, the persistence was durable. And in the first live run, one agent repeated the same line every turn while the others went silent — because the only thing each agent could actually see was its own section of the board.\n\nThe post-mortem in the ADR is four words long and still stings: “The shared blackboard wasn't shared.” Peer lines landed in agent_notes, the ContextBuilder never injected them, and agent.spoke wasn't in the ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-02T16:23:43+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "2a693a300f6f",
+      "title": "What did Ilya Sutskever mean when he said \"The models, they just want to learn\"? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/",
+      "summary": "It was just before OpenAI started that I met Ilya, who you interviewed. One of the first things he said to me was — “Look. The models, they just want to learn. You have to understand this. The models, they just want to learn.” And it was a bit like a Zen Koan. I listened to this and I became enlightened. And over the years, I would be the one who would formalize a lot of these things and kind of put them together, but what that told me was that the phenomenon that I'd seen wasn't just some random thing. It was broad. It was more general. The models just want to learn. You get the obstacles out",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T14:32:14+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "28ae4e9f2cbb",
+      "title": "What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/",
+      "summary": "Fine tuning on self collected web data felt straightforward until it wasn’t. Here’s what actually caused problems: Boilerplate contamination was the silent killer. Navigation menus, cookie banners, and footer text were leaking into training examples. The model started generating weirdly structured outputs that looked like half-rendered HTML. Solved it with aggressive DOM-targeting rather than raw text extraction and switching to a rotating residential proxy layer (per-request IP rotation means target sites serve you the same rendered DOM a real browser session would get, rather than a bot-filt",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T16:25:25+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "4e84ca416d4f",
+      "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-02T07:27:28+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "f11570983669",
+      "title": "A CTO Checklist for Evaluating AI Features Before Production Release",
+      "url": "https://dev.to/olivia-white/a-cto-checklist-for-evaluating-ai-features-before-production-release-3gg8",
+      "summary": "An AI feature that works during a product demonstration is not necessarily ready for production. It may generate inaccurate responses, expose sensitive information, fail under concurrent workloads, or execute unintended actions when connected to business systems. CTOs and VP Product leaders need a structured release evaluation process that goes beyond traditional software testing. \n\nBefore deployment, an AI feature should demonstrate acceptable output quality, reliable data retrieval, secure execution, predictable performance, manageable operating costs, and effective failure recovery. The goa",
+      "source": "Dev.to AI",
+      "published": "2026-11-02T16:28:45+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "a1503e81077e",
+      "title": "Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About",
+      "url": "https://towardsdatascience.com/reflections-beam-is-the-new-open-weight-model-everyone-is-talking-about/",
+      "summary": "A 501B model that only activates 23B parameters per token sounds like a bargain, until you look at what it takes to host.\nThe post Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T14:00:00+00:00",
+      "score": 3.35,
+      "image": null
+    },
+    {
+      "id": "a4b956c9b61f",
+      "title": "Our AI Has an Invisible Footprint — Let's see How to Measure It",
+      "url": "https://towardsdatascience.com/our-ai-has-an-invisible-footprint-lets-see-how-to-measure-it/",
+      "summary": "The hardest part is no longer getting the numbers. It's deciding what to do with them.\nThe post Our AI Has an Invisible Footprint — Let's see How to Measure It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T12:30:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "dfbb44f26053",
+      "title": "Let Decision Models Watch Your Agents",
+      "url": "https://towardsdatascience.com/let-decision-models-watch-your-agents/",
+      "summary": "A hands-on guide to detecting behavioral anomalies from an agent’s evolving execution history\nThe post Let Decision Models Watch Your Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T11:00:00+00:00",
+      "score": 3.18,
+      "image": null
+    },
+    {
+      "id": "b91a53cdbef2",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T03:15:07+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "951481474f5e",
+      "title": "Benchmarking: Qwen 27B, 35B, QFN180B; Nemotron Bolt 74B, Flint40B & Clover 35B (Q4) on M5 Max 2026 on Kapitsa with KFlash [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xljter/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
+      "summary": "https://preview.redd.it/260fkihtk3zh1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=a80b6861abdeee3c9a4e705b6ad9b337be005722 hey folks, I'm Ye, one of the contributors to Kapitsa, an open-source inference engine optimized specifically for Apple Silicon to run Qwen, Nemotron, Flint and Clover models locally. Our custom-written Metal kernels let us tune for each chip and each model. https://github.com/nace-ai/kapitsa/ The latest update, 0.2.26, is out. Since our last M5 Max numbers, Flash-Next 180B reads prompts 46% faster and the 27B writes 8% faster, and DiffuSpace's Clover 35B joins the c",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T01:05:33+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "501d7205b81a",
+      "title": "[R] There is no free lunch in RLVR: under strategy specialization, every pass@1 gain provably costs some prompt, and the pass@k crossover has a tight bound [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/",
+      "summary": "Paper: https://arxiv.org/abs/2610.39295 Code + verification package (every number in the paper is checked by a script): https://github.com/yliusci/no-free-lunch-rlvr Browser diagnostic: https://huggingface.co/spaces/yliusci/passk-price I kept running into the same pattern in RLVR papers: the RL model wins at pass@1 and the base model catches up or wins at large k (Yue et al. 2025 and many follow-ups). I wanted to know whether more training fixes this or whether it is structural. This is a theory paper, no new training runs. Setup: model RLVR as an exponential tilt of the base policy over solut",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T04:30:11+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "d25a8b193d36",
+      "title": "File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers",
+      "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has recently released File Mover Express, an open-source application under the Apache 2.0 license for transferring large files between local systems and Amazon S3. Available for macOS, Windows, and Linux, it supports parallel transfers, automatic performance tuning, retries, pause and resume, and file integrity verification. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-01T06:32:00+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "8efc4c266dc3",
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/",
+      "summary": "GitHub’s annual month-long game jam is back for its 14th year! This November, make a game inspired by the theme SHIFT. Change gears, swap perspectives, bend reality, or just press a certain key.\nThe post Game Off 2026: The theme is SHIFT appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-01T21:36:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "16ccde18f6d1",
+      "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "url": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents.\nThe post The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-01T16:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "bd2af921a36b",
+      "title": "Fix the Image, Not the Prompt",
+      "url": "https://towardsdatascience.com/fix-the-image-not-the-prompt/",
+      "summary": "Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak.\nThe post Fix the Image, Not the Prompt appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-01T14:00:00+00:00",
+      "score": 2.02,
+      "image": null
+    },
+    {
+      "id": "7a5c6edde0cf",
+      "title": "Best option for local models [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+      "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well PS; I have access to B200, and multiple A100s/L40s at my Univ which I can definitely use for training purposes, and I just wanted to get a device to run local inference  &#32; submitted by &#32;  /u/Fantastic-Nerve-4056   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-01T07:16:53+00:00",
+      "score": 1.94,
+      "image": null
+    },
+    {
+      "id": "7353bdd5b58f",
+      "title": "A Neural Network Learned to Read Digits From Pure Noise",
+      "url": "https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/",
+      "summary": "A small NumPy reproduction of subliminal learning, and a short argument for why it works\nThe post A Neural Network Learned to Read Digits From Pure Noise appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-01T12:00:00+00:00",
+      "score": 1.91,
+      "image": null
+    }
+  ]
+}

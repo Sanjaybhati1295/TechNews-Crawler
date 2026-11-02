@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Monday, November 02, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Monday, November 02, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 23 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/reidmarlow/standard-bf16-rounding-discards-99-of-your-rl-policy-updates-2pf5" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F276hfmzm51z3f3jk6atf.png" alt="Standard bf16 Rounding Discards 99% of Your RL Policy Updates" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Standard bf16 Rounding Discards 99% of Your RL Policy Updates</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/servbay/copilot-fusion-takes-local-models-and-the-offline-boundary-is-somewhere-else-47f4" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnvmfa5t5e5920blcdzwm.png" alt="Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhere Else" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhe…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/servbay/copilot-fusions-local-model-preview-only-one-of-three-stages-runs-on-your-machine-1pkf" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fk152woqmlywj3vhmfkeq.png" alt="Copilot Fusion&#x27;s Local Model Preview: Only One of Three Stages Runs on Your Machine" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Copilot Fusion&#x27;s Local Model Preview: Only One of Three Stages Runs on…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>TechCrunch AI</span> · <span>Dev.to Programming</span> · <span>Reddit r/MachineLearning</span> · <span>Hacker News</span> · <span>Towards Data Science</span> · <span>InfoQ</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Standard bf16 Rounding Discards 99% of Your RL Policy Updates (Dev.to AI). Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhere Else (Dev.to AI). Copilot Fusion&#x27;s Local Model Preview: Only One of Three Stages Runs on Your Machine (Dev.to AI). Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition (TechCrunch AI). Grok Bot users saw their limits suddenly run out (Dev.to AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>The shared blackboard pattern is back and it&#x27;s solving multi-agent context loss (Dev.to Programming). [D] Self-Promotion Thread (Reddit r/MachineLearning).</p></div>
+        </div>
+
+    <div class="takeaway">If you run reinforcement learning post-training on language models using frameworks like verl, TRL, or OpenRLHF, your rollout engine is probably serving weights that are dozens of optimizer steps out of date.
+
+The issue is not network latency or worker contention. It comes from the cast that converts optimizer master weights into the weights served by your inference engine.
+
+Modern post-training stacks keep master weights in fp32 inside PyTorch and serve rollouts from a bf16 copy hosted in vLLM or SGLang. Every open-source framework bridges those runtimes with standard round-to-nearest convers</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (23 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/reidmarlow/standard-bf16-rounding-discards-99-of-your-rl-policy-updates-2pf5" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Standard bf16 Rounding Discards 99% of Your RL Policy Updates</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/servbay/copilot-fusion-takes-local-models-and-the-offline-boundary-is-somewhere-else-47f4" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Copilot Fusion Takes Local Models, and the Offline Boundary Is Somewhere Else</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/servbay/copilot-fusions-local-model-preview-only-one-of-three-stages-runs-on-your-machine-1pkf" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Copilot Fusion&#x27;s Local Model Preview: Only One of Three Stages Runs on Your Machine</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/hacksgr/grok-bot-users-saw-their-limits-suddenly-run-out-l8h" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Grok Bot users saw their limits suddenly run out</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ai-ksk/minimax-h3-acceleration-in-comfyui-eleven-graphs-across-model-tier-lora-attention-and-cache-44pf" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">MiniMax H3 Acceleration in ComfyUI: Eleven Graphs Across Model Tier, LoRA, Attention and Cache</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/alex_aslam/the-shared-blackboard-pattern-is-back-and-its-solving-multi-agent-context-loss-4kfc" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">The shared blackboard pattern is back and it&#x27;s solving multi-agent context loss</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">What did Ilya Sutskever mean when he said &quot;The models, they just want to learn&quot;? [D]</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]</span>
+        </a>
+        <a class="ref-link" href="https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2/" target="_blank" rel="noopener">
+          <span class="ref-source">Hacker News</span>
+          <span class="ref-title">China&#x27;s First Frontier AI Export Controls: Mofcom Announcement No. 48</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/olivia-white/a-cto-checklist-for-evaluating-ai-features-before-production-release-3gg8" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">A CTO Checklist for Evaluating AI Features Before Production Release</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/reflections-beam-is-the-new-open-weight-model-everyone-is-talking-about/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Reflection&#x27;s Beam Is the New Open-Weight Model Everyone Is Talking About</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/our-ai-has-an-invisible-footprint-lets-see-how-to-measure-it/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Our AI Has an Invisible Footprint — Let&#x27;s see How to Measure It</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/let-decision-models-watch-your-agents/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Let Decision Models Watch Your Agents</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">[D] Self-Promotion Thread</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xljter/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Benchmarking: Qwen 27B, 35B, QFN180B; Nemotron Bolt 74B, Flint40B &amp; Clover 35B (Q4) on M5 Max 2026 on Kapitsa with KFlash [P]</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">[R] There is no free lunch in RLVR: under strategy specialization, every pass@1 gain provably costs some prompt, and the pass@k crossover has a tight bound [R]</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/aws-s3-file-transfer/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">Game Off 2026: The theme is SHIFT</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">The Enterprise Context Layer: A Practitioner&#x27;s Guide to 6 Advanced Architectural Patterns</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Monday, November 02, 2026 · 23 articles crawled from 8 sources
+  </footer>
+
+</body>
+</html>

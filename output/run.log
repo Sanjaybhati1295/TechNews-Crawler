@@ -6102,3 +6102,38 @@
 2026-11-01 13:55:01,827  INFO     ────────────────────────────────────────────────────────────
 2026-11-01 13:55:01,827  INFO     Done!  Open: output/index.html
 2026-11-01 13:55:01,827  INFO     Headline: File Mover Express: AWS Releases Open-Source Tool for S3 File Transfers
+2026-11-02 16:40:58,735  INFO     ============================================================
+2026-11-02 16:40:58,736  INFO     TECHPULSE Digest — 2026-11-02 16:40 UTC
+2026-11-02 16:40:58,736  INFO     ============================================================
+2026-11-02 16:40:58,736  INFO     Step 1/3 — Crawling feeds…
+2026-11-02 16:40:59,053  INFO       Hacker News                    → 1 significant articles
+2026-11-02 16:40:59,233  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-02 16:40:59,336  INFO       Ars Technica                   → 0 significant articles
+2026-11-02 16:40:59,830  INFO       The Register AI                → 0 significant articles
+2026-11-02 16:40:59,957  INFO       MIT Tech Review                → 0 significant articles
+2026-11-02 16:41:00,097  INFO       Dev.to AI                      → 6 significant articles
+2026-11-02 16:41:00,228  INFO       Dev.to Programming             → 1 significant articles
+2026-11-02 16:41:00,308  INFO       GitHub Blog                    → 1 significant articles
+2026-11-02 16:41:00,865  INFO       Google Research                → 0 significant articles
+2026-11-02 16:41:01,404  INFO       Reddit r/MachineLearning       → 6 significant articles
+2026-11-02 16:41:01,455  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-02 16:41:02,064  INFO       InfoQ                          → 1 significant articles
+2026-11-02 16:41:02,178  INFO       Towards Data Science           → 6 significant articles
+2026-11-02 16:41:02,339  INFO       Wired AI                       → 0 significant articles
+2026-11-02 16:41:02,397  INFO       TechCrunch AI                  → 1 significant articles
+2026-11-02 16:41:02,397  INFO     Fetching images for top articles…
+2026-11-02 16:41:02,470  INFO       🖼  Standard bf16 Rounding Discards 99% of Your RL Policy Update
+2026-11-02 16:41:02,522  INFO       🖼  Copilot Fusion Takes Local Models, and the Offline Boundary 
+2026-11-02 16:41:02,556  INFO       🖼  Copilot Fusion's Local Model Preview: Only One of Three Stag
+2026-11-02 16:41:02,608  INFO       🖼  Omen AI adds liquid know-how in $16 million Aquatic Labs acq
+2026-11-02 16:41:02,693  INFO       🖼  Grok Bot users saw their limits suddenly run out
+2026-11-02 16:41:02,740  INFO       🖼  MiniMax H3 Acceleration in ComfyUI: Eleven Graphs Across Mod
+2026-11-02 16:41:02,740  INFO     Total selected: 23 articles from 15 feeds
+2026-11-02 16:41:02,740  INFO     Selected 23 significant articles
+2026-11-02 16:41:02,740  INFO     Step 2/3 — Generating digest…
+2026-11-02 16:41:02,980  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-02 16:41:02,981  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-02 16:41:02,981  INFO     Step 3/3 — Rendering HTML…
+2026-11-02 16:41:02,982  INFO     ────────────────────────────────────────────────────────────
+2026-11-02 16:41:02,982  INFO     Done!  Open: output/index.html
+2026-11-02 16:41:02,982  INFO     Headline: Standard bf16 Rounding Discards 99% of Your RL Policy Updates
