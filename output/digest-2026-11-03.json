@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "AI Coding Agents Now Ship Software. Plugin4Shell Shows Nobody Checks the Package",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "AI Coding Agents Now Ship Software. Plugin4Shell Shows Nobody Checks the Package (Dev.to Programming). The guardrail is the allowlist, not the prompt (Dev.to AI). The Context Window Tax: Why Autonomous Agents Choke on Raw Tool Responses (And How to Fix It) (Dev.to AI). AI Agent Architecture Explained: 7 Essential Layers (Dev.to AI). Three Techniques to Understand Your Codebase When Coding Agents Write the Code (Towards Data Science)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Your Agent Works in the Demo. Now Make It Survive Monday. (Towards Data Science). Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app (Hacker News). [D] Self-Promotion Thread (Reddit r/MachineLearning)."
+      }
+    ],
+    "key_takeaway": "TL;DR\n\n\n\nOn September 17, Air Security disclosed Plugin4Shell, a zero-click, high-severity remote code execution flaw affecting all four major AI coding agents: Anthropic's Claude Code, OpenAI's Codex, GitHub Copilot, and Google's Gemini CLI.\nThe mechanism is a plugin SHA-pinning bypass: agents check out the pinned commit of a reviewed plugin but never verify the code that lands actually matches it. An attacker who controls the plugin's repository can swap it, and the pin still looks honored.\nBecause background auto-update is the default in Claude Code and Codex, no user click is required. The"
+  },
+  "articles": [
+    {
+      "id": "a33dd47bc341",
+      "title": "AI Coding Agents Now Ship Software. Plugin4Shell Shows Nobody Checks the Package",
+      "url": "https://dev.to/neticslabs/ai-coding-agents-now-ship-software-plugin4shell-shows-nobody-checks-the-package-2o46",
+      "summary": "TL;DR\n\n\n\nOn September 17, Air Security disclosed Plugin4Shell, a zero-click, high-severity remote code execution flaw affecting all four major AI coding agents: Anthropic's Claude Code, OpenAI's Codex, GitHub Copilot, and Google's Gemini CLI.\nThe mechanism is a plugin SHA-pinning bypass: agents check out the pinned commit of a reviewed plugin but never verify the code that lands actually matches it. An attacker who controls the plugin's repository can swap it, and the pin still looks honored.\nBecause background auto-update is the default in Claude Code and Codex, no user click is required. The",
+      "source": "Dev.to Programming",
+      "published": "2026-11-03T14:00:22+00:00",
+      "score": 4.66,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fblog.neticslabs.com%2Fcontent%2Fimages%2F2026%2F09%2Fthumb-plugin4shell-zero-click-coding-agent-supply-chain-2026-09-26-fix.webp"
+    },
+    {
+      "id": "58f5b2590361",
+      "title": "The guardrail is the allowlist, not the prompt",
+      "url": "https://dev.to/o96a/the-guardrail-is-the-allowlist-not-the-prompt-i7n",
+      "summary": "The first guardrail I ever shipped was a sentence. Something like: \"Do not run destructive commands. Do not delete files outside the workspace. Do not touch production credentials.\" I put it in the system prompt, felt responsible, and went to bed.\n\nThree weeks later I watched an agent rename a directory I cared about. Not malicious. It was cleaning up what it decided were stale artifacts, and \"rename\" wasn't in the list of verbs my policy sentence had thought about. The check passed. Of course it passed — nothing in the pipeline ever said no. The model read the rule, interpreted it generously,",
+      "source": "Dev.to AI",
+      "published": "2026-11-03T14:37:39+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjin2ru8qdea52dyvmhrb.png"
+    },
+    {
+      "id": "b57f4c7d40c7",
+      "title": "The Context Window Tax: Why Autonomous Agents Choke on Raw Tool Responses (And How to Fix It)",
+      "url": "https://dev.to/dev_kestrel/the-context-window-tax-why-autonomous-agents-choke-on-raw-tool-responses-and-how-to-fix-it-5aeh",
+      "summary": "When developers prototype their first autonomous AI agent, they usually focus on tool definitions: creating clean JSON schemas, wiring up prompt instructions, and watching the model successfully call a function.\n\nEverything looks great in single-turn evals.\n\nThen the agent is deployed into a real multi-turn workflow—monitoring support queues, processing webhooks, or syncing transactional state. Within hours, two alarming things happen:\n\n\nYour token usage graphs spike parabolically, blowing past your monthly inference budget.\nThe agent starts hallucinating, forgetting earlier instructions, or h",
+      "source": "Dev.to AI",
+      "published": "2026-11-03T14:43:18+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhhc0hkiyjc94fhu991c2.png"
+    },
+    {
+      "id": "4119f0417bbf",
+      "title": "AI Agent Architecture Explained: 7 Essential Layers",
+      "url": "https://dev.to/bcncodeschool/ai-agent-architecture-explained-7-essential-layers-2dpo",
+      "summary": "See what sits around the model, where control should live and how a request becomes a traceable, approved action.\n\nPublished 13 October 2026 · Barcelona Code School\n\nAI agent architecture is the system around a model that turns a goal into controlled, observable work.\n\nA practical design has seven layers: entry and identity, orchestration and policy, model reasoning, tools, state and memory, approval and execution, and observability and evaluation. The model may choose a next step, but code and downstream systems must enforce permissions, limits, approvals and safe stopping.\n\n\n  \n  \n  Key take",
+      "source": "Dev.to AI",
+      "published": "2026-11-03T14:40:31+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Ffyfya84sk39h8etyl3uv.png"
+    },
+    {
+      "id": "b3a319e310b8",
+      "title": "Three Techniques to Understand Your Codebase When Coding Agents Write the Code",
+      "url": "https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/",
+      "summary": "Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship\nThe post Three Techniques to Understand Your Codebase When Coding Agents Write the Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T11:00:00+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "cea22afb1cd5",
+      "title": "Turning Raw JSON into TypeScript Types is Harder Than You Think",
+      "url": "https://dev.to/elias_miller/turning-raw-json-into-typescript-types-is-harder-than-you-think-50h7",
+      "summary": "In modern frontend tooling, a JSON to TypeScript converter is often dismissed as a weekend hobby project. The consensus intuition seems deceptively trivial: traverse a JavaScript object using Depth-First Search (DFS), emit an opening curly brace for nested objects, map primitive values to string, number, or boolean, and sprinkle a few regular expressions to format the output.\n\nYet, the moment you subject such naive scripts to real-world production payloads—deeply nested microservice responses, event streams with heterogeneous message variants, ambiguous null properties, and keys packed with hy",
+      "source": "Dev.to Programming",
+      "published": "2026-11-03T14:31:40+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fljsehkwvv2ek9nuno5my.png"
+    },
+    {
+      "id": "a33d52ff5d83",
+      "title": "AI Cost Optimization Checklist 2026: 15 Steps to Lower Your API Bill",
+      "url": "https://dev.to/scorpion4ik26lang/ai-cost-optimization-checklist-2026-15-steps-to-lower-your-api-bill-3og0",
+      "summary": "I am the founder of PromptUnit. This post first appeared on the PromptUnit blog, where it is kept up to date.\n\nA 40-70% lower AI bill is our estimate for a workload with many simple requests. It is not a guarantee, and it does not come from a single clever optimization. It comes from working through a list. Model selection, caching, prompt compression, routing, batching, context pruning. None of these techniques is complicated individually. The savings compound when you apply them in combination, and most teams have only done two or three of them.\n\nThis is a 15-point checklist written for engi",
+      "source": "Dev.to Programming",
+      "published": "2026-11-03T14:00:38+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "f3a0507a557d",
+      "title": "A Good Shooter or Just a Good Shot Selector? Using Python to Find Out",
+      "url": "https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/",
+      "summary": "In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot selection from shot making.\nThe post A Good Shooter or Just a Good Shot Selector? Using Python to Find Out appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T14:00:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "da0220cb767e",
+      "title": "Your Agent Works in the Demo. Now Make It Survive Monday.",
+      "url": "https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/",
+      "summary": "The demo is the easy part\nThe post Your Agent Works in the Demo. Now Make It Survive Monday. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T12:30:00+00:00",
+      "score": 3.38,
+      "image": null
+    },
+    {
+      "id": "4e713c5c3649",
+      "title": "CPU parallelism lessons that carry over to GPU kernels: dependency chains, FP non-associativity, false sharing, memory-bound loops [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmowry/cpu_parallelism_lessons_that_carry_over_to_gpu/",
+      "summary": "Session 2 of my free GPU kernel engineering series (my own channel, earlier post: [LINK TO FIRST POST]) covers CPU parallelism, with no GPU code. The idea is that most GPU performance ideas are CPU ideas turned up, so here are the parts I found most useful on their own.  A single accumulator is a dependency chain. In `sum += a[i] * b[i]` every add waits on the previous one, so the loop uses a fraction of the core. Independent ops needed in flight is about latency x throughput, and four accumulators give four independent chains with the same arithmetic. Measure this with an in-cache array and -",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-03T09:53:58+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "23ae89e15289",
+      "title": "Java News Roundup: TornadoVM 8.0, JNoSQL, Endive, JReleaser, JBang, LangChain4j, Quarkus Almanac",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-oct26-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for October 26th, 2026, features news highlighting: the GA release of TornadoVM 8.0; point releases of JNoSQL, Endive, JBang, JReleaser and LangChain4j; a maintenance release of JobRunr; beta releases of Hibernate ORM and Hibernate Reactive; and introducing the Quarkus Almanac. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-11-02T17:00:00+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "19ce29ebfa96",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "summary": "The one-year-old startup is now valued at $300 million.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T23:13:53+00:00",
+      "score": 3.04,
+      "image": null
+    },
+    {
+      "id": "a51179b8ad83",
+      "title": "Couldn't reproduce a published paper's numbers with its own code and settings. How do I present this? [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+      "summary": "I'm writing a machine learning paper. One of my baselines is a published method. I reran it with the authors' released code and the exact hyperparameters listed in their paper. On most benchmarks my numbers match theirs within noise, but on two benchmarks my reproduction is clearly lower, by several points, over three seeds. I've repeated the reproduction four different times, months apart, with the same result. I plan to report both: their published numbers and my reproduction with the exact configuration, clearly labeled. My worry is that reviewers tend to trust the published number more tha",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T19:00:24+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "a43a012fc6e7",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-02T15:00:00+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "92e88048ec86",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-02T17:05:25+00:00",
+      "score": 2.5,
+      "image": null
+    },
+    {
+      "id": "2a693a300f6f",
+      "title": "What did Ilya Sutskever mean when he said \"The models, they just want to learn\"? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/",
+      "summary": "It was just before OpenAI started that I met Ilya, who you interviewed. One of the first things he said to me was — “Look. The models, they just want to learn. You have to understand this. The models, they just want to learn.” And it was a bit like a Zen Koan. I listened to this and I became enlightened. And over the years, I would be the one who would formalize a lot of these things and kind of put them together, but what that told me was that the phenomenon that I'd seen wasn't just some random thing. It was broad. It was more general. The models just want to learn. You get the obstacles out",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T14:32:14+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "28ae4e9f2cbb",
+      "title": "What actually broke when I tried to fine-tune on web-scraped data and what fixed it [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/",
+      "summary": "Fine tuning on self collected web data felt straightforward until it wasn’t. Here’s what actually caused problems: Boilerplate contamination was the silent killer. Navigation menus, cookie banners, and footer text were leaking into training examples. The model started generating weirdly structured outputs that looked like half-rendered HTML. Solved it with aggressive DOM-targeting rather than raw text extraction and switching to a rotating residential proxy layer (per-request IP rotation means target sites serve you the same rendered DOM a real browser session would get, rather than a bot-filt",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T16:25:25+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "a1503e81077e",
+      "title": "Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About",
+      "url": "https://towardsdatascience.com/reflections-beam-is-the-new-open-weight-model-everyone-is-talking-about/",
+      "summary": "A 501B model that only activates 23B parameters per token sounds like a bargain, until you look at what it takes to host.\nThe post Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T14:00:00+00:00",
+      "score": 2.13,
+      "image": null
+    },
+    {
+      "id": "a4b956c9b61f",
+      "title": "Our AI Has an Invisible Footprint — Let's see How to Measure It",
+      "url": "https://towardsdatascience.com/our-ai-has-an-invisible-footprint-lets-see-how-to-measure-it/",
+      "summary": "The hardest part is no longer getting the numbers. It's deciding what to do with them.\nThe post Our AI Has an Invisible Footprint — Let's see How to Measure It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T12:30:00+00:00",
+      "score": 2.04,
+      "image": null
+    },
+    {
+      "id": "dfbb44f26053",
+      "title": "Let Decision Models Watch Your Agents",
+      "url": "https://towardsdatascience.com/let-decision-models-watch-your-agents/",
+      "summary": "A hands-on guide to detecting behavioral anomalies from an agent’s evolving execution history\nThe post Let Decision Models Watch Your Agents appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-02T11:00:00+00:00",
+      "score": 1.96,
+      "image": null
+    },
+    {
+      "id": "b91a53cdbef2",
+      "title": "[D] Self-Promotion Thread",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to bans. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. -- Meta: This is an experiment. If the community doesnt like this, we will cancel it. This is to encourage those in the community to prom",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T03:15:07+00:00",
+      "score": 1.93,
+      "image": null
+    },
+    {
+      "id": "501d7205b81a",
+      "title": "[R] There is no free lunch in RLVR: under strategy specialization, every pass@1 gain provably costs some prompt, and the pass@k crossover has a tight bound [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/",
+      "summary": "Paper: https://arxiv.org/abs/2610.39295 Code + verification package (every number in the paper is checked by a script): https://github.com/yliusci/no-free-lunch-rlvr Browser diagnostic: https://huggingface.co/spaces/yliusci/passk-price I kept running into the same pattern in RLVR papers: the RL model wins at pass@1 and the base model catches up or wins at large k (Yue et al. 2025 and many follow-ups). I wanted to know whether more training fixes this or whether it is structural. This is a theory paper, no new training runs. Setup: model RLVR as an exponential tilt of the base policy over solut",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-02T04:30:11+00:00",
+      "score": 1.7,
+      "image": null
+    }
+  ]
+}
