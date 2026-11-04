@@ -1,0 +1,159 @@
+{
+  "digest": {
+    "headline": "Amazon ECS Gateway Arrives with Generated Hostnames and No Custom Domain Support",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Amazon ECS Gateway Arrives with Generated Hostnames and No Custom Domain Support (InfoQ). Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P] (Reddit r/MachineLearning). Securing the agentic enterprise with data lineage (MIT Tech Review). AI governance that fits in a pull request (Dev.to Programming). 10 Website Mistakes Small Businesses Make (And Simple Ways to Fix Them) (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Your Agent Works in the Demo. Now Make It Survive Monday. (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "AWS has released Amazon ECS Gateway, an account-level ingress resource letting platform teams define networking once and application teams opt services in with a connector. Each service gets a generated hostname and routing is host-based, and neither the announcement nor the documentation covers custom domains. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "b4a21fa37a5b",
+      "title": "Amazon ECS Gateway Arrives with Generated Hostnames and No Custom Domain Support",
+      "url": "https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released Amazon ECS Gateway, an account-level ingress resource letting platform teams define networking once and application teams opt services in with a connector. Each service gets a generated hostname and routing is host-based, and neither the announcement nor the documentation covers custom domains. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-04T09:49:00+00:00",
+      "score": 4.21,
+      "image": "https://res.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/en/card_header_image/generatedCard-1792587590374.jpg"
+    },
+    {
+      "id": "510230e8c8bd",
+      "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+      "summary": "Hey everyone— we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0, an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it performed in our evaluations:  FrontierScience Research: 38.3% pass rate vs. 33.3% for GPT-6 Astra at max thinking—a 5 percentage point lead. Estimated output-side cost on FSR: $0.25 per problem vs. $0.88 for Astra at max thinking—about 72% lowerunder our evaluation setup. GPQA Diamond: 92.9% accuracy, compared with Kimi K3’s 93.5%.  On separate internal task sets, Hydrogen also sco",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-04T09:00:29+00:00",
+      "score": 4.07,
+      "image": null
+    },
+    {
+      "id": "f5f168ec4f0c",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-04T13:00:00+00:00",
+      "score": 3.99,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_CyberhavenV1COV1200SocialCards.png?resize=1200,600"
+    },
+    {
+      "id": "639d32467ba1",
+      "title": "AI governance that fits in a pull request",
+      "url": "https://dev.to/irmcon/ai-governance-that-fits-in-a-pull-request-1k1b",
+      "summary": "Most AI governance lands on engineering teams as a document. Someone writes an acceptable use policy, it is circulated, and nothing about how anyone works actually changes. Six months later a customer asks which of their data has been sent to a model provider and the policy turns out not to answer that.\n\nGovernance only holds when it is a property of the workflow rather than a file in the wiki. Below is what that looks like in practice for a team that ships software, with the controls expressed as things that happen in a repository rather than things people are supposed to remember.\n\nNone of t",
+      "source": "Dev.to Programming",
+      "published": "2026-11-04T14:38:13+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo0jhhp9dycjk4logua0g.png"
+    },
+    {
+      "id": "c3ee5e2422a8",
+      "title": "10 Website Mistakes Small Businesses Make (And Simple Ways to Fix Them)",
+      "url": "https://dev.to/shihaj_dm/10-website-mistakes-small-businesses-make-and-simple-ways-to-fix-them-4f41",
+      "summary": "An AI digital marketer from Kerala on why many business websites look fine but bring no customers.\n\nMany small business owners proudly say, “We have a website.” But when I ask how many enquiries it brings every month, the answer is often silence.\n\nA website is not a digital board that you put up once and forget. It is your shop on the internet, open all day. If it is confusing, slow, or empty, visitors leave without saying a word. Here are the mistakes I see most often, and how to fix them.\n\n\nNo clear message on the first screen\n\n\nWhen someone opens your website, they decide in a few seconds w",
+      "source": "Dev.to Programming",
+      "published": "2026-11-04T14:27:03+00:00",
+      "score": 3.47,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fovwfnjia21fxckgbavif.png"
+    },
+    {
+      "id": "f6803fe808fd",
+      "title": "Let Decision Models Guide Your Voice Assistant",
+      "url": "https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/",
+      "summary": "GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next.\nThe post Let Decision Models Guide Your Voice Assistant appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-04T12:30:00+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "998b059976de",
+      "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
+      "url": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Google, it combines the flexibility of native model authoring with cross-platform portability. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-03T19:00:00+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "2023d4b1aafd",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-03T18:42:16+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "a9339aac474e",
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world/",
+      "summary": "Louis Erbkamm built the first prototype in his free time. Now GitHub Copilot helps him maintain it alone.\nThe post Arnis turns any place on Earth into a Minecraft world appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-03T16:00:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "b3a319e310b8",
+      "title": "Three Techniques to Understand Your Codebase When Coding Agents Write the Code",
+      "url": "https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/",
+      "summary": "Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship\nThe post Three Techniques to Understand Your Codebase When Coding Agents Write the Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T11:00:00+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "a1c49cc21565",
+      "title": "AI Will Do Your Job. That Should Be Good News.",
+      "url": "https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/",
+      "summary": "The case for paying people to play when machines do the work\nThe post AI Will Do Your Job. That Should Be Good News. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T15:30:00+00:00",
+      "score": 2.2,
+      "image": null
+    },
+    {
+      "id": "f3a0507a557d",
+      "title": "A Good Shooter or Just a Good Shot Selector? Using Python to Find Out",
+      "url": "https://towardsdatascience.com/a-good-shooter-or-just-a-good-shot-selector-using-python-to-find-out/",
+      "summary": "In basketball, field-goal percentage tells us how often a player makes a shot. But what about the shots’ difficulty? Let's use Python and machine learning to separate shot selection from shot making.\nThe post A Good Shooter or Just a Good Shot Selector? Using Python to Find Out appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T14:00:00+00:00",
+      "score": 2.11,
+      "image": null
+    },
+    {
+      "id": "da0220cb767e",
+      "title": "Your Agent Works in the Demo. Now Make It Survive Monday.",
+      "url": "https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday/",
+      "summary": "The demo is the easy part\nThe post Your Agent Works in the Demo. Now Make It Survive Monday. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-03T12:30:00+00:00",
+      "score": 2.03,
+      "image": null
+    },
+    {
+      "id": "4e713c5c3649",
+      "title": "CPU parallelism lessons that carry over to GPU kernels: dependency chains, FP non-associativity, false sharing, memory-bound loops [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xmowry/cpu_parallelism_lessons_that_carry_over_to_gpu/",
+      "summary": "Session 2 of my free GPU kernel engineering series (my own channel, earlier post: [LINK TO FIRST POST]) covers CPU parallelism, with no GPU code. The idea is that most GPU performance ideas are CPU ideas turned up, so here are the parts I found most useful on their own.  A single accumulator is a dependency chain. In `sum += a[i] * b[i]` every add waits on the previous one, so the loop uses a fraction of the core. Independent ops needed in flight is about latency x throughput, and four accumulators give four independent chains with the same arithmetic. Measure this with an in-cache array and -",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-03T09:53:58+00:00",
+      "score": 1.99,
+      "image": null
+    }
+  ]
+}
