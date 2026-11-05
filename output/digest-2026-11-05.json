@@ -1,0 +1,319 @@
+{
+  "digest": {
+    "headline": "Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026)",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026) (Dev.to AI). DialFork: a benchmark for procedural hallucination in conversational agents [R] (Reddit r/MachineLearning). The Download: Texas’s fragile AI boom and energy policy shifts (MIT Tech Review). Why a Search API Is Often the Wrong Abstraction for AI Agents (Dev.to AI). Building a Culture for a Kubernetes-Based Platform in a Bank (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system (TechCrunch AI). Amazon Is Back in the Takeout Business — This Time, Uber Is Doing the Driving (Dev.to AI). GitHub Portfolio Is Ready, But Where Are the Job Opportunities? (Dev.to Programming). ICLR 2027 Reviews Discussion [D] (Reddit r/MachineLearning). A Computational Analysis of Women’s Suffrage in Historical Newspapers (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Shipped and tested November 2026. Disclosure before the listing: UnAIMyText is ours, so it ranks third near the end rather than first. Copy the Kotlin freely.\n\nOur status page was starting to sound like a product launch. Someone had been drafting incident blurbs with Claude through the Messages API, and the strings went live with \"We're excited to announce\" still in them.\n\nOn a phone, during an outage, that reads as noise. So I wrote a single-file Kotlin CLI that either asks Anthropic for a blurb and checks the reply, or lints a blurb file you already have.\n\n\n  \n  \n  What it checks\n\n\nThe check"
+  },
+  "articles": [
+    {
+      "id": "ebb74fb9fb77",
+      "title": "Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026)",
+      "url": "https://dev.to/unaimytext_app/humanize-anthropic-api-output-in-kotlin-a-status-page-blurb-linter-5-free-tools-2026-35f1",
+      "summary": "Shipped and tested November 2026. Disclosure before the listing: UnAIMyText is ours, so it ranks third near the end rather than first. Copy the Kotlin freely.\n\nOur status page was starting to sound like a product launch. Someone had been drafting incident blurbs with Claude through the Messages API, and the strings went live with \"We're excited to announce\" still in them.\n\nOn a phone, during an outage, that reads as noise. So I wrote a single-file Kotlin CLI that either asks Anthropic for a blurb and checks the reply, or lints a blurb file you already have.\n\n\n  \n  \n  What it checks\n\n\nThe check",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:50:52+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4x3ybul05mp041e1u77u.png"
+    },
+    {
+      "id": "0264040d1053",
+      "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+      "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: every turn is fluent and factual, the tool calls are correct, yet the agent stops following the procedure it was given. For example, asked for the weather, it fetches the forecast (correct tool call) but never tells you, and starts asking you to rate its service instead. Most steps of a conversational procedure aren't tool calls but things the agent has to say: asking, confirmin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-05T10:44:15+00:00",
+      "score": 4.06,
+      "image": null
+    },
+    {
+      "id": "2009a33d518f",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-05T13:10:00+00:00",
+      "score": 4.0,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600"
+    },
+    {
+      "id": "6ed3053ab968",
+      "title": "Why a Search API Is Often the Wrong Abstraction for AI Agents",
+      "url": "https://dev.to/balapriya/why-a-search-api-is-often-the-wrong-abstraction-for-ai-agents-4hlo",
+      "summary": "If you've built an AI agent that uses web search, you've probably run into this. You ask it a simple question like so: \"What do these three project management tools charge for their team plans today?\"\n\nThe search tool returns ten links for each. Great. But now what?\n\nThe agent still has to pick the right pages, fetch them, navigate cookie banners, find pricing tables buried under marketing copy, and extract the numbers into something usable. And when one of those steps fails, it often falls back on a search snippet and answers with unwarranted confidence.\n\nI ran into this problem while buildin",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:51:12+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fngkjvifv95gghi5mke2v.png"
+    },
+    {
+      "id": "d51f62aa0d3c",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/",
+      "summary": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T14:00:00+00:00",
+      "score": 3.84,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-1178603809.jpg?w=1024"
+    },
+    {
+      "id": "150033451f92",
+      "title": "Amazon Is Back in the Takeout Business — This Time, Uber Is Doing the Driving",
+      "url": "https://dev.to/kami_butt_69b922ade8de012/amazon-is-back-in-the-takeout-business-this-time-uber-is-doing-the-driving-2b92",
+      "summary": "Amazon Is Back in the Takeout Business — This Time, Uber Is Doing the Driving\n\n\nAmazon quit restaurant delivery twice. Now it's back — by renting someone else's drivers and keeping the customer for itself.\n\nPrime members can now order Uber Eats takeout inside Amazon, with $0 delivery on orders of $25 or more, no Uber account required. The storefront is Amazon's. The couriers are Uber's. And the deal went live the morning it was announced — while DoorDash's $17 billion Instacart buy still has a year of antitrust review ahead of it.\n\n\n  \n  \n  The storefront stays Amazon's. The driving is someone",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:57:09+00:00",
+      "score": 3.8,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnxmqlq8q312z87tbmzoc.webp"
+    },
+    {
+      "id": "a6119cf98860",
+      "title": "Building a Culture for a Kubernetes-Based Platform in a Bank",
+      "url": "https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at KubeCon & CloudNativeCon Europe. Deploying Kubernetes was the easy part; the hard part was culture: community of practice, shared knowledge, rituals, ownership. Teams try things, keep what works, and improve bottom-up. By Ben Linders",
+      "source": "InfoQ",
+      "published": "2026-11-05T11:11:00+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "1e8cf78c741f",
+      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-05T09:29:12+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "7ac1129596bc",
+      "title": "The \"Read-Only\" Fast Path Is Your Weakest Gate: A Newline Let Hidden Commands Through an Agent's Bash Check",
+      "url": "https://dev.to/ginigenai_hp_0ae441ead91f/the-read-only-fast-path-is-your-weakest-gate-a-newline-let-hidden-commands-through-an-agents-54n7",
+      "summary": "TL;DR\n\n\n\n\nWhat I tested: the Bash permission check in AgentScope 2.0.11 (the latest PyPI release, published 2026-10-27), the open-source multi-agent framework. Its check_permissions function auto-allows any command it classifies as read-only, in every permission mode including the default one, and skips the dangerous-command checks that come after it.\n\nWhat I found: the classifier only treats a string as compound when it contains &amp;&amp;, ||, ; or |. A plain &amp; or a newline also ends a command in bash, but is not on that list. In my run, 40 of 70 two-command strings were auto-allowed, an",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:54:58+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "b1eb82a40e8d",
+      "title": "Command 250+ AI Workers via WhatsApp with Claw Agents AI",
+      "url": "https://dev.to/aitoolsautomationhub/command-250-ai-workers-via-whatsapp-with-claw-agents-ai-4i8a",
+      "summary": "Imagine controlling an entire team of digital workers straight from your phone on Telegram, WhatsApp, or Discord. Claw Agents AI gives you ready-to-run AI agents for marketing, sales pages, social media, and agency workflows. Skip coding, complex setups, and monthly API token limits while getting full commercial rights to use for client services.\n\n​Click the link to lock in lifetime access to Claw Agents AI before the launch price expires!",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:54:46+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "285c203cfa34",
+      "title": "TokenCap 3.0: One Build, Every Tool Reads It",
+      "url": "https://dev.to/vansharora21/tokencap-30-one-build-every-tool-reads-it-53f1",
+      "summary": "The 3.0 release was named \"Platform\". The change is less about new analysis and more about where the output goes. One local build produces .tokencap/, and every surface reads from it: coding agents, MCP hosts, the Chrome companion, an SDK, and plugins.\n\n\n  \n  \n  The build\n\n\n\n\n\ntokencap make\n\n\n\n\n\n\nAmong other things, a full build writes:\n\n\n\n.tokencap/agent/START_HERE.md, the entry point an agent reads first\n\n.tokencap/brain/knowledge.json, the knowledge base\n\n.tokencap/graph/graph-data.json, the dependency graph\n\nallowed-context.json and context-manifest.json, which point an agent at task-relev",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:50:56+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "5a1d25e722d4",
+      "title": "How We Built NASA's Zero-Shot Detector for Gas Leaks from Space",
+      "url": "https://towardsdatascience.com/how-we-built-nasas-zero-shot-detector-for-gas-leaks-from-space/",
+      "summary": "We trained one model on methane. Without retraining, it also maps carbon monoxide, ammonia and nitrogen dioxide plumes, including the first automated CO detections from NASA’s EMIT.\nThe post How We Built NASA's Zero-Shot Detector for Gas Leaks from Space appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-05T15:00:00+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "1aca881d8088",
+      "title": "Kimi K3 in 8 GB of RAM: Why 28x More Memory Buys Only 1.7x Speed, and the Byte Math That Predicts It",
+      "url": "https://dev.to/ginigen_ai_010d9180cbbdb1/kimi-k3-in-8-gb-of-ram-why-28x-more-memory-buys-only-17x-speed-and-the-byte-math-that-predicts-it-4i20",
+      "summary": "TL;DR\n\n\nAn open-source C engine called kimi-k3-in-c runs the 2.78-trillion-parameter Kimi K3 on one CPU in 8.24 GB of RAM. It is slow, 26.5 seconds per token on the project's fastest-drive machine, and its own numbers say something useful for anyone shipping on-device models: going from 8 GB to 224 GB of RAM (28 times the memory) made it only 1.70 times faster. We did not run the engine. We took the project's reported byte counts and one reported disk bandwidth and did the arithmetic. It predicts three of the four rows in the project's headline table to within 2%, and it explains the fourth. T",
+      "source": "Dev.to AI",
+      "published": "2026-11-05T14:47:43+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "feb6b84734a9",
+      "title": "GitHub Portfolio Is Ready, But Where Are the Job Opportunities?",
+      "url": "https://dev.to/ajogi_paul_24dd367ee8be9e/github-portfolio-is-ready-but-where-are-the-job-opportunities-29a6",
+      "summary": "You've spent weeks building projects, fixing bugs, improving your code, and pushing updates to GitHub. Your repositories are organised, your README files look good, and you finally have something worth showing recruiters.\n\nBut there's one problem: Where are the job opportunities?\n\nFor many developers, building a portfolio is only half the journey. Finding companies willing to give them a chance is another challenge entirely.\n\n\n  \n  \n  A Good GitHub Portfolio Doesn't Automatically Bring Job Offers\n\n\nGitHub is great for showcasing your skills, but it's not primarily a job-search platform. You ca",
+      "source": "Dev.to Programming",
+      "published": "2026-11-05T14:49:21+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8ab13ce038da",
+      "title": "Organizational AI Adoption: Why Good Tools Still Fail",
+      "url": "https://dev.to/smartmindai/organizational-ai-adoption-why-good-tools-still-fail-5jn",
+      "summary": "Dev.to readers ship tools for a living, yet plenty of solid AI projects stall after launch. Organizational AI adoption rarely fails on code—it fails on trust, workflow, and unclear ownership. Understanding organizational AI adoption is as important as building the thing.\n\nWhere Adoption Actually Breaks\n\nOrganizational AI adoption stalls when teams get no training, metrics, or say in tooling choices. Devs can help by shipping transparent, explainable features. If the bigger picture interests you, Artificial God Optimization and Artificial Soul Optimization explore related ideas. For a practical",
+      "source": "Dev.to Programming",
+      "published": "2026-11-05T14:00:42+00:00",
+      "score": 3.44,
+      "image": null
+    },
+    {
+      "id": "7586135ac3be",
+      "title": "How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet",
+      "url": "https://towardsdatascience.com/how-geo-webmcp-and-bot-paywalls-are-building-the-ai-native-internet/",
+      "summary": "The internet of the future will look much different than the one today. Businesses are already transitioning.\nThe post How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-05T13:30:00+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "c4306700f4af",
+      "title": "Why a Tiny GPT Can Know Two Facts and Still Not Connect Them",
+      "url": "https://towardsdatascience.com/why-a-tiny-gpt-can-know-two-facts-and-still-not-connect-them/",
+      "summary": "A tiny GPT memorized every fact I gave it, then couldn’t answer a single question that needed two of them. I tested the one-line fix from a recent paper, and it only half worked.\nThe post Why a Tiny GPT Can Know Two Facts and Still Not Connect Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-05T12:00:00+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "71c3ed6d17c1",
+      "title": "ICLR 2027 Reviews Discussion [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/",
+      "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found paperScorer quite interesting for the same. Of course, these are only for amusement and should not be taken seriously. Good luck to all.  &#32; submitted by &#32;  /u/Beautiful_Baker_2233   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-05T02:17:59+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "90248c1ffce4",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T22:13:16+00:00",
+      "score": 3.17,
+      "image": null
+    },
+    {
+      "id": "70e60e39b208",
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T21:10:56+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "089b0efaf055",
+      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+      "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?&#160; On this episode of [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T18:44:57+00:00",
+      "score": 3.07,
+      "image": null
+    },
+    {
+      "id": "562030eb256f",
+      "title": "I submitted my AACL paper as a long paper, but it’s listed as a short paper. [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xo8vd3/i_submitted_my_aacl_paper_as_a_long_paper_but_its/",
+      "summary": "Hi. My AACL Main paper was just published on ACL Anthology, and I noticed that it appears as a Short Paper. My understanding that it was a long paper since that was what I selected during the ARR review, and my paper's main text runs through nine pages.  Has anyone run into this at an ACL venue? Is it something I should be worried about? This is my first paper so thank you very much for the help.  &#32; submitted by &#32;  /u/ravenaro   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-05T03:52:26+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "b4a21fa37a5b",
+      "title": "Amazon ECS Gateway Arrives with Generated Hostnames and No Custom Domain Support",
+      "url": "https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released Amazon ECS Gateway, an account-level ingress resource letting platform teams define networking once and application teams opt services in with a connector. Each service gets a generated hostname and routing is host-based, and neither the announcement nor the documentation covers custom domains. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-04T09:49:00+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "604513e69c2a",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up?&#160; On this episode of [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T19:30:04+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "add91e24e321",
+      "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+      "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-04T19:29:52+00:00",
+      "score": 2.81,
+      "image": null
+    },
+    {
+      "id": "510230e8c8bd",
+      "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+      "summary": "Hey everyone— we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0, an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it performed in our evaluations:  FrontierScience Research: 38.3% pass rate vs. 33.3% for GPT-6 Astra at max thinking—a 5 percentage point lead. Estimated output-side cost on FSR: $0.25 per problem vs. $0.88 for Astra at max thinking—about 72% lowerunder our evaluation setup. GPQA Diamond: 92.9% accuracy, compared with Kimi K3’s 93.5%.  On separate internal task sets, Hydrogen also sco",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-04T09:00:29+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "f5f168ec4f0c",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-04T13:00:00+00:00",
+      "score": 2.65,
+      "image": null
+    },
+    {
+      "id": "528498c72f95",
+      "title": "Why can't conferences just reasonably reduce the cap on number of submissions? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+      "summary": "As per the the 2027 CVPR guidelines: &quot;Maximum number of submissions (continuing from CVPR 2026): Each author may submit at most 25 papers. If an author enrolls more than 25 papers, the Program Chairs (PCs) will desk-reject the submissions that exceed this limit (see the Desk Rejection Policy in Section 2).&quot; AI Slop Researcher: &quot;Cool let me throw 25 darts (slop papers), surely one will get a batch of careless/inexperienced reviewers that will borderline accept one of these papers&quot; They collect their CVPR stamp, and go on about their career. I just do not understand if a 25 c",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-04T16:17:39+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "0e0b23b10793",
+      "title": "A Computational Analysis of Women’s Suffrage in Historical Newspapers",
+      "url": "https://towardsdatascience.com/a-computational-analysis-of-womens-suffrage-in-historical-newspapers/",
+      "summary": "Using 600,546 digitized newspaper pages to measure how suffrage coverage changed from 1890 to 1920\nThe post A Computational Analysis of Women’s Suffrage in Historical Newspapers appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-04T15:30:00+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "f6803fe808fd",
+      "title": "Let Decision Models Guide Your Voice Assistant",
+      "url": "https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/",
+      "summary": "GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next.\nThe post Let Decision Models Guide Your Voice Assistant appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-04T12:30:00+00:00",
+      "score": 2.03,
+      "image": null
+    }
+  ]
+}

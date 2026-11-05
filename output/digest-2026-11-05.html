@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Thursday, November 05, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Thursday, November 05, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 30 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/unaimytext_app/humanize-anthropic-api-output-in-kotlin-a-status-page-blurb-linter-5-free-tools-2026-35f1" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4x3ybul05mp041e1u77u.png" alt="Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026)" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + …</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/" target="_blank" rel="noopener">
+              <img src="https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600" alt="The Download: Texas’s fragile AI boom and energy policy shifts" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">MIT Tech Review</span>
+                <span class="img-title">The Download: Texas’s fragile AI boom and energy policy shifts</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/balapriya/why-a-search-api-is-often-the-wrong-abstraction-for-ai-agents-4hlo" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fngkjvifv95gghi5mke2v.png" alt="Why a Search API Is Often the Wrong Abstraction for AI Agents" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Why a Search API Is Often the Wrong Abstraction for AI Agents</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>Reddit r/MachineLearning</span> · <span>MIT Tech Review</span> · <span>TechCrunch AI</span> · <span>InfoQ</span> · <span>Hacker News</span> · <span>Towards Data Science</span> · <span>Dev.to Programming</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026) (Dev.to AI). DialFork: a benchmark for procedural hallucination in conversational agents [R] (Reddit r/MachineLearning). The Download: Texas’s fragile AI boom and energy policy shifts (MIT Tech Review). Why a Search API Is Often the Wrong Abstraction for AI Agents (Dev.to AI). Building a Culture for a Kubernetes-Based Platform in a Bank (InfoQ).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Box taps Nvidia’s Nemotron for new agent-first content retrieval system (TechCrunch AI). Amazon Is Back in the Takeout Business — This Time, Uber Is Doing the Driving (Dev.to AI). GitHub Portfolio Is Ready, But Where Are the Job Opportunities? (Dev.to Programming). ICLR 2027 Reviews Discussion [D] (Reddit r/MachineLearning). A Computational Analysis of Women’s Suffrage in Historical Newspapers (Towards Data Science).</p></div>
+        </div>
+
+    <div class="takeaway">Shipped and tested November 2026. Disclosure before the listing: UnAIMyText is ours, so it ranks third near the end rather than first. Copy the Kotlin freely.
+
+Our status page was starting to sound like a product launch. Someone had been drafting incident blurbs with Claude through the Messages API, and the strings went live with &quot;We&#x27;re excited to announce&quot; still in them.
+
+On a phone, during an outage, that reads as noise. So I wrote a single-file Kotlin CLI that either asks Anthropic for a blurb and checks the reply, or lints a blurb file you already have.
+
+
+  
+  
+  What it checks
+
+
+The check</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (30 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/unaimytext_app/humanize-anthropic-api-output-in-kotlin-a-status-page-blurb-linter-5-free-tools-2026-35f1" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026)</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">DialFork: a benchmark for procedural hallucination in conversational agents [R]</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">The Download: Texas’s fragile AI boom and energy policy shifts</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/balapriya/why-a-search-api-is-often-the-wrong-abstraction-for-ai-agents-4hlo" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Why a Search API Is Often the Wrong Abstraction for AI Agents</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Box taps Nvidia’s Nemotron for new agent-first content retrieval system</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/kami_butt_69b922ade8de012/amazon-is-back-in-the-takeout-business-this-time-uber-is-doing-the-driving-2b92" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Amazon Is Back in the Takeout Business — This Time, Uber Is Doing the Driving</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Building a Culture for a Kubernetes-Based Platform in a Bank</span>
+        </a>
+        <a class="ref-link" href="https://ernie.baidu.com/release/ernie-5-5-flash-base/" target="_blank" rel="noopener">
+          <span class="ref-source">Hacker News</span>
+          <span class="ref-title">Baidu released ERNIE 5.5 Flash Base</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ginigenai_hp_0ae441ead91f/the-read-only-fast-path-is-your-weakest-gate-a-newline-let-hidden-commands-through-an-agents-54n7" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">The &quot;Read-Only&quot; Fast Path Is Your Weakest Gate: A Newline Let Hidden Commands Through an Agent&#x27;s Bash Check</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/aitoolsautomationhub/command-250-ai-workers-via-whatsapp-with-claw-agents-ai-4i8a" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Command 250+ AI Workers via WhatsApp with Claw Agents AI</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/vansharora21/tokencap-30-one-build-every-tool-reads-it-53f1" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">TokenCap 3.0: One Build, Every Tool Reads It</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-we-built-nasas-zero-shot-detector-for-gas-leaks-from-space/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How We Built NASA&#x27;s Zero-Shot Detector for Gas Leaks from Space</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ginigen_ai_010d9180cbbdb1/kimi-k3-in-8-gb-of-ram-why-28x-more-memory-buys-only-17x-speed-and-the-byte-math-that-predicts-it-4i20" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Kimi K3 in 8 GB of RAM: Why 28x More Memory Buys Only 1.7x Speed, and the Byte Math That Predicts It</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ajogi_paul_24dd367ee8be9e/github-portfolio-is-ready-but-where-are-the-job-opportunities-29a6" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">GitHub Portfolio Is Ready, But Where Are the Job Opportunities?</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/smartmindai/organizational-ai-adoption-why-good-tools-still-fail-5jn" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Organizational AI Adoption: Why Good Tools Still Fail</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-geo-webmcp-and-bot-paywalls-are-building-the-ai-native-internet/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/why-a-tiny-gpt-can-know-two-facts-and-still-not-connect-them/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Why a Tiny GPT Can Know Two Facts and Still Not Connect Them</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">ICLR 2027 Reviews Discussion [D]</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Nothing CEO says company’s mysterious AI-first device is dropping next month</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Meta acquires AI coding startup Conductor</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Thursday, November 05, 2026 · 30 articles crawled from 8 sources
+  </footer>
+
+</body>
+</html>
