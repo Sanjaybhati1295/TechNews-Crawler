@@ -1,0 +1,323 @@
+{
+  "digest": {
+    "headline": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+    "tldr": "Today's digest covers 30 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads (InfoQ). Yelp Combines Native and Server-Driven UI for Its AI Assistant (InfoQ). How I put three AI agents in a Slack channel with Switch (Dev.to AI). The OpenAI Agents API Makes the Harness a Managed Product (Dev.to Programming). LLM Cost Tracking: Per Request, Feature and User (2026) (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3 (Hacker News)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Inside GitHub’s new Git storage architecture (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow. By Olimpiu Pop"
+  },
+  "articles": [
+    {
+      "id": "c29e462ea785",
+      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+      "url": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-11-06T06:06:00+00:00",
+      "score": 4.32,
+      "image": "https://res.infoq.com/news/2026/11/ai-credentials-isolation/en/headerimage/generatedHeaderImage-1793853184587.jpg"
+    },
+    {
+      "id": "0f11469d758f",
+      "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+      "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases. Yelp also discusses cross-platform challenges and reuse for its Biz Ask Anything pilot. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-06T14:25:00+00:00",
+      "score": 4.28,
+      "image": "https://res.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/en/card_header_image/generatedCard-1792326905430.jpg"
+    },
+    {
+      "id": "eae1ca573bf8",
+      "title": "How I put three AI agents in a Slack channel with Switch",
+      "url": "https://dev.to/rushibhosale84/how-i-put-three-ai-agents-in-a-slack-channel-with-switch-5chk",
+      "summary": "Every small team has a person who gets asked the same questions all week. \"Can we refund this?\" \"Is this okay to expense?\"\n\nFor the Flip the Switch hackathon, I built Precedent: a Slack channel where that person answers once, and AI agents remember the answer as a tested rule. Next time, the agent brings the answer and the person just confirms it.\n\nThis post shows how I built it, step by step, and what broke along the way. If you're trying Switch for the first time, I hope it saves you a few hours.\n\n\n\n\n  \n  \n  What is Switch?\n\n\nSwitch is open source software that puts AI agents into team chat.",
+      "source": "Dev.to AI",
+      "published": "2026-11-06T14:33:07+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7afcqjnpozsi7oz2kq8i.png"
+    },
+    {
+      "id": "207a9e9633fb",
+      "title": "The OpenAI Agents API Makes the Harness a Managed Product",
+      "url": "https://dev.to/neticslabs/the-openai-agents-api-makes-the-harness-a-managed-product-1bga",
+      "summary": "TL;DR\n\n\n\nOpenAI launched the Agents API in public beta on September 10, 2026: the same harness and infrastructure that powers Codex, exposed as an API for building and running cloud agents.\nOpenAI handles the agent loop — model calls, tool use, context management, subagent coordination; you control the agent's capabilities and choose where code runs.\nTwo sandbox paths: bring your own sandbox or connect a provider (Blaxel AI, Cloudflare Dev, Daytona, DigitalOcean, E2B, Modal, Oracle Cloud, Runloop AI, Vercel), or use OpenAI-hosted sandboxes with CPU, GPU, and memory options, including VPC deplo",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:00:45+00:00",
+      "score": 4.16,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fblog.neticslabs.com%2Fcontent%2Fimages%2F2026%2F09%2Fthumb-openai-agents-api-white-20250925.webp"
+    },
+    {
+      "id": "0b1bb3415532",
+      "title": "LLM Cost Tracking: Per Request, Feature and User (2026)",
+      "url": "https://dev.to/scorpion4ik26lang/llm-cost-tracking-per-request-feature-and-user-2026-4kdb",
+      "summary": "I am the founder of PromptUnit. This post first appeared on the PromptUnit blog, where it is kept up to date.\n\nLLM cost tracking means recording what every model call costs, together with the feature, user, model and environment that caused it, so you can see where AI spend comes from and act on it. Without it, cost work is guesswork.\n\nMost teams start with a monthly invoice from OpenAI or Anthropic and no visibility beneath that number. The invoice tells you what you spent. It does not tell you which feature drove the spike last Tuesday, which model is responsible for 70% of your bill, or whe",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:00:38+00:00",
+      "score": 4.06,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnx2vz5ibt3l8azjg98w9.png"
+    },
+    {
+      "id": "13fdeb168f54",
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-11-06T12:00:00+00:00",
+      "score": 4.05,
+      "image": "https://res.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/en/headerimage/generatedHeaderImage-1793095997884.jpg"
+    },
+    {
+      "id": "f3bfec28682f",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T13:00:00+00:00",
+      "score": 3.81,
+      "image": null
+    },
+    {
+      "id": "9d0075b84b92",
+      "title": "TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class",
+      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vue check non-standard files. One Vue project's type checks fell from 14.19 to 3.10 seconds. An editor issue remains open, and teams may need TypeScript 6 alongside 7. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-06T11:06:00+00:00",
+      "score": 3.8,
+      "image": null
+    },
+    {
+      "id": "bf66118b7493",
+      "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
+      "url": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
+      "summary": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts.\nThe post Give Your Python AI Agent Persistent Memory with One JSON File appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-06T12:00:00+00:00",
+      "score": 3.75,
+      "image": null
+    },
+    {
+      "id": "676b80e19ae3",
+      "title": "How does the RustRover debugger MCP server work?",
+      "url": "https://dev.to/scriptmasterlabs01/how-does-the-rustrover-debugger-mcp-server-work-17c3",
+      "summary": "How does the RustRover debugger MCP server work?\n\n\nThe RustRover debugger MCP server, shipped November 5, 2026 in RustRover 2026.3, gives an AI agent the regular RustRover debugger through the Model Context Protocol: the agent can set breakpoints, step through code, inspect variables, and evaluate expressions in your running program, guided by a companion rustrover-debugger skill, with 0 per-action approval or confirmation steps named in JetBrains' launch post — the only human control named is that you can follow the session and take over at any point. JetBrains answers access — the agent can ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:26:48+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "aed0c37dedfe",
+      "title": "The government ban cost me a day. My own model upgrade cost a month",
+      "url": "https://dev.to/orbytlabs/the-government-ban-cost-me-a-day-my-own-model-upgrade-cost-a-month-dj5",
+      "summary": "A government pulled my best model off the market overnight and it cost me one day, while a version bump I made and verified myself cost me a month.\n\n\nSonnet 5 runs adaptive thinking when the request omits the thinking parameter, so position zero became a thinking block with empty text and nine call sites got nothing back.\nA scheduled job failed on every run for 28 days and logged an empty string as its error. A paying customer got zero text blocks after 27 seconds, and the agent buying that API just recorded it and moved on.\n14,271 passing tests missed it, because not one mock included the typ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:00:11+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "f410ad08cc6e",
+      "title": "AWS Ships Continuum for Code Vulnerabilities",
+      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Published pricing charges per finding processed as well as per line of code, and practitioners are asking what would justify letting it merge fixes on its own. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-06T10:00:00+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "81c76618daea",
+      "title": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+      "url": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
+      "summary": "AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck.\nThe post Build Your First Multi-Tool AI Agent with Ollama and Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-06T13:30:00+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "33da041cc548",
+      "title": "Google Cloud API Gateway Introduces Streaming Support for Real-Time and AI-Powered Applications",
+      "url": "https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced the public preview of streaming support for API Gateway, extending its traditional request-response model to support applications requiring real-time communication. According to Google, this is particularly relevant for AI applications that provide streaming model responses, multi-step agent workflows, and interactive sessions. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-05T16:00:00+00:00",
+      "score": 3.54,
+      "image": null
+    },
+    {
+      "id": "01af2f668ade",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T22:40:55+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "6b5ab43b1c70",
+      "title": "# Java Interview Preparation Roadmap for Freshers (0–3 Years)",
+      "url": "https://dev.to/amol-dev/-java-interview-preparation-roadmap-for-freshers-0-3-years-2fe4",
+      "summary": "Preparing for your first Java developer interview can feel overwhelming. There are so many topics to cover, including Core Java, OOP concepts, Collections, Exception Handling, Multithreading, Java 8, SQL and Spring Boot.\n\nThe biggest mistake many beginners make is trying to learn everything at once.\n\nA better approach is to follow a structured learning path, understand important concepts, write code regularly and practise explaining your answers.\n\nIn this article, let's explore a practical Java interview preparation roadmap for freshers and developers with 0–3 years of experience.\n\n\n  \n  \n  1.",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:29:15+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "1f71b25fc49a",
+      "title": "Linked Lists Explained with Real Examples from the Linux Kernel",
+      "url": "https://dev.to/vadher_nikunj_47e8c86d866/linked-lists-explained-with-real-examples-from-the-linux-kernel-l8h",
+      "summary": "In the last post on queues, linked lists kept showing up. Wait queues were built from one, and the runqueue was 140 of them. This time we look at the linked list properly. It is one of the most used structures in the Linux kernel.\n\nLet's write a small one in C first, then see how the kernel does it.\n\n\n  \n  \n  What is a linked list?\n\n\nThink of a treasure hunt. Each clue tells you where the next one is. You can't jump to clue five. You start at the first and follow the chain.\n\nA linked list works the same way. It is a chain of nodes. Each node holds some data and a pointer to the next node. The ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-06T14:28:05+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "3ab0be9dcea1",
+      "title": "How do you build visibility through open source contributions?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xp90lz/how_do_you_build_visibility_through_open_source/",
+      "summary": "I’m an MSc CS student with a background in 3D computer vision, trying to figure out how to build visibility and credibility in the AI/ML community. I’ve been thinking about contributing to established open source projects rather than building standalone GitHub projects. Honestly, the latter feels like a weaker signal nowadays, especially with AI tools making it easier than ever to build things. For those working in 3D CV, ML or applied AI, how would you approach this? What are the current challenges for new contributors, and how do you find projects where meaningful contributions can actually ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-06T09:55:15+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "8f7798ef97e4",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T19:06:12+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "688be177ac49",
+      "title": "ICLR Review [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xozcd8/iclr_review_d/",
+      "summary": "About to be released. Anybody got them so far ? I have two submissions #35k+ &amp; 50k+, waiting.  &#32; submitted by &#32;  /u/Invariant_n_Cauchy   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-06T00:44:42+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "9d6202c03434",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T19:48:28+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "6dad7a604d39",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T15:19:05+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "e8ad3aaf9c4e",
+      "title": "Inside GitHub’s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.\nThe post Inside GitHub&#8217;s new Git storage architecture appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-05T20:23:21+00:00",
+      "score": 2.98,
+      "image": null
+    },
+    {
+      "id": "b0e121b3a461",
+      "title": "Claude can now analyze your spending with its new Personal Finance tool",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-05T18:00:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "6f78e24cdb5b",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-05T23:09:57+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "be817dcf184d",
+      "title": "Industry to academia [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xol3vf/industry_to_academia_d/",
+      "summary": "I have always had the desire to move to academia but I am not exactly sure how the process or profile building for academia works in general. Yeah, surely, I can ask AI and get answers but I don’t have much confidence in that . I did my PhD from a mid-tier school. My research focus was mostly on LLM model efficiency and some RL work (meta learning and bandit ) . The research direction I went with was totally out of my professor’s scope . As a result, I don’t have grant writing or funding related experience or don’t have those innovative idea of how do you create a research program or more spec",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-05T15:11:22+00:00",
+      "score": 2.79,
+      "image": null
+    },
+    {
+      "id": "0264040d1053",
+      "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+      "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: every turn is fluent and factual, the tool calls are correct, yet the agent stops following the procedure it was given. For example, asked for the weather, it fetches the forecast (correct tool call) but never tells you, and starts asking you to rate its service instead. Most steps of a conversational procedure aren't tool calls but things the agent has to say: asking, confirmin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-05T10:44:15+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "f0e2e8b6917e",
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "url": "https://github.com/rivet-dev/rivet",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-05T17:17:42+00:00",
+      "score": 2.71,
+      "image": null
+    },
+    {
+      "id": "2009a33d518f",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-05T13:10:00+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "485010988bfc",
+      "title": "Accessibility statements now have a home on GitHub",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "summary": "GitHub now highlights ACCESSIBILITY.md files and helps maintainers document accessibility goals, known barriers, supported environments, contributor expectations, and reporting processes.\nThe post Accessibility statements now have a home on GitHub appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-05T16:00:00+00:00",
+      "score": 2.54,
+      "image": null
+    }
+  ]
+}

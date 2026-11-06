@@ -6238,3 +6238,38 @@
 2026-11-05 15:01:44,076  INFO     ────────────────────────────────────────────────────────────
 2026-11-05 15:01:44,076  INFO     Done!  Open: output/index.html
 2026-11-05 15:01:44,076  INFO     Headline: Humanize Anthropic API Output in Kotlin: A Status-Page Blurb Linter + 5 Free Tools (2026)
+2026-11-06 14:41:44,323  INFO     ============================================================
+2026-11-06 14:41:44,323  INFO     TECHPULSE Digest — 2026-11-06 14:41 UTC
+2026-11-06 14:41:44,324  INFO     ============================================================
+2026-11-06 14:41:44,324  INFO     Step 1/3 — Crawling feeds…
+2026-11-06 14:41:44,611  INFO       Hacker News                    → 2 significant articles
+2026-11-06 14:41:44,796  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-06 14:41:44,964  INFO       Ars Technica                   → 0 significant articles
+2026-11-06 14:41:45,468  INFO       The Register AI                → 0 significant articles
+2026-11-06 14:41:45,598  INFO       MIT Tech Review                → 1 significant articles
+2026-11-06 14:41:45,776  INFO       Dev.to AI                      → 1 significant articles
+2026-11-06 14:41:45,967  INFO       Dev.to Programming             → 6 significant articles
+2026-11-06 14:41:46,103  INFO       GitHub Blog                    → 2 significant articles
+2026-11-06 14:41:46,860  INFO       Google Research                → 0 significant articles
+2026-11-06 14:41:47,616  INFO       Reddit r/MachineLearning       → 5 significant articles
+2026-11-06 14:41:47,671  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-06 14:41:48,072  INFO       InfoQ                          → 7 significant articles
+2026-11-06 14:41:48,300  INFO       Towards Data Science           → 5 significant articles
+2026-11-06 14:41:48,462  INFO       Wired AI                       → 0 significant articles
+2026-11-06 14:41:48,540  INFO       TechCrunch AI                  → 7 significant articles
+2026-11-06 14:41:48,540  INFO     Fetching images for top articles…
+2026-11-06 14:41:49,173  INFO       🖼  Edera's Object Capability Bounded Authority Promises to Isol
+2026-11-06 14:41:49,788  INFO       🖼  Yelp Combines Native and Server-Driven UI for Its AI Assista
+2026-11-06 14:41:49,879  INFO       🖼  How I put three AI agents in a Slack channel with Switch
+2026-11-06 14:41:49,941  INFO       🖼  The OpenAI Agents API Makes the Harness a Managed Product
+2026-11-06 14:41:50,053  INFO       🖼  LLM Cost Tracking: Per Request, Feature and User (2026)
+2026-11-06 14:41:50,640  INFO       🖼  GitLab 19.5 Makes Agentic Development a Governed Part of the
+2026-11-06 14:41:50,640  INFO     Total selected: 30 articles from 15 feeds
+2026-11-06 14:41:50,640  INFO     Selected 30 significant articles
+2026-11-06 14:41:50,640  INFO     Step 2/3 — Generating digest…
+2026-11-06 14:41:50,913  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-06 14:41:50,913  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-06 14:41:50,913  INFO     Step 3/3 — Rendering HTML…
+2026-11-06 14:41:50,915  INFO     ────────────────────────────────────────────────────────────
+2026-11-06 14:41:50,915  INFO     Done!  Open: output/index.html
+2026-11-06 14:41:50,915  INFO     Headline: Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads
