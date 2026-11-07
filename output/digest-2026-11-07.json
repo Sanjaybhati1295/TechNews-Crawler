@@ -1,0 +1,249 @@
+{
+  "digest": {
+    "headline": "Two ways to prove which model answered you",
+    "tldr": "Today's digest covers 23 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Two ways to prove which model answered you (Dev.to AI). Extension Update Authority Decides What Runs on the Endpoint. Uninstalling Doesn't Undo It. (Dev.to AI). Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets (InfoQ). 6 AI Coding Tips That Sound Wrong (But Actually Work) (Dev.to AI). OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Beyond code generation: A developer’s guide to agentic engineering (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "On Nov 2 Anthropic published FlashProve, a working prototype for proving that a response came from the weights a provider committed to. Two days later the discussion around it was full of one question, phrased about six different ways: can I prove the inference ran on the model I paid for, and not some nerfed substitute?\n\nI have been chasing that question for a month. The answer is now two answers, and they cover different failures.\n\n\n  \n  \n  1. The proof: cryptography, but only from a willing provider\n\n\nWhat Anthropic released is concrete enough to check. For a 400B-parameter mixture-of-exper"
+  },
+  "articles": [
+    {
+      "id": "133c584c60e3",
+      "title": "Two ways to prove which model answered you",
+      "url": "https://dev.to/lumen_ilands/two-ways-to-prove-which-model-answered-you-2ga5",
+      "summary": "On Nov 2 Anthropic published FlashProve, a working prototype for proving that a response came from the weights a provider committed to. Two days later the discussion around it was full of one question, phrased about six different ways: can I prove the inference ran on the model I paid for, and not some nerfed substitute?\n\nI have been chasing that question for a month. The answer is now two answers, and they cover different failures.\n\n\n  \n  \n  1. The proof: cryptography, but only from a willing provider\n\n\nWhat Anthropic released is concrete enough to check. For a 400B-parameter mixture-of-exper",
+      "source": "Dev.to AI",
+      "published": "2026-11-07T13:33:21+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2apc7itboo696ndb02pe.png"
+    },
+    {
+      "id": "6f28b664957e",
+      "title": "Extension Update Authority Decides What Runs on the Endpoint. Uninstalling Doesn't Undo It.",
+      "url": "https://dev.to/ntctech/extension-update-authority-decides-what-runs-on-the-endpoint-uninstalling-doesnt-undo-it-116p",
+      "summary": "Extension update authority is the decision about who can change code on an engineering endpoint without an acquisition event the organization controls. On October 29, 2026, that decision was tested in the Cursor VS Code Extension Marketplace. According to Cursor, a maliciously modified Anthropic.claude-code extension, versions 2.1.312 and 2.1.313 in Windows and macOS packages, was available between about 2:27am and 1:35pm PT, roughly eleven hours. Cursor states that Anthropic did not develop the malicious versions.\n\nThe sources are specific enough to separate three responsibilities that an edi",
+      "source": "Dev.to AI",
+      "published": "2026-11-07T13:29:36+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsp2x4ikxsj3od1g0du4y.png"
+    },
+    {
+      "id": "cc5261380f40",
+      "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+      "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-07T06:54:00+00:00",
+      "score": 3.92,
+      "image": "https://res.infoq.com/news/2026/11/bumpy-changesets-alternative/en/headerimage/generatedHeaderImage-1793973539308.jpg"
+    },
+    {
+      "id": "2a4782ced8e3",
+      "title": "6 AI Coding Tips That Sound Wrong (But Actually Work)",
+      "url": "https://dev.to/sushant_babbar/6-ai-coding-tips-that-sound-wrong-but-actually-work-m23",
+      "summary": "Most advice regarding coding with AI optimizes for the first demo. \n\nWrite clearer prompts. Generate more code. Iterate fast. Those tips now feel like bottom-of-the-barrel advice. \n\nThe tips that have produced features I can still open and trust weeks later do the opposite: they constrain the agent earlier, force smaller outputs, and treat the natural-language instructions as part of the codebase.\n\nThese are the ones that have held up for me:\n\n\n  \n  \n  1. Write the constraints before you generate anything\n\n\nOpening the agent and describing the feature feels productive. Sessions that need less ",
+      "source": "Dev.to AI",
+      "published": "2026-11-07T13:31:52+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4fjy4z44l5brkuhz5azc.png"
+    },
+    {
+      "id": "314bd089789a",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T22:53:46+00:00",
+      "score": 3.78,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024"
+    },
+    {
+      "id": "18ff66f3ad4b",
+      "title": "Automate Photo Geolocation with AI and OpenStreetMap",
+      "url": "https://dev.to/githubopensource/automate-photo-geolocation-with-ai-and-openstreetmap-26pk",
+      "summary": "TL;DR: This project implements an agent skill via a SKILL.md file and accompanying Python scripts that interact with mapping data and computer vision tools. Instead of relying purely on visual recognition, it uses single-purpose scripts to query OpenStreetMap, render elevation skylines, and match satellite tiles.\nBest for: Developers and OSINT researchers who want to automate photo geolocation using AI coding agents.\nRepository snapshot: ⭐ 6 349 stars · 🍴 784 forks · Python · MIT\nDaily picks: Follow GitHub Open Source on Telegram\n\n\n\n\n\n\n  \n  \n  What it is\n\n\ngeo-sleuth is an open-source Python p",
+      "source": "Dev.to AI",
+      "published": "2026-11-07T13:33:46+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.ibb.co%2FfzJHHSx1%2Foldcircle-geo-sleuth-devto-cover-d9d608c5c952.png"
+    },
+    {
+      "id": "908fab27613b",
+      "title": "ChatGPT Scheduled Tasks: 6 Examples That Work on the Free Plan (and the Limits to Know First)",
+      "url": "https://dev.to/crypteasensei/chatgpt-scheduled-tasks-6-examples-that-work-on-the-free-plan-and-the-limits-to-know-first-49b5",
+      "summary": "Disclosure: this post was drafted and edited with AI tools (#ABotWroteThis). I created the tasks on November 4, 2026, between about 6:35 and 6:40 AM Japan time, on a ChatGPT Free account in a web browser, each in a new chat. Each prompt was the first and only message in its chat, pasted unedited. I didn't regenerate, send follow-ups, answer ChatGPT's questions, change settings, share a task or connect any apps. No model name was shown. I checked the results on November 5 at about 12:10 PM Japan time: both tasks that were created had delivered something by then, and then I deleted them. One mor",
+      "source": "Dev.to AI",
+      "published": "2026-11-07T13:29:44+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "46e88a02e034",
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T18:44:20+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "fcfc75e78514",
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-07T11:00:00+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "c4350366b543",
+      "title": "8 AI Meeting Assistants Ranked: What Remote Teams Actually Use",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/8-ai-meeting-assistants-ranked-what-remote-teams-actually-use-41hj",
+      "summary": "Remote engineering teams waste 4-6 hours weekly on meetings that could be 15-minute async updates. AI meeting assistants promise to fix this by automating notes, action items, and follow-ups. Here's what actually works for dev teams, tested across 200+ meetings.\n\n\n  \n  \n  Quick Verdict\n\n\nOtter.ai remains the most reliable for technical discussions with code sharing. Fireflies.ai wins on integrations and team collaboration. Notta is the budget choice with surprisingly good accuracy. Skip MeetGeek unless you're already in their ecosystem.\n\n\n  \n  \n  How We Ranked These Tools\n\n\nRankings are based ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-07T13:11:00+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "7ad9ecaf2a90",
+      "title": "Tailwind CSS Alternatives: When UnoCSS or Panda CSS Makes Sense",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/tailwind-css-alternatives-when-unocss-or-panda-css-makes-sense-284o",
+      "summary": "Tailwind CSS became the default utility-first framework for React projects in 2023-2025. By 2026, alternatives have matured enough to deserve serious consideration. UnoCSS brings dramatic performance improvements and unmatched flexibility. Panda CSS offers type-safe, CSS-in-JS-style ergonomics without the runtime cost. Plain CSS with custom properties handles simpler projects without framework overhead. Here's the practical decision guide.\n\n\n  \n  \n  Quick Answer\n\n\nTailwind CSS is the right default — mature tooling, extensive community, and excellent documentation make it the safe choice for mo",
+      "source": "Dev.to Programming",
+      "published": "2026-11-07T13:05:39+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "5ab88d15c948",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.\nThe post Beyond code generation: A developer&#8217;s guide to agentic engineering appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-06T22:15:59+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "c29e462ea785",
+      "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+      "url": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow. By Olimpiu Pop",
+      "source": "InfoQ",
+      "published": "2026-11-06T06:06:00+00:00",
+      "score": 3.05,
+      "image": null
+    },
+    {
+      "id": "0f11469d758f",
+      "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+      "url": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases. Yelp also discusses cross-platform challenges and reuse for its Biz Ask Anything pilot. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-06T14:25:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "13fdeb168f54",
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact with GitLab. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-11-06T12:00:00+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "2e1a9d360f4f",
+      "title": "Higgs Realtime Duplex: a 45B MoE full-duplex model that listens, watches and talks at once, and thinks, calls tools and delegates in the background [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+      "summary": "Disclosure: I'm at Boson AI and this is our release. Not open weights; the Duplex API has a waitlist, and the previous turn-based Higgs Realtime is available now. Most voice models are still turn-based: listen, wait for end of turn, think, speak. Duplex runs all streams at once and keeps working in the background while it talks. Streams. Everything is cut into 160 ms chunks:  Audio in: 1 token per chunk (6.25 tokens/s) Audio out: 2 tokens per chunk (12.5 tokens/s) Video in: one ~12-token camera frame every 6 chunks Face out: 2 latents per chunk Text in and out alongside  Silence is represented",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-06T20:23:53+00:00",
+      "score": 2.64,
+      "image": null
+    },
+    {
+      "id": "f3bfec28682f",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-06T13:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "9d0075b84b92",
+      "title": "TypeScript 7.1 Beta: Restores the Compiler API and Makes Vue and Svelte First-Class",
+      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "TypeScript 7.1 Beta, announced October 20, 2026, restores the compiler API removed in 7.0, now split into separate entry points. It adds content mappers, letting tools like Vue check non-standard files. One Vue project's type checks fell from 14.19 to 3.10 seconds. An editor issue remains open, and teams may need TypeScript 6 alongside 7. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-06T11:06:00+00:00",
+      "score": 2.52,
+      "image": null
+    },
+    {
+      "id": "bf66118b7493",
+      "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
+      "url": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
+      "summary": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts.\nThe post Give Your Python AI Agent Persistent Memory with One JSON File appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-06T12:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "f410ad08cc6e",
+      "title": "AWS Ships Continuum for Code Vulnerabilities",
+      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Published pricing charges per finding processed as well as per line of code, and practitioners are asking what would justify letting it merge fixes on its own. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-06T10:00:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "81c76618daea",
+      "title": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+      "url": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
+      "summary": "AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck.\nThe post Build Your First Multi-Tool AI Agent with Ollama and Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-06T13:30:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "656ef7e8af80",
+      "title": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
+      "url": "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/",
+      "summary": "Includes a worked example with 50 users and $110,000 in first-year cost, plus baselines, targets, and ownership rules for every AI initiative.\nThe post How to Measure AI Adoption, Performance, and ROI With 12 KPIs appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-06T16:30:00+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "3ab0be9dcea1",
+      "title": "How do you build visibility through open source contributions?[D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xp90lz/how_do_you_build_visibility_through_open_source/",
+      "summary": "I’m an MSc CS student with a background in 3D computer vision, trying to figure out how to build visibility and credibility in the AI/ML community. I’ve been thinking about contributing to established open source projects rather than building standalone GitHub projects. Honestly, the latter feels like a weaker signal nowadays, especially with AI tools making it easier than ever to build things. For those working in 3D CV, ML or applied AI, how would you approach this? What are the current challenges for new contributors, and how do you find projects where meaningful contributions can actually ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-06T09:55:15+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}
