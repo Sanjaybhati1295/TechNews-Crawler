@@ -1,0 +1,105 @@
+{
+  "digest": {
+    "headline": "There Is No Box in SAP's Launchpad for Your Azure OpenAI Key",
+    "tldr": "Today's digest covers 9 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "There Is No Box in SAP's Launchpad for Your Azure OpenAI Key (Dev.to AI). GRFNet, PyTorch model for multichannel time-series classification [P] (Reddit r/MachineLearning). AI Can Write Code, But What About Us? (Dev.to AI). A Repeatable Review Routine for Daily AI Commits (Dev.to AI). Reviewing a Large AI-Generated Diff Without Reading Every Line (Dev.to Programming)."
+      }
+    ],
+    "key_takeaway": "We're two PhD students behind SAP AI Lab — one of us does ML systems, the other enterprise information systems; independent blog, endorsed by neither vendor. Wiring Azure OpenAI into SAP BTP is the most common \"first AI project\" for SAP architects in 2026, and we watched two attempts fail the same way before we got it right ourselves. Verified as of 2026-11-08.\n\nBoth teams started with the same sentence in their design doc: \"register our Azure OpenAI endpoint in SAP AI Launchpad.\" There is no such registration. The Launchpad has no form where you paste your own *.openai.azure.com URL and API k"
+  },
+  "articles": [
+    {
+      "id": "933e606167a4",
+      "title": "There Is No Box in SAP's Launchpad for Your Azure OpenAI Key",
+      "url": "https://dev.to/frankgg/there-is-no-box-in-saps-launchpad-for-your-azure-openai-key-88l",
+      "summary": "We're two PhD students behind SAP AI Lab — one of us does ML systems, the other enterprise information systems; independent blog, endorsed by neither vendor. Wiring Azure OpenAI into SAP BTP is the most common \"first AI project\" for SAP architects in 2026, and we watched two attempts fail the same way before we got it right ourselves. Verified as of 2026-11-08.\n\nBoth teams started with the same sentence in their design doc: \"register our Azure OpenAI endpoint in SAP AI Launchpad.\" There is no such registration. The Launchpad has no form where you paste your own *.openai.azure.com URL and API k",
+      "source": "Dev.to AI",
+      "published": "2026-11-08T13:43:41+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7jymc2wl7ikt2zpqglj2.png"
+    },
+    {
+      "id": "dca9973e5de9",
+      "title": "GRFNet, PyTorch model for multichannel time-series classification [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqj67/grfnet_pytorch_model_for_multichannel_timeseries/",
+      "summary": "Hi all, Through my MSc work on EEG decoding, I built a novel (partially) architecture tailored to the constraints of EEG. The datasets are small, the subject variability is high, and signal acquisition variables differ significantly. I’ve now extracted that model to develop into an open source PyTorch model and would like some input on anything that comes to mind with regard to direction, etc. The design builds on ROCKET, using random, untrained convolutional kernels to yield strong time-series features. Learned spatial filters first mix the input channels, and if you provide sensor positions ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-08T05:13:11+00:00",
+      "score": 3.71,
+      "image": null
+    },
+    {
+      "id": "fa0f833adfad",
+      "title": "AI Can Write Code, But What About Us?",
+      "url": "https://dev.to/mudienub/ai-can-write-code-but-what-about-us-43om",
+      "summary": "🇮🇩 Originally written in Indonesian.\nThis English version was AI-assisted and adapted for a more natural reading experience. It is not a literal translation.\nOpen Link\n\n\n\n  \n  \n  Introduction\n\n\nJust yesterday.\n\n(Well, as of when this article was drafted.)\n\nThere was an event called Jatim Developer Day.\n\nActually, it's an annual event. However, 2026 might be the first time I've heard about it and had the opportunity to attend.\n\nOverall, it was pretty good.\n\nAlthough there were some shortcomings from the organizers, I'd still like to express my gratitude, especially to the volunteers and communi",
+      "source": "Dev.to AI",
+      "published": "2026-11-08T13:47:04+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fvg9svhb10fxc97279e1t.jpg"
+    },
+    {
+      "id": "f0b997c84e7d",
+      "title": "A Repeatable Review Routine for Daily AI Commits",
+      "url": "https://dev.to/jeff_pdc/a-repeatable-review-routine-for-daily-ai-commits-4iok",
+      "summary": "Quick answer: When AI commits arrive daily, the review has to be a routine, not a fresh negotiation each time. Run the same sequence on every change: scope the diff against the task, read the flagged suspicions in risk order, confirm the related context, verify the changed path with real requests and a flow check, then hand off the confirmed items. A time box keeps it fast, and a fixed checklist keeps the standard from drifting when the team is busy.\n\n\n  \n  \n  Why a routine beats ad-hoc review\n\n\nWithout a routine, the depth of a review depends on the mood of the day. A calm afternoon gets a ca",
+      "source": "Dev.to AI",
+      "published": "2026-11-08T13:45:54+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqsqt7ycy76kjj61ztylo.png"
+    },
+    {
+      "id": "52f5862de443",
+      "title": "Reviewing a Large AI-Generated Diff Without Reading Every Line",
+      "url": "https://dev.to/jeff_pdc/reviewing-a-large-ai-generated-diff-without-reading-every-line-j8k",
+      "summary": "Quick answer: When an AI tool produces a diff that spans dozens of files, reading every line in order is the slowest and least reliable way to review it. A better routine reads the diff in risk-ordered passes: first the changed behavior and the flagged suspicions with their code evidence, then the shared modules and the scope of the change, and only then the low-risk formatting. Real requests against the API confirm the behavior the diff only implies. This keeps the review fast without turning it into a rubber stamp.\n\n\n  \n  \n  Why a straight read fails on AI output\n\n\nA large generated diff has",
+      "source": "Dev.to Programming",
+      "published": "2026-11-08T13:38:26+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8clmox7aps0blxjcwf4p.png"
+    },
+    {
+      "id": "287c768837d5",
+      "title": "CRM Field Mapping: Decide Who Owns Each Value",
+      "url": "https://dev.to/jctechlabs/crm-field-mapping-decide-who-owns-each-value-2l53",
+      "summary": "By JC TechLabs\n\nConnected records. Clear ownership.\n\nCRM field mapping is more than pairing two column names. It defines what a value means, which system may change it and what happens when connected records disagree.\n\nA connector can successfully deliver an update that the business should never have accepted. Before connecting a CRM to another application, make those decisions visible.\n\n\n  \n  \n  Start with a field, not a whole database\n\n\nFor each necessary field, record the source, destination, type, required status, accepted values and transformation. Then name the authoritative system and t",
+      "source": "Dev.to Programming",
+      "published": "2026-11-08T13:33:39+00:00",
+      "score": 3.48,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fo7kgjlgh8pwr9lqx1ye7.png"
+    },
+    {
+      "id": "e0140547e137",
+      "title": "Change One Monty Hall Rule and Five LLMs Still Say Switch",
+      "url": "https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/",
+      "summary": "Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it.\nThe post Change One Monty Hall Rule and Five LLMs Still Say Switch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-08T13:00:00+00:00",
+      "score": 3.45,
+      "image": null
+    },
+    {
+      "id": "cc5261380f40",
+      "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+      "url": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-07T06:54:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "fcfc75e78514",
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "url": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-07T11:00:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
