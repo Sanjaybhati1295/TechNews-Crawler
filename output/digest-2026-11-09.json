@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement (InfoQ). Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system (Hacker News). AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications (InfoQ). Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM (Towards Data Science). Stop Reloading Context Every Chat: Why LLM Wiki Beats a Goldfish Second Brain (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Wie eine Notiz in osFoundry Dokument, Tabelle, Diagramme und LaTeX vereint (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Google has released Gemini 4 Argon framing it as a general-purpose physical-reasoning model for robot control, Real2Sim scene construction, multimodal labeling of robot video, and iterative policy improvement, rather than as a single end-effector policy. By Daniel Dominguez"
+  },
+  "articles": [
+    {
+      "id": "409713ace2f5",
+      "title": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
+      "url": "https://www.infoq.com/news/2026/11/google-gemini-argon/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released Gemini 4 Argon framing it as a general-purpose physical-reasoning model for robot control, Real2Sim scene construction, multimodal labeling of robot video, and iterative policy improvement, rather than as a single end-effector policy. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-11-09T15:44:00+00:00",
+      "score": 4.53,
+      "image": "https://res.infoq.com/news/2026/11/google-gemini-argon/en/headerimage/generatedHeaderImage-1794224974378.jpg"
+    },
+    {
+      "id": "3ef732dd0eb2",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-09T16:00:45+00:00",
+      "score": 4.25,
+      "image": "https://www.payments.ca/sites/default/files/2026-11/CanadaLightsUp.png"
+    },
+    {
+      "id": "60bffcfdca69",
+      "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
+      "url": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-09T11:00:00+00:00",
+      "score": 4.17,
+      "image": "https://res.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/en/headerimage/functiongemma-1794220315671.jpeg"
+    },
+    {
+      "id": "53f150cedf82",
+      "title": "Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM",
+      "url": "https://towardsdatascience.com/continuous-batching-beats-static-and-dynamic-by-up-to-291-in-vllm/",
+      "summary": "For anyone running an inference server: a zero-variance control, five traffic traces, and an engine-vs-scheduler split show where the gains come from.\nThe post Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T16:30:00+00:00",
+      "score": 4.17,
+      "image": null
+    },
+    {
+      "id": "7f27ead673d4",
+      "title": "Stop Reloading Context Every Chat: Why LLM Wiki Beats a Goldfish Second Brain",
+      "url": "https://dev.to/donqu1xote/stop-reloading-context-every-chat-why-llm-wiki-beats-a-goldfish-second-brain-540b",
+      "summary": "TL;DR — Chat context is a goldfish. An agent-written Obsidian vault is a personal wiki. Teams still need a durable knowledge base Software layer: linked pages humans can trust, permissions, search, and backups that restore files — not just another chat paste ritual.\n\n\nIf you hang around X right now, three threads keep colliding:\n\n\nKarpathy's LLM Wiki pattern. Agents don't just dump notes — they maintain linked markdown pages that compound: immutable sources in, wiki pages out, claims that get revised instead of piled up.\nClaude + Obsidian \"second brain\" repos. Free GitHub projects (claude-obsi",
+      "source": "Dev.to AI",
+      "published": "2026-11-09T16:45:21+00:00",
+      "score": 4.09,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flzik6d1rtidlir7lk9n8.jpg"
+    },
+    {
+      "id": "ab2ce06db441",
+      "title": "n8n Agents and NetSuite: Use Your Workflows as Approved Tools",
+      "url": "https://dev.to/entechsolutions/n8n-agents-and-netsuite-use-your-workflows-as-approved-tools-52fg",
+      "summary": "Originally published on integrationstars.com. n8n facts checked against n8n's blog and docs on November 9, 2026. Agents are in Preview, so details can change.\n\nn8n Agents (announced September 25, 2026) flip the usual setup: instead of a workflow with an AI step inside it, the agent is in charge and calls your workflows as tools. For NetSuite that's a good thing, because the part that writes to the ERP stays in a workflow you built and tested.\n\n\n  \n  \n  What n8n gives you\n\n\n\n\nWorkflows as tools. \"Every workflow you've built in n8n is something an agent can use, and none of it needs to change.\" ",
+      "source": "Dev.to AI",
+      "published": "2026-11-09T16:40:48+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa5brtzfsmpck8ls0rqyj.png"
+    },
+    {
+      "id": "e3ef1e5ba078",
+      "title": "Atlarix 15.15: Connect Slack to Your AI Coding Agent",
+      "url": "https://dev.to/abishaiama/atlarix-1515-connect-slack-to-your-ai-coding-agent-4ajc",
+      "summary": "Atlarix 15.15 is out today. Atlarix is an AI coding agent by NorahLabs that plans, edits, runs and reviews code in your own projects, and it asks before it changes a file. This release connects Slack: one sign-in and the agent can read, search and post in your workspace as you. MCP sign-in now works from every surface, project memory stays inside its project, and scheduled wake-ups show up where you can cancel them. Here is what changed and how to get it.\n\n\n  \n  \n  Connect Slack in one sign-in\n\n\nSlack is now in the Verified part of Atlarix's MCP list. Open the list (in the desktop app, Integra",
+      "source": "Dev.to AI",
+      "published": "2026-11-09T16:41:54+00:00",
+      "score": 3.88,
+      "image": null
+    },
+    {
+      "id": "ce244c7cacfa",
+      "title": "Why Parallel Agent Teams Outscale Solo Best-of-N",
+      "url": "https://dev.to/reidmarlow/why-parallel-agent-teams-outscale-solo-best-of-n-j9a",
+      "summary": "When developers allocate inference budgets to coding agents on hard problems, the architecture usually swings between two extremes. The first option is best-of-N sampling over independent workers: fire off one hundred parallel agent runs with separate seeds, evaluate their patches against a test runner, and keep the cleanest pass. The second option is multi-agent collaboration: spin up a swarm of specialized roles, put them in a shared channel, and let them debate their way toward a single solution.\n\nBoth architectures run into hard statistical ceilings on long-horizon tasks.\n\nA new paper from",
+      "source": "Dev.to Programming",
+      "published": "2026-11-09T16:28:18+00:00",
+      "score": 3.87,
+      "image": null
+    },
+    {
+      "id": "da9d8ea60d2a",
+      "title": "NVIDIA, Rebellions and SK Telecom Bet on Heterogeneous AI: GPUs Meet Korean NPUs via NVLink Fusion",
+      "url": "https://dev.to/paullovelace/nvidia-rebellions-and-sk-telecom-bet-on-heterogeneous-ai-gpus-meet-korean-npus-via-nvlink-fusion-4gbe",
+      "summary": "NVIDIA, Rebellions and SK Telecom announced today that they are building Korea's sovereign AI infrastructure together — not on NVIDIA GPUs alone, but on a mix of NVIDIA GPUs and Korean-designed NPUs, connected inside the same rack. The deal was signed at NVIDIA AI Day Seoul on Monday, 9 November 2026, and it is backed by Korea's Ministry of Science and ICT.\n\nThe headline is simple. The interesting part is the plumbing: Rebellions' next-generation R200 neural processing units will connect to NVIDIA's platform through NVLink Fusion, inside NVIDIA's MGX rack architecture, and SK Telecom plans to ",
+      "source": "Dev.to AI",
+      "published": "2026-11-09T16:43:58+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "be9c460d2aa2",
+      "title": "Wie eine Notiz in osFoundry Dokument, Tabelle, Diagramme und LaTeX vereint",
+      "url": "https://dev.to/tauchi-de/wie-eine-notiz-in-osfoundry-dokument-tabelle-diagramme-und-latex-vereint-3g30",
+      "summary": "In drei Wochen startet ein Produkt. Der Plan liegt als Dokument in einer App, das Budget als Tabelle in einer anderen, der Ablauf des Launch-Tages ist ein Diagramm, das jemand in einem Whiteboard-Tool gezeichnet hat, und die Links zur Recherche verteilen sich über diverse Chat-Threads. Jedes Mal, wenn jemand fragt „Wo ist die aktuelle Version?“, lautet die Antwort: in einer anderen App. Notizen in osFoundry gehen das anders an: eine Notiz, mehrere Tabs, und jeder Tab ist eine andere Art von Editor.\n\n\n  \n  \n  Eine Notiz besteht aus Tabs\n\n\nosFoundry ist eine Desktop-App, die Chat, Agents, Dateie",
+      "source": "Dev.to AI",
+      "published": "2026-11-09T16:46:17+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "4ade5241ebc4",
+      "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare is developing a public certificate authority for Merkle Tree Certificates (MTCs) to reduce the bandwidth overhead of post-quantum cryptography. A Chrome experiment served billions of MTCs to 50% of Chrome Beta 146 for selected domains, reporting 9% faster median performance. Wider deployment depends on browser support, transparency, and production-scale validation. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-09T14:35:00+00:00",
+      "score": 3.57,
+      "image": null
+    },
+    {
+      "id": "bdce3ce9ff1a",
+      "title": "Can coding agents build interactive 3D worlds? Frontier3DBench evaluates 11 configurations across objects, scenes, and worlds [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrhg3a/can_coding_agents_build_interactive_3d_worlds/",
+      "summary": "Can the same coding agent build a detailed 3D object, assemble a scene, and make an interactive world actually work? Our team at Einsia released Frontier3DBench to test that progression: 145 tasks across 9 categories, with 11 model–harness configurations producing editable Blender projects and runnable Unreal Engine worlds. Evaluation covers appearance, structure, and behavior through rendered views, scene inspection, and runtime tests. A few results:  GPT-6.1-sol leads overall and on objects and scenes, while GPT-6-astra leads interactive worlds. MiniMax-M3.1-Flash ranks sixth overall but sec",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-09T03:41:21+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "7f168aea8601",
+      "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
+      "url": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/",
+      "summary": "A fisheries estimator from the 1890s, tested on 294 CUAD contracts, landed within 2 points of true recall for most agents with a 10% hand audit.\nThe post How to Estimate the Recall of AI Agents with Capture-Recapture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T13:30:00+00:00",
+      "score": 3.51,
+      "image": null
+    },
+    {
+      "id": "65d768d8eb39",
+      "title": "The specification had to change",
+      "url": "https://dev.to/rsiena/the-specification-had-to-change-57o2",
+      "summary": "The specification had to change\n\n\nVersion 3 of the Exit 719 specification was complete enough to review and incomplete enough to break a build. I had it reviewed on purpose. A specification that has never been attacked is a story I am telling myself.\n\nThe review did not ask for more features. It asked for decisions. That is the useful kind of review.\n\n\n  \n  \n  The error system could not report its own failure\n\n\nThe first draft of the error section assumed the database and the mail system were up at the moment something failed. If the failure is the database, or the mail server, both of those p",
+      "source": "Dev.to Programming",
+      "published": "2026-11-09T16:17:49+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "93019513f8f3",
+      "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
+      "url": "https://www.infoq.com/news/2026/11/topcoat-rust-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead of WebAssembly. It targets typical database-driven apps. Releases are unstable, and authentication and background jobs remain on the roadmap. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-09T06:42:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "694c3b5b88c9",
+      "title": "Ask AI to Refine Your Ideas, Not Invent Them",
+      "url": "https://towardsdatascience.com/ask-ai-to-refine-your-ideas-not-invent-them/",
+      "summary": "Studies of short stories, metaphors, and 486 participants point one way, an 800-person experiment points the other, and the author weighs both.\nThe post Ask AI to Refine Your Ideas, Not Invent Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T15:00:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "6043d6208d32",
+      "title": "Artificial Analysis: multimodal decision model Drex Max ranks #1. Both achieving SOTA and Pareto frontier [N]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/",
+      "summary": "hey, its Alti from Nace. we released a small update with Drex Max v1.1, both achieving the SOTA and Pareto frontier for decision models. We did all that by iterating step by step and every previous version of Drex’s open weights are available on hf. We also released a full playbook on how we trained Drex Max in this paper: “ Towards Foundation Decision Models: Drex” hf: https://huggingface.co/papers/2611.07854 arXiv: https://arxiv.org/pdf/2611.07854 https://preview.redd.it/7fcznstvff0i1.png?width=2000&amp;format=png&amp;auto=webp&amp;s=6dc7912679a84164b6e4de9601cd67f41b5ca6a0 Drex Max v1 is we",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-08T17:54:43+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "9c0e64d7e281",
+      "title": "LoRA-conditioned model skips the first line of its output when the caption is short. Any idea why? [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrdn7p/loraconditioned_model_skips_the_first_line_of_its/",
+      "summary": "I'm doing an MSc project on BrickNet (kulits/BrickNet on GitHub, CVPR 2026). It writes LEGO models as plain text and fine-tunes Qwen3 (I'm using 0.6B) with LoRA: a PT adapter that learns the text format, and an SFT adapter that conditions on a caption. The text is one root line (&quot;a &lt;part&gt; | &lt;colour&gt;&quot;), then repeated pairs of a node line and an edge line. Setup: I merge PT, then SFT (peft merge_and_unload, bf16) and prompt with the caption tokens plus a newline token. That matches train.py, which trains on caption + &quot;\\n&quot; + path + EOS with loss on the path only. P",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-09T00:30:07+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "97cbfea9bae2",
+      "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
+      "url": "https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/",
+      "summary": "Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks.\nThe post How to Build Multi-Agent Systems with the OpenAI Agents SDK appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-08T15:00:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "e0140547e137",
+      "title": "Change One Monty Hall Rule and Five LLMs Still Say Switch",
+      "url": "https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/",
+      "summary": "Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it.\nThe post Change One Monty Hall Rule and Five LLMs Still Say Switch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-08T13:00:00+00:00",
+      "score": 1.95,
+      "image": null
+    }
+  ]
+}
