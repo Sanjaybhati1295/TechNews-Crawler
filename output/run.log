@@ -6376,3 +6376,38 @@
 2026-11-09 16:58:43,097  INFO     ────────────────────────────────────────────────────────────
 2026-11-09 16:58:43,097  INFO     Done!  Open: output/index.html
 2026-11-09 16:58:43,097  INFO     Headline: Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement
+2026-11-10 15:18:16,930  INFO     ============================================================
+2026-11-10 15:18:16,930  INFO     TECHPULSE Digest — 2026-11-10 15:18 UTC
+2026-11-10 15:18:16,930  INFO     ============================================================
+2026-11-10 15:18:16,930  INFO     Step 1/3 — Crawling feeds…
+2026-11-10 15:18:17,245  INFO       Hacker News                    → 2 significant articles
+2026-11-10 15:18:17,415  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-10 15:18:17,666  INFO       Ars Technica                   → 0 significant articles
+2026-11-10 15:18:19,120  INFO       The Register AI                → 0 significant articles
+2026-11-10 15:18:19,273  INFO       MIT Tech Review                → 1 significant articles
+2026-11-10 15:18:19,442  INFO       Dev.to AI                      → 6 significant articles
+2026-11-10 15:18:19,600  INFO       Dev.to Programming             → 5 significant articles
+2026-11-10 15:18:20,013  INFO       GitHub Blog                    → 0 significant articles
+2026-11-10 15:18:20,606  INFO       Google Research                → 0 significant articles
+2026-11-10 15:18:21,440  INFO       Reddit r/MachineLearning       → 2 significant articles
+2026-11-10 15:18:21,566  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-10 15:18:21,951  INFO       InfoQ                          → 4 significant articles
+2026-11-10 15:18:22,166  INFO       Towards Data Science           → 6 significant articles
+2026-11-10 15:18:22,449  INFO       Wired AI                       → 0 significant articles
+2026-11-10 15:18:22,579  INFO       TechCrunch AI                  → 3 significant articles
+2026-11-10 15:18:22,580  INFO     Fetching images for top articles…
+2026-11-10 15:18:22,708  INFO       🖼  After challenging Google’s Android with Cyanogen, its co-fou
+2026-11-10 15:18:22,863  INFO       🖼  Reddit uses artificial intelligence to summarize what users 
+2026-11-10 15:18:22,978  INFO       🖼  We asked dev.to to break our AI agent design. The community 
+2026-11-10 15:18:23,155  INFO       🖼  Anthropic launches roadshow for proposed initial public offe
+2026-11-10 15:18:23,279  INFO       🖼  Lex Sentinel: what I learned taking an AI legal monitor from
+2026-11-10 15:18:23,381  INFO       🖼  I gave my agent a leaked API key — did it revoke it first?
+2026-11-10 15:18:23,381  INFO     Total selected: 29 articles from 15 feeds
+2026-11-10 15:18:23,381  INFO     Selected 29 significant articles
+2026-11-10 15:18:23,381  INFO     Step 2/3 — Generating digest…
+2026-11-10 15:18:23,981  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-10 15:18:23,982  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-10 15:18:23,982  INFO     Step 3/3 — Rendering HTML…
+2026-11-10 15:18:23,983  INFO     ────────────────────────────────────────────────────────────
+2026-11-10 15:18:23,983  INFO     Done!  Open: output/index.html
+2026-11-10 15:18:23,983  INFO     Headline: After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era

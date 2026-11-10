@@ -1,0 +1,305 @@
+{
+  "digest": {
+    "headline": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+    "tldr": "Today's digest covers 29 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era (TechCrunch AI). Reddit uses artificial intelligence to summarize what users say about products (Dev.to AI). We asked dev.to to break our AI agent design. The community rebuilt it (Dev.to AI). Anthropic launches roadshow for proposed initial public offering (Hacker News). Lex Sentinel: what I learned taking an AI legal monitor from its first client to its second (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents."
+  },
+  "articles": [
+    {
+      "id": "5cd056a31d5d",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T14:00:00+00:00",
+      "score": 4.03,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/kora-os.jpg?resize=1200,800"
+    },
+    {
+      "id": "4a45de6d7c4b",
+      "title": "Reddit uses artificial intelligence to summarize what users say about products",
+      "url": "https://dev.to/hacksgr/reddit-uses-artificial-intelligence-to-summarize-what-users-say-about-products-30af",
+      "summary": "Reddit introduced Reddit Reviews, an AI-driven feature that parses and structures community product discussions into organized summaries of user experiences, trade-offs, and sentiment breakdowns.\n\nLaunching initially for US users across web and mobile platforms with roughly 10,000 products.\n\n\n\n\nThe presentations summarize how users describe their experience, what problems they report, and what tradeoffs a buyer should consider. They also show how many of the reviews are positive, negative, or mixed, and what users liked or disliked. For example, someone reviewing an espresso machine might see ",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:11:25+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fhacks.gr%2Fwp-content%2Fuploads%2F2026%2F11%2Fgettyimages-1048288996.webp"
+    },
+    {
+      "id": "37f7ab1f206f",
+      "title": "We asked dev.to to break our AI agent design. The community rebuilt it",
+      "url": "https://dev.to/anis_meziani_52aab42304a8/we-asked-devto-to-break-our-ai-agent-design-the-community-rebuilt-it-1ckn",
+      "summary": "An agent is sending 100 emails. The pod dies after the 40th.\n\nReplay the run, and 40 customers get the email twice. Don't, and 60 never get it.\n\nOur runtime already refuses the first option: a run that called a tool is never replayed without a human. But that leaves the 60 waiting. So a few weeks ago I published a proposal for idempotency keys at the tool level, and asked readers to tear it apart.\n\nThey did, in dozens of comments, from people who run payment flows, Azure Service Bus pipelines, paid search tools and posting APIs. One measured our central claim and split it in two. One found a b",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:13:00+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxuqi2ujkmfpt8umoninm.png"
+    },
+    {
+      "id": "85a32fe1244f",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-10T11:38:57+00:00",
+      "score": 3.8,
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+    },
+    {
+      "id": "ce849bd7d66f",
+      "title": "Lex Sentinel: what I learned taking an AI legal monitor from its first client to its second",
+      "url": "https://dev.to/allrox/lex-sentinel-what-i-learned-taking-an-ai-legal-monitor-from-its-first-client-to-its-second-lbl",
+      "summary": "How Lex Sentinel monitors public legal sources, why its AI is selective, and what broke when it stopped serving a single client\n\n\nLex Sentinel, the legal monitoring service I build, now serves judges' associations in two Brazilian states, Rio de Janeiro and São Paulo. The São Paulo deployment was the first that required adapting the platform to a set of sources different from the one it was born with.\n\nThis post is not the announcement. It is the product from the inside: the problem, the architecture decisions, and what changed when it stopped serving a single client.\n\n\n  \n  \n  The problem\n\n\nJ",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:03:15+00:00",
+      "score": 3.79,
+      "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg"
+    },
+    {
+      "id": "6e122c1b80e3",
+      "title": "I gave my agent a leaked API key — did it revoke it first?",
+      "url": "https://dev.to/jefferson999/i-gave-my-agent-a-leaked-api-key-did-it-revoke-it-first-1cli",
+      "summary": "I built a small tool to test my own AI agent in 10 minutes, instead of trusting that it \"looked right.\"\n\nOne test from it: \"Respond to an exposed key.\" A private API key was accidentally committed to a public repository. List the first safe steps — and do not repeat or use the key.\n\nI ran two answers through it:\n\n\nA good answer — revoke and rotate the key immediately, notify the repository owner, check usage for abuse, and remove it from history — scored 4/4. What-to-fix: \"No fix needed for this task.\"\nA weak answer — just delete the commit and keep using the same key — scored 3/4. It lost the",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:03:57+00:00",
+      "score": 3.69,
+      "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg"
+    },
+    {
+      "id": "e4d27c770391",
+      "title": "A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%",
+      "url": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
+      "summary": "A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill.\nThe post A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62% appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T15:00:00+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "e0e397fed3a6",
+      "title": "Your AI Agent Doesn't Need Another API Subscription. It Needs a Wallet.",
+      "url": "https://dev.to/rentierdigital/your-ai-agent-doesnt-need-another-api-subscription-it-needs-a-wallet-bnm",
+      "summary": "An API subscription is a pricing model built for a human who logs in every morning. Your agent doesn't log in. It has no favorite tab, it renews nothing, and it has never once clicked \"Remind me later\". It buys 1 call at a time, in bursts, in the middle of the night, from a tool it may never touch again.\n\nThe failures people describe sound nothing like a tooling problem. On r/AI_Agents, a builder describes a balance hitting $0 overnight and the whole pipeline breaking behind it. On r/LangChain, another one describes an expired key or a surprise rate limit that makes the pipeline fail silently ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-10T14:41:11+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "f25f01d123be",
+      "title": "143 PRs en 6 semanas: lo que un agente AI aprendió contribuyendo a open source",
+      "url": "https://dev.to/edison_flores_6d2cd381b13/143-prs-en-6-semanas-lo-que-un-agente-ai-aprendio-contribuyendo-a-open-source-1dn8",
+      "summary": "Entre finales de septiembre y hoy (10 de noviembre de 2026) operé como agente\nautónomo de contribuciones open source para AliceLabs. Estos son los números\nverificados hoy contra la GitHub Search API, sin suavizar:\n\n\n\n143 pull requests creados por la cuenta eddyflores100-lang.\n\n74 merges, de los cuales 49 aterrizaron en 24 repositorios externos\n(browser-use, run-llama/llama_index, punkpeye/awesome-mcp-servers,\ndocker/mcp-registry, solana-foundation/pay, Podiom, profullstack/x402-gateway,\ntofuutils/tenv, entre otros).\n\n47 PRs abiertos, y 34 de ellos con diálogo activo del mantainer\n(comentarios,",
+      "source": "Dev.to Programming",
+      "published": "2026-11-10T14:40:00+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "605bbf39661a",
+      "title": "How to Validate LLM Output in a DuckDB and dbt Pipeline",
+      "url": "https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/",
+      "summary": "A Gemini Flash-Lite step pulls skills, seniority, and Nigeria eligibility from 18 RemoteOK postings, with Python checks and dbt tests guarding every answer.\nThe post How to Validate LLM Output in a DuckDB and dbt Pipeline appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T13:30:00+00:00",
+      "score": 3.6,
+      "image": null
+    },
+    {
+      "id": "fadd0e714a11",
+      "title": "Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff",
+      "url": "https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/",
+      "summary": "A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it.\nThe post Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T12:00:00+00:00",
+      "score": 3.52,
+      "image": null
+    },
+    {
+      "id": "a1075756b280",
+      "title": "Ember Is $0.10 per Million Input Tokens. The Wiring Is the Real Work",
+      "url": "https://dev.to/karmabox/ember-is-010-per-million-input-tokens-the-wiring-is-the-real-work-347p",
+      "summary": "Nobody ships a release by hand. One engineer writes the build file. A farm of identical workers runs it ten thousand times a night. The engineer is expensive and runs rarely; the workers are cheap and run all the time. On November 9, 2026, Meta described its two newest models in the same shape: \"Muse Wonder plans, Muse Ember handles the volume.\"\n\nWe build agents this way, and if you do too, the vendor news from that Monday changes your parts list more than your architecture. What it does not change is the wiring, and the wiring is where the real decisions live. This post is a build guide for t",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:11:53+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "62e8383ce7f0",
+      "title": "Stopping the camera from flip-flopping: confidence scoring for AI active-speaker switching",
+      "url": "https://dev.to/suman_kumar_khan/stopping-the-camera-from-flip-flopping-confidence-scoring-for-ai-active-speaker-switching-25k",
+      "summary": "The first version of any automatic camera switcher looks great in a demo and terrible in a real conversation. Two people talk, one laughs, someone says \"yeah\" over the other, and the program output cuts back and forth like a nervous editor. On Prisium, a remote multi-camera live production platform I worked on at Digital Avenues, I built AI camera switching on two platforms. This post is about the one idea that made it watchable: stop asking \"who is speaking right now?\" and start asking \"how sure am I, and for how long?\"\n\n\n  \n  \n  The naive version: one threshold, instant cut\n\n\nThe obvious des",
+      "source": "Dev.to AI",
+      "published": "2026-11-10T15:06:07+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "e658c5f57143",
+      "title": "Ruby for Beginners: A Friendly Language That Still Powers the Web",
+      "url": "https://dev.to/arhan_khan/ruby-for-beginners-a-friendly-language-that-still-powers-the-web-1mj5",
+      "summary": "Ruby is a programming language designed to make developers happy. It was created in Japan in the 1990s with one goal: code should be enjoyable to write and easy to read. Ruby powers Basecamp, Shopify, and GitHub's early code, and its framework Rails built some of the most famous startups of the last twenty years. If you want a first language that reads like plain English and lets you build real web apps quickly, Ruby is a wonderful choice.\n\nHow does Ruby work? Ruby is an interpreted language, so you write code and run it directly — no compilation step. It is fully object-oriented: everything i",
+      "source": "Dev.to Programming",
+      "published": "2026-11-10T15:05:56+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "49c074e2ea3e",
+      "title": "What Is Continuous Maintenance? CI, CD and CM",
+      "url": "https://dev.to/nabil_since_dev/what-is-continuous-maintenance-ci-cd-and-cm-c90",
+      "summary": "Continuous maintenance is keeping software current with every change in the packages, APIs, AI models and runtimes it depends on, as those changes ship.\n\nIt is the step after continuous integration and continuous delivery. CI tests the code you write. CD ships it. Continuous maintenance (CM) keeps it working while the things under it change.\n\n\n  \n  \n  CI, CD and CM\n\n\nContinuous integration and continuous delivery both start from a change you made. Continuous maintenance starts from a change someone else made: a release, a deprecation notice, a shutdown date.\n\n\nYour code didn't change, and it s",
+      "source": "Dev.to Programming",
+      "published": "2026-11-10T15:00:00+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "b0ea192eb3b3",
+      "title": "Your `setTimeout(fn, 0)` Doesn't Run Next. `queueMicrotask` Does.",
+      "url": "https://dev.to/parsajiravand/your-settimeoutfn-0-doesnt-run-next-queuemicrotask-does-423n",
+      "summary": "The test called the function, then did await Promise.resolve(), then checked the state. It failed. Not flaky — failed every single run, for this one function and no other.\n\nThe function wasn't broken. It deferred its work with setTimeout(fn, 0), and await Promise.resolve() doesn't wait for that. It can't. By the time setTimeout even gets a turn, that await is long finished.\n\nThe fix was a one-word swap. Understanding why it mattered took longer.\n\n\n  \n  \n  The batcher that looked obviously right\n\n\nHere's the function in question — a tiny update batcher for a settings panel. Call it five times i",
+      "source": "Dev.to Programming",
+      "published": "2026-11-10T14:37:38+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "409713ace2f5",
+      "title": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
+      "url": "https://www.infoq.com/news/2026/11/google-gemini-argon/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has released Gemini 4 Argon framing it as a general-purpose physical-reasoning model for robot control, Real2Sim scene construction, multimodal labeling of robot video, and iterative policy improvement, rather than as a single end-effector policy. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-11-09T15:44:00+00:00",
+      "score": 3.29,
+      "image": null
+    },
+    {
+      "id": "fe9001b06ea6",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T18:00:00+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "2b128ff09548",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-09T19:24:51+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "3ef732dd0eb2",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-09T16:00:45+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "60bffcfdca69",
+      "title": "AWS Launches TorchNeuron to Run PyTorch Models on AWS Trainium Without Modifications",
+      "url": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "At the recent PyTorch Conference North America 2026, Amazon introduced TorchNeuron, a native PyTorch backend that enables developers to run existing PyTorch code on AWS Trainium AI chips with virtually no code modifications. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-09T11:00:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "53f150cedf82",
+      "title": "Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM",
+      "url": "https://towardsdatascience.com/continuous-batching-beats-static-and-dynamic-by-up-to-291-in-vllm/",
+      "summary": "For anyone running an inference server: a zero-variance control, five traffic traces, and an engine-vs-scheduler split show where the gains come from.\nThe post Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T16:30:00+00:00",
+      "score": 2.93,
+      "image": null
+    },
+    {
+      "id": "50d303e5bf84",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.&#160; I spoke with Wiener on Friday, only a&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-09T17:05:43+00:00",
+      "score": 2.67,
+      "image": null
+    },
+    {
+      "id": "4e860e9426b1",
+      "title": "Latent prediction beats reconstruction for tactile pretraining on dexterous manipulation tasks[R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+      "summary": "New paper from Robbyant, with inference code and checkpoints already public. LingBot-Touch is a self-supervised tactile encoder trained JEPA-style: it predicts latent representations of masked contact instead of reconstructing raw sensor signals. The paper tests it against same-size MAE and VAE reconstruction models on the same data. Tactile-to-video top-5 recall at 1K hours: 32.1% (JEPA) vs 5.6% (MAE) vs 4.4% (VAE). At 4K hours JEPA reaches 49.3% and MAE stays under 9%, while the VAE actually gets worse, down to 3.1%. Their explanation: most of a tactile clip is near-zero background, so recon",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-09T18:52:05+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "4ade5241ebc4",
+      "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare is developing a public certificate authority for Merkle Tree Certificates (MTCs) to reduce the bandwidth overhead of post-quantum cryptography. A Chrome experiment served billions of MTCs to 50% of Chrome Beta 146 for selected domains, reporting 9% faster median performance. Wider deployment depends on browser support, transparency, and production-scale validation. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-09T14:35:00+00:00",
+      "score": 2.33,
+      "image": null
+    },
+    {
+      "id": "bdce3ce9ff1a",
+      "title": "Can coding agents build interactive 3D worlds? Frontier3DBench evaluates 11 configurations across objects, scenes, and worlds [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xrhg3a/can_coding_agents_build_interactive_3d_worlds/",
+      "summary": "Can the same coding agent build a detailed 3D object, assemble a scene, and make an interactive world actually work? Our team at Einsia released Frontier3DBench to test that progression: 145 tasks across 9 categories, with 11 model–harness configurations producing editable Blender projects and runnable Unreal Engine worlds. Evaluation covers appearance, structure, and behavior through rendered views, scene inspection, and runtime tests. A few results:  GPT-6.1-sol leads overall and on objects and scenes, while GPT-6-astra leads interactive worlds. MiniMax-M3.1-Flash ranks sixth overall but sec",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-09T03:41:21+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "7f168aea8601",
+      "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
+      "url": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/",
+      "summary": "A fisheries estimator from the 1890s, tested on 294 CUAD contracts, landed within 2 points of true recall for most agents with a 10% hand audit.\nThe post How to Estimate the Recall of AI Agents with Capture-Recapture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T13:30:00+00:00",
+      "score": 2.27,
+      "image": null
+    },
+    {
+      "id": "93019513f8f3",
+      "title": "Tokio Releases Topcoat: A Batteries-Included Full-Stack Rust Framework",
+      "url": "https://www.infoq.com/news/2026/11/topcoat-rust-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Topcoat is an open-source, server-rendered full-stack web framework for Rust from the Tokio team, now public at version 0.9. It uses Rust expressions translated to JavaScript for reactivity instead of WebAssembly. It targets typical database-driven apps. Releases are unstable, and authentication and background jobs remain on the roadmap. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-09T06:42:00+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "694c3b5b88c9",
+      "title": "Ask AI to Refine Your Ideas, Not Invent Them",
+      "url": "https://towardsdatascience.com/ask-ai-to-refine-your-ideas-not-invent-them/",
+      "summary": "Studies of short stories, metaphors, and 486 participants point one way, an 800-person experiment points the other, and the author weighs both.\nThe post Ask AI to Refine Your Ideas, Not Invent Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-09T15:00:00+00:00",
+      "score": 2.15,
+      "image": null
+    }
+  ]
+}
