@@ -6411,3 +6411,38 @@
 2026-11-10 15:18:23,983  INFO     ────────────────────────────────────────────────────────────
 2026-11-10 15:18:23,983  INFO     Done!  Open: output/index.html
 2026-11-10 15:18:23,983  INFO     Headline: After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era
+2026-11-11 14:48:45,016  INFO     ============================================================
+2026-11-11 14:48:45,016  INFO     TECHPULSE Digest — 2026-11-11 14:48 UTC
+2026-11-11 14:48:45,016  INFO     ============================================================
+2026-11-11 14:48:45,016  INFO     Step 1/3 — Crawling feeds…
+2026-11-11 14:48:45,269  INFO       Hacker News                    → 0 significant articles
+2026-11-11 14:48:45,372  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-11 14:48:45,502  INFO       Ars Technica                   → 0 significant articles
+2026-11-11 14:48:45,960  INFO       The Register AI                → 1 significant articles
+2026-11-11 14:48:46,042  INFO       MIT Tech Review                → 0 significant articles
+2026-11-11 14:48:46,149  INFO       Dev.to AI                      → 3 significant articles
+2026-11-11 14:48:46,259  INFO       Dev.to Programming             → 2 significant articles
+2026-11-11 14:48:46,345  INFO       GitHub Blog                    → 0 significant articles
+2026-11-11 14:48:47,251  INFO       Google Research                → 0 significant articles
+2026-11-11 14:48:47,922  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-11-11 14:48:47,961  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-11 14:48:48,386  INFO       InfoQ                          → 2 significant articles
+2026-11-11 14:48:48,558  INFO       Towards Data Science           → 6 significant articles
+2026-11-11 14:48:48,694  INFO       Wired AI                       → 0 significant articles
+2026-11-11 14:48:48,751  INFO       TechCrunch AI                  → 6 significant articles
+2026-11-11 14:48:48,751  INFO     Fetching images for top articles…
+2026-11-11 14:48:48,803  INFO       🖼  Scene Complexity Metrics: Measuring Clutter and Density Beyo
+2026-11-11 14:48:48,849  INFO       🖼  The AI Labs' Public Pacing Calls Are Now Antitrust Evidence
+2026-11-11 14:48:48,874  INFO       🖼  EU Digital Fairness Act: What the Commission's Consumer Rule
+2026-11-11 14:48:48,903  INFO       🖼  Parallel coding agents, one human: how to stop being the bot
+2026-11-11 14:48:49,529  INFO       🖼  Angular's TypeScript 7-Powered Compiler Enters Beta with Rus
+2026-11-11 14:48:49,556  INFO       🖼  Waiting, Not Computing: The Real Reason Your CPU is Maxed Ou
+2026-11-11 14:48:49,556  INFO     Total selected: 21 articles from 15 feeds
+2026-11-11 14:48:49,556  INFO     Selected 21 significant articles
+2026-11-11 14:48:49,557  INFO     Step 2/3 — Generating digest…
+2026-11-11 14:48:49,943  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-11 14:48:49,943  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-11 14:48:49,943  INFO     Step 3/3 — Rendering HTML…
+2026-11-11 14:48:49,944  INFO     ────────────────────────────────────────────────────────────
+2026-11-11 14:48:49,944  INFO     Done!  Open: output/index.html
+2026-11-11 14:48:49,944  INFO     Headline: Scene Complexity Metrics: Measuring Clutter and Density Beyond mAP

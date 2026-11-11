@@ -1,0 +1,229 @@
+{
+  "digest": {
+    "headline": "Scene Complexity Metrics: Measuring Clutter and Density Beyond mAP",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Scene Complexity Metrics: Measuring Clutter and Density Beyond mAP (Dev.to AI). The AI Labs' Public Pacing Calls Are Now Antitrust Evidence (Dev.to Programming). EU Digital Fairness Act: What the Commission's Consumer Rules Initiative Means for Businesses (Dev.to AI). Parallel coding agents, one human: how to stop being the bottleneck (Dev.to AI). Waiting, Not Computing: The Real Reason Your CPU is Maxed Out (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Angular's TypeScript 7-Powered Compiler Enters Beta with Rust-Based Preprocessor (InfoQ)."
+      }
+    ],
+    "key_takeaway": "A model reports 0.84 mean average precision (mAP) on your benchmark test set. Management approves deployment, and marketing drafts the launch announcement.\n\nThree days later, field reports arrive: the model is failing systematically. In crowded retail aisles, busy warehouse loading docks, or messy construction sites, false detections proliferate and target objects are repeatedly missed.\n\nThe failure is not that the model suddenly degraded. The failure is that aggregate mAP told only half the story.\n\nIn real-world computer vision, aggregate metrics mask critical operational failure modes. To un"
+  },
+  "articles": [
+    {
+      "id": "d8143f87acf9",
+      "title": "Scene Complexity Metrics: Measuring Clutter and Density Beyond mAP",
+      "url": "https://dev.to/harpreetsahota/scene-complexity-metrics-measuring-clutter-and-density-beyond-map-3acp",
+      "summary": "A model reports 0.84 mean average precision (mAP) on your benchmark test set. Management approves deployment, and marketing drafts the launch announcement.\n\nThree days later, field reports arrive: the model is failing systematically. In crowded retail aisles, busy warehouse loading docks, or messy construction sites, false detections proliferate and target objects are repeatedly missed.\n\nThe failure is not that the model suddenly degraded. The failure is that aggregate mAP told only half the story.\n\nIn real-world computer vision, aggregate metrics mask critical operational failure modes. To un",
+      "source": "Dev.to AI",
+      "published": "2026-11-11T14:30:46+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Femployabledatascientist.com%2Fog%2Fblog%2Fscene-complexity-metrics-beyond-map.png"
+    },
+    {
+      "id": "810076249d0c",
+      "title": "The AI Labs' Public Pacing Calls Are Now Antitrust Evidence",
+      "url": "https://dev.to/neticslabs/the-ai-labs-public-pacing-calls-are-now-antitrust-evidence-55ga",
+      "summary": "TL;DR\n\n\n\nFour consumers filed a class action on September 18, 2026, accusing Anthropic, OpenAI, SpaceXAI and Google of a horizontal agreement to slow the pace of capability gains — built almost entirely from public statements made on September 12.\nThe complaint's spine: Amodei essays the proposal in the morning, Musk, Altman and Hassabis publicly assent the same day, and there is no antitrust waiver. \"Proposed in public, accepted in public, and confirmed in public,\" as the filing puts it.\nThe concession that matters: within 29 pages, the complaint identifies no slowed release, no cancelled mod",
+      "source": "Dev.to Programming",
+      "published": "2026-11-11T14:00:27+00:00",
+      "score": 3.86,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fblog.neticslabs.com%2Fcontent%2Fimages%2F2026%2F09%2Fthumb-buist-anthropic-antitrust-class-action-2026-09-21-2.webp"
+    },
+    {
+      "id": "103421f5470d",
+      "title": "EU Digital Fairness Act: What the Commission's Consumer Rules Initiative Means for Businesses",
+      "url": "https://dev.to/alifar/eu-digital-fairness-act-what-the-commissions-consumer-rules-initiative-means-for-businesses-538f",
+      "summary": "The European Commission is advancing a Digital Fairness Act (DFA) as a new consumer-protection initiative for the digital economy. Announced and presented as part of a wider package on 11 November 2026, the initiative targets manipulative interface design, addictive digital features, influencer advertising transparency and the cancellation of online subscriptions. For businesses operating websites, apps, ecommerce services or recurring-revenue products in the EU, the direction is clear: consumer journeys will need to be easier to understand, easier to leave and less dependent on pressure tacti",
+      "source": "Dev.to AI",
+      "published": "2026-11-11T14:30:30+00:00",
+      "score": 3.78,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Feu-digital-fairness-act-business-implications.webp"
+    },
+    {
+      "id": "649f3d7791d5",
+      "title": "Parallel coding agents, one human: how to stop being the bottleneck",
+      "url": "https://dev.to/roidayan/parallel-coding-agents-one-human-how-to-stop-being-the-bottleneck-805",
+      "summary": "Starting four coding agents is the easy part. Then the first one asks to run the tests, the second has a question about the cache, the third says it's done, and the fourth has been waiting on you for ten minutes in a tab you haven't looked at. Run agents in parallel without a plan for your own attention, and it mostly means waiting in parallel.\n\nYou are the one part of the setup that doesn't scale, so the work is in asking less of yourself. Here's what does that, in plain tools first, then the same thing in a desktop app.\n\n\n  \n  \n  Where the waiting comes from\n\n\nFour things, roughly in order o",
+      "source": "Dev.to AI",
+      "published": "2026-11-11T14:32:20+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxqxvobxtch3fy750z15a.png"
+    },
+    {
+      "id": "2ec294bc6e57",
+      "title": "Angular's TypeScript 7-Powered Compiler Enters Beta with Rust-Based Preprocessor",
+      "url": "https://www.infoq.com/news/2026/11/angular-compiler-rust-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Angular team has introduced ngp, a compiler preprocessor that rewrites the analysis stage in Rust using Oxc. It replaces ngc's dependence on the Transformer API, which TypeScript 7.0 removed. An early benchmark showed 2x to 3x faster cold builds. Adoption is expected in an Angular 22 minor release; production builds should stay on ngc until then. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-11T07:06:00+00:00",
+      "score": 3.57,
+      "image": "https://res.infoq.com/news/2026/11/angular-compiler-rust-typescript/en/headerimage/generatedHeaderImage-1794323310151.jpg"
+    },
+    {
+      "id": "fdaba85ef1ae",
+      "title": "Waiting, Not Computing: The Real Reason Your CPU is Maxed Out",
+      "url": "https://dev.to/video_compression_guru/waiting-not-computing-the-real-reason-your-cpu-is-maxed-out-4lo1",
+      "summary": "Imagine this scenario: you're building a powerful video analytics server, installing a modern multi-core processor, and launching your monitoring or transcoding. The resource calculator tells you there is plenty of headroom, but in reality, the server is choking. CPU utilization hits 100%, the probe logs (like Elecard Boro) show massive packet loss, and the service becomes highly unstable.\n\nWe have encountered this exact IT detective story in our practice at Elecard. Let's break down how a robust server can fall victim to a tiny hardware configuration detail, and why your standard monitoring t",
+      "source": "Dev.to Programming",
+      "published": "2026-11-11T14:09:49+00:00",
+      "score": 3.46,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsfanz1rxs0ez9rqkhg43.png"
+    },
+    {
+      "id": "48d672eda855",
+      "title": "How to Use Apple's fm CLI to Run On-Device LLMs From Python",
+      "url": "https://towardsdatascience.com/how-to-use-apples-fm-cli-to-run-on-device-llms-from-python/",
+      "summary": "A Sate Padang vision test and a Malaysia capital question show why the free, private model needs grounding and validation before it leaves prototyping.\nThe post How to Use Apple's fm CLI to Run On-Device LLMs From Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-11T13:30:00+00:00",
+      "score": 3.43,
+      "image": null
+    },
+    {
+      "id": "311fbbc4dfc2",
+      "title": "A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch",
+      "url": "https://towardsdatascience.com/a-jev-of-all-trades-build-and-train-a-jev-style-decision-model-from-scratch/",
+      "summary": "Trained on six PathMNIST tissues with a small KEEP adapter, it handled added labels without retraining, though a linear classifier hit 88% on familiar ones.\nThe post A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-11T12:00:00+00:00",
+      "score": 3.34,
+      "image": null
+    },
+    {
+      "id": "2800935556d8",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T19:03:52+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "fd8e1c638d2d",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T17:30:00+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "ccdccf818b30",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T18:49:52+00:00",
+      "score": 3.19,
+      "image": null
+    },
+    {
+      "id": "bd2a6830d8cf",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T21:08:52+00:00",
+      "score": 3.12,
+      "image": null
+    },
+    {
+      "id": "6b515758e390",
+      "title": "Cloudflare Makes Basin Serverless Analytics Generally Available",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare has announced the general availability of Basin, a serverless analytics platform built on Apache Iceberg and R2 Object Storage. The managed service supports open data formats and integrates with tools such as DuckDB, Snowflake, and Apache Spark, with no data egress fees. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-10T19:14:00+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "914fb581f7a2",
+      "title": "14-year-old creates tool for AI agents to band together like a team",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+      "summary": "Autark can act without constant prompting, but leaves users to enforce their own security boundaries",
+      "source": "The Register AI",
+      "published": "2026-11-10T18:31:53+00:00",
+      "score": 2.77,
+      "image": null
+    },
+    {
+      "id": "5cd056a31d5d",
+      "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+      "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+      "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T14:00:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "40db0c88292e",
+      "title": "Scikit-Learn Matched or Beat Jev's Calibration on BANKING77",
+      "url": "https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/",
+      "summary": "Jev needs no training and at most three examples per intent; the open rebuild needs labels. Both still fall into the none-of-the-above trap.\nThe post Scikit-Learn Matched or Beat Jev's Calibration on BANKING77 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T16:30:00+00:00",
+      "score": 2.56,
+      "image": null
+    },
+    {
+      "id": "1c52468d7a99",
+      "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+      "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+      "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-10T13:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "e4d27c770391",
+      "title": "A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%",
+      "url": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
+      "summary": "A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill.\nThe post A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62% appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T15:00:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "7f2c72c98ce4",
+      "title": "I benchmarked TimesFM 3.0, Chronos-2 and Toto 2.0 on market time series. None beat simple baseline. [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
+      "summary": "I may be naive, but I've been curious whether the recent wave of time-series foundation models can actually extract useful predictive signals from financial markets. Models like Google's TimesFM 3.0, Amazon's Chronos-2, and Datadog's Toto 2.0 are impressive general-purpose forecasters from the first sight. But stock prices are difficult to predict, so I wanted to see how these models perform against very simple baselines. I ran a series of zero-shot experiments on 24 US stocks and ETFs, including daily and intraday data, and compared their predictions against naive forecasting strategies and a",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-10T16:14:16+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "605bbf39661a",
+      "title": "How to Validate LLM Output in a DuckDB and dbt Pipeline",
+      "url": "https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/",
+      "summary": "A Gemini Flash-Lite step pulls skills, seniority, and Nigeria eligibility from 18 RemoteOK postings, with Python checks and dbt tests guarding every answer.\nThe post How to Validate LLM Output in a DuckDB and dbt Pipeline appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T13:30:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "fadd0e714a11",
+      "title": "Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff",
+      "url": "https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/",
+      "summary": "A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it.\nThe post Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-10T12:00:00+00:00",
+      "score": 2.21,
+      "image": null
+    }
+  ]
+}
