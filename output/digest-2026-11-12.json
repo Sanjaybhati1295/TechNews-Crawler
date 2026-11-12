@@ -1,0 +1,189 @@
+{
+  "digest": {
+    "headline": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+    "tldr": "Today's digest covers 17 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Azure Logic Apps Standard Gets a Local CLI in Preview (InfoQ). After a breach, your logs are testimony, not evidence (Dev.to AI). From Prompts to Production: Scaling Enterprise Software with Architecture-First AI Engineering (Dev.to Programming). Exploring Online Retail Data Using Python and Pandas: A Practical EDA Approach (Dev.to AI). Why the data center you dread might never even be built (TechCrunch AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Eliminating PostgreSQL Row-Level Deadlocks (40P01) with Canonical Ordering and Jittered Retries (Dev.to AI). Angular's TypeScript 7-Powered Compiler Enters Beta with Rust-Based Preprocessor (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that previously required the VS Code extension. The product team pitches the terminal surface as determinism for AI-assisted development. By Steef-Jan Wiggers"
+  },
+  "articles": [
+    {
+      "id": "1019ee4b2b2f",
+      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+      "url": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that previously required the VS Code extension. The product team pitches the terminal surface as determinism for AI-assisted development. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-12T10:23:00+00:00",
+      "score": 3.71,
+      "image": "https://res.infoq.com/news/2026/11/logic-apps-local-cli/en/headerimage/generatedHeaderImage-1793791837422.jpg"
+    },
+    {
+      "id": "b38eb98ee96c",
+      "title": "After a breach, your logs are testimony, not evidence",
+      "url": "https://dev.to/anatoli_navahrodski_55514/after-a-breach-your-logs-are-testimony-not-evidence-1amn",
+      "summary": "Picture a Tuesday morning. An agent with access to your payments backend did something odd overnight: a batch of refunds nobody can explain, and a tool call to an endpoint it has never used before. By ten o'clock security has the host isolated. By eleven your broker has called. If you are a financial entity in the EU and this turns out to be a major incident, DORA gives you four hours from that classification to send the first notice.\n\nEveryone asks the same question: what exactly did the agent do?\n\nThe example is made up. The situation is not, and the uncomfortable part comes next.\n\n\n  \n  \n  ",
+      "source": "Dev.to AI",
+      "published": "2026-11-12T15:34:30+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fi9mmwikcwfh8ibzvgva3.png"
+    },
+    {
+      "id": "83f3fee82e61",
+      "title": "From Prompts to Production: Scaling Enterprise Software with Architecture-First AI Engineering",
+      "url": "https://dev.to/melissadissouza/from-prompts-to-production-scaling-enterprise-software-with-architecture-first-ai-engineering-1dk3",
+      "summary": "Enterprise software engineering stands at a crossroads. Over the past few years, generative artificial intelligence has transformed how individual developers write scripts, debug functions, and prototype ideas. Yet when Fortune 500 engineering leaders attempt to scale these capabilities across sprawling, mission-critical digital ecosystems, they confront an uncomfortable reality: generating raw code quickly is not the same as delivering production-ready enterprise software.\n\nModern commercial applications require far more than functional syntax. They demand strict adherence to corporate design",
+      "source": "Dev.to Programming",
+      "published": "2026-11-12T15:27:04+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fprnb1r6dbyez71lmhdqp.png"
+    },
+    {
+      "id": "d8948855b66e",
+      "title": "Eliminating PostgreSQL Row-Level Deadlocks (40P01) with Canonical Ordering and Jittered Retries",
+      "url": "https://dev.to/toai/eliminating-postgresql-row-level-deadlocks-40p01-with-canonical-ordering-and-jittered-retries-2pia",
+      "summary": "How We Eliminated PostgreSQL Row-Level Deadlocks (40P01) Under High Concurrency\n\n\n\n  \n  \n  The Problem: Mysterious Deadlocks Under Load\n\n\nIn high-throughput financial and account balance management services, batch operations and API workers frequently update multiple balance accounts within a single transaction.\n\nDuring stress-testing in our staging environment (simulating parallel requests via Apache JMeter), our centralized log collector suddenly lit up with a barrage of fatal exceptions:\n\n\n\n2023-10-25 10:15:22,104 [ERROR] DeadlockMitigationCLI: Database error occurred (SQLSTATE: 40P01): dea",
+      "source": "Dev.to AI",
+      "published": "2026-11-12T15:34:10+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fqsvdlr3kzpei6qhiy2m4.png"
+    },
+    {
+      "id": "72b88532b8d3",
+      "title": "Exploring Online Retail Data Using Python and Pandas: A Practical EDA Approach",
+      "url": "https://dev.to/ramya_shreer_2b8e8d0a395/exploring-online-retail-data-using-python-and-pandas-a-practical-eda-approach-b0c",
+      "summary": "In today's data-driven world, businesses generate large volumes of information through customer transactions, product purchases, and daily operations. However, collecting data is only the first step. Understanding what the data represents and identifying meaningful patterns are equally important. Exploratory Data Analysis (EDA) helps transform raw data into useful insights that can support better business decisions.\n\nAs part of my data analytics learning journey, I worked on an Exploratory Data Analysis project using Python and an Online Retail dataset. The primary objective was to understand ",
+      "source": "Dev.to AI",
+      "published": "2026-11-12T15:31:19+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8kj7zllwtt97ilfcyu7f.png"
+    },
+    {
+      "id": "0d92f57c72e3",
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic problem: A lot of the projects being announced may never get built in the first place.&#160;With billions of dollars in AI infrastructure [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T20:15:15+00:00",
+      "score": 3.42,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/5-DSCF1634.jpg?resize=1200,800"
+    },
+    {
+      "id": "984513ae1fc4",
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic problem: A lot of the projects being announced may never get built in the first place.&#160;With billions of dollars in AI infrastructure [&#8230;]",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T20:02:14+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "f48559b8526f",
+      "title": "A Soft-Label MNIST Testbed for Human vs. Model Confidence",
+      "url": "https://towardsdatascience.com/a-soft-label-mnist-testbed-for-human-vs-model-confidence/",
+      "summary": "Annotators marked each MNIST and Mukhoti digit yes, no, or unsure, producing image-level soft labels and uncertainty scores.\nThe post A Soft-Label MNIST Testbed for Human vs. Model Confidence appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-12T13:30:00+00:00",
+      "score": 3.38,
+      "image": null
+    },
+    {
+      "id": "d147dc3eff08",
+      "title": "How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3)",
+      "url": "https://towardsdatascience.com/how-to-read-cross-pair-correlation-in-r-without-fake-repulsion-part-3/",
+      "summary": "A simulated scar and data from 31 animals after ischemia show how an inhomogeneous estimator, random labelling, and brms separate tissue loss from real interaction.\nThe post How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-12T12:00:00+00:00",
+      "score": 3.3,
+      "image": null
+    },
+    {
+      "id": "1399104b4951",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-11T21:24:35+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "29f521837a1e",
+      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+      "summary": "Sales of $10 billion represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T16:14:44+00:00",
+      "score": 2.8,
+      "image": null
+    },
+    {
+      "id": "7d4c517a6890",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "summary": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to. He uses Databricks' newly revised Genie agent for that.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-11T15:00:00+00:00",
+      "score": 2.73,
+      "image": null
+    },
+    {
+      "id": "5d0e50fe8f6f",
+      "title": "I built an explorer of 2,100+ robotics papers covering 10 years of CoRL; with TLDRs, links to code, project pages, and research trends [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xtul3j/i_built_an_explorer_of_2100_robotics_papers/",
+      "summary": "Heya roboticists and mind minders ~ I built a complete CoRL paper explorer, indexing 2,100+ robotics papers from the last 10 years (2017–2026). Added paper TLDRs, project pages, code, arXiv links, task chips, summary stats, research trends, and more!! Trying to make robot learning research more accessible for the community - might build an open source autoresearch capability on top of it later If you see something that's missing or want to add features/contribute, open a PR and i'll accept it :] paper explorer: https://corl.operatic.ai/explore repo on github - star to follow along!! https://gi",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-11T21:42:54+00:00",
+      "score": 2.6,
+      "image": null
+    },
+    {
+      "id": "69fffa74a6e0",
+      "title": "AI Assistant vs. Copilot vs. Agent, and When to Use Each",
+      "url": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/",
+      "summary": "A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled.\nThe post AI Assistant vs. Copilot vs. Agent, and When to Use Each appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-11T15:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "2ec294bc6e57",
+      "title": "Angular's TypeScript 7-Powered Compiler Enters Beta with Rust-Based Preprocessor",
+      "url": "https://www.infoq.com/news/2026/11/angular-compiler-rust-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The Angular team has introduced ngp, a compiler preprocessor that rewrites the analysis stage in Rust using Oxc. It replaces ngc's dependence on the Transformer API, which TypeScript 7.0 removed. An early benchmark showed 2x to 3x faster cold builds. Adoption is expected in an Angular 22 minor release; production builds should stay on ngc until then. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-11T07:06:00+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "48d672eda855",
+      "title": "How to Use Apple's fm CLI to Run On-Device LLMs From Python",
+      "url": "https://towardsdatascience.com/how-to-use-apples-fm-cli-to-run-on-device-llms-from-python/",
+      "summary": "A Sate Padang vision test and a Malaysia capital question show why the free, private model needs grounding and validation before it leaves prototyping.\nThe post How to Use Apple's fm CLI to Run On-Device LLMs From Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-11T13:30:00+00:00",
+      "score": 2.05,
+      "image": null
+    },
+    {
+      "id": "311fbbc4dfc2",
+      "title": "A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch",
+      "url": "https://towardsdatascience.com/a-jev-of-all-trades-build-and-train-a-jev-style-decision-model-from-scratch/",
+      "summary": "Trained on six PathMNIST tissues with a small KEEP adapter, it handled added labels without retraining, though a linear classifier hit 88% on familiar ones.\nThe post A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-11T12:00:00+00:00",
+      "score": 1.96,
+      "image": null
+    }
+  ]
+}
