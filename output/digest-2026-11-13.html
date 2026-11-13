@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Friday, November 13, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Friday, November 13, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 24 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/agentsearchhq/n8n-news-monitoring-with-screenshots-news-search-website-screenshot-workflow-3c4m" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsatzc3vpbfrucril148k.png" alt="n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">n8n News Monitoring With Screenshots: News Search + Website Screenshot…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/dspv/five-coding-agents-five-formats-one-table-5g7h" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcaprock.dev%2Fog-post-five-agents-one-table.png" alt="Five coding agents, five formats, one table" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to Programming</span>
+                <span class="img-title">Five coding agents, five formats, one table</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/google-ambient-agent-prod/en/headerimage/generatedHeaderImage-1792894383462.jpg" alt="Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Productio…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>Dev.to Programming</span> · <span>InfoQ</span> · <span>Towards Data Science</span> · <span>TechCrunch AI</span> · <span>Reddit r/MachineLearning</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow (Dev.to AI). Five coding agents, five formats, one table (Dev.to Programming). Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures (InfoQ). Design connectors so partial failure is visible (Dev.to AI). A Budget Guard for LLM Calls: Cap Daily Spend in a Small-Business Automation (Python) (Dev.to AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M (Towards Data Science).</p></div>
+        </div>
+
+    <div class="takeaway">n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow
+
+
+A text digest tells you what was published. Sometimes you also want to see it: the headline as it ran, a competitor&#x27;s pricing page on the day it changed, the launch page before it gets edited. That&#x27;s a screenshot job, and until now it meant running your own headless browser next to n8n.
+
+Version 0.7 of the n8n-nodes-agentsearch community node adds two operations that make this a five-node workflow:
+
+
+
+News Search: recent articles for any topic, each with headline, URL, snippet, source domain and publish date. $0.</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (24 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/agentsearchhq/n8n-news-monitoring-with-screenshots-news-search-website-screenshot-workflow-3c4m" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/dspv/five-coding-agents-five-formats-one-table-5g7h" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Five coding agents, five formats, one table</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/enrique_valeros/design-connectors-so-partial-failure-is-visible-3c29" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Design connectors so partial failure is visible</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ujjwal_dubey_9/a-budget-guard-for-llm-calls-cap-daily-spend-in-a-small-business-automation-python-3m8g" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">A Budget Guard for LLM Calls: Cap Daily Spend in a Small-Business Automation (Python)</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/hassan_devs/gemini-4-hydrogen-googles-fast-model-for-everyday-coding-55h8" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Gemini 4 Hydrogen: Google&#x27;s Fast Model for Everyday Coding</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">What AI Agents Speed Up in PhD Research, and What They Can&#x27;t</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Nectar launches an AI agent to automate creator discovery and outreach for brands</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xv4rjy/paid_surveys_for_machine_learning_scientists_for/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Paid surveys for Machine Learning Scientists for SnorkelAI: Absolutely not worth it [R]</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/voicedots_ai/the-future-of-smart-campuses-one-ai-connecting-every-student-department-and-digital-touchpoint-3p17" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">The Future of Smart Campuses: One AI Connecting Every Student, Department and Digital Touchpoint</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Jensen Huang’s exit puts Nvidia’s support for open source in question</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Check Local LLM Output with Ollama, Gemma 4, and Nimble</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">Build once, run on any agent: A practical guide to agent skills</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/news-insights/company-news/github-availability-report-october-2026/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">GitHub availability report: October 2026</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xuqs9d/gemma_3_builds_a_linearly_decodable_spatial_map/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Gemma 3 builds a linearly decodable spatial map from text, but its answers never read it [R]</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions</span>
+        </a>
+        <a class="ref-link" href="https://www.reddit.com/r/MachineLearning/comments/1xupgn8/weights_for_mnist_handwriting_network_p/" target="_blank" rel="noopener">
+          <span class="ref-source">Reddit r/MachineLearning</span>
+          <span class="ref-title">Weights for MNIST Handwriting Network [P]</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Azure Logic Apps Standard Gets a Local CLI in Preview</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Friday, November 13, 2026 · 24 articles crawled from 7 sources
+  </footer>
+
+</body>
+</html>

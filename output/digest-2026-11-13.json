@@ -1,0 +1,259 @@
+{
+  "digest": {
+    "headline": "n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow",
+    "tldr": "Today's digest covers 24 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow (Dev.to AI). Five coding agents, five formats, one table (Dev.to Programming). Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures (InfoQ). Design connectors so partial failure is visible (Dev.to AI). A Budget Guard for LLM Calls: Cap Daily Spend in a Small-Business Automation (Python) (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow\n\n\nA text digest tells you what was published. Sometimes you also want to see it: the headline as it ran, a competitor's pricing page on the day it changed, the launch page before it gets edited. That's a screenshot job, and until now it meant running your own headless browser next to n8n.\n\nVersion 0.7 of the n8n-nodes-agentsearch community node adds two operations that make this a five-node workflow:\n\n\n\nNews Search: recent articles for any topic, each with headline, URL, snippet, source domain and publish date. $0."
+  },
+  "articles": [
+    {
+      "id": "53bb6925ddc5",
+      "title": "n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow",
+      "url": "https://dev.to/agentsearchhq/n8n-news-monitoring-with-screenshots-news-search-website-screenshot-workflow-3c4m",
+      "summary": "n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow\n\n\nA text digest tells you what was published. Sometimes you also want to see it: the headline as it ran, a competitor's pricing page on the day it changed, the launch page before it gets edited. That's a screenshot job, and until now it meant running your own headless browser next to n8n.\n\nVersion 0.7 of the n8n-nodes-agentsearch community node adds two operations that make this a five-node workflow:\n\n\n\nNews Search: recent articles for any topic, each with headline, URL, snippet, source domain and publish date. $0.",
+      "source": "Dev.to AI",
+      "published": "2026-11-13T14:45:17+00:00",
+      "score": 3.99,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fsatzc3vpbfrucril148k.png"
+    },
+    {
+      "id": "d9b295fdb2fa",
+      "title": "Five coding agents, five formats, one table",
+      "url": "https://dev.to/dspv/five-coding-agents-five-formats-one-table-5g7h",
+      "summary": "Claude Code, Codex, OpenCode, Gemini CLI and DeepSeek Harness each record their work differently, and three of the differences give a believable wrong number.\n\nThis post compares how five coding agents — Claude Code, Codex, OpenCode, Gemini CLI and DeepSeek Harness — write down what they did: where the record lives, its format, how it counts cached tokens, whether it states a cost, and where it names the model. Then it shows the one table Caprock turns all five into, so their numbers can be added up.\n\nUpdate, 2026-10-20: Caprock now reads a sixth, Hermes Agent, from its own SQLite database, an",
+      "source": "Dev.to Programming",
+      "published": "2026-11-13T14:19:17+00:00",
+      "score": 3.86,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcaprock.dev%2Fog-post-five-agents-one-table.png"
+    },
+    {
+      "id": "a7ce3ea4f28b",
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omissions from seven to zero after prompt changes. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-13T13:53:00+00:00",
+      "score": 3.84,
+      "image": "https://res.infoq.com/news/2026/11/google-ambient-agent-prod/en/headerimage/generatedHeaderImage-1792894383462.jpg"
+    },
+    {
+      "id": "0f65975eaad6",
+      "title": "Design connectors so partial failure is visible",
+      "url": "https://dev.to/enrique_valeros/design-connectors-so-partial-failure-is-visible-3c29",
+      "summary": "A connector that returns an empty array can mean several different things:\n\n\nThe query succeeded and found nothing.\nThe request failed before it reached the service.\nThe first page loaded, but a later page did not.\nThe service returned data that the connector could not parse.\n\n\nThose outcomes should not lead an agent to the same next step. “No matching issues” is useful information. “I could not read the issues” is a reason to stop or retry. If both become [], the agent has to guess.\n\n\n  \n  \n  Return the state with the data\n\n\nTreat a connector result as a small report, not just a payload. For ",
+      "source": "Dev.to AI",
+      "published": "2026-11-13T14:39:59+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7tlp0zhevfgi12b19flq.png"
+    },
+    {
+      "id": "e3c10e00fb95",
+      "title": "A Budget Guard for LLM Calls: Cap Daily Spend in a Small-Business Automation (Python)",
+      "url": "https://dev.to/ujjwal_dubey_9/a-budget-guard-for-llm-calls-cap-daily-spend-in-a-small-business-automation-python-3m8g",
+      "summary": "Estimating model spend before launch is useful. Stopping a runaway loop at 2 a.m. is more useful. For small businesses, keeping small-business automation spend predictable matters more than squeezing the last fraction out of each call.\n\nThis guard wraps every model call, keeps a running daily total and refuses calls once a cap is reached, routing the item to a person instead.\n\n\n\nimport json, os, time, datetime\n\nSTATE = \"budget_state.json\"\nDAILY_CAP = float(os.environ.get(\"DAILY_CAP\", \"0\"))       # set in your own currency units\nRATE_IN = float(os.environ.get(\"RATE_PER_1K_IN\", \"0\"))    # from y",
+      "source": "Dev.to AI",
+      "published": "2026-11-13T14:36:19+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fejy5u8btgczsxt2zhx7a.png"
+    },
+    {
+      "id": "d531afff0159",
+      "title": "Gemini 4 Hydrogen: Google's Fast Model for Everyday Coding",
+      "url": "https://dev.to/hassan_devs/gemini-4-hydrogen-googles-fast-model-for-everyday-coding-55h8",
+      "summary": "Have you ever asked a search engine a question with three parts, a typo, and a very specific detail, all in one go, and watched it answer only the easy part?\n\nGoogle introduced Gemini 4 Hydrogen on November 12, 2026, a fast model built for everyday coding and multi-step work where an AI carries out a task on its own. It is the third member of the Gemini 4 family, next to Carbon and Argon, and it is already rolling out across Search, the Gemini app, Google AI Studio, the Gemini API, and Google Antigravity.\n\n\n  \n  \n  The fast one in the family\n\n\nHere is the simplest way I think about it. Carbon ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-13T14:20:01+00:00",
+      "score": 3.66,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.unsplash.com%2Fphoto-1607799279861-4dd421887fb3%3Ffm%3Djpg%26q%3D60%26w%3D3000%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.1.0%26ixid%3DNHwxMjA3fDA%253D"
+    },
+    {
+      "id": "05d89a4c2c11",
+      "title": "What AI Agents Speed Up in PhD Research, and What They Can't",
+      "url": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
+      "summary": "A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change.\nThe post What AI Agents Speed Up in PhD Research, and What They Can't appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T13:30:00+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "f7effce2db92",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T19:11:00+00:00",
+      "score": 3.6,
+      "image": null
+    },
+    {
+      "id": "94a77356671c",
+      "title": "Paid surveys for Machine Learning Scientists for SnorkelAI: Absolutely not worth it [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4rjy/paid_surveys_for_machine_learning_scientists_for/",
+      "summary": "I am here writing about my experience with this. I was contacted to fill out a paid survey for SnorkelAI because I have a PhD and have published at A* conferences in the field, so this might be relevant for other researchers in the community. After not finding a lot of information, I decided to give it a try. I performed the personal verification and waited for the survey to arrive. First bad thing: the level of pushiness is terrible. I went to bed, and when I woke up, I had 1 email and 2 follow-up emails asking me to complete some part of the verification where the uploaded document did not h",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-13T10:50:10+00:00",
+      "score": 3.57,
+      "image": null
+    },
+    {
+      "id": "e26c7311e666",
+      "title": "The Future of Smart Campuses: One AI Connecting Every Student, Department and Digital Touchpoint",
+      "url": "https://dev.to/voicedots_ai/the-future-of-smart-campuses-one-ai-connecting-every-student-department-and-digital-touchpoint-3p17",
+      "summary": "Imagine a student asking about an examination timetable. A parent checking an admission update. A faculty member looking for academic information.\n\nWhat if all they had to do was ask one AI assistant?\n\nNo searching through multiple websites. No calling different departments. No waiting endlessly for responses.\n\nJust one conversation that connects them to the information they need.\n\nWelcome to the idea of an AI-powered connected campus.\n\nThe Communication Challenge Facing Modern Campuses\n\nToday's educational institutions operate through multiple digital systems.\n\nERP, CRM, LMS, admission portal",
+      "source": "Dev.to AI",
+      "published": "2026-11-13T14:42:41+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "baccdaa9b550",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T18:39:23+00:00",
+      "score": 3.37,
+      "image": null
+    },
+    {
+      "id": "0b1291c3eb40",
+      "title": "How to Check Local LLM Output with Ollama, Gemma 4, and Nimble",
+      "url": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+      "summary": "Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry.\nThe post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T12:00:00+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "657af3312af0",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.\nThe post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-12T22:54:52+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "deea79b353af",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T17:36:40+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "55d7d41513d8",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T22:42:51+00:00",
+      "score": 3.0,
+      "image": null
+    },
+    {
+      "id": "126f79483dcc",
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "summary": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services.\nThe post GitHub availability report: October 2026 appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-13T00:20:16+00:00",
+      "score": 2.99,
+      "image": null
+    },
+    {
+      "id": "f43cae6358af",
+      "title": "Gemma 3 builds a linearly decodable spatial map from text, but its answers never read it [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xuqs9d/gemma_3_builds_a_linearly_decodable_spatial_map/",
+      "summary": "Independent, preregistered study on Gemma 3 (12B/27B) with text-only layouts like &quot;A is 3 north of B, C is 2 east of A&quot;. - Probes read every object's position, even ones that need two sentences combined (R² 0.74). - Erasing that map costs no more than erasing random directions. The answers never read it. - They run on a 2-D code per sentence instead (DAS: 72% / 83%, random 0%), which acts like a switch, not a coordinate. - Reading answers off the unused map beats the model on chain questions: 80% vs 73%. Paper: https://doi.org/10.5281/zenodo.24178043 Code: https://github.com/ccgomezn",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-12T22:29:05+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "ddf7a6c150d0",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-12T17:00:52+00:00",
+      "score": 2.68,
+      "image": null
+    },
+    {
+      "id": "33d8937469a3",
+      "title": "Weights for MNIST Handwriting Network [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xupgn8/weights_for_mnist_handwriting_network_p/",
+      "summary": "The weights for my network looks really cool. First one is the first hidden layer of 64 neurons, the seconds is the second hidden layer of 32 neurons, and the last one is the output layer of 10 neurons. I've pretty much just started learning Machine Learning, so this is my first project. The accuracy for all MNIST handwritten numbers is 96.52% so 9,652/10,000.  &#32; submitted by &#32;  /u/Rollgus   [link] &#32; [comments]",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-12T21:35:41+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "1019ee4b2b2f",
+      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+      "url": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for Logic Apps Standard, work that previously required the VS Code extension. The product team pitches the terminal surface as determinism for AI-assisted development. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-12T10:23:00+00:00",
+      "score": 2.41,
+      "image": null
+    },
+    {
+      "id": "950f9f875524",
+      "title": "RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M",
+      "url": "https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/",
+      "summary": "A reproducible test of BM25, embeddings, and parent documents shows why author-written evals overrate search, and why answer position in context matters.\nThe post RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-12T16:30:00+00:00",
+      "score": 2.25,
+      "image": null
+    },
+    {
+      "id": "f48559b8526f",
+      "title": "A Soft-Label MNIST Testbed for Human vs. Model Confidence",
+      "url": "https://towardsdatascience.com/a-soft-label-mnist-testbed-for-human-vs-model-confidence/",
+      "summary": "Annotators marked each MNIST and Mukhoti digit yes, no, or unsure, producing image-level soft labels and uncertainty scores.\nThe post A Soft-Label MNIST Testbed for Human vs. Model Confidence appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-12T13:30:00+00:00",
+      "score": 2.08,
+      "image": null
+    },
+    {
+      "id": "d147dc3eff08",
+      "title": "How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3)",
+      "url": "https://towardsdatascience.com/how-to-read-cross-pair-correlation-in-r-without-fake-repulsion-part-3/",
+      "summary": "A simulated scar and data from 31 animals after ischemia show how an inhomogeneous estimator, random labelling, and brms separate tissue loss from real interaction.\nThe post How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3) appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-12T12:00:00+00:00",
+      "score": 2.0,
+      "image": null
+    },
+    {
+      "id": "eca76258ed36",
+      "title": "I built a small streaming text tagger that reads text word by word, so a voice agent can react mid sentence [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xu548q/i_built_a_small_streaming_text_tagger_that_reads/",
+      "summary": "We listen and type word by word, yet most AI only acts per turn. That wastes time and tokens, and it misses intent that was already clear halfway through the sentence. So I built Arc Tagger, a small model that runs on the words as they arrive from an ASR API or from typed text. It tags intent, dialog act, entities, numbers, PII, profanity, toxicity and safety risks while the sentence is still being spoken. In the video you can see a bank impersonation scam get flagged mid sentence, a voice assistant tracking a customer who changes their mind, and a legal sentence tagged live. What it is today:",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-12T06:04:53+00:00",
+      "score": 1.97,
+      "image": null
+    }
+  ]
+}

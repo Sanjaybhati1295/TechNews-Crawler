@@ -6481,3 +6481,38 @@
 2026-11-12 15:40:30,959  INFO     ────────────────────────────────────────────────────────────
 2026-11-12 15:40:30,959  INFO     Done!  Open: output/index.html
 2026-11-12 15:40:30,959  INFO     Headline: Azure Logic Apps Standard Gets a Local CLI in Preview
+2026-11-13 14:59:17,457  INFO     ============================================================
+2026-11-13 14:59:17,457  INFO     TECHPULSE Digest — 2026-11-13 14:59 UTC
+2026-11-13 14:59:17,457  INFO     ============================================================
+2026-11-13 14:59:17,457  INFO     Step 1/3 — Crawling feeds…
+2026-11-13 14:59:17,706  INFO       Hacker News                    → 0 significant articles
+2026-11-13 14:59:17,787  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-13 14:59:17,825  INFO       Ars Technica                   → 0 significant articles
+2026-11-13 14:59:18,173  INFO       The Register AI                → 0 significant articles
+2026-11-13 14:59:18,224  INFO       MIT Tech Review                → 0 significant articles
+2026-11-13 14:59:18,297  INFO       Dev.to AI                      → 4 significant articles
+2026-11-13 14:59:18,366  INFO       Dev.to Programming             → 2 significant articles
+2026-11-13 14:59:18,426  INFO       GitHub Blog                    → 2 significant articles
+2026-11-13 14:59:19,024  INFO       Google Research                → 0 significant articles
+2026-11-13 14:59:19,730  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-11-13 14:59:19,752  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-13 14:59:20,022  INFO       InfoQ                          → 2 significant articles
+2026-11-13 14:59:20,120  INFO       Towards Data Science           → 5 significant articles
+2026-11-13 14:59:20,200  INFO       Wired AI                       → 0 significant articles
+2026-11-13 14:59:20,233  INFO       TechCrunch AI                  → 5 significant articles
+2026-11-13 14:59:20,233  INFO     Fetching images for top articles…
+2026-11-13 14:59:20,268  INFO       🖼  n8n News Monitoring With Screenshots: News Search + Website 
+2026-11-13 14:59:20,294  INFO       🖼  Five coding agents, five formats, one table
+2026-11-13 14:59:20,697  INFO       🖼  Google Open Sources Ambient Quality Agent (AQuA) to Diagnose
+2026-11-13 14:59:20,720  INFO       🖼  Design connectors so partial failure is visible
+2026-11-13 14:59:20,759  INFO       🖼  A Budget Guard for LLM Calls: Cap Daily Spend in a Small-Bus
+2026-11-13 14:59:20,781  INFO       🖼  Gemini 4 Hydrogen: Google's Fast Model for Everyday Coding
+2026-11-13 14:59:20,781  INFO     Total selected: 24 articles from 15 feeds
+2026-11-13 14:59:20,781  INFO     Selected 24 significant articles
+2026-11-13 14:59:20,781  INFO     Step 2/3 — Generating digest…
+2026-11-13 14:59:21,423  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-13 14:59:21,423  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-13 14:59:21,423  INFO     Step 3/3 — Rendering HTML…
+2026-11-13 14:59:21,424  INFO     ────────────────────────────────────────────────────────────
+2026-11-13 14:59:21,424  INFO     Done!  Open: output/index.html
+2026-11-13 14:59:21,424  INFO     Headline: n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow
