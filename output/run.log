@@ -6516,3 +6516,38 @@
 2026-11-13 14:59:21,424  INFO     ────────────────────────────────────────────────────────────
 2026-11-13 14:59:21,424  INFO     Done!  Open: output/index.html
 2026-11-13 14:59:21,424  INFO     Headline: n8n News Monitoring With Screenshots: News Search + Website Screenshot Workflow
+2026-11-14 13:51:46,533  INFO     ============================================================
+2026-11-14 13:51:46,533  INFO     TECHPULSE Digest — 2026-11-14 13:51 UTC
+2026-11-14 13:51:46,533  INFO     ============================================================
+2026-11-14 13:51:46,533  INFO     Step 1/3 — Crawling feeds…
+2026-11-14 13:51:46,816  INFO       Hacker News                    → 2 significant articles
+2026-11-14 13:51:46,968  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-14 13:51:47,152  INFO       Ars Technica                   → 0 significant articles
+2026-11-14 13:51:47,753  INFO       The Register AI                → 0 significant articles
+2026-11-14 13:51:47,901  INFO       MIT Tech Review                → 0 significant articles
+2026-11-14 13:51:48,045  INFO       Dev.to AI                      → 4 significant articles
+2026-11-14 13:51:48,217  INFO       Dev.to Programming             → 3 significant articles
+2026-11-14 13:51:48,346  INFO       GitHub Blog                    → 0 significant articles
+2026-11-14 13:51:49,129  INFO       Google Research                → 0 significant articles
+2026-11-14 13:51:50,226  INFO       Reddit r/MachineLearning       → 1 significant articles
+2026-11-14 13:51:50,342  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-14 13:51:50,815  INFO       InfoQ                          → 3 significant articles
+2026-11-14 13:51:50,982  INFO       Towards Data Science           → 5 significant articles
+2026-11-14 13:51:51,174  INFO       Wired AI                       → 0 significant articles
+2026-11-14 13:51:51,294  INFO       TechCrunch AI                  → 2 significant articles
+2026-11-14 13:51:51,294  INFO     Fetching images for top articles…
+2026-11-14 13:51:51,819  INFO       🖼  Open Source DocumentDB 1.0 Reaches General Availability
+2026-11-14 13:51:51,903  INFO       🖼  Jasper vs Writesonic (2026): Which AI Writer Is Worth It for
+2026-11-14 13:51:51,957  INFO       🖼  Vercel's UI SDK Hands Agents Behaviors, Not Components
+2026-11-14 13:51:52,064  INFO       🖼  175,450 endpoints, 630 paid sellers — the x402 demand side, 
+2026-11-14 13:51:52,195  INFO       🖼  I rebuilt my portfolio as a chat window with live visitors
+2026-11-14 13:51:52,272  INFO       🖼  Open-source chat assistant - cross-platform reply drafter
+2026-11-14 13:51:52,272  INFO     Total selected: 20 articles from 15 feeds
+2026-11-14 13:51:52,272  INFO     Selected 20 significant articles
+2026-11-14 13:51:52,272  INFO     Step 2/3 — Generating digest…
+2026-11-14 13:51:52,475  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-14 13:51:52,475  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-14 13:51:52,476  INFO     Step 3/3 — Rendering HTML…
+2026-11-14 13:51:52,476  INFO     ────────────────────────────────────────────────────────────
+2026-11-14 13:51:52,476  INFO     Done!  Open: output/index.html
+2026-11-14 13:51:52,476  INFO     Headline: Open Source DocumentDB 1.0 Reaches General Availability

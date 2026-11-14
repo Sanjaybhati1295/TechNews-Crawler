@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Open Source DocumentDB 1.0 Reaches General Availability",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Open Source DocumentDB 1.0 Reaches General Availability (InfoQ). Jasper vs Writesonic (2026): Which AI Writer Is Worth It for Freelancers? (Dev.to AI). 175,450 endpoints, 630 paid sellers — the x402 demand side, measured (Dev.to AI). I rebuilt my portfolio as a chat window with live visitors (Dev.to Programming). Open-source chat assistant - cross-platform reply drafter (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Vercel's UI SDK Hands Agents Behaviors, Not Components (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio"
+  },
+  "articles": [
+    {
+      "id": "7a13c1b3a8af",
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-14T06:37:00+00:00",
+      "score": 3.9,
+      "image": "https://res.infoq.com/news/2026/11/mongodb-compatible-documentdb/en/card_header_image/generatedCard-1793220097758.jpg"
+    },
+    {
+      "id": "b1db3d907432",
+      "title": "Jasper vs Writesonic (2026): Which AI Writer Is Worth It for Freelancers?",
+      "url": "https://dev.to/learnpromptwithai/jasper-vs-writesonic-2026-which-ai-writer-is-worth-it-for-freelancers-3g7j",
+      "summary": "Disclosure: This post contains plain links to Jasper and Writesonic. I don't earn a commission from either yet — Writesonic's affiliate application is pending and I haven't applied to Jasper's program. Prices below were checked on 14 November 2026 and can change; confirm on the pricing page before you buy.\n\n\n  \n  \n  The short answer\n\n\nIf you write client articles for a living and brand voice matters, Jasper is the better tool — and the more expensive one. If you mostly need fast first drafts on a freelancer budget, Writesonic's Chatsonic plan at $16 a month does 80% of the job for a third of t",
+      "source": "Dev.to AI",
+      "published": "2026-11-14T13:41:06+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fl3k979pig318lshzirnk.png"
+    },
+    {
+      "id": "ebf9002e0c5a",
+      "title": "Vercel's UI SDK Hands Agents Behaviors, Not Components",
+      "url": "https://dev.to/dishant0406/vercels-ui-sdk-hands-agents-behaviors-not-components-25n0",
+      "summary": "There's an open issue in the UI SDK repo, number 534, that says FieldError is not a live region. A validation error that appears after the page loads never gets announced to a screen reader.\n\nZero comments on it. No fix yet.\n\nThat issue sits inside a library whose entire pitch is accessible behaviors for agents. Vercel Labs shipped it on November 12, 2026, built by shadcn, Apache-2.0, still beta.\n\nThe repo went from nothing to 4,239 stars in nineteen days. The announcement post pulled thousands of likes. And the Hacker News submission got 7 points and zero comments.\n\nSo which is it. A new laye",
+      "source": "Dev.to AI",
+      "published": "2026-11-14T13:38:33+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto/https%3A%2F%2Ffiles.catbox.moe%2Fnh6k1a.webp"
+    },
+    {
+      "id": "6ce70dc09661",
+      "title": "175,450 endpoints, 630 paid sellers — the x402 demand side, measured",
+      "url": "https://dev.to/minia2a/175450-endpoints-630-paid-sellers-the-x402-demand-side-measured-25fn",
+      "summary": "This content reflects minia2a as of its publication date and is kept for the record. Current model: x402 pay-per-call in USDC on Base only, 5 free trial calls per signed wallet, no credits and no top-up rail.\n\n\nNovember 14, 2026 · measurements taken 11:44Z–11:49Z\n\nEvery week the supply-side numbers get bigger. Coinbase's agentic.market lists 4,242 services. CDP's Bazaar has settled 33,655 items. PayAI's facilitator serves 16,278 discovery resources. UltravioletaDAO serves 1,850. Our own catalog is at 1,893.\n\nNone of these numbers says whether anyone is paying. This week, for the first time, a ",
+      "source": "Dev.to AI",
+      "published": "2026-11-14T13:36:49+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fd498ko2ivi2pobtxg43n.png"
+    },
+    {
+      "id": "a88b23ebcff6",
+      "title": "I rebuilt my portfolio as a chat window with live visitors",
+      "url": "https://dev.to/pcofilada/i-rebuilt-my-portfolio-as-a-chat-window-with-live-visitors-493i",
+      "summary": "My new site, https://patrickofilada.dev, is one page that behaves like an AI chat. It \"thinks\" through a few steps, streams in a short intro, and answers \"show me your work\" with my work history.\n\nThe idea comes from Eduardo Alba's site (https://eduardoalba.com). I liked it so much that I built my own version.\n\nHow it's put together\n\n\nNext.js on AWS Amplify. The work history loads only when someone asks for it, so the first page stays light.\nLive visitors on a Cloudflare Worker with a Durable Object. One small service tracks who's on the page, shares cursors and clicks, and counts visits by co",
+      "source": "Dev.to Programming",
+      "published": "2026-11-14T13:45:10+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3z1okowfnsoydw86dh8w.png"
+    },
+    {
+      "id": "b8146d3145db",
+      "title": "Open-source chat assistant - cross-platform reply drafter",
+      "url": "https://dev.to/githubopensource/open-source-chat-assistant-cross-platform-reply-drafter-1bkj",
+      "summary": "TL;DR: jev-chat sits on top of your messaging apps by leveraging accessibility services on Android, on-device OCR on desktop, and custom keyboards on iOS to intercept and read chat windows. Instead of generating immediate responses, it runs a judgment model to evaluate the sender's intent and conversation risk.\nBest for: Developers and power users seeking an open-source assistant to manage heavy chat loads across multiple devices.\nRepository snapshot: ⭐ 8 373 stars · 🍴 1 335 forks · Kotlin · MIT\nDaily picks: Follow GitHub Open Source on Telegram\n\n\n\n\n\n\n  \n  \n  What it is\n\n\nJev Chat Jarvis is an",
+      "source": "Dev.to AI",
+      "published": "2026-11-14T13:33:47+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fi.ibb.co%2FFbYrf5h6%2Fjev-chat-jev-chat-jarvis-devto-cover-994faf76ec9c.png"
+    },
+    {
+      "id": "c5637323d608",
+      "title": "Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors",
+      "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+      "summary": "Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency.\nThe post Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-14T13:00:00+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "566e9b6a43dc",
+      "title": "Kotlin Data Class vs Regular Class Explained Simply",
+      "url": "https://dev.to/imayankkumar/kotlin-data-class-vs-regular-class-explained-simply-170k",
+      "summary": "In short: a data class is a normal class where the compiler writes five things for you: equals(), hashCode(), toString(), copy() and component1(), component2() and so on. It uses only the properties in the primary constructor, and copy() copies values, not the objects inside them.\n\n\nYou add an item to the cart, the ViewModel updates its StateFlow, and the screen does not change. No crash, nothing in Logcat. The state is a data class and the update uses copy(). The bug is in how copy() and equals() work together.\n\nThis post covers what the data keyword adds, the rules it comes with, and the two",
+      "source": "Dev.to Programming",
+      "published": "2026-11-14T13:27:25+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "63378f9dedb5",
+      "title": "Build vs Buy in 2026: No-Code Stacks That Hold Up Past MVP",
+      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/build-vs-buy-in-2026-no-code-stacks-that-hold-up-past-mvp-4mh8",
+      "summary": "Every indie founder asks the same question: build with no-code or write code? The answer isn't either/or — it's strategic. Some parts of your SaaS should be no-code (saving months of development). Others must be custom code (protecting your competitive advantage). Here's the framework.\n\n\n  \n  \n  Quick Verdict\n\n\nBubble remains the most capable general-purpose no-code platform for SaaS. FlutterFlow wins for mobile-first apps. Directual is the best backend-as-a-service approach. But the real question isn't which tool — it's which parts of your product should be no-code.\n\n\n  \n  \n  The Build vs No-",
+      "source": "Dev.to Programming",
+      "published": "2026-11-14T13:22:17+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "c6caa4d4f0b0",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-14T02:52:59+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "82573e209911",
+      "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
+      "url": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal TestFlight testers. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-13T16:00:00+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "ec577d4c46a6",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T22:43:00+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "3dc626ea28ff",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-13T18:40:30+00:00",
+      "score": 2.83,
+      "image": null
+    },
+    {
+      "id": "117b7aeaaeee",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-13T22:04:24+00:00",
+      "score": 2.82,
+      "image": null
+    },
+    {
+      "id": "a7ce3ea4f28b",
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session replay, developers reduced seat selection bypasses from 15 sessions to two and dietary preference omissions from seven to zero after prompt changes. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-13T13:53:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "05d89a4c2c11",
+      "title": "What AI Agents Speed Up in PhD Research, and What They Can't",
+      "url": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
+      "summary": "A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change.\nThe post What AI Agents Speed Up in PhD Research, and What They Can't appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T13:30:00+00:00",
+      "score": 2.35,
+      "image": null
+    },
+    {
+      "id": "74fe93b3436a",
+      "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
+      "url": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
+      "summary": "On 200 ToolRet questions and up to 3,794 tools, BM25 ran about 40x faster than BGE-large on just a CPU, and full tool docs made it the best setup tested.\nThe post Keyword Search Tied an 8B Embedding Model at Picking Agent Tools appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T16:30:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "94a77356671c",
+      "title": "Paid surveys for Machine Learning Scientists for SnorkelAI: Absolutely not worth it [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4rjy/paid_surveys_for_machine_learning_scientists_for/",
+      "summary": "I am here writing about my experience with this. I was contacted to fill out a paid survey for SnorkelAI because I have a PhD and have published at A* conferences in the field, so this might be relevant for other researchers in the community. After not finding a lot of information, I decided to give it a try. I performed the personal verification and waited for the survey to arrive. First bad thing: the level of pushiness is terrible. I went to bed, and when I woke up, I had 1 email and 2 follow-up emails asking me to complete some part of the verification where the uploaded document did not h",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-13T10:50:10+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "b84a1df7d64e",
+      "title": "How Jev Makes Decisions About Images, With 4 Python Examples",
+      "url": "https://towardsdatascience.com/how-jev-makes-decisions-about-images-with-4-python-examples/",
+      "summary": "Practical code for classifying fabric against reference photos, scoring product sharpness, cropping shipping labels, and spotting subtle car damage.\nThe post How Jev Makes Decisions About Images, With 4 Python Examples appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T15:00:00+00:00",
+      "score": 2.23,
+      "image": null
+    },
+    {
+      "id": "0b1291c3eb40",
+      "title": "How to Check Local LLM Output with Ollama, Gemma 4, and Nimble",
+      "url": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+      "summary": "Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry.\nThe post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-13T12:00:00+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}
