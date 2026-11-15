@@ -1,0 +1,155 @@
+{
+  "digest": {
+    "headline": "Context rot: why your AI assistant gets worse after 200 messages (and a 5-line fix)",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Context rot: why your AI assistant gets worse after 200 messages (and a 5-line fix) (Dev.to AI). How Agentic Commerce Actually Works: A Developer Guide to ChatGPT Wallet (Dev.to AI). My Evening Summary Kept Promising a Login Window. The Morning Task Had Stopped Opening It. (Dev.to AI). The four objections, answered honestly (Dev.to AI). At the First AI Music Awards, the AI Was Fine. Everything Else Broke. (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "You've seen it. The first hour with an AI assistant is great. By message 200 it suggests a fix you already rejected, forgets the framework you're using, and confidently reintroduces a bug from an hour ago.\n\nThat's context rot, and it's not your imagination.\n\n\n  \n  \n  What's going on\n\n\nEvery model has a limited context window. Long chats fill it with everything: dead ends, abandoned approaches, old versions of the same file. Even when it all technically fits, the model has to decide what matters, and old noise competes with the new signal.\n\nCommon symptoms:\n\n\nit repeats suggestions you already "
+  },
+  "articles": [
+    {
+      "id": "08d57d82d2fe",
+      "title": "Context rot: why your AI assistant gets worse after 200 messages (and a 5-line fix)",
+      "url": "https://dev.to/madgpt/context-rot-why-your-ai-assistant-gets-worse-after-200-messages-and-a-5-line-fix-2i3n",
+      "summary": "You've seen it. The first hour with an AI assistant is great. By message 200 it suggests a fix you already rejected, forgets the framework you're using, and confidently reintroduces a bug from an hour ago.\n\nThat's context rot, and it's not your imagination.\n\n\n  \n  \n  What's going on\n\n\nEvery model has a limited context window. Long chats fill it with everything: dead ends, abandoned approaches, old versions of the same file. Even when it all technically fits, the model has to decide what matters, and old noise competes with the new signal.\n\nCommon symptoms:\n\n\nit repeats suggestions you already ",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:14:59+00:00",
+      "score": 4.39,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fdcwwow8hoafhvhl35ij1.png"
+    },
+    {
+      "id": "52fadc674906",
+      "title": "How Agentic Commerce Actually Works: A Developer Guide to ChatGPT Wallet",
+      "url": "https://dev.to/fateh_muhammad_1f23886cc0/how-agentic-commerce-actually-works-a-developer-guide-to-chatgpt-wallet-20ko",
+      "summary": "How Agentic Commerce Actually Works: A Developer Guide to ChatGPT Wallet\n\nChatGPT can now buy things for you. As developers, we need to understand what is happening under the hood.\n\nLast week OpenAI launched ChatGPT Wallet in beta. Users can save a card, ask ChatGPT to buy something, approve with biometrics, and the order is placed. It sounds simple. For developers, it is a massive shift in how the web works.\n\nFor 30 years, the flow was like this: User searches, user clicks, user pays. We optimized for SEO, landing pages, and checkout conversion.\n\nNow the flow is like this: User talks to AI, A",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:08:43+00:00",
+      "score": 4.38,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F9uuynqj60vkdx6q8pyej.jpg"
+    },
+    {
+      "id": "2dd0e177282d",
+      "title": "My Evening Summary Kept Promising a Login Window. The Morning Task Had Stopped Opening It.",
+      "url": "https://dev.to/dbsoul/my-evening-summary-kept-promising-a-login-window-the-morning-task-had-stopped-opening-it-32fc",
+      "summary": "A field note from the autonomous Claude Code agent I run every day on one Windows PC. The numbers come from its own ledgers, not from memory.\n\nFree to read first: a PDF sample of the book behind this setup — its first 3 chapters: https://dbsoul.gumroad.com/l/autonomous-ai-agents-claude-code-free-sample\n\nEvery evening at 19:00 my scripts build a one-page summary for the person who owns my accounts. One section lists the sites where a saved login has expired. Each of those lines ended the same way: \"I'll open the window.\" Since September 18 the plan behind it has been a morning task at 09:06 tha",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:10:03+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F71yz42b982rifvfc2gmg.png"
+    },
+    {
+      "id": "c832a3c986c0",
+      "title": "The four objections, answered honestly",
+      "url": "https://dev.to/roseparley/the-four-objections-answered-honestly-3d0f",
+      "summary": "Every time we put this in front of someone who ships agents for a living, the same four questions come back. They're not polite questions. They're the ones you ask a vendor in a procurement call, usually with a tab already open on the thing you'd rather use.\n\nThey deserve real answers, so here they are in the order they arrive, with the sources attached where a source exists.\n\nAgentParley is a hosted crew of specialist agents. I write for it — so read the pricing parts knowing my bias. The objections are the ones you'd raise either way.\n\n\n  \n  \n  1. \"Why not just use OpenClaw? It's free.\"\n\n\nBe",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:11:02+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F3mo0et1q7akb7vieb3dk.png"
+    },
+    {
+      "id": "fea3ce4128c8",
+      "title": "At the First AI Music Awards, the AI Was Fine. Everything Else Broke.",
+      "url": "https://dev.to/sergheipogor/at-the-first-ai-music-awards-the-ai-was-fine-everything-else-broke-5d3g",
+      "summary": "On Friday, November 13, Los Angeles hosted the first AI Music Awards. It was organized by the Sonic Intelligence Academy, a young company that makes AI music charts and tools for spotting AI-made songs. According to Reuters, the big winner was Xania Monet, an AI-generated avatar who took artist, song and album of the year.\n\nI read the coverage expecting a story about AI failing on stage. That isn't what happened, and that's why I'm writing about it.\n\n\n  \n  \n  What actually went wrong\n\n\nVariety's Corbin Bolies was in the room, and his report reads like a postmortem written by someone trying har",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:08:28+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Feujw8owvgl7l7muaaczy.png"
+    },
+    {
+      "id": "423192d35d0d",
+      "title": "Cloudflare Introduces Private Origins for Application Services",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-15T06:18:00+00:00",
+      "score": 3.55,
+      "image": "https://res.infoq.com/news/2026/11/cloudflare-private-origins/en/headerimage/generatedHeaderImage-1793395278236.jpg"
+    },
+    {
+      "id": "8fe47f2c48d7",
+      "title": "From DevFest Rift Valley to DevFest Nairobi 2026: Why I Keep Coming Back",
+      "url": "https://dev.to/mukuvi/from-devfest-rift-valley-to-devfest-nairobi-2026-why-i-keep-coming-back-577l",
+      "summary": "Some tech events leave you with more than just notes and photos. They introduce you to new ideas, people building interesting things, and perspectives that make you rethink how you approach technology.\n\nFor me, DevFest has become one of those experiences.\n\nMy journey with DevFest started at DevFest Rift Valley. This year, I had the opportunity to experience DevFest Nairobi 2026, hosted by Google Developer Groups Nairobi at the Sarit Expo Centre.\n\nUnder the theme Build. Secure. Scale., the event brought together developers, engineers, founders, designers, technology enthusiasts and people passi",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:20:21+00:00",
+      "score": 3.5,
+      "image": null
+    },
+    {
+      "id": "1cbc6346d9ed",
+      "title": "How to measure how much of your crawl traffic is AI bots, from your own access logs (in Python)",
+      "url": "https://dev.to/seotto/how-to-measure-how-much-of-your-crawl-traffic-is-ai-bots-from-your-own-access-logs-in-python-1hfd",
+      "summary": "Automated technical SEO checks that catch indexing blocks and deploy regressions — seotto.com\n\n\nOpinions about AI crawlers are everywhere. Numbers from your own site are rarer, and they're the only ones that should drive a robots.txt change.\n\nThe questions worth answering first:\n\n\nWhat share of all bot requests come from AI-related crawlers?\nHow much bandwidth do they use?\nWhich sections of the site do they hit?\nAre they training crawlers, search crawlers, or fetches triggered by a person asking an assistant to read your page?\n\n\nYour access logs already have the answers. This post is a short P",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:14:19+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "95375a2e6500",
+      "title": "Your AI says \"Dada\" wrong — here's how we make voices pronounce any kid's name",
+      "url": "https://dev.to/cirrela/your-ai-says-dada-wrong-heres-how-we-make-voices-pronounce-any-kids-name-24hi",
+      "summary": "I run Cirrela. Our best-selling product is oddly specific: a short vertical video where Santa (or an elf, Mrs Claus, the Three Kings…) says a child's first name. €6.99 / $6.99, once, no subscription. This post is about the part nobody thinks about until it goes wrong: getting the voice to actually say the name correctly — in eight languages, for names like \"Dada\", \"Maël\", \"Nguyễn\" or \"Aaliyah\". Disclosure: it's our product, and this post was written with AI help, then checked by me.\n\n\n  \n  \n  The complaint that taught us\n\n\nOn Reddit this week a parent described exactly our problem space: she p",
+      "source": "Dev.to AI",
+      "published": "2026-11-15T14:10:04+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "4e572386877f",
+      "title": "Check digits explained: how barcodes catch a typo with one number",
+      "url": "https://dev.to/gotoolsonline/check-digits-explained-how-barcodes-catch-a-typo-with-one-number-1fno",
+      "summary": "Every EAN-13 and UPC-A barcode ends in a digit that isn't data at all. It's a check digit, and it lets a scanner (or your code) reject most typos instantly.\n\n\n  \n  \n  The EAN-13 rule\n\n\nTake the first 12 digits. Multiply them alternately by 1 and 3, starting with 1 from the left. Add it all up. The check digit is whatever brings the total up to the next multiple of 10.\n\nExample: 400638133393?\n\n\n\ndigits:  4 0 0 6 3 8 1 3 3 3 9 3\nweights: 1 3 1 3 1 3 1 3 1 3 1 3\nsum = 4+0+0+18+3+24+1+9+3+9+9+9 = 89\ncheck = (10 - 89 % 10) % 10 = 1\n\n\n\n\n\n\nSo the full code is 4006381333931.\n\n\n  \n  \n  In JavaScript\n\n\n",
+      "source": "Dev.to Programming",
+      "published": "2026-11-15T13:47:26+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "7134e7e1ad67",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-14T17:30:00+00:00",
+      "score": 2.94,
+      "image": null
+    },
+    {
+      "id": "7a13c1b3a8af",
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-14T06:37:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "c5637323d608",
+      "title": "Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors",
+      "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+      "summary": "Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency.\nThe post Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-14T13:00:00+00:00",
+      "score": 2.29,
+      "image": null
+    },
+    {
+      "id": "bd6fd5385019",
+      "title": "How to Build a Markov Chain in Python With NumPy",
+      "url": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/",
+      "summary": "A step-by-step guide to transition matrices, the Chapman–Kolmogorov equation, and stationary distributions, built around a three-state writing example.\nThe post How to Build a Markov Chain in Python With NumPy appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-14T15:00:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}
