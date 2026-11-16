@@ -1,0 +1,233 @@
+{
+  "digest": {
+    "headline": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
+    "tldr": "Today's digest covers 21 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J (InfoQ). Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data (InfoQ). SheildLenz app Special Updates For Users (Dev.to AI). Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG (InfoQ). Measuring AI Coding Impact With DORA Metrics, Not Vibes (Dev.to Programming)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field (InfoQ)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A Practitioner's Guide to 6 Agentic GraphRAG Patterns (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich"
+  },
+  "articles": [
+    {
+      "id": "9b2bc04e4f98",
+      "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-11-16T15:25:00+00:00",
+      "score": 4.43,
+      "image": "https://res.infoq.com/news/2026/11/java-news-roundup-nov09-2026/en/headerimage/java-news-roundup-image-1794842460564.jpg"
+    },
+    {
+      "id": "a3c32abe815a",
+      "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+      "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs: no GPU passthrough, at most five sandboxes per vCPU, and half the compute on SMT instances. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-16T09:07:00+00:00",
+      "score": 4.28,
+      "image": "https://res.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/en/headerimage/generatedHeaderImage-1794301940782.jpg"
+    },
+    {
+      "id": "2ff87933e88d",
+      "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
+      "url": "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-11-16T12:25:00+00:00",
+      "score": 4.17,
+      "image": "https://cdn.infoq.com/statics_s1_20261112091217/styles/static/images/logo/logo-big.jpg"
+    },
+    {
+      "id": "323024777a34",
+      "title": "SheildLenz app Special Updates For Users",
+      "url": "https://dev.to/ahsantcr/sheildlenz-app-special-updates-for-users-1ih9",
+      "summary": "An open-source Android parental control and digital wellbeing app powered by Local AI (.tflite or compatible models). Detects and blocks explicit content in real time—even in local offline videos—while preventing unauthorized uninstallation.\n\n👉 Download Latest APK from GitHub Releases\n\n\n🎁 Built-In AI Model Included: No manual model setup is required. The app automatically downloads its built-in AI model during initial configuration, though you can still load a custom .tflite model manually at any time.\n\n\n\n\n\n\n  \n  \n  ✨ Key Features\n\n\n\n\n🤖 Real-Time Offline AI Detection: Instantly scans and block",
+      "source": "Dev.to AI",
+      "published": "2026-11-16T16:33:33+00:00",
+      "score": 4.1,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F80xgylftewvzshs4ig9z.png"
+    },
+    {
+      "id": "05ac31ecba87",
+      "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
+      "url": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-16T14:37:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/11/uber-legal-redlining-agent/en/card_header_image/generatedCard-1792903461277.jpg"
+    },
+    {
+      "id": "b086697603e9",
+      "title": "Measuring AI Coding Impact With DORA Metrics, Not Vibes",
+      "url": "https://dev.to/muhammadalimughal/measuring-ai-coding-impact-with-dora-metrics-not-vibes-2ia8",
+      "summary": "Six months after a client rolled out AI coding assistants to their whole team, the engineering manager told the board that delivery was \"about 40% faster\". When I asked where the number came from, the answer was a survey: developers said they felt faster. Meanwhile the deploy log showed the same two releases a week as before, the change failure rate had crept from roughly one in ten deploys to nearly one in five, and reviewers were spending noticeably longer on each pull request. The team was typing faster. It was not shipping faster, and it was breaking more.\n\nI wrote this with help from AI t",
+      "source": "Dev.to Programming",
+      "published": "2026-11-16T16:22:05+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw0uz7zbfwiydfzdfnjq5.jpg"
+    },
+    {
+      "id": "84c868d5ed58",
+      "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
+      "url": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah",
+      "source": "InfoQ",
+      "published": "2026-11-16T11:00:00+00:00",
+      "score": 3.79,
+      "image": null
+    },
+    {
+      "id": "fe3f9a283534",
+      "title": "LTX 2.3 R2V: Reference Redraw, Character Replacement, and Three Samplers You Have Not Seen",
+      "url": "https://dev.to/ai-ksk/ltx-23-r2v-reference-redraw-character-replacement-and-three-samplers-you-have-not-seen-4doj",
+      "summary": "Reference-to-video is where a video model stops being a generator and starts being an editor: give it a source clip and a reference, and it repaints inside that constraint. This release tests three approaches to that, and the graph internals differ far more than the titles suggest.\n\n\n  \n  \n  The three graphs\n\n\n\n\n\nWorkflow\nNodes\nBase\n\n\n\n\nReference-guided local redraw\n208\nltx-2.3-22b-distilled_transformer_only_fp8_input_scaled_v3\n\n\nAudio-driven character pseudo-replacement\n98\n\nltx-2.3-22b-dev_transformer_only_fp8_scaled + ltx-2.3-22b-distilled\n\n\n\nQwen 2511 local character replacement\n57\nqwen_ima",
+      "source": "Dev.to AI",
+      "published": "2026-11-16T16:28:42+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "aa2a47bd0b65",
+      "title": "After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th",
+      "url": "https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/",
+      "summary": "Telling eight base and instruction-tuned open models that the coin is fair and the flips are independent trims their streak bias by only a few points.\nThe post After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T16:30:00+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "838bc4b27c16",
+      "title": "Local LLMs Handle Textbook RAG but Fail on New Research Papers",
+      "url": "https://towardsdatascience.com/local-llms-handle-textbook-rag-but-fail-on-new-research-papers/",
+      "summary": "Five setups, one blind grading pack: textbook scores ran 12 to 20 of 20, but a paper published this year dropped them to 0 to 9 of 15.\nThe post Local LLMs Handle Textbook RAG but Fail on New Research Papers appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T12:00:00+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "7a78ef5ca695",
+      "title": "Steering a pretrained music transformer at sampling time into a real-time jazz partner (no fine-tuning) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xxkyh3/steering_a_pretrained_music_transformer_at/",
+      "summary": "I've been working on duetto, a real-time jazz partner for a MIDI keyboard: it plays a standard with you as a small band (solo, comping, walking bass), comps while you play and takes a solo when you stop. Demo (Autumn Leaves, 160 bpm): https://youtu.be/8zIAzVY8O6w Code (free for noncommercial use): https://github.com/RiccardoCataldi/duetto Approach. Instead of fine-tuning, it uses the pretrained Anticipatory Music Transformer (Thickstun et al., 2023) as-is and does all the control at sampling time:  The player's notes and the model's are one event sequence the model continues, one note (onset, ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-16T09:19:43+00:00",
+      "score": 3.6,
+      "image": null
+    },
+    {
+      "id": "c558af1f8375",
+      "title": "Colourising Black-and-White Video: Chaining an Image Editor and a Video Model in One Graph",
+      "url": "https://dev.to/ai-ksk/colourising-black-and-white-video-chaining-an-image-editor-and-a-video-model-in-one-graph-cph",
+      "summary": "Colourising footage is a task where doing it frame by frame gives inconsistent colour — frame 40 comes out sepia, frame 41 comes out blue. Doing it at the video level gives coherent colour but muddy detail. This workflow does both, in one graph, in sequence.\n\n\n  \n  \n  The two-graph structure\n\n\nThe release ships a full automatic version (81 nodes) and a manual-prompt version (44 nodes).\n\nThe automatic version contains two model families in one graph:\n\nImage stage — Qwen 2511\n| Node | Value |\n|---|---|\n| UNETLoader | qwen_image_edit_2511_bf16.safetensors |\n| CLIPLoader | qwen_2.5_vl_7b_fp8_scale",
+      "source": "Dev.to AI",
+      "published": "2026-11-16T16:30:01+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "ca710d350617",
+      "title": "A Transition LoRA That Stops First/Last-Frame Video From Snapping",
+      "url": "https://dev.to/ai-ksk/a-transition-lora-that-stops-firstlast-frame-video-from-snapping-2bdc",
+      "summary": "First/last-frame video has an obvious failure: the model hits the first frame, hits the last frame, and gets from one to the other with a visible snap. The subject does not move, it jumps. A transition LoRA exists to fix that, and this workflow is built around it.\n\n\n  \n  \n  The graph\n\n\n\n\n\nNode\nValue\n\n\n\n\nCheckpointLoaderSimple\nltx-2.3-22b-dev.safetensors\n\n\nLTXVAudioVAELoader\nltx-2.3-22b-dev.safetensors\n\n\nLoraLoaderModelOnly\n\nltx-2.3-22b-distilled-lora-384.safetensors at 0.5\n\n\n\nEmptyLTXVLatentVideo\n320×288, 97 frames\n\n\nLTXVEmptyLatentAudio\n97, 25, 1\n\n\nKSamplerSelect\neuler_ancestral_cfg_pp\n\n\n\n\n81",
+      "source": "Dev.to AI",
+      "published": "2026-11-16T16:29:27+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "260810f56684",
+      "title": "Why Human in the Loop AI Oversight Fails and How to Fix It",
+      "url": "https://towardsdatascience.com/why-human-in-the-loop-ai-oversight-fails-and-how-to-fix-it/",
+      "summary": "Kahneman's System 1 and System 2, plus the ODPS, ODCS, and Ossie standards, show how to wake reviewers up only when a check fails.\nThe post Why Human in the Loop AI Oversight Fails and How to Fix It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T15:00:00+00:00",
+      "score": 3.41,
+      "image": null
+    },
+    {
+      "id": "77828770ffb5",
+      "title": "Apple launches new app to study how people use AI for health",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+      "summary": "Apple's new app for a study will answer everyday medical questions",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T01:30:00+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "19241261ebce",
+      "title": "How to Avoid AI Replacement as an Analytics Professional in 2027",
+      "url": "https://towardsdatascience.com/how-to-avoid-ai-replacement-as-an-analytics-professional-in-2027/",
+      "summary": "Lessons from manufacturing and logistics projects: follow data from input to output, then turn vague requests into deterministic tools teams trust.\nThe post How to Avoid AI Replacement as an Analytics Professional in 2027 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T13:30:00+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "29a9c85c7593",
+      "title": "We made a multiplayer game where each player's view is generated by a world model running on their GPU [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx4ta3/we_made_a_multiplayer_game_where_each_players/",
+      "summary": "We trained a world model on our open dataset of 10-player CS:GO bot matches (~3,958 hours, with all POVs and inputs aligned at 16 Hz), which we released last month. Now you can actually play it with other people.  A lightweight server keeps the game state in sync, while each player runs the model locally to generate their own view based on that state and their inputs. Server states, player actions and previous frames are fed into diffusion transformers to draw the next frame.  It's still pretty limited: one small map, pistols only, and fine details aren't great yet. Nothing close to the origin",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-15T19:46:49+00:00",
+      "score": 3.14,
+      "image": null
+    },
+    {
+      "id": "3b68690883e4",
+      "title": "Hands-on ML Orchestration Tutorial with Airflow3 [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xxa13x/handson_ml_orchestration_tutorial_with_airflow3_p/",
+      "summary": "It's available in English and Spanish. I wanted to learn ML orchestration by building something, and the best material I found was Made With ML's orchestration lesson. Two things held me back: it was written for an older version of Airflow, and it is a lesson you read rather than one you do. What I only read, I don't keep. So I made the tutorial I was looking for: the same project on Airflow 3, where you write every Dag yourself and run it against a real stack. The first draft was written with Claude. Making it trustworthy took far longer than drafting it: I ran every section, fixed what didn'",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-15T23:28:01+00:00",
+      "score": 2.85,
+      "image": null
+    },
+    {
+      "id": "a7fb52666c60",
+      "title": "Training-free early exit for reasoning models: a linear probe folded into the  row of the output layer [p]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1xdm/trainingfree_early_exit_for_reasoning_models_a/",
+      "summary": "Reasoning models often reach the right answer early and then keep double-checking it for thousands of tokens. I got the model to stop at that point by changing a single row of weights..There's no training and no extra code at inference time; the edited model is an ordinary weights file that runs anywhere. Processing img 5yk991rjlt1i1... Background,  Reasoning models (DeepSeek, Qwen, and so on) &quot;think&quot; in a scratchpad before answering. The scratchpad ends when the model writes a special token, &lt;/think&gt;. To pick each next token, the model first computes a summary of everything so",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-15T17:52:41+00:00",
+      "score": 2.54,
+      "image": null
+    },
+    {
+      "id": "6baec4686aa3",
+      "title": "A Practitioner's Guide to 6 Agentic GraphRAG Patterns",
+      "url": "https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/",
+      "summary": "How autonomous agents turn static knowledge graphs into living Context Graphs that remember decisions, user intent, and operational history\nThe post A Practitioner's Guide to 6 Agentic GraphRAG Patterns appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-15T15:00:00+00:00",
+      "score": 2.28,
+      "image": null
+    },
+    {
+      "id": "423192d35d0d",
+      "title": "Cloudflare Introduces Private Origins for Application Services",
+      "url": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-15T06:18:00+00:00",
+      "score": 2.09,
+      "image": null
+    }
+  ]
+}

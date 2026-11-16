@@ -6586,3 +6586,38 @@
 2026-11-15 14:25:35,539  INFO     ────────────────────────────────────────────────────────────
 2026-11-15 14:25:35,539  INFO     Done!  Open: output/index.html
 2026-11-15 14:25:35,539  INFO     Headline: Context rot: why your AI assistant gets worse after 200 messages (and a 5-line fix)
+2026-11-16 16:36:55,851  INFO     ============================================================
+2026-11-16 16:36:55,852  INFO     TECHPULSE Digest — 2026-11-16 16:36 UTC
+2026-11-16 16:36:55,852  INFO     ============================================================
+2026-11-16 16:36:55,852  INFO     Step 1/3 — Crawling feeds…
+2026-11-16 16:36:56,136  INFO       Hacker News                    → 0 significant articles
+2026-11-16 16:36:56,268  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-16 16:36:56,447  INFO       Ars Technica                   → 0 significant articles
+2026-11-16 16:36:56,960  INFO       The Register AI                → 0 significant articles
+2026-11-16 16:36:57,126  INFO       MIT Tech Review                → 0 significant articles
+2026-11-16 16:36:57,320  INFO       Dev.to AI                      → 4 significant articles
+2026-11-16 16:36:57,507  INFO       Dev.to Programming             → 1 significant articles
+2026-11-16 16:36:57,661  INFO       GitHub Blog                    → 0 significant articles
+2026-11-16 16:36:58,621  INFO       Google Research                → 0 significant articles
+2026-11-16 16:36:59,257  INFO       Reddit r/MachineLearning       → 4 significant articles
+2026-11-16 16:36:59,383  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-16 16:36:59,880  INFO       InfoQ                          → 6 significant articles
+2026-11-16 16:37:00,502  INFO       Towards Data Science           → 5 significant articles
+2026-11-16 16:37:00,750  INFO       Wired AI                       → 0 significant articles
+2026-11-16 16:37:00,839  INFO       TechCrunch AI                  → 1 significant articles
+2026-11-16 16:37:00,839  INFO     Fetching images for top articles…
+2026-11-16 16:37:01,336  INFO       🖼  Java News Roundup: Lazy Constants, Spring for Apache Pulsar,
+2026-11-16 16:37:01,843  INFO       🖼  AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with
+2026-11-16 16:37:02,260  INFO       🖼  Airbnb Introduces CASTLE for Training Natural Language Searc
+2026-11-16 16:37:02,377  INFO       🖼  SheildLenz app Special Updates For Users
+2026-11-16 16:37:02,786  INFO       🖼  Uber’s Legal AI Agent Cuts Contract Review Time by 20% with 
+2026-11-16 16:37:02,941  INFO       🖼  Measuring AI Coding Impact With DORA Metrics, Not Vibes
+2026-11-16 16:37:02,941  INFO     Total selected: 21 articles from 15 feeds
+2026-11-16 16:37:02,941  INFO     Selected 21 significant articles
+2026-11-16 16:37:02,941  INFO     Step 2/3 — Generating digest…
+2026-11-16 16:37:03,401  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-16 16:37:03,401  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-16 16:37:03,401  INFO     Step 3/3 — Rendering HTML…
+2026-11-16 16:37:03,402  INFO     ────────────────────────────────────────────────────────────
+2026-11-16 16:37:03,402  INFO     Done!  Open: output/index.html
+2026-11-16 16:37:03,402  INFO     Headline: Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J
