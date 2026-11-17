@@ -1,0 +1,309 @@
+{
+  "digest": {
+    "headline": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+    "tldr": "Today's digest covers 29 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials (TechCrunch AI). Ten Years On, Google Updates the SRE Book for the AI Era (InfoQ). How to Govern Coding Agent Skills Across Repos With Plugins (Towards Data Science). Voyage Labs raises $12 million for a specialized AI travel assistant (TechCrunch AI). Science Corporation’s brain tech is worth $3.5 billion after new funding (TechCrunch AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round."
+  },
+  "articles": [
+    {
+      "id": "3ddd561d3db5",
+      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
+      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+      "summary": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T14:50:58+00:00",
+      "score": 4.1,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800"
+    },
+    {
+      "id": "058590bcb079",
+      "title": "Ten Years On, Google Updates the SRE Book for the AI Era",
+      "url": "https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE around modern cloud architectures, platform engineering and AI workloads, while retaining the discipline's original emphasis on applying software engineering to operations. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-11-17T09:00:00+00:00",
+      "score": 3.88,
+      "image": "https://res.infoq.com/news/2026/11/google-sre-book-ai-era/en/headerimage/generatedHeaderImage-1794674690062.jpg"
+    },
+    {
+      "id": "9a48bc8114c3",
+      "title": "How to Govern Coding Agent Skills Across Repos With Plugins",
+      "url": "https://towardsdatascience.com/how-to-govern-coding-agent-skills-across-repos-with-plugins/",
+      "summary": "Package skills, rules, hooks, and MCP tool configs as versioned plugins, then distribute them through a marketplace, shown with Claude Code and AWS.\nThe post How to Govern Coding Agent Skills Across Repos With Plugins appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T15:00:00+00:00",
+      "score": 3.81,
+      "image": null
+    },
+    {
+      "id": "27f55ceac514",
+      "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+      "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+      "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T15:00:00+00:00",
+      "score": 3.81,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-12.32.41-PM.jpg?w=942"
+    },
+    {
+      "id": "bcc5080f4e56",
+      "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+      "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+      "summary": "Science Corp raised a $400 million Series D to scale up its anti-blindness business.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T14:26:46+00:00",
+      "score": 3.78,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800"
+    },
+    {
+      "id": "1632fb5fec80",
+      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
+      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T14:05:30+00:00",
+      "score": 3.76,
+      "image": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-2087335475.jpg?resize=1200,799"
+    },
+    {
+      "id": "38c9e2505124",
+      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T14:00:00+00:00",
+      "score": 3.76,
+      "image": null
+    },
+    {
+      "id": "879ef0babf17",
+      "title": "How to Improve Coding Agent Efficiency by 30% with an Orchestrator",
+      "url": "https://towardsdatascience.com/how-to-improve-coding-agent-efficiency-by-30-with-an-orchestrator/",
+      "summary": "Stop hunting through sessions for pending questions: a herder agent surfaces them by priority, kept current by webhooks or cheap Haiku polling.\nThe post How to Improve Coding Agent Efficiency by 30% with an Orchestrator appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T16:30:00+00:00",
+      "score": 3.7,
+      "image": null
+    },
+    {
+      "id": "c242f01d2a67",
+      "title": "AI agent booking ban: design the handoff, not the block",
+      "url": "https://dev.to/artemkireev/ai-agent-booking-ban-design-the-handoff-not-the-block-17n2",
+      "summary": "On November 11, United Airlines added AI agents to the list of prohibited ticketing practices in its contract of carriage. Agents can still search and compare United flights. They cannot book them, and a human watching over the agent's shoulder does not change that.\n\nThis article argues that the interesting design question is not whether to follow United or Southwest. It is what the last step between an agent's shortlist and a human's payment should look like. It is written for product and e-commerce teams who will see agent traffic in their funnels this quarter.\n\n\n  \n  \n  United wrote the rul",
+      "source": "Dev.to AI",
+      "published": "2026-11-17T16:17:08+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "b16b5f3f2048",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T20:07:13+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "63e5e5cd2656",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T17:00:00+00:00",
+      "score": 3.59,
+      "image": null
+    },
+    {
+      "id": "ee7e56ed2776",
+      "title": "Curated list of resources: Theory and Code for learning Distributed Training for beginners [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xyf6pr/curated_list_of_resources_theory_and_code_for/",
+      "summary": "[Must Read: Beginners] What I did read, in order, for learning the basics of Distributed Training for LLMs From Scratch:  Building a distributed training framework from first principles by Umar Jamil on YT Horovod: Fast and Easy Distributed Deep Learning in TensorFlow  PyTorch Distributed: Experiences on Accelerating Data Parallel Training  Large Scale Distributed Deep Networks  ZeRO: Memory Optimizations Toward Training Trillion Parameter Models Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism  Efficient Large-Scale Language Model Training on GPU Clusters ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-17T08:31:17+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "1bc028a7d8a4",
+      "title": "Google ADK Agents That Pause, Resume, and Wait Hours for a Human",
+      "url": "https://towardsdatascience.com/google-adk-agents-that-pause-resume-and-wait-hours-for-a-human/",
+      "summary": "A synchronous call kept an RSS agent's connection open for 83 seconds; webhooks and 202 receipts free the client while the agent works.\nThe post Google ADK Agents That Pause, Resume, and Wait Hours for a Human appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T13:30:00+00:00",
+      "score": 3.53,
+      "image": null
+    },
+    {
+      "id": "dbfa54318a54",
+      "title": "ObjectScript LLM Benchmark: Execution-Graded Results for 14 Models",
+      "url": "https://dev.to/intersystems/objectscript-llm-benchmark-execution-graded-results-for-14-models-4hf4",
+      "summary": "We've published the first open benchmark measuring LLM competence on InterSystems ObjectScript\nand the IRIS platform: ObjectScript LLM Benchmark.\n\n\n  \n  \n  Summary\n\n\nThe ObjectScript LLM Benchmark evaluates 14 LLMs on 140 hand-written items covering ObjectScript and the InterSystems IRIS platform. The benchmark tests code generation, comprehension, and bug fixing. 93 items are execution-graded on a live IRIS instance, while 47 comprehension items are evaluated by a rubric-driven LLM judge. Overall accuracy ranges from 0.515 to 0.851, with the top 9 models forming a statistically overlapping cl",
+      "source": "Dev.to AI",
+      "published": "2026-11-17T16:21:49+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "41f1b22aea38",
+      "title": "ChatGPT Images Hands-On Vol. 2: Can It Make Diagrams and Charts You Can Trust? I Measured the Results",
+      "url": "https://dev.to/noptium/chatgpt-images-hands-on-vol-2-can-it-make-diagrams-and-charts-you-can-trust-i-measured-the-214f",
+      "summary": "In Vol. 1 of this series I tested a banner image with text in it, a color-only edit, and a GIF attempt. Those were all image tasks: does it look right, and does the text survive?\n\nDiagrams and charts are a different job. Nobody judges a flowchart by how pretty it is. They judge it by whether the labels are spelled correctly, the steps are in the right order, the arrows go where they should, and the numbers are right. A chart with a wrong bar height looks fine and tells the wrong story.\n\nThe good news is that those requirements can be written down exactly and checked exactly. You can read the l",
+      "source": "Dev.to AI",
+      "published": "2026-11-17T16:19:08+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "ad8e632c1a47",
+      "title": "Nvidia Earnings Nov 17: The First Report Without Jensen Huang, and What to Watch",
+      "url": "https://dev.to/_geekspark/nvidia-earnings-nov-17-the-first-report-without-jensen-huang-and-what-to-watch-5f3",
+      "summary": "For the first time since he co-founded the company in 1993, Nvidia will report earnings without Jensen Huang in charge. The leather jacket won't be on the call. Instead, interim CEO Colette Kress will face Wall Street on Tuesday, five days after Huang's sudden exit.\n\nThis report matters more than any Nvidia report in years. The stock has fallen more than 30% from its October high, the company has no permanent CEO, and the entire AI trade is watching to see whether the chip demand is still there. Here's when the numbers land, what analysts expect, and the five things that will move the stock.\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-11-17T16:18:03+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "90aa92a907dc",
+      "title": "ICLR 2027: PCs ran an AI detector on reviews, peer review is cooked [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xyf1tq/iclr_2027_pcs_ran_an_ai_detector_on_reviews_peer/",
+      "summary": "The PCs ran AI detectors on the reviews and left this comment on undisclosed AI usage in reviews:  AI use in this review An AI-text detector assesses this review as likely AI-generated, yet its AI-use documentation field does not mention how AI was used. It is therefore possible that the review contains no human input. We ask the reviewer to update that field with an exclusively human-written assessment of the paper, and document any AI interactions. We additionally ask the AC and other reviewers to take this information into account when evaluating the paper.  Luckily, I didn't use any AI for",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-17T08:22:41+00:00",
+      "score": 3.15,
+      "image": null
+    },
+    {
+      "id": "9b2bc04e4f98",
+      "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-11-16T15:25:00+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "a3c32abe815a",
+      "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+      "url": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs: no GPU passthrough, at most five sandboxes per vCPU, and half the compute on SMT instances. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-16T09:07:00+00:00",
+      "score": 2.95,
+      "image": null
+    },
+    {
+      "id": "2ff87933e88d",
+      "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
+      "url": "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-11-16T12:25:00+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "05ac31ecba87",
+      "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
+      "url": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-16T14:37:00+00:00",
+      "score": 2.66,
+      "image": null
+    },
+    {
+      "id": "690a9aa8938d",
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-16T17:36:43+00:00",
+      "score": 2.62,
+      "image": null
+    },
+    {
+      "id": "84c868d5ed58",
+      "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
+      "url": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah",
+      "source": "InfoQ",
+      "published": "2026-11-16T11:00:00+00:00",
+      "score": 2.46,
+      "image": null
+    },
+    {
+      "id": "aa2a47bd0b65",
+      "title": "After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th",
+      "url": "https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/",
+      "summary": "Telling eight base and instruction-tuned open models that the coin is fair and the flips are independent trims their streak bias by only a few points.\nThe post After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T16:30:00+00:00",
+      "score": 2.36,
+      "image": null
+    },
+    {
+      "id": "838bc4b27c16",
+      "title": "Local LLMs Handle Textbook RAG but Fail on New Research Papers",
+      "url": "https://towardsdatascience.com/local-llms-handle-textbook-rag-but-fail-on-new-research-papers/",
+      "summary": "Five setups, one blind grading pack: textbook scores ran 12 to 20 of 20, but a paper published this year dropped them to 0 to 9 of 15.\nThe post Local LLMs Handle Textbook RAG but Fail on New Research Papers appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T12:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "7a78ef5ca695",
+      "title": "Steering a pretrained music transformer at sampling time into a real-time jazz partner (no fine-tuning) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xxkyh3/steering_a_pretrained_music_transformer_at/",
+      "summary": "I've been working on duetto, a real-time jazz partner for a MIDI keyboard: it plays a standard with you as a small band (solo, comping, walking bass), comps while you play and takes a solo when you stop. Demo (Autumn Leaves, 160 bpm): https://youtu.be/8zIAzVY8O6w Code (free for noncommercial use): https://github.com/RiccardoCataldi/duetto Approach. Instead of fine-tuning, it uses the pretrained Anticipatory Music Transformer (Thickstun et al., 2023) as-is and does all the control at sampling time:  The player's notes and the model's are one event sequence the model continues, one note (onset, ",
+      "source": "Reddit r/MachineLearning",
+      "published": "2026-11-16T09:19:43+00:00",
+      "score": 2.26,
+      "image": null
+    },
+    {
+      "id": "f89cd0c3d555",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-16T13:18:22+00:00",
+      "score": 2.19,
+      "image": null
+    },
+    {
+      "id": "260810f56684",
+      "title": "Why Human in the Loop AI Oversight Fails and How to Fix It",
+      "url": "https://towardsdatascience.com/why-human-in-the-loop-ai-oversight-fails-and-how-to-fix-it/",
+      "summary": "Kahneman's System 1 and System 2, plus the ODPS, ODCS, and Ossie standards, show how to wake reviewers up only when a check fails.\nThe post Why Human in the Loop AI Oversight Fails and How to Fix It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T15:00:00+00:00",
+      "score": 2.08,
+      "image": null
+    },
+    {
+      "id": "19241261ebce",
+      "title": "How to Avoid AI Replacement as an Analytics Professional in 2027",
+      "url": "https://towardsdatascience.com/how-to-avoid-ai-replacement-as-an-analytics-professional-in-2027/",
+      "summary": "Lessons from manufacturing and logistics projects: follow data from input to output, then turn vague requests into deterministic tools teams trust.\nThe post How to Avoid AI Replacement as an Analytics Professional in 2027 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-16T13:30:00+00:00",
+      "score": 2.0,
+      "image": null
+    }
+  ]
+}

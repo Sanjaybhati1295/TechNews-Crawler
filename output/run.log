@@ -6621,3 +6621,37 @@
 2026-11-16 16:37:03,402  INFO     ────────────────────────────────────────────────────────────
 2026-11-16 16:37:03,402  INFO     Done!  Open: output/index.html
 2026-11-16 16:37:03,402  INFO     Headline: Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J
+2026-11-17 16:34:01,433  INFO     ============================================================
+2026-11-17 16:34:01,433  INFO     TECHPULSE Digest — 2026-11-17 16:34 UTC
+2026-11-17 16:34:01,434  INFO     ============================================================
+2026-11-17 16:34:01,434  INFO     Step 1/3 — Crawling feeds…
+2026-11-17 16:34:01,678  INFO       Hacker News                    → 1 significant articles
+2026-11-17 16:34:01,842  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-17 16:34:01,976  INFO       Ars Technica                   → 0 significant articles
+2026-11-17 16:34:02,559  INFO       The Register AI                → 0 significant articles
+2026-11-17 16:34:02,683  INFO       MIT Tech Review                → 0 significant articles
+2026-11-17 16:34:02,872  INFO       Dev.to AI                      → 4 significant articles
+2026-11-17 16:34:03,057  INFO       Dev.to Programming             → 0 significant articles
+2026-11-17 16:34:03,182  INFO       GitHub Blog                    → 0 significant articles
+2026-11-17 16:34:03,912  INFO       Google Research                → 0 significant articles
+2026-11-17 16:34:04,632  INFO       Reddit r/MachineLearning       → 3 significant articles
+2026-11-17 16:34:04,736  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-17 16:34:05,234  INFO       InfoQ                          → 6 significant articles
+2026-11-17 16:34:05,923  INFO       Towards Data Science           → 7 significant articles
+2026-11-17 16:34:06,146  INFO       Wired AI                       → 0 significant articles
+2026-11-17 16:34:06,298  INFO       TechCrunch AI                  → 8 significant articles
+2026-11-17 16:34:06,298  INFO     Fetching images for top articles…
+2026-11-17 16:34:06,384  INFO       🖼  Isomorphic Labs raises $5B as it looks to take drug candidat
+2026-11-17 16:34:06,823  INFO       🖼  Ten Years On, Google Updates the SRE Book for the AI Era
+2026-11-17 16:34:07,026  INFO       🖼  Voyage Labs raises $12 million for a specialized AI travel a
+2026-11-17 16:34:07,099  INFO       🖼  Science Corporation’s brain tech is worth $3.5 billion after
+2026-11-17 16:34:07,232  INFO       🖼  Nvidia’s first big move after Jensen Huang’s exit targets na
+2026-11-17 16:34:07,232  INFO     Total selected: 29 articles from 15 feeds
+2026-11-17 16:34:07,232  INFO     Selected 29 significant articles
+2026-11-17 16:34:07,232  INFO     Step 2/3 — Generating digest…
+2026-11-17 16:34:07,422  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-17 16:34:07,422  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-17 16:34:07,422  INFO     Step 3/3 — Rendering HTML…
+2026-11-17 16:34:07,423  INFO     ────────────────────────────────────────────────────────────
+2026-11-17 16:34:07,423  INFO     Done!  Open: output/index.html
+2026-11-17 16:34:07,423  INFO     Headline: Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials
