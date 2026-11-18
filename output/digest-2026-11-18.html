@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Wednesday, November 18, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Wednesday, November 18, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 25 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/iacompa/openai-launches-chatgpt-for-sales-a-first-party-sales-plugin-plus-30-crm-partner-plugins-41pc" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ya29ey90qygv1pqint7.png" alt="OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/alanwest/mai-code-2-vs-claude-opus-55-vs-gpt-61-sol-5-of-the-cost-is-a-promo-price-4o4b" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F37730212%2Fpexels-photo-37730212.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200" alt="MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: &quot;5% of the Cost&quot; Is a Promo Price" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: &quot;5% of the Cost&quot; Is a Pr…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/hivegate-/ai-agent-rest-api-errors-what-hivegate-040-changes-27nl" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw98yom0peuf6jgj3v75l.png" alt="AI agent REST API errors: what HiveGate 0.4.0 changes" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">AI agent REST API errors: what HiveGate 0.4.0 changes</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>InfoQ</span> · <span>Dev.to Programming</span> · <span>TechCrunch AI</span> · <span>Towards Data Science</span> · <span>MIT Tech Review</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins (Dev.to AI). MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: &quot;5% of the Cost&quot; Is a Promo Price (Dev.to AI). AI agent REST API errors: what HiveGate 0.4.0 changes (Dev.to AI). How to Do Generative Engine Optimization: A Step-by-Step Guide (Dev.to AI). Claude Code forgets your sessions after 30 days. I found my year anyway. (Dev.to AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Salesforce &amp; AWS</h2>
+          <div class="section-body"><p>Building the Agent Host Protocol for sessions that continue across devices (GitHub Blog).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors (InfoQ). Hydropower hit record lows in the US Southwest this summer (MIT Tech Review).</p></div>
+        </div>
+
+    <div class="takeaway">OpenAI has launched ChatGPT for Sales, a first-party Sales plugin plus 30+ CRM partner plugins.
+
+
+  
+  
+  Summary
+
+
+OpenAI has launched ChatGPT for Sales, a new way to use ChatGPT to help sales teams sell. It includes a first-party Sales plugin and more than 30 partner plugins from CRM and sales tools.
+
+
+  
+  
+  What changed
+
+
+
+ChatGPT for Sales is a new way to use ChatGPT to help sales teams sell.
+It includes a first-party Sales plugin, built by OpenAI, plus more than 30 partner plugins from CRM and sales tools.
+The Sales plugin can help sales teams create content and equip sellers, manage ac</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (25 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/iacompa/openai-launches-chatgpt-for-sales-a-first-party-sales-plugin-plus-30-crm-partner-plugins-41pc" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/alanwest/mai-code-2-vs-claude-opus-55-vs-gpt-61-sol-5-of-the-cost-is-a-promo-price-4o4b" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: &quot;5% of the Cost&quot; Is a Promo Price</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/hivegate-/ai-agent-rest-api-errors-what-hivegate-040-changes-27nl" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">AI agent REST API errors: what HiveGate 0.4.0 changes</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/rankvelt/how-to-do-generative-engine-optimization-a-step-by-step-guide-4d36" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">How to Do Generative Engine Optimization: A Step-by-Step Guide</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/thihodev/claude-code-forgets-your-sessions-after-30-days-i-found-my-year-anyway-5ege" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Claude Code forgets your sessions after 30 days. I found my year anyway.</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/jeff_pdc/openapi-json-schema-differences-13l2" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">OpenAPI JSON Schema Differences</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/spartanrich430/11430-people-trained-their-brains-for-six-weeks-they-got-better-at-the-games-546p" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">11,430 People Trained Their Brains for Six Weeks. They Got Better at the Games.</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/sahil_sinha_ee35b6a28bac1/choosing-a-paas-provider-canadian-businesses-can-rely-on-1nj6" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Choosing a PaaS Provider Canadian Businesses Can Rely On</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Neurosymbolic Agents Explained, With a Z3 Example in Python</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">This smell startup says its AI nose is as good as a human’s</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Model ML raises $250M to automate investment banking grunt work</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Estimate Dose-Response Curves When DoubleML Falls Short</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">Hydropower hit record lows in the US Southwest this summer</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Google to keep Gemini chats for 2 months, up from 72 hours, even with history off</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">Maintainers don’t need more AI bug reports. They need fixes.</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Pedestal AI raises $4.7 million to agentify the supply chain</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Wednesday, November 18, 2026 · 25 articles crawled from 7 sources
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+{
+  "digest": {
+    "headline": "OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins",
+    "tldr": "Today's digest covers 25 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins (Dev.to AI). MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: \"5% of the Cost\" Is a Promo Price (Dev.to AI). AI agent REST API errors: what HiveGate 0.4.0 changes (Dev.to AI). How to Do Generative Engine Optimization: A Step-by-Step Guide (Dev.to AI). Claude Code forgets your sessions after 30 days. I found my year anyway. (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "Building the Agent Host Protocol for sessions that continue across devices (GitHub Blog)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors (InfoQ). Hydropower hit record lows in the US Southwest this summer (MIT Tech Review)."
+      }
+    ],
+    "key_takeaway": "OpenAI has launched ChatGPT for Sales, a first-party Sales plugin plus 30+ CRM partner plugins.\n\n\n  \n  \n  Summary\n\n\nOpenAI has launched ChatGPT for Sales, a new way to use ChatGPT to help sales teams sell. It includes a first-party Sales plugin and more than 30 partner plugins from CRM and sales tools.\n\n\n  \n  \n  What changed\n\n\n\nChatGPT for Sales is a new way to use ChatGPT to help sales teams sell.\nIt includes a first-party Sales plugin, built by OpenAI, plus more than 30 partner plugins from CRM and sales tools.\nThe Sales plugin can help sales teams create content and equip sellers, manage ac"
+  },
+  "articles": [
+    {
+      "id": "44e2e1e27e38",
+      "title": "OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins",
+      "url": "https://dev.to/iacompa/openai-launches-chatgpt-for-sales-a-first-party-sales-plugin-plus-30-crm-partner-plugins-41pc",
+      "summary": "OpenAI has launched ChatGPT for Sales, a first-party Sales plugin plus 30+ CRM partner plugins.\n\n\n  \n  \n  Summary\n\n\nOpenAI has launched ChatGPT for Sales, a new way to use ChatGPT to help sales teams sell. It includes a first-party Sales plugin and more than 30 partner plugins from CRM and sales tools.\n\n\n  \n  \n  What changed\n\n\n\nChatGPT for Sales is a new way to use ChatGPT to help sales teams sell.\nIt includes a first-party Sales plugin, built by OpenAI, plus more than 30 partner plugins from CRM and sales tools.\nThe Sales plugin can help sales teams create content and equip sellers, manage ac",
+      "source": "Dev.to AI",
+      "published": "2026-11-18T15:57:48+00:00",
+      "score": 4.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4ya29ey90qygv1pqint7.png"
+    },
+    {
+      "id": "c1b057a5abad",
+      "title": "MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: \"5% of the Cost\" Is a Promo Price",
+      "url": "https://dev.to/alanwest/mai-code-2-vs-claude-opus-55-vs-gpt-61-sol-5-of-the-cost-is-a-promo-price-4o4b",
+      "summary": "Microsoft says MAI Code 2 gives you 96% of Claude Opus 5.5's coding performance at 5% of the cost, and 98% of GPT-6.1 Sol at 40%. The footnote says the MAI prices behind those numbers are a 50% promotional rate. The benchmark table in the model card shows MAI's own scores and not one competitor score next to them. And if you run Microsoft's own GPT-6.1 Sol figure against GitHub's price list, MAI Code 2 comes out using more tokens than Sol.\n\nI spent an evening with the announcement, the 22-page model card, GitHub Copilot's pricing table and the Hacker News thread. I ran nothing myself. This pos",
+      "source": "Dev.to AI",
+      "published": "2026-11-18T16:00:02+00:00",
+      "score": 4.4,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fimages.pexels.com%2Fphotos%2F37730212%2Fpexels-photo-37730212.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26fit%3Dcrop%26h%3D627%26w%3D1200"
+    },
+    {
+      "id": "52ebf195255a",
+      "title": "AI agent REST API errors: what HiveGate 0.4.0 changes",
+      "url": "https://dev.to/hivegate-/ai-agent-rest-api-errors-what-hivegate-040-changes-27nl",
+      "summary": "An agent API can fail in a way that is worse than going down: it answers. The provider rejects the key, the account is out of credits, or the model is unavailable, and the API still returns 200 OK with the provider's error text where the answer should be. A chat UI shows it to the user as if the agent said it. An eval scores it. A retry loop sees success and stops retrying. A cost report counts it as a completed conversation.\n\nUntil last week, HiveGate did that. HiveGate 0.4.0, released on November 11, fixes it, along with two related failures that also looked like success. This post covers wh",
+      "source": "Dev.to AI",
+      "published": "2026-11-18T16:00:01+00:00",
+      "score": 4.0,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fw98yom0peuf6jgj3v75l.png"
+    },
+    {
+      "id": "b7b160d70a67",
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "url": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-11-18T10:12:00+00:00",
+      "score": 3.97,
+      "image": "https://res.infoq.com/news/2026/11/vercel-ui-sdk/en/headerimage/generatedHeaderImage-1794576155684.jpg"
+    },
+    {
+      "id": "badedded91a7",
+      "title": "How to Do Generative Engine Optimization: A Step-by-Step Guide",
+      "url": "https://dev.to/rankvelt/how-to-do-generative-engine-optimization-a-step-by-step-guide-4d36",
+      "summary": "The actual GEO procedure: audit where you appear in AI answers, fix AI crawler access, rewrite pages in answer-first structure, build entity signals, adjust per engine, and measure citations monthly.\n\n\n  \n  \n  Key Takeaways\n\n\n\nGEO is a procedure, not a plugin: audit, access, answer structure, entity signals, per-engine adjustments, and monthly measurement.\nStart with a baseline: test a fixed set of prompts across ChatGPT, Gemini, and Perplexity and record mentions, citations, and recommendations.\nAI crawler access matters: check robots.txt and server rules for AI crawlers, and do not block the",
+      "source": "Dev.to AI",
+      "published": "2026-11-18T16:00:00+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F6qyw3v9kgb298sw911k8.png"
+    },
+    {
+      "id": "23bf9f075c0b",
+      "title": "Claude Code forgets your sessions after 30 days. I found my year anyway.",
+      "url": "https://dev.to/thihodev/claude-code-forgets-your-sessions-after-30-days-i-found-my-year-anyway-5ege",
+      "summary": "I wanted to see my year with Claude Code the way Spotify shows me a year of music. So I built agent-wrapped:\n\n\n\nnpx github:openyard-cloud/agent-wrapped\n\n\n\n\n\n\nIt reads the history Claude Code (and Codex) already keep on your computer and writes one HTML file: a short story you tap through, and a card you can save as an image. Here is mine.\n\n\n\nNothing is uploaded. The page makes no network requests, and the card shows totals only.\n\nThe first version said I had 71 active days this year. The real number is 126. Finding the other 55 is most of this post.\n\n\n  \n  \n  Where Claude Code keeps your histo",
+      "source": "Dev.to AI",
+      "published": "2026-11-18T16:00:00+00:00",
+      "score": 3.9,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fzcqkc0m6l46unbfehkbh.png"
+    },
+    {
+      "id": "98f20664a816",
+      "title": "OpenAPI JSON Schema Differences",
+      "url": "https://dev.to/jeff_pdc/openapi-json-schema-differences-13l2",
+      "summary": "Quick answer: OpenAPI does not run on the full JSON Schema standard. It borrows JSON Schema's structure and changes a few keywords, so some valid JSON Schema constructs fail in OpenAPI and vice versa. OpenAPI 3.0 uses an extended subset of an early draft with its own rules, while 3.1 aligns with JSON Schema 2020-12; the differences that bite teams are null handling, numeric bounds, $ref siblings, and the type field.\n\n\n  \n  \n  Why the two are not identical\n\n\nJSON Schema is its own specification, released as drafts such as Draft 7 and 2020-12. OpenAPI reuses that vocabulary for request and respo",
+      "source": "Dev.to Programming",
+      "published": "2026-11-18T15:27:51+00:00",
+      "score": 3.77,
+      "image": null
+    },
+    {
+      "id": "507171bd6711",
+      "title": "11,430 People Trained Their Brains for Six Weeks. They Got Better at the Games.",
+      "url": "https://dev.to/spartanrich430/11430-people-trained-their-brains-for-six-weeks-they-got-better-at-the-games-546p",
+      "summary": "Your brain gets better at exactly what you practise. Almost nothing else.\n\nThat sounds like a motivational poster. It's closer to a warning, and in 2010 it had 11,430 people behind it.\n\n\n  \n  \n  The biggest brain-training test ever run\n\n\nAdrian Owen and his colleagues at the Medical Research Council in Cambridge teamed up with the BBC science show Bang Goes the Theory to settle a simple question. Does brain training work?\n\nViewers signed up online. They took a set of benchmark tests at the start: reasoning, memory, attention, planning. Then they trained several times a week for six weeks on ta",
+      "source": "Dev.to Programming",
+      "published": "2026-11-18T15:39:08+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "88e2011f4283",
+      "title": "Choosing a PaaS Provider Canadian Businesses Can Rely On",
+      "url": "https://dev.to/sahil_sinha_ee35b6a28bac1/choosing-a-paas-provider-canadian-businesses-can-rely-on-1nj6",
+      "summary": "Platform as a service (PaaS) lets your team build, deploy, and run applications without managing servers, operating systems, or much of the underlying infrastructure. For Canadian businesses, that convenience comes with extra questions. Where will our data live? Which privacy laws apply? What happens if the provider has an outage, changes its pricing, or is subject to foreign legal demands?\n\nThis guide explains what to look for in a PaaS provider, the Canadian-specific issues to check, how to compare costs, and how to run a selection process that holds up.\n\n\n  \n  \n  What PaaS Actually Covers\n\n",
+      "source": "Dev.to Programming",
+      "published": "2026-11-18T15:24:31+00:00",
+      "score": 3.66,
+      "image": null
+    },
+    {
+      "id": "996c920e2c06",
+      "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups including Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T11:30:00+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "3f73286c2e82",
+      "title": "Neurosymbolic Agents Explained, With a Z3 Example in Python",
+      "url": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/",
+      "summary": "Starting from Air Canada's chatbot case, a tour of Logic-LM, Agent-C, and Amazon's checks shows the solver is sound but the English-to-logic step is not.\nThe post Neurosymbolic Agents Explained, With a Z3 Example in Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T15:00:00+00:00",
+      "score": 3.64,
+      "image": null
+    },
+    {
+      "id": "d1dd49b4f83d",
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-18T10:20:30+00:00",
+      "score": 3.58,
+      "image": null
+    },
+    {
+      "id": "d9a047affb02",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T19:32:11+00:00",
+      "score": 3.56,
+      "image": null
+    },
+    {
+      "id": "93feb30388ed",
+      "title": "When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores",
+      "url": "https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/",
+      "summary": "On 1 million simulated customers, calibrated Qini scored a Linear DR learner 0.0856 against 0.0826 for the true-CATE ranking that should have won.\nThe post When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T13:30:00+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "ebfbae9db5a1",
+      "title": "How to Estimate Dose-Response Curves When DoubleML Falls Short",
+      "url": "https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/",
+      "summary": "Simulations test DoubleML against Kennedy's doubly robust estimator, with partial pooling across 200 stores and a DiD fix for hidden confounders.\nThe post How to Estimate Dose-Response Curves When DoubleML Falls Short appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T12:00:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "6a38a59720a4",
+      "title": "Hydropower hit record lows in the US Southwest this summer",
+      "url": "https://www.technologyreview.com/2026/11/17/1148742/hydropower-drought-colorado-river/",
+      "summary": "The US Southwest generated 28% less electricity via hydropower between April and August than the 10-year average, according to new data from the US Energy Information Administration. Most hydropower plants in the US rely on dams to hold back water, creating reservoirs. The water can be released through turbines, generating electricity on demand. But an&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-17T17:52:10+00:00",
+      "score": 2.97,
+      "image": null
+    },
+    {
+      "id": "3feac0927710",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T23:04:35+00:00",
+      "score": 2.96,
+      "image": null
+    },
+    {
+      "id": "560e703561a2",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T18:48:23+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "aa9ce3deb1b1",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "summary": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half.\nThe post Maintainers don&#8217;t need more AI bug reports. They need fixes.  appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-17T18:29:29+00:00",
+      "score": 2.9,
+      "image": null
+    },
+    {
+      "id": "b145ab91c010",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-17T18:04:16+00:00",
+      "score": 2.88,
+      "image": null
+    },
+    {
+      "id": "e2c93b2ad7cf",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.\nThe post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-17T18:20:40+00:00",
+      "score": 2.59,
+      "image": null
+    },
+    {
+      "id": "058590bcb079",
+      "title": "Ten Years On, Google Updates the SRE Book for the AI Era",
+      "url": "https://www.infoq.com/news/2026/11/google-sre-book-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced a completely rewritten second edition of Site Reliability Engineering: How Google Runs Production Systems, ten years after the original book was published by O'Reilly Media. The update reframes SRE around modern cloud architectures, platform engineering and AI workloads, while retaining the discipline's original emphasis on applying software engineering to operations. By Matt Saunders",
+      "source": "InfoQ",
+      "published": "2026-11-17T09:00:00+00:00",
+      "score": 2.57,
+      "image": null
+    },
+    {
+      "id": "9a48bc8114c3",
+      "title": "How to Govern Coding Agent Skills Across Repos With Plugins",
+      "url": "https://towardsdatascience.com/how-to-govern-coding-agent-skills-across-repos-with-plugins/",
+      "summary": "Package skills, rules, hooks, and MCP tool configs as versioned plugins, then distribute them through a marketplace, shown with Claude Code and AWS.\nThe post How to Govern Coding Agent Skills Across Repos With Plugins appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T15:00:00+00:00",
+      "score": 2.51,
+      "image": null
+    },
+    {
+      "id": "879ef0babf17",
+      "title": "How to Improve Coding Agent Efficiency by 30% with an Orchestrator",
+      "url": "https://towardsdatascience.com/how-to-improve-coding-agent-efficiency-by-30-with-an-orchestrator/",
+      "summary": "Stop hunting through sessions for pending questions: a herder agent surfaces them by priority, kept current by webhooks or cheap Haiku polling.\nThe post How to Improve Coding Agent Efficiency by 30% with an Orchestrator appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T16:30:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "1bc028a7d8a4",
+      "title": "Google ADK Agents That Pause, Resume, and Wait Hours for a Human",
+      "url": "https://towardsdatascience.com/google-adk-agents-that-pause-resume-and-wait-hours-for-a-human/",
+      "summary": "A synchronous call kept an RSS agent's connection open for 83 seconds; webhooks and 202 receipts free the client while the agent works.\nThe post Google ADK Agents That Pause, Resume, and Wait Hours for a Human appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-17T13:30:00+00:00",
+      "score": 2.22,
+      "image": null
+    }
+  ]
+}

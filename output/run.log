@@ -6655,3 +6655,38 @@
 2026-11-17 16:34:07,423  INFO     ────────────────────────────────────────────────────────────
 2026-11-17 16:34:07,423  INFO     Done!  Open: output/index.html
 2026-11-17 16:34:07,423  INFO     Headline: Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials
+2026-11-18 16:03:13,059  INFO     ============================================================
+2026-11-18 16:03:13,059  INFO     TECHPULSE Digest — 2026-11-18 16:03 UTC
+2026-11-18 16:03:13,059  INFO     ============================================================
+2026-11-18 16:03:13,059  INFO     Step 1/3 — Crawling feeds…
+2026-11-18 16:03:13,280  INFO       Hacker News                    → 0 significant articles
+2026-11-18 16:03:13,484  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-18 16:03:13,622  INFO       Ars Technica                   → 0 significant articles
+2026-11-18 16:03:14,219  INFO       The Register AI                → 0 significant articles
+2026-11-18 16:03:14,418  INFO       MIT Tech Review                → 2 significant articles
+2026-11-18 16:03:14,583  INFO       Dev.to AI                      → 5 significant articles
+2026-11-18 16:03:14,755  INFO       Dev.to Programming             → 3 significant articles
+2026-11-18 16:03:14,970  INFO       GitHub Blog                    → 2 significant articles
+2026-11-18 16:03:15,633  INFO       Google Research                → 0 significant articles
+2026-11-18 16:03:15,749  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-11-18 16:03:15,872  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-18 16:03:16,215  INFO       InfoQ                          → 2 significant articles
+2026-11-18 16:03:17,215  INFO       Towards Data Science           → 6 significant articles
+2026-11-18 16:03:17,398  INFO       Wired AI                       → 0 significant articles
+2026-11-18 16:03:17,445  INFO       TechCrunch AI                  → 5 significant articles
+2026-11-18 16:03:17,445  INFO     Fetching images for top articles…
+2026-11-18 16:03:17,578  INFO       🖼  OpenAI launches ChatGPT for Sales: a first-party Sales plugi
+2026-11-18 16:03:17,626  INFO       🖼  MAI Code 2 vs Claude Opus 5.5 vs GPT-6.1 Sol: "5% of the Cos
+2026-11-18 16:03:17,701  INFO       🖼  AI agent REST API errors: what HiveGate 0.4.0 changes
+2026-11-18 16:03:17,909  INFO       🖼  Vercel Releases UI SDK for Agents to Compose UI from Reusabl
+2026-11-18 16:03:18,033  INFO       🖼  How to Do Generative Engine Optimization: A Step-by-Step Gui
+2026-11-18 16:03:18,094  INFO       🖼  Claude Code forgets your sessions after 30 days. I found my 
+2026-11-18 16:03:18,094  INFO     Total selected: 25 articles from 15 feeds
+2026-11-18 16:03:18,094  INFO     Selected 25 significant articles
+2026-11-18 16:03:18,094  INFO     Step 2/3 — Generating digest…
+2026-11-18 16:03:18,475  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-18 16:03:18,475  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-18 16:03:18,475  INFO     Step 3/3 — Rendering HTML…
+2026-11-18 16:03:18,476  INFO     ────────────────────────────────────────────────────────────
+2026-11-18 16:03:18,476  INFO     Done!  Open: output/index.html
+2026-11-18 16:03:18,476  INFO     Headline: OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins
