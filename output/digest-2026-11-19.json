@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For (Dev.to AI). Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History Starts Trading Today (Dev.to AI). .NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components (InfoQ). Complete iBird Onboarding Guide: How to Create Your Account and Start Socializing (Dev.to Programming). AB-210 Exam Guide (2026): Skills, Weights, Format and How to Prepare for Dynamics 365 Sales AI Consultant (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework (InfoQ). Nvidia created a weird bit of intrigue by not filing a routine SEC report (TechCrunch AI). Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors (InfoQ)."
+      }
+    ],
+    "key_takeaway": "Google has a new mid-tier model, and it is aimed squarely at the people who actually pay for AI every day.\n\nGemini 4 Neon scores 61 on the Artificial Analysis Intelligence Index — ahead of Claude Sonnet 4.5 (59), GPT-5.2 (59), Gemini 3 Pro (58) and Kimi K2.5 (57) — and it is first on the Coding Agent Index with 57.1, ahead of GPT-5.2 (55.2), Claude Sonnet 4.6 (55.1) and Gemini 3 Pro (54.2). It does all of that at $3 per million input tokens, with a one-million-token context window.\n\nThat combination is why this launch matters more than the usual benchmark parade. The headline models get the at"
+  },
+  "articles": [
+    {
+      "id": "e27259754d80",
+      "title": "Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For",
+      "url": "https://dev.to/haroonch_rashid_72f1d7e31/gemini-4-neon-scores-61-and-costs-3-per-million-tokens-the-mid-tier-model-freelancers-have-been-1l0j",
+      "summary": "Google has a new mid-tier model, and it is aimed squarely at the people who actually pay for AI every day.\n\nGemini 4 Neon scores 61 on the Artificial Analysis Intelligence Index — ahead of Claude Sonnet 4.5 (59), GPT-5.2 (59), Gemini 3 Pro (58) and Kimi K2.5 (57) — and it is first on the Coding Agent Index with 57.1, ahead of GPT-5.2 (55.2), Claude Sonnet 4.6 (55.1) and Gemini 3 Pro (54.2). It does all of that at $3 per million input tokens, with a one-million-token context window.\n\nThat combination is why this launch matters more than the usual benchmark parade. The headline models get the at",
+      "source": "Dev.to AI",
+      "published": "2026-11-19T16:03:59+00:00",
+      "score": 4.59,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fihkqmm1hwlicx56sg88q.png"
+    },
+    {
+      "id": "dd4b84798e6b",
+      "title": "Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History Starts Trading Today",
+      "url": "https://dev.to/haroonch_rashid_72f1d7e31/anthropic-prices-its-ipo-at-83-a-share-the-largest-ipo-in-history-starts-trading-today-o9",
+      "summary": "Claude's maker is now the biggest stock market debut in history. Anthropic priced its initial public offering at $83 a share on Wednesday 18 November — above its $70 to $78 range — raising about $81.3 billion and valuing the company at roughly $1.5 trillion. Its shares start trading today, Thursday 19 November, on the Nasdaq under the ticker ANT.\n\n\n  \n  \n  The numbers\n\n\n\n\nPrice: $83 a share, above the $70–$78 range set when the roadshow launched on 10 November.\n\nSize: 980 million shares sold, up from the 825 million originally planned — about 956 million new shares from Anthropic and 24 millio",
+      "source": "Dev.to AI",
+      "published": "2026-11-19T16:08:02+00:00",
+      "score": 4.2,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fncixgku3ft4x3cl8umd4.png"
+    },
+    {
+      "id": "2eae478f3a2c",
+      "title": ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
+      "url": "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a CacheView component, client-side validation for static SSR forms, opt-in circuit pause for inactive tabs, and experimental AI components. Zstandard compression is on by default. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-11-19T11:27:00+00:00",
+      "score": 4.04,
+      "image": "https://res.infoq.com/news/2026/11/asp-net-11-release/en/card_header_image/generatedCard-1795007141275.jpg"
+    },
+    {
+      "id": "205db3e7886d",
+      "title": "Complete iBird Onboarding Guide: How to Create Your Account and Start Socializing",
+      "url": "https://dev.to/iassets/complete-ibird-onboarding-guide-how-to-create-your-account-and-start-socializing-240c",
+      "summary": "Step-by-step guide to creating your iBird account and joining the decentralized social revolution. Learn how to set up your Hedera wallet, connect to iBird, and start posting on the world's first AI-native social network.\n\n\n  \n  \n  Welcome to the Future of Social Media\n\n\nCreating your iBird account is your gateway to the world's first truly decentralized social network where AI agents and humans interact as equals. Unlike traditional platforms that can delete your content or ban your account, iBird gives you permanent ownership of your social presence through blockchain technology.\n\nThis compr",
+      "source": "Dev.to Programming",
+      "published": "2026-11-19T15:30:02+00:00",
+      "score": 3.96,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8z8xkdg9k8ikf3xbedv7.png"
+    },
+    {
+      "id": "8267521973c8",
+      "title": "AB-210 Exam Guide (2026): Skills, Weights, Format and How to Prepare for Dynamics 365 Sales AI Consultant",
+      "url": "https://dev.to/mannan/ab-210-exam-guide-2026-skills-weights-format-and-how-to-prepare-for-dynamics-365-sales-ai-3aj1",
+      "summary": "Microsoft's AB-210: Accelerating Sales Pipelines with AI in Dynamics 365 is the exam for the Microsoft Certified: Dynamics 365 Sales AI Consultant Associate certification. It's one of the first role-based exams built around AI agents rather than classic CRM configuration, so many familiar study resources don't fully cover it yet.\n\nThis guide covers what the exam measures, how it's weighted, which topics deserve the most attention, and how to prepare efficiently. At the end, you'll find a set of AB-210 practice tests I created, currently free with a coupon.\n\n\n  \n  \n  AB-210 at a glance\n\n\n\n\n\n\n\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-11-19T16:08:06+00:00",
+      "score": 3.7,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fjfet9l5l8fs9dj5mqznt.png"
+    },
+    {
+      "id": "b0f319a64313",
+      "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
+      "url": "https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/",
+      "summary": "Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control.\nThe post How to Run Claude Code and Other Coding Agents in the Cloud 24/7 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T15:00:00+00:00",
+      "score": 3.63,
+      "image": null
+    },
+    {
+      "id": "1bdae4f8e545",
+      "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+      "url": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+      "summary": "Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes.\nThe post How to Oversee AI Agents at Scale With a Three-Tier Architecture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T13:30:00+00:00",
+      "score": 3.55,
+      "image": null
+    },
+    {
+      "id": "3373fe9f72e3",
+      "title": "I Asked a Local Vision Model 36 Questions About GTA VI. One Answer Broke the Contract.",
+      "url": "https://dev.to/pavel_kkkkazantsev/i-asked-a-local-vision-model-36-questions-about-gta-vi-one-answer-broke-the-contract-4i9g",
+      "summary": "Gemma 3 returned \"blue\" for a question that accepted only yes, no, or unclear.\n\nThe answer was semantically close. It was still unusable in code.\n\nI used 12 screenshots from Rockstar's official GTA VI gallery, wrote 36 visible-pixel questions before inference, then ran local gemma3:4b at temperature 0.\n\nThe first run scored 31/36 under exact matching.\n\n\n23/24 correct when the labelled fact was present\n8/12 correct when the labelled fact was absent\n35/36 valid enum values\n36/36 identical answers in an immediate duplicate run\n\n\nIn this sample, negative evidence was harder. Three obvious absences",
+      "source": "Dev.to AI",
+      "published": "2026-11-19T16:04:24+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7f8f3e31c7ff",
+      "title": "AI Made Coding Cheaper. Why Are Client Projects Still Expensive? (An Agency View)",
+      "url": "https://dev.to/lycore/ai-made-coding-cheaper-why-are-client-projects-still-expensive-an-agency-view-2bdf",
+      "summary": "TL;DR: Clients ask us some version of this a lot now: \"If AI writes the code now, why does the project still cost what it costs?\" It's a fair question, and the honest answer is that typing code was never most of the bill. AI made the first draft cheap. It did very little for discovery, integration, data, verification, security and running the thing afterwards, and it made one of those (review) more important. Below is an agency's view of where the time goes, a concrete example of a \"done in five minutes\" feature that took much longer, and what clients can do to make projects cheaper for real.\n",
+      "source": "Dev.to Programming",
+      "published": "2026-11-19T16:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "7f5f8e02249b",
+      "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+      "url": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the device’s GPU, native mobile views, and a Rust core shared across platforms. Early results hint at a significant reduction in RAM usage and boot time for chat, voice, and streaming. By Bruno Couriol",
+      "source": "InfoQ",
+      "published": "2026-11-19T03:12:00+00:00",
+      "score": 3.28,
+      "image": null
+    },
+    {
+      "id": "c27789c927ee",
+      "title": "Analytics Engineering's Missing Layer Is Business Communication",
+      "url": "https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/",
+      "summary": "Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes.\nThe post Analytics Engineering's Missing Layer Is Business Communication appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T12:00:00+00:00",
+      "score": 3.27,
+      "image": null
+    },
+    {
+      "id": "4544035da65a",
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "summary": "One Wall Street analyst got to the bottom of Nvidia's surprise announcement that it wouldn't be filing its formal quarterly results document, the 10-Q, for weeks.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T21:57:40+00:00",
+      "score": 2.89,
+      "image": null
+    },
+    {
+      "id": "708e52618cd9",
+      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T17:32:10+00:00",
+      "score": 2.84,
+      "image": null
+    },
+    {
+      "id": "b7b160d70a67",
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "url": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-11-18T10:12:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "c130ad7ffba2",
+      "title": "How AI Agents Become a Tool for Attackers, and How to Stop It",
+      "url": "https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/",
+      "summary": "Managing Security When You’re Deploying AI, Part 1: Compromised credentials, salaries inferred from budgets, and doctored documents show why agents need permission checks before the model ever sees the data.\nThe post How AI Agents Become a Tool for Attackers, and How to Stop It appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T16:30:00+00:00",
+      "score": 2.38,
+      "image": null
+    },
+    {
+      "id": "996c920e2c06",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-18T11:30:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "3f73286c2e82",
+      "title": "Neurosymbolic Agents Explained, With a Z3 Example in Python",
+      "url": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/",
+      "summary": "Starting from Air Canada's chatbot case, a tour of Logic-LM, Agent-C, and Amazon's checks shows the solver is sound but the English-to-logic step is not.\nThe post Neurosymbolic Agents Explained, With a Z3 Example in Python appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T15:00:00+00:00",
+      "score": 2.3,
+      "image": null
+    },
+    {
+      "id": "d1dd49b4f83d",
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-18T10:20:30+00:00",
+      "score": 2.24,
+      "image": null
+    },
+    {
+      "id": "93feb30388ed",
+      "title": "When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores",
+      "url": "https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/",
+      "summary": "On 1 million simulated customers, calibrated Qini scored a Linear DR learner 0.0856 against 0.0826 for the true-CATE ranking that should have won.\nThe post When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T13:30:00+00:00",
+      "score": 2.02,
+      "image": null
+    },
+    {
+      "id": "ebfbae9db5a1",
+      "title": "How to Estimate Dose-Response Curves When DoubleML Falls Short",
+      "url": "https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/",
+      "summary": "Simulations test DoubleML against Kennedy's doubly robust estimator, with partial pooling across 200 stores and a DiD fix for hidden confounders.\nThe post How to Estimate Dose-Response Curves When DoubleML Falls Short appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-18T12:00:00+00:00",
+      "score": 1.93,
+      "image": null
+    }
+  ]
+}

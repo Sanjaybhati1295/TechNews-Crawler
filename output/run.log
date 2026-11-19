@@ -6690,3 +6690,37 @@
 2026-11-18 16:03:18,476  INFO     ────────────────────────────────────────────────────────────
 2026-11-18 16:03:18,476  INFO     Done!  Open: output/index.html
 2026-11-18 16:03:18,476  INFO     Headline: OpenAI launches ChatGPT for Sales: a first-party Sales plugin plus 30+ CRM partner plugins
+2026-11-19 16:10:24,654  INFO     ============================================================
+2026-11-19 16:10:24,654  INFO     TECHPULSE Digest — 2026-11-19 16:10 UTC
+2026-11-19 16:10:24,654  INFO     ============================================================
+2026-11-19 16:10:24,654  INFO     Step 1/3 — Crawling feeds…
+2026-11-19 16:10:24,765  INFO       Hacker News                    → 0 significant articles
+2026-11-19 16:10:24,819  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-19 16:10:24,893  INFO       Ars Technica                   → 0 significant articles
+2026-11-19 16:10:25,658  INFO       The Register AI                → 0 significant articles
+2026-11-19 16:10:25,734  INFO       MIT Tech Review                → 1 significant articles
+2026-11-19 16:10:25,884  INFO       Dev.to AI                      → 4 significant articles
+2026-11-19 16:10:26,044  INFO       Dev.to Programming             → 2 significant articles
+2026-11-19 16:10:26,178  INFO       GitHub Blog                    → 0 significant articles
+2026-11-19 16:10:26,802  INFO       Google Research                → 0 significant articles
+2026-11-19 16:10:26,921  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-11-19 16:10:27,030  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-19 16:10:27,063  INFO       InfoQ                          → 3 significant articles
+2026-11-19 16:10:27,182  INFO       Towards Data Science           → 7 significant articles
+2026-11-19 16:10:27,343  INFO       Wired AI                       → 0 significant articles
+2026-11-19 16:10:27,394  INFO       TechCrunch AI                  → 3 significant articles
+2026-11-19 16:10:27,394  INFO     Fetching images for top articles…
+2026-11-19 16:10:27,758  INFO       🖼  Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The
+2026-11-19 16:10:27,877  INFO       🖼  Anthropic Prices Its IPO at $83 a Share — the Largest IPO in
+2026-11-19 16:10:28,010  INFO       🖼  .NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by D
+2026-11-19 16:10:28,080  INFO       🖼  Complete iBird Onboarding Guide: How to Create Your Account 
+2026-11-19 16:10:28,241  INFO       🖼  AB-210 Exam Guide (2026): Skills, Weights, Format and How to
+2026-11-19 16:10:28,279  INFO     Total selected: 20 articles from 15 feeds
+2026-11-19 16:10:28,280  INFO     Selected 20 significant articles
+2026-11-19 16:10:28,280  INFO     Step 2/3 — Generating digest…
+2026-11-19 16:10:29,319  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-19 16:10:29,319  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-19 16:10:29,319  INFO     Step 3/3 — Rendering HTML…
+2026-11-19 16:10:29,320  INFO     ────────────────────────────────────────────────────────────
+2026-11-19 16:10:29,320  INFO     Done!  Open: output/index.html
+2026-11-19 16:10:29,320  INFO     Headline: Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For

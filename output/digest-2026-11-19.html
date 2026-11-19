@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Thursday, November 19, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Thursday, November 19, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 20 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/haroonch_rashid_72f1d7e31/gemini-4-neon-scores-61-and-costs-3-per-million-tokens-the-mid-tier-model-freelancers-have-been-1l0j" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fihkqmm1hwlicx56sg88q.png" alt="Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier …</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/haroonch_rashid_72f1d7e31/anthropic-prices-its-ipo-at-83-a-share-the-largest-ipo-in-history-starts-trading-today-o9" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fncixgku3ft4x3cl8umd4.png" alt="Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History Starts Trading Today" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History S…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/asp-net-11-release/en/card_header_image/generatedCard-1795007141275.jpg" alt=".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">.NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>InfoQ</span> · <span>Dev.to Programming</span> · <span>Towards Data Science</span> · <span>TechCrunch AI</span> · <span>MIT Tech Review</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For (Dev.to AI). Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History Starts Trading Today (Dev.to AI). .NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components (InfoQ). Complete iBird Onboarding Guide: How to Create Your Account and Start Socializing (Dev.to Programming). AB-210 Exam Guide (2026): Skills, Weights, Format and How to Prepare for Dynamics 365 Sales AI Consultant (Dev.to AI).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>Discord Rewrites Desktop and Mobile Clients in Rust Using Zed&#x27;s GPU-Accelerated Rendering Framework (InfoQ). Nvidia created a weird bit of intrigue by not filing a routine SEC report (TechCrunch AI). Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors (InfoQ).</p></div>
+        </div>
+
+    <div class="takeaway">Google has a new mid-tier model, and it is aimed squarely at the people who actually pay for AI every day.
+
+Gemini 4 Neon scores 61 on the Artificial Analysis Intelligence Index — ahead of Claude Sonnet 4.5 (59), GPT-5.2 (59), Gemini 3 Pro (58) and Kimi K2.5 (57) — and it is first on the Coding Agent Index with 57.1, ahead of GPT-5.2 (55.2), Claude Sonnet 4.6 (55.1) and Gemini 3 Pro (54.2). It does all of that at $3 per million input tokens, with a one-million-token context window.
+
+That combination is why this launch matters more than the usual benchmark parade. The headline models get the at</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (20 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/haroonch_rashid_72f1d7e31/gemini-4-neon-scores-61-and-costs-3-per-million-tokens-the-mid-tier-model-freelancers-have-been-1l0j" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Gemini 4 Neon Scores 61 and Costs $3 per Million Tokens: The Mid-Tier Model Freelancers Have Been Waiting For</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/haroonch_rashid_72f1d7e31/anthropic-prices-its-ipo-at-83-a-share-the-largest-ipo-in-history-starts-trading-today-o9" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Anthropic Prices Its IPO at $83 a Share — the Largest IPO in History Starts Trading Today</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">.NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/iassets/complete-ibird-onboarding-guide-how-to-create-your-account-and-start-socializing-240c" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Complete iBird Onboarding Guide: How to Create Your Account and Start Socializing</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/mannan/ab-210-exam-guide-2026-skills-weights-format-and-how-to-prepare-for-dynamics-365-sales-ai-3aj1" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">AB-210 Exam Guide (2026): Skills, Weights, Format and How to Prepare for Dynamics 365 Sales AI Consultant</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Run Claude Code and Other Coding Agents in the Cloud 24/7</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Oversee AI Agents at Scale With a Three-Tier Architecture</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/pavel_kkkkazantsev/i-asked-a-local-vision-model-36-questions-about-gta-vi-one-answer-broke-the-contract-4i9g" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">I Asked a Local Vision Model 36 Questions About GTA VI. One Answer Broke the Contract.</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/lycore/ai-made-coding-cheaper-why-are-client-projects-still-expensive-an-agency-view-2bdf" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">AI Made Coding Cheaper. Why Are Client Projects Still Expensive? (An Agency View)</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Discord Rewrites Desktop and Mobile Clients in Rust Using Zed&#x27;s GPU-Accelerated Rendering Framework</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Analytics Engineering&#x27;s Missing Layer Is Business Communication</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Nvidia created a weird bit of intrigue by not filing a routine SEC report</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">More banks say customers using AI agents are on their own — even if they get hacked</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How AI Agents Become a Tool for Attackers, and How to Stop It</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">India’s Humyn Labs raises $47M to feed US robotics companies the data they need</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Neurosymbolic Agents Explained, With a Z3 Example in Python</span>
+        </a>
+        <a class="ref-link" href="https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/" target="_blank" rel="noopener">
+          <span class="ref-source">MIT Tech Review</span>
+          <span class="ref-title">This smell startup says its AI nose is as good as a human’s</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Estimate Dose-Response Curves When DoubleML Falls Short</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Thursday, November 19, 2026 · 20 articles crawled from 6 sources
+  </footer>
+
+</body>
+</html>
