@@ -1,0 +1,239 @@
+{
+  "digest": {
+    "headline": "Docker Run on Trust: What It Means for AI Agent Security on Platform Teams",
+    "tldr": "Today's digest covers 22 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Docker Run on Trust: What It Means for AI Agent Security on Platform Teams (Dev.to AI). NVIDIA GR00T 2 Teaches Robots a New Job From 5 Demonstrations: 95% Success, With One Big Asterisk (Dev.to AI). AWS Releases a Free Local Emulator of AWS Built Entirely by Agents (InfoQ). Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale (InfoQ). Anthropic IPO: what the prospectus says about rate limits and compute (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "The 0.95 Expectile Is Not the 95th Percentile (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "On November 19, 2026, Docker launched a new brand built around one message: \"Run on Trust\". The whale got a redesign, the website changed, and the story moved toward AI agents. A viral version of the news has been going around, and some of it is wrong. I care less about the logo than about what Docker Run on Trust says about AI agent security, because that is the problem platform, DevSecOps and SRE teams are being handed right now.\n\n\n  \n  \n  What Docker actually announced\n\n\nThe primary source is Docker CMO Terri Avnaim's post, \"Meet the New Docker: Built to Run on Trust\". A few corrections to "
+  },
+  "articles": [
+    {
+      "id": "6b03479a93be",
+      "title": "Docker Run on Trust: What It Means for AI Agent Security on Platform Teams",
+      "url": "https://dev.to/nrejve/docker-run-on-trust-what-it-means-for-ai-agent-security-on-platform-teams-34b2",
+      "summary": "On November 19, 2026, Docker launched a new brand built around one message: \"Run on Trust\". The whale got a redesign, the website changed, and the story moved toward AI agents. A viral version of the news has been going around, and some of it is wrong. I care less about the logo than about what Docker Run on Trust says about AI agent security, because that is the problem platform, DevSecOps and SRE teams are being handed right now.\n\n\n  \n  \n  What Docker actually announced\n\n\nThe primary source is Docker CMO Terri Avnaim's post, \"Meet the New Docker: Built to Run on Trust\". A few corrections to ",
+      "source": "Dev.to AI",
+      "published": "2026-11-20T15:33:30+00:00",
+      "score": 4.58,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fu1cq15qwl7aajrhd0aa3.png"
+    },
+    {
+      "id": "57169f8052f9",
+      "title": "NVIDIA GR00T 2 Teaches Robots a New Job From 5 Demonstrations: 95% Success, With One Big Asterisk",
+      "url": "https://dev.to/haroonch_rashid_72f1d7e31/nvidia-gr00t-2-teaches-robots-a-new-job-from-5-demonstrations-95-success-with-one-big-asterisk-n6l",
+      "summary": "Teaching a robot a new job used to mean weeks of programming, or months of collecting robot training data. NVIDIA's GR00T 2, introduced on 9 November at the Conference on Robot Learning in Austin, claims to cut that down to an afternoon. Show it a task five times, fine-tune for about 30 minutes on a single RTX 5090 graphics card, and NVIDIA reports 95 percent average success across 50 dexterous tasks. The trick is that the robot learned most of what it needs before it ever saw your task, by watching people. I have read the announcement and the research page carefully, because the headline numb",
+      "source": "Dev.to AI",
+      "published": "2026-11-20T15:45:52+00:00",
+      "score": 4.2,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fe0dtmva3zemlf4xew2ej.png"
+    },
+    {
+      "id": "7f5004552978",
+      "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+      "url": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain all of the code and publishes per-release fidelity scores. The docs say it does not evaluate IAM, and practitioners are split on trusting an emulator nobody reviewed. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-20T06:53:00+00:00",
+      "score": 4.2,
+      "image": "https://res.infoq.com/news/2026/11/aws-emulator-local-testing/en/headerimage/generatedHeaderImage-1795086946449.jpg"
+    },
+    {
+      "id": "5a51c05d8e67",
+      "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-11-20T12:00:00+00:00",
+      "score": 3.99,
+      "image": "https://res.infoq.com/news/2026/11/google-substrate-gvisor-cncf/en/headerimage/generatedHeaderImage-1794408775099.jpg"
+    },
+    {
+      "id": "64c16e57754c",
+      "title": "Anthropic IPO: what the prospectus says about rate limits and compute",
+      "url": "https://dev.to/axrisi/anthropic-ipo-what-the-prospectus-says-about-rate-limits-and-compute-1loa",
+      "summary": "Anthropic began trading on Nasdaq on Thursday, November 19, 2026 under the symbol ANT. The first trade was $111.50, the close was $97.17, and the final prospectus contains a sentence that matters to anyone who builds on Claude: the company says it has changed usage limits and rate limits before and may change them again. This article covers what the day-one numbers show, who was allowed to sell shares, what the Anthropic IPO prospectus says about rate limits and compute, and one contract in the filing that either side can already cancel. It accompanies today's Daily Diff episode.\n\n  \n  \n\n\n\n  \n",
+      "source": "Dev.to Programming",
+      "published": "2026-11-20T15:30:00+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fxo8kj8igdy4lvy0gu0gp.jpg"
+    },
+    {
+      "id": "ba823bb46237",
+      "title": "Stop the agent from switching the styling approach “while we’re here”",
+      "url": "https://dev.to/sherotree/stop-the-agent-from-switching-the-styling-approach-while-were-here-4eef",
+      "summary": "The bug is a truncated label. The diff also rewrites the file from CSS Modules to Tailwind “so it matches the newer pages,” or from a styled component to a stack of inline styles “to keep it local.” The visual fix is one min-width. The rest is a styling migration with no design review.\n\nI’ve started telling agents to keep the styling approach the file already uses. A bugfix is not the moment to introduce a second (or third) styling system in the same folder.\n\n\n  \n  \n  Why the rewrite looks helpful\n\n\nThe model wants consistency with whatever examples it has seen most recently. If the prompt or ",
+      "source": "Dev.to AI",
+      "published": "2026-11-20T15:38:48+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F36xuhi0aqq7fus15td2r.png"
+    },
+    {
+      "id": "dff5e77bb1b7",
+      "title": "There is no official Postgres MCP server. I compared the 37 that do exist.",
+      "url": "https://dev.to/serverdex/there-is-no-official-postgres-mcp-server-i-compared-the-37-that-do-exist-ngl",
+      "summary": "If you want an AI agent to talk to PostgreSQL, you open your client, go looking for \"the Postgres MCP server\", and hit the first surprise: there isn't one. Not an official one, anyway.\n\nI run Serverdex, a directory synced daily from the official Model Context Protocol registry. As of 20 November 2026 the index holds 37 MCP servers whose name carries \"Postgres\". Zero of them are published by PostgreSQL or by a hosted-Postgres vendor. All 37 are community projects. So the real question is not \"which is the official one\" but \"which of 37 community servers do I trust with my database\".\n\nHere is wh",
+      "source": "Dev.to AI",
+      "published": "2026-11-20T15:35:01+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "f00b0b43bb7f",
+      "title": "Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores",
+      "url": "https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/",
+      "summary": "With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna.\nThe post Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-20T15:00:00+00:00",
+      "score": 3.65,
+      "image": null
+    },
+    {
+      "id": "218179d7c2a4",
+      "title": "Top developer security best practices: building a controlled environment, stage by stage",
+      "url": "https://dev.to/nicholas_thomson_f0a24978/top-developer-security-best-practices-building-a-controlled-environment-stage-by-stage-1lg2",
+      "summary": "AI is changing the way developers work. Just a few years ago, they didn't have to think about security. The job was to write code, not to secure it.\n\nBut as teams have shrunk and code velocity has increased, security is now in the developer's purview. According to Aikido’s State of AI in Security &amp; Development 2026 report, AI tools now write 24% of production code. Half of the respondents also believe they’d be blamed if AI-generated code they wrote introduced a vulnerability. \n\nThe goal of developer security is to stop breaches before they start, and the most reliable way to do that is a ",
+      "source": "Dev.to AI",
+      "published": "2026-11-20T15:44:17+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "94a1c8dfcd0b",
+      "title": "I am near to a new release, but...",
+      "url": "https://dev.to/lollisoft/i-am-near-to-a-new-release-but-6db",
+      "summary": "Hi,\n\nI am proud to have got it working to syncronize my old development system using CVS and Jenkins ver. 1.576 with one old Windows XP slave to Github that blocked me to go to Github before. A lot work I had done and many sessions with Google AI :-)\n\nNow, after nearly three years of work - not only CVS to Git syncronisation without the loss of the history, I also worked on a 64Bit port and meanwhile that also ported it in parallel to support wxWidgets 3.2.2.1 AND 2.8.12 due to my old Jenkins setup.\n\nAll that is now in a final stage that I could release a new software version that developers c",
+      "source": "Dev.to Programming",
+      "published": "2026-11-20T15:40:21+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8314e1023af2",
+      "title": "Five Guardrails That Limit the Damage an AI Agent Can Do",
+      "url": "https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/",
+      "summary": "AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.68s.\nThe post Five Guardrails That Limit the Damage an AI Agent Can Do appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-20T12:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "5639cf166df3",
+      "title": "190MB to 60MB: PostgreSQL 19's REPACK ties VACUUM FULL",
+      "url": "https://dev.to/frankchu/190mb-to-60mb-postgresql-19s-repack-ties-vacuum-full-56ii",
+      "summary": "190MB to 60MB: PostgreSQL 19's REPACK ties VACUUM FULL\n\n\nPostgreSQL 19's new REPACK command shrank my bloated table from 199.8 MB to 59.9 MB in 471 ms — the same size, to the byte, in the same time as VACUUM FULL. The version that doesn't block writers took 590 ms and left 262,144 extra bytes behind. The feature is real. The speedup is not.\n\nPostgreSQL 19 shipped yesterday (November 19, 2026) with REPACK as a first-class SQL command. Per the release notes, it replaces VACUUM FULL and CLUSTER — the old commands are retained for compatibility — and REPACK (CONCURRENTLY) rebuilds a table without ",
+      "source": "Dev.to Programming",
+      "published": "2026-11-20T15:28:48+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "1054662f25c3",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T18:09:11+00:00",
+      "score": 3.1,
+      "image": null
+    },
+    {
+      "id": "f2dddf2ea7d8",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T21:42:31+00:00",
+      "score": 3.09,
+      "image": null
+    },
+    {
+      "id": "f1dd0bea0b97",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-20T00:43:50+00:00",
+      "score": 3.06,
+      "image": null
+    },
+    {
+      "id": "2919f418f3f5",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T17:38:40+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "2eae478f3a2c",
+      "title": ".NET 11 : ASP.NET Core: Union Type Support, OpenAPI 3.2 by Default and Blazor AI Components",
+      "url": "https://www.infoq.com/news/2026/11/asp-net-11-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft has released ASP.NET Core in .NET 11. The update adds C# union type support in JSON bodies, asynchronous validation for Minimal APIs, OpenAPI 3.2 by default, and SignalR authentication refresh. Blazor gains a CacheView component, client-side validation for static SSR forms, opt-in circuit pause for inactive tabs, and experimental AI components. Zstandard compression is on by default. By Almir Vuk",
+      "source": "InfoQ",
+      "published": "2026-11-19T11:27:00+00:00",
+      "score": 2.72,
+      "image": null
+    },
+    {
+      "id": "27f297a759c1",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-19T17:00:00+00:00",
+      "score": 2.63,
+      "image": null
+    },
+    {
+      "id": "b0f319a64313",
+      "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
+      "url": "https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/",
+      "summary": "Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control.\nThe post How to Run Claude Code and Other Coding Agents in the Cloud 24/7 appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T15:00:00+00:00",
+      "score": 2.32,
+      "image": null
+    },
+    {
+      "id": "1bdae4f8e545",
+      "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+      "url": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+      "summary": "Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes.\nThe post How to Oversee AI Agents at Scale With a Three-Tier Architecture appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T13:30:00+00:00",
+      "score": 2.24,
+      "image": null
+    },
+    {
+      "id": "231685d8e46c",
+      "title": "The 0.95 Expectile Is Not the 95th Percentile",
+      "url": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/",
+      "summary": "Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile.\nThe post The 0.95 Expectile Is Not the 95th Percentile appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T16:30:00+00:00",
+      "score": 2.2,
+      "image": null
+    },
+    {
+      "id": "c27789c927ee",
+      "title": "Analytics Engineering's Missing Layer Is Business Communication",
+      "url": "https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/",
+      "summary": "Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes.\nThe post Analytics Engineering's Missing Layer Is Business Communication appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-19T12:00:00+00:00",
+      "score": 1.95,
+      "image": null
+    }
+  ]
+}
