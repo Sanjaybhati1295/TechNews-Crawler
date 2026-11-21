@@ -1,0 +1,159 @@
+{
+  "digest": {
+    "headline": "A 27B Coding Agent in a 16.5 GB File: The Memory Budget of POCKET-27B-Pi on One 24 GB GPU",
+    "tldr": "Today's digest covers 14 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "A 27B Coding Agent in a 16.5 GB File: The Memory Budget of POCKET-27B-Pi on One 24 GB GPU (Dev.to AI). Gemini 4 Neon Price: Cheaper Than Carbon After Dec 1? (Dev.to Programming). How to Get Your SaaS Mentioned in ChatGPT Answers in 2026 (Dev.to AI). 6 Delphi behaviors that silently break when an AI ports your code to C#, Java or C++ (Dev.to Programming). Cutting LLM API costs by up to 95% without touching your code (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Buy Agent Skills or Build Your Own: An Honest Guide (Dev.to AI)."
+      }
+    ],
+    "key_takeaway": "TL;DR\n\n\nOur partner VIDRAFT released POCKET-27B-Pi, a coding agent packaged as one 16,547,400,320 byte GGUF (Q4_K_M, 16.5 GB). On the partner's own Terminal-Bench 2.1 run under the pi agent, it solved 28 of 48 shared tasks (58.3%), against 19 of 48 (39.6%) for the original Qwen3.8-27B. For edge and on-prem builders the more useful part is the memory budget: the model keeps K/V cache in only 16 of its 64 layers, so a 64K context costs 4.0 GiB in f16, 2.13 GiB in q8_0 and 1.13 GiB in q4_0. Weights plus a 64K cache fit in about 19.5 GiB, which is inside one 24 GB GPU. Below: the byte math, the co"
+  },
+  "articles": [
+    {
+      "id": "6712745f44c1",
+      "title": "A 27B Coding Agent in a 16.5 GB File: The Memory Budget of POCKET-27B-Pi on One 24 GB GPU",
+      "url": "https://dev.to/ginigen_ai_010d9180cbbdb1/a-27b-coding-agent-in-a-165-gb-file-the-memory-budget-of-pocket-27b-pi-on-one-24-gb-gpu-3588",
+      "summary": "TL;DR\n\n\nOur partner VIDRAFT released POCKET-27B-Pi, a coding agent packaged as one 16,547,400,320 byte GGUF (Q4_K_M, 16.5 GB). On the partner's own Terminal-Bench 2.1 run under the pi agent, it solved 28 of 48 shared tasks (58.3%), against 19 of 48 (39.6%) for the original Qwen3.8-27B. For edge and on-prem builders the more useful part is the memory budget: the model keeps K/V cache in only 16 of its 64 layers, so a 64K context costs 4.0 GiB in f16, 2.13 GiB in q8_0 and 1.13 GiB in q4_0. Weights plus a 64K cache fit in about 19.5 GiB, which is inside one 24 GB GPU. Below: the byte math, the co",
+      "source": "Dev.to AI",
+      "published": "2026-11-21T14:43:25+00:00",
+      "score": 3.98,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fhuggingface.co%2Fdatasets%2FVIDraft%2Fpress-assets%2Fresolve%2Fmain%2Fpress%2Fcompare3_pocket27b_pi_2026-11-20.png"
+    },
+    {
+      "id": "4a6bbf47f0d8",
+      "title": "Gemini 4 Neon Price: Cheaper Than Carbon After Dec 1?",
+      "url": "https://dev.to/muhammadalimughal/gemini-4-neon-price-cheaper-than-carbon-after-dec-1-4h27",
+      "summary": "I spent this week pricing out Google's new Gemini 4 Neon for the kind of agent workloads I run, and the honest answer to \"is it cheaper?\" is: not today, yes from December 1. That flip catches a lot of teams off guard, so here is the math, the API changes that break old code, and when I would actually pick Neon.\n\nI wrote this with help from AI tools and checked every price and claim against the linked sources myself. The cover image is AI-generated.\n\nWatch the video version: Gemini 4 Neon: Google's Price, What Changed, and When to Use It on my channel Daily AI News By Ali.\n\n\n  \n  \n  Gemini 4 Ne",
+      "source": "Dev.to Programming",
+      "published": "2026-11-21T14:50:47+00:00",
+      "score": 3.89,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fa0br06au3yj7qo4kjofp.jpg"
+    },
+    {
+      "id": "55622861cc53",
+      "title": "How to Get Your SaaS Mentioned in ChatGPT Answers in 2026",
+      "url": "https://dev.to/alichherawalla/how-to-get-your-saas-mentioned-in-chatgpt-answers-in-2026-101a",
+      "summary": "Find the questions buyers ask ChatGPT where you're missing, write a page that answers each one in its first line, and publish copies where AI already reads. Then ask again and count. Off Grid AI, a product we built, went from being named in 4 of 32 answers to 7 of 27 after writing pages for the questions it was missing. The free AI starter kit we build our own products with runs this with you.\n\n\n  \n  \n  List the questions your buyers ask\n\n\nWrite down what people ask before they'd buy something like yours: \"best private AI app for iPhone\", \"how to run AI offline\". Use your sales calls, support ",
+      "source": "Dev.to AI",
+      "published": "2026-11-21T14:42:23+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fnq3bmfkjc4i2azjghc3z.png"
+    },
+    {
+      "id": "c4eca9ba5369",
+      "title": "6 Delphi behaviors that silently break when an AI ports your code to C#, Java or C++",
+      "url": "https://dev.to/anton_admiralfishman_1/6-delphi-behaviors-that-silently-break-when-an-ai-ports-your-code-to-c-java-or-c-349k",
+      "summary": "AI agents are good at producing code that compiles. With Delphi, \"compiles\" and \"behaves the same\" are far apart. Here are six behaviors I keep seeing agents get wrong — each one is measured on the Delphi 13 compiler, not recalled from memory.\n\n\n  \n  \n  1. Round is banker's rounding\n\n\nRound(2.5) = 2 and Round(3.5) = 4 in Delphi: halfway cases go to the nearest even number. C#'s Math.Round does the same by default, but Java's Math.round(2.5) and C++'s std::round(2.5) return 3. A port to Java or C++ that maps Round to the \"obvious\" function changes every halfway result.\n\n\n  \n  \n  2. A unit can r",
+      "source": "Dev.to Programming",
+      "published": "2026-11-21T14:33:18+00:00",
+      "score": 3.68,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmcfbptq1iem3lwwbtun1.png"
+    },
+    {
+      "id": "cac32fada2fa",
+      "title": "Buy Agent Skills or Build Your Own: An Honest Guide",
+      "url": "https://dev.to/buyagentskills/buy-agent-skills-or-build-your-own-an-honest-guide-48l5",
+      "summary": "Originally published at buyagentskills.com.\n\nShort answer: Build your own if you have time, enjoy tuning instructions, and only need one or two skills. Buy a pack if you want several skills that have been license-checked, read for risky scripts, and install-tested by someone else. Either way, read every SKILL.md before you let an agent run it.\n\nWritten by the Buy Agent Skills team. Updated 8 November 2026.\n\n\n  \n  \n  What free skills cost you\n\n\nMany good agent skills are free. Free does not mean no cost, though:\n\n\n\nTime. You find, read, install and try each one. A pack of ten means ten rounds o",
+      "source": "Dev.to AI",
+      "published": "2026-11-21T14:49:11+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fprp4wk0zavt9x9rx4kq0.png"
+    },
+    {
+      "id": "6c28d8becb78",
+      "title": "Cutting LLM API costs by up to 95% without touching your code",
+      "url": "https://dev.to/viceray82/cutting-llm-api-costs-by-up-to-95-without-touching-your-code-45pb",
+      "summary": "Two months ago my side projects were bleeding money on LLM calls. Not because the projects were expensive to run — because official API pricing punishes exactly the usage pattern hobby projects have: bursty, unpredictable, and never large enough to qualify for volume tiers.\n\nSo I built a relay instead of paying it. This post is the numbers, the code, and the parts that break.\n\nDisclosure: it's mine. Everything below is measured from my own account, and yes there's a link at the end.\n\n\n  \n  \n  The numbers that made the decision obvious\n\n\nPer 1M tokens, input / output, USD — official price first",
+      "source": "Dev.to AI",
+      "published": "2026-11-21T14:46:27+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Foimw80kgrtc25mfchzhq.png"
+    },
+    {
+      "id": "f448fe959a35",
+      "title": "How do you robustly test a dynamically updated virtualized data grid with Playwright?",
+      "url": "https://dev.to/styrow_dev/how-do-you-robustly-test-a-dynamically-updated-virtualized-data-grid-with-playwright-1dgh",
+      "summary": "🔥 Playwright Nightmare Scenario:\nYour E2E tests are constantly flaking when interacting with data grids. Why? Virtualization!\n\n📌 Problem Statement\nVirtualized data grids (like those built with react-window or react-virtualized) are performance powerhouses. However, they only render a subset of items visible in the viewport.\n❌  Elements you need to test aren't in the DOM until scrolled into view.\n❌  Locators break as indices shift or elements are reused dynamically.\n❌  Asynchronous data updates lead to unpredictable test failures.\n\n💡 Solution &amp; Code Walkthrough\nRobust Playwright testing for",
+      "source": "Dev.to Programming",
+      "published": "2026-11-21T14:24:51+00:00",
+      "score": 3.47,
+      "image": null
+    },
+    {
+      "id": "b91aec94334c",
+      "title": "Censored vs. Truncated Regression in Python, Explained",
+      "url": "https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/",
+      "summary": "A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.\nThe post Censored vs. Truncated Regression in Python, Explained appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-21T13:00:00+00:00",
+      "score": 3.39,
+      "image": null
+    },
+    {
+      "id": "7f5004552978",
+      "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+      "url": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain all of the code and publishes per-release fidelity scores. The docs say it does not evaluate IAM, and practitioners are split on trusting an emulator nobody reviewed. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-20T06:53:00+00:00",
+      "score": 2.92,
+      "image": null
+    },
+    {
+      "id": "01449c61c8b8",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding.  The report is an update to the organization’s time horizon plot, which was widely&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-20T18:15:15+00:00",
+      "score": 2.75,
+      "image": null
+    },
+    {
+      "id": "5a51c05d8e67",
+      "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+      "url": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-11-20T12:00:00+00:00",
+      "score": 2.7,
+      "image": null
+    },
+    {
+      "id": "dfcf45f75acf",
+      "title": "LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals",
+      "url": "https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/",
+      "summary": "A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage.\nThe post LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-20T16:30:00+00:00",
+      "score": 2.45,
+      "image": null
+    },
+    {
+      "id": "f00b0b43bb7f",
+      "title": "Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores",
+      "url": "https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/",
+      "summary": "With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna.\nThe post Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-20T15:00:00+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "8314e1023af2",
+      "title": "Five Guardrails That Limit the Damage an AI Agent Can Do",
+      "url": "https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/",
+      "summary": "AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.68s.\nThe post Five Guardrails That Limit the Damage an AI Agent Can Do appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-20T12:00:00+00:00",
+      "score": 2.2,
+      "image": null
+    }
+  ]
+}

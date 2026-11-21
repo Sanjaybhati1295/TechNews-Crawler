@@ -6759,3 +6759,38 @@
 2026-11-20 15:50:09,060  INFO     ────────────────────────────────────────────────────────────
 2026-11-20 15:50:09,060  INFO     Done!  Open: output/index.html
 2026-11-20 15:50:09,060  INFO     Headline: Docker Run on Trust: What It Means for AI Agent Security on Platform Teams
+2026-11-21 14:59:35,800  INFO     ============================================================
+2026-11-21 14:59:35,800  INFO     TECHPULSE Digest — 2026-11-21 14:59 UTC
+2026-11-21 14:59:35,800  INFO     ============================================================
+2026-11-21 14:59:35,800  INFO     Step 1/3 — Crawling feeds…
+2026-11-21 14:59:36,012  INFO       Hacker News                    → 0 significant articles
+2026-11-21 14:59:36,177  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-21 14:59:36,338  INFO       Ars Technica                   → 0 significant articles
+2026-11-21 14:59:36,965  INFO       The Register AI                → 0 significant articles
+2026-11-21 14:59:37,189  INFO       MIT Tech Review                → 1 significant articles
+2026-11-21 14:59:37,346  INFO       Dev.to AI                      → 4 significant articles
+2026-11-21 14:59:37,513  INFO       Dev.to Programming             → 3 significant articles
+2026-11-21 14:59:37,764  INFO       GitHub Blog                    → 0 significant articles
+2026-11-21 14:59:38,609  INFO       Google Research                → 0 significant articles
+2026-11-21 14:59:38,745  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-11-21 14:59:38,846  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-21 14:59:39,194  INFO       InfoQ                          → 2 significant articles
+2026-11-21 14:59:39,366  INFO       Towards Data Science           → 4 significant articles
+2026-11-21 14:59:39,773  INFO       Wired AI                       → 0 significant articles
+2026-11-21 14:59:39,870  INFO       TechCrunch AI                  → 0 significant articles
+2026-11-21 14:59:39,871  INFO     Fetching images for top articles…
+2026-11-21 14:59:39,962  INFO       🖼  A 27B Coding Agent in a 16.5 GB File: The Memory Budget of P
+2026-11-21 14:59:40,022  INFO       🖼  Gemini 4 Neon Price: Cheaper Than Carbon After Dec 1?
+2026-11-21 14:59:40,140  INFO       🖼  How to Get Your SaaS Mentioned in ChatGPT Answers in 2026
+2026-11-21 14:59:40,219  INFO       🖼  6 Delphi behaviors that silently break when an AI ports your
+2026-11-21 14:59:40,339  INFO       🖼  Buy Agent Skills or Build Your Own: An Honest Guide
+2026-11-21 14:59:40,402  INFO       🖼  Cutting LLM API costs by up to 95% without touching your cod
+2026-11-21 14:59:40,402  INFO     Total selected: 14 articles from 15 feeds
+2026-11-21 14:59:40,402  INFO     Selected 14 significant articles
+2026-11-21 14:59:40,402  INFO     Step 2/3 — Generating digest…
+2026-11-21 14:59:40,675  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-21 14:59:40,675  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-21 14:59:40,675  INFO     Step 3/3 — Rendering HTML…
+2026-11-21 14:59:40,676  INFO     ────────────────────────────────────────────────────────────
+2026-11-21 14:59:40,676  INFO     Done!  Open: output/index.html
+2026-11-21 14:59:40,676  INFO     Headline: A 27B Coding Agent in a 16.5 GB File: The Memory Budget of POCKET-27B-Pi on One 24 GB GPU
