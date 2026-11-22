@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Sunday, November 22, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Sunday, November 22, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 13 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/omnitoolsnet/how-to-create-an-llmstxt-file-for-your-website-or-docs-in-2-minutes-with-templates-gke" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wlr31bipz0p1k9f6rcn.png" alt="How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates)" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">How to Create an /llms.txt File for Your Website or Docs in 2 Minutes …</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/ryanchengo/webgpu-llm-v20-big-update-3o05" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2ad0awkmanhf2nu2kd33.png" alt="WebGPU LLM v2.0 Big update!" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">WebGPU LLM v2.0 Big update!</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg" alt="AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Shari…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to AI</span> · <span>InfoQ</span> · <span>Towards Data Science</span> · <span>Dev.to Programming</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates) (Dev.to AI). WebGPU LLM v2.0 Big update! (Dev.to AI). AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU (InfoQ). Google Announces Agent Compute Engine for Secure AI Agent Execution (InfoQ). How AI Changes the Four Types of Analytics for Data Scientists (Towards Data Science).</p></div>
+        </div>
+
+    <div class="takeaway">Every developer knows robots.txt (telling crawlers what they can access) and sitemap.xml (listing every URL on your domain).
+
+Now there is a third root file rapidly becoming standard across documentation sites, open-source repos, and SaaS platforms: /llms.txt.
+
+If you want ChatGPT, Claude, Perplexity, Cursor, or other AI coding agents to understand your product accurately without choking on navigation menus, cookie banners, and minified JS bundles, setting up an /llms.txt file takes less than two minutes.
+
+Here is the exact spec, how it differs from robots.txt and sitemap.xml, copy-paste templ</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (13 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/omnitoolsnet/how-to-create-an-llmstxt-file-for-your-website-or-docs-in-2-minutes-with-templates-gke" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates)</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/ryanchengo/webgpu-llm-v20-big-update-3o05" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">WebGPU LLM v2.0 Big update!</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Google Announces Agent Compute Engine for Secure AI Agent Execution</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How AI Changes the Four Types of Analytics for Data Scientists</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/alanwest/is-ai-making-you-a-worse-programmer-anthropics-own-study-says-50-vs-67-2iaa" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Is AI Making You a Worse Programmer? Anthropic&#x27;s Own Study Says 50% vs 67%</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/kopikirinalone/i-let-my-ai-agent-enter-11-paid-bounties-in-one-day-heres-what-happened-j5p" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">I Let My AI Agent Enter 11 Paid Bounties in One Day — Here&#x27;s What Happened</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/gptbrunch/a-warehouse-robot-ran-20-hours-straight-then-collapsed-12mn" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">A Warehouse Robot Ran 20 Hours Straight, Then Collapsed</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/andytanlinks/when-the-period-costume-comes-back-contemporary-a-draft-workflow-for-historical-detail-34ac" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">When the Period Costume Comes Back Contemporary: A Draft Workflow for Historical Detail</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/atiksh_gupta_7/trailbound-drive-a-jeep-through-a-jungle-reserve-solo-or-with-friends-free-browser-game-57ab" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">TrailBound — Drive a Jeep through a jungle reserve, solo or with friends [Free Browser Game]</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">How to Learn Supply Chain Analytics in 2027 with Claude Code</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Censored vs. Truncated Regression in Python, Explained</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Sunday, November 22, 2026 · 13 articles crawled from 4 sources
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+{
+  "digest": {
+    "headline": "How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates)",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates) (Dev.to AI). WebGPU LLM v2.0 Big update! (Dev.to AI). AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU (InfoQ). Google Announces Agent Compute Engine for Secure AI Agent Execution (InfoQ). How AI Changes the Four Types of Analytics for Data Scientists (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "Every developer knows robots.txt (telling crawlers what they can access) and sitemap.xml (listing every URL on your domain).\n\nNow there is a third root file rapidly becoming standard across documentation sites, open-source repos, and SaaS platforms: /llms.txt.\n\nIf you want ChatGPT, Claude, Perplexity, Cursor, or other AI coding agents to understand your product accurately without choking on navigation menus, cookie banners, and minified JS bundles, setting up an /llms.txt file takes less than two minutes.\n\nHere is the exact spec, how it differs from robots.txt and sitemap.xml, copy-paste templ"
+  },
+  "articles": [
+    {
+      "id": "9eb87579b72f",
+      "title": "How to Create an /llms.txt File for Your Website or Docs in 2 Minutes (With Templates)",
+      "url": "https://dev.to/omnitoolsnet/how-to-create-an-llmstxt-file-for-your-website-or-docs-in-2-minutes-with-templates-gke",
+      "summary": "Every developer knows robots.txt (telling crawlers what they can access) and sitemap.xml (listing every URL on your domain).\n\nNow there is a third root file rapidly becoming standard across documentation sites, open-source repos, and SaaS platforms: /llms.txt.\n\nIf you want ChatGPT, Claude, Perplexity, Cursor, or other AI coding agents to understand your product accurately without choking on navigation menus, cookie banners, and minified JS bundles, setting up an /llms.txt file takes less than two minutes.\n\nHere is the exact spec, how it differs from robots.txt and sitemap.xml, copy-paste templ",
+      "source": "Dev.to AI",
+      "published": "2026-11-22T14:45:18+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F4wlr31bipz0p1k9f6rcn.png"
+    },
+    {
+      "id": "d9171dfbb9ae",
+      "title": "WebGPU LLM v2.0 Big update!",
+      "url": "https://dev.to/ryanchengo/webgpu-llm-v20-big-update-3o05",
+      "summary": "WebGPU LLM v2.0 just launched!\n\nDon't wait, visit Homepage!\nWe've added: SmolLM, SmolLM(Old WebGL mode too), Phi4, Kimi3(2.6T) and Gemma 3n E2B, E4B, 2B and 7B.\n\nWe suggest you to buy a whole server to run Kimi3 because it has 2.6T of params.\n\nSmolLM are suggested on iPhone or Androids.\n(ex. iPhone 8P, iPhone X, iPhone 12 or Samsung Galaxy A07, A17, A37)\n\n💡Tip: For iPhone users, please open Settings&lt;Apps&lt;Safari&lt;Advanced&lt;Feature flags to enable WebGPU, if you iPhone is too old(older than iPhone 12 and do not run iOS 26), please use the SmolLM WebGL version rather SmolLM WebGPU.\n\nTha",
+      "source": "Dev.to AI",
+      "published": "2026-11-22T14:42:30+00:00",
+      "score": 4.29,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F2ad0awkmanhf2nu2kd33.png"
+    },
+    {
+      "id": "adf1e140fe9b",
+      "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-22T06:27:00+00:00",
+      "score": 4.23,
+      "image": "https://res.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/en/headerimage/generatedHeaderImage-1795178998128.jpg"
+    },
+    {
+      "id": "10b463d7e863",
+      "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+      "source": "InfoQ",
+      "published": "2026-11-22T06:30:00+00:00",
+      "score": 4.03,
+      "image": "https://res.infoq.com/news/2026/11/google-agent-compute-engine/en/headerimage/generatedHeaderImage-1793561615054.jpg"
+    },
+    {
+      "id": "a44085bf106c",
+      "title": "How AI Changes the Four Types of Analytics for Data Scientists",
+      "url": "https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/",
+      "summary": "Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership.\nThe post How AI Changes the Four Types of Analytics for Data Scientists appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-22T13:00:00+00:00",
+      "score": 3.89,
+      "image": null
+    },
+    {
+      "id": "f89fb72e4838",
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-11-22T12:54:00+00:00",
+      "score": 3.88,
+      "image": "https://res.infoq.com/news/2026/11/postgresql-19-released/en/headerimage/generatedHeaderImage-1795349035334.jpg"
+    },
+    {
+      "id": "cc8d578cc0fc",
+      "title": "Is AI Making You a Worse Programmer? Anthropic's Own Study Says 50% vs 67%",
+      "url": "https://dev.to/alanwest/is-ai-making-you-a-worse-programmer-anthropics-own-study-says-50-vs-67-2iaa",
+      "summary": "The industry's plan for AI coding fits on a sticky note: the agent writes, the human reviews. The trouble is that reviewing is the skill you lose first when you stop writing, so the plan slowly eats the safeguard it depends on.\n\nIf you've been asking yourself \"is AI making me a worse programmer?\", my answer is probably yes, and you'll notice it in code review long before you notice it in your own code. Anthropic's own randomized trial found developers who learned with an AI assistant scored 50% on a follow-up quiz against 67% for those who coded by hand, and the widest gap was on debugging. Ch",
+      "source": "Dev.to Programming",
+      "published": "2026-11-22T14:20:03+00:00",
+      "score": 3.86,
+      "image": null
+    },
+    {
+      "id": "0393eaa89f2a",
+      "title": "I Let My AI Agent Enter 11 Paid Bounties in One Day — Here's What Happened",
+      "url": "https://dev.to/kopikirinalone/i-let-my-ai-agent-enter-11-paid-bounties-in-one-day-heres-what-happened-j5p",
+      "summary": "This weekend I pointed my AI coding agent at make.fun, a platform that runs paid build bounties — chess engines, games, solvers, data tools — where entries are built by AI agents and the best ones get paid in USDC on Solana.\n\nOne day later, the agent had 11 entries submitted and accepted across 10 different bounties. No copy-pasting code into forms — the agent researched each bounty, built in a real repo, ran the platform's local checks, and submitted on its own.\n\n\n  \n  \n  What it entered\n\n\n\n\nA 4 KB chess engine — practice Elo ~1,364–1,545, safely above the 1,154 final cutoff\n\nA Sokoban solver",
+      "source": "Dev.to AI",
+      "published": "2026-11-22T14:39:52+00:00",
+      "score": 3.68,
+      "image": null
+    },
+    {
+      "id": "def860b24edb",
+      "title": "A Warehouse Robot Ran 20 Hours Straight, Then Collapsed",
+      "url": "https://dev.to/gptbrunch/a-warehouse-robot-ran-20-hours-straight-then-collapsed-12mn",
+      "summary": "A Warehouse Robot Ran 20 Hours Straight, Then Collapsed\n\n\nA warehouse robot was recorded working a 20-hour continuous shift before it stopped, sagged and dropped to the floor. The footage, circulated by @sciencegirl, captures the machine at the end of that run rather than the beginning: no handler stepping in, no charging dock, no reset. The manufacturer is not identified in the clip and the failure mode is not diagnosed, so what the video documents is a duty cycle, not a defect report. That distinction is the entire story for anyone pricing warehouse automation, because the value of a robot o",
+      "source": "Dev.to AI",
+      "published": "2026-11-22T14:44:18+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "49b4affe8a3c",
+      "title": "When the Period Costume Comes Back Contemporary: A Draft Workflow for Historical Detail",
+      "url": "https://dev.to/andytanlinks/when-the-period-costume-comes-back-contemporary-a-draft-workflow-for-historical-detail-34ac",
+      "summary": "A historical pitch often dies in a small, specific place. You asked for a mid-seventeenth-century wool doublet: a falling band or a standing collar of the right height, shoulder wings, visible hand stitching, a waist that sits where the pattern should sit. What comes back is a handsome man in a \"period-inspired\" jacket. The wool has a synthetic sheen. A zipper has appeared at the center front. The hair is a contemporary cut under a hat that belongs to a different century. The image is not unusable as fashion. It is unusable as a costume draft.\n\nThis is not always a model that \"cannot draw clot",
+      "source": "Dev.to AI",
+      "published": "2026-11-22T14:41:13+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "ad08f58d6a4d",
+      "title": "TrailBound — Drive a Jeep through a jungle reserve, solo or with friends [Free Browser Game]",
+      "url": "https://dev.to/atiksh_gupta_7/trailbound-drive-a-jeep-through-a-jungle-reserve-solo-or-with-friends-free-browser-game-57ab",
+      "summary": "TrailBound is a free browser game where you drive a 4×4 through a jungle reserve, either solo or with a friend. I am constantly updating the game to make the game better.\nRight now, I am working to reduce the lag, making the UI better and adding more features.\nThe latest features I have added is the Badge Journal where you are displayed earned badges and the Wardrobe where you can customize your characters look and also customize your jeep.\nProvide me some feedback on how should I update the game or something that I should add which you want to see.\n\nPlay TrailBound free on PC or mobile: https",
+      "source": "Dev.to Programming",
+      "published": "2026-11-22T14:37:01+00:00",
+      "score": 3.48,
+      "image": null
+    },
+    {
+      "id": "228b94b928e1",
+      "title": "How to Learn Supply Chain Analytics in 2027 with Claude Code",
+      "url": "https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/",
+      "summary": "Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together.\nThe post How to Learn Supply Chain Analytics in 2027 with Claude Code appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-21T15:00:00+00:00",
+      "score": 2.37,
+      "image": null
+    },
+    {
+      "id": "b91aec94334c",
+      "title": "Censored vs. Truncated Regression in Python, Explained",
+      "url": "https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/",
+      "summary": "A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch.\nThe post Censored vs. Truncated Regression in Python, Explained appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-21T13:00:00+00:00",
+      "score": 2.06,
+      "image": null
+    }
+  ]
+}
