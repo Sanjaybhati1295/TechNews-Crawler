@@ -1,0 +1,149 @@
+{
+  "digest": {
+    "headline": "From AI Models to Real Machines: The Challenges of Industrial AI",
+    "tldr": "Today's digest covers 13 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "From AI Models to Real Machines: The Challenges of Industrial AI (Dev.to AI). Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j (InfoQ). Vietnam AI & LLM Daily Briefing (Nov 24, 2026) (Dev.to AI). The Download: AI’s judgment problem and carbon removal’s crop threat (MIT Tech Review). PDF Editor (Dev.to AI)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "GLM-5.4: Toward generalized coding with our first loop transformer (Hacker News)."
+      }
+    ],
+    "key_takeaway": "Artificial intelligence is becoming more common in software development, but applying it to real industrial environments introduces a different set of challenges.\n\nA machine learning model might perform perfectly in a controlled testing environment. However, when connected to actual factory equipment, sensors, and production systems, things can become more complicated.\n\nSo, what makes industrial AI implementation difficult?\n\n\nWorking With Real-World Sensor Data\n\n\nIndustrial systems generate large amounts of data through sensors that monitor temperature, vibration, pressure, speed, and other op"
+  },
+  "articles": [
+    {
+      "id": "af52b7c267db",
+      "title": "From AI Models to Real Machines: The Challenges of Industrial AI",
+      "url": "https://dev.to/maryam_hussaini_19a585bac/from-ai-models-to-real-machines-the-challenges-of-industrial-ai-3m3b",
+      "summary": "Artificial intelligence is becoming more common in software development, but applying it to real industrial environments introduces a different set of challenges.\n\nA machine learning model might perform perfectly in a controlled testing environment. However, when connected to actual factory equipment, sensors, and production systems, things can become more complicated.\n\nSo, what makes industrial AI implementation difficult?\n\n\nWorking With Real-World Sensor Data\n\n\nIndustrial systems generate large amounts of data through sensors that monitor temperature, vibration, pressure, speed, and other op",
+      "source": "Dev.to AI",
+      "published": "2026-11-23T18:44:07+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fhmqqsv3h31d512ds63nu.png"
+    },
+    {
+      "id": "8fe67a31a8e1",
+      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
+      "url": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases of Java Operator SDK, LangChain4j and Micrometer; maintenance releases of Liberica JDK and Helidon; and second release candidates of Hibernate Reactive. By Michael Redlich",
+      "source": "InfoQ",
+      "published": "2026-11-23T15:30:00+00:00",
+      "score": 3.81,
+      "image": "https://res.infoq.com/news/2026/11/java-news-roundup-nov16-2026/en/headerimage/java-news-roundup-image-1795447387323.jpg"
+    },
+    {
+      "id": "3723430de676",
+      "title": "Vietnam AI & LLM Daily Briefing (Nov 24, 2026)",
+      "url": "https://dev.to/vuhung16au/vietnam-ai-llm-daily-briefing-nov-24-2026-2lb6",
+      "summary": "Vietnam AI &amp; LLM Daily Briefing (Nov 24, 2026)\n\n\nA curated briefing on Vietnam's strategic push into specialised semiconductors and shared GPU infrastructure, the launch of the .ap.vn national domain space for AI and software applications, enterprise AI verification in Vietnam's capital markets, alongside Jensen Huang's dramatic reinstatement at Nvidia and global AI governance and model-compression milestones over the past 24 hours (November 23–24, 2026):\n\n\n\n\n\n  \n  \n  1. Vietnam Semiconductor Strategy &amp; Digital Infrastructure: Specialised Chips, Shared GPU Centres &amp; .ap.vn Launch\n\n",
+      "source": "Dev.to AI",
+      "published": "2026-11-23T18:38:04+00:00",
+      "score": 3.69,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Flgo5a5u4awu6hbwsawn1.jpg"
+    },
+    {
+      "id": "9c079ad7f691",
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good&#8230;",
+      "source": "MIT Tech Review",
+      "published": "2026-11-23T13:10:00+00:00",
+      "score": 3.58,
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600"
+    },
+    {
+      "id": "f46b4a1f32d0",
+      "title": "PDF Editor",
+      "url": "https://dev.to/elten-lewis/pdf-editor-1p0g",
+      "summary": "Download WPS Free PDF Editor to edit PDF text, images, and pages. Convert, sign, merge, split, and protect PDF files with powerful editing and AI tools\n\nhttps://www.wps.com/feature/edit-pdf/\n\nFeatures\nEdit PDF Text and Images: Modify existing text, update formatting, add or delete images, resize pictures, and replace visual elements directly within PDF documents.\nEdit Scanned PDFs with OCR: Convert scanned PDF documents into editable text using Optical Character Recognition. Make scanned content easier to modify, search, and manage.\nFill and Sign PDF Forms: Automatically detect fillable fields",
+      "source": "Dev.to AI",
+      "published": "2026-11-23T18:43:42+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F5no8uctaubbhjkw958i0.png"
+    },
+    {
+      "id": "69cd9109435f",
+      "title": "AI Math Proofs Aren't Knowledge Until Someone Explains Them",
+      "url": "https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/",
+      "summary": "From the Four Color Theorem to OpenAI's October 2026 claims, why computer-checked proofs still need people to explain, test, and extend them.\nThe post AI Math Proofs Aren't Knowledge Until Someone Explains Them appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-23T15:00:00+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "8cf392a005e4",
+      "title": "The Benchmark Industrial Complex: Why Leaderboard #1 Models Fail Real Code",
+      "url": "https://dev.to/vishvaisadev123/the-benchmark-industrial-complex-why-leaderboard-1-models-fail-real-code-jdb",
+      "summary": "Every major model release follows the exact same script: a towering bar chart claims the new checkpoint crushes every rival on SWE-bench and blind chat arenas. Tech Twitter declares software engineering solved.\n\nTwo hours later, you plug the API key into a real monorepo — and the \"#1 model in the world\" deletes an auth middleware check to make Vitest pass, invents a nonexistent CLI flag, and apologizes in 800 words of cheerfully formatted markdown.\n\n\n  \n  \n  3 Ways the Benchmark Industrial Complex Breaks Model Selection\n\n\n\n\nStyle-Bias Gaming in Blind Chat Arenas: Crowd-sourced 60-second compar",
+      "source": "Dev.to Programming",
+      "published": "2026-11-23T18:08:35+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "1a186ddaa85a",
+      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
+      "url": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit tests to enforce boundaries. Framework-backed changes showed 64% shorter median code reviews and 34% faster initial feedback than legacy changes. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-23T14:33:00+00:00",
+      "score": 3.46,
+      "image": null
+    },
+    {
+      "id": "5094532b4e2e",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-23T10:06:43+00:00",
+      "score": 3.21,
+      "image": null
+    },
+    {
+      "id": "5f632ea0614e",
+      "title": "The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words",
+      "url": "https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/",
+      "summary": "Ask the same question 300 times, count the repeats, and solve for N: a few lines of Python that work on any chatbot you can type into.\nThe post The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-23T13:30:00+00:00",
+      "score": 3.2,
+      "image": null
+    },
+    {
+      "id": "f89fb72e4838",
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+      "source": "InfoQ",
+      "published": "2026-11-22T12:54:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "a44085bf106c",
+      "title": "How AI Changes the Four Types of Analytics for Data Scientists",
+      "url": "https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/",
+      "summary": "Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership.\nThe post How AI Changes the Four Types of Analytics for Data Scientists appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-22T13:00:00+00:00",
+      "score": 2.34,
+      "image": null
+    },
+    {
+      "id": "1af69c1d71f9",
+      "title": "RANSAC, Explained: Consensus Fitting for Image Feature Matching",
+      "url": "https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/",
+      "summary": "How random sampling of 4 matched pairs, an error threshold, and inlier counts turn noisy SIFT matches into an accurate homography matrix.\nThe post RANSAC, Explained: Consensus Fitting for Image Feature Matching appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-22T15:00:00+00:00",
+      "score": 1.95,
+      "image": null
+    }
+  ]
+}
