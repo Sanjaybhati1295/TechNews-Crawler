@@ -6897,3 +6897,38 @@
 2026-11-24 18:27:56,681  INFO     ────────────────────────────────────────────────────────────
 2026-11-24 18:27:56,681  INFO     Done!  Open: output/index.html
 2026-11-24 18:27:56,682  INFO     Headline: How to Use Gauth AI for Beginners (Free Guide 2026)
+2026-11-25 17:42:12,446  INFO     ============================================================
+2026-11-25 17:42:12,446  INFO     TECHPULSE Digest — 2026-11-25 17:42 UTC
+2026-11-25 17:42:12,446  INFO     ============================================================
+2026-11-25 17:42:12,446  INFO     Step 1/3 — Crawling feeds…
+2026-11-25 17:42:12,676  INFO       Hacker News                    → 0 significant articles
+2026-11-25 17:42:12,842  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-25 17:42:12,984  INFO       Ars Technica                   → 0 significant articles
+2026-11-25 17:42:13,900  INFO       The Register AI                → 0 significant articles
+2026-11-25 17:42:14,062  INFO       MIT Tech Review                → 0 significant articles
+2026-11-25 17:42:14,211  INFO       Dev.to AI                      → 3 significant articles
+2026-11-25 17:42:14,335  INFO       Dev.to Programming             → 5 significant articles
+2026-11-25 17:42:14,478  INFO       GitHub Blog                    → 1 significant articles
+2026-11-25 17:42:15,062  INFO       Google Research                → 0 significant articles
+2026-11-25 17:42:15,212  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-11-25 17:42:15,320  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-25 17:42:15,753  INFO       InfoQ                          → 6 significant articles
+2026-11-25 17:42:15,976  INFO       Towards Data Science           → 4 significant articles
+2026-11-25 17:42:16,210  INFO       Wired AI                       → 0 significant articles
+2026-11-25 17:42:16,303  INFO       TechCrunch AI                  → 5 significant articles
+2026-11-25 17:42:16,303  INFO     Fetching images for top articles…
+2026-11-25 17:42:16,419  INFO       🖼  OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Ho
+2026-11-25 17:42:16,831  INFO       🖼  Vercel Launched Experimental Board to Coordinate Tasks Acros
+2026-11-25 17:42:17,283  INFO       🖼  DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, Mo
+2026-11-25 17:42:17,368  INFO       🖼  What the TokenCap MCP Server Gives Your Agent
+2026-11-25 17:42:17,483  INFO       🖼  When should you compare two AI agent versions side by side i
+2026-11-25 17:42:17,570  INFO       🖼  State AGs fight Character.AI’s plan to auction off users’ pr
+2026-11-25 17:42:17,570  INFO     Total selected: 24 articles from 15 feeds
+2026-11-25 17:42:17,570  INFO     Selected 24 significant articles
+2026-11-25 17:42:17,570  INFO     Step 2/3 — Generating digest…
+2026-11-25 17:42:17,746  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-25 17:42:17,746  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-25 17:42:17,746  INFO     Step 3/3 — Rendering HTML…
+2026-11-25 17:42:17,747  INFO     ────────────────────────────────────────────────────────────
+2026-11-25 17:42:17,747  INFO     Done!  Open: output/index.html
+2026-11-25 17:42:17,747  INFO     Headline: OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Hours Using Recursive Self-Improvement

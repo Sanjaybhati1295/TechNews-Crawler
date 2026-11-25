@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Wednesday, November 25, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Wednesday, November 25, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 24 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://dev.to/neocortexdev/openhuman-ai-agents-tackle-100-year-old-conjectures-in-72-hours-using-recursive-self-improvement-4b04" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F1bj5fvqgr8haxuax1w1a.png" alt="OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Hours Using Recursive Self-Improvement" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to Programming</span>
+                <span class="img-title">OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Hours Using …</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/vercel-board-agents/en/headerimage/generatedHeaderImage-1795183495782.jpg" alt="Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">Vercel Launched Experimental Board to Coordinate Tasks Across Humans a…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/en/headerimage/tripadvisor-tca-migration-1795623375360.jpeg" alt="DeepMind&#x27;s Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">DeepMind&#x27;s Gemini Robotics 2.5 Aims to Make Robots Safer, More Dextero…</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>Dev.to Programming</span> · <span>InfoQ</span> · <span>Dev.to AI</span> · <span>TechCrunch AI</span> · <span>Towards Data Science</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Hours Using Recursive Self-Improvement (Dev.to Programming). Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents (InfoQ). DeepMind&#x27;s Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners (InfoQ). What the TokenCap MCP Server Gives Your Agent (Dev.to AI). When should you compare two AI agent versions side by side instead of scoring one output? (Dev.to AI).</p></div>
+        </div>
+
+    <div class="takeaway">What happens when AI agents can retain months of research, modify their own instructions, learn from failed attempts and build upon new scientific breakthroughs?
+
+At TinyHumans AI, alongside Living Brain, we&#x27;ve been exploring exactly that.
+
+Within three days of a reported proof of the Riemann Hypothesis being released in Lean, our agents produced 17 formal mathematical results involving six named conjectures, some dating back more than 100 years.
+
+But the most interesting part isn&#x27;t necessarily the mathematics.
+
+It&#x27;s the architecture that made it possible.
+
+*1. The problem with how we build AI</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (24 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://dev.to/neocortexdev/openhuman-ai-agents-tackle-100-year-old-conjectures-in-72-hours-using-recursive-self-improvement-4b04" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">OpenHuman AI Agents Tackle 100-Year-Old Conjectures in 72 Hours Using Recursive Self-Improvement</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">DeepMind&#x27;s Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/vansharora21/what-the-tokencap-mcp-server-gives-your-agent-14ca" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">What the TokenCap MCP Server Gives Your Agent</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/robert_ta_43884e26b4a94db/when-should-you-compare-two-ai-agent-versions-side-by-side-instead-of-scoring-one-output-2beo" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">When should you compare two AI agent versions side by side instead of scoring one output?</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">State AGs fight Character.AI’s plan to auction off users’ private chats</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">Art of play in the age of AI</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/weichen31490/building-reliable-ai-agents-with-langgraph-human-approval-before-tool-execution-4fc2" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Building Reliable AI Agents with LangGraph: Human Approval Before Tool Execution</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/applied_efficiency/401-unauthorized-your-api-key-probably-never-reached-the-app-34k1" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">401 Unauthorized? Your API key probably never reached the app</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/dextralabs/building-ai-powered-customer-service-workflows-for-automotive-enterprises-3ppk" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Building AI-Powered Customer Service Workflows for Automotive Enterprises</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/a9leads_1f0037dca685ef4af/performance-marketing-agency-bangalore-how-analytix9-engineers-profitable-revenue-scale-4c5g" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">Performance Marketing Agency Bangalore: How Analytix9 Engineers Profitable Revenue Scale</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/a9leads_1f0037dca685ef4af/b2b-digital-marketing-agency-bangalore-how-analytix9-engineers-profitable-revenue-scale-15k2" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to Programming</span>
+          <span class="ref-title">B2b Digital Marketing Agency Bangalore: How Analytix9 Engineers Profitable Revenue Scale</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Maple raises $5.3M to build AI products that protect your data, even from itself</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">OpenAI Scales Git for Coding Agents with Pando</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Wednesday, November 25, 2026 · 24 articles crawled from 6 sources
+  </footer>
+
+</body>
+</html>
