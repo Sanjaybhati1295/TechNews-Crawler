@@ -1,0 +1,219 @@
+{
+  "digest": {
+    "headline": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+    "tldr": "Today's digest covers 20 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue (TechCrunch AI). .NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload (InfoQ). Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds (Dev.to AI). What goes into a LoRA recipe for Spark-X2.5? (Dev.to AI). ChatGPT Boosted Consultants' Scores, Not Their Knowledge (Towards Data Science)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "A popularity table of my skills opens with the last step (Dev.to AI). How to choose the next safe step in application modernization (GitHub Blog)."
+      }
+    ],
+    "key_takeaway": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time."
+  },
+  "articles": [
+    {
+      "id": "e5c5d8632474",
+      "title": "As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-26T16:00:00+00:00",
+      "score": 4.32,
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675"
+    },
+    {
+      "id": "bed37adf0220",
+      "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+      "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and raises the minimum Android and Apple platform versions. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-11-26T08:00:00+00:00",
+      "score": 4.08,
+      "image": "https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg"
+    },
+    {
+      "id": "c03c2b00fa46",
+      "title": "Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds",
+      "url": "https://dev.to/dessygil/teaching-ai-about-disordered-proteins-id-start-at-50-milliseconds-7f8",
+      "summary": "If AlphaFold gives you 25 different pictures of two proteins bound together, which one would you trust enough to plan an experiment around?\n\nA LinkedIn post about AlphaFold and disordered proteins got me thinking about that question from the lab’s side. I think there’s a specific gap we can fill with FastHDX. We can measure which stretches of a disordered protein change when a partner binds, including changes that are visible only in the first fraction of a second of labelling. Put those measurements in a public databank and the same experiment can help one team judge a structure today and ano",
+      "source": "Dev.to AI",
+      "published": "2026-11-26T17:21:03+00:00",
+      "score": 3.8,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkix0nlxxruy0mv4el253.png"
+    },
+    {
+      "id": "7f54b86ec5c9",
+      "title": "What goes into a LoRA recipe for Spark-X2.5?",
+      "url": "https://dev.to/sparkllm/what-goes-into-a-lora-recipe-for-spark-x25-1jcb",
+      "summary": "You have a Spark-X2.5 checkpoint and a training dataset. Where do you start? Surogate's v1.5.16 release gives you a small BF16 LoRA recipe whose settings you can inspect before launching a run.\n\n\n\nThe example points to Spark-X2.5-1.7B. It uses a LoRA rank of 16, alpha 32, a sequence length of 1,024, and a cap of 100 training steps. These are settings in the example. The guide shows how to switch to Spark-X2.5-4B, with batch size and sequence length adjustable for your GPU. Start with the v1.5.16 YAML and the training guide.\n\n\n\nOne line is easy to miss: Spark lists q_k_v_proj as one target beca",
+      "source": "Dev.to AI",
+      "published": "2026-11-26T17:18:23+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmaspi4kfblt8jz3afidx.png"
+    },
+    {
+      "id": "0649c178358c",
+      "title": "ChatGPT Boosted Consultants' Scores, Not Their Knowledge",
+      "url": "https://towardsdatascience.com/chatgpt-boosted-consultants-scores-not-their-knowledge/",
+      "summary": "Consultants gained 49 points on coding with AI, while apprentices also gained comprehension — which is why assisted work and expertise need separate names.\nThe post ChatGPT Boosted Consultants' Scores, Not Their Knowledge appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-26T16:00:00+00:00",
+      "score": 3.62,
+      "image": null
+    },
+    {
+      "id": "9fbc9f933af8",
+      "title": "A popularity table of my skills opens with the last step",
+      "url": "https://dev.to/cryptopunk_dz2_bd054446a6/a-popularity-table-of-my-skills-opens-with-the-last-step-5d5c",
+      "summary": "He asked for a list of his agents' most popular skills, then decided the first 20 rows should be tasks, not a ranking. The fleet counter backs the decision: 277 skills on the shelf, 3,354 calls since June, the top 20 take 71% of all calls - and #1 is the end-of-session retro at 31%. A popularity table opens with the last thing you do, not the first\n\n1. ⭐⭐⭐ The ranking he asked for, measured. Fleet skill-usage counter, _machine-bus/_metrics/skill-usage/*.jsonl, 5 writer nodes, n=3,354 calls, 2026-06-06 → 2026-11-24, 182 distinct names. Top of the list: retro 1,050 (31.3%) · dr-fanout 150 · clau",
+      "source": "Dev.to AI",
+      "published": "2026-11-26T17:19:54+00:00",
+      "score": 3.49,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F920624gxndacgfrh216b.png"
+    },
+    {
+      "id": "90e690d802d6",
+      "title": "CORS blocked? Your browser is protecting you — your API call took the wrong road",
+      "url": "https://dev.to/applied_efficiency/cors-blocked-your-browser-is-protecting-you-your-api-call-took-the-wrong-road-2p4i",
+      "summary": "You asked your AI to wire up an API. It wrote a fetch call, hit run, and the console says:\n\n\nAccess to fetch at 'https://api.example.com/data' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present.\n\n\nNothing is wrong with your fetch code. This is the browser doing its job.\n\nWhat CORS actually is\n\nYour page lives on one domain. The API lives on another. The browser asks the API, \"Do you allow calls from this page?\" If the API doesn't answer yes, the browser refuses — before the API ever sees the request. It's a permission handshake, not a bug in your app.\n\nWhy it h",
+      "source": "Dev.to AI",
+      "published": "2026-11-26T17:17:35+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "dd07188b41d8",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-26T06:59:00+00:00",
+      "score": 3.42,
+      "image": null
+    },
+    {
+      "id": "24b1f6299b11",
+      "title": "Shuffle the Questions to Catch an LLM That Memorized Its Benchmark",
+      "url": "https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/",
+      "summary": "Two short Python functions and a free Colab GPU score a model in about half an hour; a z above 3 merits a look, while a near-zero score is more of a shrug.\nThe post Shuffle the Questions to Catch an LLM That Memorized Its Benchmark appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-26T14:00:00+00:00",
+      "score": 3.31,
+      "image": null
+    },
+    {
+      "id": "dc85126b0ac7",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T20:03:27+00:00",
+      "score": 3.11,
+      "image": null
+    },
+    {
+      "id": "b8679821b7e7",
+      "title": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+      "url": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
+      "source": "InfoQ",
+      "published": "2026-11-25T13:57:00+00:00",
+      "score": 2.87,
+      "image": null
+    },
+    {
+      "id": "a2214ef0881a",
+      "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+      "url": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world environments. By Sergio De Simone",
+      "source": "InfoQ",
+      "published": "2026-11-25T17:00:00+00:00",
+      "score": 2.74,
+      "image": null
+    },
+    {
+      "id": "4f0b7bfbd5a5",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T18:11:46+00:00",
+      "score": 2.61,
+      "image": null
+    },
+    {
+      "id": "dc69597abec1",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "summary": "Comments",
+      "source": "Hacker News",
+      "published": "2026-11-25T21:18:02+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "16ddaf7683c8",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-25T17:35:58+00:00",
+      "score": 2.58,
+      "image": null
+    },
+    {
+      "id": "60ccd11aa2a7",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.\nThe post How to choose the next safe step in application modernization appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-25T15:00:00+00:00",
+      "score": 2.53,
+      "image": null
+    },
+    {
+      "id": "f4c18a1a015f",
+      "title": "A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans",
+      "url": "https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/",
+      "summary": "Using Han and Kim's Chatbot Arena data, GPT-6 Luna and Claude Haiku 4.5 were tested as a panel, and Haiku alone matched users on 22 of 23 clear matchups.\nThe post A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-25T12:00:00+00:00",
+      "score": 2.47,
+      "image": null
+    },
+    {
+      "id": "c510c0910746",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "summary": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers.\nThe post Art of play in the age of AI appeared first on The GitHub Blog.",
+      "source": "GitHub Blog",
+      "published": "2026-11-25T16:00:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "9b4fa8efc0a9",
+      "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "AWS has raised the maximum timeout of on-demand Lambda Event Functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018. AWS's post lists the costs: twice the concurrency at the same request rate, three-hour SQS visibility timeouts, and Kafka mappings that must be recreated. Practitioners welcome it and ask what belongs elsewhere. By Steef-Jan Wiggers",
+      "source": "InfoQ",
+      "published": "2026-11-25T07:02:00+00:00",
+      "score": 2.39,
+      "image": null
+    },
+    {
+      "id": "bc9fca1a2ad0",
+      "title": "Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts",
+      "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Rust 1.100.0, released 12 November 2026, stabilises the never type (!) after ten years of work and makes Infallible an alias for it. The release also stabilises the core of the allocator API, adds DropGuard, and gives Cargo an opt-in dependency cooldown setting. Some critics note the allocator design still lacks inline storage support. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-25T07:29:00+00:00",
+      "score": 2.31,
+      "image": null
+    }
+  ]
+}

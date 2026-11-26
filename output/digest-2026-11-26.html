@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Digest — Thursday, November 26, 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:      #1a1a1a;
+      --ink2:     #444;
+      --ink3:     #888;
+      --rule:     #d8d0c4;
+      --bg:       #faf8f4;
+      --accent:   #c0392b;
+      --surface:  #f2ede6;
+      --serif:    'Source Serif 4', Georgia, serif;
+      --display:  'Playfair Display', Georgia, serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ── Masthead ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 2.5rem 0 1.5rem;
+      text-align: center;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+    .masthead-label {
+      font-family: var(--serif);
+      font-size: 0.7rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 0.6rem;
+    }
+    .masthead-title {
+      font-family: var(--display);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+    .masthead-title em {
+      color: var(--accent);
+      font-style: normal;
+    }
+    .masthead-date {
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink3);
+    }
+
+    /* ── Layout ── */
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    /* ── TLDR Banner ── */
+    .tldr {
+      border-left: 4px solid var(--accent);
+      background: var(--surface);
+      padding: 1.2rem 1.5rem;
+      margin: 2.5rem 0 2rem;
+      font-size: 1.05rem;
+      font-style: italic;
+      color: var(--ink2);
+    }
+    .tldr strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 0.72rem;
+      font-style: normal;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── Image Strip ── */
+    .image-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1px;
+      background: var(--rule);
+      border: 1px solid var(--rule);
+      margin: 2rem 0;
+      overflow: hidden;
+    }
+    .img-card {
+      display: block;
+      background: var(--surface);
+      text-decoration: none;
+      overflow: hidden;
+    }
+    .img-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .img-card:hover img { transform: scale(1.03); }
+    .img-caption {
+      padding: 0.7rem 0.9rem;
+    }
+    .img-source {
+      display: block;
+      font-size: 0.62rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.2rem;
+    }
+    .img-title {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 400;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Rule ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2.5rem 0;
+    }
+
+    /* ── Sections ── */
+    .section { margin: 2.5rem 0; }
+    .section h2 {
+      font-family: var(--display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--ink);
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 1.2rem;
+    }
+    .section-body p {
+      font-size: 1.02rem;
+      line-height: 1.8;
+      color: var(--ink2);
+      margin-bottom: 1rem;
+    }
+
+    /* ── Key Takeaway ── */
+    .takeaway {
+      background: var(--ink);
+      color: #f5f0e8;
+      padding: 1.5rem 2rem;
+      margin: 2.5rem 0;
+      font-family: var(--display);
+      font-size: 1.15rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.55;
+      position: relative;
+    }
+    .takeaway::before {
+      content: '★  KEY TAKEAWAY';
+      display: block;
+      font-family: var(--serif);
+      font-size: 0.65rem;
+      font-style: normal;
+      letter-spacing: 0.18em;
+      color: #c0a882;
+      margin-bottom: 0.6rem;
+    }
+
+    /* ── Sources bar ── */
+    .sources-bar {
+      font-size: 0.72rem;
+      color: var(--ink3);
+      letter-spacing: 0.04em;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      padding: 0.6rem 0;
+      margin: 2rem 0;
+    }
+    .sources-bar span { margin-right: 0.5rem; }
+
+    /* ── References ── */
+    .refs-title {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink3);
+      margin-bottom: 1rem;
+    }
+    .ref-link {
+      display: flex;
+      gap: 0.7rem;
+      align-items: baseline;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--rule);
+      text-decoration: none;
+      transition: background 0.1s;
+    }
+    .ref-link:hover { background: var(--surface); padding-left: 0.4rem; }
+    .ref-source {
+      font-size: 0.63rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+      flex-shrink: 0;
+      width: 130px;
+    }
+    .ref-title {
+      font-size: 0.85rem;
+      color: var(--ink2);
+      line-height: 1.4;
+    }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 3px double var(--ink);
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--ink3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="masthead">
+    <div class="masthead-label">Daily AI & Tech Intelligence</div>
+    <div class="masthead-title">TECH<em>PULSE</em></div>
+    <div class="masthead-date">Thursday, November 26, 2026</div>
+  </div>
+
+  <div class="container">
+
+    <div class="tldr">
+      <strong>Today in Brief</strong>
+      Today&#x27;s digest covers 20 significant stories across AI, developer tools, and the tech industry.
+    </div>
+
+    <div class="image-strip">
+            <a class="img-card" href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/" target="_blank" rel="noopener">
+              <img src="https://techcrunch.com/wp-content/uploads/2026/11/Jason_and_Lucia_17.117_b11r13mg5.jpg?resize=1200,675" alt="As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">TechCrunch AI</span>
+                <span class="img-title">As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a v…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+              <img src="https://res.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/en/headerimage/header-1795560880894.jpg" alt=".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">InfoQ</span>
+                <span class="img-title">.NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XA…</span>
+              </div>
+            </a>
+            <a class="img-card" href="https://dev.to/dessygil/teaching-ai-about-disordered-proteins-id-start-at-50-milliseconds-7f8" target="_blank" rel="noopener">
+              <img src="https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fkix0nlxxruy0mv4el253.png" alt="Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds" loading="lazy" onerror="this.parentElement.style.display='none'" />
+              <div class="img-caption">
+                <span class="img-source">Dev.to AI</span>
+                <span class="img-title">Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds</span>
+              </div>
+            </a></div>
+
+    <div class="sources-bar">Sourced from: <span>TechCrunch AI</span> · <span>InfoQ</span> · <span>Dev.to AI</span> · <span>Towards Data Science</span> · <span>Hacker News</span> · <span>GitHub Blog</span></div>
+
+    
+        <div class="section">
+          <h2>AI &amp; ML</h2>
+          <div class="section-body"><p>As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue (TechCrunch AI). .NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload (InfoQ). Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds (Dev.to AI). What goes into a LoRA recipe for Spark-X2.5? (Dev.to AI). ChatGPT Boosted Consultants&#x27; Scores, Not Their Knowledge (Towards Data Science).</p></div>
+        </div>
+        <div class="section">
+          <h2>Other Tech</h2>
+          <div class="section-body"><p>A popularity table of my skills opens with the last step (Dev.to AI). How to choose the next safe step in application modernization (GitHub Blog).</p></div>
+        </div>
+
+    <div class="takeaway">On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</div>
+
+    <hr />
+
+    <div class="refs-title">Source Articles (20 crawled)</div>
+    <div class="refs">
+        <a class="ref-link" href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">.NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/dessygil/teaching-ai-about-disordered-proteins-id-start-at-50-milliseconds-7f8" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">Teaching AI About Disordered Proteins? I’d Start at 50 Milliseconds</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/sparkllm/what-goes-into-a-lora-recipe-for-spark-x25-1jcb" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">What goes into a LoRA recipe for Spark-X2.5?</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/chatgpt-boosted-consultants-scores-not-their-knowledge/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">ChatGPT Boosted Consultants&#x27; Scores, Not Their Knowledge</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/cryptopunk_dz2_bd054446a6/a-popularity-table-of-my-skills-opens-with-the-last-step-5d5c" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">A popularity table of my skills opens with the last step</span>
+        </a>
+        <a class="ref-link" href="https://dev.to/applied_efficiency/cors-blocked-your-browser-is-protecting-you-your-api-call-took-the-wrong-road-2p4i" target="_blank" rel="noopener">
+          <span class="ref-source">Dev.to AI</span>
+          <span class="ref-title">CORS blocked? Your browser is protecting you — your API call took the wrong road</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">Shuffle the Questions to Catch an LLM That Memorized Its Benchmark</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">DeepMind&#x27;s Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Want to buy your kid an AI toy this Christmas? Not in New York</span>
+        </a>
+        <a class="ref-link" href="https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features" target="_blank" rel="noopener">
+          <span class="ref-source">Hacker News</span>
+          <span class="ref-title">The New York Times warns photographers not to update Photoshop over AI features</span>
+        </a>
+        <a class="ref-link" href="https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/" target="_blank" rel="noopener">
+          <span class="ref-source">TechCrunch AI</span>
+          <span class="ref-title">Character.AI’s plan to auction off users’ private chats challenged by state AGs</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">How to choose the next safe step in application modernization</span>
+        </a>
+        <a class="ref-link" href="https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/" target="_blank" rel="noopener">
+          <span class="ref-source">Towards Data Science</span>
+          <span class="ref-title">A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans</span>
+        </a>
+        <a class="ref-link" href="https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/" target="_blank" rel="noopener">
+          <span class="ref-source">GitHub Blog</span>
+          <span class="ref-title">Art of play in the age of AI</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15</span>
+        </a>
+        <a class="ref-link" href="https://www.infoq.com/news/2026/11/rust-1-100-never-types/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global" target="_blank" rel="noopener">
+          <span class="ref-source">InfoQ</span>
+          <span class="ref-title">Rust 1.100 Ships the Never Type After Ten Years and Five Failed Attempts</span>
+        </a></div>
+
+  </div>
+
+  <footer>
+    TECHPULSE · Generated Thursday, November 26, 2026 · 20 articles crawled from 6 sources
+  </footer>
+
+</body>
+</html>
