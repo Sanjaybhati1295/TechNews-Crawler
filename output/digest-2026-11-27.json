@@ -1,0 +1,203 @@
+{
+  "digest": {
+    "headline": "Dev News Digest: 27 Nov 2026, 18:00",
+    "tldr": "Today's digest covers 18 significant stories across AI, developer tools, and the tech industry.",
+    "sections": [
+      {
+        "title": "AI & ML",
+        "body": "Dev News Digest: 27 Nov 2026, 18:00 (Dev.to Programming). Grafana Begins Its Biggest UI Refresh Since Version 7 (InfoQ). Netflix Builds Quasar to Measure the Blast Radius of Library API Changes (InfoQ). Wi-Fi AP Placement Map From a Zoom Call (Dev.to Programming). We turned τ-bench around to grade the agent's instructions, not the agent (Dev.to AI)."
+      },
+      {
+        "title": "Salesforce & AWS",
+        "body": "AWS EC2 vs Google Compute Engine: Network Egress Pricing & Spot Instance Volatility (Dev.to Programming)."
+      },
+      {
+        "title": "Other Tech",
+        "body": "Vercel Sandbox alternatives: when to look past it and where to go (Dev.to AI). Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover (Towards Data Science)."
+      }
+    ],
+    "key_takeaway": "A quick roundup of AI and developer news since the last digest.\n\n\n  \n  \n  AI models &amp; research\n\n\n\n\nCognition releases SWE-2.1, with a 600 tokens/s Ultrafast mode: Cognition's new in-house coding model is RL-trained on Moonshot's open-weight Kimi K3 and roughly doubles SWE-2's Terminal-Bench 4.1 score, though by Cognition's own numbers it still trails Claude Opus 5.5 on every benchmark. An Ultrafast version runs the same model on Cerebras hardware at about 10x the speed, and a SWE-2.1 Cyber variant with looser safeguards now powers Devin Security scans. The New Stack\n\n\nGPT-6.2 Astra tackles"
+  },
+  "articles": [
+    {
+      "id": "bd85f4480c87",
+      "title": "Dev News Digest: 27 Nov 2026, 18:00",
+      "url": "https://dev.to/magnus_ferm/dev-news-digest-27-nov-2026-1800-58go",
+      "summary": "A quick roundup of AI and developer news since the last digest.\n\n\n  \n  \n  AI models &amp; research\n\n\n\n\nCognition releases SWE-2.1, with a 600 tokens/s Ultrafast mode: Cognition's new in-house coding model is RL-trained on Moonshot's open-weight Kimi K3 and roughly doubles SWE-2's Terminal-Bench 4.1 score, though by Cognition's own numbers it still trails Claude Opus 5.5 on every benchmark. An Ultrafast version runs the same model on Cerebras hardware at about 10x the speed, and a SWE-2.1 Cyber variant with looser safeguards now powers Devin Security scans. The New Stack\n\n\nGPT-6.2 Astra tackles",
+      "source": "Dev.to Programming",
+      "published": "2026-11-27T16:48:42+00:00",
+      "score": 4.19,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fgoj97ntydb8j8sl4rh5a.png"
+    },
+    {
+      "id": "a628a8ad47f0",
+      "title": "Grafana Begins Its Biggest UI Refresh Since Version 7",
+      "url": "https://www.infoq.com/news/2026/11/grfana-ui-refresh/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Grafana Labs has introduced the first phase of its biggest visual refresh since Grafana 7, bringing updated themes, more consistent interface components, and improved visual hierarchy to its observability platform. By Craig Risi",
+      "source": "InfoQ",
+      "published": "2026-11-27T12:00:00+00:00",
+      "score": 4.02,
+      "image": "https://res.infoq.com/news/2026/11/grfana-ui-refresh/en/headerimage/generatedHeaderImage-1795008225435.jpg"
+    },
+    {
+      "id": "c73d7de751ef",
+      "title": "AWS EC2 vs Google Compute Engine: Network Egress Pricing & Spot Instance Volatility",
+      "url": "https://dev.to/grfdsasdvef/aws-ec2-vs-google-compute-engine-network-egress-pricing-spot-instance-volatility-3m2d",
+      "summary": "AWS EC2 vs Google Compute Engine: Network Egress Pricing &amp; Spot Instance Volatility\n\n\n\n  \n  \n  Executive Summary &amp; Decision Matrix\n\n\nEgress pricing and preemptible capacity are the two line items that quietly decide whether your cloud bill is 30% or 300% of your compute budget. We ran 40 days of continuous workloads on both platforms across us-east-1 (N. Virginia) and us-central1 (Iowa) to measure them under load, not from pricing pages.\n\n\n\n\n#\nMetric\nAWS EC2 (c7i.2xlarge)\nGCP Compute Engine (c3-standard-8)\nWinner\n\n\n\n\n1\nNetwork egress, first 10 TB\n$0.09/GB (after 100 GB free/mo)\n$0.085/",
+      "source": "Dev.to Programming",
+      "published": "2026-11-27T16:15:48+00:00",
+      "score": 3.96,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2Fmq2lj29t7iibnydl0bm1.png"
+    },
+    {
+      "id": "efaeb4502ef5",
+      "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+      "url": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API references across repositories, helping maintainers assess migration impact and make informed release decisions. Netflix is also exploring agent-assisted consumer migrations. By Leela Kumili",
+      "source": "InfoQ",
+      "published": "2026-11-27T14:35:00+00:00",
+      "score": 3.96,
+      "image": "https://res.infoq.com/news/2026/11/netflix-quasar-api-impact/en/card_header_image/generatedCard-1793857237972.jpg"
+    },
+    {
+      "id": "3c75dbc41f33",
+      "title": "Wi-Fi AP Placement Map From a Zoom Call",
+      "url": "https://dev.to/matbanik/wi-fi-ap-placement-map-from-a-zoom-call-14d8",
+      "summary": "Published November 26, 2026 on matbanik.info\n\nThe meeting ends. Everyone agrees where the eight access points go. Then everyone leaves, and the agreement lives in a Zoom audio file and a floor plan PDF the building manager emailed last week. Michael has until Friday to turn those into a layout.\n\nThis guide does Michael's job with an AI agent: Claude Code on Opus plus av-kit, the Windows app I build to give an agent hands for audio and screenshots. The Wi-Fi AP placement comes out as one picture: the plan, an AP legend, and a numbered mark for each new position. You're Michael. Every step headi",
+      "source": "Dev.to Programming",
+      "published": "2026-11-27T16:40:15+00:00",
+      "score": 3.88,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fmatbanik.info%2Fhotlink-ok%2Fog%2Fblog%2Fsystems%2Fwifi-ap-placement-map.png"
+    },
+    {
+      "id": "7a8d11f87363",
+      "title": "We turned τ-bench around to grade the agent's instructions, not the agent",
+      "url": "https://dev.to/entalpa/we-turned-t-bench-around-to-grade-the-agents-instructions-not-the-agent-4m3i",
+      "summary": "Agent benchmarks ask how well an agent follows its instructions. We wanted to ask one step up: how good are the instructions in the first place?\n\nAgents are getting good at doing what they're told. Give a current model a clear policy and the right tools and it mostly sticks to it, which is exactly what benchmarks like τ-bench measure. So the weak link is moving upstream. Someone has to write that policy, and the person who knows the business is rarely the person who knows how to write rules a machine can act on. A gap in a policy doesn't throw an error, either. The agent follows the incomplete",
+      "source": "Dev.to AI",
+      "published": "2026-11-27T16:57:34+00:00",
+      "score": 3.79,
+      "image": "https://media2.dev.to/dynamic/image/width=1200,height=627,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F7ju1ly9r0vca02july5c.png"
+    },
+    {
+      "id": "d8d538785422",
+      "title": "RAG is Dead. MIT Just Built Something Better.",
+      "url": "https://dev.to/taqui/rag-is-dead-mit-just-built-something-better-4ago",
+      "summary": "I thought RAG was the answer\n\nFor 2 years, I built AI apps with RAG. Vector DB. Chunking. Embeddings. The whole thing.\n\nIt worked. Kind of.\n\nBut the problems kept coming:\n\n\n\nRetrieval noise — wrong chunks, wrong context\n\nLost connections — cross-document relationships? Gone\n\nCatastrophic forgetting — new docs overwrite old knowledge\n\nSlow as hell — similarity search at scale is expensive\n\n\nI kept adding layers. Better chunking. Re-ranking. Hybrid search.\n\nBut it felt like putting band-aids on a broken system.\n\n\n\n\n  \n  \n  Then I saw this paper\n\n\nMIT. NUS. University of Tokyo. They built somethi",
+      "source": "Dev.to AI",
+      "published": "2026-11-27T16:55:24+00:00",
+      "score": 3.69,
+      "image": null
+    },
+    {
+      "id": "2375522d55f5",
+      "title": "Shift subtitle timestamps without silently clipping the first cue",
+      "url": "https://dev.to/toktranscript/shift-subtitle-timestamps-without-silently-clipping-the-first-cue-1lim",
+      "summary": "A fixed subtitle delay is easy to correct until a negative offset moves a cue before the start of the video. Clamping only its start to zero shortens that cue; clamping both boundaries can create a zero-duration cue. A small validation function makes the choice explicit.\n\nDisclosure: I develop TokTranscript. This tutorial was generated by an AI agent; the included examples were executed locally. It is a standalone programming example, not a claim about the service's internal implementation.\n\n\n  \n  \n  Keep time as integer milliseconds\n\n\nConvert timestamps once at the input boundary. Avoid float",
+      "source": "Dev.to Programming",
+      "published": "2026-11-27T16:34:12+00:00",
+      "score": 3.67,
+      "image": null
+    },
+    {
+      "id": "d661dbe4c6f4",
+      "title": "[Boost]",
+      "url": "https://dev.to/israel_vsquez/-clo",
+      "summary": "Every AI Agency Has a Demo. Ask What Changed After Launch.\n\n\n  \n    \n      \n        \n          \n            \n          \n\n          \n            \n          \n        \n        \n          \n            \n              Israel Vásquez\n            \n            \n              \n                Israel Vásquez\n                \n                \n              \n              \n                \n                  \n                    \n                      \n                        \n                      \n                      Israel Vásquez\n                    \n                  \n                  \n             ",
+      "source": "Dev.to AI",
+      "published": "2026-11-27T16:56:19+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "32ef34d1e4c7",
+      "title": "Vercel Sandbox alternatives: when to look past it and where to go",
+      "url": "https://dev.to/sandscale/vercel-sandbox-alternatives-when-to-look-past-it-and-where-to-go-1j12",
+      "summary": "Vercel Sandbox is a strong default if your app already deploys on Vercel. Each sandbox is a Firecracker microVM, the meter charges CPU only while code is using it, sandboxes persist by default, and there are 19 regions. The reasons to look elsewhere are rarely about the boundary. They are about account shape, box size, what happens around the agent, and where the hardware lives.\n\nWe build Sandscale, one of the options below. Vercel facts are from the Vercel Sandbox docs and pricing and quotas as of November 2026; other vendors' facts are from their own pages, linked at the end.\n\n\n  \n  \n  Where",
+      "source": "Dev.to AI",
+      "published": "2026-11-27T16:50:26+00:00",
+      "score": 3.49,
+      "image": null
+    },
+    {
+      "id": "1bacdd91ea2c",
+      "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+      "url": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, caching, and circuit breakers. Learn actionable strategies to eliminate tail-latency bottlenecks and establish performance-first engineering practices. By Saranya Vedagiri",
+      "source": "InfoQ",
+      "published": "2026-11-27T11:00:00+00:00",
+      "score": 3.36,
+      "image": null
+    },
+    {
+      "id": "0123ee4fb16d",
+      "title": "Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache.",
+      "url": "https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/",
+      "summary": "Benchmarks with Qwen3 and Llama on llama.cpp show a draft model sped up code, JSON, and tool calls up to 1.7x, while uncached agent loops ran 6% slower.\nThe post Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache. appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-27T14:00:00+00:00",
+      "score": 3.33,
+      "image": null
+    },
+    {
+      "id": "e51b4af2d0f1",
+      "title": "Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover",
+      "url": "https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/",
+      "summary": "For agent builders with many MCP integrations, Code Mode was 120x cheaper and 18x faster on 100-item fan-outs but less reliable on single lookups.\nThe post Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-27T12:00:00+00:00",
+      "score": 3.22,
+      "image": null
+    },
+    {
+      "id": "e5c5d8632474",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "source": "TechCrunch AI",
+      "published": "2026-11-26T16:00:00+00:00",
+      "score": 3.01,
+      "image": null
+    },
+    {
+      "id": "bed37adf0220",
+      "title": ".NET MAUI 11 Makes CoreCLR the Default Runtime and Adds Incremental XAML Hot Reload",
+      "url": "https://www.infoq.com/news/2026/11/dotnet-maui-11-coreclr-hotreload/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Microsoft released .NET 11 with a .NET MAUI update focused on product quality. CoreCLR is now the default runtime on all platforms, and XAML gets incremental hot reload, implicit namespaces and faster resource dictionaries. The release also adds device test templates and passkey support, and raises the minimum Android and Apple platform versions. By Edin Kapić",
+      "source": "InfoQ",
+      "published": "2026-11-26T08:00:00+00:00",
+      "score": 2.76,
+      "image": null
+    },
+    {
+      "id": "0649c178358c",
+      "title": "ChatGPT Boosted Consultants' Scores, Not Their Knowledge",
+      "url": "https://towardsdatascience.com/chatgpt-boosted-consultants-scores-not-their-knowledge/",
+      "summary": "Consultants gained 49 points on coding with AI, while apprentices also gained comprehension — which is why assisted work and expertise need separate names.\nThe post ChatGPT Boosted Consultants' Scores, Not Their Knowledge appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-26T16:00:00+00:00",
+      "score": 2.31,
+      "image": null
+    },
+    {
+      "id": "dd07188b41d8",
+      "title": "Mock Service Worker Releases v3.0 with ESM-Only Build, Socket-Based Interception and GraphQL Subs",
+      "url": "https://www.infoq.com/news/2026/11/mock-service-worker-v3/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+      "summary": "Mock Service Worker 3.0 is now ESM-only, requires Node.js 22 or later, and cuts package size from 416KB to 234KB. It adds GraphQL subscription support, protocol-specific entrypoints, and an experimental defineNetwork API. Node.js interception now works at the TCP and TLS level. Some users report test failures from newly intercepted OPTIONS preflight requests. By Daniel Curtis",
+      "source": "InfoQ",
+      "published": "2026-11-26T06:59:00+00:00",
+      "score": 2.11,
+      "image": null
+    },
+    {
+      "id": "24b1f6299b11",
+      "title": "Shuffle the Questions to Catch an LLM That Memorized Its Benchmark",
+      "url": "https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/",
+      "summary": "Two short Python functions and a free Colab GPU score a model in about half an hour; a z above 3 merits a look, while a near-zero score is more of a shrug.\nThe post Shuffle the Questions to Catch an LLM That Memorized Its Benchmark appeared first on Towards Data Science.",
+      "source": "Towards Data Science",
+      "published": "2026-11-26T14:00:00+00:00",
+      "score": 2.0,
+      "image": null
+    }
+  ]
+}

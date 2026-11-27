@@ -6966,3 +6966,38 @@
 2026-11-26 17:25:46,644  INFO     ────────────────────────────────────────────────────────────
 2026-11-26 17:25:46,644  INFO     Done!  Open: output/index.html
 2026-11-26 17:25:46,644  INFO     Headline: As Anthropic IPOs, Grand Theft Auto VI proves why efficiency isn’t a virtue
+2026-11-27 17:04:17,837  INFO     ============================================================
+2026-11-27 17:04:17,837  INFO     TECHPULSE Digest — 2026-11-27 17:04 UTC
+2026-11-27 17:04:17,837  INFO     ============================================================
+2026-11-27 17:04:17,837  INFO     Step 1/3 — Crawling feeds…
+2026-11-27 17:04:18,025  INFO       Hacker News                    → 0 significant articles
+2026-11-27 17:04:18,144  INFO       VentureBeat AI                 → 0 significant articles
+2026-11-27 17:04:18,298  INFO       Ars Technica                   → 0 significant articles
+2026-11-27 17:04:18,906  INFO       The Register AI                → 0 significant articles
+2026-11-27 17:04:19,122  INFO       MIT Tech Review                → 0 significant articles
+2026-11-27 17:04:19,282  INFO       Dev.to AI                      → 4 significant articles
+2026-11-27 17:04:19,475  INFO       Dev.to Programming             → 4 significant articles
+2026-11-27 17:04:19,697  INFO       GitHub Blog                    → 0 significant articles
+2026-11-27 17:04:20,476  INFO       Google Research                → 0 significant articles
+2026-11-27 17:04:20,630  INFO       Reddit r/MachineLearning       → 0 significant articles
+2026-11-27 17:04:20,730  INFO       Reddit r/LocalLLaMA            → 0 significant articles
+2026-11-27 17:04:21,091  INFO       InfoQ                          → 5 significant articles
+2026-11-27 17:04:21,258  INFO       Towards Data Science           → 4 significant articles
+2026-11-27 17:04:21,468  INFO       Wired AI                       → 0 significant articles
+2026-11-27 17:04:21,520  INFO       TechCrunch AI                  → 1 significant articles
+2026-11-27 17:04:21,520  INFO     Fetching images for top articles…
+2026-11-27 17:04:21,645  INFO       🖼  Dev News Digest: 27 Nov 2026, 18:00
+2026-11-27 17:04:21,847  INFO       🖼  Grafana Begins Its Biggest UI Refresh Since Version 7
+2026-11-27 17:04:21,905  INFO       🖼  AWS EC2 vs Google Compute Engine: Network Egress Pricing & S
+2026-11-27 17:04:22,081  INFO       🖼  Netflix Builds Quasar to Measure the Blast Radius of Library
+2026-11-27 17:04:22,140  INFO       🖼  Wi-Fi AP Placement Map From a Zoom Call
+2026-11-27 17:04:22,184  INFO       🖼  We turned τ-bench around to grade the agent's instructions, 
+2026-11-27 17:04:22,184  INFO     Total selected: 18 articles from 15 feeds
+2026-11-27 17:04:22,184  INFO     Selected 18 significant articles
+2026-11-27 17:04:22,184  INFO     Step 2/3 — Generating digest…
+2026-11-27 17:04:22,416  WARNING  Groq summarization failed (Client.__init__() got an unexpected keyword argument 'proxies'), using extractive fallback
+2026-11-27 17:04:22,416  WARNING  GROQ_API_KEY not set — using extractive fallback (no LLM)
+2026-11-27 17:04:22,416  INFO     Step 3/3 — Rendering HTML…
+2026-11-27 17:04:22,417  INFO     ────────────────────────────────────────────────────────────
+2026-11-27 17:04:22,417  INFO     Done!  Open: output/index.html
+2026-11-27 17:04:22,417  INFO     Headline: Dev News Digest: 27 Nov 2026, 18:00
